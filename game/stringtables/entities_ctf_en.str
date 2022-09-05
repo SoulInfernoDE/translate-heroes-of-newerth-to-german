@@ -1,0 +1,43 @@
+// CTF_Flag
+CTF_Flag_name												The Flag
+
+// CTF Shop
+CTF_Shop1_name												Shop
+
+// CTF_State_FlagHolder_Hellbourne
+CTF_State_FlagHolder_Hellbourne_name						Hellbourne Flagholder
+CTF_State_FlagHolder_Hellbourne_description					Take it back to your base!\n\nIf flag carrier teleports more then 2000 yards, the flag will be dropped\n\nCannot use Portal Key!
+
+// CTF_State_FlagHolder_Legion
+CTF_State_FlagHolder_Legion_name							Legion Flagholder
+CTF_State_FlagHolder_Legion_description						Take it back to your base!\n\nIf flag carrier teleports more then 2000 yards, the flag will be dropped\n\nCannot use Portal Key!
+
+// CTF_DropFlag
+CTF_DropFlag_name											Drop Flag
+CTF_DropFlag_description									Drops the flag on the ground.\n\nCannot pick flag back up for 10 seconds
+CTF_DropFlag_description_simple								Drops the flag on the ground.\n\nCannot pick flag back up for 10 seconds
+
+// State_TowerIncrease
+State_TowerIncrease_name									Tower Increase
+State_TowerIncrease_description								The towers health and damage increases over time
+
+// CTF_DropFlag_State
+CTF_DropFlag_State_name										Flag recently dropped
+CTF_DropFlag_State_description								Can not pick up flag for 10 seconds
+
+//CTF_State_StartGame
+CTF_State_StartGame_name									Pre-Round
+CTF_State_StartGame_description								20 seconds until the game begins!
+
+// CTF_State_Pool
+CTF_State_Pool_name											Cursed Healing Pool
+CTF_State_Pool_description									Heals health and mana, but incoming damage is also increased.
+
+// CTF_State_Respawn_Immunity
+CTF_State_Respawn_Immunity_name								Respawn Immunity
+CTF_State_Respawn_Immunity_description						Removed if you attack or use a skill/item.
+
+// CTF_Building_Tower
+CTF_Building_Tower_name										Base Tower
+
+// End - do not delete this line

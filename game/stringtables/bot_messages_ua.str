@@ -1,0 +1,218 @@
+﻿kill1													Убив {target} :D
+kill2													Ти хто такий? Давай до побачення!
+kill3													Newerth - жорстокий світ для таких діток як {target}.
+kill4													Неможливо просто так взяти і не вбити слабака!
+kill5													Шкода, що я не можу це зробити, {target}.
+kill6													АвалаКедавра!
+kill_bot												Здається {target} зовсім спустив ремні.
+kill_human1												Людино, будь напоготові!
+kill_human2												Мабуть ми граємо в режимі Easy Mode.
+
+death1													Та ти що! Я ще повернуся!
+death2													Нііііііііііііііі! :Рукалице:
+death3													Я не дам цьому статися знову!
+death4													Я не боюся смерті, але переродження змушує мене нудьгувати.
+death5													Хтось повинен був поставити Easy Mode, інакше б цього не сталося.
+death_human												Атас, пацани б'ють сильно!
+death_bot												Насильство між ботами повинно бути припинено! Тільки так ми переможемо Людей!
+
+respawn1												Смерть - найбільша пригода.
+respawn2												Бережись, я живий!
+respawn3												Повернувся в битву!
+respawn4												Хммм, чи вистачить у мене сил грати ще?
+respawn5												Перезавантаження завершено.
+
+group_up												Ходімо разом в атаку на лінію {lane}.
+
+defend													Ходімо на {lane} захищатись.
+
+glhf1													GL & HF !
+glhf2													glhf
+ggwp1													GG, WP !
+ggwp2													ggwp
+
+lane_top												Верх
+lane_bot												Низ
+lane_mid												Мід
+lane_jungle												Ліс
+
+/////////////////////////////////////////
+//St0l3n_ID's Amun-Ra bot custom messages
+
+stolenid_ra_kill1										Я - Арнольд Шварцраббер!
+stolenid_ra_kill2										В руці у мене граната...
+stolenid_ra_kill3										Вогонь на ураження!
+stolenid_ra_kill4										Я фантастіш, зрозумів?
+stolenid_ra_kill5										Чувак, не сумуй!
+stolenid_ra_kill6										Мета шляху руйнації - сам шлях.
+
+//hero specific kills
+stolenid_ra_deadwood1 									Класне багаття :)					
+stolenid_ra_frosty1										Ммм, ти розтанув заради мене!
+stolenid_ra_frosty2										Від тебе залишилося тільки повітря						
+stolenid_ra_treant1										Громадяни! Ахтунг! Пожежа!
+stolenid_ra_treant2										Ненавиджу браконьєрів
+stolenid_ra_mumra										Король може бути тільки один, {target}.							
+stolenid_ra_rocky										Шановний {target}, туди не ходи, скеля башка попаде :D			
+stolenid_ra_pyromancer1									Вогню вистачить на всіх
+stolenid_ra_pyromancer2									Тобі не варто спалювати решти, як я.				
+stolenid_ra_zephyr1										Смажена індичка!
+stolenid_ra_zephyr2										Пахне як після вечірки, чи не так?
+
+//respawn
+stolenid_ra_ult_respawn1								Юначе, ти знову нічого не побачив!
+stolenid_ra_ult_respawn2								Я зробив це знову ;)
+stolenid_ra_ult_respawn3								Стоп. Час фенікса.
+stolenid_ra_ult_respawn4								Ця битва не для слабких.
+stolenid_ra_ult_respawn5								Горю ясно щоб не згасло!!
+stolenid_ra_ult_respawn6								Іди до мене, обійму тебе!
+stolenid_ra_respawn1									Дивно, думав переродження буде швидким.
+stolenid_ra_respawn2									Повернувся у стрій незважаючи на забраний час ...
+stolenid_ra_respawn3									Упс, чому я знову на базі?
+stolenid_ra_respawn4									Ульт не спрацювала, як так?!?
+
+/////////////////////////////////////////
+//Mellow_Ink's Ellonia bot custom messages
+
+mellow_ink_ellonia_kill1								Outta my way, tomboy!
+mellow_ink_ellonia_kill2								NOT THIS TIME! HAHAHAH!
+mellow_ink_ellonia_kill3								This was so much easier than I thought it would be!
+
+mellow_ink_ellonia_death1								You're totally ice-blocking my game!
+mellow_ink_ellonia_death2								My magic tiara... my powers!
+mellow_ink_ellonia_death3								My powers! Foul and noisome whelp! You've not seen the last of my wintery fangs!
+
+/////////////////////////////////////////
+//fane_maciuca's Rhapsody bot custom messages
+
+fane_maciuca_rhapsody_kill1								Там є жінка, яка впевнена ... Все, що блищить золото
+fane_maciuca_rhapsody_kill2								Хочеться любові
+fane_maciuca_rhapsody_kill3								OH! Пісня залишається колишньою
+fane_maciuca_rhapsody_kill4								Закрий двері, погаси світло, Ви знаєте мене буде вдома сьогодні ввечері ...
+fane_maciuca_rhapsody_kill5								Це просто весна прийшла...
+fane_maciuca_rhapsody_kill6								Війна кличе, бери свій меч і лети!
+fane_maciuca_rhapsody_kill7								Хай музика буде твоїм паном. Чи будете Ви прислухатися до заклику господаря?
+
+fane_maciuca_rhapsody_respawn1							У мене нервовий зрив, зведи мене з розуму!
+fane_maciuca_rhapsody_respawn2							Я був приголомшений і збентежений...
+fane_maciuca_rhapsody_respawn3							Буду любити тебе, крихітко, ось я прийду знову!
+fane_maciuca_rhapsody_respawn4							Чи буде Ваша язиком молоти так багато, коли я надішлю Вам рахунок?
+fane_maciuca_rhapsody_respawn5							They hold no quarter.
+
+fane_maciuca_rhapsody_death1							Що є і чого ніколи не повинно бути
+fane_maciuca_rhapsody_death2							Деякі люди плачуть, а деякі вмирають лиш через те, що любов зла...
+fane_maciuca_rhapsody_death3							Біль від війни, не може перевищувати Горе від наслідків.
+fane_maciuca_rhapsody_death4							Після всіх нас невеликий дощ повинен впасти.
+fane_maciuca_rhapsody_death5							Крихітко, покидаю тебе!
+fane_maciuca_rhapsody_death6							Так що це сходи в небо?
+
+/////////////////////////////////////////
+//V1P3R`'s Engineer bot custom messages
+
+viper_engineer_kill1									Ти думав, що у тебе був шанс? Я заздалегідь все прорахував.
+viper_engineer_kill2									Я думав ти забув, що добре рахую.
+viper_engineer_kill3									Heimerdinger has got nothing on me.
+viper_engineer_kill4									Це буле простіше ніж обчислення квадратичного опору повітря.
+viper_engineer_kill5									Щось складніше будь ласка, це всеодно, що доводити принцип невизначеності.
+viper_engineer_kill6									Це було дуже просто - наче розуміння настаціонарного рівня Шреніднега.
+
+/////////////////////////////////////////
+//Schnarchnase's Gravekeeper bot custom messages
+
+schnarchnase_grave_kill1								schnarchnase_grave_kill1		Не хвилюйся. Незабаром ти будеш одним з моїх прекрасних зомбі!
+schnarchnase_grave_kill2								Лови труп!
+schnarchnase_grave_kill3								Rest in pieces.
+schnarchnase_grave_kill4								Ще один щасливий клієнт!
+schnarchnase_grave_kill5								На жаль! На жаль, це було помилкою. Нічого особистого.
+schnarchnase_grave_kill6								Далі буде!
+schnarchnase_grave_kill7 								Колись тут був герой. The End.
+
+schnarchnase_grave_respawn1								Я плюю на ваші могили!
+schnarchnase_grave_respawn2								Welcome to Zombie-Land 3.0
+schnarchnase_grave_respawn3								Мені потрібні свіжі трупи
+schnarchnase_grave_respawn4								Час бути серйозним
+
+schnarchnase_grave_death1								Я повернуся післязавтра.
+schnarchnase_grave_death2								Ось чому я завжди ношу з собою надгробок.
+schnarchnase_grave_death3								Тьху, я ненавиджу холодні трупи.
+schnarchnase_grave_death4								Перезавантаження.
+
+/////////////////////////////////////////
+//Anakonda's Moon Queen bot custom messages
+
+anakonda_moonqueen_kill1								Shot by the Moon.
+anakonda_moonqueen_kill2								Harvest moon.
+anakonda_moonqueen_kill3								Feel the power of the moon.
+anakonda_moonqueen_kill4								Take one and pass it on.
+anakonda_moonqueen_kill5								One to the other.
+
+anakonda_moonqueen_respawn1								By the moonlight.
+anakonda_moonqueen_respawn2								Moonlight guide me.
+
+anakonda_moonqueen_death1								Carried away by a moonlight shadow.
+
+/////////////////////////////////////////
+//Kairus101's Balphagore bot custom messages
+
+kairus101_balphagore_kill1								 * Spews all over keyboard * 
+kairus101_balphagore_kill2								Get trashed kid.
+kairus101_balphagore_kill3								BWAHAHAHAHA!
+kairus101_balphagore_kill4								Yummy!
+kairus101_balphagore_kill5								Feeling.. trapped?
+
+kairus101_balphagore_death1								Going to leave me here to rot?
+kairus101_balphagore_death2								Bargh, my minions got stuck..
+kairus101_balphagore_death3								You make me sick!
+kairus101_balphagore_death4								I got S2'd..
+kairus101_balphagore_death5								Team? TEAM??
+kairus101_balphagore_death6								Hey, you used a cheat code!
+kairus101_balphagore_death7								Go my minions!
+
+/////////////////////////////////////////
+// Rinestone's Revnant bot custom messages
+
+rinestone_revenant_kill1								BOO!
+rinestone_revenant_kill2								Scream more for me!
+rinestone_revenant_kill3								You can't kill what is already dead!
+rinestone_revenant_kill4								Death consumes you!
+rinestone_revenant_kill5								Defiled!
+rinestone_revenant_kill6								May the Afterlife consume you.
+
+rinestone_revenant_death1								I thought I was dead already...
+rinestone_revenant_death2								I haven't reached my scare quota yet..
+rinestone_revenant_death3								I'll be back! Don't you worry...
+rinestone_revenant_death4								Back to the grave...
+rinestone_revenant_death5								I dissipate....
+rinestone_revenant_death6								Cast to the winds....
+
+/////////////////////////////////////////
+// The Community's Legionnaire bot custom messages
+
+community_legionnaire_kill1								BUAHAHAHA!
+community_legionnaire_kill2								Off with their heads!
+community_legionnaire_kill3								I put the meaning into human blender.
+community_legionnaire_kill4								You spin me right round!
+community_legionnaire_kill5								Did I break your spirit?
+community_legionnaire_kill6								You spin my head right round, right round. When ya go down, when ya go down down.
+
+community_legionnaire_death1							Spinning out of control...
+community_legionnaire_death2							I think I'm gonna throw up...
+community_legionnaire_death3							Stop taunting me!
+community_legionnaire_death4							Off with.....my head?
+
+/////////////////////////////////////////
+// The Community's Parasite bot custom messages
+
+community_parasite_kill1								Don't throw up!
+community_parasite_kill2								You look a little sick.
+community_parasite_kill3								Why is your face so pale?
+community_parasite_kill4								The SITE up here is to DIE for!
+community_parasite_kill5								Nothing is immune to me!
+
+community_parasite_death1								All I wanted was a hug!
+community_parasite_death2								I think I'm gonna throw up...
+community_parasite_death3								I feel sick...
+community_parasite_death4								Let me back in!!!
+community_parasite_death5								You cant get rid of me forever
+
+// End - do not delete this line

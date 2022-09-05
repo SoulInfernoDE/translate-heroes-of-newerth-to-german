@@ -1,0 +1,609 @@
+﻿client_default_name				KhôngTên
+error_title							Lỗi
+error_unknown							Lỗi chưa xác định.
+
+disconnect_title							Mất kết nối
+disconnect_not_host							Bạn phải có quyền mới có thể chạy game trên máy chủ này.
+disconnect_server_full							Phòng đã đầy.
+disconnect_game_in_progress							Trận đấu mà bạn muốn tham gia đã được bắt đầu.
+disconnect_server_error							Lỗi máy chủ.
+disconnect_snapshot_fragment	Quá nhiều phần bị phân mảnh.
+disconnect_not_invited			Bạn không có lời mời để tham gia trận phòng đấu tùy chọn cá nhân này.
+disconnect_no_cookie			Bạn phải đăng nhập để chơi trên máy chủ này.
+disconnect_auth_failed			Máy chủ không nhận dạng được tài khoản. Vui lòng đăng nhập lại.
+disconnect_duplicate_connect	Bạn bị mất kết nối vì có một người khác đăng nhập vào trò chơi với tài khoản này.
+disconnect_unknown				Bạn bị mất kết nối.
+disconnect_timeout				Không có phản hồi từ máy chủ.
+disconnect_game_over			Trận đấu đã kết thúc.
+disconnect_idle					Bạn bị mất kết nối vì không hoạt động trong thời gian dài.
+disconnect_terminated			Thời gian dự trữ đã hết nên bạn không thể kết nối lại vào trận đấu này nữa.
+disconnect_kicked				Bạn bị đá khỏi trận bởi chủ phòng.
+disconnect_kicked_spec			Bạn bị đá khỏi trận bởi người chơi bạn đang theo dõi.
+disconnect_kicked_mentor		Bạn bị đá khỏi trận bởi người chơi bạn đang hướng dẫn.
+disconnect_vote_kicked			Bạn bị đá khỏi trận bởi cuộc bình chọn đã được thông qua.
+disconnect_unassigned			Chủ phòng đã bắt đầu trận đấu khi bạn chưa tham gia vào đội.
+disconnect_banned				Chủ phòng đã cấm bạn tham gia trận đấu này.
+disconnect_leaver				Bạn không thể tham gia trận đấu vì tỉ lệ bỏ cuộc quá cao.
+disconnect_not_verified			Bạn không thể tham gia trận đấu vì chưa đạt vị thế Chính Thức.
+disconnect_overflow				Bạn bị mất kết nối khỏi máy chủ vì một số gói tin bị tràn.
+disconnect_flooding				Bạn bị mất kết nối vì hành động làm tràn bộ nhớ máy chủ.
+disconnect_invalid_tier			Bạn không thể tham gia trận đấu ở cấp độ này.
+disconnect_invalid_psr			Điểm Tùy Chọn của bạn quá cao hoặc quá thấp để tham gia trận đấu này.
+disconnect_not_on_roster		Bạn không nằm trên danh sách người chơi được tham gia trận đấu.
+disconnect_modified_core_files							File resources0.s2z đã bị thay đổi. Đây là file hệ thống vì vậy hãy cài lại Heroes of Newerth.
+disconnect_client_number_mismatch							Lỗi kết nối, hãy thử lại sau chốc lát.
+disconnect_trial_not_allowed							Bạn không được quyền kết nối vào trận đấu với tài khoản thử nghiệm, chỉ có thê chơi game không tính điểm.
+disconnect_duplicate_login							Máy chủ không xác định được tài khoản của bạn. Xin hãy đăng nhập lại.
+disconnect_duplicate_game_connect							Bạn bị mất kết nối bởi vì có người khác đang chơi trên tài khoản này.
+disconnect_unique_login_failed							Bạn bị mất kết nối vì máy chủ không xác định được tài khoản. Xin hãy thử lại trong chốc lát.
+disconnect_mm_players_left							Có người mất kết nối khỏi trận đấu.
+disconnect_mm_player_left							Một người chơi đã thoát khỏi trận đấu.
+disconnect_mm_connect_timeout							Thời gian kết nối tới máy chủ quá lâu, trận đấu bị hủy bỏ.
+disconnect_mm_start_timeout							Thời gian tải trận đấu quá lâu, trận đấu bị hủy bỏ.
+disconnect_basic							Người mới chơi không thể tạo trận đấu.
+disconnect_no_tokens							Bạn cần Huy hiệu hoặc Vé để chơi chế độ này.
+disconnect_failed_refresh							Lỗi khi làm mới nâng cấp. Bạn vừa đăng xuất.
+disconnect_no_match_id							Máy chủ thất bại trong việc lấy ID trận đấu nên không thể bắt đầu trận đấu.
+disconnect_missing_spectate_player	Người chơi bạn đang cố gắng theo dõi không ở trong trận đấu. Bạn đã bị ngắt kết nối.
+disconnect_no_inception_spectator	Khán giả và Huấn luyện viên không thể cố vấn. Bạn bị ngắt kết nối.
+disconnect_no_inception_mentor	HLV không thể tự theo dõi bản thân mình. Bạn đã ngắt kết nối.
+disconnect_not_accepted			Người chơi không đồng ý cho bạn làm Khán giả hoặc Huấn luyện viên.
+disconnect_too_many_player_spectators			Khán giả theo dõi người chơi này đã vượt số lượng cho phép.
+disconnect_too_many_player_spectators_total		Máy chủ đã chạm đến giới hạn cho phép khán giả và trọng tài.
+disconnect_staff_spec_not_staff					Chỉ có thể trở thành Staff Spectator bằng tài khoản staff.
+disconnect_tourney_rules_no_spec 				Chế độ Luật giải đấu không cho phép Khán giả và Huấn luyện viên theo dõi.
+disconnect_max_spec_clients						Không thể mở rộng thêm người xem, đã chạm giới hạn cho phép.
+disconnect_no_mods_allowed						Bạn mất kết nối khỏi trận đấu vì bộ cài có tập tin bị chỉnh sửa. Hãy xóa chúng và kết nối lại.
+disconnect_match_neverending					Trận đấu bị hủy vì kéo dài quá thời gian cho phép.
+
+rejected_invalid_request							Bạn đã gửi một yêu cầu kết nối sai
+rejected_empty_address							Máy chủ không tìm thấy địa chỉ của bạn.
+rejected_wrong_game							Máy chủ đang vận hành một trận đấu khác.
+rejected_wrong_version							Phiên bản của bạn không khớp với máy chủ.
+rejected_banned							Bạn đã bị cấm sử dụng máy chủ này.
+rejected_invalid_password							Sai mật khẩu.
+rejected_server_error							Lỗi máy chủ.
+rejected_server_taken							Ai đó đã bắt đầu trận đấu trên hệ thống máy chủ bạn chọn, hãy thử tìm cái khác.
+rejected_not_host							Bạn phải có quyền mới có thể chạy trên máy chủ này.
+rejected_missing_spectate_player			Không thể tìm thấy người mà bạn cần theo dõi.
+
+// chat system messages
+chat_connecting							^279* Kết nối tới máy chủ tán gẫu...
+chat_reconnecting							^279* Kết nối tới máy chủ tán gẫu... (Lần thứ {attempt}/{maxattempts})
+chat_waiting_verification							^279* Đợi hệ thống xác định tài khoản...
+chat_connected							^279* Kết nối thành công!
+chat_connected_invisible							^279* Bạn đang ở chế độ giấu mặt. Chế độ này không cho bạn bè và các thành viên hội nhìn thấy trạng thái của bạn.
+chat_disconnected							^279* Mất kết nối đến máy chủ tán gẫu.
+chat_reconnecting_delay							^279* Kết nối lại trong 30 giây (Lần thứ {attempt}/{maxattempts}).
+chat_not_connected							^279* Bạn chưa kết nối vào máy chủ tán gẫu.
+chat_new_channel							^279* Bạn đang ở kênh ^090{channel}^279.
+chat_channel_message							^990{sender}:^888 {message}
+chat_channel_message_sent							^444{name}:^* {message}
+chat_group_channel_message				^279 {message}
+chat_whisper							^099({sender} thì thầm) ^888{message}
+chat_whisper_sent							^066(Thì thầm tới {target}) ^888{message}
+chat_whisper_buddies							^066<Thì thầm tới Bạn bè> {message}
+chat_whisper_to_buddies							^099<{sender} thì thầm tới Bạn bè> {message}
+chat_whisper_failed_self							^279* Bạn không thể thì thầm với chính mình.
+chat_failed_invisible							^279* Bạn không thể chat khi đang ở chế độ giấu mặt.
+chat_mode_switch_fail							^279* Bạn không thể thay đổi trạng thái khi đang ở chế độ giấu mặt. Hãy đăng nhập lại để thay đổi.
+chat_mode_afk_auto_response							^099* Tin nhắn của bạn đã được gửi nhưng ^990{target}^279 đang vắng mặt: {message}
+chat_mode_afk_default_response							Tôi không ở đây, xin nhắn lại sau
+chat_mode_dnd_auto_response							^099 Tin nhắn của bạn không được gửi, ^990{target}^279 không muốn phiền toái: {message}
+chat_mode_dnd_default_response							Tôi đang rất bận
+chat_user_offline							^279* Người này chưa trực tuyến.
+chat_im							^882{sender}: ^888{message}
+chat_im_sent							^444{name}: ^888{message}
+chat_im_failed							^279* ^990{target}^279 chưa trực tuyến.
+chat_clan_whisper							^359(Clan) {name}: ^888{message}
+chat_clan_whisper_sent							^458(Clan) {name}: ^888{message}
+chat_clan_whisper_failed							^279* Bạn chưa ở trong hội nào cả.
+chat_clan_im							^359{name}: ^888{message}
+chat_clan_im_sent							^458{name}: ^888{message}
+chat_flooding							^279* Không thể gửi tin nhắn vì bạn đã gửi quá nhiều. Xin hãy nghỉ tay một chút.
+chat_max_channels							^279* Bạn không thể vào thêm kênh tán gẫu nào nữa. Xin thoát bớt kênh trước.
+chat_banned							^279* Mất kết nối - Bạn bị cấm khỏi máy chủ tán gẫu trong {time} phút.
+chat_banned_connections							^279* Lý do: Vượt quá số lần kết nối lại.
+chat_banned_flooding							^279* Lý do: Tràn dữ liệu.
+chat_banned_unknown							^279* Lý do: Không rõ.
+chat_banned_reconnect							^279* Đang thử kết nối lại (Lần thứ {attempt}/{maxattempts}) trong {time} giây.
+chat_info_not_found							^279* Không tìm thấy người chơi '^990{name}^279'.
+chat_info_offline							^279* ^990{name}^279 chưa trực tuyến, lần hoạt động cuối cùng: {seen}.
+chat_info_online_no_channels							^279* ^990{name}^279 đang trực tuyến và không ở kênh tán gẫu nào.
+chat_info_online_one_channel							^279* ^990{name}^279 đang trực tuyến và ở kênh tán gẫu '{channel}'.
+chat_info_online_multi_channels							^279* ^990{name}^279 đang trực tuyến và ở các kênh sau: {channels}
+chat_info_joining_game					^279* ^990{name}^279 đang trực tuyến và kết nối vào trận đấu.
+chat_info_in_game							^279* ^990{name}^279 đang trực tuyến và ở trận đấu '{game}^279'.
+chat_info_in_game_time							^279* ^990{name}^279 đang trực tuyến và ở trận đấu '{game}^279'. Thời gian trận hiện tại: {cgt}.
+chat_ignored							^279* ^990{name}^279 đã bị phớt lờ.
+chat_unignored							^279* ^990{name}^279 không bị phớt lờ nữa.
+chat_joining_game							^279* Tham gia trận đấu '^990{name}^279'.
+chat_left_game							^279* Bạn đã thoát khỏi trận đấu.
+chat_user_info_online							^279* ^990{name}^279 đang trực tuyến.
+chat_user_info_offline							^279* ^990{name}^279 chưa trực tuyến.
+chat_user_info_in_game							^279* ^990{name}^279 đang trong trận đấu '{game}'.
+chat_saving_channel							^279* Lưu ^g{channel}^279 vào danh sách kênh tự kết nối...
+chat_failed_saving_channel							^279* Lỗi khi lưu ^g{channel}^279 vào danh sách kênh tự kết nối...
+chat_invalid_channel							^279* Không thể lưu ^g{channel}^279 vào danh sách kênh tự kết nối. Đó là kênh nhóm hoặc chứa các ký tự đặc biệt. (% hoặc ^)
+chat_removing_channel							^279* Đang xóa ^g{channel}^279 khỏi danh sách kênh tự kết nôi...
+chat_failed_removing_channel							^279* Không thể xóa ^g{channel}^279 khỏi danh sách kênh tự kết nối ...
+chat_failed_saving_notification							^279* Không thể lưu thông báo...
+chat_failed_removing_notification							^279* Không thể xóa thông báo số {id}...
+chat_failed_removing_notifications							^279* Không thể xóa toàn bộ thông báo...
+chat_invalid_buddy_group			^279* Không thể chuyển ^990{buddy}^279 đến nhóm bạn ^g{group}^279, nhóm này chứa ký tự lỗi. (% hoặc ^)
+chat_saving_buddy_group				^279* Chuyển ^990{buddy}^279 tới nhóm ^g{group}^279...
+chat_removing_buddy_group			^279* Xóa ^990{buddy}^279 từ nhóm...
+chat_saved_buddy_group				^279* Đã chuyển ^990{buddy}^279 tới nhóm ^g{group}^279...
+chat_removed_buddy_group			^279* Đã xóa ^990{buddy}^279 từ nhóm...
+chat_failed_buddy_group				^279* Lỗi khi thay đổi nhóm ^990{buddy}^279...
+chat_adding_buddy							^279* Thêm ^990{name}^279 vào danh sách bạn...
+chat_failed_buddy_add							^279* Không thể thêm ^990{target}^279 vào danh sách bạn.
+chat_failed_buddy_add_self							^279* Không thể thêm bản thân vào danh sách bạn.
+chat_failed_buddy_remove_self							^279* Không thể xóa bản thân khỏi danh sách bạn.
+chat_failed_buddy_add_duplicate							^279* Người này đã có trong danh sách bạn bè.
+chat_failed_buddy_add_reason							^279* Không thể thêm ^990{target}^279 vào danh sách bạn: {reason}
+chat_failed_buddy_remove							^279* Không thể xóa ^990{target}^279 khỏi danh sách bạn.
+chat_failed_buddy_remove_not_found							^279* Lỗi khi xóa người chơi khỏi danh sách bạn: Không tìm thấy.
+chat_approved_buddy_adder							^279* Thêm ^990{name}^279 vào danh sách bạn...
+chat_approved_buddy_added							^279* ^990{name}^279 đã thêm bạn vào danh sách...
+chat_requesting_buddy							^279* Đề nghị kết bạn với ^990{name}^279
+chat_requested_approval_adder							^279* Bạn đã đề nghị ^990{name}^279 làm bạn bè...
+chat_requested_approval_added							^279* ^990{name}^279 đã đề nghị kết bạn...
+chat_requested_approval_failed							^279* Không thể đề nghị kết bạn với ^990{name}^279
+chat_requested_approval_duplicate							^279* Cả bạn và ^990{name}^279 vừa gửi đề nghị kết bạn, Hãy đợi 1 phút rồi gửi lại lần nữa..
+chat_requested_approval_ignored							^279* Người chơi ^990{name}^279 đã thêm bạn vào danh sách phớt lờ, không thể đề nghị kết bạn.
+chat_requested_approval_limit							^279* Bạn đã đạt số lượng bạn bè tối đa.
+chat_approving_buddy							^279* Chấp nhận ^990{name}^279 làm bạn bè...
+chat_failed_approving_buddy							^279* Không thể chấp nhận ^990{name}^279 làm bạn bè...
+chat_clan_promoting							^279* Thăng cấp thành viên ^990{name}^279 lên làm Đội Phó...
+chat_failed_clan_promote							^279* Lỗi khi thăng cấp ^990{target}^279.
+chat_failed_clan_promote_cannot_promote							^279* Bạn không thể thăng cấp thành viên.
+chat_failed_clan_promote_generic							^279* Lỗi khi thăng cấp.
+chat_clan_demoting							^279* Giáng cấp thành viên ^990{name}^279...
+chat_failed_clan_demote							^279* Lỗi khi giáng cấp ^990{target}^279.
+chat_failed_clan_demote_cannot_demote							^279* Bạn không thể giáng cấp thành viên này.
+chat_failed_clan_demote_generic							^279* Lỗi khi giáng cấp.
+chat_clan_removing							^279* Loại bỏ thành viên khỏi hội ^990{name}^279...
+chat_clan_removing_self							^279* Đang cố gắng ra khỏi hội...
+chat_failed_clan_remove							^279* Lỗi khi loại bỏ ^990{target}^279 ra khỏi hội.
+chat_failed_clan_remove_self							^279* Không thể ra khỏi hội.
+chat_failed_clan_remove_demote							^279* Thành viên này cần phải bị giáng cấp trước khi bị loại khỏi hội.
+chat_failed_clan_remove_generic							^279* Lỗi khi xóa thành viên khỏi hội.
+chat_failed_clan_name							^279* Không thể kiểm tra tên hội và kí hiệu hội, hãy thử lại lần nữa.
+chat_failed_clan_name_tip							Không thể kiểm tra tên hội và kí hiệu hội, hãy thử lại lần nữa.
+chat_invalid_clan_name							^279* Tên hội ^990{name}^279 và tag ^990{tag}^279 không thể sử dụng.
+chat_invalid_clan_name_tip							Tên hội ^990{name}^* và tag ^990{tag}^* không thể sử dụng.
+chat_invalid_clan_name_used							^279* Tên hội ^990{name}^279 đã có người sử dụng.
+chat_invalid_clan_name_used_tip							Tên hội ^990{name}^* đã có người sử dụng.
+chat_invalid_clan_tag_used							^279* Kí hiệu ^990{tag}^279 đã có người sử dụng.
+chat_invalid_clan_tag_used_tip							Kí hiệu ^990{tag}^* đã có người sử dụng.
+chat_invalid_clan_name_format							^279* Tên hội ^990{name}^279 không phù hợp. Chỉ có thể sử dụng kí tự chữ cái, gạch dưới và dấu cách, độ dài từ 1 đến 32 ký tự.
+chat_invalid_clan_name_format_tip							Tên hội ^990{name}^* không phù hợp. Chỉ có thể sử dụng kí tự chữ cái, gạch dưới và dấu cách, độ dài từ 1 đến 32 ký tự.
+chat_invalid_clan_tag_format							^279* Kí hiệu ^990{tag}^279 không phù hợp. Chỉ có thể sử dụng chữ cái và độ dài từ 1 đến 4 ký tự.
+chat_invalid_clan_tag_format_tip							Kí hiệu ^990{tag}^* không phù hợp. Chỉ có thể sử dụng chữ cái và độ dài từ 1 đến 4 ký tự.
+chat_success_buddy_add							^279* Đã thêm ^990{target}^279 vào danh sách bạn bè.
+chat_success_buddy_remove							^279* Đã xóa ^990{target}^279 khỏi danh sách bạn bè.
+chat_success_clan_promote							^279* Thăng cấp ^990{target}^279 thành công.
+chat_success_clan_demote							^279* Giáng cấp ^990{target}^279 thành công.
+chat_success_clan_remove							^279* Đã loại ^990{target}^279 ra khỏi hội.
+chat_success_clan_remove_self							^279* Bạn đã thoát khỏi hội.
+chat_success_clan_name_tip			 Tên hội và kí hiệu có thể sử dụng.
+chat_topic_change							^279* Chủ đề kênh thay đổi thành '^990{topic}^279'.
+chat_topic							^279* Chủ đề kênh '^990{topic}^279'.
+chat_not_operator							^279* Bạn không có quyền điều hành ở kênh tán gẫu này.
+chat_user_kicked							^279* ^990{kickee}^279 bị đá khỏi kênh bởi ^990{kicker}^279.
+chat_kicked							^279* Bạn bị đá khỏi kênh tán gẫu '^990{channel}^279' bởi ^990{kicker}^279.
+chat_user_banned							^279* ^990{banned}^279 bị cấm tham gia kênh bởi ^990{banner}^279.
+chat_user_banned_no_name							^279* ^990{banned}^279 bị cấm tham gia kênh.
+chat_channel_banned							^279* Bạn bị cấm tham gia kênh '^990{channel}^279' bởi ^990{banner}^279.
+chat_channel_banned_no_name							^279* Bạn bị cấm tham gia kênh '^990{channel}^279'.
+chat_user_unbanned							^279* ^990{unbanned}^279 được cho phép trở lại kênh bởi ^990{unbanner}^279.
+chat_user_unbanned_no_name							^279* ^990{unbanned}^279 được cho phép trở lại kênh.
+chat_unbanned							^279* Bạn có thể trở lại kênh tán gẫu '^990{channel}^279' nhờ ^990{unbanner}^279.
+chat_unbanned_no_name							^279* Bạn có thể trở lại kênh tán gẫu '^990{channel}^279'.
+chat_banned_from_channel							^279* Bạn bị cấm tham gia kênh tán gẫu '^990{channel}^279'.
+chat_silenced							^279* Bạn bị cấm chat trong kênh này.
+chat_silence_lifted							^279* Lệnh cấm chat đã được dỡ bỏ '^990{channel}^279'.
+chat_silence_placed							^279* Bạn bị cấm chat bởi ^990{name}^279 trong kênh '^990{channel}^279' trong vòng {duration} phút.
+chat_user_silence_placed							^279* ^990{silenced}^279 bị cấm chat bởi ^990{name}^279 trong {duration} phút.
+chat_muted							^279* Bạn đang bị cấm chat và không thể sử dụng công cụ này.
+chat_message_all							^900{name}:^999 {message}
+chat_maintenance					^900THÔNG BÁO:^999 Máy chủ tán gẫu sẽ tạm tắt để phục vụ công tác bảo trì. Trong thời gian này, mọi tính năng Tìm trận đấu và Tán gẫu sẽ bị vô hiệu hóa. Chúng tôi xin lỗi về sự gián đoạn này và sẽ cố gắng hoàn thành nhanh nhất có thể.
+chat_matchmaking_disabled			^900THÔNG BÁO:^999 Tính năng tìm trận đang tạm tắt. Chúng tôi xin lỗi về sự cố này và sẽ khắc phục nhanh nhất có thể.
+chat_roll_message							{player} quay số {low} {high} và nhận {number}.
+chat_current_time							Thời gian hiện tại: {time}.
+chat_current_ping							Số ping: {ping}.
+chat_adding_banlist							^279* Đang thêm ^990{name}^279 vào danh sách cấm...
+chat_failed_banlist_add							^279* Lỗi khi thêm ^990{target}^279 vào danh sách cấm.
+chat_failed_banlist_add_self							^279* Bạn không thể thêm chính mình vào danh sách cấm.
+chat_failed_banlist_add_duplicate							^279* Người này đã có trong danh sách cấm của bạn.
+chat_failed_banlist_add_reason							^279* Lỗi khi thêm ^990{target}^279 vào danh sách cấm: {reason}
+chat_failed_banlist_remove							^279* Lỗi khi xóa ^990{target}^279 ra khỏi danh sách cấm.
+chat_failed_banlist_remove_not_found							^279* Lỗi khi xóa người chơi khỏi danh sách cấm: Không tìm thấy.
+chat_success_banlist_add							^279* Đã thêm ^990{target}^279 vào danh sách cấm.
+chat_success_banlist_remove							^279* Đã xóa ^990{target}^279 khỏi danh sách cấm.
+chat_adding_ignore							^279* Đang thêm ^990{name}^279 vào danh sách phớt lờ...
+chat_failed_ignore_add							^279* Lỗi khi thêm ^990{target}^279 vào danh sách phớt lờ.
+chat_failed_ignore_add_self							^279* Bạn không thể thêm chính mình vào danh sách phớt lờ.
+chat_failed_ignore_add_duplicate							^279* Người này đã có trong danh sách phớt lờ của bạn.
+chat_failed_ignore_add_reason							^279* Lỗi khi thêm ^990{target}^279 vào danh sách phớt lờ: {reason}
+chat_failed_ignore_remove							^279* Lỗi khi xóa ^990{target}^279 khỏi danh sách phớt lờ.
+chat_failed_ignore_remove_not_found							^279* Lỗi khi xóa người chơi khỏi danh sách phớt lờ: Không tìm thấy.
+chat_success_ignore_add							^279* Đã thêm ^990{target}^279 vào danh sách phớt lờ.
+chat_success_ignore_remove							^279* Đã xóa ^990{target}^279 khỏi danh sách phớt lờ.
+chat_user_on_banlist							^279* ^990{name}^279 đang ở trong danh sách cấm: ^999{reason}
+chat_admin_level_none							Chưa phải quản lý
+chat_admin_level_officer							Phó phòng
+chat_admin_level_leader							Chủ phòng
+chat_admin_level_administrator							Quản lý chính
+chat_admin_level_staff							Lãnh đạo
+chat_promote_success							^279* ^990{name}^279 được thăng cấp lên ^990{rank}^279 bởi ^990{promoter}^279.
+chat_promote_failure							^279* Bạn không có quyền thăng cấp thành viên.
+chat_demote_success							^279* ^990{name}^279 bị giáng cấp xuống ^990{rank}^279 bởi ^990{demoter}^279.
+chat_demote_failure_too_low							^279* Thành viên này đang có quyền thấp nhất trong kênh tán gẫu.
+chat_demote_failure							^279* Bạn không có quyền giáng cấp thành viên.
+chat_not_in_channel							^279* Thành viên này không có mặt trong kênh tán gẫu.
+chat_im_user_offline							^279* ^990{name}^279 đang trực tuyến.
+chat_im_user_online							^279* ^990{name}^279 chưa trực tuyến.
+chat_version_mismatch							^279* Phiên bản của bạn không khớp với máy chủ.
+chat_no_permissions							^279* Quyền của bạn không đủ để làm điều này.
+chat_auth_enabled							^279* Tính năng xác nhận đã được bật, bạn cần có trong danh sách cho phép để có thể vào.
+chat_auth_disabled							^279* Tính năng xác nhận đã được tắt, mọi người có thể vào kênh này.
+chat_auth_add_success							^279* ^990{name}^279 đã được thêm vào danh sách cho phép.
+chat_auth_add_failure							^279* ^990{name}^279 đã ở trong danh sách cho phép.
+chat_auth_remove_success							^279* ^990{name}^279 đã xóa khỏi danh sách cho phép.
+chat_auth_remove_failure							^279* ^990{name}^279 không ở trong danh sách cho phép.
+chat_password_change							^279* Mật khẩu cho kênh tán gẫu đã được thay đổi bởi ^990{name}^279.
+chat_password_required							^279* Kênh tán gẫu ^990{name}^279 yêu cầu mật khẩu.
+chat_error_clan_rank							^279* Bạn cần chức vụ cao hơn trong hội để làm điều này.
+chat_error_clan_not_found							^279* Thành viên hội ^990{name}^279 không tìm thấy.
+chat_clan_invite_sent							^279* Gửi lời mời tham gia hội tới ^990{name}^279...
+chat_failed_clan_invite_in_clan							^279* ^990{name}^279 đang trong một hội.
+chat_clan_invite_received							^279* ^990{name}^279 mời bạn gia nhập hội ^990{clan}^279.
+chat_clan_invite_rejected							^279* ^990{name}^279 từ chối gia nhập hội.
+chat_clan_invite_failed_online							^279* Người này chưa trực tuyến.
+chat_clan_invite_failed_clan							^279* Người này đã có trong hội.
+chat_clan_invite_failed_invite							^279* Người này đã được mời vào hội.
+chat_clan_invite_failed_permissions							^279* Bạn không có quyền mời người này vào hội.
+chat_clan_invite_failed_unknown							^279* Không thể thêm ^990{name}^279 vào hội.
+chat_clan_invite_failed_unknown_self							^279* Không thể thêm bạn vào hội.
+chat_clan_new_user							^279* ^990{name}^279 đã gia nhập hội của bạn.
+chat_clan_new_user_self							^279* Bạn đã gia nhập hội ^990{clan}^279.
+chat_clan_create_fail_clan							^279* Bạn cần phải thoát khỏi hội trước khi tạo mới.
+chat_clan_create_fail_param							^279* Lỗi khi tạo hội - Sai tham số!
+chat_clan_create_fail_tag				^279* Lỗi khi tạo hội - Kí hiệu hội không đạt tiêu chuẩn. Chỉ cho phép từ 1 đến 4 kí tự và không trùng lặp.
+chat_clan_create_fail_in_clan			^279* Lỗi khi tạo hội - ^990{name}^279 hiện đang trong một hội.
+chat_clan_create_fail_duplicate			^279* Lỗi khi tạo hội - Không được trùng thành viên sáng lập.
+chat_clan_create_fail_invite			^279* Lỗi khi tạo clan - ^990{name}^* đang có một lời mời hội khác.
+chat_clan_create_fail_not_found			^279* Failed to create clan - ^990{name}^* không tìm thấy, hoặc hiện đang trong một hội, hoặc không chấp nhận lời mời.
+chat_clan_create_fail_clan_name			^279* Lỗi khi tạo hội - Tên hội không hợp lệ. Chỉ cho phép từ 1 đến 32 kí tự và không trùng lặp.
+chat_clan_create_fail_tag							^279* Lỗi khi tạo hội - Kí hiệu hội không đạt tiêu chuẩn. Chỉ cho phép từ 1 đến 4 kí tự và không trùng lặp.
+chat_clan_create_fail_unknown							^279* Lỗi khi tạo hội.
+chat_clan_create_fail_time							^279* Lỗi khi tạo hội - Đã quá thời gian để các thành viên đồng ý.
+chat_clan_create_result_fail_clan							Bạn cần phải thoát khỏi hội trước khi tạo mới.
+chat_clan_create_result_fail_param							Lỗi - Sai tham số!
+chat_clan_create_result_fail_tag							Lỗi - Kí hiệu hội quá dài.
+chat_clan_create_result_fail_in_clan							Lỗi - ^990{name}^* đang trong hội khác.
+chat_clan_create_result_fail_duplicate							Lỗi - Trùng thành viên sáng lập.
+chat_clan_create_result_fail_invite							Lỗi - ^990{name}^* đã nhận lời mời gia nhập hội khác.
+chat_clan_create_result_fail_not_found							Lỗi - Không tìm thấy ^990{name}^*.
+chat_clan_create_result_fail_clan_name							Lỗi - Tên hội không hợp lệ.
+chat_clan_create_result_fail_tag							Lỗi - Kí hiệu hội không hợp lệ.
+chat_clan_create_result_fail_unknown							Lỗi khi tạo hội.
+chat_clan_create_result_fail_time							Lỗi - Đã hết thời gian.
+chat_clan_create_sent							^279* Yêu cầu tạo hội đã được gửi, đợi các thành viên khác xác nhận.
+chat_clan_create_accept							^279* ^990{name}^279 đồng ý yêu cầu tạo hội.
+chat_clan_create_reject							^279* ^990{name}^279 từ chối yêu cầu tạo hội.
+chat_clan_create_result_reject							Lỗi - ^990{name}^* đã từ chối yêu cầu của bạn.
+chat_clan_create_success							^279* Hội được tạo thành công.
+chat_clan_create_result_success							Chúc mừng! Hội của bạn đã được tạo.
+chat_clan_left							^279* ^990{name}^279 đã thoát khỏi hội.
+chat_clan_left_self							^279* Bạn đã thoát khỏi hội.
+chat_clan_kick							^279* ^990{changer}^279 đã đá ^990{name}^279 khỏi hội.
+chat_clan_kick_self							^279* ^990{changer}^279 đã đá bạn ra khỏi hội.
+chat_clan_joined							^279* ^990{name}^279 đã tham gia hội.
+chat_clan_rank_change							^279* ^990{changer}^279 thay đổi cấp bậc của ^990{name}^279 thành ^990{rank}^279.
+chat_clan_rank_change_self							^279* ^990{changer}^279 thay đổi cấp bậc của bạn thành ^990{rank}^279.
+chat_clan_rank_none							Chưa có Hội
+chat_clan_rank_member							Thành viên
+chat_clan_rank_officer							Hội phó
+chat_clan_rank_leader							Chỉ huy
+chat_clan_no_clan							^279* Bạn chưa vào hội nào cả.
+chat_tourn_match_ready							^279* Trận đấu đã được lên lịch trước, ^990{name}^279, đã sẵn sàng. Hãy sử dụng phần Giải Đấu nằm trên thanh công cụ Cộng đồng & Clan để tham gia.
+chat_unable_to_join_group							Không thể vào nhóm khi bạn đang trong trận hoặc xem replay.
+chat_unable_to_join_scheduled_match		Bạn không thể vào trận đấu lên lịch khi đang ở trong trận khác hoặc xem replay.
+chat_group_queue_rejoin					^279* Nhóm của bạn đã được đưa lại hàng đợi...
+chat_group_invite_broadcast             ^279* ^990{invited}^279 được mời tham gia nhóm bởi ^990{inviter}^279...
+chat_group_max_match_fidelity_diff		^279* Tùy chọn này không có tác dụng khi độ chênh lệch kỹ năng các thành viên trong nhóm quá lớn.
+chat_sending_player_spectate_request	^279* Yêu cầu gửi tới ^990{name}^279.
+chat_player_spectate_denied				^279* ^990{name}^279 từ chối yêu cầu của bạn hoặc không trả lời.
+chat_player_spectate_denied_full_server	^279* Máy chủ ^990{name}^279 đã quá tải người xem và huấn luyện viên.
+chat_player_spectate_denied_full_player	^279* ^990{name}^279 đã quá tải người xem và huấn luyện viên
+chat_player_spectate_denied_too_deep	^279* ^990{name}^279 đang theo dõi hoặc làm HLV cho người chơi này. Bạn không thể vào được nữa.
+chat_invited_to_game                    ^900* Bạn được mời tham gia trận đấu '{gamename}' tại '{address}' bởi {inviter}.
+chat_not_on_team                        ^900* Bạn không thể chat đội, hiện tại bạn không ở trong đội nào!
+chat_mods_detected						^900 CHÚ Ý:^999 Phát hiện chỉnh sửa trên bộ cài của bạn và bạn sẽ không thể chơi trận đấu khi chúng chưa bị loại bỏ. Nếu bạn không loại bỏ tệp chỉnh sửa, máy chủ sẽ ngắt kết nối của bạn khi trận đấu bắt đầu. Để xem danh sách các tệp chỉnh sửa bị phát hiện, xin nhìn lên biểu tượng cảm (!) màu vàng góc trên phải, nhấp biểu tượng này để xem danh sách tệp cần loại bỏ.
+
+chat_excessive_gameplay_message			Chơi game quá độ có thể ảnh hưởng đến cuộc sống hàng ngày. Hãy lưu ý nghỉ ngơi sau khi chơi một khoảng thời gian dài.
+chat_excessive_gameplay_1_hour			Bạn đã chơi được 1 tiếng.
+chat_excessive_gameplay_2_hours			Bạn đã chơi được 2 tiếng.
+chat_excessive_gameplay_fatigue			Bạn đã chơi quá lâu và chắc chắn mệt mỏi, các ưu đãi trong game bị giảm xuống còn nửa.
+chat_excessive_gameplay_unhealthy		Bạn chơi quá lâu rồi và chắc chắn bị bệnh nên mọi ưu đãi trong game không còn nữa.
+
+// stats
+chat_stats_header							^492* Chỉ số của ^982{name}^492
+chat_stats_body1							^492 Hội: ^999{clan_name} ^982|| ^492 Cấp: ^999{level} ^982|| ^492W: ^999{wins}^555({winpercent}) ^492L: ^999{losses} ^492Disc: ^999{disconnects}^555({leavepercent})
+chat_stats_body2							^492 K/D/A: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists} ^982|| ^492Exp / Min: ^999{expmin} ^982|| ^492PSR: ^999{psr}
+
+// chat notifications
+chat_notification_cc_panel							Ấn F6 để mở thanh công cụ Cộng đồng & Hội.
+chat_notification_buddy_online							{name} đang trực tuyến.
+chat_notification_buddy_offline							{name} chưa trực tuyến.
+chat_notification_buddy_joined_game							{name} đã tham gia trận '{game}'.
+chat_notification_buddy_left_game							{name} đã rời trận '{game}'.
+chat_notification_clan_online							{name} đang trực tuyến.
+chat_notification_clan_offline							{name} chưa trực tuyến.
+chat_notification_clan_joined_game							{name} đã tham gia trận '{game}'.
+chat_notification_clan_left_game							{name} đã rời trận '{game}'.
+chat_notification_clan_whisper							(Clan) {name}: {message}
+chat_notification_clan_whisper_sent							(Clan) {name}: {message}
+chat_notification_clan_new_user							{name} đã gia nhập hội.
+chat_notification_clan_new_user_self							Bạn đã gia nhập hội {clan}.
+chat_notification_clan_left_self							Bạn đã thoát khỏi hội.
+chat_notification_clan_left							{name} đã thoát khỏi hội.
+chat_notification_clan_joined							{name} đã gia nhập hội.
+chat_notification_clan_rank_change							{changer} thay đổi cấp bậc của ^990{name}^279 thành ^990{rank}^279.
+chat_notification_clan_rank_change_self							{changer} thay đổi cấp bậc của bạn ^990{rank}^279.
+chat_notification_clan_kick							{changer} đã đá ^990{name}^279 khỏi hội.
+chat_notification_clan_kick_self							{changer} đã đá bạn khỏi hội.
+
+// chat commands
+chat_command_whisper							/whisper
+chat_command_whisper_short							/w
+chat_command_whisper_help							^279*^707 /whisper <tên> <nội dung>.
+chat_command_reply							/reply
+chat_command_reply_short							/r
+chat_command_reply_invalid							^279* Chưa ai thì thầm với bạn!
+chat_command_reply_help							^279*^707 /reply <nội dung>.
+chat_command_buddy							/buddy
+chat_command_friend					/friend
+chat_command_buddy_short							/b
+chat_command_friend_short			/f
+chat_command_buddy_list							list
+chat_command_buddy_list_short							l
+chat_command_buddy_list_message							^279* Liệt kê danh sách bạn...
+chat_command_buddy_list_none							^279* Không có ai trong danh sách bạn.
+chat_command_buddy_list_help							^279*^707 /friend list.
+chat_command_buddy_message							message
+chat_command_buddy_message_short							m
+chat_command_buddy_message_help							^279*^707 /friend message <nội dung>.
+chat_command_buddy_add							add
+chat_command_buddy_add_short							a
+chat_command_buddy_add_help							^279*^707 /friend add <tên>.
+chat_command_buddy_delete							delete
+chat_command_buddy_delete_short							d
+chat_command_buddy_delete_help							^279*^707 /friend delete <tên>.
+chat_command_clan							/clan
+chat_command_clan_short							/c
+chat_command_clan_list							list
+chat_command_clan_list_short							l
+chat_command_clan_list_message							^279* Liệt kê thành viên hội...
+chat_command_clan_list_none							^279* Không có ai trong hội của bạn.
+chat_command_clan_list_help							^279*^707 /clan list.
+chat_command_clan_message							message
+chat_command_clan_message_short							m
+chat_command_clan_message_help							^279*^707 /clan message <nội dung>.
+chat_command_clan_promote							promote
+chat_command_clan_promote_short							p
+chat_command_clan_promote_help							^279*^707 /clan promote <tên>.
+chat_command_clan_demote							demote
+chat_command_clan_demote_short							d
+chat_command_clan_demote_help							^279*^707 /clan demote <tên>.
+chat_command_clan_remove							remove
+chat_command_clan_remove_short							r
+chat_command_clan_remove_help							^279*^707 /clan remove <tên>.
+chat_command_clan_invite							invite
+chat_command_clan_invite_short							i
+chat_command_clan_invite_help							^279*^707 /clan invite <tên>.
+chat_command_clan_leave							leave
+chat_command_clan_leave_short							l
+chat_command_clan_leave_help							^279*^707 /clan leave.
+chat_command_clear							/clear
+chat_command_clear_short							/cl
+chat_command_join							/join
+chat_command_join_help							^279*^707 /join <kênh> "mật khẩu". (Để mật khẩu trong dấu ngoặc kép)
+chat_command_join_short							/j
+chat_command_invite							/invite
+chat_command_invite_short							/i
+chat_command_invite_help							^279*^707 /invite <tên>.
+chat_command_whois							/whois
+chat_command_whois_short							/who
+chat_command_whois_help							^279*^707 /whois <tên>.
+chat_command_stats							/stats
+chat_command_stats_short							/s
+chat_command_stats_pop							pop
+chat_command_stats_help							^279*^707 /stats <tên> [pop].
+chat_command_joingame							/joingame
+chat_command_joingame_short							/jg
+chat_command_joingame_buddy							friend
+chat_command_joingame_buddy_short							f
+chat_command_joingame_name							name
+chat_command_joingame_name_short							n
+chat_command_joingame_ip							ip
+chat_command_joingame_ip_short							i
+chat_command_joingame_buddy_help							^279*^707 /joingame friend <tên>
+chat_command_joingame_name_help							^279*^707 /joingame name <tên>
+chat_command_joingame_ip_help							^279*^707 /joingame ip <địa chỉ>
+chat_command_joingame_buddy_failed							^279* Lỗi không thể vào trận - Không tìm thấy người chơi hoặc họ không ở trong trận đấu.
+chat_command_topic							/topic
+chat_command_topic_short							/t
+chat_command_topic_help							^279*^707 /topic
+chat_command_topic_set_help							^279*^707 /topic <chủ đề kênh> (Cần quyền hạn quản lý)
+chat_command_kick							/kick
+chat_command_kick_short							/k
+chat_command_kick_help							^279*^707 /kick <tên> (Cần quyền hạn quản lý)
+chat_command_ban							/ban
+chat_command_ban_help							^279*^707 /ban <tên> (Cần quyền hạn quản lý)
+chat_command_unban							/unban
+chat_command_unban_help							^279*^707 /unban <tên> (Cần quyền hạn quản lý)
+chat_command_silence							/silence
+chat_command_silence_help							^279*^707 /silence <tên> <thời gian tính theo phút> (Cần quyền hạn quản lý)
+chat_command_message_all_long							/messageall
+chat_command_message_all							/msgall
+chat_command_banlist							/banlist
+chat_command_banlist_short							/bl
+chat_command_banlist_list							list
+chat_command_banlist_list_short							l
+chat_command_banlist_list_message							^279* Liệt kê danh sách cấm...
+chat_command_banlist_list_none							^279* Không có người nào trong danh sách cấm.
+chat_command_banlist_list_entry							^999{name}: ^888{reason}
+chat_command_banlist_list_help							^279*^707 /banlist list.
+chat_command_banlist_add							add
+chat_command_banlist_add_short							a
+chat_command_banlist_add_help							^279*^707 /banlist add <nick> <reason>.
+chat_command_banlist_delete							delete
+chat_command_banlist_delete_short							d
+chat_command_banlist_delete_help							^279*^707 /banlist delete <nick>.
+chat_command_ignorechat							/ignorechat
+chat_command_ignorechat_short							/ic
+chat_command_ignorechat_enemy_all_on							^279* Bạn đang phớt lờ mọi câu tán gẫu từ bên địch.
+chat_command_ignorechat_all_on							^279* Bạn đang phớt lờ mọi câu tán gẫu từ cả hai bên.
+chat_command_ignorechat_team_on							^279* Bạn đang phớt lờ tán gẫu từ đồng đội.
+chat_command_ignorechat_every_on							^279* Bạn đang phớt lờ tất cả câu tán gẫu.
+chat_command_ignorechat_off							^279* Bạn không còn phớt lờ nữa.
+chat_command_friendlychat			/friendlychat
+chat_command_friendlychat_short		/fc
+chat_command_friendlychat_on		^279* Bạn chỉ nhận tin nhắn từ người chơi trong hội và danh sách bạn.
+chat_command_friendlychat_off		^279* Bạn có thể nhận tin nhắn từ tất cả mọi người.
+chat_command_ignore							/ignore
+chat_command_ignore_list							list
+chat_command_ignore_list_short							l
+chat_command_ignore_list_message							^279* Liệt kê danh sách phớt lờ...
+chat_command_ignore_list_none							^279* Không có ai trong danh sách phớt lờ.
+chat_command_ignore_list_entry							^999{name}
+chat_command_ignore_list_help							^279*^707 /ignore list.
+chat_command_ignore_add							add
+chat_command_ignore_add_short							a
+chat_command_ignore_add_help							^279*^707 /ignore add <tên>.
+chat_command_ignore_delete							delete
+chat_command_ignore_delete_short							d
+chat_command_ignore_delete_help							^279*^707 /ignore delete <tên>.
+chat_command_notes							/notes
+chat_command_notes_short							/n
+chat_command_notes_list							list
+chat_command_notes_list_short							l
+chat_command_notes_list_message							^279* Liệt kê ghi chú...
+chat_command_notes_list_none							^279* Bạn không có ghi chú nào cả.
+chat_command_notes_list_entry							^279{id}: ^888{note}
+chat_command_notes_list_help							^279*^707 /notes list.
+chat_command_notes_add							add
+chat_command_notes_add_success							^279* Thêm ghi chú thành công.
+chat_command_notes_add_short							a
+chat_command_notes_add_help							^279*^707 /notes add <tên>.
+chat_command_notes_delete							delete
+chat_command_notes_delete_short							d
+chat_command_notes_delete_help							^279*^707 /notes delete <số>.
+chat_command_notes_delete_success							^279* Xóa ghi chú thành công.
+chat_command_notes_delete_invalid							^279* Sai mã số ghi chú.
+chat_command_promote							/promote
+chat_command_promote_short							/p
+chat_command_promote_help							^279*^707 /promote <tên> (Cần quyền hạn quản lý)
+chat_command_demote							/demote
+chat_command_demote_short							/d
+chat_command_demote_help							^279*^707 /demote <tên> (Cần quyền hạn quản lý)
+chat_command_auth							/auth
+chat_command_auth_short							/a
+chat_command_auth_list							list
+chat_command_auth_list_short							l
+chat_command_auth_list_message							^279* Liệt kê danh sách cho phép...
+chat_command_auth_list_none							^279* Không có thành viên nào trong danh sách tương ứng với kênh này cả.
+chat_command_auth_list_entry							^999{name}
+chat_command_auth_list_help							^279*^707 /auth list.
+chat_command_auth_add							add
+chat_command_auth_add_short							a
+chat_command_auth_add_help							^279*^707 /auth add <tên>.
+chat_command_auth_delete							delete
+chat_command_auth_delete_short							d
+chat_command_auth_delete_help							^279*^707 /auth delete <tên>.
+chat_command_auth_enable							enable
+chat_command_auth_enable_help							^279*^707 /auth enable (Chỉ cho phép người có tên trong danh sách vào kênh này).
+chat_command_auth_disable							disable
+chat_command_auth_disable_help							^279*^707 /auth disable.
+chat_command_password							/password
+chat_command_password_short							/pass
+chat_command_password_set_help							^279*^707 /password (Xóa mật khẩu, yêu cầu quyền hạn quản lý)
+chat_command_password_clear_help							^279*^707 /password <mã> (Đặt mật khẩu, yều cầu quyền hạn quản lý)
+chat_command_roll							/roll
+chat_command_roll_help							^279*^707 /roll <số bé> <số lớn> (Quay vòng số từ thấp đến cao, (1 đến 32,767)).
+chat_command_emote							/emote
+chat_command_emote_help							^279*^707 /emote <tin nhắn cảm xúc>.
+chat_command_emote_short							/em
+chat_command_time							/time
+chat_command_ping							/ping
+chat_command_matchup							/matchup
+chat_command_matchup_short							/ma
+chat_command_matchup_help							Tính năng cung cấp thông tin chỉ có tác dụng khi trận đấu đã bắt đầu.
+chat_command_gameinfo							/gameinfo
+chat_command_gameinfo_short							/gi
+chat_command_ping_all							/pingall
+chat_command_ping_all_short							/pa
+chat_command_available							/available
+chat_command_available_message							^279* Trạng thái của bạn giờ là 'sẵn sàng'.
+chat_command_afk							/afk
+chat_command_afk_message							^279* Trạng thái của bạn giờ là 'afk': {reason}
+chat_command_dnd							/dnd
+chat_command_dnd_message							^279* Trạng thái của bạn giờ là 'không làm phiền': {reason}
+
+chat_command_weather							/weather
+chat_command_weather_intro							^279* Gõ lệnh sau để chỉnh thời tiết:
+chat_command_weather_entry							^279* /weather {name}
+chat_command_weather_selected							^279* Đã chọn hiệu ứng thời tiết '{name}'
+
+chat_command_server					/serverchat
+chat_command_server_short			/sc
+
+chat_command_help							/help
+chat_command_help_short							/h
+chat_command_character							/
+chat_command_invalid_format							^279* Sai cú pháp. Cú pháp chuẩn là:
+chat_command_invalid_format_multi							^279* Sai cú pháp. Các câu lệnh có thể sử dụng là:
+chat_command_invalid_command							^279* Sai cú pháp. Gõ {helpcommand} để liệt kê các lệnh có sẵn.
+chat_command_help_valid							^279* Danh sách các lệnh:
+chat_command_help_whisper							^279*^707 /whisper <tên> <nội dung>^279 -Thì thầm tới người chơi.
+chat_command_help_reply							^279*^707 /reply <nội dung>^279 -Trả lời tới người vừa thì thầm.
+chat_command_help_buddy							^279*^707 /friend <lệnh> <thông tin>^279 -Các lệnh liên quan tới bạn bè.
+chat_command_help_clan							^279*^707 /clan <lệnh> <thông tin>^279 -Các lệnh liên quan tới clan.
+chat_command_help_join							^279*^707 /join <kênh> "mật khẩu"^279 -Tham gia kênh chat (Có thể yêu cầu mật khẩu).
+chat_command_help_clear							^279*^707 /clear^279 -Dọn dẹp kênh chat.
+chat_command_help_invite							^279*^707 /invite <tên>^279 -Mời người chơi tham gia trận đấu của bạn.
+chat_command_help_whois							^279*^707 /whois <tên>^279 -Lấy thông tin về người chơi.
+chat_command_help_stats							^279*^707 /stats <tên> [pop]^279 -Lấy thông tin về chỉ số người chơi.
+chat_command_help_joingame							^279*^707 /joingame <loại> <tham số>^279 -Tham gia vào một trận đấu.
+chat_command_help_topic							^279*^707 /topic [chủ đề]^279 -Xem hoặc đặt lại chủ đề cho kênh chat
+chat_command_help_kick							^279*^707 /kick <tên>^279 -Loại người chơi ra khỏi kênh chat (Cần quyền hạn quản lý).
+chat_command_help_ban							^279*^707 /ban <tên>^279 -Cấm người chơi ra khỏi kênh chat (Cần quyền hạn quản lý).
+chat_command_help_unban							^279*^707 /unban <tên>^279 -Gỡ bỏ lệnh cấm ra khỏi kênh chat (Cần quyền hạn quản lý).
+chat_command_help_silence							^279*^707 /silence <tên> <thời gian>^279 -Cấm chat người chơi <thời gian> phút (Cần quyền hạn quản lý).
+chat_command_help_promote							^279*^707 /promote <tên>^279 -Thăng cấp cho người chơi (Cần quyền hạn quản lý)
+chat_command_help_demote							^279*^707 /demote <tên>^279 -Giáng cấp người chơi (Cần quyền hạn quản lý)
+chat_command_help_banlist							^279*^707 /banlist <câu lệnh> <tham số>^279 -Quản lý danh sách cấm.
+chat_command_help_ignore							^279*^707 /ignore <câu lệnh> <tham số>^279 -Quản lý danh sách phớt lờ.
+chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -Bật/Tắt phớt lờ tán gẫu 'Đội' hoặc 'Tất cả'.
+chat_command_help_friendlychat		^279*^707 /friendlychat^279					 -Bật/Tắt phớt lờ tin nhắn từ người chơi không phải bạn hoặc không cùng hội.
+chat_command_help_notes							^279*^707 /notes <câu lệnh> <tham số>^279 -Quản lý ghi chú.
+chat_command_help_auth							^279*^707 /auth <câu lệnh> <tham số>^279 -Quản lý danh sách cho phép tham gia kênh chat (Cần quyền hạn quản lý)
+chat_command_help_password							^279*^707 /password <mật khẩu>^279 -Đặt mật khẩu cho kênh chat (Cần quyền hạn quản lý)
+chat_command_help_password_clear							^279*^707 /password^279 -Xóa mật khẩu cho kênh chat (Cần quyền hạn quản lý)
+chat_command_help_roll							^279*^707 /roll <số bé> <số lớn>^279 -Quay số giữa số bé và số lớn, (1 đến 32,767).
+chat_command_help_emote				^279*^707 /emote <tin nhắn>^279 		-Gửi tin nhắn cảm xúc.
+chat_command_help_time				^279*^707 /time^279 				-Xem thời gian hệ thống.
+chat_command_help_ping				^279*^707 /ping^279 (trong trận đấu) 		-Xem số ping trong trận.
+chat_command_help_matchup			^279*^707 /matchup^279 (trong trận đấu) 	-Xem các thông tin về đội/tên/màu sắc/chiến binh của người chơi trong trận đấu hiện tại.
+chat_command_help_gameinfo							^279*^707 /gameinfo^279 (trong trận đấu) -Xem các thông tin về trận đấu.
+chat_command_help_available							^279*^707 /available^279 -Bật/Tắt trạng thái 'sẵn sàng'.
+chat_command_help_afk							^279*^707 /afk <tin nhắn afk>^279 -Bật/Tắt trạng thái 'afk', Tự động phản hồi tin nhắn khi có người gọi.
+chat_command_help_dnd							^279*^707 /dnd <tin nhắn>^279 -Bật/Tắt trạng thái 'không làm phiền', khóa hết mọi tin nhắn được gửi đến và tự trả lời.
+chat_command_help_weather							^279*^707 /weather^279 (trong game) -Chỉnh hiệu ứng thời tiết
+chat_command_help_misc							^279* Gõ lệnh không kèm tham số để biết chi tiết các lệnh con bên trong.
+
+//End							

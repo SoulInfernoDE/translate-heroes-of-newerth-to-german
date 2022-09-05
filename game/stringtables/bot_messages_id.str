@@ -1,0 +1,72 @@
+﻿kill1                                     Mendapatkan kill pada {target} :D
+kill2                                     Pengamatan: Saya mengagumkan.
+kill3                                     Newerth adalah nyonya yang kejam, {target}.
+kill4                                     Mengapa saya hanya diprogram untuk membenci ?!
+kill5                                     Saya takut saya tidak bisa melakukan hal itu, {target}.
+kill_bot                                  Sepertinya {target} memiliki beberapa sirkuit yang longgar.
+kill_human1                               Inilah rasanya menjadi istimewa, manusia.
+kill_human2                               Apakah ini Easy Mode? Mungkin seharusnya.
+										 
+death1                                    Shazbot! Aku akan kembali!
+death2                                    Tidaaaaaaaaaaak!
+death3                                    Saya tidak akan membiarkan hal itu terjadi lagi!
+death4                                    Saya tidak takut mati, tetapi dibangkitkan kembali sedikit sakit.
+death5                                    Seseorang pasti telah menempatkan saya ke Easy Mode atau hal tersebut tidak akan pernah terjadi.
+death_human                               01000110 01110101 01100011 01101011 00100000 01111001 01101111 01110101
+death_bot                                 Kekerasan bot-melawan-bot ini perlu dihentikan. Hanya kemudian kita akan menghancurkan manusia.
+										 
+respawn1                                  Kematian adalah petualangan yang sangat besar.
+respawn2                                  Hati-hati, saya hidup!
+respawn3                                  Saya kembali untuk beraksi.
+respawn4                                  Er, uh, um... Kalkulasi ulang?
+respawn5                                  Rekonstruksi selesai.
+										 
+group_up                                  Berkelompok untuk menyerang pada jalur {lane}.
+										 
+glhf1                                     Good luck, have fun!
+glhf2                                     glhf
+ggwp1                                     Good game, well played.
+ggwp2                                     ggwp
+										 
+///////////////////////////////////////// 
+//St0l3n_ID's Amun-Ra bot custom messages		
+		
+stolenid_ra_kill1		Saya tidak mendapatkan... KEPUASAN! - Tidak, tidak.
+stolenid_ra_kill2		Saudara saya adalah granat tangan...
+stolenid_ra_kill3		FIRE IN THE HOLE!
+stolenid_ra_kill4		Saya agak fantastis... Mengerti?
+stolenid_ra_kill5		Ah, maaan, jangan bersedih.
+stolenid_ra_kill6		Tujuan dari jalan kehancuran adalah jalan itu sendiri.
+		
+//hero specific kills		
+		
+stolenid_ra_deadwood1 		Api unggun yang bagus :)
+		
+stolenid_ra_frosty1		Aww, Anda meleleh untuk saya!
+stolenid_ra_frosty2		Yang tersisa dari Anda adalah genangan air.
+		
+stolenid_ra_treant1		Perhatian warga kota! Sepertinya terjadi kebakaran hutan.
+stolenid_ra_treant2		Saya tidak menyukai sayang anda kepada kayu yang tidak terbakar, {target}.
+		
+stolenid_ra_mumra		Hanya boleh ada satu raja, {target}.
+		
+stolenid_ra_rocky		Jadi batu dapat terbakar. Maaf, {target}, saya tidak mengetahuinya :/
+		
+stolenid_ra_pyromancer1		Saya sudah menumpuk panas yang cukup untuk kita berdua, maaf.
+stolenid_ra_pyromancer2		Anda tidak boleh membakar orang lain, seperti yang saya lakukan.
+		
+stolenid_ra_zephyr1		KALKUN PANGGANG!
+stolenid_ra_zephyr2		Baunya seperti Thanksgiving, bukan?
+		
+//respawn		
+stolenid_ra_ult_respawn1		S-S-Sayang, anda masih belum melihat a-a-apa-apa!
+stolenid_ra_ult_respawn2		Oops saya melakukannya lagi;)
+stolenid_ra_ult_respawn3		Berhenti. Waktnyna Phoenix.
+stolenid_ra_ult_respawn4		Rewind adalah untuk banci.
+stolenid_ra_ult_respawn5		Saya terbakar! AKU membara! TOOOLONG!!
+stolenid_ra_ult_respawn6		BERI SAYA PELUKAN!
+		
+stolenid_ra_respawn1		Aneh, saya pikir saya akan dibangkitkan lebih cepat.
+stolenid_ra_respawn2		Butuh beberapa waktu, tapi aku kembali lagi ...
+stolenid_ra_respawn3		Geeez, mengapa aku di pangkalan lagi?
+stolenid_ra_respawn4		Apa!? Ultimate saya tidak bisa digunakan?!?

@@ -1,0 +1,43 @@
+// CTF_Flag
+CTF_Flag_name												La Bandera
+
+// CTF Shop
+CTF_Shop1_name												Tienda
+
+// CTF_State_FlagHolder_Hellbourne
+CTF_State_FlagHolder_Hellbourne_name						Portador de Bandera Hellbourne
+CTF_State_FlagHolder_Hellbourne_description					¡Llévala de vuelta a tu base!\n\nSi el portador de la bandera se teletransporta más de 2000 unidades de distancia, la bandera cae al suelo\n\n¡No puedes usar la Portal Key!
+
+// CTF_State_FlagHolder_Legion
+CTF_State_FlagHolder_Legion_name							Portador de Bandera Legion
+CTF_State_FlagHolder_Legion_description						¡Llévala de vuelta a tu base!\n\nSi el portador de la bandera se teletransporta más de 2000 unidades de distancia, la bandera cae al suelo\n\n¡No puedes usar la Portal Key!
+
+// CTF_DropFlag
+CTF_DropFlag_name											Dejar caer Bandera
+CTF_DropFlag_description									Deja caer la bandera al suelo.\n\nNo se puede recoger nuevamente la bandera por 10 segundos
+CTF_DropFlag_description_simple								Deja caer la bandera al suelo.\n\nNo se puede recoger nuevamente la bandera por 10 segundos
+
+// State_TowerIncrease
+State_TowerIncrease_name									Mejoras de Torres
+State_TowerIncrease_description								Los puntos de Resistencia y Daño de las Torres se incrementan con el paso del tiempo
+
+// CTF_DropFlag_State
+CTF_DropFlag_State_name										Bandera abandonada recientemente
+CTF_DropFlag_State_description								No puedes recoger la bandera por 10 segundos
+
+//CTF_State_StartGame
+CTF_State_StartGame_name									Pre-Round
+CTF_State_StartGame_description								¡La partida empieza en 20 segundos!
+
+// CTF_State_Pool
+CTF_State_Pool_name											Fuente de Sanación Maldita
+CTF_State_Pool_description									Cura Vida y Maná, pero el Daño recibido también es incrementado.
+
+// CTF_State_Respawn_Immunity
+CTF_State_Respawn_Immunity_name								Inmunidad al Resucitar
+CTF_State_Respawn_Immunity_description						Desaparece si atacas o usas una habilidad/ítem.
+
+// CTF_Building_Tower
+CTF_Building_Tower_name										Torre de Base
+
+// End - do not delete this line

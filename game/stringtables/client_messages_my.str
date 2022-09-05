@@ -1,0 +1,605 @@
+﻿error_title						Gagal
+error_unknown					Kegagalan tidak diketahui.
+
+disconnect_title                            Terputus
+disconnect_not_host                         Anda harus memiliki hak sebagai host untuk memulai permainan di server ini.
+disconnect_server_full                      Server telah penuh.
+disconnect_game_in_progress                 Permainan yang anda ingin menyertai sedang dijalankan.
+disconnect_server_error                     Server gagal.
+disconnect_snapshot_fragment                Terlalu banyak serpihan snapshot.
+disconnect_not_invited                      Anda tidak memiliki undangan untuk menyertai permainan pribadi ini.
+disconnect_no_cookie                        Anda harus login untuk bermain di server ini.
+disconnect_auth_failed                      Server tidak dapat menguasai akaun anda. Sila login sekali lagi.
+disconnect_duplicate_connect                Anda telah terputus sambungan kerana klien lain tersambung ke permainan dengan akaun yang sama.
+disconnect_unknown                          Anda telah terputus sambungan.
+disconnect_timeout                          Tidak ada tindak balas dari server.
+disconnect_game_over                        Permainan telah berakhir.
+disconnect_idle                             Anda telah terputus kerana idle.
+disconnect_terminated                       Anda telah melebihi waktu pemutusan maksimum dan tidak dibenarkan untuk menyambung ke permainan ini lagi.
+disconnect_kicked                           Anda telah ditendang dari permainan oleh host.
+disconnect_kicked_spec                      Anda telah ditendang dari permainan oleh pemain yang sedang anda mengawasi.
+disconnect_kicked_mentor                    Anda telah ditendang dari permainan oleh pemain yang sedang anda bimbing.
+disconnect_vote_kicked                      Anda telah ditendang dari permainan oleh suatu usulan.
+disconnect_unassigned                       Host telah memulai permainan ketika anda belum memilih kumpulan.
+disconnect_banned                           Host telah melarang anda masuk ke permainan ini.
+disconnect_leaver                           Anda tidak dibenarkan untuk bergabung ke permainan ini kerana peratusan leaver anda terlalu tinggi.
+disconnect_not_verified                     Anda tidak dibenarkan untuk bergabung ke permainan ini kerana anda belum disahkan lagi.
+disconnect_overflow                         Anda telah terputus dari server kerana peket terlebih.
+disconnect_flooding                         Anda telah terputus dari server kerana melakukan flooding terhadap server.
+disconnect_invalid_tier                     Anda tidak dibenarkan untuk bermain di dalam peringkat ini.
+disconnect_invalid_psr                      PSR anda antara terlalu tinggi atau terlalu rendah untuk permainan ini.
+disconnect_not_on_roster                    Anda tidak dijadualkan dalam permainan yang telah diatur ini.
+disconnect_modified_core_files              File resources0.s2z anda telah dimodifikasi. File ini TIDAK BOLEH diganti! Install semula Heroes of Newerth.
+disconnect_client_number_mismatch           Penyambungan gagal. Cuba sebentar lagi.
+disconnect_trial_not_allowed                Anda tidak dibenarkan untuk menyambung ke permainan ini dengan akaun percubaan. Akaun percubaan hanya terhad kepada permainan "tanpa statistik" saja.
+disconnect_duplicate_login                  Server tidak dapat memberi kuasa kepada akaun anda. Anda harus terus login untuk bermain.
+disconnect_duplicate_game_connect           Anda telah terputus kerana klien lain telah memulai permainan lain dengan akaun ini.
+disconnect_unique_login_failed              Anda telah terputus kerana server game tidak dapat memberi kuasa kepada akaun anda. Sila cuba sebentar lagi.
+disconnect_mm_players_left                  Satu atau beberapa pemain telah terputus dari permainan.
+disconnect_mm_player_left                   Seorang pemain telah meninggalkan permainan.
+disconnect_mm_connect_timeout               Semua pemain mengambil masa yang terlalu panjang untuk membentuk sambungan yang sah ke server.
+disconnect_mm_start_timeout                 Semua pemain mengambil masa yang terlalu panjang untuk menyelesaikan loading.
+disconnect_basic                            Akaun asas tidak dapat mecipta permainan.
+disconnect_no_tokens                        Anda memerlukan token atau pass untuk bermain di mode ini.
+disconnect_failed_refresh                   Gagal ketika memperbaharui peningkatan. Anda telah logout.
+disconnect_no_match_id                      Server gagal untuk mendapatkan kembali ID perlawanan dan tidak dapat memulai permainan.
+disconnect_missing_spectate_player          Pemain yang anda untuk mengawasi tidak ada di dalam permainan. Anda telah terputus.
+disconnect_no_inception_spectator           Tidak dapat menempatkan anda ke dalam tim penonton. Anda telah terputus.
+disconnect_no_inception_mentor              Penonton tidak dapat diawasi. Anda telah terputus.
+disconnect_not_accepted                     Pemain yang anda cuba untuk tonton atau bimbing tidak menerima permintaan anda.
+disconnect_too_many_player_spectators       Pemain yang anda cuba untuk tonton atau bimbing telah mencapai batas maksimum yang dibenarkan.
+disconnect_too_many_player_spectators_total Server telah memiliki jumlah pemain maksimum yang menonton atau membimbing
+disconnect_staff_spec_not_staff             Anda hanya dapat menjadi penonton staf dengan akaun staf.
+disconnect_tourney_rules_no_spec            Penonton dan pembimbing dilarang dalam pertandingan Tournament Rule.
+disconnect_max_spec_clients                 Tidak dapat mengembangkan kumpulan penonton lagi; jumlah maksimum klien telah tercapai.
+
+rejected_invalid_request                    Game client anda mengirimkan permintaan sambungan yang salah.
+rejected_empty_address                      Server gagal untuk menentukan alamat anda.
+rejected_wrong_game                         Server ini menjalankan game yang berbeza.
+rejected_wrong_version                      Versi anda tidak sesuai dengan versi server.
+rejected_banned                             Anda telah dilarang masuk ke server ini.
+rejected_invalid_password                   Kata laluan salah.
+rejected_server_error                       Server gagal.
+rejected_server_taken                       Seseorang telah memulai permainan di server yang anda pilih. Sila cuba lagi.
+rejected_not_host                           Anda harus memiliki hak sebagai host untuk memulai permainan di server ini.
+rejected_missing_spectate_player            Tidak menemui pemain yang anda pilih untuk ditonton.
+
+// chat system messages                     
+chat_connecting                             ^279* Menyambung ke server chat...
+chat_reconnecting                           ^279* Menyambung ke server chat... (percubaan {attempt} dari {maxattempts})
+chat_waiting_verification                   ^279* Tunggu server chat untuk mengesah identiti...
+chat_connected                              ^279* Telah Disambungkan!
+chat_connected_invisible                    ^279* Anda sekarang disambung dengan mode invisible. Dengan mode ini, klien anda tidak akan mengirimkan update status kepada kawan dan anggota clan, tetapi anda masih akan menerima status update daripada mereka semasa online.
+chat_disconnected                           ^279* Terputus dari server chat.
+chat_reconnecting_delay                     ^279* Menyambung kembali dalam 30 saat (percubaan {attempt} dari {maxattempts}).
+chat_not_connected                          ^279* Anda tidak tersambung ke server chat.
+chat_new_channel                            ^279* Sekarang berbual di channel ^090{channel}^279.
+chat_channel_message                        ^990{sender}:^888 {message}
+chat_channel_message_sent                   ^444{name}:^* {message}
+chat_group_channel_message                  ^279 {message}
+chat_whisper                                ^099(Whisper daripada {sender}) ^888{message}
+chat_whisper_sent                           ^066(Whisper kepada {target}) ^888{message}
+chat_whisper_buddies                        ^066<Whisper kepada Kawan> {message}
+chat_whisper_to_buddies                     ^099<{sender} Whisper ke Kawan> {message}
+chat_whisper_failed_self                    ^279* Anda tidak dapat whisper sendiri.
+chat_failed_invisible                       ^279* Anda tidak dapat chat dalam mode invisible.
+chat_mode_switch_fail                       ^279* Anda tidak dapat menukar status chat anda ketika berada di mode invisible.  Sila logout dan login kembali secara normal untuk mengguna fungsi ini.
+chat_mode_afk_auto_response                 ^099* Mesejan anda sudah dikirim, tetapi ^990{target}^279 tiada di tempat: {message}
+chat_mode_afk_default_response              Tiada di keyboard
+chat_mode_dnd_auto_response                 ^099 Mesej anda tidak dikirim. ^990{target}^279 tidak ingin diganggu: {message}
+chat_mode_dnd_default_response              Jangan Menganggu
+chat_user_offline                           ^279* pemain tersebut belum online.
+chat_im                                     ^882{sender}: ^888{message}
+chat_im_sent                                ^444{name}: ^888{message}
+chat_im_failed                              ^279* ^990{target}^279 belum online.
+chat_clan_whisper                           ^359(Clan) {name}: ^888{message}
+chat_clan_whisper_sent                      ^458(Clan) {name}: ^888{message}
+chat_clan_whisper_failed                    ^279* Anda tidak berada dalam clan.
+chat_clan_im                                ^359{name}: ^888{message}
+chat_clan_im_sent                           ^458{name}: ^888{message}
+chat_flooding                               ^279* Mesej tidak dapat dikirim - Anda telah mengirimkan terlalu banyak mesej. Sila menunggu beberapa saat dan cuba lagi.
+chat_max_channels                           ^279* Anda tidak dapat menyambung ke apa-apa channel pada saat ini. Sila meninggalkan channel lain terlebih dahulu.
+chat_banned                                 ^279* Terputus - Anda dilarang masuk oleh server chat selama {time} minit.
+chat_banned_connections                     ^279* Alasan: Terlalu banyak percubaan penyambungan.
+chat_banned_flooding                        ^279* Alasan: Flooding.
+chat_banned_unknown                         ^279* Alasan: Tidak dikenalpasti.
+chat_banned_reconnect                       ^279* Cuba menyambung kembali (percubaan {attempt} dari {maxattempts}) dalam {time} saat.
+chat_info_not_found                         ^279* User '^990{name}^279' tidak dapat ditemui.
+chat_info_offline                           ^279* ^990{name}^279 sedang offline, lihat terakhir pada {seen}.
+chat_info_online_no_channels                ^279* ^990{name}^279 sedang online dan tidak berada di channel apapun.
+chat_info_online_one_channel                ^279* ^990{name}^279 sedang online dan berada di channel '{channel}'.
+chat_info_online_multi_channels             ^279* ^990{name}^279 sedang online dan berada di channel berikut: {channels}
+chat_info_joining_game                      ^279* ^990{name}^279 sedang online dan bersambung ke dalam permainan.
+chat_info_in_game                           ^279* ^990{name}^279 sedang online dan berada dalam permainan '{game}^279'.
+chat_info_in_game_time                      ^279* ^990{name}^279 sedang online dan berada dalam permainan '{game}^279'. Masa semasa permainan: {cgt}.
+chat_ignored                                ^279* ^990{name}^279 sekarang telah diabaikan.
+chat_unignored                              ^279* ^990{name}^279 sekarang tidak diabaikan lagi.
+chat_joining_game                           ^279* Menyambung ke permainan '^990{name}^279'.
+chat_left_game                              ^279* Anda telah meninggalkan permainan.
+chat_user_info_online                       ^279* ^990{name}^279 sedang online.
+chat_user_info_offline                      ^279* ^990{name}^279 sedang offline.
+chat_user_info_in_game                      ^279* ^990{name}^279 sedang berada dalam permainan '{game}'.
+chat_saving_channel                         ^279* Menyimpan ^g{channel}^279 ke dalam auto gabung senarai channel...
+chat_failed_saving_channel                  ^279* Gagal menyimpan ^g{channel}^279 ke dalam auto gabung senarai channel...
+chat_invalid_channel                        ^279* Tidak dapat menyimpan ^g{channel}^279 ke dalam auto gabung senarai channel, kerana merupakan kumpulan channel atau mengandungi watak yang tidak sah. (% atau ^)
+chat_removing_channel                       ^279* Menghapuskan ^g{channel}^279 dari auto gabung senarai channel...
+chat_failed_removing_channel                ^279* Gagal menghapuskan ^g{channel}^279 dari auto gabung senarai channel...
+chat_failed_saving_notification             ^279* Gagal menyimpan notifikasi...
+chat_failed_removing_notification           ^279* Gagal menghapuskan number notifikasi {id}...
+chat_failed_removing_notifications          ^279* Gagal menghapuskan semua notifikasi...
+chat_invalid_buddy_group                    ^279* Gagal memindahkan ^990{buddy}^279 ke kumpulan Kawan ^g{group}^279. Nama kumpulan mengandungi watak yang tidak sah. (% atau ^)
+chat_saving_buddy_group                     ^279* Memindah ^990{buddy}^279 ke kumpulan Kawan ^g{group}^279...
+chat_removing_buddy_group                   ^279* Menghapuskan ^990{buddy}^279 dari kumpulan Kawan...
+chat_saved_buddy_group                      ^279* Memindah ^990{buddy}^279 ke kumpulan Kawan ^g{group}^279...
+chat_removed_buddy_group                    ^279* Menghapuskan ^990{buddy}^279 dari kumpulan Kawan...
+chat_failed_buddy_group                     ^279* Gagal menukar kumpulan Kawan untuk ^990{buddy}^279...
+chat_adding_buddy                           ^279* Menambah ^990{name}^279 sebagai kawan...
+chat_failed_buddy_add                       ^279* Gagal menambah ^990{target}^279 ke senarai kawan.
+chat_failed_buddy_add_self                  ^279* Anda tidak dapat menambah diri sendiri sebagai kawan.
+chat_failed_buddy_remove_self               ^279* Anda tidak dapat menghapuskan diri sendiri sebagai kawan.
+chat_failed_buddy_add_duplicate             ^279* User tersebut telah berada di senarai kawan.
+chat_failed_buddy_add_reason                ^279* Gagal menambahkan ^990{target}^279 ke senarai kawan: {reason}
+chat_failed_buddy_remove                    ^279* Gagal menghapuskan ^990{target}^279 dari senarai kawan.
+chat_failed_buddy_remove_not_found          ^279* Gagal menghapuskan user dari senarai kawan: User tidak ditemui.
+chat_approved_buddy_adder                   ^279* Menambah ^990{name}^279 sebagai kawan.
+chat_approved_buddy_added                   ^279* ^990{name}^279 telah menambah anda sebagai kawan.
+chat_requesting_buddy                       ^279* Meminta ^990{name}^279 sebagai kawan...
+chat_requested_approval_adder               ^279* Anda telah meminta ^990{name}^279 sebagai kawan...
+chat_requested_approval_added               ^279* ^990{name}^279 telah meminta anda sebagai kawan...
+chat_requested_approval_failed              ^279* Gagal untuk meminta^990{name}^279 sebagai kawan...
+chat_requested_approval_duplicate           ^279* Antara anda atau user ^990{name}^279 telah menghantar permintaan untuk menambah kawan. Sila tunggu satu minit sebelum menghantar permintaan lagi...
+chat_requested_approval_ignored             ^279* Anda berada dalam senarai abaian user ^990{name}^279. Tidak dapat meminta mereka sebagai kawan.
+chat_requested_approval_limit               ^279* Anda telah mencapai maksimum jumlah kawan.
+chat_approving_buddy                        ^279* Meluluskan ^990{name}^279 sebagai kawan...
+chat_failed_approving_buddy                 ^279* Gagal untuk meluluskan ^990{name}^279 sebagai kawan...
+chat_clan_promoting                         ^279* Mempromosi anggota clan ^990{name}^279 menjadi officer...
+chat_failed_clan_promote                    ^279* Gagal mempromosi ^990{target}^279.
+chat_failed_clan_promote_cannot_promote     ^279* Anda tidak dapat mempromosi user tersebut.
+chat_failed_clan_promote_generic            ^279* Gagal mempromosi user.
+chat_clan_demoting                          ^279* Menjatuhkan anggota clan ^990{name}^279...
+chat_failed_clan_demote                     ^279* Gagal untuk menjatuhkan ^990{target}^279.
+chat_failed_clan_demote_cannot_demote       ^279* Anda tidak dapat menjatuhkan user tersebut.
+chat_failed_clan_demote_generic             ^279* Gagal untuk menjatuhkan user.
+chat_clan_removing                          ^279* Menghapuskan anggota clan ^990{name}^279...
+chat_clan_removing_self                     ^279* Cuba untuk meninggalkan clan...
+chat_failed_clan_remove                     ^279* Gagal untuk menghapuskan ^990{target}^279 dari clan.
+chat_failed_clan_remove_self                ^279* Gagal untuk meninggalkan clan.
+chat_failed_clan_remove_demote              ^279* User tersebut harus dijatuhkan sebelum mereka dihapuskan.
+chat_failed_clan_remove_generic             ^279* Gagal untuk menghapuskan user dari clan.
+chat_failed_clan_name                       ^279* Gagal untuk memeriksa ketersediaan nama dan tag clan, sila cuba lagi.
+chat_failed_clan_name_tip                   Gagal untuk memeriksa ketersediaan nama dan tag clan, sila cuba lagi.
+chat_invalid_clan_name                      ^279* Nama clan ^990{name}^279 dan tag ^990{tag}^279 tidak tersedia.
+chat_invalid_clan_name_tip                  Nama clan ^990{name}^279 dan tag ^990{tag}^279 tidak tersedia.
+chat_invalid_clan_name_used                 ^279* Nama clan ^990{name}^279 telah digunakan.
+chat_invalid_clan_name_used_tip             Nama clan ^990{name}^279 telah digunakan.
+chat_invalid_clan_tag_used                  ^279* Tag clan ^990{tag}^279 telah digunakan.
+chat_invalid_clan_tag_used_tip              Tag clan ^990{tag}^279 telah digunakan.
+chat_invalid_clan_name_format               ^279* Nama clan ^990{name}^279 tidak sah. Nama clan harus terdiri dari huruf atau angka, sengkang dan ruang, dan harus memiliki panjang 1 hingga 32 perkataan.
+chat_invalid_clan_name_format_tip           Nama clan ^990{name}^279 tidak sah. Nama clan harus mengandung huruf atau angka, sengkang dan ruang, dan harus memiliki panjang 1 hingga 32 perkataan.
+chat_invalid_clan_tag_format                ^279* Tag clan ^990{tag}^279 tidak sah. Tag clan harus mengandung huruf atau angka, dan memiliki panjang 1 hingga 14 perkataan.
+chat_invalid_clan_tag_format_tip            Tag clan ^990{tag}^279 tidak sah. Tag clan harus mengandung huruf atau angka, dan memiliki panjang 1 hingga 14 perkataan.
+chat_success_buddy_add                      ^279* Telah menambah ^990{target}^279 ke senarai kawan.
+chat_success_buddy_remove                   ^279* Menghapuskan ^990{target}^279 dari senarai kawan.
+chat_success_clan_promote                   ^279* Promosi ^990{target}^279 berjaya.
+chat_success_clan_demote                    ^279* Penurunan ^990{target}^279 berjaya.
+chat_success_clan_remove                    ^279* Menghapuskan ^990{target}^279 dari clan.
+chat_success_clan_remove_self               ^279* Anda telah meninggalkan clan.
+chat_success_clan_name_tip			Terdapat Nama dan Tag Clan.
+chat_topic_change                           ^279* Topik berganti menjadi '^990{topic}^279'.
+chat_topic                                  ^279* Topik sekarang '^990{topic}^279'.
+chat_not_operator                           ^279* Anda tidak memiliki hak admin di channel ini.
+chat_user_kicked                            ^279* ^990{kickee}^279 telah ditendang dari channel oleh ^990{kicker}^279.
+chat_kicked                                 ^279* Anda telah ditendang dari channel '^990{channel}^279' oleh ^990{kicker}^279.
+chat_user_banned                            ^279* ^990{banned}^279 telah dilarang masuk ke channel oleh ^990{banner}^279.
+chat_user_banned_no_name                    ^279* ^990{banned}^279 telah dilarang masuk ke channel.
+chat_channel_banned                         ^279* Anda telah dilarang masuk ke channel '^990{channel}^279' oleh ^990{banner}^279.
+chat_channel_banned_no_name                 ^279* Anda telah dilarang masuk kechannel'^990{channel}^279'.
+chat_user_unbanned                          ^279* ^990{unbanned}^279 telah dibenarkan masuk ke channel ^990{unbanner}^279.
+chat_user_unbanned_no_name                  ^279* ^990{unbanned}^279 telah dibenarkan masuk ke channel.
+chat_unbanned                               ^279* Anda telah dibenarkan masuk ke channel '^990{channel}^279' oleh ^990{unbanner}^279.
+chat_unbanned_no_name                       ^279* Anda telah dibenarkan masuk ke channel '^990{channel}^279'.
+chat_banned_from_channel                    ^279* Anda telah dilarang masuk ke channel '^990{channel}^279'.
+chat_silenced                               ^279* Anda dilarang bercakap di channel ini dan tidak dapat chat.
+chat_silence_lifted                         ^279* Silence anda telah dihapuskan dari channel '^990{channel}^279'.
+chat_silence_placed                         ^279* Anda telah dilarang bercakap ^990{name}^279 dari channel '^990{channel}^279' selama {duration} minit.
+chat_user_silence_placed                    ^279* ^990{silenced}^279 telah di-silence oleh ^990{name}^279 selama {duration} minit.
+chat_muted							^279* Anda telah dimiut dan tidak dapat berkomunikasi.
+chat_message_all                            ^900{name}:^999 {message}
+chat_maintenance					^900Server Message:^999 Server chat akan offline sekejap bagi kami melakukan maintenance.  Pada ketika ini servis matchmaking dan server chat yang lain akan disable. Kami memohon maaf terlebih dahulu untuk gangguan ini dan akan memulihkan server secepat mungkin.
+chat_matchmaking_disabled			^900Server Message:^999 Servise matchmaking telah disabled buat sementara waktu.  Kami mohan maaf terlebih dahulu untuk ganguan ini dan akan re-enable matchmaking secepat mungkin.
+chat_roll_message                           {player} mengundi {low} {high} dan mendapat {number}.
+chat_current_time                           Waktu sekarang adalah: {time}.
+chat_current_ping                           Ping sekarang: {ping}.
+chat_adding_banlist                         ^279* Menambahkan ^990{name}^279 ke senarai ban...
+chat_failed_banlist_add                     ^279* Gagal menambahkan ^990{target}^279 ke senarai ban.
+chat_failed_banlist_add_self                ^279* Anda tidak dapat menambahkan diri sendiri ke senarai ban.
+chat_failed_banlist_add_duplicate           ^279* User tersebut telah berada di senarai ban.
+chat_failed_banlist_add_reason              ^279* Gagal menambah ^990{target}^279 ke senarai ban: {reason}
+chat_failed_banlist_remove                  ^279* Gagal menghapuskan ^990{target}^279 dari senarai ban.
+chat_failed_banlist_remove_not_found        ^279* Gagal menghapuskan user dari senarai ban: User tidak ditemui.
+chat_success_banlist_add                    ^279* Menambah ^990{target}^279 ke senarai ban.
+chat_success_banlist_remove                 ^279* Menghapuskan ^990{target}^279 dari senarai ban.
+chat_adding_ignore                          ^279* Menambah ^990{name}^279 ke senarai abaian...
+chat_failed_ignore_add                      ^279* Gagal menambah ^990{target}^279 ke senarai abaian.
+chat_failed_ignore_add_self                 ^279* Anda tidak dapat menambah diri sendiri ke senarai abaian.
+chat_failed_ignore_add_duplicate            ^279* User tersebut telah berada di senarai abaian.
+chat_failed_ignore_add_reason               ^279* Gagal menambah ^990{target}^279 ke senarai abaian: {reason}
+chat_failed_ignore_remove                   ^279* Gagal menghapuskan ^990{target}^279 dari senarai abaian.
+chat_failed_ignore_remove_not_found         ^279* Gagal menghapuskan user dari senarai abaian: User tidak ditemui.
+chat_success_ignore_add                     ^279* Menambah ^990{target}^279 ke senarai kawan.
+chat_success_ignore_remove                  ^279* Menghapuskan ^990{target}^279 dari senarai abaian.
+chat_user_on_banlist                        ^279* ^990{name}^279 berada di senarai abaian: ^999{reason}
+chat_admin_level_none                       Tidak ada Status Admin
+chat_admin_level_officer                    Pegawai Saluran 
+chat_admin_level_leader                     Ketua Saluran
+chat_admin_level_administrator              Pentadbir Saluran
+chat_admin_level_staff                      Staff
+chat_promote_success                        ^279* ^990{name}^279 telah dinaik pangkat sebagai ^990{rank}^279 oleh ^990{promoter}^279.
+chat_promote_failure                        ^279* Anda tidak memiliki hak untuk menaik pangkat pengguna tersebut lebih tinggi lagi.
+chat_demote_success                         ^279* ^990{name}^279 telah diturunkan menjadi ^990{rank}^279 oleh ^990{demoter}^279.
+chat_demote_failure_too_low                 ^279* Pengguna tersebut berada di level admin terendah di channel ini.
+chat_demote_failure                         ^279* Anda tidak memiliki hak untuk menurunkan pengguna tersebut sehingga lebih rendah lagi.
+chat_not_in_channel                         ^279* Pengguna tersebut tidak berada di channel ini.
+chat_im_user_offline                        ^279* ^990{name}^279 sekarang offline.
+chat_im_user_online                         ^279* ^990{name}^279 sekarang online.
+chat_version_mismatch                       ^279* Versi anda tidak sama dengan versi server chat..
+chat_no_permissions                         ^279* Hak pentadbir anda di saluran ini tidak cukup tinggi untuk melakukan hal tersebut.
+chat_auth_enabled                           ^279* Pemberikuasaan telah diakfifkan di saluran ini, anda sekarang harus berada di senarai penguasaan untuk bergabung.
+chat_auth_disabled                          ^279* Pemberikuasaan telah dimatikan di saluran ini, semua user boleh bergabung sekarang.
+chat_auth_add_success                       ^279* ^990{name}^279 telah ditambahkan ke senarai penguasaan.
+chat_auth_add_failure                       ^279* ^990{name}^279 telah berada di senarai penguasaan.
+chat_auth_remove_success                    ^279* ^990{name}^279 telah dihapuskan dari senarai penguasaan.
+chat_auth_remove_failure                    ^279* ^990{name}^279 tidak ada di senarai penguasaan.
+chat_password_change                        ^279* Kata laluan untuk saluran ini telah diganti oleh ^990{name}^279.
+chat_password_required                      ^279* Saluran ini ^990{name}^279 memerlukan password.
+chat_error_clan_rank                        ^279* Anda memerlukan pangkat clan yang lebih tinggi lagi untuk melakukan hal tersebut.
+chat_error_clan_not_found                   ^279* Anggota clan dengan nama ^990{name}^279 tidak dapat ditemui.
+chat_clan_invite_sent                       ^279* Mengirim undangan clan kepada ^990{name}^279...
+chat_failed_clan_invite_in_clan             ^279* ^990{name}^279 telah memiliki clan.
+chat_clan_invite_received                   ^279* ^990{name}^279 telah mengundang anda untuk bergabung dengan clan ^990{clan}^279.
+chat_clan_invite_rejected                   ^279* ^990{name}^279 menolak undangan clan.
+chat_clan_invite_failed_online              ^279* Pengguna tersebut tidak online.
+chat_clan_invite_failed_clan                ^279* Pengguna tersebut telah memiliki clan.
+chat_clan_invite_failed_invite              ^279* Pengguna tersebut telah diundang untuk bergabung dengan clan.
+chat_clan_invite_failed_permissions         ^279* Anda tidak memiliki hak yang cukup untuk mengundang pengguna untuk menggabung clan.
+chat_clan_invite_failed_unknown             ^279* Gagal menambah ^990{name}^279 ke clan.
+chat_clan_invite_failed_unknown_self        ^279* Gagal menambah anda ke clan.
+chat_clan_new_user                          ^279* ^990{name}^279 telah bergabung dengan clan.
+chat_clan_new_user_self                     ^279* Anda telah bergabung dengan clan ^990{clan}^279.
+chat_clan_create_fail_clan                  ^279* Anda harus meninggalkan clan sekarang sebelum menubuh clan baru.
+chat_clan_create_fail_param                 ^279* Gagal menubuh clan - Parameter hilang!
+chat_clan_create_fail_tag                   ^279* Gagal menubuh clan - Tag Clan terlalu panjang!
+chat_clan_create_fail_in_clan               ^279* Gagal menubuh clan - ^990{name}^279 telah memiliki clan.
+chat_clan_create_fail_duplicate             ^279* Gagal menubuh clan - Duplikasi anggota clan tidak dizinkan.
+chat_clan_create_fail_invite                ^279* Gagal menubuh clan - ^990{name}^* memiliki undangan clan yang belum dijawab.
+chat_clan_create_fail_not_found             ^279* Gagal menubuh clan - ^990{name}^* tidak ditemui, telah berada di dalam clan, atau tidak menerima undangan clan.
+chat_clan_create_fail_clan_name             ^279* Gagal menubuh clan - Nama clan anda ditolak. Pastikan nama clan mengandungi 1 hingga 32 perkataan dan tidak sedang digunakan.
+chat_clan_create_fail_tag                   ^279* Gagal menubuh clan - tag clan anda ditolak. Pastikan tag clan mengandung 1 hingga 4 perkataan dan tidak sedang digunakan.
+chat_clan_create_fail_unknown               ^279* Gagal menubuh clan.
+chat_clan_create_fail_time                  ^279* Gagal menubuh clan - Waktu yang diberikan kepada anggota penemu untuk meterimanya telah tamat.
+chat_clan_create_result_fail_clan           Anda harus meninggalkan clan yang sekarang sebelum membuat yang baru
+chat_clan_create_result_fail_param          Gagal - Parameter hilang!
+chat_clan_create_result_fail_tag            Gagal - Tag clan terlalu panjang.
+chat_clan_create_result_fail_in_clan        Gagal - ^990{name}^* telah memiliki clan.
+chat_clan_create_result_fail_duplicate      Gagal - Duplikasi anggota penemu.
+chat_clan_create_result_fail_invite         Gagal - ^990{name}^* memiliki undangan clan yang belum dijawab.
+chat_clan_create_result_fail_not_found      Gagal - ^990{name}^* tidak ditemui.
+chat_clan_create_result_fail_clan_name      Gagal - Nama clan anda ditolak.
+chat_clan_create_result_fail_tag            Gagal - Tag clan anda ditolak.
+chat_clan_create_result_fail_unknown        Gagal menubuh clan.
+chat_clan_create_result_fail_time           Gagal - Waktu telah tamat.
+chat_clan_create_sent                       ^279* Permintaan penubuhan clan telah dikirim, menunggu persetujuan anggota.
+chat_clan_create_accept                     ^279* ^990{name}^279 menerima permintaan penubuhan clan.
+chat_clan_create_reject                     ^279* ^990{name}^279 menolak permintaan penubuhan clan.
+chat_clan_create_result_reject              Gagal - ^990{name}^* menolak permintaan anda.
+chat_clan_create_success                    ^279* Clan anda telah berjaya ditubuhkan.
+chat_clan_create_result_success             Berjaya! Clan anda telah ditubuhkan.
+chat_clan_left                              ^279* ^990{name}^279 telah meninggalkan clan.
+chat_clan_left_self                         ^279* Anda telah meninggalkan clan.
+chat_clan_kick                              ^279* ^990{changer}^279 telah menendang ^990{name}^279 keluar dari clan.
+chat_clan_kick_self                         ^279* ^990{changer}^279 telah menendang anda keluar dari clan.
+chat_clan_joined                            ^279* ^990{name}^279 telah bergabung dengan clan.
+chat_clan_rank_change                       ^279* ^990{changer}^279 telah menukar pangkat ^990{name}^279 menjadi ^990{rank}^279.
+chat_clan_rank_change_self                  ^279* ^990{changer}^279 telah menukar pangkat anda menjadi ^990{rank}^279.
+chat_clan_rank_none                         Tidak ada clan
+chat_clan_rank_member                       Anggota
+chat_clan_rank_officer                      Pegawai
+chat_clan_rank_leader                       Ketua
+chat_clan_no_clan                           ^279* Anda tidak memiliki clan.
+chat_tourn_match_ready                      ^279* Permainan yang anda jadualkan di pertandingan, ^990{name}^279, telah bersedia sekarang. Guna bahagian Turnamen di Panel Komuniti dan Clan untuk bergabung.
+chat_unable_to_join_group                   Tidak dapat bergabung ke kumpulan matchmaking kerana anda sedang berada dalam permainan atau replay.
+chat_unable_to_join_scheduled_match         Tidak dapat bergabung ke pertandingan yang dijadualkan kerana anda sedang berada dalam permainan atau replay.
+chat_group_queue_rejoin                     ^279* Kumpulan anda ditempatkan kembali ke dalam barisan pada waktu tunggu di mana pemimpin kumpulan menunggu sebelumnya.
+chat_group_invite_broadcast				^279* ^990{telah jemput}^279 dijemput untuk menyertai kumpulan matchmaking group oleh ^990{inviter}^279...
+chat_group_max_match_fidelity_diff          ^279* Nilai Kesetiaan pertandingan yang anda pilih tidak dapat digunakan jika terdapat perbezaan kemampuan yang besar antara pemain di kumpulan anda.
+chat_sending_player_spectate_request        ^279* Permintaan dikirim ke ^990{name}^279.
+chat_player_spectate_denied                 ^279* ^990{name}^279 menolak permintaan anda atau tidak menjawabnya.
+chat_player_spectate_denied_full_server     ^279* Server ^990{name}^279 telah mencapai had pemain yang menonton atau membimbing.
+chat_player_spectate_denied_full_player     ^279* ^990{name}^279 telah mencapai had pemain yang menonton atau membimbing
+chat_player_spectate_denied_too_deep        ^279* ^990{name}^279 sedang membimbing atau menonton seorang pemain. Anda tidak dapat membimbing atau menonton pemain yang sedang membimbing atau menonton pemain lain.
+chat_invited_to_game					^900* Anda telah dijemput ke permainan '{gamename}' di '{address}' oleh {inviter}.
+chat_not_on_team						^900* Anda tidak dapat Chat kumpulan, anda tidak berada dalam team!
+
+chat_excessive_gameplay_message			Bermain permainan yang berlebihan boleh mengganggu kehidupan harian biasa, sila ingat untuk mengambil percutian singkat semasa bermain jangka masa yang lama.
+chat_excessive_gameplay_1_hour			Anda telah bermain 1 jam.
+chat_excessive_gameplay_2_hours			anda telah bermain 2 jam.
+chat_excessive_gameplay_fatigue			Anda telah bermemain terlalu lama dan kini mengalami keletihan, faedah permainan anda kini mengurangkan kepada separuh.
+chat_excessive_gameplay_unhealthy		Anda telah bermain cukup lama untuk mengalami kesan sampingan yang tidak sihat, anda tidak lagi menerima apa-apa faedah permainan.
+
+// stats                                    
+chat_stats_header                           ^492* Statistik Untuk ^982{name}^492
+chat_stats_body1                            ^492    Clan: ^999{clan_name}   ^982||   ^492    Lvl: ^999{level}   ^982||   ^492W: ^999{wins}^555({winpercent}) ^492L: ^999{losses} ^492Disc: ^999{disconnects}^555({leavepercent})
+chat_stats_body2                            ^492    K/D/A: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists}   ^982||   ^492Exp / Min: ^999{expmin}   ^982||   ^492PSR: ^999{psr}
+
+// chat notifications                       
+chat_notification_cc_panel                  Tekan F6 untuk membuka Panel Komuniti dan Clan
+chat_notification_buddy_online              {name} sedang online.
+chat_notification_buddy_offline             {name} sedang offline.
+chat_notification_buddy_joined_game         {name} telah bergabung ke permainan '{game}'.
+chat_notification_buddy_left_game           {name} telah meninggalkan permainan '{game}'.
+chat_notification_clan_online               {name} sedang online.
+chat_notification_clan_offline              {name} sedang offline.
+chat_notification_clan_joined_game          {name} telah bergabung ke permainan '{game}'.
+chat_notification_clan_left_game            {name} telah meninggalkan permainan '{game}'.
+chat_notification_clan_whisper              (Clan) {name}: {message}
+chat_notification_clan_whisper_sent         (Clan) {name}: {message}
+chat_notification_clan_new_user             {name} telah bergabung ke clan.
+chat_notification_clan_new_user_self        Anda telah bergabung ke clan {clan}.
+chat_notification_clan_left_self            Anda telah meninggalkan clan.
+chat_notification_clan_left                 {name} telah meninggalkan clan.
+chat_notification_clan_joined               {name} telah bergabung ke clan.
+chat_notification_clan_rank_change          {changer} telah menukar pangkat ^990{name}^279 menjadi ^990{rank}^279.
+chat_notification_clan_rank_change_self     {changer} telah menukar pangkat anda menjadi ^990{rank}^279.
+chat_notification_clan_kick                 {changer} telah menendang ^990{name}^279 keluar dari clan.
+chat_notification_clan_kick_self            {changer} telah menendang anda keluar dari clan.
+
+// chat commands                            
+chat_command_whisper                        /whisper
+chat_command_whisper_short                  /w
+chat_command_whisper_help                   ^279*^707 /whisper <user> <Mesej>.
+chat_command_reply                          /reply
+chat_command_reply_short                    /r
+chat_command_reply_invalid                  ^279* Tidak ada yang whisper anda!
+chat_command_reply_help                     ^279*^707 /reply <Mesej>.
+chat_command_buddy                          /buddy
+chat_command_friend					/friend
+chat_command_buddy_short                    /b
+chat_command_friend_short			/f
+chat_command_buddy_list                     list
+chat_command_buddy_list_short               l
+chat_command_buddy_list_message             ^279* Menunjukkan Senarai Kawan...
+chat_command_buddy_list_none                ^279* Anda tidak memiliki kawan di senarai kawan.
+chat_command_buddy_list_help                ^279*^707 /buddy list.
+chat_command_buddy_message                  message
+chat_command_buddy_message_short            m
+chat_command_buddy_message_help             ^279*^707 /buddy message <Mesej>.
+chat_command_buddy_add                      add
+chat_command_buddy_add_short                a
+chat_command_buddy_add_help                 ^279*^707 /buddy add <user>.
+chat_command_buddy_delete                   delete
+chat_command_buddy_delete_short             d
+chat_command_buddy_delete_help              ^279*^707 /buddy delete <user>.
+chat_command_clan                           /clan
+chat_command_clan_short                     /c
+chat_command_clan_list                      list
+chat_command_clan_list_short                l
+chat_command_clan_list_message              ^279* Menunjukkan Senarai Anggota Clan...
+chat_command_clan_list_none                 ^279* Anda tidak memiliki user di clan.
+chat_command_clan_list_help                 ^279*^707 /clan list.
+chat_command_clan_message                   message
+chat_command_clan_message_short             m
+chat_command_clan_message_help              ^279*^707 /clan message <Mesej>.
+chat_command_clan_promote                   promote
+chat_command_clan_promote_short             p
+chat_command_clan_promote_help              ^279*^707 /clan promote <user>.
+chat_command_clan_demote                    demote
+chat_command_clan_demote_short              d
+chat_command_clan_demote_help               ^279*^707 /clan demote <user>.
+chat_command_clan_remove                    remove
+chat_command_clan_remove_short              r
+chat_command_clan_remove_help               ^279*^707 /clan remove <user>.
+chat_command_clan_invite                    invite
+chat_command_clan_invite_short              i
+chat_command_clan_invite_help               ^279*^707 /clan invite <user>.
+chat_command_clan_leave                     leave
+chat_command_clan_leave_short               l
+chat_command_clan_leave_help                ^279*^707 /clan leave.
+chat_command_clear                          /clear
+chat_command_clear_short                    /cl
+chat_command_join                           /join
+chat_command_join_help                      ^279*^707 /join <channel> "password".  (Gunakan tanda kutip pada password)
+chat_command_join_short                     /j
+chat_command_invite                         /invite
+chat_command_invite_short                   /i
+chat_command_invite_help                    ^279*^707 /invite <user>.
+chat_command_whois                          /whois
+chat_command_whois_short                    /who
+chat_command_whois_help                     ^279*^707 /whois <user>.
+chat_command_stats                          /stats
+chat_command_stats_short                    /s
+chat_command_stats_pop                      pop
+chat_command_stats_help                     ^279*^707 /stats <user> [pop].
+chat_command_joingame                       /joingame
+chat_command_joingame_short                 /jg
+chat_command_joingame_buddy                 buddy
+chat_command_joingame_buddy_short           b
+chat_command_joingame_name                  name
+chat_command_joingame_name_short            n
+chat_command_joingame_ip                    ip
+chat_command_joingame_ip_short              i
+chat_command_joingame_buddy_help            ^279*^707 /joingame buddy <user>
+chat_command_joingame_name_help             ^279*^707 /joingame name <user>
+chat_command_joingame_ip_help               ^279*^707 /joingame ip <alamat_IP>
+chat_command_joingame_buddy_failed          ^279* Gagal bergabung ke permainan - Sama ada user tidak ditemui, atau mereka tidak berada di dalam permainan.
+chat_command_topic                          /topic
+chat_command_topic_short                    /t
+chat_command_topic_help                     ^279*^707 /topic
+chat_command_topic_set_help                 ^279*^707 /topic <topik> (Memerlukan hak admin channel)
+chat_command_kick                           /kick
+chat_command_kick_short                     /k
+chat_command_kick_help                      ^279*^707 /kick <user> (Memerlukan hak admin channel)
+chat_command_ban                            /ban
+chat_command_ban_help                       ^279*^707 /ban <user> (Memerlukan hak admin channel)
+chat_command_unban                          /unban
+chat_command_unban_help                     ^279*^707 /unban <user> (Memerlukan hak admin channel)
+chat_command_silence                        /silence
+chat_command_silence_help                   ^279*^707 /silence <user> <jangka masa dalam menit> (Memerlukan hak admin channel)
+chat_command_message_all_long               /messageall
+chat_command_message_all                    /msgall
+chat_command_banlist                        /banlist
+chat_command_banlist_short                  /bl
+chat_command_banlist_list                   list
+chat_command_banlist_list_short             l
+chat_command_banlist_list_message           ^279* Menunjukkan senarai ban...
+chat_command_banlist_list_none              ^279* Anda tidak memiliki user di senarai ban.
+chat_command_banlist_list_entry             ^999{name}: ^888{reason}
+chat_command_banlist_list_help              ^279*^707 /banlist list.
+chat_command_banlist_add                    add
+chat_command_banlist_add_short              a
+chat_command_banlist_add_help               ^279*^707 /banlist add <nick> <alasan>.
+chat_command_banlist_delete                 delete
+chat_command_banlist_delete_short           d
+chat_command_banlist_delete_help            ^279*^707 /banlist delete <nick>.
+chat_command_ignorechat                     /ignorechat
+chat_command_ignorechat_short               /ic
+chat_command_ignorechat_enemy_all_on        ^279* Anda mengabaikan 'ALL" chat dari kumpulan lawan sekarang.
+chat_command_ignorechat_all_on              ^279* Anda mengabaikan 'ALL" chat dari kedua-dua kumpulan sekarang.
+chat_command_ignorechat_team_on             ^279* Anda mengabaikan 'Team' chat sekarang.
+chat_command_ignorechat_every_on            ^279* Anda mengabaikan 'ALL" chat and 'Team' chat sekarang.
+chat_command_ignorechat_off                 ^279* Anda tidak lagi mengabaikan chat apapun.
+chat_command_friendlychat                   /friendlychat
+chat_command_friendlychat_short             /fc
+chat_command_friendlychat_on                ^279* Anda sekarang hanya menerima mesej daripada pemain di dalam clan anda atau dalam senarai kawan anda.
+chat_command_friendlychat_off               ^279* Anda sekarang menerima mesej daripada semua pemain.
+chat_command_ignore                         /ignore
+chat_command_ignore_list                    list
+chat_command_ignore_list_short              l
+chat_command_ignore_list_message            ^279* Menunjukkan Senarai Abaian...
+chat_command_ignore_list_none               ^279* Anda tidak memiliki user di senarai abaian.
+chat_command_ignore_list_entry              ^999{name}
+chat_command_ignore_list_help               ^279*^707 /ignore list.
+chat_command_ignore_add                     add
+chat_command_ignore_add_short               a
+chat_command_ignore_add_help                ^279*^707 /ignore add <nick>.
+chat_command_ignore_delete                  delete
+chat_command_ignore_delete_short            d
+chat_command_ignore_delete_help             ^279*^707 /ignore delete <nick>.
+chat_command_notes                          /notes
+chat_command_notes_short                    /n
+chat_command_notes_list                     list
+chat_command_notes_list_short               l
+chat_command_notes_list_message             ^279* Menunjukkan Senarai Catatan...
+chat_command_notes_list_none                ^279* Anda tidak memiliki catatan di senarai catatan.
+chat_command_notes_list_entry               ^279{id}: ^888{note}
+chat_command_notes_list_help                ^279*^707 /notes list.
+chat_command_notes_add                      add
+chat_command_notes_add_success              ^279* Catatan berjaya ditambah.
+chat_command_notes_add_short                a
+chat_command_notes_add_help                 ^279*^707 /notes add <catatan>.
+chat_command_notes_delete                   delete
+chat_command_notes_delete_short             d
+chat_command_notes_delete_help              ^279*^707 /notes delete <id>.
+chat_command_notes_delete_success           ^279* Catatan berjaya dihapuskan.
+chat_command_notes_delete_invalid           ^279* ID catatan tidak sah.
+chat_command_promote                        /promote
+chat_command_promote_short                  /p
+chat_command_promote_help                   ^279*^707 /promote <user> (Memerlukan hak admin channel)
+chat_command_demote                         /demote
+chat_command_demote_short                   /d
+chat_command_demote_help                    ^279*^707 /demote <user> (Memerlukan hak admin channel)
+chat_command_auth                           /auth
+chat_command_auth_short                     /a
+chat_command_auth_list                      list
+chat_command_auth_list_short                l
+chat_command_auth_list_message              ^279* Menunjukkan Senarai Penguasaan...
+chat_command_auth_list_none                 ^279* Tidak ada user yang diberikuasa di channel ini.
+chat_command_auth_list_entry                ^999{name}
+chat_command_auth_list_help                 ^279*^707 /auth list.
+chat_command_auth_add                       add
+chat_command_auth_add_short                 a
+chat_command_auth_add_help                  ^279*^707 /auth add <nick>.
+chat_command_auth_delete                    delete
+chat_command_auth_delete_short              d
+chat_command_auth_delete_help               ^279*^707 /auth delete <nick>.
+chat_command_auth_enable                    enable
+chat_command_auth_enable_help               ^279*^707 /auth enable (Hanya mengizinkan user yang berada di dalam senarai penguasaan untuk bergabung ke channel).
+chat_command_auth_disable                   disable
+chat_command_auth_disable_help              ^279*^707 /auth disable.
+chat_command_password                       /password
+chat_command_password_short                 /pass
+chat_command_password_set_help              ^279*^707 /password (Menghapus password channel, memerlukan hak admin channel)
+chat_command_password_clear_help            ^279*^707 /password <password> (Memberi password channel, memerlukan hak admin channel)
+chat_command_roll                           /roll
+chat_command_roll_help                      ^279*^707 /roll <rendah> <tinggi> (Mengundi satu angka di antara angka rendah dan angka tinggi (1 hingga 32,767)).
+chat_command_emote                          /emote
+chat_command_emote_help                     ^279*^707 /emote <Mesej emote>.
+chat_command_emote_short                    /em
+chat_command_time                           /time
+chat_command_ping                           /ping
+chat_command_matchup                        /matchup
+chat_command_matchup_short                  /ma
+chat_command_matchup_help                   Informasi macthup hanya tersedia setelah permainan telah bermula.
+chat_command_gameinfo                       /gameinfo
+chat_command_gameinfo_short                 /gi
+chat_command_ping_all                       /pingall
+chat_command_ping_all_short                 /pa
+chat_command_available                      /available
+chat_command_available_message              ^279* Status chat anda sekarang 'Available'.
+chat_command_afk                            /afk
+chat_command_afk_message                    ^279* Status chat anda sekarang 'Away From Keyboard': {reason} 
+chat_command_dnd                            /dnd
+chat_command_dnd_message                    ^279* Status chat anda sekarang 'Do Not Disturb': {reason}
+
+chat_command_weather                        /weather
+chat_command_weather_intro                  ^279* Masukkan perintah cuaca:
+chat_command_weather_entry                  ^279* /weather {nama}
+chat_command_weather_selected               ^279* Efek cuaca yang dipilih '{name}'
+
+chat_command_server                         /serverchat
+chat_command_server_short                   /sc
+
+chat_command_help                           /help
+chat_command_help_short                     /h
+chat_command_character                      /
+chat_command_invalid_format                 ^279* Format perintah salah. Format yang benar adalah:
+chat_command_invalid_format_multi           ^279* Format perintah salah. Format yang benar adalah salah satu dari:
+chat_command_invalid_command                ^279* Perintah salah. Ketik {helpcommand} untuk senarai perintah.
+chat_command_help_valid                     ^279* Perintah yang benar adalah:
+chat_command_help_whisper                   ^279*^707 /whisper <user> <Mesej>^279         - Untuk whisper kepada user.
+chat_command_help_reply                     ^279*^707 /reply <Mesej>^279                  - Membalas whisper terakhir.
+chat_command_help_buddy                     ^279*^707 /buddy <perintah> <parameter>^279   - Pelbagai perintah yang berhubung dengan kawan.
+chat_command_help_clan                      ^279*^707 /clan <perintah> <parameter>^279    - Pelbagai perintah yang berhubung dengan clan.
+chat_command_help_join                      ^279*^707 /join <channel> "password"^279      - Bergabung ke channel tertentu (Masukkan password dengan tanda kutip jika ada).
+chat_command_help_clear                     ^279*^707 /clear^279                          - Membersihkan buffer chat.
+chat_command_help_invite                    ^279*^707 /invite <user>^279                  - Mengundang user tertentu ke game sekarang.
+chat_command_help_whois                     ^279*^707 /whois <user>^279                   - Mendapatkan informasi mengenai user tertentu
+chat_command_help_stats                     ^279*^707 /stats <user> [pop]^279             - Mendapatkan statistik mengenai user tertentu (Secara rawak, menambahkan "pop" untuk menampilkan statistik secara menurun).
+chat_command_help_joingame                  ^279*^707 /joingame <tipe> <parameter>^279    - Bergabung ke game.
+chat_command_help_topic                     ^279*^707 /topic [topic]^279                  - Melihat atau menukar topik channel.
+chat_command_help_kick                      ^279*^707 /kick <user>^279                    - Menendang user dari channel (Memerlukan hak admin channel).
+chat_command_help_ban                       ^279*^707 /ban <user>^279                     - Ban user dari channel (Memerlukan hak admin channel).
+chat_command_help_unban                     ^279*^707 /unban <user>^279                   - Unbans user dari channel (Memerlukan hak admin channel).
+chat_command_help_silence                   ^279*^707 /silence <user> <durasi>^279        - Silence user selama <durasi> menit (Memerlukan hak admin channel).
+chat_command_help_promote                   ^279*^707 /promote <user>^279                 - Mempromosikan pangkat user di channel (Memerlukan hak admin channel)
+chat_command_help_demote                    ^279*^707 /demote <user>^279                  - Menurunkan pangkat user di channel (Memerlukan hak admin channel)
+chat_command_help_banlist                   ^279*^707 /banlist <perintah> <parameter>^279 - Perintah pengelolaan Senarai Ban.
+chat_command_help_ignore                    ^279*^707 /ignore <perintah> <parameter>^279  - Perintah pengelolaan Senarai Abaian.
+chat_command_help_ignorechat                ^279*^707 /ignorechat^279                     - Toggle untuk mengabaikan chat TEAM dan chat ALL.
+chat_command_help_friendlychat              ^279*^707 /friendlychat^279                   - Toggle untuk mengabaikan Mesej daripada pemain yang tidak berada di clan anda atau senarai kawan anda.
+chat_command_help_notes                     ^279*^707 /notes <perintah> <parameter>^279   - Perintah pengelolaan Senarai Catatan.
+chat_command_help_auth                      ^279*^707 /auth <perintah> <parameter>^279    - Perintah pengelolaan Senarai Penguasaan user di channel (Memerlukan hak admin channel).
+chat_command_help_password                  ^279*^707 /password <password>^279            - Mengganti password channel sekarang (Memerlukan hak admin channel).
+chat_command_help_password_clear            ^279*^707 /password^279                       - Menghapuskan password channel sekarang (Memerlukan hak admin channel)
+chat_command_help_roll                      ^279*^707 /roll <rendah> <tinggi>^279         - Mengundi satu angka di antara angka rendah dan angka tinggi (1 hingga 32,767)
+chat_command_help_emote                     ^279*^707 /emote <message>^279                - Emote satu mesej dari username anda
+chat_command_help_time                      ^279*^707 /time^279                           - Menunjukkan waktu sistem sekarang.
+chat_command_help_ping                      ^279*^707 /ping^279 (Hanya di dalam game)     - Menunjukkan ping anda ke server game.
+chat_command_help_matchup                   ^279*^707 /matchup^279 (Hanya di dalam game)  - Menunjukkan informasi pemain (kumpulan, nama, warna, dan hero) di game sekarang.
+chat_command_help_gameinfo                  ^279*^707 /gameinfo^279 (Hanya di dalam game) - Menunjukkan beberapa informasi tentan game sekarang.
+chat_command_help_available                 ^279*^707 /available^279                      - Toggle status chat menjadi 'available'.
+chat_command_help_afk                       ^279*^707 /afk <Mesej afk>^279                - Toggle status chat menjadi 'away from keyboard', membalas whisper dengan mesej yang telah ditentukan secara automatik.
+chat_command_help_dnd                       ^279*^707 /dnd <Mesej dnd>^279                - Toggle status menjadi 'do not disturb', menghentikan whispher yang masuk untuk dikirim kepada anda dan membalas whisper dengan mesej yang telah ditentukan secara automatik.
+chat_command_help_weather                   ^279*^707 /weather^279 (Hanya di dalam game)  - Mengganti efek cuaca
+chat_command_help_misc                      ^279* Taip perintah apa pun tanpa hujah untuk menampilkan informasi tentang cara penggunaannya.
+
+//End

@@ -1,0 +1,549 @@
+﻿error_title						Eroare
+error_unknown					Eroare necunoscută.
+
+disconnect_title				Deconectat
+disconnect_not_host				Trebuie să ai privilegii de gazduire pentru a porni un meci pe acest server.
+disconnect_server_full			Serverul este plin.
+disconnect_game_in_progress		Jocul la care încerci să te conectezi a început deja.
+disconnect_server_error			Eroare server.
+disconnect_snapshot_fragment	Prea multe fragmente.
+disconnect_not_invited			Nu ai o invitaţie ca să te poţi conecta la acest meci privat.
+disconnect_no_cookie			Trebuie să te autentifici pentru a juca pe acest server.
+disconnect_auth_failed			Serverul nu ţi-a putut verifica contul. Te rugăm să mai încerci o dată.
+disconnect_duplicate_connect	Ai fost deconectat deoarece un alt client s-a autentificat folosind acelaşi cont.
+disconnect_unknown				Ai fost deconectat.
+disconnect_timeout				Niciun răspuns de la server.
+disconnect_game_over			Meciul s-a încheiat.
+disconnect_idle					Ai fost deconectat deoarece ai fost inactiv.
+disconnect_terminated			Ai depăşit numărul maxim permis de deconectări şi nu te mai poţi reconecta la acest meci.
+disconnect_kicked				Ai fost eliminat din meci de către gazdă.
+disconnect_vote_kicked			Ai fost eliminat din meci în urma unui vot.
+disconnect_unassigned			Gazda a început meciul când tu nu făceai parte dintr-o echipă.
+disconnect_banned				Gazda ţi-a interzis accesul la acest meci.
+disconnect_leaver				Nu te poţi conecta la acest meci pentru că ai prea multe abandonuri.
+disconnect_overflow				Ai fost deconectat de pe server din cauza unui packet overflow.
+disconnect_flooding				Ai fost deconectat deoarece încerci să floodezi serverul.
+disconnect_invalid_tier			Nu poţi participa la meciuri la acest nivel.
+disconnect_invalid_psr			PSR-ul este prea mic sau prea mare pentru acest meci.
+disconnect_not_on_roster		Nu te afli pe registrul acestui meci pe echipe predefinite.
+disconnect_modified_core_files	Fişierul resources0.s2z a fost modificat. Acest lucru NU trebuie să se întâmple! Instalează din nou Heroes of Newerth.
+disconnect_client_number_mismatch	Eroare de conectare, te rugăm să încerci din nou.
+disconnect_trial_not_allowed		Nu te poţi conecta la acest meci folosind un cont trial. Conturile trial nu pot participa decât în meciuri fără statistici înregistrate.
+disconnect_duplicate_login			Serverul nu ţi-a putut autoriza contul. Trebuie să rămâi conectat pentru a juca.
+disconnect_duplicate_game_connect	Ai fost deconectat deoarece altcineva a început să joace într-un meci diferit cu acest cont.
+disconnect_unique_login_failed		Ai fost deconectat deoarece serverul nu a putut autoriza acest cont. Te rugăm să încerci din nou mai târziu.
+disconnect_mm_players_left		Unul sau mai mulţi jucători s-au deconectat.
+disconnect_mm_player_left		Un jucător a părăsit meciul.
+disconnect_mm_connect_timeout	Conectare eşuată: timp prea lung de răspuns.
+disconnect_mm_start_timeout		Conectare jucătorilor a durat prea mult. Meciul a fost oprit.
+
+
+rejected_invalid_request		Clientul tău a trimis o cerere invalidă de conectare.
+rejected_empty_address			Serverul nu ţi-a putut determina adresa IP.
+rejected_wrong_game				Serverul rulează un alt joc.
+rejected_wrong_version			Versiunea ta nu corespunde cu cea a serverului.
+rejected_banned					Ţi-a fost interzis accesul pe acest server.
+rejected_invalid_password		Parolă invalidă.
+rejected_server_error			Eroare server.
+rejected_server_taken			Altcineva începe deja un meci pe serverul ales de tine. Te rugăm să mai încerci o dată.
+rejected_not_host				Trebuie să ai privilegii de gazduire pentru a porni un meci pe acest server.
+
+// chat system messages
+chat_connecting						^279* Conectare la serverul de chat...
+chat_reconnecting					^279* Conectare la serverul de chat... (Încercarea {attempt} din {maxattempts})
+chat_waiting_verification			^279* Se aşteaptă autentificarea din partea serverului de chat...
+chat_connected						^279* Conectat!
+chat_connected_invisible			^279* Te-ai conectat în mod Invizibil. Clientul nu va trimite informaţii prietenilor sau membrilor clanului, dar vei putea primi informaţii din partea lor ca şi cum ai fi online.
+chat_disconnected					^279* Deconectat de la serverul de chat.
+chat_reconnecting_delay				^279* Reconectare în 30 de secunde (Încercarea {attempt} din {maxattempts}).
+chat_not_connected					^279* Nu eşti conectat la serverul de chat.
+chat_new_channel					^279* Acum discuţi în canalul ^090{channel}^279.
+chat_channel_message				^990{sender}:^888 {message}
+chat_channel_message_sent			^444{name}:^* {message}
+chat_whisper						^099(Şoaptă de la {sender}) ^888{message}
+chat_whisper_sent					^066(I-ai şoptit lui {target}) ^888{message}
+chat_whisper_buddies				^066<Le-ai şoptit prietenilor> {message}
+chat_whisper_to_buddies				^099<{sender} le-a şoptit prietenilor> {message}
+chat_whisper_failed_self			^279* Nu-ţi poţi sopţi singur.
+chat_failed_invisible				^279* Nu poţi discuta cât timp eşti în mod Invizibil.
+chat_mode_switch_fail				^279* Nu-ţi poţi schimba statusul cât timp eşti invizibil. Te rugăm să te autentifici din nou pentru a folosi această opţiune.
+chat_mode_afk_auto_response			^099* Mesajul a fost trimis, dar ^990{target}^279 nu se află la calculator: {message}
+chat_mode_afk_default_response		Plecat
+chat_mode_dnd_auto_response			^099 Mesajul nu a fost trimis, ^990{target}^279 nu vrea să fie deranjat: {message}
+chat_mode_dnd_default_response		Nu deranjaţi
+chat_user_offline					^279* Jucătorul nu este conectat.
+chat_im								^882{sender}: ^888{message}
+chat_im_sent						^444{name}: ^888{message}
+chat_im_failed						^279* ^990{target}^279 nu este conectat.
+chat_clan_whisper					^359(Clan) {name}: ^888{message}
+chat_clan_whisper_sent				^458(Clan) {name}: ^888{message}
+chat_clan_whisper_failed			^279* Nu faci parte dintr-un clan.
+chat_clan_im						^359{name}: ^888{message}
+chat_clan_im_sent					^458{name}: ^888{message}
+chat_flooding						^279* Mesajul nu a fost trimis - Trimiţi prea multe mesaje. Te rugăm să aştepţi câteva secunde înainte de a încerca din nou.
+chat_max_channels					^279* Nu te mai poţi conectat la niciun canal momentan, trebuie să părăşeşti unul deja existent mai întâi.
+chat_banned							^279* Deconectat - Ţi-a fost interzis accesul pe acest server de chat timp de {time} minute.
+chat_banned_connections				^279* Motiv: Prea multe tentative de conectare.
+chat_banned_flooding				^279* Motiv: Flooding.
+chat_banned_unknown					^279* Motiv: Necunoscut.
+chat_banned_reconnect				^279* Se încearcă reconectarea (Încercarea {attempt} din {maxattempts}) în {time} secunde.
+chat_info_not_found					^279* Utilizatorul '^990{name}^279' nu a fost găsit.
+chat_info_offline					^279* ^990{name}^279 este deconectat, ultima autentificare - {seen}.
+chat_info_online_no_channels		^279* ^990{name}^279 este conectat şi nu participă la niciun canal de discuţii.
+chat_info_online_one_channel		^279* ^990{name}^279 este conectat şi participă în canalul '{channel}'.
+chat_info_online_multi_channels		^279* ^990{name}^279 este conectat şi participă în următoarele canale: {channels}
+chat_info_in_game					^279* ^990{name}^279 este conectat şi participă în meciul '{game}^279'.
+chat_info_in_game_time				^279* ^990{name}^279 este conectat şi participă în meciul '{game}^279'. Timp de joc: {cgt}.
+chat_ignored						^279* ^990{name}^279 este ignorat.
+chat_unignored						^279* ^990{name}^279 nu mai este ignorat.
+chat_joining_game					^279* Conectare la meciul '^990{name}^279'.
+chat_left_game						^279* Ai părăsit jocul.
+chat_user_info_online				^279* ^990{name}^279 este conectat.
+chat_user_info_offline				^279* ^990{name}^279 este deconectat.
+chat_user_info_in_game				^279* ^990{name}^279 participă în jocul '{game}'.
+chat_saving_channel					^279* Canalul ^g{channel}^279 este adăugat în listă...
+chat_failed_saving_channel			^279* Canalul ^g{channel}^279 nu a putut fi adăugat în listă...
+chat_invalid_channel				^279* Canalul ^g{channel}^279 nu a putut fi adăugat în lista pentru conectare automată deoarece conţine caractere invalide. (% sau ^)
+chat_removing_channel				^279* Canalul ^g{channel}^279 este şters din listă...
+chat_failed_removing_channel		^279* Canalul ^g{channel}^279 nu a putut fi şters din listă...
+chat_failed_saving_notification		^279* Notificarea nu a putut fi salvată...
+chat_failed_removing_notification	^279* Notificarea cu id-ul {id} nu a putut fi ştearsă...
+chat_failed_removing_notifications	^279* Nu au putut fi şterse toate notificările...
+chat_adding_buddy					^279* ^990{name}^279 este adăugat ca prieten...
+chat_failed_buddy_add				^279* ^990{target}^279 nu a putut fi adăugat în lista de prieteni.
+chat_failed_buddy_add_self			^279* Nu te poţi adăuga pe tine ca prieten.
+chat_failed_buddy_remove_self		^279* Nu te poţi şterge ca prieten.
+chat_failed_buddy_add_duplicate		^279* Utilizatorul se află deja în lista de prieteni.
+chat_failed_buddy_add_reason		^279* ^990{target}^279 nu a putut fi adăugat în lista de prieteni: {reason}
+chat_failed_buddy_remove			^279* ^990{target}^279 nu a putut fi şters din lista de prieteni.
+chat_failed_buddy_remove_not_found	^279* Utilizatorul nu a putut fi şters din lista de prieteni: Utilizatorul nu a fost găsit.
+chat_approved_buddy_adder			^279* ^990{name}^279 este adăugat ca prieten...
+chat_approved_buddy_added			^279* ^990{name}^279 te-a adăugat ca prieten...
+chat_requesting_buddy				^279* ^990{name}^279 a fost notificat pentru includerea în lista de prieteni...
+chat_requested_approval_adder		^279* Ai cerut ca ^990{name}^279 să-ţi devină prieten...
+chat_requested_approval_added		^279* ^990{name}^279 te roagă să-i devii prieten...
+chat_requested_approval_failed		^279* Nu s-a putut trimite cererea de prietenie către ^990{name}^279...
+chat_requested_approval_duplicate	^279* Dacă tu sau utilizatorul ^990{name}^279 aţi trimis recent o cerere de prietenie, te rugăm să aştepţi un minut înainte de a încerca din nou...
+chat_requested_approval_ignored		^279* Utilizatorul ^990{name}^279 te ignoră, nu-i poţi trimite o cerere de prietenie.
+chat_approving_buddy				^279* ^990{name}^279 a fost aprobat ca prieten...
+chat_failed_approving_buddy			^279* ^990{name}^279 nu a fost aprobat ca prieten...
+chat_clan_promoting					^279* Membrul ^990{name}^279 a fost promovat ca ofiţer...
+chat_failed_clan_promote			^279* ^990{target}^279 nu a fost promovat.
+chat_failed_clan_promote_cannot_promote		^279* Nu poţi promova acel utilizator.
+chat_failed_clan_promote_generic			^279* Utilizatorul nu a fost promovat.
+chat_clan_demoting					^279* Membrul ^990{name}^279 a fost retrogradat...
+chat_failed_clan_demote				^279* ^990{target}^279 nu a putut fi retrogradat.
+chat_failed_clan_demote_cannot_demote	^279* Nu poţi retrograda acel utilizator.
+chat_failed_clan_demote_generic			^279* Utilizatorul nu a putut fi retrogradat.
+chat_clan_removing					^279* Membrul ^990{name}^279 este eliminat...
+chat_clan_removing_self				^279* Încercare de părăsire a clanului...
+chat_failed_clan_remove				^279* ^990{target}^279 nu a putut fi eliminat din clan.
+chat_failed_clan_remove_self		^279* Părăsire eşuată a clanului.
+chat_failed_clan_remove_demote		^279* Utilizatorul trebuie mai întâi retrogradat înainte de a fi eliminat.
+chat_failed_clan_remove_generic		^279* Utilizatorul nu a putut fi eliminat din clan.
+chat_failed_clan_name				^279* Nu s-a putut verifica disponibilitatea numelui şi a tag-ului pentru clan, mai încearcă o dată.
+chat_failed_clan_name_tip			Nu s-a putut verifica disponibilitatea numelui şi a tag-ului pentru clan, mai încearcă o dată.
+chat_invalid_clan_name				^279* Numele de clan ^990{name}^279 şi tag-ul ^990{tag}^279 nu sunt disponibile.
+chat_invalid_clan_name_tip			Numele de clan ^990{name}^* şi tag-ul ^990{tag}^* nu sunt disponibile.
+chat_invalid_clan_name_used			^279* Numele de clan ^990{name}^279 este deja folosit.
+chat_invalid_clan_name_used_tip		Numele de clan ^990{name}^* este deja folosit.
+chat_invalid_clan_tag_used			^279* Tag-ul ^990{tag}^279 este deja folosit.
+chat_invalid_clan_tag_used_tip		Tag-ul ^990{tag}^* este deja folosit.
+chat_invalid_clan_name_format		^279* Numele de clan ^990{name}^279 nu este valid. Trebuie să aibă între 1 şi 32 de caractere şi să conţină doar caractere alfanumerice, spaţii, cratime sau slash-uri.
+chat_invalid_clan_name_format_tip	Numele de clan ^990{name}^* nu este valid.  Trebuie să aibă între 1 şi 32 de caractere şi să conţină doar caractere alfanumerice, spaţii, cratime sau slash-uri.
+chat_invalid_clan_tag_format		^279* Tag-ul ^990{tag}^279 nu este valid. Trebuie să aibă între 1 şi 3 caractere şi să conţină doar caractere alfanumerice.
+chat_invalid_clan_tag_format_tip	Tag-ul ^990{tag}^* nu este valid. Trebuie să aibă între 1 şi 3 caractere şi să conţină doar caractere alfanumerice.
+chat_success_buddy_add				^279* ^990{target}^279 a fost adăugat ca prieten.
+chat_success_buddy_remove			^279* ^990{target}^279 a fost şters din lista de prieteni.
+chat_success_clan_promote			^279* ^990{target}^279 a fost promovat.
+chat_success_clan_demote			^279* ^990{target}^279 a fost retrogradat.
+chat_success_clan_remove			^279* ^990{target}^279 a fost eliminat din clan.
+chat_success_clan_remove_self		^279* Ai părăsit clanul.
+chat_topic_change					^279* Subiectul discuţiei a fost schimbat în '^990{topic}^279'.
+chat_topic							^279* Subiectul discuţiei este '^990{topic}^279'.
+chat_not_operator					^279* Nu ai drepturi administrative în acest canal.
+chat_user_kicked					^279* ^990{kickee}^279 a fost dat afară de către ^990{kicker}^279.
+chat_kicked							^279* Ai fost dat afară din canalul '^990{channel}^279' de către ^990{kicker}^279.
+chat_user_banned					^279* ^990{banned}^279 a fost exilat de pe canal de către ^990{banner}^279.
+chat_user_banned_no_name			^279* ^990{banned}^279 a fost exilat de pe canal.
+chat_channel_banned					^279* Ai fost exilat de pe canalul '^990{channel}^279' de către ^990{banner}^279.
+chat_channel_banned_no_name			^279* Ai fost exilat de pe canalul '^990{channel}^279'.
+chat_user_unbanned					^279* ^990{unbanned}^279 a fost reprimit pe canal de către ^990{unbanner}^279.
+chat_user_unbanned_no_name			^279* ^990{unbanned}^279 a fost reprimit pe canal.
+chat_unbanned						^279* Ai fost reprimit pe canalul '^990{channel}^279' de către ^990{unbanner}^279.
+chat_unbanned_no_name				^279* Ai fost reprimit pe canalul '^990{channel}^279'.
+chat_banned_from_channel			^279* Ai fost exilat de pe canalul '^990{channel}^279'.
+chat_silenced						^279* Nu poţi discuta pe acest canal.
+chat_silence_lifted					^279* Acum poţi discuta pe canalul '^990{channel}^279'.
+chat_silence_placed					^279* Ţi-a fost interzis să discuţi de către ^990{name}^279 pe canalul '^990{channel}^279' timp de {duration} minut(e).
+chat_user_silence_placed			^279* ^990{silenced}^279 i-a fost interzis să discute de către ^990{name}^279 timp de {duration} minut(e).
+chat_message_all					^900{name}:^999 {message}
+chat_roll_message					{player} a dat cu zarul {low} {high} şi a obţinut {number}.
+chat_current_time					Ora este: {time}.
+chat_current_ping					Ping-ul este: {ping}.
+chat_adding_banlist					^279* ^990{name}^279 a fost adăugat în banlist...
+chat_failed_banlist_add				^279* ^990{target}^279 nu a putut fi adăugat în banlist.
+chat_failed_banlist_add_self		^279* Nu te poţi adăuga în banlist.
+chat_failed_banlist_add_duplicate	^279* Utilizatorul se află deja în banlist.
+chat_failed_banlist_add_reason		^279* ^990{target}^279 nu a putut fi adăugat în banlist: {reason}
+chat_failed_banlist_remove			^279* ^990{target}^279 nu a putut fi şters din banlist.
+chat_failed_banlist_remove_not_found	^279* Utilizatorul nu a putut fi şters din banlist: Utilizatorul nu a fost găsit.
+chat_success_banlist_add				^279* ^990{target}^279 a fost adăugat în banlist.
+chat_success_banlist_remove				^279* ^990{target}^279 a fost şters din banlist.
+chat_adding_ignore						^279* ^990{name}^279 este adăugat în lista de ignorare...
+chat_failed_ignore_add					^279* ^990{target}^279 nu a putut fi adăugat în lista de ignorare.
+chat_failed_ignore_add_self				^279* Nu te poţi adăuga în lista de ignorare.
+chat_failed_ignore_add_duplicate		^279* Utilizatorul se află deja în lista de ignorare.
+chat_failed_ignore_add_reason			^279* ^990{target}^279 nu a putut fi adăugat în lista de ignorare: {reason}
+chat_failed_ignore_remove				^279* ^990{target}^279 nu a putut fi şters din lista de ignorare.
+chat_failed_ignore_remove_not_found		^279* Utilizatorul nu a putut fi şters din lista de ignorare: Utilizatorul nu a fost găsit.
+chat_success_ignore_add					^279* ^990{target}^279 a fost adăugat în lista de ignorare.
+chat_success_ignore_remove				^279* ^990{target}^279 a fost şters din lista de ignorare.
+chat_user_on_banlist					^279* ^990{name}^279 se află în banlist: ^999{reason}
+chat_admin_level_none				Fără statut de administrare
+chat_admin_level_officer			Ofiţer Canal
+chat_admin_level_leader				Lider Canal
+chat_admin_level_administrator		Administrator
+chat_admin_level_staff				Personal
+chat_promote_success				^279* ^990{name}^279 a fost promovat la rang de ^990{rank}^279 de către ^990{promoter}^279.
+chat_promote_failure				^279* Nu ai suficiente privilegii pentru a promova în continuare acest utilizator.
+chat_demote_success					^279* ^990{name}^279 a fost retrogradat la randul de ^990{rank}^279 de către ^990{demoter}^279.
+chat_demote_failure_too_low			^279* Utilizatorul se află deja la nivelul minim de administrare pentru acest canal.
+chat_demote_failure					^279* Nu ai suficiente privilegii pentru a retrograda în continuare acest utilizator.
+chat_not_in_channel					^279* Utilizatorul nu se află în acest canal.
+chat_im_user_offline				^279* ^990{name}^279 s-a deconectat.
+chat_im_user_online					^279* ^990{name}^279 s-a conectat.
+chat_version_mismatch				^279* Versiunea ta nu corespunde cu cea a serverului de discuţii.
+chat_no_permissions					^279* Nu ai suficiente drepturi de administrare pentru a face asta.
+chat_auth_enabled					^279* A fost activată identificarea pentru acest canal, trebuie să fii pe lista utilizatorilor autorizaţi pentru a te putea conecta.
+chat_auth_disabled					^279* Identificarea a fost dezactivată pentru acest canal, toţi utilizatorii se pot conecta.
+chat_auth_add_success				^279* ^990{name}^279 a fost adăugat în lista de autorizare.
+chat_auth_add_failure				^279* ^990{name}^279 se află deja în lista de autorizare.
+chat_auth_remove_success			^279* ^990{name}^279 a fost şters din lista de autorizare.
+chat_auth_remove_failure			^279* ^990{name}^279 nu se află în lista de autorizare.
+chat_password_change				^279* Parola acestui canal a fost schimbată de către ^990{name}^279.
+chat_password_required				^279* Conectarea la canalul ^990{name}^279 necesită o parolă.
+chat_error_clan_rank				^279* Ai nevoie de un rang mai mare în cadrul clanului pentru această acţiune.
+chat_error_clan_not_found			^279* Membrul clanului numit ^990{name}^279 nu a putut fi găsit.
+chat_clan_invite_sent				^279* Este trimisă o invitaţie în clan către ^990{name}^279...
+chat_failed_clan_invite_in_clan			^279* ^990{name}^279 se află deja într-un clan.
+chat_clan_invite_received				^279* ^990{name}^279 te-a invitat să te alături clanului ^990{clan}^279.
+chat_clan_invite_rejected				^279* ^990{name}^279 ţi-a respins invitaţia.
+chat_clan_invite_failed_online			^279* Utilizatorul nu este conectat.
+chat_clan_invite_failed_clan			^279* Utilizatorul face parte dintr-un clan.
+chat_clan_invite_failed_invite			^279* Utilizatorul a fost deja invitat să se alăture clanului.
+chat_clan_invite_failed_permissions		^279* Nu ai suficiente privilegii pentru a invita un utilizator în clanul tău.
+chat_clan_invite_failed_unknown			^279* ^990{name}^279 nu a putut fi inclus în clan.
+chat_clan_invite_failed_unknown_self	^279* Nu te poţi invita în clan.
+chat_clan_new_user						^279* ^990{name}^279 s-a alăturat clanului tău.
+chat_clan_new_user_self					^279* Te-ai alăturat clanului ^990{clan}^279.
+chat_clan_create_fail_clan				^279* Trebuie să părăseşti clanul actual înainte de a crea unul nou.
+chat_clan_create_fail_param				^279* Clanul nu a putut fi creat - Parametri lipsă!
+chat_clan_create_fail_tag				^279* Clanul nu a putut fi creat - Tag-ul este prea lung.
+chat_clan_create_fail_in_clan			^279* Clanul nu a putut fi creat - ^990{name}^279 face deja parte dintr-un clan.
+chat_clan_create_fail_duplicate			^279* Clanul nu a putut fi creat - Membri fondatori duplicaţi nu sunt permişi.
+chat_clan_create_fail_invite			^279* Clanul nu a putut fi creat - ^990{name}^* are deja o invitaţie într-un clan.
+chat_clan_create_fail_not_found			^279* Clanul nu a putut fi creat - ^990{name}^* nu a fost găsit.
+chat_clan_create_fail_clan_name			^279* Clanul nu a putut fi creat - Numele clanului a fost respins. Asigură-te că are între 1 şi 32 de caractere alfanumerice şi nu este deja folosit.
+chat_clan_create_fail_tag				^279* Clanul nu a putut fi creat - Tag-ul a fost respins. Asigură-te că are între 1 şi 3 caractere alfanumerice şi nu este deja folosit.
+chat_clan_create_fail_unknown			^279* Clanul nu a putut fi creat.
+chat_clan_create_fail_time				^279* Clanul nu a putut fi creat - Timpul alocat membrilor fondatori pentru acceptare a expirat.
+chat_clan_create_result_fail_clan		Trebuie să părăseşti clanul actual înainte de a crea unul nou.
+chat_clan_create_result_fail_param		Eroare - Parametri lipsă!
+chat_clan_create_result_fail_tag		Eroare - Tag-ul este prea lung.
+chat_clan_create_result_fail_in_clan	Eroare - ^990{name}^* face deja parte dintr-un clan.
+chat_clan_create_result_fail_duplicate	Eroare - Membri fondatori duplicaţi.
+chat_clan_create_result_fail_invite		Eroare - ^990{name}^* are deja o invitaţie într-un clan.
+chat_clan_create_result_fail_not_found	Eroare - ^990{name}^* nu a fost găsit.
+chat_clan_create_result_fail_clan_name	Eroare - Numele clanului a fost respins.
+chat_clan_create_result_fail_tag		Eroare - Tag-ul a fost respins.
+chat_clan_create_result_fail_unknown	Clanul nu a putut fi creat.
+chat_clan_create_result_fail_time		Eroare - Timpul a expirat.
+chat_clan_create_sent					^279* Cererea de fondare a clanului a fost trimisă, se aşteaptă aprobarea membrilor.
+chat_clan_create_accept					^279* ^990{name}^279 a acceptat cererea de fondare a clanului.
+chat_clan_create_reject					^279* ^990{name}^279 a respins cererea de fondare a clanului.
+chat_clan_create_result_reject			Eroare - ^990{name}^* ţi-a respins cererea.
+chat_clan_create_success				^279* Clanul a fost creat.
+chat_clan_create_result_success			Felicitări! Clanul a fost creat.
+chat_clan_left							^279* ^990{name}^279 a părăsit clanul.
+chat_clan_left_self						^279* Ai părăsit clanul.
+chat_clan_kick							^279* ^990{changer}^279 l-a eliminat pe ^990{name}^279 din clan.
+chat_clan_kick_self						^279* ^990{changer}^279 te-a eliminat din clan.
+chat_clan_joined						^279* ^990{name}^279 s-a alăturat clanului.
+chat_clan_rank_change					^279* ^990{changer}^279 i-a schimbat rangul lui ^990{name}^279 în ^990{rank}^279.
+chat_clan_rank_change_self				^279* ^990{changer}^279 ţi-a schimbat rangul în ^990{rank}^279.
+chat_clan_rank_none						Fără clan
+chat_clan_rank_member					Membru
+chat_clan_rank_officer					Ofiţer
+chat_clan_rank_leader					Lider
+chat_clan_no_clan						^279* Nu faci parte dintr-un clan.
+chat_tourn_match_ready					^279* Te poţi conectat la meciul de turneu ^990{name}^279 în care eşti programat să joci. Foloseşte secţiunea Turnee din panoul Comunitate şi Clanuri.
+
+
+// stats
+chat_stats_header				^492* Statistici pentru ^982{name}^492
+chat_stats_body1				^492    Clan: ^999{clan_name}   ^982||   ^492    Nivel: ^999{level}   ^982||   ^492V: ^999{wins}^555({winpercent}) ^492Î: ^999{losses} ^492Dec: ^999{disconnects}^555({leavepercent})
+chat_stats_body2				^492    A/D/A: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists}   ^982||   ^492XP / Min: ^999{expmin}   ^982||   ^492PSR: ^999{psr}
+
+// chat notifications
+chat_notification_cc_panel				Apasă F6 pentru a deschide panoul Comunitate şi Clanuri.
+chat_notification_buddy_online			{name} s-a conectat.
+chat_notification_buddy_offline			{name} s-a deconectat.
+chat_notification_buddy_joined_game		{name} participă în meciul '{game}'.
+chat_notification_buddy_left_game		{name} a părăsit meciul '{game}'.
+chat_notification_clan_online			{name} s-a conectat.
+chat_notification_clan_offline			{name} s-a deconectat.
+chat_notification_clan_joined_game		{name} participă în meciul '{game}'.
+chat_notification_clan_left_game		{name} a părăsit meciul '{game}'.
+chat_notification_clan_whisper			(Clan) {name}: {message}
+chat_notification_clan_whisper_sent		(Clan) {name}: {message}
+chat_notification_clan_new_user			{name} s-a alăturat clanului.
+chat_notification_clan_new_user_self	Te-ai alăturat clanului {clan}.
+chat_notification_clan_left_self		Ai părăsit clanul.
+chat_notification_clan_left				{name} a părăsit clanul.
+chat_notification_clan_joined			{name} s-a alăturat clanului.
+chat_notification_clan_rank_change		{changer} i-a schimbat rangul lui ^990{name}^279 în ^990{rank}^279.
+chat_notification_clan_rank_change_self	{changer} ţi-a schimbat rangul în ^990{rank}^279.
+chat_notification_clan_kick				{changer} l-a eliminat pe ^990{name}^279 din clan.
+chat_notification_clan_kick_self		{changer} te-a eliminat din clan.
+
+// chat commands
+chat_command_whisper				/whisper
+chat_command_whisper_short			/w
+chat_command_whisper_help			^279*^707 /whisper <nume> <mesaj>.
+chat_command_reply					/reply
+chat_command_reply_short			/r
+chat_command_reply_invalid			^279* Nimeni nu ţi-a şoptit nimic!
+chat_command_reply_help				^279*^707 /reply <mesaj>.
+chat_command_buddy					/buddy
+chat_command_buddy_short			/b
+chat_command_buddy_list				list
+chat_command_buddy_list_short		l
+chat_command_buddy_list_message		^279* Sunt afişaţi prietenii...
+chat_command_buddy_list_none		^279* Nu ai pe nimeni în lista de prieteni.
+chat_command_buddy_list_help		^279*^707 /buddy list.
+chat_command_buddy_message			message
+chat_command_buddy_message_short	m
+chat_command_buddy_message_help		^279*^707 /buddy message <mesaj>.
+chat_command_buddy_add				add
+chat_command_buddy_add_short		a
+chat_command_buddy_add_help			^279*^707 /buddy add <nick>.
+chat_command_buddy_delete			delete
+chat_command_buddy_delete_short		d
+chat_command_buddy_delete_help		^279*^707 /buddy delete <nick>.
+chat_command_clan					/clan
+chat_command_clan_short				/c
+chat_command_clan_list				list
+chat_command_clan_list_short		l
+chat_command_clan_list_message		^279* Sunt afişaţi Membrii Clanului...
+chat_command_clan_list_none			^279* Nu ai niciun jucător în clan.
+chat_command_clan_list_help			^279*^707 /clan list.
+chat_command_clan_message			message
+chat_command_clan_message_short		m
+chat_command_clan_message_help		^279*^707 /clan message <mesaj>.
+chat_command_clan_promote			promote
+chat_command_clan_promote_short		p
+chat_command_clan_promote_help		^279*^707 /clan promote <nume>.
+chat_command_clan_demote			demote
+chat_command_clan_demote_short		d
+chat_command_clan_demote_help		^279*^707 /clan demote <nume>.
+chat_command_clan_remove			remove
+chat_command_clan_remove_short		r
+chat_command_clan_remove_help		^279*^707 /clan remove <nume>.
+chat_command_clan_invite			invite
+chat_command_clan_invite_short		i
+chat_command_clan_invite_help		^279*^707 /clan invite <nume>.
+chat_command_clan_leave				leave
+chat_command_clan_leave_short		l
+chat_command_clan_leave_help		^279*^707 /clan leave.
+chat_command_clear					/clear
+chat_command_clear_short			/cl
+chat_command_join					/join
+chat_command_join_help				^279*^707 /join <canal> "parolă". (ghilimelele sunt obligatorii)
+chat_command_join_short				/j
+chat_command_invite					/invite
+chat_command_invite_short			/i
+chat_command_invite_help			^279*^707 /invite <utilizator>.
+chat_command_whois					/whois
+chat_command_whois_short			/who
+chat_command_whois_help				^279*^707 /whois <utilizator>.
+chat_command_stats					/stats
+chat_command_stats_short			/s
+chat_command_stats_pop				pop
+chat_command_stats_help				^279*^707 /stats <utilizator> [pop].
+chat_command_joingame				/joingame
+chat_command_joingame_short			/jg
+chat_command_joingame_buddy			buddy
+chat_command_joingame_buddy_short	b
+chat_command_joingame_name			name
+chat_command_joingame_name_short	n
+chat_command_joingame_ip			ip
+chat_command_joingame_ip_short		i
+chat_command_joingame_buddy_help	^279*^707 /joingame buddy <nume>
+chat_command_joingame_name_help		^279*^707 /joingame name <nume>
+chat_command_joingame_ip_help		^279*^707 /joingame ip <adresă>
+chat_command_joingame_buddy_failed	^279* Nu te-ai putut conecta - Fie utilizatorul nu există, fie nu participă la vreun meci.
+chat_command_topic					/topic
+chat_command_topic_short			/t
+chat_command_topic_help				^279*^707 /topic
+chat_command_topic_set_help			^279*^707 /topic <subiect de discuţie> (Necesită privilegii de administrare pentru canal)
+chat_command_kick					/kick
+chat_command_kick_short				/k
+chat_command_kick_help				^279*^707 /kick <utilizator> (Necesită privilegii de administrare pentru canal)
+chat_command_ban					/ban
+chat_command_ban_help				^279*^707 /ban <utilizator> (Necesită privilegii de administrare pentru canal)
+chat_command_unban					/unban
+chat_command_unban_help				^279*^707 /unban <utilizator> (Necesită privilegii de administrare pentru canal)
+chat_command_silence				/silence
+chat_command_silence_help			^279*^707 /silence <utilizator> <durata în minute> (Necesită privilegii de administrare pentru canal)
+chat_command_message_all_long		/messageall
+chat_command_message_all			/msgall
+chat_command_banlist				/banlist
+chat_command_banlist_short			/bl
+chat_command_banlist_list			list
+chat_command_banlist_list_short		l
+chat_command_banlist_list_message	^279* Sunt afişate exilările...
+chat_command_banlist_list_none		^279* Nu ai pe nimeni în banlist.
+chat_command_banlist_list_entry		^999{name}: ^888{reason}
+chat_command_banlist_list_help		^279*^707 /banlist list.
+chat_command_banlist_add			add
+chat_command_banlist_add_short		a
+chat_command_banlist_add_help		^279*^707 /banlist add <nickname> <motiv>.
+chat_command_banlist_delete			delete
+chat_command_banlist_delete_short	d
+chat_command_banlist_delete_help	^279*^707 /banlist delete <nickname>.
+chat_command_ignorechat				/ignorechat
+chat_command_ignorechat_short		/ic
+chat_command_ignorechat_enemy_all_on	^279* Ignori discuţiile de tip 'Public' ale echipei adverse.
+chat_command_ignorechat_all_on		^279* Ignori discuţiile tip 'Public' ale ambelor echipe.
+chat_command_ignorechat_team_on		^279* Ignori discuţiile tip 'Echipă'.
+chat_command_ignorechat_every_on	^279* Ignori discuţiile tip 'Public' şi 'Echipă'.
+chat_command_ignorechat_off			^279* Nu mai ignori discuţiile.
+chat_command_ignore					/ignore
+chat_command_ignore_list			list
+chat_command_ignore_list_short		l
+chat_command_ignore_list_message	^279* Sunt afişate ignorările...
+chat_command_ignore_list_none		^279* Nu ai pe nimeni în lista de ignorare.
+chat_command_ignore_list_entry		^999{name}
+chat_command_ignore_list_help		^279*^707 /ignore list.
+chat_command_ignore_add				add
+chat_command_ignore_add_short		a
+chat_command_ignore_add_help		^279*^707 /ignore add <nickname>.
+chat_command_ignore_delete			delete
+chat_command_ignore_delete_short	d
+chat_command_ignore_delete_help		^279*^707 /ignore delete <nickname>.
+chat_command_notes					/notes
+chat_command_notes_short			/n
+chat_command_notes_list				list
+chat_command_notes_list_short		l
+chat_command_notes_list_message		^279* Sunt afişate notiţele...
+chat_command_notes_list_none		^279* Nu ai vreo notiţă memorată.
+chat_command_notes_list_entry		^279{id}: ^888{note}
+chat_command_notes_list_help		^279*^707 /notes list.
+chat_command_notes_add				add
+chat_command_notes_add_success		^279* Notiţa a fost memorată.
+chat_command_notes_add_short		a
+chat_command_notes_add_help			^279*^707 /notes add <note>.
+chat_command_notes_delete			delete
+chat_command_notes_delete_short		d
+chat_command_notes_delete_help		^279*^707 /notes delete <id>.
+chat_command_notes_delete_success	^279* Notiţa a fost ştearsă.
+chat_command_notes_delete_invalid	^279* ID notiţă invalid.
+chat_command_promote				/promote
+chat_command_promote_short			/p
+chat_command_promote_help			^279*^707 /promote <utilizator> (Necesită privilegii de administrare pentru canal)
+chat_command_demote					/demote
+chat_command_demote_short			/d
+chat_command_demote_help			^279*^707 /demote <utilizator> (Necesită privilegii de administrare pentru canal)
+chat_command_auth					/auth
+chat_command_auth_short				/a
+chat_command_auth_list				list
+chat_command_auth_list_short		l
+chat_command_auth_list_message		^279* Sunt afişaţi utilizatorii autorizaţi...
+chat_command_auth_list_none			^279* Nu există utilizatori autorizaţi pentru acest canal.
+chat_command_auth_list_entry		^999{name}
+chat_command_auth_list_help			^279*^707 /auth list.
+chat_command_auth_add				add
+chat_command_auth_add_short			a
+chat_command_auth_add_help			^279*^707 /auth add <nickname>.
+chat_command_auth_delete			delete
+chat_command_auth_delete_short		d
+chat_command_auth_delete_help		^279*^707 /auth delete <nickname>.
+chat_command_auth_enable			enable
+chat_command_auth_enable_help		^279*^707 /auth enable (Permite accesul doar utilizatorilor autorizaţi).
+chat_command_auth_disable			disable
+chat_command_auth_disable_help		^279*^707 /auth disable.
+chat_command_password				/password
+chat_command_password_short			/pass
+chat_command_password_set_help		^279*^707 /password (Şterge parola, necesită privilegii de administrare)
+chat_command_password_clear_help	^279*^707 /password <parola> (Stabileşte parola, necesită privilegii de administrare)
+chat_command_roll					/roll
+chat_command_roll_help				^279*^707 /roll <minim> <maxim> (Dă cu zarul pentru o valoare minim şi maxim (de la 1 la 32,767)).
+chat_command_emote					/emote
+chat_command_emote_help				^279*^707 /emote <mesaj emote>.
+chat_command_emote_short			/em
+chat_command_time					/time
+chat_command_ping					/ping
+chat_command_matchup				/matchup
+chat_command_matchup_short			/ma
+chat_command_matchup_help			Informaţiile despre meci nu sunt disponibile decât după începerea partidei.
+chat_command_gameinfo				/gameinfo
+chat_command_gameinfo_short			/gi
+chat_command_ping_all				/pingall
+chat_command_ping_all_short			/pa
+chat_command_available				/available
+chat_command_available_message		^279* Statusul tău în discuţie este 'conectat'.
+chat_command_afk					/afk
+chat_command_afk_message			^279* Statusul tău în discuţie este 'plecat': {reason} 
+chat_command_dnd					/dnd
+chat_command_dnd_message			^279* Statusul tău în discuţie este 'nu deranjaţi': {reason}
+
+chat_command_weather				/weather
+chat_command_weather_intro			^279* Introdu o comandă pentru modificarea vremii:
+chat_command_weather_entry			^279* /weather {name}
+chat_command_weather_selected		^279* Numele efectului meteo ales '{name}'
+
+chat_command_help					/help
+chat_command_help_short				/h
+chat_command_character				/
+chat_command_invalid_format			^279* Format invalid pentru comandă. Formatul acceptat este:
+chat_command_invalid_format_multi	^279* Format invalid pentru comandă. Formatul acceptat este unul dintre:
+chat_command_invalid_command		^279* Comandă invalidă. Scrie {helpcommand} pentru o listă a comenzilor.
+chat_command_help_valid				^279* Comenzile valide sunt:
+chat_command_help_whisper			^279*^707 /whisper <nickname> <mesaj>^279  -Şopteşte unui utilizator.
+chat_command_help_reply				^279*^707 /reply <mesaj>^279               -Răspunde ultimei şoapte.
+chat_command_help_buddy				^279*^707 /buddy <comandă> <parametri>^279   -Diverse comenzi legate de prieteni.
+chat_command_help_clan				^279*^707 /clan <comandă> <parametri>^279    -Diverse comenzi legate de clan.
+chat_command_help_join				^279*^707 /join <canal> "parolă"^279     -Alătură-te canalului specificat(Opţional, poţi specifica şi parola între ghilimele).
+chat_command_help_clear				^279*^707 /clear^279                         -Şterge ecranul de discuţie.
+chat_command_help_invite			^279*^707 /invite <utilizator>^279                 -Invită utilizatorul specificat în meciul curent.
+chat_command_help_whois				^279*^707 /whois <utilizator>^279                  -Obţine informaţii despre utilizatorul specificat.
+chat_command_help_stats				^279*^707 /stats <utilizator> [pop]^279            -Obţine statistici pentru utilizatorul specificat (Opţional, poţi include "pop").
+chat_command_help_joingame			^279*^707 /joingame <tip> <parametri>^279       -Conectează-te la meci.
+chat_command_help_topic				^279*^707 /topic [topic]^279                 -Afişează sau stabileşte subiectul curent de discuţie al canalului
+chat_command_help_kick				^279*^707 /kick <utilizator>^279                   -Elimină un utilizator din canal(Necesită privilegii de administrare pentru canal).
+chat_command_help_ban				^279*^707 /ban <utilizator>^279                    -Exilează utilizatorul de pe canal(Necesită privilegii de administrare pentru canal).
+chat_command_help_unban				^279*^707 /unban <utilizator>^279                  -Reprimeşte utilizatorul în canal(Necesită privilegii de administrare pentru canal).
+chat_command_help_silence			^279*^707 /silence <utilizator> <duration>^279     -Amuţeşte un utilizator timp de <duration> minut(e) (Necesită privilegii de administrare pentru canal).
+chat_command_help_promote			^279*^707 /promote <utilizator>^279                -Promovează utilizatorul specificat (Necesită privilegii de administrare pentru canal)
+chat_command_help_demote			^279*^707 /demote <utilizator>^279                 -Retrogradează utilizatorul specificat (Necesită privilegii de administrare pentru canal)
+chat_command_help_banlist			^279*^707 /banlist <comandă> <parametri>^279 -Comenzi administrare pentru banlist.
+chat_command_help_ignore			^279*^707 /ignore <comandă> <parametri>^279  -Comenzi administrare pentru lista de ignorare.
+chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -Activează ignorarea discuţiilor tip 'Echipă' sau 'Public'.
+chat_command_help_notes				^279*^707 /notes <comandă> <parametri>^279   -Comenzi de administrare pentru notiţie.
+chat_command_help_auth				^279*^707 /auth <comandă> <parametri>^279    -Comenzi pentru administrarea listei de autorizare (Necesită privilegii de administrare pentru canal)
+chat_command_help_password			^279*^707 /password <parolă>^279           -Setează parola curentă a canalului(Necesită privilegii de administrare pentru canal)
+chat_command_help_password_clear	^279*^707 /password^279						 -Şterge parola curentă a canalului(Necesită privilegii de administrare pentru canal)
+chat_command_help_roll				^279*^707 /roll <minim> <maxim>^279			 -Dă cu zarul pentru o valoare între minim şi maxim (de la 1 la 32,767).
+chat_command_help_emote				^279*^707 /emote <message>^279				 -Trimite un mesaj tip emote.
+chat_command_help_time				^279*^707 /time^279                          -Afişează ora curentă.
+chat_command_help_ping				^279*^707 /ping^279 (doar în meci)           -Afişează ping-ul până la serverul de joc.
+chat_command_help_matchup			^279*^707 /matchup^279 (doar în meci)        -Afişează echipa/numele/culoarea/eroul jucătorilor din meciul curent.
+chat_command_help_gameinfo			^279*^707 /gameinfo^279 (doar în meci)       -Afişează informaţii despre meciul curent.
+chat_command_help_available			^279*^707 /available^279					 -Activează statusul 'conectat' pentru discuţii.
+chat_command_help_afk				^279*^707 /afk <mesaj automat>^279			 -Activează statusul 'plecat', răspunde automat cu mesajul automat specificat.
+chat_command_help_dnd				^279*^707 /dnd <mesaj automat>^279			 -Activează statusul 'nu deranjaţi', blochează şoaptele de la alţi jucători şi răspunde cu mesajul automat specificat.
+chat_command_help_weather			^279*^707 /weather^279 (doar în meci)        -Setează un efect meteo
+chat_command_help_misc				^279* Scrie o comandă fără niciun parametru pentru a obţine informaţii despre cum s-o foloseşti.
+
+//End

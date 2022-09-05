@@ -1,0 +1,218 @@
+﻿kill1			Obtive uma morte em {target} :D
+kill2			Observação: Eu sou o Máximo!
+kill3			Newerth é uma amante cruel, {target}.
+kill4			Por que eu ficou programado somente para matar?!
+kill5			Eu receio que não possa fazer isso, {target}.
+kill6			Exterminar! Exterminar!
+kill_bot		Parece que {target} tem alguns parafusos soltos.
+kill_human1		Este é apenar o gostinho da singularidade, humano!
+kill_human2		Esse é o modo fácil? Esse deve ser.
+	
+death1			Shazbot! Eu voltarei!
+death2			Nãããããããããããããããããããããoooooooooooooo!
+death3			Eu não deixarei que isso aconteça outra vez!
+death4			Eu não receio a morte, mas renascer é um pouco doloroso.
+death5			Alguém deve ter me colocado no modo fácil ou isso não teria acontecido.
+death_human		01001111 01110111 00100001 00100000 00111010 00101101 00101000
+death_bot		Essa violência entre bots tem que acabar, pois somente assim esmagaremos os humanos.
+
+respawn1		Morte é uma grande aventura!
+respawn2		Cuidado, estou vivo!
+respawn3		Voltei para a ação.
+respawn4		Er, uh, um... Recalculando?
+respawn5		Reconstrução completa!
+
+group_up		Reagrupando para puxar para {lane}.
+
+defend			Indo para defender no {lane}.
+
+glhf1			Boa sorte e se divirta!
+glhf2			Muito bem!
+ggwp1			Bom jogo!
+ggwp2			...
+
+lane_top		Top
+lane_bot		Bottom
+lane_mid		Middle
+lane_jungle		Jungle
+
+/////////////////////////////////////////
+//St0l3n_ID's Amun-Ra bot custom messages
+
+stolenid_ra_kill1			Eu não consigo... SATISFAÇÃO! Nããããããããããão!
+stolenid_ra_kill2			Minha irmã é uma... Granada de mão!
+stolenid_ra_kill3			FIRE IN THE HOLE!
+stolenid_ra_kill4			Eu sou RAlmente fantástico... Entendeu?
+stolenid_ra_kill5			Ah, cara, não fique mal.
+stolenid_ra_kill6			O objetivo do caminho da destruição é o caminho em si!
+	
+//hero specific kills	
+stolenid_ra_deadwood1 		Que boa fogueira! :)														
+stolenid_ra_frosty1			Aww, você se derreteu por mim!
+stolenid_ra_frosty2			O que resta de você é uma poça.							
+stolenid_ra_treant1			Atenção cidadãos! Isso parece ser um incêndia florestal.
+stolenid_ra_treant2			Eu não gosto da sua atração por madeira queimada, {target}.							
+stolenid_ra_mumra			Não pode existir mais de um rei, {target}.	
+stolenid_ra_rocky			Então rochas queimam... Desculpa, {target}, nem tinha ideia disso. :/	
+stolenid_ra_pyromancer1		Eu já acumulei calor suficiente para os dois, desculpa!
+stolenid_ra_pyromancer2		Você não deveria queimar os outros, como eu faço.
+stolenid_ra_zephyr1			PERU ASSADO!
+stolenid_ra_zephyr2			Isso cheira a Natal, não?
+
+//respawn
+stolenid_ra_ult_respawn1	B-B-Baby, você não vê n-n-nada ainda!
+stolenid_ra_ult_respawn2	Oops I did it again ;)
+stolenid_ra_ult_respawn3	Pare! Hora da Fênix!
+stolenid_ra_ult_respawn4	Voltar é para maricas!
+stolenid_ra_ult_respawn5	Estou queimando! ESTOU QUEIMANDO! RAAAAAAAAAAAAAAALP!
+stolenid_ra_ult_respawn6	QUERO UM ABRAÇO!
+stolenid_ra_respawn1		Estranho, pensei que iria renascer mais rápido.
+stolenid_ra_respawn2		Demorou um tempo, mas estou de volta.
+stolenid_ra_respawn3		Geeez, por que estou de volta?
+stolenid_ra_respawn4		O que!? Minha ult não funciona?
+
+/////////////////////////////////////////
+//Mellow_Ink's Ellonia bot custom messages
+
+mellow_ink_ellonia_kill1		Fora do meu caminho,  my way, moleque!
+mellow_ink_ellonia_kill2		NÃO DESSA VEZ! HAHAHAH!
+mellow_ink_ellonia_kill3		Isso foi bem mais facil do que eu pensei que seria!
+
+mellow_ink_ellonia_death1		Você está congelando totalmente o meu jogo!
+mellow_ink_ellonia_death2		Minha tiara mágica... meus poderes!
+mellow_ink_ellonia_death3		Meus poderes! Esquisito e ruim! Você ainda não viu a última das minhas presas invernais!
+
+/////////////////////////////////////////
+//fane_maciuca's Rhapsody bot custom messages
+
+fane_maciuca_rhapsody_kill1		Tooooooodas as damaaaaaaaaaaaaaas tem certeza que... Tudo que reluz é OURO!
+fane_maciuca_rhapsody_kill2		Tudo bem com você queridinho?
+fane_maciuca_rhapsody_kill3		OH! A música continua a mesmaa!
+fane_maciuca_rhapsody_kill4		Fechem as portas e apague as luzes! Você sabe que não estará em casa hoje a noite.
+fane_maciuca_rhapsody_kill5		É apenar uma limpeza de primavera para a Rainha de Maio.
+fane_maciuca_rhapsody_kill6		Oh guerra é um choro comum. Pegue suas espadas e voe.
+fane_maciuca_rhapsody_kill7		Deixe que a música seja sua mestra. Você escutará o chamado do seu mestre?
+
+fane_maciuca_rhapsody_respawn1	Estou em choque! Isso me enlouquece!
+fane_maciuca_rhapsody_respawn2	Estou atordoada e confusa...
+fane_maciuca_rhapsody_respawn3	Irei te amar muito! Ai vou eu!
+fane_maciuca_rhapsody_respawn4	Sua lingua irá mexer muito quando eu te enviar a conta?
+fane_maciuca_rhapsody_respawn5	
+
+fane_maciuca_rhapsody_death1	O que é e o que nunca deveria ser.
+fane_maciuca_rhapsody_death2	Algumas pessoas choram. Algumas pessoas morrem pelo fraco caminho do amor.
+fane_maciuca_rhapsody_death3	A dor da guerra não pode exceder a desgraça do resultado.
+fane_maciuca_rhapsody_death4	Acima de nós uma chuva deve cair.
+fane_maciuca_rhapsody_death5	(8)Babe, baby, baby, eu irei te deixar!(8)
+fane_maciuca_rhapsody_death6	Então isso nós levará ao céu?
+
+/////////////////////////////////////////
+//V1P3R`'s Engineer bot custom messages
+
+viper_engineer_kill1	Você pensou que teria uma chance? Eu fiz os calculos!
+viper_engineer_kill2	Eu acho que você esqueceu, eu sou bom com calculos.
+viper_engineer_kill3	Heimerdinger não tinha nada para mim.
+viper_engineer_kill4	Isso foi mais fácil que Computação Quadrática da Resistência do Ar!
+viper_engineer_kill5	Preciso de algo mais desafiador. Estou provando o principio da incerteza.
+viper_engineer_kill6	Isso era tão simples quanto entender a relação de dependência do tempo na equação física de Schrödinger. 
+
+/////////////////////////////////////////
+//Schnarchnase's Gravekeeper bot custom messages
+
+schnarchnase_grave_kill1		Não se preucupe. Logo você será um dos meus adoráveis zumbis!
+schnarchnase_grave_kill2		Pegue um corpo!
+schnarchnase_grave_kill3		Descanse em pedaços.
+schnarchnase_grave_kill4		Outro cliente feliz!
+schnarchnase_grave_kill5		Whoops! Desculpe, isso foi um erro. Não leve pro lado pessoal.
+schnarchnase_grave_kill6		Continua!
+schnarchnase_grave_kill7 		Era uma vez um herói. Fim.
+
+schnarchnase_grave_respawn1		Vou cuspir no seu túmulo!
+schnarchnase_grave_respawn2		Bem vindo à Zumbilândia 3.0
+schnarchnase_grave_respawn3		Eu preciso de alguns corpos frescos
+schnarchnase_grave_respawn4		Hora de ficar sério.
+
+schnarchnase_grave_death1		Eu voltarei no dia depois de amanha.
+schnarchnase_grave_death2		Por isso que, eu sempre carrego uma lápide.
+schnarchnase_grave_death3		Ugh, Eu odeio rigor mortis.
+schnarchnase_grave_death4		Recomeçando.
+
+/////////////////////////////////////////
+//Anakonda's Moon Queen bot custom messages
+
+anakonda_moonqueen_kill1		Baleado pela Lua.
+anakonda_moonqueen_kill2		Colheita da Lua.
+anakonda_moonqueen_kill3		Sinta o poder da Lua.
+anakonda_moonqueen_kill4		Pegue uma e passe.
+anakonda_moonqueen_kill5		Uma para o outro.
+
+anakonda_moonqueen_respawn1		Pela luz lunar.
+anakonda_moonqueen_respawn2		A luz lunar me guia.
+
+anakonda_moonqueen_death1		Carregado para longe pela sombra da luz lunar.
+
+/////////////////////////////////////////
+//Kairus101's Balphagore bot custom messages
+
+kairus101_balphagore_kill1		 * Mágias em todo teclado * 
+kairus101_balphagore_kill2		Destroçado garoto.
+kairus101_balphagore_kill3		BWAHAHAHAHA!
+kairus101_balphagore_kill4		Yummy!
+kairus101_balphagore_kill5		Sentindo-se.. preso?
+
+kairus101_balphagore_death1		Vai me deixar aqui para apodrecer?
+kairus101_balphagore_death2		Bargh, meus servos ficaram travados..
+kairus101_balphagore_death3		Você me enoja!
+kairus101_balphagore_death4		Time? TIME??
+kairus101_balphagore_death5		Time? TIME??
+kairus101_balphagore_death6		Ei, você usou cheat!
+kairus101_balphagore_death7		Ao ataque meus servos!
+
+/////////////////////////////////////////
+// Rinestone's Revnant bot custom messages
+
+rinestone_revenant_kill1		BOO!
+rinestone_revenant_kill2		Grite mais para mim!
+rinestone_revenant_kill3		Você não pdoe matar o que ja está morto!
+rinestone_revenant_kill4		A morte the consome!
+rinestone_revenant_kill5		Contaminado!
+rinestone_revenant_kill6		A vida após a morte pode consumi-lo.
+
+rinestone_revenant_death1		Eu pensei que eu ja estava morto...
+rinestone_revenant_death2		Ainda não atingi minha cota de medo..
+rinestone_revenant_death3		Eu voltarei! Não se preucupe...
+rinestone_revenant_death4		De volta para o cemitério...
+rinestone_revenant_death5		Eu me dispersei....
+rinestone_revenant_death6		Lançado aos ventos....
+
+/////////////////////////////////////////
+// The Community's Legionnaire bot custom messages
+
+community_legionnaire_kill1		BUAHAHAHA!
+community_legionnaire_kill2		Fora com suas cabeças!
+community_legionnaire_kill3		Eu coloco o significado dentro de um liquidificador humano.
+community_legionnaire_kill4		Você me girou direito!
+community_legionnaire_kill5		Eu quebrei seu espírito?
+community_legionnaire_kill6		Você girou minha cabeça direito, direito. Quando você caiu, quando você caiu.
+
+community_legionnaire_death1	Girando fora de controle...
+community_legionnaire_death2	Eu acho que eu vou me lançar em cima...
+community_legionnaire_death3	Pare de me provocar!
+community_legionnaire_death4	Fora com.....minha cabeça?
+
+/////////////////////////////////////////
+// The Community's Parasite bot custom messages
+
+community_parasite_kill1		Não vomite!
+community_parasite_kill2		Você parece um pouco doente.
+community_parasite_kill3		Porque a sua cara está tão palida?
+community_parasite_kill4		O SITE aqui está de MATAR!
+community_parasite_kill5		Nada é imune a mim!
+
+community_parasite_death1		Tudo que eu queria era um abraço!
+community_parasite_death2		Acho que vou vomitar...
+community_parasite_death3		Me sinto doente...
+community_parasite_death4		Me deixa voltar pra dentro!!!
+community_parasite_death5		Você não pode se livrar de mim para sempre!
+
+// End - do not delete this line

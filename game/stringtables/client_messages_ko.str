@@ -1,0 +1,592 @@
+﻿error_title						오류
+error_unknown					알 수 없는 오류입니다.
+
+disconnect_title				연결 끊김
+disconnect_not_host				이 서버에서 게임을 시작하려면 호스트 권한이 필요합니다.
+disconnect_server_full			서버의 정원이 가득 찼습니다.
+disconnect_game_in_progress		참가하려는 게임이 이미 시작했습니다.
+disconnect_server_error			서버 오류입니다.
+disconnect_snapshot_fragment	스냅샷 조각이 너무 많습니다.
+disconnect_not_invited			비공개 게임입니다. 참가하려면 초대를 받아야 합니다.
+disconnect_no_cookie			이 서버에서 플레이하려면 로그인해야 합니다.
+disconnect_auth_failed			서버가 계정을 인증할 수 없습니다. 다시 로그인하십시오.
+disconnect_duplicate_connect	다른 클라이언트에서 동일한 계정을 사용하고 있습니다. 플레이어의 연결이 끊어졌습니다.
+disconnect_unknown				연결이 끊어졌습니다.
+disconnect_timeout				서버로부터 응답이 없습니다.
+disconnect_game_over			게임이 종료되었습니다.
+disconnect_idle					오랫동안 입력이 없어 연결이 끊어졌습니다.
+disconnect_terminated			최대 연결 끊김 횟수를 초과했습니다. 이 게임에 다시 참가할 수 없습니다.
+disconnect_kicked				호스트에게 추방당했습니다.
+disconnect_kicked_spec			당신이 관전 중이던 플레이어에게 추방당했습니다.
+disconnect_kicked_mentor		당신이 조언 중이던 플레이어에게 추방당했습니다.
+disconnect_vote_kicked			투표에 의해 게임에서 추방되었습니다.
+disconnect_unassigned			플레이어가 팀을 선택하지 않은 상태에서 호스트가 게임을 시작했습니다.
+disconnect_banned				호스트가 게임에서 플레이어를 추방했습니다.
+disconnect_leaver				이탈 비율이 너무 높아 이 게임에 참가할 수 없습니다.
+disconnect_not_verified			프리미엄 플레이어가 아니므로 이 게임에 참가할 수 없습니다.
+disconnect_overflow				패킷 오버플로로 인해 서버와의 연결이 끊어졌습니다.
+disconnect_flooding				서버 플러딩으로 인해 연결이 해제되었습니다.
+disconnect_invalid_tier			이 단계에서 게임을 플레이할 수 없습니다.
+disconnect_invalid_psr			PSR이 너무 높거나 낮아서 이 게임에 참가할 수 없습니다.
+disconnect_not_on_roster		해당 게임의 명단에 등록되어 있지 않습니다.
+disconnect_modified_core_files	resources0.s2z 파일이 변조되었습니다. 이 파일은 변경되면 안 됩니다! 히어로즈 오브 뉴어스를 다시 설치하십시오.
+disconnect_client_number_mismatch	연결 오류입니다. 잠시 후에 다시 시도하십시오.
+disconnect_trial_not_allowed		무료 체험 계정으로는 이 게임에 연결할 수 없습니다. 무료 체험 계정은 통계가 기록되지 않는 게임만 플레이할 수 있습니다.
+disconnect_duplicate_login			서버가 계정을 인증할 수 없습니다. 플레이하려면 로그인 상태를 유지해야 합니다.
+disconnect_duplicate_game_connect	다른 클라이언트가 이 계정에서 다른 게임을 시작했기 때문에 연결이 끊어졌습니다.
+disconnect_unique_login_failed		게임 서버가 계정을 인증할 수 없어 연결이 끊어졌습니다. 잠시 후에 다시 시도하십시오.
+disconnect_mm_players_left		한 명 이상의 플레이어가 게임에서 연결이 끊어졌습니다.
+disconnect_mm_player_left		플레이어가 게임을 떠났습니다.
+disconnect_mm_connect_timeout	모든 플레이어와 서버와의 연결을 제대로 설정하는 데 너무 많은 시간이 걸려 게임이 중지되었습니다.
+disconnect_mm_start_timeout		모든 플레이어를 불러오는 데 너무 많은 시간이 걸려 게임이 중지되었습니다.
+disconnect_basic				기본 계정으로는 게임을 생성할 수 없습니다.
+disconnect_no_tokens			이 모드를 플레이하려면 토큰이나 패스가 필요합니다.
+disconnect_failed_refresh		업그레이드를 새로 반영하는 동안 오류가 발생했습니다. 로그아웃되었습니다.
+disconnect_no_match_id			서버에서 게임 ID를 불러오는 데 실패하여 게임을 시작할 수 없습니다.
+disconnect_missing_spectate_player	관전하려는 플레이어가 게임에 없습니다. 연결이 끊어졌습니다.
+disconnect_no_inception_spectator	관전자에게 조언을 받거나 관전자를 관전할 수는 없습니다. 연결이 끊어졌습니다.
+disconnect_no_inception_mentor	멘토를 관전하거나 멘토에게 조언할 수는 없습니다. 연결이 끊어졌습니다.
+disconnect_not_accepted			관전 또는 조언하려는 플레이어가 당신의 요청을 수락하지 않았습니다.
+disconnect_too_many_player_spectators			관전 또는 조언하려는 플레이어가 이미 최대 한도에 도달했습니다.
+disconnect_too_many_player_spectators_total		서버에 이미 관전자 및 멘토가 가득 찼습니다.
+disconnect_staff_spec_not_started				게임이 아직 시작되지 않았습니다. 만약 게임이 시작되지 않는다면 다시 시도해 보시거나 로비로 돌아가 보십시오.
+disconnect_staff_spec_not_staff					GM에게는 관전 신청을 할 수 없습니다.
+disconnect_tourney_rules_no_spec 				관전자 및 멘토는 토너먼트 규칙의 게임에 참가할 수 없습니다.
+
+rejected_invalid_request		클라이언트가 유효하지 않은 연결 요청을 보냈습니다.
+rejected_empty_address			서버가 플레이어의 주소를 확인하는 데 실패했습니다.
+rejected_wrong_game				서버가 다른 게임을 실행 중입니다.
+rejected_wrong_version			서버와 버전이 일치하지 않습니다.
+rejected_banned					이 서버에서 영구 추방되었습니다.
+rejected_invalid_password		잘못된 비밀번호입니다.
+rejected_server_error			서버 오류입니다.
+rejected_server_taken			선택한 서버에서 이미 누군가 게임을 시작하고 있습니다. 나중에 다시 시도하십시오.
+rejected_not_host				이 서버에서 게임을 시작하려면 호스트 권한이 필요합니다.
+rejected_missing_spectate_player			관전하려는 플레이어를 찾을 수 없습니다.
+
+// chat system messages
+chat_connecting						^279* 채팅 서버에 연결 중...
+chat_reconnecting					^279* 채팅 서버에 연결 중...(시도 {attempt}/{maxattempts})
+chat_waiting_verification			^279* 채팅 서버의 확인을 기다리는 중...
+chat_connected						^279* 연결되었습니다!
+chat_connected_invisible			^279* 투명 모드로 연결되었습니다. 이 모드에서는 플레이어의 상태를 친구와 클랜원에게 알리지 않지만, 접속해 있는 동안 그들의 상태 정보를 받을 수 있습니다.
+chat_disconnected					^279* 채팅 서버와의 연결이 끊어졌습니다.
+chat_reconnecting_delay				^279* 30초 후에 다시 연결합니다(시도 {attempt}/{maxattempts}).
+chat_not_connected					^279* 채팅 서버에 연결되어 있지 않습니다.
+chat_new_channel					^279* 채널 ^090{channel}^279에 입장했습니다.
+chat_channel_message				^990{sender}:^888 {message}
+chat_channel_message_sent			^444{name}:^* {message}
+chat_group_channel_message			^279 {message}
+chat_whisper						^099({sender}님의 귓속말) ^888{message}
+chat_whisper_sent					^066({target}님에게 귓속말) ^888{message}
+chat_whisper_buddies				^066<친구에게 귓속말> {message}
+chat_whisper_to_buddies				^099<{sender} 친구에게 귓속말> {message}
+chat_whisper_failed_self			^279* 자신에게는 귓속말을 할 수 없습니다.
+chat_failed_invisible				^279* 투명 모드에서는 채팅을 할 수 없습니다.
+chat_mode_switch_fail				^279* 투명 모드에서 채팅 상태를 변경할 수 없습니다. 이 기능을 사용하려면 먼저 로그아웃한 다음 다시 정상적으로 로그인하십시오.
+chat_mode_afk_auto_response			^099* 메시지가 전달되었지만 ^990{target}^279 님은 현재 자리 비움 상태입니다. {message}
+chat_mode_afk_default_response		자리 비움
+chat_mode_dnd_auto_response			^099 메시지가 전달되지 않았습니다. ^990{target}^279 님은 다른 용무 중입니다. {message}
+chat_mode_dnd_default_response		다른 용무 중
+chat_user_offline					^279* 해당 플레이어는 온라인 상태가 아닙니다.
+chat_im								^882{sender}: ^888{message}
+chat_im_sent						^444{name}: ^888{message}
+chat_im_failed						^279* ^990{target}^279 님은 온라인 상태가 아닙니다.
+chat_clan_whisper					^359(Clan) {name}: ^888{message}
+chat_clan_whisper_sent				^458(Clan) {name}: ^888{message}
+chat_clan_whisper_failed			^279* 클랜원이 아닙니다.
+chat_clan_im						^359{name}: ^888{message}
+chat_clan_im_sent					^458{name}: ^888{message}
+chat_flooding						^279* 메시지 전송 안 됨 - 보낸 메시지가 너무 많습니다. 잠시 후에 다시 시도하십시오.
+chat_max_channels					^279* 또 채널에 입장할 수는 없습니다. 다른 채널에서 먼저 퇴장하십시오.
+chat_banned							^279* 연결이 끊어졌습니다. 채팅 서버에서 {time}분간 추방되었습니다.
+chat_banned_connections				^279* 이유: 연결 시도가 너무 많습니다.
+chat_banned_flooding				^279* 이유: 플러딩입니다.
+chat_banned_unknown					^279* 이유: 알 수 없는 오류입니다.
+chat_banned_reconnect				^279* {time}초 후에 다시 연결을 시도합니다. (시도 {attempt}/{maxattempts})
+chat_info_not_found					^279* '^990{name}^279' 님을 찾을 수 없습니다.
+chat_info_offline					^279* ^990{name}^279 님은 현재 오프라인이며, 마지막 접속 시간은 {seen}입니다.
+chat_info_online_no_channels		^279* ^990{name}^279 님은 현재 온라인이며, 채널에 입장하지 않았습니다.
+chat_info_online_one_channel		^279* ^990{name}^279 님은 현재 온라인이며 '{channel}' 채널에 있습니다.
+chat_info_online_multi_channels		^279* ^990{name}^279 님은 현재 온라인이며 다음 채널에 있습니다. {channels}
+chat_info_joining_game				^279* ^990{name}^279 님은 현재 온라인이며 게임에 접속하는 중입니다.
+chat_info_in_game					^279* ^990{name}^279 님은 현재 온라인이며 '{game}^279' 게임에 있습니다.
+chat_info_in_game_time				^279* ^990{name}^279 님은 현재 온라인이며 '{game}^279' 게임에 있습니다. 현재 게임 시간: {cgt}.
+chat_ignored						^279* ^990{name}^279 님을 차단합니다.
+chat_unignored						^279* ^990{name}^279 님을 차단 해제합니다.
+chat_joining_game					^279* '^990{name}^279' 게임에 참가하는 중입니다.
+chat_left_game						^279* 게임에서 떠났습니다.
+chat_user_info_online				^279* ^990{name}^279 님은 현재 온라인입니다.
+chat_user_info_offline				^279* ^990{name}^279 님은 현재 오프라인입니다.
+chat_user_info_in_game				^279* ^990{name}^279 님은 현재 '{game}' 게임에 있습니다.
+chat_saving_channel					^279* ^g{channel}^279 채널을 자동 입장 채널 목록에 저장하는 중입니다.
+chat_failed_saving_channel			^279* ^g{channel}^279 채널을 자동 입장 채널 목록에 저장하지 못했습니다.
+chat_invalid_channel				^279* ^g{channel}^279 채널을 자동 입장 채널 목록에 저장하지 못했습니다. 팀 채널이거나 유효하지 않은 글자(% 또는 ^)가 포함되어 있습니다.
+chat_removing_channel				^279* ^g{channel}^279 채널을 자동 입장 채널 목록에서 삭제하는 중입니다.
+chat_failed_removing_channel		^279* ^g{channel}^279 채널을 채널 목록에서 삭제하지 못했습니다.
+chat_failed_saving_notification		^279* 알림을 저장하지 못했습니다.
+chat_failed_removing_notification	^279* 알림 ID {id}을(를) 저장하지 못했습니다.
+chat_failed_removing_notifications	^279* 모든 알림을 삭제하지 못했습니다.
+chat_invalid_buddy_group			^279* ^990{buddy}^279 님을 친구 그룹 ^g{group}^279로(으로) 이동하지 못했습니다. 그룹 이름에 유효하지 않은 글자(% 또는 ^)가 포함되어 있습니다.
+chat_saving_buddy_group				^279* ^990{buddy}^279 님을 친구 그룹 ^g{group}^279로(으로) 이동하는 중입니다.
+chat_removing_buddy_group			^279* ^990{buddy}^279 님을 해당 친구 그룹에서 삭제하는 중입니다.
+chat_saved_buddy_group				^279* ^990{buddy}^279 님을 해당 친구 그룹 ^g{group}^279로(으로) 이동했습니다.
+chat_removed_buddy_group			^279* ^990{buddy}^279 님을 해당 친구 그룹에서 삭제했습니다.
+chat_failed_buddy_group				^279* ^990{buddy}^279 님의 친구 그룹을 변경하지 못했습니다.
+chat_adding_buddy					^279* ^990{name}^279 님을 친구에 추가하는 중입니다.
+chat_failed_buddy_add				^279* ^990{target}^279 님을 친구 목록에 추가하지 못했습니다.
+chat_failed_buddy_add_self			^279* 자신을 친구로 추가할 수 없습니다.
+chat_failed_buddy_remove_self		^279* 자신을 친구에서 삭제할 수 없습니다.
+chat_failed_buddy_add_duplicate		^279* 이 사용자는 이미 친구 목록에 있습니다.
+chat_failed_buddy_add_reason		^279* ^990{target}^279 님을 친구 목록에 추가하지 못했습니다. 이유: {reason}
+chat_failed_buddy_remove			^279* ^990{target}^279 님을 친구 목록에서 삭제하지 못했습니다.
+chat_failed_buddy_remove_not_found	^279* 해당 사용자를 친구 목록에서 삭제하지 못했습니다. 사용자를 찾을 수 없습니다.
+chat_approved_buddy_adder			^279* ^990{name}^279 님을 친구에 추가하는 중입니다.
+chat_approved_buddy_added			^279* ^990{name}^279 님을 친구에 추가했습니다.
+chat_requesting_buddy				^279* ^990{name}^279 님에게 친구 신청을 하는 중입니다.
+chat_requested_approval_adder		^279* ^990{name}^279 님에게 친구 신청을 했습니다.
+chat_requested_approval_added		^279* ^990{name}^279 님이 친구 신청을 보냈습니다.
+chat_requested_approval_failed		^279* ^990{name}^279 님에게 친구 신청을 하지 못했습니다.
+chat_requested_approval_duplicate	^279* 플레이어 또는 ^990{name}^279 님은 최근에 친구 추가 요청을 처리했습니다. 1분 정도 기다린 후에 다시 요청하십시오.
+chat_requested_approval_ignored		^279* 플레이어가 ^990{name}^279 님의 차단 목록에 있습니다. 친구 초대를 보낼 수 없습니다.
+chat_requested_approval_limit		^279* 친구 목록이 가득찼습니다.
+chat_approving_buddy				^279* ^990{name}^279 님을 친구로 등록하는 중입니다.
+chat_failed_approving_buddy			^279* ^990{name}^279 님을 친구로 등록하지 못했습니다.
+chat_clan_promoting					^279* 클랜원 ^990{name}^279 님을 관리자로 승급시키는 중입니다.
+chat_failed_clan_promote			^279* ^990{target}^279 님을 승급시키지 못했습니다.
+chat_failed_clan_promote_cannot_promote		^279* 해당 사용자를 승급시킬 수 없습니다.
+chat_failed_clan_promote_generic			^279* 사용자를 승급시키지 못했습니다.
+chat_clan_demoting					^279* 클랜원 ^990{name}^279 님을 강등시키는 중입니다.
+chat_failed_clan_demote				^279* ^990{target}^279 님을 강등시키지 못했습니다.
+chat_failed_clan_demote_cannot_demote	^279* 해당 사용자를 강등시킬 수 없습니다.
+chat_failed_clan_demote_generic			^279* 사용자를 강등시키지 못했습니다.
+chat_clan_removing					^279* 클랜원 ^990{name}^279 님을 탈퇴시키는 중입니다.
+chat_clan_removing_self				^279* 클랜에서 탈퇴하는 중입니다.
+chat_failed_clan_remove				^279* ^990{target}^279 님을 클랜에서 탈퇴시키지 못했습니다.
+chat_failed_clan_remove_self		^279* 클랜에서 탈퇴하지 못했습니다.
+chat_failed_clan_remove_demote		^279* 해당 사용자를 탈퇴시키려면 먼저 강등시켜야 합니다.
+chat_failed_clan_remove_generic		^279* 사용자를 클랜에서 탈퇴시키지 못했습니다.
+chat_failed_clan_name				^279* 클랜 이름 및 태그 사용 가능 여부를 확인하지 못했습니다. 다시 시도하십시오.
+chat_failed_clan_name_tip			클랜 이름 및 태그 사용 가능 여부를 확인하지 못했습니다. 다시 시도하십시오.
+chat_invalid_clan_name				^279* 클랜 이름 ^990{name}^279 및 태그 ^990{tag}^279은(는) 사용할 수 없습니다.
+chat_invalid_clan_name_tip			클랜 이름 ^990{name}^* 및 태그 ^990{tag}^*은(는) 사용할 수 없습니다.
+chat_invalid_clan_name_used			^279* 클랜 이름 ^990{name}^279은(는) 이미 사용 중입니다.
+chat_invalid_clan_name_used_tip		클랜 이름 ^990{name}^*은(는) 이미 사용 중입니다.
+chat_invalid_clan_tag_used			^279* 클랜 태그 ^990{tag}^279은(는) 이미 사용 중입니다.
+chat_invalid_clan_tag_used_tip		클랜 태그 ^990{tag}^*은(는) 이미 사용 중입니다.
+chat_invalid_clan_name_format		^279* 클랜 이름 ^990{name}^279은(는) 유효하지 않은 클랜 이름입니다. 영숫자, 대시, 공백으로 구성된 1-32 글자만 가능합니다.
+chat_invalid_clan_name_format_tip	클랜 이름 ^990{name}^*은(는) 유효하지 않은 클랜 이름입니다. 영숫자, 대시, 공백으로 구성된 1-32 글자만 가능합니다.
+chat_invalid_clan_tag_format		^279* 클랜 태그 ^990{tag}^279은(는) 유효하지 않은 클랜 태그입니다. 영숫자로 구성된 1-4 글자만 가능합니다.
+chat_invalid_clan_tag_format_tip	클랜 태그 ^990{tag}^*은(는) 유효하지 않은 클랜 태그입니다. 영숫자로 구성된 1-4 글자만 가능합니다.
+chat_success_buddy_add				^279* ^990{target}^279 님을 친구 목록에 추가했습니다.
+chat_success_buddy_remove			^279* ^990{target}^279 님을 친구 목록에서 삭제했습니다.
+chat_success_clan_promote			^279* ^990{target}^279 님을 승급시켰습니다.
+chat_success_clan_demote			^279* ^990{target}^279 님을 강등시켰습니다.
+chat_success_clan_remove			^279* ^990{target}^279 님을 클랜에서 탈퇴시켰습니다.
+chat_success_clan_remove_self		^279* 클랜에서 탈퇴했습니다.
+chat_topic_change					^279* 화제가 '^990{topic}^279'로(으로) 변경되었습니다.
+chat_topic							^279* 화제는 '^990{topic}^279'입니다.
+chat_not_operator					^279* 이 채널의 관리 권한이 없습니다.
+chat_user_kicked					^279* ^990{kicker}^279 님이 ^990{kickee}^279 님을 채널에서 추방했습니다.
+chat_kicked							^279* ^990{kicker}^279 님에게 '^990{channel}^279' 채널에서 추방당했습니다.
+chat_user_banned					^279* ^990{banner}^279 님이 ^990{banned}^279 님을 채널에서 영구 추방했습니다.
+chat_user_banned_no_name			^279* ^990{banned}^279 님은 채널에서 영구 추방되었습니다.
+chat_channel_banned					^279* ^990{banner}^279 님에게 '^990{channel}^279' 채널에서 영구 추방당했습니다.
+chat_channel_banned_no_name			^279* '^990{channel}^279' 채널에서 영구 추방당했습니다.
+chat_user_unbanned					^279* ^990{unbanner}^279 님이 ^990{unbanned}^279 님의 채널 영구 추방을 해지했습니다.
+chat_user_unbanned_no_name			^279* ^990{unbanned}^279 님의 채널 영구 추방이 해지되었습니다.
+chat_unbanned						^279* ^990{unbanner}^279 님에게 '^990{channel}^279' 채널에서 영구 추방을 해지받았습니다.
+chat_unbanned_no_name				^279* '^990{channel}^279' 채널에서 영구 추방이 해지되었습니다.
+chat_banned_from_channel			^279* '^990{channel}^279' 채널에서 영구 추방당했습니다.
+chat_silenced						^279* 이 채널에서 벙어리 되어 대화를 할 수 없습니다.
+chat_silence_lifted					^279* '^990{channel}^279' 채널에서의 벙어리가 해지되었습니다.
+chat_silence_placed					^279* ^990{name}^279 님에게 '^990{channel}^279' 채널에서 {duration}분 동안 벙어리 되었습니다.
+chat_user_silence_placed			^279* ^990{name}^279 님이 ^990{silenced}^279 님을 {duration}분 벙어리로 만들었습니다.
+chat_message_all					^900{name}:^999 {message}
+chat_roll_message					{player} 님이 {low} {high}을(를) 굴려서 {number}이(가) 나왔습니다.
+chat_current_time					현재 시간: {time}.
+chat_current_ping					현재 핑: {ping}.
+chat_adding_banlist					^279* ^990{name}^279 님을 기피 대상에 추가하는 중입니다.
+chat_failed_banlist_add				^279* ^990{name}^279 님을 기피 대상 목록에 추가하지 못했습니다.
+chat_failed_banlist_add_self		^279* 자신을 기피 대상 목록에 추가할 수는 없습니다.
+chat_failed_banlist_add_duplicate	^279* 해당 사용자는 이미 기피 대상 목록에 있습니다.
+chat_failed_banlist_add_reason		^279* ^990{target}^279 님을 기피 대상 목록에 추가하지 못했습니다. 이유: {reason}
+chat_failed_banlist_remove			^279* ^990{target}^279 님을 기피 대상 목록에서 삭제하지 못했습니다.
+chat_failed_banlist_remove_not_found	^279* 해당 사용자를 님을 기피 대상 목록에서 삭제하지 못했습니다. 사용자를 찾을 수 없습니다.
+chat_success_banlist_add				^279* ^990{target}^279 님을 기피 대상 목록에 추가했습니다.
+chat_success_banlist_remove				^279* ^990{target}^279 님을 기피 대상 목록에서 삭제했습니다.
+chat_adding_ignore						^279* ^990{name}^279 님을 차단 목록에 추가하는 중입니다.
+chat_failed_ignore_add					^279* ^990{target}^279 님을 차단 목록에 추가하지 못했습니다.
+chat_failed_ignore_add_self				^279* 자신을 차단 목록에 추가할 수는 없습니다.
+chat_failed_ignore_add_duplicate		^279* 해당 사용자는 이미 차단 목록에 있습니다.
+chat_failed_ignore_add_reason			^279* ^990{target}^279 님을 차단 목록에 추가하지 못했습니다. 이유: {reason}
+chat_failed_ignore_remove				^279* ^990{target}^279 님을 차단 목록에서 삭제하지 못했습니다.
+chat_failed_ignore_remove_not_found		^279* 해당 사용자를 차단 목록에서 삭제하지 못했습니다. 사용자를 찾을 수 없습니다.
+chat_success_ignore_add					^279* ^990{target}^279 님을 차단 목록에 추가했습니다.
+chat_success_ignore_remove				^279* ^990{target}^279 님을 차단 목록에서 삭제했습니다.
+chat_user_on_banlist					^279* ^990{name}^279 님은 기피 대상 목록에 있습니다. 이유: ^999{reason}
+chat_admin_level_none				관리자 상태 아님
+chat_admin_level_officer			채널 감독관
+chat_admin_level_leader				채널 리더
+chat_admin_level_administrator		채널 관리자
+chat_admin_level_staff				스태프
+chat_promote_success				^279* ^990{promoter}^279 님이 ^990{name}^279 님을 ^990{rank}^279로(으로) 승급시켰습니다.
+chat_promote_failure				^279* 해당 사용자를 승급시킬 수 있는 권한이 없습니다.
+chat_demote_success					^279* ^990{demoter}^279 님이 ^990{name}^279 님을 ^990{rank}^279로(으로) 강등시켰습니다.
+chat_demote_failure_too_low			^279* 해당 사용자는 이미 이 채널에서 가장 낮은 관리 권한 등급을 가지고 있습니다.
+chat_demote_failure					^279* 해당 사용자를 강등시킬 수 있는 권한이 없습니다.
+chat_not_in_channel					^279* 해당 사용자는 이 채널에 없습니다.
+chat_im_user_offline				^279* ^990{name}^279 님은 오프라인입니다.
+chat_im_user_online					^279* ^990{name}^279 님은 온라인입니다.
+chat_version_mismatch				^279* 당신의 버전과 채팅 서버의 버전이 맞지 않습니다.
+chat_no_permissions					^279* 당신의 관리 권한은 해당 명령을 실행할 정도로 높지 않습니다.
+chat_auth_enabled					^279* 이 채널의 인증이 활성화되었습니다. 이제 입장하려면 인증 목록에 포함되어 있어야 합니다.
+chat_auth_disabled					^279* 이 채널의 인증이 비활성화되었습니다. 이제 누구든 입장할 수 있습니다.
+chat_auth_add_success				^279* ^990{name}^279 님은 인증 목록에 추가되었습니다.
+chat_auth_add_failure				^279* ^990{name}^279 님은 이미 인증 목록에 추가되어 있습니다.
+chat_auth_remove_success			^279* ^990{name}^279 님은 인증 목록에서 삭제되었습니다.
+chat_auth_remove_failure			^279* ^990{name}^279 님은 인증 목록에 없습니다.
+chat_password_change				^279* ^990{name}^279 님이 이 채널의 비밀번호를 변경했습니다.
+chat_password_required				^279* ^990{name}^279 채널에 입장하려면 비밀번호가 필요합니다.
+chat_error_clan_rank				^279* 해당 명령을 실행하려면 더 높은 클랜 랭킹이 필요합니다.
+chat_error_clan_not_found			^279* ^990{name}^279 님이라는 클랜원을 찾을 수 없습니다.
+chat_clan_invite_sent				^279* ^990{name}^279 님에게 클랜 초대장을 보내는 중입니다.
+chat_failed_clan_invite_in_clan			^279* ^990{name}^279 님은 이미 클랜원입니다.
+chat_clan_invite_received				^279* ^990{name}^279 님이 ^990{clan}^279 클랜에 초대했습니다.
+chat_clan_invite_rejected				^279* ^990{name}^279 님이 클랜 초대를 거절했습니다.
+chat_clan_invite_failed_online			^279* 해당 사용자는 온라인 상태가 아닙니다.
+chat_clan_invite_failed_clan			^279* 해당 사용자는 이미 클랜원입니다.
+chat_clan_invite_failed_invite			^279* 해당 사용자에게 이미 클랜 초대장을 보냈습니다.
+chat_clan_invite_failed_permissions		^279* 사용자에게 클랜 초대장을 보낼 수 있는 권한이 없습니다.
+chat_clan_invite_failed_unknown			^279* ^990{name}^279 님을 클랜에 추가하지 못했습니다.
+chat_clan_invite_failed_unknown_self	^279* 클랜에 들어가지 못했습니다.
+chat_clan_new_user						^279* ^990{name}^279 님이 클랜에 가입했습니다.
+chat_clan_new_user_self					^279* ^990{clan}^279 클랜에 가입했습니다.
+chat_clan_create_fail_clan				^279* 클랜을 생성하려면 현재 클랜에서 탈퇴해야 합니다.
+chat_clan_create_fail_param				^279* 클랜 생성 실패 - 누락된 항목이 있습니다!
+chat_clan_create_fail_tag				^279* 클랜 생성 실패 - 클랜 태그가 너무 깁니다.
+chat_clan_create_fail_in_clan			^279* 클랜 생성 실패 - ^990{name}^279은(는) 이미 다른 클랜이 사용 중입니다.
+chat_clan_create_fail_duplicate			^279* 클랜 생성 실패 - 창설 클랜원은 중복될 수 없습니다.
+chat_clan_create_fail_invite			^279* 클랜 생성 실패 - ^990{name}^* 님은 클랜 초대장을 받을 수 없습니다.
+chat_clan_create_fail_not_found			^279* 클랜 생성 실패 - ^990{name}^* 님을 찾을 수 없습니다. 이미 클랜에 있거나 클랜 초대를 수락하지 않았습니다.
+chat_clan_create_fail_clan_name			^279* 클랜 생성 실패 - 클랜 이름이 거부되었습니다. 영숫자로 구성된 1-32글자여야 하며, 이미 사용 중인 이름은 사용할 수 없습니다.
+chat_clan_create_fail_tag				^279* 클랜 생성 실패 - 클랜 태그가 거부되었습니다. 영숫자로 구성된 1-4글자여야 하며, 이미 사용 중인 태그는 사용할 수 없습니다.
+chat_clan_create_fail_unknown			^279* 클랜을 생성하지 못했습니다.
+chat_clan_create_fail_time				^279* 클랜 생성 실패 - 창설 클랜원에게 주어진 수락 시간이 만료되었습니다.
+chat_clan_create_result_fail_clan		클랜을 생성하려면 현재 클랜에서 탈퇴해야 합니다.
+chat_clan_create_result_fail_param		실패 - 누락된 항목이 있습니다!
+chat_clan_create_result_fail_tag		실패 - 클랜 태그가 너무 깁니다.
+chat_clan_create_result_fail_in_clan	실패 - ^990{name}^*은(는) 이미 다른 클랜이 사용 중입니다.
+chat_clan_create_result_fail_duplicate	실패 - 창설 클랜원이 중복되었습니다.
+chat_clan_create_result_fail_invite		실패 - ^990{name}^* 님은 클랜 초대장을 받을 수 없습니다.
+chat_clan_create_result_fail_not_found	실패 - ^990{name}^* 님을 찾을 수 없습니다.
+chat_clan_create_result_fail_clan_name	실패 - 클랜 이름이 거부되었습니다.
+chat_clan_create_result_fail_tag		실패 - 클랜 태그가 거부되었습니다.
+chat_clan_create_result_fail_unknown	클랜을 생성하지 못했습니다.
+chat_clan_create_result_fail_time		실패 - 시간을 초과했습니다.
+chat_clan_create_sent					^279* 클랜 생성 요청을 보냈습니다. 클랜원 수락을 기다리십시오.
+chat_clan_create_accept					^279* ^990{name}^279 님이 클랜 생성 요청을 수락했습니다.
+chat_clan_create_reject					^279* ^990{name}^279 님이 클랜 생성 요청을 거절했습니다.
+chat_clan_create_result_reject			실패 - ^990{name}^* 님이 요청을 거절했습니다.
+chat_clan_create_success				^279* 클랜을 성공적으로 생성했습니다.
+chat_clan_create_result_success			축하합니다! 클랜을 생성했습니다.
+chat_clan_left							^279* ^990{name}^279 님이 클랜에서 탈퇴했습니다.
+chat_clan_left_self						^279* 클랜에서 탈퇴했습니다.
+chat_clan_kick							^279* ^990{changer}^279 님이 ^990{name}^279 님을 클랜에서 추방했습니다.
+chat_clan_kick_self						^279* ^990{changer}^279 님에게 클랜에서 추방당했습니다.
+chat_clan_joined						^279* ^990{name}^279 님이 클랜에 들어왔습니다.
+chat_clan_rank_change					^279* ^990{changer}^279 님이 ^990{name}^279 님의 랭킹을 ^990{rank}^279로(으로) 변경했습니다.
+chat_clan_rank_change_self				^279* ^990{changer}^279 님이 플레이어의 등급을 ^990{rank}^279로(으로) 변경했습니다.
+chat_clan_rank_none						클랜원이 아님
+chat_clan_rank_member					클랜원
+chat_clan_rank_officer					관리자
+chat_clan_rank_leader					클랜장
+chat_clan_no_clan						^279* 클랜원이 아닙니다.
+chat_tourn_match_ready					^279* 이제 예정되어 있던 토너먼트 게임 ^990{name}^279에 참가할 수 있습니다. 커뮤니티 및 클랜 패널에 있는 토너먼트 항목을 이용해 참가하십시오.
+chat_unable_to_join_group				현재 게임 중이거나 리플레이 감상 중이기 때문에 자동매칭 팀에 참가할 수 없습니다.
+
+chat_group_queue_rejoin					^279* 팀은 리더가 기다리던 이전 대기열로 돌아갔습니다.
+chat_group_max_match_fidelity_diff		^279* 팀에 있는 플레이어들의 스킬 차이가 크기 때문에 선택한 게임 정확도 값을 사용할 수 없습니다.
+chat_sending_player_spectate_request	^279* ^990{name}^279 님에게 요청을 보냈습니다.
+chat_player_spectate_denied				^279* ^990{name}^279 님이 요청을 거절하거나 응답하지 않았습니다.
+chat_player_spectate_denied_full_server	^279* ^990{name}^279 서버에 이미 관전자 및 멘토가 가득 찼습니다.
+chat_player_spectate_denied_full_player	^279* ^990{name}^279에 이미 관전자 및 멘토가 가득 찼습니다.
+chat_player_spectate_denied_too_deep	^279* ^990{name}^279 님은 이미 플레이어에게 조언을 하거나 관찰하는 중입니다. 이미 조언 또는 관찰 중인 플레이어에게 조언하거나 관찰할 수는 없습니다.
+
+chat_excessive_gameplay_message			^900서버 메세지:^999 과도한 게임 이용은 정상적인 일상 생활에 지장을 줄 수 있습니다.
+
+// stats
+chat_stats_header				^492* ^982{name}^492의 통계
+chat_stats_body1				^492    클랜: ^999{clan_name}   ^982||   ^492    레벨: ^999{level}   ^982||   ^492승: ^999{wins}^555({winpercent}) ^492패: ^999{losses} ^492나가기: ^999{disconnects}^555({leavepercent})
+chat_stats_body2				^492    킬/데스/어시: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists}   ^982||   ^492경험치/분: ^999{expmin}   ^982||   ^492PSR: ^999{psr}
+
+// chat notifications
+chat_notification_cc_panel				커뮤니티 및 클랜 패널을 열려면 F6 키를 누르십시오.
+chat_notification_buddy_online			{name} 님은 온라인입니다.
+chat_notification_buddy_offline			{name} 님은 오프라인입니다.
+chat_notification_buddy_joined_game		{name} 님이 '{game}' 게임에 참가했습니다.
+chat_notification_buddy_left_game		{name} 님이 '{game}' 게임에서 나갔습니다.
+chat_notification_clan_online			{name} 님은 온라인입니다.
+chat_notification_clan_offline			{name} 님은 오프라인입니다.
+chat_notification_clan_joined_game		{name} 님이 '{game}' 게임에 참가했습니다.
+chat_notification_clan_left_game		{name} 님이 '{game}' 게임에서 나갔습니다.
+chat_notification_clan_whisper			(Clan) {name}: {message}
+chat_notification_clan_whisper_sent		(Clan) {name}: {message}
+chat_notification_clan_new_user			{name} 님이 플레이어와 같은 클랜에 가입했습니다.
+chat_notification_clan_new_user_self	{clan} 클랜에 가입했습니다.
+chat_notification_clan_left_self		클랜에서 탈퇴했습니다.
+chat_notification_clan_left				{name} 님이 클랜에서 탈퇴했습니다.
+chat_notification_clan_joined			{name} 님이 클랜에 들어왔습니다.
+chat_notification_clan_rank_change		{changer} 님이 ^990{name}^279 님의 랭킹을 ^990{rank}^279로(으로) 변경했습니다.
+chat_notification_clan_rank_change_self	{changer} 님이 플레이어의 랭킹을 ^990{rank}^279로(으로) 변경했습니다.
+chat_notification_clan_kick				{changer} 님이 ^990{name}^279 님을 클랜에서 추방했습니다.
+chat_notification_clan_kick_self		{changer} 님이 플레이어를 클랜에서 추방했습니다.
+
+// chat commands
+chat_command_whisper				/whisper
+chat_command_whisper_short			/w
+chat_command_whisper_help			^279*^707 /whisper <이름> <메시지>.
+chat_command_reply					/reply
+chat_command_reply_short			/r
+chat_command_reply_invalid			^279* 귓속말을 보낸 사람이 없습니다!
+chat_command_reply_help				^279*^707 /reply <메시지>.
+chat_command_buddy					/buddy
+chat_command_buddy_short			/b
+chat_command_buddy_list				list
+chat_command_buddy_list_short		l
+chat_command_buddy_list_message		^279* 친구 목록 작성 중...
+chat_command_buddy_list_none		^279* 친구 목록에 사용자가 없습니다.
+chat_command_buddy_list_help		^279*^707 /buddy list.
+chat_command_buddy_message			message
+chat_command_buddy_message_short	m
+chat_command_buddy_message_help		^279*^707 /buddy message <메시지>.
+chat_command_buddy_add				add
+chat_command_buddy_add_short		a
+chat_command_buddy_add_help			^279*^707 /buddy add <닉네임>.
+chat_command_buddy_delete			delete
+chat_command_buddy_delete_short		d
+chat_command_buddy_delete_help		^279*^707 /buddy delete <닉네임>.
+chat_command_clan					/clan
+chat_command_clan_short				/c
+chat_command_clan_list				list
+chat_command_clan_list_short		l
+chat_command_clan_list_message		^279* 클랜언 목록 작성 중...
+chat_command_clan_list_none			^279* 플레이어의 클랜에 사용자가 없습니다.
+chat_command_clan_list_help			^279*^707 /clan list.
+chat_command_clan_message			message
+chat_command_clan_message_short		m
+chat_command_clan_message_help		^279*^707 /clan message <메시지>.
+chat_command_clan_promote			promote
+chat_command_clan_promote_short		p
+chat_command_clan_promote_help		^279*^707 /clan promote <이름>.
+chat_command_clan_demote			demote
+chat_command_clan_demote_short		d
+chat_command_clan_demote_help		^279*^707 /clan demote <이름>.
+chat_command_clan_remove			remove
+chat_command_clan_remove_short		r
+chat_command_clan_remove_help		^279*^707 /clan remove <이름>.
+chat_command_clan_invite			invite
+chat_command_clan_invite_short		i
+chat_command_clan_invite_help		^279*^707 /clan invite <이름>.
+chat_command_clan_leave				leave
+chat_command_clan_leave_short		l
+chat_command_clan_leave_help		^279*^707 /clan leave.
+chat_command_clear					/clear
+chat_command_clear_short			/cl
+chat_command_join					/join
+chat_command_join_help				^279*^707 /join <채널> "비밀번호". (비밀번호 앞뒤에 쌍따옴표 입력)
+chat_command_join_short				/j
+chat_command_invite					/invite
+chat_command_invite_short			/i
+chat_command_invite_help			^279*^707 /invite <사용자>.
+chat_command_whois					/whois
+chat_command_whois_short			/who
+chat_command_whois_help				^279*^707 /whois <사용자>.
+chat_command_stats					/stats
+chat_command_stats_short			/s
+chat_command_stats_pop				pop
+chat_command_stats_help				^279*^707 /stats <사용자> [pop].
+chat_command_joingame				/joingame
+chat_command_joingame_short			/jg
+chat_command_joingame_buddy			buddy
+chat_command_joingame_buddy_short	b
+chat_command_joingame_name			name
+chat_command_joingame_name_short	n
+chat_command_joingame_ip			ip
+chat_command_joingame_ip_short		i
+chat_command_joingame_buddy_help	^279*^707 /joingame buddy <이름>
+chat_command_joingame_name_help		^279*^707 /joingame name <이름>
+chat_command_joingame_ip_help		^279*^707 /joingame ip <주소>
+chat_command_joingame_buddy_failed	^279* 게임 참가 실패 - 사용자가 존재하지 않거나 게임을 하고 있지 않습니다.
+chat_command_topic					/topic
+chat_command_topic_short			/t
+chat_command_topic_help				^279*^707 /topic
+chat_command_topic_set_help			^279*^707 /topic <화제> (채널 관리자 권한 필요)
+chat_command_kick					/kick
+chat_command_kick_short				/k
+chat_command_kick_help				^279*^707 /kick <사용자> (채널 관리자 권한 필요)
+chat_command_ban					/ban
+chat_command_ban_help				^279*^707 /ban <사용자> (채널 관리자 권한 필요)
+chat_command_unban					/unban
+chat_command_unban_help				^279*^707 /unban <사용자> (채널 관리자 권한 필요)
+chat_command_silence				/silence
+chat_command_silence_help			^279*^707 /silence <사용자> <길이(분)> (채널 관리자 권한 필요)
+chat_command_message_all_long		/messageall
+chat_command_message_all			/msgall
+chat_command_banlist				/banlist
+chat_command_banlist_short			/bl
+chat_command_banlist_list			list
+chat_command_banlist_list_short		l
+chat_command_banlist_list_message	^279* 기피 대상 목록 작성 중...
+chat_command_banlist_list_none		^279* 기피 대상 목록에 사용자가 없습니다.
+chat_command_banlist_list_entry		^999{name}: ^888{reason}
+chat_command_banlist_list_help		^279*^707 /banlist list.
+chat_command_banlist_add			add
+chat_command_banlist_add_short		a
+chat_command_banlist_add_help		^279*^707 /banlist add <닉네임> <이유>.
+chat_command_banlist_delete			delete
+chat_command_banlist_delete_short	d
+chat_command_banlist_delete_help	^279*^707 /banlist delete <닉네임>.
+chat_command_ignorechat				/ignorechat
+chat_command_ignorechat_short		/ic
+chat_command_ignorechat_enemy_all_on	^279* 상대 팀의 '전체' 채팅을 차단합니다.
+chat_command_ignorechat_all_on		^279* 양쪽 팀의 '전체' 채팅을 차단합니다.
+chat_command_ignorechat_team_on		^279* '팀' 채팅을 차단합니다.
+chat_command_ignorechat_every_on	^279* '전체' 및 '팀' 채팅을 차단합니다.
+chat_command_ignorechat_off			^279* 어떤 채팅도 차단하지 않습니다.
+chat_command_friendlychat			/friendlychat
+chat_command_friendlychat_short		/fc
+chat_command_friendlychat_on		^279* 지금부터 클랜 또는 친구 목록에 등록된 플레이어의 메시지만 받습니다.
+chat_command_friendlychat_off		^279* 지금부터 모든 플레이어의 메시지를 받습니다.
+chat_command_ignore					/ignore
+chat_command_ignore_list			list
+chat_command_ignore_list_short		l
+chat_command_ignore_list_message	^279* 차단 목록 작성 중...
+chat_command_ignore_list_none		^279* 차단 목록에 사용자가 없습니다.
+chat_command_ignore_list_entry		^999{name}
+chat_command_ignore_list_help		^279*^707 /ignore list.
+chat_command_ignore_add				add
+chat_command_ignore_add_short		a
+chat_command_ignore_add_help		^279*^707 /ignore add <닉네임>.
+chat_command_ignore_delete			delete
+chat_command_ignore_delete_short	d
+chat_command_ignore_delete_help		^279*^707 /ignore delete <닉네임>.
+chat_command_notes					/notes
+chat_command_notes_short			/n
+chat_command_notes_list				list
+chat_command_notes_list_short		l
+chat_command_notes_list_message		^279* 메모 목록 작성 중...
+chat_command_notes_list_none		^279* 등록된 메모가 없습니다.
+chat_command_notes_list_entry		^279{id}: ^888{note}
+chat_command_notes_list_help		^279*^707 /notes list.
+chat_command_notes_add				add
+chat_command_notes_add_success		^279* 메모를 추가했습니다.
+chat_command_notes_add_short		a
+chat_command_notes_add_help			^279*^707 /notes add <메모>.
+chat_command_notes_delete			delete
+chat_command_notes_delete_short		d
+chat_command_notes_delete_help		^279*^707 /notes delete <id>.
+chat_command_notes_delete_success	^279* 메모를 삭제했습니다.
+chat_command_notes_delete_invalid	^279* 잘못된 메모 ID입니다.
+chat_command_promote				/promote
+chat_command_promote_short			/p
+chat_command_promote_help			^279*^707 /promote <사용자>(채널 관리자 권한 필요)
+chat_command_demote					/demote
+chat_command_demote_short			/d
+chat_command_demote_help			^279*^707 /demote <사용자>(채널 관리자 권한 필요)
+chat_command_auth					/auth
+chat_command_auth_short				/a
+chat_command_auth_list				list
+chat_command_auth_list_short		l
+chat_command_auth_list_message		^279* 인증된 사용자 목록 작성 중...
+chat_command_auth_list_none			^279* 이 채널에 인증된 사용자가 없습니다.
+chat_command_auth_list_entry		^999{name}
+chat_command_auth_list_help			^279*^707 /auth list.
+chat_command_auth_add				add
+chat_command_auth_add_short			a
+chat_command_auth_add_help			^279*^707 /auth add <닉네임>.
+chat_command_auth_delete			delete
+chat_command_auth_delete_short		d
+chat_command_auth_delete_help		^279*^707 /auth delete <닉네임>.
+chat_command_auth_enable			enable
+chat_command_auth_enable_help		^279*^707 /auth enable (인증된 사용자만 채널 입장 허용).
+chat_command_auth_disable			disable
+chat_command_auth_disable_help		^279*^707 /auth disable.
+chat_command_password				/password
+chat_command_password_short			/pass
+chat_command_password_set_help		^279*^707 /password (비밀번호 삭제, 채널 관리자 권한 필요)
+chat_command_password_clear_help	^279*^707 /password <비밀번호> (비밀번호 설정, 채널 관리자 권한 필요)
+chat_command_roll					/roll
+chat_command_roll_help				^279*^707 /roll <낮음> <높음> (낮은 수와 높은 수 사이에서 숫자를 뽑습니다. 1에서 32,767까지입니다).
+chat_command_emote					/emote
+chat_command_emote_help				^279*^707 /emote <감정 표현 메시지>.
+chat_command_emote_short			/em
+chat_command_time					/time
+chat_command_ping					/ping
+chat_command_matchup				/matchup
+chat_command_matchup_short			/ma
+chat_command_matchup_help			게임 대결 정보는 게임을 시작한 이후에만 이용할 수 있습니다.
+chat_command_gameinfo				/gameinfo
+chat_command_gameinfo_short			/gi
+chat_command_ping_all				/pingall
+chat_command_ping_all_short			/pa
+chat_command_available				/available
+chat_command_available_message		^279* 채팅 상태가 '채팅 가능'으로 설정됐습니다.
+chat_command_afk					/afk
+chat_command_afk_message			^279* 채팅 상태가 '자리 비움'으로 설정됐습니다. 이유: {reason} 
+chat_command_dnd					/dnd
+chat_command_dnd_message			^279* 채팅 상태가 '다른 용무 중'으로 설정됐습니다. 이유: {reason}
+
+chat_command_weather				/weather
+chat_command_weather_intro			^279* 날씨 커맨드를 입력하십시오. 
+chat_command_weather_entry			^279* /weather {name}
+chat_command_weather_selected		^279* '{name}' 날씨 효과를 선택했습니다.
+
+chat_command_server					/serverchat
+chat_command_server_short			/sc
+
+chat_command_help					/help
+chat_command_help_short				/h
+chat_command_character				/
+chat_command_invalid_format			^279* 명령어 형식이 잘못되었습니다. 올바른 형식은 다음과 같습니다.
+chat_command_invalid_format_multi	^279* 명령어 형식이 잘못되었습니다. 올바른 형식은 다음과 같습니다.
+chat_command_invalid_command		^279* 잘못된 명령어입니다. 명령어 목록을 보려면 다음과 같이 입력하십시오. {helpcommand} 
+chat_command_help_valid				^279* 올바른 명령은 다음과 같습니다.
+chat_command_help_whisper			^279*^707 /whisper <닉네임> <메시지>^279  -사용자에게 귓속말을 합니다.
+chat_command_help_reply				^279*^707 /reply <메시지>^279               -최근 받은 귓속말에 답장을 보냅니다.
+chat_command_help_buddy				^279*^707 /buddy <명령어> <변수>^279   -다양한 친구 관련 명령을 실행합니다.
+chat_command_help_clan				^279*^707 /clan <명령어> <변수>^279    -다양한 클랜 관련 명령을 실행합니다.
+chat_command_help_join				^279*^707 /join <채널> "비밀번호"^279     -특정 채널에 입장합니다(비밀번호가 필요한 경우에는 쌍따옴표 안에 비밀번호 입력).
+chat_command_help_clear				^279*^707 /clear^279                         -채팅 버퍼를 지웁니다.
+chat_command_help_invite			^279*^707 /invite <사용자>^279                 -특정 사용자를 현재 게임에 초대합니다.
+chat_command_help_whois				^279*^707 /whois <사용자>^279                  -특정 사용자의 정보를 표시합니다.
+chat_command_help_stats				^279*^707 /stats <사용자> [pop]^279            -특정 사용자의 통계를 표시합니다("pop"을 포함해서 입력하면 통계를 드롭다운으로 표시).
+chat_command_help_joingame			^279*^707 /joingame <유형> <파라미터>^279       -게임에 참가합니다.
+chat_command_help_topic				^279*^707 /topic [화제]^279                 -현재 채널의 화제를 표시하거나 설정합니다.
+chat_command_help_kick				^279*^707 /kick <사용자>^279                   -사용자를 채널에서 추방합니다(채널 관리자 권한 필요).
+chat_command_help_ban				^279*^707 /ban <사용자>^279                    -사용자를 채널에서 영구 추방합니다(채널 관리자 권한 필요).
+chat_command_help_unban				^279*^707 /unban <사용자>^279                  -사용자의 채널 영구 추방을 해지합니다(채널 관리자 권한 필요).
+chat_command_help_silence			^279*^707 /silence <사용자> <기간(분)>^279     -사용자를 <기간(분)> 동안 침묵시킵니다(채널 관리자 권한 필요).
+chat_command_help_promote			^279*^707 /promote <사용자>^279                -해당 사용자를 승급시킵니다(채널 관리자 권한 필요)
+chat_command_help_demote			^279*^707 /demote <사용자>^279                 -해당 사용자를 강등시킵니다(채널 관리자 권한 필요)
+chat_command_help_banlist			^279*^707 /banlist <명령어> <변수>^279 -영구 추방 목록 관리 명령어입니다.
+chat_command_help_ignore			^279*^707 /ignore <명령어> <변수>^279  -차단 목록 관리 명령어입니다.
+chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -'팀' 또는 '전체' 채팅 차단을 켜거나 끕니다.
+chat_command_help_friendlychat		^279*^707 /friendlychat^279					 -클랜 또는 친구 목록에 등록되어 있지 않은 플레이어가 보낸 메시지를 차단합니다.
+chat_command_help_notes				^279*^707 /notes <명령어> <변수>^279   -메모 관리 명령어입니다.
+chat_command_help_auth				^279*^707 /auth <명령어> <변수>^279    -채널 인증 사용자 목록을 관리합니다(채널 관리자 권한 필요).
+chat_command_help_password			^279*^707 /password <비밀번호>^279           -현재 채널의 비밀번호를 설정합니다(채널 관리자 권한 필요).
+chat_command_help_password_clear	^279*^707 /password^279						 -현재 채널의 비밀번호를 지웁니다(채널 관리자 권한 필요).
+chat_command_help_roll				^279*^707 /roll <낮음> <높음>^279			 -낮은 수와 높은 수 사이에서 숫자를 뽑습니다. 1에서 32,767까지입니다.
+chat_command_help_emote				^279*^707 /emote <message>^279				 -플레이어의 사용자 이름에 이모티콘을 사용합니다.
+chat_command_help_time				^279*^707 /time^279                          -플레이어 시스템의 현재 시간을 표시합니다.
+chat_command_help_ping				^279*^707 /ping^279 (게임 중에만 가능)           -플레이어와 게임 서버 사이의 현재 핑을 표시합니다.
+chat_command_help_matchup			^279*^707 /matchup^279 (게임 중에만 가능)        -현재 게임에서 플레이어의 팀/이름/색상/영웅을 표시합니다.
+chat_command_help_gameinfo			^279*^707 /gameinfo^279 (게임 중에만 가능)       -현재 게임에 대한 정보를 표시합니다.
+chat_command_help_available			^279*^707 /available^279					 -채팅 상태를 '가능'으로 설정합니다.
+chat_command_help_afk				^279*^707 /afk <자리 비움 메시지>^279			 -채팅 상태를 '자리 비움'으로 설정합니다. 귓속말을 보낸 상대에게 설정된 메시지를 자동으로 보냅니다.
+chat_command_help_dnd				^279*^707 /dnd <dnd message>^279			^279*^707 /dnd <다른 용무 중 메시지>^279			 -채팅 상태를 '다른 용무 중'으로 설정합니다. 귓속말을 보낸 상대에게 설정된 메시지를 자동으로 보냅니다.
+chat_command_help_weather			^279*^707 /weather^279 (게임 중에만 가능)        -날시 효과를 설정합니다.
+chat_command_help_misc				^279* 변수 없이 명령어만 입력하면 올바른 사용 방법에 대한 정보를 알려줍니다.
+
+//End

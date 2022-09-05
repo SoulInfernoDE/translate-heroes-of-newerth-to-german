@@ -1,0 +1,181 @@
+﻿kill1			Tôi vừa giết {target} đấy :D
+kill2			Thấy chưa! Mình chơi hơi bị giỏi đấy bạn ạ.
+kill3			Rốt cuộc cũng "thịt" được {target}.
+kill4			Ui chùi, tớ yêu bạn này lắm, bạn đừng ghét tớ nhé!
+kill5			Cứ tưởng là khó chết lắm, {target}.
+kill6			Hủy Diệt! Hủy Diệt!
+kill_bot		Có vẻ như {target} hơi bị lỏng lẻo thì phải.
+kill_human1		Hạ người bao giờ cũng dễ hơn hạ máy thì phải.
+kill_human2		Dễ như ăn cháo!
+	
+death1			Ặc! Chết tôi rồi
+death2			Khôôôôôôôông! Cậu không cam lòng chết như vậy.
+death3			@#%!@#$()%%#
+death4			Bố không sợ chết, chỉ sợ thời gian hồi sinh lâu :(
+death5			Ghét thật! Hãy đợi đấy!
+death_human		Bắt đầu ghét rồi đấy!
+death_bot		Đừng tìm tui nữa mà!
+
+respawn1		Ta đã trở lại, lợi hại gấp hai lần.
+respawn2		Hồi sinh rồi!
+respawn3		Đã trở lại chiến trường.
+respawn4		Er,uh..um...Có nên tính toán lại chút?
+respawn5		Tính toán thành công.
+
+group_up		Họp nhóm để đẩy {lane} nào.
+
+defend			Đến {lane} để phòng thủ.
+
+glhf1			Vui vẻ và May mắn nhé!
+glhf2			Vui vẻ nhé!
+ggwp1			Trận đấu hay lắm!
+ggwp2			GG, có cố gắng!
+
+/////////////////////////////////////////
+//St0l3n_ID's Amun-Ra bot custom messages
+
+stolenid_ra_kill1			Sướng quá cơ!
+stolenid_ra_kill2			Không biết anh tôi là chuyên gia quăng bom hả...
+stolenid_ra_kill3			BOM VÀO LỖ!
+stolenid_ra_kill4			Tôi quá tuyệt vời...đồng ý chứ?
+stolenid_ra_kill5			Ấy ấy, đừng buồn.
+stolenid_ra_kill6			Lúc nào cũng dính chưởng là sao.
+	
+//hero specific kills	
+stolenid_ra_deadwood1 		Gỗ cháy :)
+stolenid_ra_frosty1			Ế, nhìn nó tan chảy kìa!
+stolenid_ra_frosty2			Tan thành vũng nước.						
+stolenid_ra_treant1			Bà con ơi! Cháy rừng.
+stolenid_ra_treant2			Rừng mà không đốt thì để làm gì, {target}.							
+stolenid_ra_mumra			Chỉ có một vị vua duy nhất thôi, {target}.	
+stolenid_ra_rocky			Giờ tôi mới biết đá có thể cháy. Xin lỗi, {target}, trước đây mình không biết :/	
+stolenid_ra_pyromancer1		Ấm áp chứ.
+stolenid_ra_pyromancer2		Làm sao mà cậu có thể đốt cháy mọi thứ như tớ.						
+stolenid_ra_zephyr1			Gà quay!
+stolenid_ra_zephyr2			Hương vị thật tuyệt, đúng không?
+
+//respawn
+stolenid_ra_ult_respawn1	Hồi sinh rồi!
+stolenid_ra_ult_respawn2	Xin lỗi, tôi lại làm thế nữa ;)
+stolenid_ra_ult_respawn3	Đã đến lúc trở về.
+stolenid_ra_ult_respawn4	Quay ngược thời gian.
+stolenid_ra_ult_respawn5	Tôi đang cháy! Tôi đang cháy! CỨUUUUU
+stolenid_ra_ult_respawn6	ÔM TÔI ĐI !!
+stolenid_ra_respawn1		Thật kỳ lạ, Tôi nghĩ mình hồi sinh nhanh hơn chứ.
+stolenid_ra_respawn2		Lâu hơn, nhưng rốt cục cũng trở lại...
+stolenid_ra_respawn3		Geeez, Tại sao mình lại ở căn cứ nhỉ?
+stolenid_ra_respawn4		Gì Thế!? Hết ulti rồi?!?
+
+/////////////////////////////////////////
+//Mellow_Ink's Ellonia bot custom messages
+
+mellow_ink_ellonia_kill1		Tránh ra, đồ ẻo lả!
+mellow_ink_ellonia_kill2		CHƯA PHẢI LÚC, HAHAHAH!
+mellow_ink_ellonia_kill3		Dễ hơn ta tưởng!
+
+mellow_ink_ellonia_death1		Ngươi toàn đóng băng vui thích của ta!
+mellow_ink_ellonia_death2		Phép thuật nước... sức mạnh của ta!
+mellow_ink_ellonia_death3		Sức mạnh của taaa! Ngươi chưa thấy được bài cuối đâu!
+/////////////////////////////////////////
+//fane_maciuca's Rhapsody bot custom messages
+
+fane_maciuca_rhapsody_kill1		Có một cô gái mà chắc chắn... tất cả những thứ lấp lánh trên người đều là VÀNG
+fane_maciuca_rhapsody_kill2		Cần một người thương!
+fane_maciuca_rhapsody_kill3		Oh Oh Oh Oh Oh Oh.....wub wub wub...Có lẽ nào...Có lẽ nào.....
+fane_maciuca_rhapsody_kill4		Feel The Beat, babe!
+fane_maciuca_rhapsody_kill5		Tiện tay dọn dẹp tí!
+fane_maciuca_rhapsody_kill6		Đừng khóc! Chiến tranh là thế! 
+fane_maciuca_rhapsody_kill7		Cung đàn tiễn biệt!
+
+fane_maciuca_rhapsody_respawn1	Lo lắng quá...!
+fane_maciuca_rhapsody_respawn2	Bối rối và hơi choáng...
+fane_maciuca_rhapsody_respawn3	Yêu các bạn rồi đấy, mình ra nữa đây!
+fane_maciuca_rhapsody_respawn4	Líu lưỡi khi thấy tôi trở lại à?
+fane_maciuca_rhapsody_respawn5	Chúng chẳng còn góc nào để chạy đâu ><!
+
+fane_maciuca_rhapsody_death1	Cái này không nên xảy ra tí nào!
+fane_maciuca_rhapsody_death2	Chết trong niềm tiếc thương của đồng đội là mãn nguyện rồi.
+fane_maciuca_rhapsody_death3	Đấu đá nhau đúng là làm khổ nhau!
+fane_maciuca_rhapsody_death4	Mưa rơi và mình cũng "đi tong"...
+fane_maciuca_rhapsody_death5	Đừng buồn các em... Chị đi đây chút!
+fane_maciuca_rhapsody_death6	Nấc thang lên thiên đường là đây sao? 
+
+/////////////////////////////////////////
+//V1P3R`'s Engineer bot custom messages
+
+viper_engineer_kill1	Mày nghĩ mày có cơ hội? Tính cả rồi.
+viper_engineer_kill2	Tao nghĩ mày đã quên, Tao là một kẻ có đầu óc.
+viper_engineer_kill3	Đó chưa phải là tàn nhẫn.
+viper_engineer_kill4	Dễ dàng hơn nhiều so với việc tính sức cản của gió.
+viper_engineer_kill5	Tiếp đi, anh chấp hết! Nghe giống như kiểu mình đang chứng minh định lý vậy.
+viper_engineer_kill6	Chỉ đơn giản là một chút hiểu biết về sự phụ thuộc thời gian.
+
+/////////////////////////////////////////
+//Schnarchnase's Gravekeeper bot custom messages
+
+schnarchnase_grave_kill1		Đừng lo. Người sẽ sớm trở thành một con Zombie đáng yêu của ta thôi!
+schnarchnase_grave_kill2		Mày hả bưởi!
+schnarchnase_grave_kill3		Yên nghỉ nhé.
+schnarchnase_grave_kill4		Thêm một khách hàng nữa!
+schnarchnase_grave_kill5		Úi! Xin lỗi, đó chỉ là một lỗi nhỏ. Đừng thù oán tớ nhé.
+schnarchnase_grave_kill6		Tiếp tục!
+schnarchnase_grave_kill7 		Ngay lúc này, có một người đã thành anh hùng. Kết thúc.
+
+schnarchnase_grave_respawn1		Ta nhổ vào cái mộ của mi!
+schnarchnase_grave_respawn2		Chào mừng đến Zombie Land 3.0
+schnarchnase_grave_respawn3		Ta cần vài bộ xác mới
+schnarchnase_grave_respawn4		Đến lúc để nghiêm túc rồi.
+
+schnarchnase_grave_death1		Ta sẽ trở lại vào ngày kia.
+schnarchnase_grave_death2		Đó là tại sao. Ta luôn mang theo mình một cái bia mộ.
+schnarchnase_grave_death3		Ui, ta ghét mi.
+schnarchnase_grave_death4		Khởi động lại nào.
+
+/////////////////////////////////////////
+//Anakonda's Moon Queen bot custom messages
+
+anakonda_moonqueen_kill1		Cú bắn ánh trăng.
+anakonda_moonqueen_kill2		Trăng tử thần.
+anakonda_moonqueen_kill3		Cảm được sức mạnh của trăng chưa?
+anakonda_moonqueen_kill4		Có một thì sẽ thêm một.
+anakonda_moonqueen_kill5		Một cho tất cả.
+
+anakonda_moonqueen_respawn1		Ánh trăng tỏa rọi.
+anakonda_moonqueen_respawn2		Ánh trăng dẫn lối.
+
+anakonda_moonqueen_death1		Trở về nơi trăng hiện.
+/////////////////////////////////////////
+//Kairus101's Balphagore bot custom messages
+
+kairus101_balphagore_kill1		 * Nôn đầy ra bàn phím này * 
+kairus101_balphagore_kill2		Vào thùng nhé nhóc!
+kairus101_balphagore_kill3		BWAHAHAHAHA!
+kairus101_balphagore_kill4		Thơm!
+kairus101_balphagore_kill5		Có vẻ... là bẫy?
+
+kairus101_balphagore_death1		Bỏ xác tui đây sao? Vác về luôn chứ?
+kairus101_balphagore_death2		Bargh, đệ bị kẹt thoai..
+kairus101_balphagore_death3		Mệt rồi đó!
+kairus101_balphagore_death4		S2 troll tui quá..
+kairus101_balphagore_death5		Các cậu ơi? 
+kairus101_balphagore_death6		Ê, chơi gian nha!
+kairus101_balphagore_death7		Lên đi các đệ tử yêu!
+
+/////////////////////////////////////////
+// Rinestone's Revnant bot custom messages
+
+rinestone_revenant_kill1		BOO!
+rinestone_revenant_kill2		Hét đi! Hét nữa cho ta!
+rinestone_revenant_kill3		Ngươi không thể hạ những sinh thể đã là linh hồn, hiểu chứ?
+rinestone_revenant_kill4		Tử thần sẽ vây lấy ngươi!
+rinestone_revenant_kill5		Tuyệt diệt!
+rinestone_revenant_kill6		Cầu cho kiếp sau đón nhận ngươi.
+
+rinestone_revenant_death1		Sao thế được? Ta đã là linh hồn rồi mà?
+rinestone_revenant_death2		Chưa chạm đến giới hạn sợ hãi của ta đâu..
+rinestone_revenant_death3		Ta sẽ trở lại! Ngươi không cần lo...
+rinestone_revenant_death4		Hồi sinh từ cái chết...
+rinestone_revenant_death5		Ta... tan biến...
+rinestone_revenant_death6		Cuốn theo cơn gió...
+
+// End - do not delete this line

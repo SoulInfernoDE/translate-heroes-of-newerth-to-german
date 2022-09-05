@@ -1,0 +1,27 @@
+﻿// other sounds in _en file, since they are the same accross all languages
+
+ping_sound_building_attack						/shared/sounds/radial/ru/attack_structure.wav
+ping_sound_building_defend						/shared/sounds/radial/ru/defend_structure.wav
+ping_sound_hero_attack							/shared/sounds/radial/ru/attack.wav
+ping_sound_hero_get_back						/shared/sounds/radial/ru/caution.wav
+ping_sound_hero_missing							/shared/sounds/radial/ru/hero_missing.wav
+ping_sound_hero_missing_going_top				/shared/sounds/radial/ru/enemy_hero_heading_top.wav
+ping_sound_hero_missing_going_mid				/shared/sounds/radial/ru/enemy_hero_heading_middle.wav
+ping_sound_hero_missing_going_bot				/shared/sounds/radial/ru/enemy_hero_heading_bottom.wav
+ping_sound_hero_coming_to_gank					/shared/sounds/radial/ru/coming_to_gank.wav
+ping_sound_ground_ping							/shared/sounds/radial/ru/beware.wav
+ping_sound_ground_get_back						/shared/sounds/radial/ru/get_back.wav
+ping_sound_ground_danger_here					/shared/sounds/radial/ru/danger.wav
+ping_sound_ground_need_help_here				/shared/sounds/radial/ru/requesting_assistance.wav
+ping_sound_ground_hero_missing					/shared/sounds/radial/ru/hero_missing.wav
+ping_sound_ground_hero_missing_going_top		/shared/sounds/radial/ru/enemy_hero_heading_top.wav
+ping_sound_ground_hero_missing_going_mid		/shared/sounds/radial/ru/enemy_hero_heading_middle.wav
+ping_sound_ground_hero_missing_going_bot		/shared/sounds/radial/ru/enemy_hero_heading_bottom.wav
+ping_sound_ground_fight_here					/shared/sounds/radial/ru/fight_here.wav
+ping_sound_ground_coming_to_help				/shared/sounds/radial/ru/coming_to_assist.wav
+
+ping_sound_hero_missing_from_bottom				/shared/sounds/radial/ru/enemy_hero_missing_bottom.wav
+ping_sound_hero_missing_from_middle				/shared/sounds/radial/ru/enemy_hero_missing_middle.wav
+ping_sound_hero_missing_from_top				/shared/sounds/radial/ru/enemy_hero_missing_top.wav
+
+// END

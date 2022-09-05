@@ -1,0 +1,611 @@
+﻿error_title							ผิดพลาด
+error_unknown							ข้อผิดพลาด ที่ ไม่ทราบสาเหตุ
+disconnect_title							ตัดการเชื่อมต่อ
+disconnect_server_full							เกมนี้ เต็มแล้ว
+disconnect_game_in_progress							คุณกำลัง เข้าร่วมเกม ที่ถูกเริ่ม ไปแล้ว
+disconnect_server_error							เกิด ข้อผิดพลาด กับเซิฟเวอร์
+disconnect_snapshot_fragment							เกิด ข้อผิดพลาด กับ การแสดงผล ของภาพ
+disconnect_not_invited							คุณต้อง ได้รับการเชิญ ก่อนเข้าร่วม เกมนี้
+disconnect_no_cookie							คุณจำเป็นต้อง เข้าสู่ระบบ ก่อน เข้าร่วมเซิฟเวอร์นี้
+disconnect_auth_failed							ไอดีของคุณ ไม่ได้รับ การอนุญาติ ให้เข้าร่วม เซิฟเวอร์นี้ กรุณา Login เข้าสู่ระบบ และ ลองใหม่อีกครั้ง
+disconnect_duplicate_connect							คุณถูก ตัดการเชื่อมต่อ เนื่องจาก มีผู้อื่น Login เข้าไอดี ของคุณ
+disconnect_unknown							คุณ ถูกตัด การเชื่อมต่อ
+disconnect_timeout							ไม่มี การตอบสนอง จากเซิฟเวอร์
+disconnect_game_over							เกม ได้จบ ลงแล้ว
+disconnect_idle							คุณถูก ตัดการเชื่อมต่อ เนื่องจาก เพิกเฉยต่อเกม เป็นเวลานาน
+disconnect_terminated							ไม่สามารถ กลับเข้าเกมได้ เนื่องจาก เกินเวลา ที่กำหนดไว้
+disconnect_kicked							หัวหน้าห้อง ได้เตะคุณ ออก จากเกม
+disconnect_kicked_spec							คุณ ถูกเตะ ออกจากเกม โดย ผู้เล่น ที่คุณ กำลังเฝ้ามอง
+disconnect_kicked_mentor							คุณ ถูกเตะ ออกจากเกม โดย ผู้เล่น ที่คุณกำลัง ให้คำแนะนำ
+disconnect_vote_kicked							คุณ ได้รับการโหวต ให้ถูกเตะ ออกจากเกม
+disconnect_unassigned							หัวหน้าห้อง ได้ทำการ เริ่มเกม ระหว่างที่ คุณไม่ได้ เข้าร่วมทีม
+disconnect_banned							หัวหน้าห้อง ได้ทำการ แบนคุณ จากเกมนี้
+disconnect_leaver							คุณ ไม่ได้ รับอนุญาติ ให้เข้าร่วม เกมนี้ เนื่องจาก คุณมีอัตรา การออกจากเกม สูงเกินไป
+disconnect_not_verified							คุณ ไม่ได้ รับอนุญาติ ให้เข้าร่วม เกมนี้ เนื่องจาก ไอดีของคุณ ยังไม่ได้ รับการยืนยัน
+disconnect_overflow							คุณ ถูกตัดการเชื่อมต่อ จากเซิฟเวอร์ เนื่องจาก ปัญหา Packet Overflow
+disconnect_flooding							คุณ ถูกตัดการเชื่อมต่อ เนื่องจาก ทำการฟลัด อย่างต่อเนื่อง
+disconnect_invalid_tier							คุณ ไม่ได้ รับอนุญาติ ให้เข้าร่วมเกม ในส่วนนี้
+disconnect_invalid_psr							PSR ของคุณ อาจสูง หรือ ต่ำเกิน กว่าที่เกมนี้ กำหนดไว้
+disconnect_not_on_roster							คุณ ไม่ได้ อยู่ในรายชื่อ ที่กำหนดไว้ สำหรับเกมนี้
+disconnect_modified_core_files							ไฟล์ resources0.s2z ของคุณ มีการ เปลี่ยนแปลง หรือ แก้ไข โปรด อย่าทำการเปลี่ยนแปลงใดๆ ในไฟล์ ดังกล่าว กรุณาลงเกมใหม่ อีกครั้ง
+disconnect_client_number_mismatch							เกิดข้อผิดพลาด ระหว่าง การเชื่อมต่อ กรุณารอสักครู่ และ ลองใหม่อีกครั้ง
+disconnect_trial_not_allowed							คุณ ไม่ได้ รับอนุญาติ ให้เข้าร่วมเกมนี้ ด้วยไอดีทั่วไป กรุณาเข้าร่วมเกม No Stat เท่านั้น
+disconnect_duplicate_login							เซิฟเวอร์ ไม่อนุญาติ ให้คุณ เข้าร่วมเกม กรุณา Login
+disconnect_duplicate_game_connect							คุณ ถูกตัดการเชื่อมต่อ เนื่องจาก มีผู้เล่นอื่น เข้าเกม ด้วยไอดี ของคุณ
+disconnect_unique_login_failed							คุณ ถูกตัดการเชื่อมต่อ เนื่องจาก ไอดีของคุณ ไม่ผ่าน การอนุมัติ ให้เข้าร่วม กรุณา ลองใหม่อีกครั้ง
+disconnect_mm_players_left							มี ผู้เล่นบางส่วน ได้ถูก ตัดการเชื่อมต่อ จากเกม
+disconnect_mm_player_left							มีผู้เล่น ออกจาก เกม
+disconnect_mm_connect_timeout						ผู้เล่น ทำการรอ เพื่อเชื่อมต่อ กับเซิฟเวอร์ เป็นเวลานาน เกินกว่ากำหนด.
+disconnect_mm_start_timeout							ผู้เล่น รอการโหลด เข้าเกมนาน เกินกว่าที่ กำหนดไว้
+disconnect_basic							ไอดี ธรรมดา ไม่สามารถ สร้างเกม ได้
+disconnect_no_tokens							คุณ ต้องการ Token หรือ บัตรผ่าน เพื่อ เข้าเล่น เกมนี้
+disconnect_failed_refresh							เกิด ข้อผิดพลาด ระหว่าง การอัพเกรด คุณจำเป็น ต้องออกจากเกม
+disconnect_no_match_id							เซิฟเวอร์ เกิดข้อล้มเหลว ในการสร้าง Match ID ทำให้ ไม่สามารถ เริ่มเกมได้
+disconnect_missing_spectate_player							ถูกตัด การเชื่อมต่อ เนื่องจาก ผู้เล่นที่คุณ กำลังเฝ้ามอง ไม่ได้ อยู่ในเกม
+disconnect_no_inception_spectator							ถูกตัด การเชื่อมต่อ เนื่องจาก ผู้เล่นที่คุณ กำลังเฝ้ามอง ไม่ได้ อยู่ในเกม
+disconnect_no_inception_mentor							ถูกตัด การเชื่อมต่อ เนื่องจาก ผู้ชม และ ผู้แนะนำ ไม่มีส่วนร่วมกับคุณแล้ว
+disconnect_not_accepted							ผู้เล่น อาจมี ผู้ชม และ ผู้แนะนำ อยู่แล้ว หรือ อาจปฏิเสธ คำขอ ของคุณ
+disconnect_too_many_player_spectators							คุณ กำลัง ส่งคำขอ ให้กับ ผู้เล่น ที่มี ผู้ชม หรือ ผู้แนะนำ เต็มแล้ว
+disconnect_too_many_player_spectators_total							ผู้เล่น ดังกล่าว มีจำนวน ผู้ชม หรือ ผู้แนะนำ ครบตาม จำนวน ที่กำหนด ไว้แล้ว
+disconnect_staff_spec_not_staff							ไอดีของคุณ ต้องเป็น ไอดีทีมงาน จึงจะสามารถ เข้าร่วมการชม แบบทีมงานได้
+disconnect_tourney_rules_no_spec							คุณ ไม่สามารถเข้าชม หรือ ให้คำแนะนำ ผู้เล่นที่กำลัง เล่นอยู่ในโหมด Tournament Rules
+disconnect_max_spec_clients							ไม่สามารถ ขยายความจุ ผู้ชมของทีมได้; เนื่องจาก ครบจำนวนสูงสุด ที่กำหนด ไว้แล้ว
+
+rejected_invalid_request							Client เกิด ข้อผิดพลาด ในการ เชื่อมต่อข้อมูล
+rejected_empty_address							เซิฟเวอร์ ล้มเหลว ในการ กำหนด Address ของคุณ
+rejected_wrong_game							เซิฟเวอร์ กำลัง ถูกใช้ กับเกมอื่น
+rejected_wrong_version							เวอร์ชั่น ของเกม ไม่ตรงกับ ข้อมูล ของเซิฟเวอร์
+rejected_banned							คุณ ถูกแบน จาก เซิฟเวอร์นี้
+rejected_invalid_password							รหัสผ่าน ไม่ถูกต้อง
+rejected_server_error							รหัสผ่าน ไม่ถูกต้อง
+rejected_server_taken							มี ผู้เล่นอื่น เริ่มเกม ด้วย เซิฟเวอร์ ที่คุณเลือก เอาไว้แล้ว กรุณา ลองใหม่ อีกครั้ง
+rejected_not_host							คุณ จำเป็น ต้องได้ รับสิทธิ์ การเป็น Host ใน การเริ่มเกม ด้วย เซิฟเวอร์นี้
+rejected_missing_spectate_player							ไม่สามารถ ค้นหา ผู้เล่นที่คุณ ต้องการ เข้าชม
+
+// chat system messages
+chat_connecting							^279* กำลัง เชื่อมต่อ กับ Chat Server...
+chat_reconnecting							^279* กำลัง เชื่อมต่อ กับ Chat Server... (ครั้งที่ {attempt} / {maxattempts})
+chat_waiting_verification							^279* กำลัง ตรวจสอบ เพื่อ ยืนยัน การเข้าสู่ Chat Server...
+chat_connected							^279* เชื่อมต่อ แล้ว!
+chat_connected_invisible							^279* คุณ กำลัง เชื่อมต่อ ด้วย Invisible mode. ใน ขณะที่ อยู่ใน โหมดนี้ คุณจะ ไม่ได้รับ การอัพเดต จากเพื่อน และ สมาชิกในแคลน ของคุณ
+chat_disconnected							^279* ถูกตัด การเชื่อมต่อ กับ Chat Server
+chat_reconnecting_delay							^279* กำลัง เชื่อมต่อ อีกครั้ง ในอีก 30 วินาที (ครั้งที่ {attempt} / {maxattempts})
+chat_not_connected							^279* ไม่ได้ เชื่อมต่อ กับ Chat Server
+chat_new_channel							^279* กำลัง พูดคุย อยู่ใน Channel ^090{channel}^279.
+chat_channel_message							^990{sender}:^888 {message}
+chat_channel_message_sent							^444{name}:^* {message}
+chat_group_channel_message							^279 {message}
+chat_whisper							^099(กระซิบจาก {sender}) ^888{message}
+chat_whisper_sent							^066(กระซิบถึง {target}) ^888{message}
+chat_whisper_buddies							^066<กระซิบถึงเพื่อน> {message}
+chat_whisper_to_buddies							^099<{sender} กระซิบถึงเพื่อน> {message}
+chat_whisper_failed_self							^279* คุณไม่สามารถกระซิบถึงตัวเอง
+chat_failed_invisible							^279* คุณ ไม่สามารถ พูดคุยได้ ขณะ อยู่ใน Invisible mode
+chat_mode_switch_fail							^279* คุณ ไม่สามารถ เปลี่ยนแปลง สถานะในห้องแชท ของคุณได้ ขณะ อยู่ใน Invisible mode. กรุณา ออกเกม และ เข้าใหม่ ด้วยโหมดปกติ เพื่อใช้คำสั่งนี้
+chat_mode_afk_auto_response							^099* ข้อความ ของคุณ ไม่ถูกส่ง ถึง ^990{target}^279 เนื่องจาก เขา อยู่ในสถานะ AFK: {message}
+chat_mode_afk_default_response							สถานะ AFK
+chat_mode_dnd_auto_response							^099 ข้อความ ของคุณ ไม่ถูกส่ง ถึง, ^990{target}^279 เนื่องจาก เขา อยู่ในสถานะ ห้ามรบกวน: {message}
+chat_mode_dnd_default_response							ห้าม รบกวน
+chat_user_offline							^279* ผู้เล่น ดังกล่าว ไม่ ออนไลน์
+chat_im							^882{sender}: ^888{message}
+chat_im_sent							^444{name}: ^888{message}
+chat_im_failed							^279* ^990{target}^279 ไม่ได้ออนไลน์
+chat_clan_whisper							^359(Clan) {name}: ^888{message}
+chat_clan_whisper_sent							^458(Clan) {name}: ^888{message}
+chat_clan_whisper_failed							^279* คุณ ไม่ได้ อยู่ในแคลน
+chat_clan_im							^359{name}: ^888{message}
+chat_clan_im_sent							^458{name}: ^888{message}
+chat_flooding							^279* ข้อความ ไม่ถูกส่ง - เนื่องจาก คุณส่งข้อความ เยอะเกินไป. กรุณารอ และ ลองใหม่อีกครั้ง
+chat_max_channels							^279* คุณ ไม่สามารถ เข้าร่วม Channel เพิ่ม ได้แล้ว ในขณะนี้, กรุณา ออกจาก Channel อื่น
+chat_banned							^279* ถูกตัด การเชื่อมต่อ - คุณ ถูกแบน จาก Chat Server เป็นเวลา {time} นาที
+chat_banned_connections							^279* สาเหตุ: ทำการ เชื่อมต่อ เกินจำนวน ที่กำหนด
+chat_banned_flooding							^279* สาเหตุ: พิมพ์ข้อความ ซ้ำ เยอะเกินกำหนด
+chat_banned_unknown							^279* เหตุผล: ไม่ทราบสาเหตุ
+chat_banned_reconnect							^279* กำลัง พยายามเชื่อมต่อ ครั้งที่ (Attempt {attempt} / {maxattempts}) ในอีก {time} วินาที
+chat_info_not_found							^279* ผู้เล่น '^990{name}^279' ตรวจสอบไม่พบ
+chat_info_offline							^279* ^990{name}^279 ออฟไลน์, เชื่อมต่อ ครั้งล่าสุด เมื่อ {seen}
+chat_info_online_no_channels							^279* ^990{name}^279 กำลังออนไลน์ และ ไม่ได้เข้าร่วม Channel ใดๆ
+chat_info_online_one_channel							^279* ^990{name}^279 กำลังออนไลน์ และ อยู่ใน Channel '{channel}'
+chat_info_online_multi_channels							^279* ^990{name}^279 กำลังออนไลน์ อยู่ใน Channel: {channels}
+chat_info_joining_game							^279* ^990{name}^279 ออนไลน์อยู่ และกำลัง เข้าเล่นเกม.
+chat_info_in_game							^279* ^990{name}^279 กำลัง อยู่ใน เกม '{game}^279'
+chat_info_in_game_time							^279* ^990{name}^279 กำลังเล่น อยู่ในเกม '{game}^279'. เวลาในเกม ปัจจุบัน คือ: {cgt}.
+chat_ignored							^279* ^990{name}^279 อยู่ในสถานะ เพิกเฉย
+chat_unignored							^279* ^990{name}^279 ไม่อยู่ใน สถานะ เพิกเฉย แล้ว
+chat_joining_game							^279* กำลัง เชื่อมต่อ เกม '^990{name}^279'.
+chat_left_game							^279* คุณ ได้ออกจากเกม
+chat_user_info_online							^279* ^990{name}^279 กำลัง ออนไลน์
+chat_user_info_offline							^279* ^990{name}^279 อยู่ในสถานะ ออฟไลน์
+chat_user_info_in_game							^279* ^990{name}^279 กำลัง อยู่ในเกม '{game}'
+chat_saving_channel							^279* บันทึก ^g{channel}^279 เข้าสู่ รายชื่อ Channel เชื่อมต่ออัตโนมัติ...
+chat_failed_saving_channel							^279* ไม่สามารถบันทึก ^g{channel}^279 เข้าสู่ รายชื่อ Channel เชื่อมต่ออัตโนมัติ...
+chat_invalid_channel							^279* ไม่สามารถบันทึก ^g{channel}^279 เข้าสู่รายชื่อ Channel เชื่อมต่ออัตโนมัติ, เนื่องจากเป็น Group Channel หรือ อาจมีตัวอักษรที่ไม่ถูกต้อง (เช่น % หรือ ^)
+chat_removing_channel							^279* กำลังลบ ^g{channel}^279 ออกจากรายชื่อ Channel เชื่อมต่ออัตโนมัติ...
+chat_failed_removing_channel							^279* ไม่สามารถลบ ^g{channel}^279 ออกจากรายชื่อ Channel เชื่อมต่ออัตโนมัติ...
+chat_failed_saving_notification							^279* บันทึกการแจ้งเตือน ล้มเหลว...
+chat_failed_removing_notification							^279* ลบการแจ้งเตือน หมายเลข {id} ล้มเหลว...
+chat_failed_removing_notifications							^279* ลบการแจ้งเตือนทั้งหมด ล้มเหลว...
+chat_invalid_buddy_group							^279* ไม่สามารถย้าย ^990{buddy}^279 เข้าสู่กลุุ่มเพื่อน ^g{group}^279, ชื่อของกลุ่ม อาจมีตัวอักษรที่ไม่ถูกต้อง (เช่น % หรือ ^)
+chat_saving_buddy_group							^279* กำลังย้าย ^990{buddy}^279 เข้าสู่กลุ่มเพื่อน ^g{group}^279...
+chat_removing_buddy_group							^279* กำลังลบ ^990{buddy}^279 ออกจากกลุ่มเพื่อน...
+chat_saved_buddy_group							^279* ย้าย ^990{buddy}^279 เข้าสู่กลุ่มเพื่อน ^g{group}^279 แล้ว...
+chat_removed_buddy_group							^279* ลบ ^990{buddy}^279 ออกจากกลุ่มเพื่อนแล้ว...
+chat_failed_buddy_group							^279* การเปลี่ยนแปลง กลุ่มเพื่อน ล้มเหลว สำหรับ ^990{buddy}^279...
+chat_adding_buddy							^279* กำลังเพิ่ม ^990{name}^279 เข้าสู่ รายชื่อเพื่อน...
+chat_failed_buddy_add							^279* ล้มเหลว การเพิ่ม ^990{target}^279 เข้าสู่ รายชื่อเพื่อน ของคุณ
+chat_failed_buddy_add_self							^279* ไม่สามารถเพิ่ม ตัวเองเป็นเพื่อนได้
+chat_failed_buddy_remove_self							^279* ไม่สามารถลบตัวเองจากการเป็นเพื่อนได้
+chat_failed_buddy_add_duplicate							^279* ผู้เล่นนี้เป็นเพื่อนอยู่แล้ว
+chat_failed_buddy_add_reason							^279* การเพิ่ม ^990{target}^279 เป็นเพื่อนล้มเหลว: {reason}
+chat_failed_buddy_remove							^279* การลบ ^990{target}^279 ออกจากการเป็นเพื่อนล้มเหลว
+chat_failed_buddy_remove_not_found							^279* การลบผู้เล่นล้มเหลว: ไม่พบผู่เล่น
+chat_approved_buddy_adder							^279* เพิ่ม ^990{name}^279 เป็นเพื่อน
+chat_approved_buddy_added							^279* ^990{name}^279 เป็นเพื่อนคุณแล้ว
+chat_requesting_buddy							^279* กำลังขอ ^990{name}^279 เป็นเพื่อน
+chat_requested_approval_adder							^279* คุณได้ขอ ^990{name}^279 เป็นเพื่อน
+chat_requested_approval_added							^279* ^990{name}^279 ได้ขอคุณเป็นเพื่อน
+chat_requested_approval_failed							^279* การขอ ^990{name}^279 เป็นเพื่อนล้มเหลว
+chat_requested_approval_duplicate							^279* คุณหรือผู้เล่น ^990{name}^279 เพิ่งขออีกฝ่ายเป็นเพื่อน กรุณารอซัำกนิดก่อนขออีกรอบ
+chat_requested_approval_ignored							^279* คุณอยู่ในรายชื่อต้องห้ามของผู้เล่น ^990{name}^279 เลยไม่สามารถขอเป็นเพื่อนได้
+chat_requested_approval_limit							^279* ท่านไม่สามารถเพิ่มเพื่อนได้อีก เนื่องจากเพื่อนในระบบของท่าน เต็มแล้ว
+chat_approving_buddy							^279* กำลังอนุมัติ ^990{name}^279 เป็นเพื่อน
+chat_failed_approving_buddy							^279* การอนุมัติ ^990{name}^279 เป็นเพื่อนล้มเหลว
+chat_clan_promoting							^279* เลื่อนชั้นสมาชิกแคลน ^990{name}^279 เป็นเจ้าหน้าที่
+chat_failed_clan_promote							^279* การเลื่อนชั้น ^990{name}^279 ล้มเหลว
+chat_failed_clan_promote_cannot_promote							^279* ไม่สามารถเลื่อนชั้นผู้เล่นได้
+chat_failed_clan_promote_generic							^279* การเลื่อนชั้นผู้เล่นล้มเหลว
+chat_clan_demoting							^279* กำลังลดชั้นสมาชิกแคลน ^990{name}^279
+chat_failed_clan_demote							^279* การลดชั้นล้มเหลว ^990{target}^279.
+chat_failed_clan_demote_cannot_demote							^279* คุณไม่สามารถลดชั้นผู้เล่นคนนี้ได้
+chat_failed_clan_demote_generic							^279* การลดชั้นผู้เล่นล้มเหลว
+chat_clan_removing							^279* ^990{name}^279...
+chat_clan_removing_self							^279* กำลังออกจากแคลน
+chat_failed_clan_remove							^279* การลบ ^990{target}^279 ออกจากแคลนล้มเหลว
+chat_failed_clan_remove_self							^279* การออกจากแคลนล้มแหลว
+chat_failed_clan_remove_demote							^279* ผู้เล่นคนนี้ต้องถูกลดชั้นก่อนถึงจะถูกลบได้
+chat_failed_clan_remove_generic							^279* การลบผู้เล่นออกจากแคลนล้มเหลว
+chat_failed_clan_name							^279* ไม่สามารถตรวจสอบชื่อและตัวย่อแคลน โปรดลองอีกครั้ง
+chat_failed_clan_name_tip							ไม่สามารถตรวจสอบชื่อและตัวย่อแคลน โปรดลองอีกครั้ง
+chat_invalid_clan_name							^279* ชื่อแคลน ^990{name}^279 และตัวย่อ ^990{name}^279 ใช้ไม่ได้
+chat_invalid_clan_name_tip							ชื่อแคลน ^990{name}^279 และตัวย่อ ^990{name}^279 ใช้ไม่ได้
+chat_invalid_clan_name_used							^279* ชื่อแคลน ^990{name}^279 ถูกใช้ไปแล้ว
+chat_invalid_clan_name_used_tip							ชื่อแคลน ^990{name}^279 ถูกใช้ไปแล้ว
+chat_invalid_clan_tag_used							^279* ตัวย่อแคลน ^990{name}^279 ถูกใช้ไปแล้ว
+chat_invalid_clan_tag_used_tip							ตัวย่อแคลน ^990{name}^279 ถูกใช้ไปแล้ว
+chat_invalid_clan_name_format							^279* ใช้ชื่อแคลนว่า ^990{name}^279 ไม่ได้ ชื่อแคลนมีได้เฉพาะตัวอักษร ตัวเลข เส้นขีด และช่องว่าง และจะต้องอยู่ระหว่าง 1 ถึง 32 ตัวอักษร
+chat_invalid_clan_name_format_tip							ใช้ชื่อแคลนว่า ^990{name}^279 ไม่ได้ ชื่อแคลนมีได้เฉพาะตัวอักษร ตัวเลข เส้นขีด และช่องว่าง และจะต้องอยู่ระหว่าง 1 ถึง 32 ตัวอักษร
+chat_invalid_clan_tag_format							^279* ใช้ตัวย่อแคลน ^990{tag}^279 ไม่ได้ จะต้องใช้แค่ตัวอักษรและตัวเลข และไม่เกิน 4 อักษร
+chat_invalid_clan_tag_format_tip							ใช้ตัวย่อแคลน ^990{tag}^279 ไม่ได้ จะต้องใช้แค่ตัวอักษรและตัวเลข และไม่เกิน 4 อักษร
+chat_success_buddy_add							^279* เพิ่ม ^990{target}^279 เป็นเพื่อนคุณเรียบร้อย
+chat_success_buddy_remove							^279* ลบ ^990{target}^279 จากรายชื่อเพื่อนเรียบร้อย
+chat_success_clan_promote							^279* เลื่อนชั้น ^990{target}^279 สำเร็จ
+chat_success_clan_demote							^279* ลดชั้น ^990{target}^279 สำเร็จ
+chat_success_clan_remove							^279* ลบ ^990{target}^279 ออกจากแคลนสำเร็จ
+chat_success_clan_remove_self							^279* คุณได้ออกจากแคลน
+chat_topic_change							^279* เปลี่ยนหัวข้อเป็น ^990{topic}^279
+chat_topic							^279* หัวข้อคือ ^990{topic}^279
+chat_not_operator							^279* คุณไม่ได้เป็น admin ของแชแนลนี้
+chat_user_kicked							^279* ถูกเตะออกจากแชแนลนี้โดย ^990{kicker}^279
+chat_kicked							^279* คุณถูกเตะออกจากแชแนล ^990{channel}^279 โดย ^990{kicker}^279
+chat_user_banned							^279* โดนแบนจากแชแนลโดย ^990{banner}^279
+chat_user_banned_no_name							^279* ^990{banned}^279 ถูกแบนจากแชแนล
+chat_channel_banned							^279* คุณถูกแบนจากแชแนล ^990{channel}^279 โดย ^990{banner}^279
+chat_channel_banned_no_name							^279* คุณถูกแบนจากแชแนล ^990{channel}^279
+chat_user_unbanned							^279* ^990{unbanned}^279 ถูกยกเลิกการแบนจากแชแนลโดย ^990{unbanner}^279
+chat_user_unbanned_no_name							^279* ^990{unbanned}^279 ถูกยกเลิกการแบนจากแชแนล
+chat_unbanned							^279* คุณถูกยกเลิกการแบนจากแชแนล ^990{channel}^279 โดย ^990{unbanner}^279
+chat_unbanned_no_name							^279* คุณถูกยกเลิกการแบนจากแชแนลโดย ^990{channel}^279
+chat_banned_from_channel							^279* คุณถูกอบนจากแชแนล ^990{channel}^279
+chat_silenced							^279* คุณถูกสั่งใบ้ในแชแนลนี้เลยไม่มีสิทธิพูด
+chat_silence_lifted							^279* คำสั่งใบ้ของคุณถูกยกเลิกในแชแนล ^990{target}^279
+chat_silence_placed							^279* คุณถูกสั่งใบ้โดย ^990{name}^279 ในแชแนล ^990{channel}^279 เป็นเวลา {duration} นาที
+chat_user_silence_placed							^279* ^990{silenced}^279 ถูกสั่งใบ้โดย ^990{name}^279 เป็นเวลา {duration} นาที
+chat_message_all							^900{name}:^999 {message}
+chat_roll_message							{player} ทอย {low} {high} และได้ {number}
+chat_current_time							วลาตอนนี้คือ: {time}
+chat_current_ping							Ping ตอนนี้คือ {ping}
+chat_adding_banlist							^279* เพิ่ม ^990{name}^279 ลงในรายชื่อแบนของคุณ
+chat_failed_banlist_add							^279* การเพิ่ม ^990{target}^279 ลงในรายชื่อแบนล้มเหลว
+chat_failed_banlist_add_self							^279* ไม่สามารถใส่ตัวเองลงในรายชื่อแบนได้
+chat_failed_banlist_add_duplicate							^279* ผู้เล่นคนนี้อยู่ในรายชื่อแบนอยู่แล้ว
+chat_failed_banlist_add_reason							^279* การเพิ่ม ^990{target}^279 ลงในรายชื่อแบนล้มแหลว {reason}
+chat_failed_banlist_remove							^279* การลบ ^990{target}^279 ออกจากรายชื่อแบนล้มเหลว
+chat_failed_banlist_remove_not_found							^279* การลบผู้เล่นออกจากรายชื่อแบนล้มเหลว: ไม่พบผู้เล่น
+chat_success_banlist_add							^279* เพิ่ม ^990{target}^279 ลงในรายชื่อแบนเรียบร้อย
+chat_success_banlist_remove							^279* ลบ ^990{target}^279 ออกจากรายชื่อแบนเรียบร้อย
+chat_adding_ignore							^279* กำลังเพิ่ม ^990{name}^279 ลงในรายชื่อเพิกเฉย
+chat_failed_ignore_add							^279* การเพิ่ม ^990{name}^279 ลงในรายชื่อเพิกเฉยล้มเหลว
+chat_failed_ignore_add_self							^279* ไม่สามารถลงชื่อตัวเองในรายชื่อเพิกเฉยได้
+chat_failed_ignore_add_duplicate							^279* ผู้เล่นอยู่ในรายชื่อเพิกเฉยแล้ว
+chat_failed_ignore_add_reason							^279* การเพิ่ม ^990{target}^279 ลงรายชื่อเพิกเฉยล้มเหลว: {reason}
+chat_failed_ignore_remove							^279* การลบ ^990{target}^279 จากรายชื่อเพิกเฉยล้มเหลว
+chat_failed_ignore_remove_not_found							^279* การลบผู้เล่นออกจากรายชื่อเพิกเฉยล้มเหลว: ไม่พบผู้เล่น
+chat_success_ignore_add							^279* เพิ่ม ^990{target}^279 ลงรายชื่อเพิกเฉยเรียบร้อย
+chat_success_ignore_remove							^279* ลบ ^990{target}^279 ออกจากรายชื่อเพิกเฉยเรียบร้อย
+chat_user_on_banlist							^279* ^990{name}^279 อยู่บนรายชื่อแบนของคุณ: ^999{reason}
+chat_admin_level_none							ไม่มีสถานะเป็นแอดมิน
+chat_admin_level_officer							เจ้าหน้าที่แชแนล
+chat_admin_level_leader							หัวหน้าแชแนล
+chat_admin_level_administrator							แอดมินแชแนล
+chat_admin_level_staff							พนักงาน
+chat_promote_success							^279* ^990{name}^279 ถูกเลื่อนชั้นเป็น ^990{rank}^279 โดย ^990{promoter}^279
+chat_promote_failure							^279* คุณไม่มีอำนาจในการเลื่อนขั้นให้ผู้เล่นคนนี้ไปมากกว่านี้
+chat_demote_success							^279* ^990{name}^279 ถูกลดชั้นเป็น ^990{rank}^279 โดย ^990{demoter}^279
+chat_demote_failure_too_low							^279* ผู้เล่นคนนี้เป็นแอดมินในระดับต่ำสุดแล้ว
+chat_demote_failure							^279* คุณไม่ทีอำนาจในการลดชั้นผู้เล่นคนนี้ไปมากกว่านี้
+chat_not_in_channel							^279* ผู้เล่นคนนี้ไม่ได้อยู่ในแชแนลนี้
+chat_im_user_offline							^279* ^990{name}^279 ออฟไลนแล้ว
+chat_im_user_online							^279* ^990{name}^279 ออนไลนแล้ว
+chat_version_mismatch							^279* เวอร์ชั่นคุณไม่ตรงกับของเซิร์ฟเวอร์แชท
+chat_no_permissions							^279* อำนาจแอดมินของคุณไม่สูงพอที่จำมำสิ่งนี้
+chat_auth_enabled							^279* การอนุมัติได้ถูกตั้งขึ้นในแชแนลนี้้ คุณต้องถูกอนุมัติถึงจะเข้าร่วมได้
+chat_auth_disabled							^279* การอนุมัติในแชแนลนี้ถูกยกเลิก ผุ้เล่นทุกคนสามารถเข้าร่วมได้
+chat_auth_add_success							^279* ^990{name}^279 ถูกเติมนายรายชื่อผู้ถูกอันุมัติ
+chat_auth_add_failure							^279* ^990{name}^279 อยู่ในรายชื่อผู้ถูกอนุมัติอยู่แล้ว
+chat_auth_remove_success							^279* ^990{name}^279 ถูกลบออกจากรายชื่อผู้ถูกอนุมัติ
+chat_auth_remove_failure							^279* ^990{name}^279 ไม่ได้อยู่ในรายชื่อผู้ถูกอนุมัติ
+chat_password_change							^279* รหัสผ่านของแชแนลได้ถูกเปลี่ยนโดย ^990{name}^279
+chat_password_required							^279* แชแนล ^990{name}^279 มีรหัสผ่าน
+chat_error_clan_rank							^279* ต้องให้เจ้าหน้าที่แคลนชั้นสูงกว่านี้ทำสิ่งนี้
+chat_error_clan_not_found							^279* สมาชิกแคลน ^990{name}^279 ไม่ถูกพบ
+chat_clan_invite_sent							^279* ได้ส่งการชวนเข้าแคลนให้กับผู้เล่น ^990{name}^279
+chat_failed_clan_invite_in_clan							^279* ^990{name}^279 อยู่ในแคลนอยู่แล้ว
+chat_clan_invite_received							^279* ^990{name}^279 ได้ชวนคุณร่วมแคลน ^990{clan}^279
+chat_clan_invite_rejected							^279* ^990{name}^279 ปฏิเสธคำเชิญร่วมแคลนของคุณ
+chat_clan_invite_failed_online							^279* ผู้เล่นไม่ได้ออนไลน
+chat_clan_invite_failed_clan							^279* ผู้เล่นอยู่ในแคลนอยู่แล้ว
+chat_clan_invite_failed_invite							^279* ผู้เล่นถูกเชิญเข้าแคลนไปแล้ว
+chat_clan_invite_failed_permissions							^279* คุณไม่มีอำนาจในการเชิญผู้เล่นเข้าแคลน
+chat_clan_invite_failed_unknown							^279* การเพิ่ม ^990{name}^279 เข้าแคลนล้มเหลว
+chat_clan_invite_failed_unknown_self							^279* การเพิ่มคุณเข้าแคลนล้มเหลว
+chat_clan_new_user							^279* ^990{name}^279 ได้เข้าร่วมแคลน
+chat_clan_new_user_self							^279* คุณได้เข้าร่วมแคลน ^990{clan}^279
+chat_clan_create_fail_clan							^279* คุณต้องออกจากแคลนปัจจุบันก่อนจะสร้างแคลนขึ้นมาใหม่ได้
+chat_clan_create_fail_param							^279* การสร้างแคลนล้มเหลว - มีพารามีเตอร์ขาดหาย
+chat_clan_create_fail_tag							^279* การสร้างแคลนล้มเหลว - ชื่อแคลนของคุณใช้ไม่ได้ ให้แน่ใจไม่ยาวเกิน 32 ตัวอักษรและไม่มีผู้อื่นใช้อยู่
+chat_clan_create_fail_in_clan							^279* การสร้างแคลนล้มเหลว - ^990{name}^279 อยู่ในแคลนอื่นแล้ว
+chat_clan_create_fail_duplicate							^279* การสร้างแคลนล้มเหลว - ผู้จัดตั้งซ่ำสองไม่ได้
+chat_clan_create_fail_invite							^279* การสร้างแคลนล้มเหลว - ^990{name}^* มีคำเชิญร่วใแคลนอื่นที่ยังไม่ได้ตอบ
+chat_clan_create_fail_not_found							^279* การสร้างแคลนล้มเหลว - ^990{name}^* ไม่ถูกพบ
+chat_clan_create_fail_clan_name							^279* การสร้างแคลนล้มเหลว - ชื่อแคลนของคุณใช้ไม่ได้ ให้แน่ใจไม่ยาวเกิน 32 ตัวอักษรและไม่มีผู้อื่นใช้อยู่
+chat_clan_create_fail_tag							^279* การสร้างแคลนล้มเหลว - ชื่อแคลนของคุณใช้ไม่ได้ ให้แน่ใจไม่ยาวเกิน 32 ตัวอักษรและไม่มีผู้อื่นใช้อยู่
+chat_clan_create_fail_unknown							^279* การสร้างแคลนล้มเหลว
+chat_clan_create_fail_time							^279* การสร้างแคลนล้มเหลว - หมดเวลาให้ผู้จัดตั้งยอมรับ
+chat_clan_create_result_fail_clan							คุณต้องออกจากแคลนก่อนสร้างแคลนใหม่
+chat_clan_create_result_fail_param							ล้มเหลว - พารามีเตอร์ขาดหาย
+chat_clan_create_result_fail_tag							ล้มเหลว - ชื่อแคลน ของคุณ ถูกปฏิเสธ
+chat_clan_create_result_fail_in_clan							ล้มเหลว - ^990{name}^* อยู่ในแคลนแล้ว
+chat_clan_create_result_fail_duplicate							ล้มเหลว - มี ผู้ใช้ ซ้ำ
+chat_clan_create_result_fail_invite							Failed - ^990{name}^* มีคำเชิญเข้าแคลนค้างอยู่
+chat_clan_create_result_fail_not_found							ล้มเหลว - ^990{name}^* ไม่ถูกพบ
+chat_clan_create_result_fail_clan_name							ล้มเหลว - ชื่อแคลน ของคุณ ถูกปฏิเสธ
+chat_clan_create_result_fail_tag							ล้มเหลว - ชื่อแคลน ของคุณ ถูกปฏิเสธ
+chat_clan_create_result_fail_unknown							การสร้างแคลนล้มเหลว
+chat_clan_create_result_fail_time							ล้มเหลว - หมดเวลา
+chat_clan_create_sent							^279* ได้ส่งคำขอสร้างแคลนแล้ว รอการอนุมัติจากสมาชิก
+chat_clan_create_accept							^279* ^990{name}^279 ได้อนุมัติการสร้างแคลน
+chat_clan_create_reject							^279* ^990{name}^279 ได้ปฏิเสธการสร้างแคลน
+chat_clan_create_result_reject							ล้มเหลว - ^990{name}^* ปฏิเสธคำขอของคุณ
+chat_clan_create_success							^279* แคลนคุณถูกสร้างเรียบร้อย
+chat_clan_create_result_success							สำเร็จ! แคลนคุณได้ถูกสร้างแล้ว
+chat_clan_left							^279* ^990{name}^279 ได้ออกจากแคลน
+chat_clan_left_self							^279* คุณได้ออกจากแคลน
+chat_clan_kick							^279* ^990{changer}^279 เตะ ^990{name}^279 ออกจากแคลน
+chat_clan_kick_self							^279* ^990{changer}^279 แตะคณออกจากแคลน
+chat_clan_joined							^279* ^990{name}^279 ได้เข้าร่วมแคลนคุณ
+chat_clan_rank_change							^279* ^990{changer}^279 ได้เปลี่ยนต่ำแหน่งในแคลนของ ^990{name}^279 มาเป็น ^990{rank}^279
+chat_clan_rank_change_self							^279* ^990{changer}^279 เปลียนต่ำแหน่งใแคลนคุณเป็น ^990{rank}^279
+chat_clan_rank_none							ไม่ได้อยู่ในแคลน
+chat_clan_rank_member							สมาชิก
+chat_clan_rank_officer							เจ้าหน้าที่
+chat_clan_rank_leader							หัวหน้า
+chat_clan_no_clan							^279* คุณไม่ได้อยู่ในแคลน
+chat_tourn_match_ready							^279* เกมทัวร์นาเมนต์ที่คุณมีกำหนดจะเล่น ^990{name}^279 พร้อมที่จะเริ่มแล้ว เข้าร่วมผ่านทางหน้า ชุมชนและแคลน
+chat_unable_to_join_group							ไม่สามารถเข้าร่วมกลุ่มจับคู่ทีมได้เพราะคุณอยู่ในเกมหรือรีเพลย์
+chat_unable_to_join_scheduled_match							ไม่สามารถเข้าร่วมกลุ่มจับคู่ทีมได้เพราะคุณอยู่ในเกมหรือรีเพลย์
+chat_group_queue_rejoin							^279* กลุ่มของคุณกลับเข้าสู่การรอคิว ตามเวลาที่หัวหน้ากลุ่มได้เคยรอไว้ก่อนหน้านี้ ...
+chat_group_max_match_fidelity_diff							^279* คุณ ไม่สามารถ เข้าร่วมเกม ในรูปแบบ ที่เลือก ไว้ได้ เนื่องจาก ค่าเฉลี่ย ของ MMR ในทีม แตกต่างกันเกินไป.
+chat_sending_player_spectate_request							^279* ยื่นคำขอร้อง ถึง ^990{name}^279.
+chat_player_spectate_denied							^279* ^990{name}^279 ปฏิเสธ คำขอร้อง ของคุณ หรือ อาจไม่ได้ ตอบรับ
+chat_player_spectate_denied_full_server							^279* เซิฟเวอร์ ^990{name}^279 อยู่ใน สถานะปิดรับ ผู้ชม และ ผู้แนะนำ เพิ่มเติม เนื่องจาก เกินจำนวน สูงสุด ที่กำหนดไว้
+chat_player_spectate_denied_full_player							^279* ^990{name}^279 มีจำนวน ผู้ชม และ ผู้แนะนำ ครบแล้ว
+chat_player_spectate_denied_too_deep							^279* ^990{name}^279 ได้ เฝ้ามอง หรือ ฝึกสอน ผู้เล่นอื่น ไปแล้ว. คุณ ไม่สามารถ เฝ้ามอง หรือ ฝึกสอน ได้.
+
+chat_excessive_gameplay_message							^900ประกาศ จาก เซิฟเวอร์:^999
+
+// stats
+chat_stats_header							^492* สถิติของ ^982{name}^492
+chat_stats_body1							^492 แคลน: ^999{clan_name} ^982|| ^492 เลเวล: ^999{level} ^982|| ^492W: ^999{wins}^555({winpercent}) ^492L: ^999{losses} ^492หลุด: ^999{disconnects}^555({leavepercent})
+chat_stats_body2							^492 K/D/A: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists} ^982|| ^492Exp / นาที: ^999{expmin} ^982|| ^492PSR: ^999{psr}
+
+// chat notifications
+chat_notification_cc_panel							กด F6 เพื่อเปิดหน้า ชุมชนและแคลน
+chat_notification_buddy_online							{name} ออนไลน
+chat_notification_buddy_offline							{name} ออฟไลน
+chat_notification_buddy_joined_game							{name} ได้เข้าร่วมเกม ]{game}'
+chat_notification_buddy_left_game							{name} ได้ออกจากเกม '{game}'
+chat_notification_clan_online							{name} ออนไลน
+chat_notification_clan_offline							{name} ออฟไลน
+chat_notification_clan_joined_game							{name} ได้เข้าร่วมเกม '{game}'
+chat_notification_clan_left_game							{name} ได้ออกจากเกม '{game}'
+chat_notification_clan_whisper							(แคลน) {name}: {message}
+chat_notification_clan_whisper_sent							(แคลน) {name}: {message}
+chat_notification_clan_new_user							{name} ได้เข้าร่วมแคลนคุณ
+chat_notification_clan_new_user_self							คุณได้เข้าร่วมแคลน {clan}
+chat_notification_clan_left_self							คุณได้ออกจากแคลน
+chat_notification_clan_left							{name} ได้ออกจากแคลน
+chat_notification_clan_joined							{name} ได้เข้าร่วมแคลน
+chat_notification_clan_rank_change							{changer} ^990{name}^279's rank to ^990{rank}^279. ได้เปลี่ยน ^990{name}^279 ต่ำแหน่งเป็น ^990{rank}^279
+chat_notification_clan_rank_change_self							{changer} ^990{rank}^279. ได้เปลี่ยนต่ำแหน่งคุณเป็น ^990{rank}^279
+chat_notification_clan_kick							{changer} ^990{name}^279 ได้เตะ ^990{name}^279 ออกจากแคลน
+chat_notification_clan_kick_self							{changer} ได้เตะคุณออกจากแคลน
+
+// chat commands
+chat_command_whisper							/whisper
+chat_command_whisper_short							/w
+chat_command_whisper_help							^279*^707 /whisper <name> <message>.
+chat_command_reply							/reply
+chat_command_reply_short							/r
+chat_command_reply_invalid							^279* ไม่ได้มีใครกระซิบถึงคุณ!
+chat_command_reply_help							^279*^707 /reply <message>.
+chat_command_buddy							/buddy
+chat_command_buddy_short							/b
+chat_command_buddy_list							รายชื่อ
+chat_command_buddy_list_short							l
+chat_command_buddy_list_message							^279* เรียงชื่อเพื่อน
+chat_command_buddy_list_none							^279* ไม่มีใครอยู่บนรายชื่อเพื่อน
+chat_command_buddy_list_help							^279*^707 /buddy list.
+chat_command_buddy_message							ข้อความ
+chat_command_buddy_message_short							m
+chat_command_buddy_message_help							^279*^707 /buddy message <message>.<ข้อความ>
+chat_command_buddy_add							เพิ่ม
+chat_command_buddy_add_short							a
+chat_command_buddy_add_help							^279*^707 /buddy add <nick> <ชื่อในเกม>.
+chat_command_buddy_delete							ลบ
+chat_command_buddy_delete_short							d
+chat_command_buddy_delete_help							^279*^707 /buddy delete <nick>. <ชื่อในเกม>
+chat_command_clan							/clan
+chat_command_clan_short							/c
+chat_command_clan_list							เรียงชื่อ
+chat_command_clan_list_short							l
+chat_command_clan_list_message							^279* เรียงชื่อสมาชิกแคน
+chat_command_clan_list_none							^279* ไม่มีสมาชิกแคลน
+chat_command_clan_list_help							^279*^707 /clan list.
+chat_command_clan_message							ข้อความ
+chat_command_clan_message_short							m
+chat_command_clan_message_help							^279*^707 /clan message <message> <ข้อความ>.
+chat_command_clan_promote							เลื่อนขั้น
+chat_command_clan_promote_short							p
+chat_command_clan_promote_help							^279*^707 /clan promote <name> <ชื่อแคลน>.
+chat_command_clan_demote							ลดขั้น
+chat_command_clan_demote_short							d
+chat_command_clan_demote_help							^279*^707 /clan demote <name>.<ชื่อแคลน>
+chat_command_clan_remove							ลบ
+chat_command_clan_remove_short							r
+chat_command_clan_remove_help							^279*^707 /clan remove <name>. <ชื่อแคลน>
+chat_command_clan_invite							ชวน
+chat_command_clan_invite_short							i
+chat_command_clan_invite_help							^279*^707 /clan invite <name> <ชื่อแคลน>.
+chat_command_clan_leave							ออก
+chat_command_clan_leave_short							l
+chat_command_clan_leave_help							^279*^707 /clan leave.
+chat_command_clear							/clear
+chat_command_clear_short							/cl
+chat_command_join							/join
+chat_command_join_help							^279*^707 /join <ชื่อแชนเนล> "รหัสผ่าน" (ใส่รหัสผ่านในเครื่องหมายคำพูด)
+chat_command_join_short							/j
+chat_command_invite							/invite
+chat_command_invite_short							/i
+chat_command_invite_help							^279*^707 /invite <ผู้เล่น>
+chat_command_whois							/whois
+chat_command_whois_short							/who
+chat_command_whois_help							^279*^707 /whois <ผู้เล่น>
+chat_command_stats							/stats
+chat_command_stats_short							/s
+chat_command_stats_pop							pop ดู
+chat_command_stats_help							^279*^707 /stats <ผู้เล่น>
+chat_command_joingame							/joingame
+chat_command_joingame_short							/jg
+chat_command_joingame_buddy							เพื่อน
+chat_command_joingame_buddy_short							b
+chat_command_joingame_name							ชื่อ
+chat_command_joingame_name_short							n
+chat_command_joingame_ip							ip
+chat_command_joingame_ip_short							i
+chat_command_joingame_buddy_help							^279*^707 /joingame buddy <ชื่อ>
+chat_command_joingame_name_help							^279*^707 /joingame name <ชื่อ>
+chat_command_joingame_ip_help							^279*^707 /joingame ip <ที่อยู่ IP>
+chat_command_joingame_buddy_failed							^279* ไม่สามารถเข้าร่วมเกม - ผู้เล่นไม่มีอยู่จริงหรือไม่ก็ไม่ได้อยู่ในเกม
+chat_command_topic							/topic
+chat_command_topic_short							/t
+chat_command_topic_help							^279*^707 /topic
+chat_command_topic_set_help							^279*^707 /topic <หัวข้อ> (จำเป็นต้องเป็นแอดมิน)
+chat_command_kick							/kick
+chat_command_kick_short							/k
+chat_command_kick_help							^279*^707 /kick <ผู้เล่น> (จำเป็นต้องเป็นแอดมิน)
+chat_command_ban							/ban
+chat_command_ban_help							^279*^707 /ban <ผู้เล่น> (จำเป็นต้องเป็นแอดมิน)
+chat_command_unban							/unban
+chat_command_unban_help							^279*^707 /unban <ผู้เล่น> (จำเป็นต้องเป็นแอดมิน)
+chat_command_silence							/silence
+chat_command_silence_help							^279*^707 /silence <ผู้เล่น> <ระยะเวลาหลักนาที> (จำเป็นต้องเป็นแอดมิน)
+chat_command_message_all_long							/messageall
+chat_command_message_all							/msgall
+chat_command_banlist							/banlist
+chat_command_banlist_short							/bl
+chat_command_banlist_list							เรียงชื่อ
+chat_command_banlist_list_short							l
+chat_command_banlist_list_message							^279* เรียงรายชื่อคนโดนแบน
+chat_command_banlist_list_none							^279* ไม่มีคนในรายชื่อแบน
+chat_command_banlist_list_entry							^999{name}: ^888{reason}
+chat_command_banlist_list_help							^279*^707 /banlist list.
+chat_command_banlist_add							เพิ่ม
+chat_command_banlist_add_short							a
+chat_command_banlist_add_help							^279*^707 /banlist add <ชื่อในเกม> <เหตุผล>
+chat_command_banlist_delete							ลบ
+chat_command_banlist_delete_short							d
+chat_command_banlist_delete_help							^279*^707 /banlist delete <ชื่อในเกม>
+chat_command_ignorechat							/ignorechat
+chat_command_ignorechat_short							/ic
+chat_command_ignorechat_enemy_all_on							^279* คุณจะไม่เห็นเมสเสจ "All" จากฝ่ายตรงข้าม
+chat_command_ignorechat_all_on							^279* คุณจะไม่เห็นเมสเสจ "All" จะทุกคน
+chat_command_ignorechat_team_on							^279* คุณจะไม่เป็นเมสเสจ "Team"
+chat_command_ignorechat_every_on							^279* คุณจะไม่เห็นทั้งเมสเสจ "All" และ "Team"
+chat_command_ignorechat_off							^279* คุณไม่ได้เพิกเฉยเมสเสจใดๆ แล้ว
+chat_command_friendlychat							/friendlychat
+chat_command_friendlychat_short							/fc
+chat_command_friendlychat_on							^279* คุณ อยู่ใน สถานะ เปิดรับ ข้อความ จากผู้เล่น ที่อยู่ ในแคลน หรือ ผู้เล่นที่ อยู่ใน รายชื่อเพื่อน เท่านั้น.
+chat_command_friendlychat_off							^279* คุณ อยู่ใน สถานะ เปิดรับ ข้อความ จากผู้เล่น ทุกคน.
+chat_command_ignore							/ignore
+chat_command_ignore_list							รายชื่อ
+chat_command_ignore_list_short							l
+chat_command_ignore_list_message							^279* เรียงรายชื่อผู้ถูกเพิกเฉย
+chat_command_ignore_list_none							^279* ไม่มีคนในรายชื่อเพิกเฉย
+chat_command_ignore_list_entry							^999{name}
+chat_command_ignore_list_help							^279*^707 /ignore list.
+chat_command_ignore_add							add
+chat_command_ignore_add_short							a
+chat_command_ignore_add_help							^279*^707 /ignore add <nick>.
+chat_command_ignore_delete							delete
+chat_command_ignore_delete_short							d
+chat_command_ignore_delete_help							^279*^707 /ignore delete <nick>.
+chat_command_notes							/notes
+chat_command_notes_short							/n
+chat_command_notes_list							list
+chat_command_notes_list_short							l
+chat_command_notes_list_message							^279* เรียงโน้ตที่จดไว้
+chat_command_notes_list_none							^279* ไม่มีโน้ตที่จดไว้
+chat_command_notes_list_entry							^279{id}: ^888{note}
+chat_command_notes_list_help							^279*^707 /notes list.
+chat_command_notes_add							เพิ่ม
+chat_command_notes_add_success							^279* เติมโน้ตสำเร็จ
+chat_command_notes_add_short							a
+chat_command_notes_add_help							^279*^707 /notes add <note>.
+chat_command_notes_delete							ลบ
+chat_command_notes_delete_short							d
+chat_command_notes_delete_help							^279*^707 /notes delete <id>.
+chat_command_notes_delete_success							^279* ลบโน้ตสำเร็จ
+chat_command_notes_delete_invalid							^279* โน้ตผิดพลาด
+chat_command_promote							/promote
+chat_command_promote_short							/p
+chat_command_promote_help							^279*^707 /promote <user> (จำเป็นต้องเป็นแชนเนลแอดมิน)
+chat_command_demote							/demote
+chat_command_demote_short							/d
+chat_command_demote_help							^279*^707 /demote <user> (จำเป็นต้องเป็นแชนเนลแอดมิน)
+chat_command_auth							/auth
+chat_command_auth_short							/a
+chat_command_auth_list							รายชื่อ
+chat_command_auth_list_short							l
+chat_command_auth_list_message							^279* เรียงรายชื่อผู้ถูกอนุมัติ
+chat_command_auth_list_none							^279* ไม่มีใครบนรายชื่อผู้ถูกอนุมัติ
+chat_command_auth_list_entry							^999{name}
+chat_command_auth_list_help							^279*^707 /auth list.
+chat_command_auth_add							เพิ่ม
+chat_command_auth_add_short							a
+chat_command_auth_add_help							^279*^707 /auth add <nick>.
+chat_command_auth_delete							ลบ
+chat_command_auth_delete_short							d
+chat_command_auth_delete_help							^279*^707 /auth delete <nick>.
+chat_command_auth_enable							enable
+chat_command_auth_enable_help							^279*^707 /auth enable (เฉพาะผู้เล่นที่ได้รับการอนุมัติถึงเข้าร่วมแชนเนลได้)
+chat_command_auth_disable							disable
+chat_command_auth_disable_help							^279*^707 /auth disable.
+chat_command_password							/password
+chat_command_password_short							/pass
+chat_command_password_set_help							^279*^707 /password (ล้างรหัสผ่าน ต้องเป็นเจ้าของแชนเนล)
+chat_command_password_clear_help							^279*^707 /password <password> (ตั้งรหัสผ่าน ต้องเป็นเจ้าของแชนเนล)
+chat_command_roll							/roll
+chat_command_roll_help							^279*^707 /roll <low> <high> (ทอยตัวเลข (1 ถึง 32767))
+chat_command_emote							/emote
+chat_command_emote_help							^279*^707 /emote <emote message>.
+chat_command_emote_short							/em
+chat_command_time							/time
+chat_command_ping							/ping
+chat_command_matchup							/matchup
+chat_command_matchup_short							/ma
+chat_command_matchup_help							ข้อมูลของคู่ต่อสู้จะโชว์ก็เมื่อเกมเริ่ม
+chat_command_gameinfo							/gameinfo
+chat_command_gameinfo_short							/gi
+chat_command_ping_all							/pingall
+chat_command_ping_all_short							/pa
+chat_command_available							/available
+chat_command_available_message							^279* สถานะแชทของคุณตอนนี้คือ "ว่าง"
+chat_command_afk							/afk
+chat_command_afk_message							^279* สถานะแชทตอนนี้ของคุณคือ "ไม่ว่าง" {reason}
+chat_command_dnd							/dnd
+chat_command_dnd_message							^279* สถานะแชทของคุณตอนนี้คือ "อย่ารบกวน"
+
+chat_command_weather							/weather
+chat_command_weather_intro							^279* พิมพ์คำสั่งสภาพอากาศ:
+chat_command_weather_entry							^279* /weather {name}
+chat_command_weather_selected							^279* สภาพอากาศที่เลือกคือ '{name}'
+
+chat_command_server							/serverchat
+chat_command_server_short							/sc
+
+chat_command_help							/help
+chat_command_help_short							/h
+chat_command_character							/
+chat_command_invalid_format							^279* รูปแบบคำสั่งผิดพลาด รูปแบบที่ถูกต้องคือ:
+chat_command_invalid_format_multi							^279* รูปแบบคำสั่งผิดพลาด รูปแบบที่ถูกต้องคือหนึ่งใน:
+chat_command_invalid_command							^279* คำสั่งผิดพลาด พิมพ์ {helpcommand} เพื่อเรียงคำสั่ง
+chat_command_help_valid							^279* Valid commands are: คำสั่งที่ถูกต้องคือ:
+chat_command_help_whisper							^279*^707 /whisper <nickname> <message>^279 -กระซิบถึงผู้เล่น
+chat_command_help_reply							^279*^707 /reply <message>^279 -ตอบกระสิบล่าสุด
+chat_command_help_buddy							^279*^707 /buddy <command> <arguments>^279 -คำสั่งต่างๆ เกี่ยวกับเพื่อน
+chat_command_help_clan							^279*^707 /clan <command> <arguments>^279 -คำสั่งต่างๆ เกียวกับแคลน
+chat_command_help_join							^279*^707 /join <channel> "password"^279 -เข้าร่วมแชนเนลดังกล่าว (อาจจะต้องใส่รหัสผ่านในเครื่องหมายคำพูดด้วย)
+chat_command_help_clear							^279*^707 /clear^279 -(ล้างคำสั่งแชท)
+chat_command_help_invite							^279*^707 /invite <user>^279 -ชวนผู้เล่นดังกล่าวมาสู่เกม
+chat_command_help_whois							^279*^707 /whois <user>^279 -ขอข้อมูลของผู้เล่นดังกล่าว
+chat_command_help_stats							^279*^707 /stats <user> [pop]^279 -ขอสถิติของผู้เล่นดังกล่าว (สามารถใส่คำว่า "pop" ลงไปเพื่อให้ข้อมูลตกลงมา)
+chat_command_help_joingame							^279*^707 /joingame <type> <param>^279 -เข้าร่วมเกม
+chat_command_help_topic							^279*^707 /topic [topic]^279 -ดูหรือตั้งหัวข้อปัจจุบันของแชนเนล
+chat_command_help_kick							^279*^707 /kick <user>^279 -เตะผู้เล่นออกจากแชนเนล (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_ban							^279*^707 /ban <user>^279 -แบนผู้เล่นจากแชนเนล (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_unban							^279*^707 /unban <user>^279 -ล้มเลิกการแบนผู้เล่น (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_silence							^279*^707 /silence <user> <duration>^279 -ใบ้ผู้เล่นเป็นระยะเวลา <duration> นาที (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_promote							^279*^707 /promote <user>^279 -เลื่อนต่ำแหน่งให้ผู้เล่น (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_demote							^279*^707 /demote <user>^279 -ลดต่ำแหน่งผู้เล่น (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_banlist							^279*^707 /banlist <command> <arguments>^279 -คำสั่งการจัดการราบชื่อแบน
+chat_command_help_ignore							^279*^707 /ignore <command> <arguments>^279 -คำสั่งการจัดการรายชื่อเพิกเฉย
+chat_command_help_ignorechat							^279*^707 /ignorechat^279 -คำสั่งเพิกเฉยเมสเสจ "Team" หรือ "All"
+chat_command_help_friendlychat							^279*^707 /friendlychat^279 -เปิดใช้งาน การปฏิเสธ ข้อความจาก ผู้เล่นที่ไม่ได้ อยู่ในแคลน และ ผู้เล่นที่ ไม่อยู่ใน รายชื่อเพื่อน.
+chat_command_help_notes							^279*^707 /notes <command> <arguments>^279 -คำสั่งการจัดการโน้ต
+chat_command_help_auth							^279*^707 /auth <command> <arguments>^279 -คำสั่งการจัดการรายชื่อผู้ถูกอนุมัติ (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_password							^279*^707 /password <password>^279 -ตั้งรหัสผ่านของแชนเนล (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_password_clear							^279*^707 /password^279 -ล้างรหัสผ่านของแชนเนล (จำเป็นต้องเป็นแอดมิน)
+chat_command_help_roll							^279*^707 /roll <low> <high>^279 -ทอยเลข (1 - 32767)
+chat_command_help_emote							^279*^707 /emote <message>^279 -ใส่อารมณ์ให้ชื่อของคุณ
+chat_command_help_time							^279*^707 /time^279 -แสดงเวลาของระบบคุณ
+chat_command_help_ping							^279*^707 /ping^279 (in game only) -แสดงค่าปิง
+chat_command_help_matchup							^279*^707 /matchup^279 (in game only) -แสดง ทีม/ชื่อ/สี/ฮีโร่ ของผู้เล่นในเกมนี้
+chat_command_help_gameinfo							^279*^707 /gameinfo^279 (in game only) -แสดงข้อมูลเกี่ยวกับเกมนี้
+chat_command_help_available							^279*^707 /available^279 -เปลี่ยนสถานะแชทเป็น "ว่าง"
+chat_command_help_afk							^279*^707 /afk <afk message>^279 -เปลี่ยนสถานะแชทเป็น "ไม่อยู่" และจะตอบกระซิบด้วยข้อความที่ตั้งเอาไว้
+chat_command_help_dnd							^279*^707 /dnd <dnd message>^279 -เปลี่ยนสถานะแชทเป็น "อย่ารบกวน" และจะตอบกระซิบด้วยข้อความที่ตั้งเอาไว้
+chat_command_help_weather							^279*^707 /weather^279 (in game only) -ตั้งสภาพอากาศ
+chat_command_help_misc							^279* คำสั่งความช่วยเหลือในการใช้คำสั่ง
+chat_group_invite_broadcast							^279* ^990{invited}^279 ได้ถูก เชิญเข้ากลุ่ม Matchmaking โดย ^990{inviter}^279...
+chat_invited_to_game								^900* คุณได้ถูก ชวนเข้าห้อง '{gamename}' ที่ '{address}' โดย {inviter}.
+chat_not_on_team								^900* คุณ ไม่สามารถ ใช้แชททีมได้ คุณไม่ได้ อยู่ใน ทีมใดๆ!
+
+chat_muted							^279* กำลัง อยู่ในโหมด ส่วนตัว และ จะไม่สามารถ ทำการสื่อสาร ได้
+chat_command_friend						/friend
+chat_command_friend_short					/f
+
+chat_success_clan_name_tip			ชื่อแคลน และ ป้ายแคลน ใช้งาน ได้แล้ว
+
+chat_excessive_gameplay_message			การเล่นเกม มากเกินไป จะก่อให้ ส่งผลเสีย ต่อสุขภาพ, อย่าลืมพักผ่อน เป็นระยะๆ ในระหว่างการเล่น ติดต่อกัน
+chat_excessive_gameplay_1_hour			คุณเล่น ไปแล้ว 1 ชม.
+chat_excessive_gameplay_2_hours			คุณเล่น ไปแล้ว 2 ชม.
+chat_excessive_gameplay_fatigue			ระวัง! คุณเล่นเกม มากเกินไป จนเกินความเหมาะสม แล้วนะ, ผลประโยชน์ ที่คุณได้รับ จะลดลง เหลือครึ่งเดียว
+chat_excessive_gameplay_unhealthy			คุณได้เล่นเกม จนเกิน ขีดจำกัดแล้ว, คุณจะไม่ได้ รับประโยชน์ใดๆ จากการเล่น ครั้งต่อไป
+
+client_default_name				UnnamedNewbie
+
+disconnect_no_mods_allowed					คุณถูก ตัดออกจากเกม เนื่องจาก ระบบตรวจพบ ไฟล์ Mod ในเครื่อง ของคุณ. กรุณาลบออก ก่อนทำการเชื่อมต่อ กลับเข้าไปอีกครั้ง
+disconnect_match_neverending					เกมถูก ยุติลง เนื่องจาก สิ้นสุดระยะเวลา สูงสุด ที่เกม กำหนดไว้
+chat_mods_detected						^900 คำเตือน:^999 ระบบได้ตรวจสอบ พบไฟล์ Mod ในเครื่อง และจะทำให้คุณ ไม่สามารถเล่นเกมได้ โดยระบบ จะตัดการเชื่อมต่อ ของคุณทันที ที่เกมเริ่ม หากไม่ทำการลบไฟล์ เหล่านั้นออก. หากท่าน มีข้อสงสัย เกี่ยวกับรายชื่อไฟล์ Mod ที่ตรวจพบ สามารถเช็คข้อมูลได้ ที่มุมบนขวา ของหน้าจอ ที่ไอค่อนตกใจ (!)
+
+//End							

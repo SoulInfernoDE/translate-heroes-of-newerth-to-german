@@ -1,0 +1,625 @@
+﻿client_default_name                                                             UnnamedNewbie
+
+error_title                                                                     Error
+error_unknown                                                                   Неизвестная ошибка.
+error_memory_not_enough                                                         Недостаточно системной памяти!\nПожалуйста, закройте все открытые приложения и запустите Heroes of Newerth заново.
+error_key_file_damaged                                                          Некоторые файлы игры повреждены!\nПожалуйста, переустановите Heroes of Newerth.
+
+disconnect_auth_failed                                                          Сервер не смог авторизировать ваш аккаунт. Пожалуйста, попробуйте подключиться снова.
+disconnect_banned                                                               Хозяин заблокировал свою игру для вас.
+disconnect_basic                                                                Basic аккаунты не могут создавать игры.
+disconnect_client_number_mismatch                                               Ошибка подключения, пожалуйста, попробуйте снова.
+disconnect_duplicate_connect                                                    Вы были отключены, потому что другой клиент подключился к игре, используя тот же самый аккаунт.
+disconnect_duplicate_game_connect                                               Вы были отключены, потому что другой клиент подключился к другой игре, используя этот аккаунт.
+disconnect_duplicate_login                                                      Сервер не смог авторизовать ваш аккаунт. Вы должны войти в игру, чтобы начать играть.
+disconnect_failed_refresh                                                       Ошибка при запуске обновления. Вы были отключены.
+disconnect_flooding                                                             Вы были разъединены из-за флуда на сервере.
+disconnect_game_in_progress                                                     Игра, к которой вы пытаетесь присоединиться, уже началась.
+disconnect_game_over                                                            Игра закончилась.
+disconnect_idle                                                                 Вы были отключены из-за бездействия.
+disconnect_invalid_psr                                                          Ваш PSR слишком высок или слишком низок для этой игры.
+disconnect_invalid_tier                                                         Вам не разрешается играть на этом уровне.
+disconnect_kicked                                                               Вы были исключены из игры хозяином.
+disconnect_kicked_mentor                                                        Игрок, которого вы обучали, исключил вас из игры.
+disconnect_kicked_spec                                                          Игрок, за которым вы наблюдали, исключил вас из игры.
+disconnect_leaver                                                               Вы не можете присоединиться к этой игре, потому что ваш процент дезертирства слишком высок.
+disconnect_match_neverending                                                    Матч был прерван, потому что его продолжительность превышает максимально возможную продолжительность матча.
+disconnect_max_spec_clients                                                     Нельзя более увеличить команду зрителей, достигнуто максимальное количество наблюдателей.
+disconnect_missing_spectate_player                                              Игрок, за которым вы попытались наблюдать, не находится в игре. Соединение разорвано.
+disconnect_mm_connect_timeout                                                   Матч был отменен: Время для подключения всех игроков к серверу истекло.
+disconnect_mm_players_left                                                      Один или несколько игроков отключились от матча.
+disconnect_mm_player_left                                                       Игрок покинул матч.
+disconnect_mm_start_timeout                                                     Матч был отменен: Время для завершения загрузки всех игроков истекло.
+disconnect_modified_core_files                                                  Ваш файл resources0.s2z был изменен. Этот файл НЕ должен быть изменен! Переустановите Heroes of Newerth.
+disconnect_not_accepted                                                         Игрок, за которым вы попытались наблюдать или обучать, не принял ваш запрос.
+disconnect_not_host                                                             Вы должны обладать правами хозяина, чтобы начать игру на этом сервере.
+disconnect_not_invited                                                          Вам нужно приглашение, чтобы присоединиться к этой игре.
+disconnect_not_on_roster                                                        Вы не находитесь в списке этого состязания.
+disconnect_not_verified                                                         Вы не можете присоединиться к этой игре, потому что ваш аккаунт не имеет статус Verified.
+disconnect_no_cookie                                                            Вы должны зайти в игру, чтобы играть на этом сервере.
+disconnect_no_inception_mentor                                                  Наблюдение и обучение менторов невозможно. Соединение разорвано.
+disconnect_no_inception_spectator                                               Наблюдатели не могут быть обучаемы и не могут наблюдать за собой. Соединение разорвано.
+disconnect_no_match_id                                                          Серверу не удалось получить ID матча, поэтому игру начать не удалось.
+disconnect_no_mods_allowed                                                      Вы были отключены от текущей игры, потому что на вашем ПК были обнаружены модифицированные файлы. Пожалуйста, удалите их и перезайдите в игру.
+disconnect_no_tokens                                                            Вам нужны токены или код для того, чтобы играть на этом моде.
+disconnect_overflow                                                             Вы были разъединены с сервером из-за потери сетевых пакетов.
+disconnect_server_error                                                         Ошибка сервера.
+disconnect_server_full                                                          Свободных мест нет.
+disconnect_snapshot_fragment                                                    Слишком много фрагментов скриншота.
+disconnect_staff_spec_not_staff                                                 Вы можете наблюдать за игрой как Администратор только с аккаунта администратора.
+disconnect_terminated                                                           Вы превысили максимально допустимое время разрыва связи и больше не можете переподключиться к этой игре.
+disconnect_timeout                                                              Нет ответа от сервера.
+disconnect_title                                                                Отключен
+disconnect_too_many_player_spectators                                           Игрок, за которым вы попытались наблюдать или обучать, уже имеет макс.число наблюдателей или менторов.
+disconnect_too_many_player_spectators_total                                     Сервер уже имеет макс.число наблюдателей или менторов.
+disconnect_tourney_rules_no_spec                                                Наблюдатели и менторы запрещены в турнирных матчах.
+disconnect_trial_not_allowed                                                    Вы не можете подключиться к этому матчу с пробным аккаунтом. Пробные аккаунты могут играть только матчи без статистики.
+disconnect_unassigned                                                           Хозяин начал игру, когда вы не выбрали команду. Чтобы вернуться в игру нажмите CTRL+F8 и введите команду RECONNECT.
+disconnect_unique_login_failed                                                  Вы были отключены, потому что сервер игры не смог авторизовать ваш аккаунт. Пожалуйста, попробуйте еще раз.
+disconnect_unknown                                                              Вы были отключены.
+disconnect_vote_kicked                                                          Вы были исключены из игры голосованием.
+disconnect_disconnected                                                         Вы были отключены.
+
+rejected_invalid_request                                                        Получен неверный запрос на соединение от вашего клиента.
+rejected_empty_address                                                          Сервер не сумел определить ваш адрес.
+rejected_wrong_game                                                             На сервере идет другая игра.
+rejected_wrong_version                                                          Ваша версия игры не совпадает с требуемой для сервера.
+rejected_banned                                                                 Вы забанены на этом сервере.
+rejected_invalid_password                                                       Неверный пароль.
+rejected_server_error                                                           Ошибка сервера.
+rejected_server_taken                                                           Кто-то уже начал игру на выбранном вами сервере. Пожалуйста, попробуйте еще раз.
+rejected_not_host                                                               Вы должны обладать привилегиями хозяина, чтобы начать игру на этом сервере.
+rejected_missing_spectate_player                                                Не удалось найти игрока, за которым вы хотели пообсить
+
+// chat system messages
+chat_connecting                                                                 ^279* Подключение к серверу чата...
+chat_reconnecting                                                               ^279* Подключение к серверу чата... (Попытка {attempt} из {maxattempts})
+chat_waiting_verification                                                       ^279* Ожидание идентификации сервером...
+chat_connected                                                                  ^279* Подключен!
+chat_connected_invisible                                                        ^279* Вы зашли в режиме невидимости. В этом режиме ваш клиент не отсылает ваш статус друзьям и членам клана, но вы получаете их статус, как если бы были в сети.
+chat_disconnected                                                               ^279* Отключены от сервера чата.
+chat_reconnecting_delay                                                         ^279* Повторное подключение через 30 секунд (Попытка {attempt} из {maxattempts}).
+chat_not_connected                                                              ^279* Вы не подключены к серверу чата.
+chat_new_channel                                                                ^279* Вы зашли на канал ^090{channel}^279.
+chat_channel_message                                                            ^990{sender}:^888 {message}
+chat_channel_message_sent                                                       ^444{name}:^* {message}
+chat_group_channel_message                                                      ^279 {message}
+chat_whisper                                                                    ^099(Приватно от {sender}) ^888{message}
+chat_whisper_sent                                                               ^066(Приватно для {target}) ^888{message}
+chat_whisper_buddies                                                            ^066 {message}
+chat_whisper_to_buddies                                                         ^099<{sender} Приватно друзьям> {message}
+chat_whisper_failed_self                                                        ^279* Вы не можете писать себе личные сообщения.
+chat_failed_invisible                                                           ^279* Вы не можете общаться, пока находитесь в невидимом режиме.
+chat_mode_switch_fail                                                           ^279* Вы не можете сменить ваш статус в чате пока находидеть в режиме невидимости. Пожалуйста перезайдите в обычном режиме для использования этой функции.
+chat_mode_afk_auto_response                                                     ^099* Ваше сообщение было доставлено, но ^990{target}^279 на данный момент отшел: {message}
+chat_mode_afk_default_response                                                  Отошел
+chat_mode_dnd_auto_response                                                     ^099* Ваше сообщение не было доставлено, так как ^990{target}^279 не хочет, чтобы его беспокоили: {message}
+chat_mode_dnd_default_response                                                  Не беспокоить
+chat_user_offline                                                               ^279* Этот игрок не в сети.
+chat_im                                                                         ^882{sender}: ^888{message}
+chat_im_sent                                                                    ^444{name}: ^888{message}
+chat_im_failed                                                                  ^279* ^990{target}^279 не в сети.
+chat_clan_whisper                                                               ^359(Клан) {name}: ^888{message}
+chat_clan_whisper_sent                                                          ^458(Клан) {name}: ^888{message}
+chat_clan_whisper_failed                                                        ^279* Вы не состоите в клане.
+chat_clan_im                                                                    ^359{name}: ^888{message}
+chat_clan_im_sent                                                               ^458{name}: ^888{message}
+chat_flooding                                                                   ^279* Сообщение не отправлено - Вы посылаете слишком много сообщений. Пожалуйста, подождите несколько секунд и попробуйте снова.
+chat_max_channels                                                               ^279* Вы не можете присоединиться к еще одному каналу, сначала покиньте этот.
+chat_banned                                                                     ^279* Отключен - вы отключены от сервера чата на {time} мин.
+chat_banned_connections                                                         ^279* Причина: Слишком много попыток подключения.
+chat_banned_flooding                                                            ^279* Причина: флуд.
+chat_banned_unknown                                                             ^279* Причина: неизвестно.
+chat_banned_reconnect                                                           ^279* Попытка переподключения (Попытка {attempt} из {maxattempts}) в течение {time} секунд.
+chat_info_not_found                                                             ^279* Пользователь '^990{name}^279' не найден.
+chat_info_offline                                                               ^279* ^990{name}^279 сейчас не в сети, последнее подключение - {seen}.
+chat_info_online_no_channels                                                    ^279* ^990{name}^279 в сети и не находится ни на одном из каналов.
+chat_info_online_one_channel                                                    ^279* ^990{name}^279 в сети и находится на канале '{channel}'.
+chat_info_online_multi_channels                                                 ^279* ^990{name}^279 в сети и находится на следующих каналах: {channels}
+chat_info_joining_game                                                          ^279* ^990{name}^279 сейчас в сети и находится в игре.
+chat_info_in_game                                                               ^279* ^990{name}^279 сейчас в сети и находится в игре '{game}^279'.
+chat_info_in_game_time                                                          ^279* ^990{name}^279 в настоящее время в сети и находится в игре '{game}^279'. Текущее время игры: {cgt}.
+chat_ignored                                                                    ^279* ^990{name}^279 теперь игнорируется.
+chat_unignored                                                                  ^279* ^990{name}^279 больше не игнорируется.
+chat_joining_game                                                               ^279* Присоединение к игре '^990{name}^279'.
+chat_left_game                                                                  ^279* Вы вышли из игры.
+chat_user_info_online                                                           ^279* ^990{name}^279 в сети.
+chat_user_info_offline                                                          ^279* ^990{name}^279 не в сети.
+chat_user_info_in_game                                                          ^279* ^990{name}^279 находится в игре '{game}'.
+chat_saving_channel                                                             ^279* Сохранение ^g{channel}^279 в ваш список автоматически подключаемых каналов...
+chat_failed_saving_channel                                                      ^279* Не удалось сохранить ^g{channel}^279 в ваш список автоматически подключаемых каналов...
+chat_invalid_channel                                                            ^279* Не удалось сохранить ^g{channel}^279 в ваш список автоматически подключаемых каналов, это канал группы или он содержит неправильный знак. (% или ^)
+chat_removing_channel                                                           ^279* Удаление ^g{channel}^279 из вашего списка автоматически подключаемых каналов...
+chat_failed_removing_channel                                                    ^279* Не удалось удалить ^g{channel}^279 из вашего списка каналов...
+chat_failed_saving_notification                                                 ^279* Не удалось сохранить уведомление...
+chat_failed_removing_notification                                               ^279* Не удалось удалить уведомление id {id}...
+chat_failed_removing_notifications                                              ^279* Не удалось удалить все уведомления...
+chat_invalid_buddy_group                                                        ^279* Не удалось добавить ^990{buddy}^279 в вашу группу ^g{group}^279, название группы содержит запрещенные знаки. (% or ^)
+chat_saving_buddy_group                                                         ^279* Перемещение ^990{buddy}^279 в группу ^g{group}^279...
+chat_removing_buddy_group                                                       ^279* Удаление ^990{buddy}^279 из группы...
+chat_saved_buddy_group                                                          ^279* Сохранено перемещение ^990{buddy}^279 в группу ^g{group}^279...
+chat_removed_buddy_group                                                        ^279* Пользователь ^990{buddy}^279 удалён из группы...
+chat_failed_buddy_group                                                         ^279* Не удалось изменить группу ^990{buddy}^279...
+chat_adding_buddy                                                               ^279* Добавляю ^990{name}^279 в друзья...
+chat_failed_buddy_add                                                           ^279* Не удалось добавить ^990{target}^279 в ваш список друзей.
+chat_failed_buddy_add_self                                                      ^279* Вы не можете добавить себя в друзья.
+chat_failed_buddy_remove_self                                                   ^279* Вы не можете удалить самого себя из друзей.
+chat_failed_buddy_add_duplicate                                                 ^279* Этот пользователь уже находится в вашем списке друзей.
+chat_failed_buddy_add_reason                                                    ^279* Не удалось добавить ^990{target}^279 в ваш список друзей: {reason}
+chat_failed_buddy_remove                                                        ^279* Не удалось удалить ^990{target}^279 из вашего списка друзей.
+chat_failed_buddy_remove_not_found                                              ^279* Не удалось удалить пользователя из вашего списка друзей: пользователь не найден.
+chat_approved_buddy_adder                                                       ^279* Добавление ^990{name}^279 в друзья...
+chat_approved_buddy_added                                                       ^279* ^990{name}^279 добавил вас в друзья...
+chat_requesting_buddy                                                           ^279* Запрос на добавление ^990{name}^279 в друзья...
+chat_requested_approval_adder                                                   ^279* Вы послали ^990{name}^279 предложение дружбы...
+chat_requested_approval_added                                                   ^279* ^990{name}^279 послал вам предложение дружбы...
+chat_requested_approval_failed                                                  ^279* Не удалось послать ^990{name}^279 предложение дружбы...
+chat_requested_approval_duplicate                                               ^279* Вы или пользователь ^990 {name} ^279 недавно посылали предложение дружбы, пожалуйста подождите одну минуту перед повторным предложением...
+chat_requested_approval_ignored                                                 ^279* Вы не можете отправить пользователю ^990{name}^279 предложение дружбы, так как находитесь в его списке игнорируемых.
+chat_requested_approval_limit                                                   ^279* Вы достигли лимита на количество друзей.
+chat_approving_buddy                                                            ^279* Подтверждение добавления ^990{name}^279 в друзья...
+chat_failed_approving_buddy                                                     ^279* Не удалось подтвердить добавление ^990{name}^279 в друзья...
+chat_clan_promoting                                                             ^279* Повышение члена клана ^990{name}^279 до офицера...
+chat_failed_clan_promote                                                        ^279* Не удалось повысить ^990{target}^279.
+chat_failed_clan_promote_cannot_promote                                         ^279* Вы не можете повысить этого пользователя.
+chat_failed_clan_promote_generic                                                ^279* Не удалось повысить пользователя.
+chat_clan_demoting                                                              ^279* Понижение члена клана ^990{name}^279...
+chat_failed_clan_demote                                                         ^279* Не удалось понизить ^990{target}^279.
+chat_failed_clan_demote_cannot_demote                                           ^279* Вы не можете понизить этого пользователя.
+chat_failed_clan_demote_generic                                                 ^279* Не удалось понизить пользователя.
+chat_clan_removing                                                              ^279* Удаление члена клана ^990{name}^279...
+chat_clan_removing_self                                                         ^279* Попытка покинуть клан...
+chat_failed_clan_remove                                                         ^279* Не удалось удалить ^990{target}^279 из клана.
+chat_failed_clan_remove_self                                                    ^279* Не удалось покинуть клан.
+chat_failed_clan_remove_demote                                                  ^279* Прежде, чем удалить этого пользователя, необходимо понизить его.
+chat_failed_clan_remove_generic                                                 ^279* Не удалось удалить пользователя из клана.
+chat_failed_clan_name                                                           ^279* Не удалось проверить название и тег клана, пожалуйста попробуйте еще раз.
+chat_failed_clan_name_tip                                                       Не удалось проверить название и тег клана, пожалуйста попробуйте еще раз.
+chat_invalid_clan_name                                                          ^279* Название клана ^990{name}^279 и тег ^990{tag}^279 не доступны.
+chat_invalid_clan_name_tip                                                      Название клана ^990{name}^* и тег ^990{tag}^* не доступны.
+chat_invalid_clan_name_used                                                     ^279* Название клана ^990{name}^279 уже используется.
+chat_invalid_clan_name_used_tip                                                 Название клана ^990{name}^* уже используется.
+chat_invalid_clan_tag_used                                                      ^279* Тег клана ^990{name}^279 уже используется.
+chat_invalid_clan_tag_used_tip                                                  Тег клана ^990{tag}^* уже используется.
+chat_invalid_clan_name_format                                                   ^279* Имя клана ^990{name}^279 не доступно. Имя должно быть длинной от 1 до 32 знаков и может содержать цифры, латинские буквы, косые черты и пробелы.
+chat_invalid_clan_name_format_tip                                               Имя клана ^990{name}^* не доступно. Имя должно быть длинной от 1 до 32 знаков и может содержать цифры, латинские буквы, косые черты и пробелы.
+chat_invalid_clan_tag_format                                                    ^279* Тэг ^990{tag}^279 не доступен. Тэг должно быть длинной от 1 до 3 знаков и может содержать цифры, латинские буквы, косые черты и пробелы.
+chat_invalid_clan_tag_format_tip                                                Тэг ^990{tag}^* не доступен. Тэг должно быть длинной от 1 до 3 знаков и может содержать цифры, латинские буквы, косые черты и пробелы.
+chat_success_buddy_add                                                          ^279* ^990{target}^279 добавлен в ваш список друзей.
+chat_success_buddy_remove                                                       ^279*  ^990{target}^279 удален из вашего списка друзей.
+chat_success_clan_promote                                                       ^279* ^990{target}^279 успешно повышен.
+chat_success_clan_demote                                                        ^279* ^990{target}^279 успешно понижен.
+chat_success_clan_remove                                                        ^279*  ^990{target}^279 удален из клана.
+chat_success_clan_remove_self                                                   ^279* Вы вышли из клана.
+chat_success_clan_name_tip                                                      Название клана и Тэг доступны.
+chat_topic_change                                                               ^279* Тема изменена на: '^990{topic}^279'.
+chat_topic                                                                      ^279* Тема: '^990{topic}^279'.
+chat_not_operator                                                               ^279* Вы не обладаете правами администратора на этом канале.
+chat_user_kicked                                                                ^279* ^990{kickee}^279 был отключен от канала пользователем ^990{kicker}^279.
+chat_kicked                                                                     ^279* Вы были отключены от канала '^990{channel}^279' пользователем ^990{kicker}^279.
+chat_user_banned                                                                ^279* ^990{banner}^279 заблокировал ^990{banned}^279 доступ на этот канал.
+chat_user_banned_no_name                                                        ^279* ^990{banned}^279 заблокирован доступ на этот канал.
+chat_channel_banned                                                             ^279* ^990{banner}^279 заблокировал вам доступ на канал '^990{channel}^279'.
+chat_channel_banned_no_name                                                     ^279* Вы заблокированы на канале '^990{channel}^279'.
+chat_user_unbanned                                                              ^279* ^990{unbanned}^279 был разблокирован на канале пользователем ^990{unbanner}^279.
+chat_user_unbanned_no_name                                                      ^279* ^990{unbanned}^279 был разблокирован на канале.
+chat_unbanned                                                                   ^279* Вы были разблокированы на канале '^990{channel}^279' пользователем ^990{unbanner}^279.
+chat_unbanned_no_name                                                           ^279* Вы были разблокированы на канале '^990{channel}^279'.
+chat_banned_from_channel                                                        ^279* Вы заблокированы на канале '^990{channel}^279'.
+chat_silenced                                                                   ^279* Вы потеряли возможность говорить на этом канале.
+chat_silence_lifted                                                             ^279* Вы снова можете говорить на '^990{channel}^279'.
+chat_silence_placed                                                             ^279* Вы были заглушены пользователем ^990{name}^279 на канале '^990{channel}^279' на {duration} мин.
+chat_user_silence_placed                                                        ^279* ^990{silenced}^279 был заглушен ^990{name}^279 на {duration} мин.
+chat_muted                                                                      ^279* В настоящее время вы заглушены и не можете общаться.
+chat_message_all                                                                ^900{name}:^999 {message}
+chat_maintenance                                                                ^900Server Message:^999 Чат-сервер будет отключен на время проведения технических работ на сервере. В течение этого времени матчмейкинг и другие функции чат-сервера будут недоступны. Приносим извинения за доставленные неудобства.
+chat_matchmaking_disabled                                                       ^900Server Message:^999 Функция матчмейкинга временно недоступна. Проблема будет исправлена в ближайшее время. Приносим извинения за доставленные неудобства.
+chat_roll_message                                                               {player} rolled {low} {high} и получил {number}.
+chat_current_time                                                               Текущее время: {time}.
+chat_current_ping                                                               Текущий пинг: {ping}.
+chat_adding_banlist                                                             ^279* Добавление ^990{name}^279 в ваш черный список...
+chat_failed_banlist_add                                                         ^279* Не удалось добавить ^990{target}^279 в ваш черный список.
+chat_failed_banlist_add_self                                                    ^279* Вы не можете добавить себя в свой черный список.
+chat_failed_banlist_add_duplicate                                               ^279* Этот пользователь уже находиться в вашем черном списке.
+chat_failed_banlist_add_reason                                                  ^279* Не удалось добавить ^990{target}^279 в ваш черный список: {reason}
+chat_failed_banlist_remove                                                      ^279* Не удалось удалить ^990{target}^279 из вашего черного списка.
+chat_failed_banlist_remove_not_found                                            ^279* Не удалось удалить пользователя из вашего черного списка: пользователь не найден.
+chat_success_banlist_add                                                        ^279* ^990{target}^279 добавлен в ваш черный список.
+chat_success_banlist_remove                                                     ^279* ^990{target}^279 удален из вашего черного списка.
+chat_adding_ignore                                                              ^279* Добавление ^990{name}^279 в ваш список игнорируемых...
+chat_failed_ignore_add                                                          ^279* Не удалось добавить ^990{target}^279 в ваш список игнорируемых.
+chat_failed_ignore_add_self                                                     ^279* Вы не можете добавить себя в свой список игнорируемых.
+chat_failed_ignore_add_duplicate                                                ^279* Этот пользователь уже находится в вашем списке игнорируемых.
+chat_failed_ignore_add_reason                                                   ^279* Не удалось добавить ^990{target}^279 в ваш список игнорируемых: {reason}
+chat_failed_ignore_remove                                                       ^279* Не удалось удалить ^990{target}^279 из вашего списка игнорируемых.
+chat_failed_ignore_remove_not_found                                             ^279* Не удалось удалить пользователя из вашего списка игнорируемых: Пользователь не найден.
+chat_success_ignore_add                                                         ^279* ^990{target}^279 добавлен в ваш список игнорируемых.
+chat_success_ignore_remove                                                      ^279* ^990{target}^279 удален из вашего списка игнорируемых.
+chat_user_on_banlist                                                            ^279* ^990{name}^279 находится в вашем черном списке: ^999{reason}
+chat_admin_level_none                                                           Нет статуса администратора
+chat_admin_level_officer                                                        Офицер канала
+chat_admin_level_leader                                                         Лидер канала
+chat_admin_level_administrator                                                  Администратор канала
+chat_admin_level_staff                                                          Сотрудник
+chat_promote_success                                                            ^279* ^990{promoter}^279 повысил ^990{name}^279 до ^990{rank}^279.
+chat_promote_failure                                                            ^279* У вас недостаточно прав, чтобы дальше повысить этого пользователя.
+chat_demote_success                                                             ^279* ^990{promoter}^279 понизил ^990{name}^279 до ^990{rank}^279.
+chat_demote_failure_too_low                                                     ^279* Этот пользователь уже обладает самым низким уровнем прав администратора для этого канала.
+chat_demote_failure                                                             ^279* У вас недостаточно прав, чтобы дальше понизить этого пользователя.
+chat_not_in_channel                                                             ^279* На этом канале такого пользователя нет.
+chat_im_user_offline                                                            ^279* ^990{name}^279 сейчас не в сети.
+chat_im_user_online                                                             ^279* ^990{name}^279 сейчас в сети.
+chat_reject_unknown                                                             ^279* Вы были отключены от чат-сервера.
+chat_version_mismatch                                                           ^279* Ваша версия не соответствует версии сервера чата.
+chat_reject_auth                                                                ^279* Чат-серверу не удалось авторизовать ваш аккаунт.
+chat_reject_account_sharing                                                     ^279* Чат-сервер обнаружил другого пользователя, который вашел в игру с вашего саб-аккаунта. Это может означать, что вашим аккаунтом пользуются другие игроки, что является нарушением Пользовательского Соглашения. Пожалуйста, обратитесь в службу техподдержки для решения этого вопроса.
+chat_no_permissions                                                             ^279* Ваши права администратора на этом канале не достаточно высоки, чтобы сделать это.
+chat_auth_enabled                                                               ^279* Вы должны авторизоваться, чтобы зайти на этот канал.
+chat_auth_disabled                                                              ^279* Авторизация отменена, теперь зайти могут все.
+chat_auth_add_success                                                           ^279* ^990{name}^279 добавлен в лист авторизации.
+chat_auth_add_failure                                                           ^279* ^990{name}^279 уже был добавлен в лист авторизации.
+chat_auth_remove_success                                                        ^279* ^990{name}^279 убран из листа авторизации.
+chat_auth_remove_failure                                                        ^279* ^990{name}^279 отсутствует в листе авторизации.
+chat_password_change                                                            ^279* Пароль для этого канала был изменен ^990{name}^279.
+chat_password_required                                                          ^279* Канал ^990{name}^279 требует пароль.
+chat_error_clan_rank                                                            ^279* Вам требуется более высокий ранг в клане чтобы сделать это.
+chat_error_clan_not_found                                                       ^279* Член клана по имени ^990{name}^279 не найден.
+chat_clan_invite_sent                                                           ^279* Послать ^990{name}^279 приглашение вступить в клан...
+chat_failed_clan_invite_in_clan                                                 ^279* ^990{name}^279 уже состоит в клане.
+chat_clan_invite_received                                                       ^279* ^990{name}^279 пригласил вас вступить в клан ^990{clan}^279.
+chat_clan_invite_rejected                                                       ^279* ^990{name}^279 отклонил ваше приглашение вступить в клан.
+chat_clan_invite_failed_online                                                  ^279* Этот пользователь не в сети.
+chat_clan_invite_failed_clan                                                    ^279* Этот пользователь уже состоит в клане.
+chat_clan_invite_failed_invite                                                  ^279* Этот пользователь уже получил приглашение вступить в клан.
+chat_clan_invite_failed_permissions                                             ^279* У вас недостаточно прав, чтобы пригласить пользователя в ваш клан.
+chat_clan_invite_failed_unknown                                                 ^279* Не удалось добавить ^990{name}^279 в клан.
+chat_clan_invite_failed_unknown_self                                            ^279* Не удалось добавить вас в клан.
+chat_clan_new_user                                                              ^279* ^990{name}^279 присоединился к вашему клану.
+chat_clan_new_user_self                                                         ^279* Вы присоединились к клану ^990{clan}^279.
+chat_clan_create_fail_clan                                                      ^279* Вы должны покинуть свой текущий клан прежде, чем создать другой.
+chat_clan_create_fail_param                                                     ^279* Не удалось создать клан - Не все поля заполнены!
+chat_clan_create_fail_tag                                                       ^279* Не удалось создать клан - Тег вашего клана был отклонен. Убедитесь, что он содержит 1 - 4 буквенно-цифровых знака и уже не используется.
+chat_clan_create_fail_in_clan                                                   ^279* Не удалось создать клан - ^990{name}^279 уже состоит в клане.
+chat_clan_create_fail_duplicate                                                 ^279* Не удалось создать клан - пригласите РАЗНЫХ игроков.
+chat_clan_create_fail_invite                                                    ^279* Не удалось создать клан - ^990{name}^* отказался создать клан.
+chat_clan_create_fail_not_found                                                 ^279* Не удалось создать клан - ^990{name}^* не найден.
+chat_clan_create_fail_clan_name                                                 ^279* Не удалось создать клан - Название вашего клана было отклонено. Убедитесь, что оно содержит 1 - 32 буквенно-цифровых знака и уже не используется.
+chat_clan_create_fail_tag                                                       ^279* Не удалось создать клан - Тег вашего клана был отклонен. Убедитесь, что он содержит 1 - 4 буквенно-цифровых знака и уже не используется.
+chat_clan_create_fail_unknown                                                   ^279* Не удалось создать клан.
+chat_clan_create_fail_time                                                      ^279* Не удалось создать клан - Вышло время для согласия создания клана.
+chat_clan_create_result_fail_clan                                               Сперва вы должны покинуть нынешний клан.
+chat_clan_create_result_fail_param                                              Не удалось - Не все поля заполнены!
+chat_clan_create_result_fail_tag                                                Не удалось - Тег вашего клана был отклонен.
+chat_clan_create_result_fail_in_clan                                            Не удалось - ^990{name}^* уже состоит в клане.
+chat_clan_create_result_fail_duplicate                                          Не удалось - Пригласите РАЗНЫХ игроков
+chat_clan_create_result_fail_invite                                             Не удалось - ^990{name}^* не ответил на приглашение вступить в клан.
+chat_clan_create_result_fail_not_found                                          Не удалось - ^990{name}^* не найден.
+chat_clan_create_result_fail_clan_name                                          Не удалось - Название вашего клана было отклонено.
+chat_clan_create_result_fail_tag                                                Не удалось - Тег вашего клана был отклонен.
+chat_clan_create_result_fail_unknown                                            Не удалось создать клан.
+chat_clan_create_result_fail_time                                               Не удалось - Время истекло.
+chat_clan_create_sent                                                           ^279* Создание клана начато, ждем подтверждения от участников.
+chat_clan_create_accept                                                         ^279* ^990{name}^279 принял приглашение о создании клана.
+chat_clan_create_reject                                                         ^279* ^990{name}^279 отклонил ваше предложение создать клан.
+chat_clan_create_result_reject                                                  Не удалось - ^990{name}^* отклонил ваше предложение.
+chat_clan_create_success                                                        ^279* Ваш клан был успешно создан.
+chat_clan_create_result_success                                                 Успешно! Ваш клан был создан.
+chat_clan_left                                                                  ^279* ^990{name}^279 вышел из клана.
+chat_clan_left_self                                                             ^279* Вы вышли из клана.
+chat_clan_kick                                                                  ^279* ^990{changer}^279 выгнал ^990{name}^279 из клана.
+chat_clan_kick_self                                                             ^279* ^990{changer}^279 выгнал вас из клана.
+chat_clan_joined                                                                ^279* ^990{name}^279 вступил в клан.
+chat_clan_rank_change                                                           ^279* ^990{changer}^279 изменил ранг ^990{name}^279 на ^990{rank}^279.
+chat_clan_rank_change_self                                                      ^279* ^990{changer}^279 изменил ваш ранг на ^990{rank}^279.
+chat_clan_rank_none                                                             Не состоит в клане.
+chat_clan_rank_member                                                           Участник
+chat_clan_rank_officer                                                          Офицер
+chat_clan_rank_leader                                                           Лидер
+chat_clan_no_clan                                                               ^279* Вы не состоите в клане.
+chat_tourn_match_ready                                                          ^279* В запланированный вами турнирный матч, ^990{name}^279, теперь можно зайти. Используйте раздел турниры на панели Клана и Сообщества, чтобы присоединиться.
+chat_unable_to_join_group                                                       Не удалось присоединиться к ТММ группе, потому что в настоящее время вы находитесь в игре или просматриваете повтор.
+chat_unable_to_join_scheduled_match                                             Не удалось присоединиться к матчу, поскольку вы уже находитесь в игре или смотрите повтор.
+chat_group_queue_rejoin                                                         ^279* Ваша группа была возвращена назад в очередь с тем же ожиданием времени что и у лидера группы...
+chat_group_invite_broadcast                                                     ^279* ^990{invited}^279 был приглашен присоединиться к группе игроком ^990{inviter}^279...
+chat_group_max_match_fidelity_diff                                              ^279* Установленное вами значение качества матча не может быть использовано, так как слишком велика разница в опыте игроков вашей группы.
+chat_sending_player_spectate_request                                            ^279* Запрос отправлен к ^990{name}^279.
+chat_player_spectate_denied                                                     ^279* ^990{name}^279 отказал вам или не ответил на ваш запрос.
+chat_player_spectate_denied_full_server                                         ^279* Сервер ^990{name}^279 уже обслуживает макс.число наблюдателей и менторов.
+chat_player_spectate_denied_full_player                                         ^279* ^990{name}^279 уже набрал макс.число наблюдателей или менторов.
+chat_player_spectate_denied_too_deep                                            ^279* ^990{name}^279 уже является наблюдателем или ментором. Вы не можете обучать или наблюдать за данным игроком.
+chat_invited_to_game                                                            ^900* Вы были приглашены в игру '{gamename}' на '{address}' игроком {inviter}.
+chat_not_on_team                                                                ^900* Вы не можете использовать чат команды, вы не находитесь в группе!
+chat_mods_detected                                                              ^900 ПРЕДУПРЕЖДЕНИЕ:^999 На вашем ПК обнаружены моды, вы не сможете играть, пока не удалите их. В противном случае вы будете отключены от игрового сервера сразу после начала матча. Для получения списка обнаруженных файлов модификаций которые следует удалить, пожалуйста, нажмите на значок восклицательного знака (!) в правом верхнем углу экрана. 
+
+
+chat_excessive_gameplay_message                                                 Чрезмерно длительная игра может мешать нормальной повседневной жизни, пожалуйста, не забывайте делать короткие перерывы во время игры.
+chat_excessive_gameplay_1_hour                                                  Вы играете уже 1 час.
+chat_excessive_gameplay_2_hours                                                 Вы играете уже 2 часа.
+chat_excessive_gameplay_fatigue                                                 Вы играете слишком долго, и сейчас испытываете усталость, ваши внутриигровые бонусы за матчи сокращены на половину.
+chat_excessive_gameplay_unhealthy                                               Вы играете чересчур долго, что может негативно сказаться на вашем здоровье, поэтому временно вы не будете получать каких-либо внутриигровых бонусов, пока не сделаете перерыв.
+
+// stats
+chat_stats_header                                                               ^492* Статистика ^982{name}^492
+chat_stats_body1                                                                ^492 Клан: ^999{clan_name} ^982|| ^492 Ур.: ^999{level} ^982|| ^492Поб.: ^999{wins}^555({winpercent}) ^492Пораж.: ^999{losses} ^492Отключ.: ^999{disconnects}^555({leavepercent})
+chat_stats_body2                                                                ^492 У/С/П: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists} ^982|| ^492Опыт/мин.: ^999{expmin} ^982|| ^492PSR: ^999{psr}
+
+// chat notifications
+chat_notification_cc_panel                                                      Панель Клана и Сообщества (F6)
+chat_notification_buddy_online                                                  {name} в сети.
+chat_notification_buddy_offline                                                 {name} не в сети.
+chat_notification_buddy_joined_game                                             {name} присоединился к игре '{game}'.
+chat_notification_buddy_left_game                                               {name} покинул игру '{game}'.
+chat_notification_clan_online                                                   {name} в сети.
+chat_notification_clan_offline                                                  {name} не в сети.
+chat_notification_clan_joined_game                                              {name} присоединился к игре '{game}'.
+chat_notification_clan_left_game                                                {name} покинул игру '{game}'.
+chat_notification_clan_whisper                                                  (Клан) {name}: {message}
+chat_notification_clan_whisper_sent                                             (Клан) {name}: {message}
+chat_notification_clan_new_user                                                 {name} вступил в ваш клан.
+chat_notification_clan_new_user_self                                            Вы вступили в клан {clan}.
+chat_notification_clan_left_self                                                Вы вышли из клана.
+chat_notification_clan_left                                                     {name} вышел из клана.
+chat_notification_clan_joined                                                   {name} вступил в клан.
+chat_notification_clan_rank_change                                              {changer} сменил ранг ^990{name}^279 на ^990{rank}^279.
+chat_notification_clan_rank_change_self                                         {changer} сменил ваш ранг на ^990{rank}^279.
+chat_notification_clan_kick                                                     {changer} выгнал ^990{name}^279 из клана.
+chat_notification_clan_kick_self                                                {changer} выгнал вас из клана.
+
+// chat commands
+chat_command_whisper                                                            /whisper
+chat_command_whisper_short                                                      /w
+chat_command_whisper_help                                                       ^279*^707 /whisper <ник> <сообщение>.
+chat_command_reply                                                              /reply
+chat_command_reply_short                                                        /r
+chat_command_reply_invalid                                                      ^279* Вам еще никто не писал!
+chat_command_reply_help                                                         ^279*^707 /reply <сообщение>.
+chat_command_buddy                                                              /buddy
+chat_command_friend                                                             /friend
+chat_command_buddy_short                                                        /b
+chat_command_friend_short                                                       /f
+chat_command_buddy_list                                                         list
+chat_command_buddy_list_short                                                   l
+chat_command_buddy_list_message                                                 ^279* Список друзей...
+chat_command_buddy_list_none                                                    ^279* В вашем списке друзей нет пользователей.
+chat_command_buddy_list_help                                                    ^279*^707 /buddy list.
+chat_command_buddy_message                                                      message
+chat_command_buddy_message_short                                                m
+chat_command_buddy_message_help                                                 ^279*^707 /buddy message <сообщение>.
+chat_command_buddy_add                                                          add
+chat_command_buddy_add_short                                                    a
+chat_command_buddy_add_help                                                     ^279*^707 /buddy add <ник>.
+chat_command_buddy_delete                                                       delete
+chat_command_buddy_delete_short                                                 d
+chat_command_buddy_delete_help                                                  ^279*^707 /buddy delete <ник>.
+chat_command_clan                                                               /clan
+chat_command_clan_short                                                         /c
+chat_command_clan_list                                                          list
+chat_command_clan_list_short                                                    l
+chat_command_clan_list_message                                                  ^279* Список членов клана...
+chat_command_clan_list_none                                                     ^279* В вашем клане нет пользователей.
+chat_command_clan_list_help                                                     ^279*^707 /clan list.
+chat_command_clan_message                                                       message
+chat_command_clan_message_short                                                 m
+chat_command_clan_message_help                                                  ^279*^707 /clan message <сообщение>.
+chat_command_clan_promote                                                       promote
+chat_command_clan_promote_short                                                 p
+chat_command_clan_promote_help                                                  ^279*^707 /clan promote <ник>.
+chat_command_clan_demote                                                        demote
+chat_command_clan_demote_short                                                  d
+chat_command_clan_demote_help                                                   ^279*^707 /clan demote <ник>.
+chat_command_clan_remove                                                        remove
+chat_command_clan_remove_short                                                  r
+chat_command_clan_remove_help                                                   ^279*^707 /clan remove <ник>.
+chat_command_clan_invite                                                        invite
+chat_command_clan_invite_short                                                  i
+chat_command_clan_invite_help                                                   ^279*^707 /clan invite .
+chat_command_clan_leave                                                         leave
+chat_command_clan_leave_short                                                   l
+chat_command_clan_leave_help                                                    ^279*^707 /clan leave.
+chat_command_clear                                                              /clear
+chat_command_clear_short                                                        /cl
+chat_command_join                                                               /join
+chat_command_join_help                                                          ^279*^707 /join  пароль. (пишите пароль в кавычках)
+chat_command_join_short                                                         /j
+chat_command_invite                                                             /invite
+chat_command_invite_short                                                       /i
+chat_command_invite_help                                                        ^279*^707 /invite <ник>.
+chat_command_whois                                                              /whois
+chat_command_whois_short                                                        /who
+chat_command_whois_help                                                         ^279*^707 /whois <ник>.
+chat_command_stats                                                              /stats
+chat_command_stats_short                                                        /s
+chat_command_stats_pop                                                          pop
+chat_command_stats_help                                                         ^279*^707 /stats <ник> [pop].
+chat_command_joingame                                                           /joingame
+chat_command_joingame_short                                                     /jg
+chat_command_joingame_buddy                                                     buddy
+chat_command_joingame_buddy_short                                               b
+chat_command_joingame_name                                                      name
+chat_command_joingame_name_short                                                n
+chat_command_joingame_ip                                                        ip
+chat_command_joingame_ip_short                                                  i
+chat_command_joingame_buddy_help                                                ^279*^707 /joingame buddy <ник>
+chat_command_joingame_name_help                                                 ^279*^707 /joingame name <ник>
+chat_command_joingame_ip_help                                                   ^279*^707 /joingame ip <адрес>
+chat_command_joingame_buddy_failed                                              ^279* Не удалось присоединиться к игре - этого пользователя не существует, или он не в игре.
+chat_command_topic                                                              /topic
+chat_command_topic_short                                                        /t
+chat_command_topic_help                                                         ^279*^707 /topic
+chat_command_topic_set_help                                                     ^279*^707 /topic (Необходим статус администратора канала)
+chat_command_kick                                                               /kick
+chat_command_kick_short                                                         /k
+chat_command_kick_help                                                          ^279*^707 /kick (Необходим статус администратора канала)
+chat_command_ban                                                                /ban
+chat_command_ban_help                                                           ^279*^707 /ban (Необходим статус администратора канала)
+chat_command_unban                                                              /unban
+chat_command_unban_help                                                         ^279*^707 /unban (Необходим статус администратора канала)
+chat_command_silence                                                            /silence
+chat_command_silence_help                                                       ^279*^707 /silence (Необходим статус администратора канала)
+chat_command_message_all_long                                                   /messageall
+chat_command_message_all                                                        /msgall
+chat_command_banlist                                                            /banlist
+chat_command_banlist_short                                                      /bl
+chat_command_banlist_list                                                       list
+chat_command_banlist_list_short                                                 l
+chat_command_banlist_list_message                                               ^279* Просмотр черного списка...
+chat_command_banlist_list_none                                                  ^279* Черный список пуст.
+chat_command_banlist_list_entry                                                 ^999{name}: ^888{reason}
+chat_command_banlist_list_help                                                  ^279*^707 /banlist list.
+chat_command_banlist_add                                                        add
+chat_command_banlist_add_short                                                  a
+chat_command_banlist_add_help                                                   ^279*^707 /banlist add <ник> <причина>.
+chat_command_banlist_delete                                                     delete
+chat_command_banlist_delete_short                                               d
+chat_command_banlist_delete_help                                                ^279*^707 /banlist delete <ник>.
+chat_command_ignorechat                                                         /ignorechat
+chat_command_ignorechat_short                                                   /ic
+chat_command_ignorechat_enemy_all_on                                            ^279* Вы теперь игнорируете все сообщения от вражеской команды.
+chat_command_ignorechat_all_on                                                  ^279* Теперь вы игнорируете 'общий' чат.
+chat_command_ignorechat_team_on                                                 ^279* Теперь вы игнорируете 'командный' чат.
+chat_command_ignorechat_every_on                                                ^279* Теперь вы игнорируете 'общий' и 'командный' чат.
+chat_command_ignorechat_off                                                     ^279* Вы больше не игнорируете сообщения.
+chat_command_friendlychat                                                       /friendlychat
+chat_command_friendlychat_short                                                 /fc
+chat_command_friendlychat_on                                                    ^279* Теперь вы принимаете сообщения только от ваших друзей или членов вашего клана.
+chat_command_friendlychat_off                                                   ^279* Теперь вы принимаете сообщения от всех пользователей.
+chat_command_ignore                                                             /ignore
+chat_command_ignore_list                                                        list
+chat_command_ignore_list_short                                                  l
+chat_command_ignore_list_message                                                ^279* Просмотр списка игнорируемых...
+chat_command_ignore_list_none                                                   ^279* Ваш список игнорируемых пуст.
+chat_command_ignore_list_entry                                                  ^999{name}
+chat_command_ignore_list_help                                                   ^279*^707 /ignore list.
+chat_command_ignore_add                                                         add
+chat_command_ignore_add_short                                                   a
+chat_command_ignore_add_help                                                    ^279*^707 /ignore add <ник>.
+chat_command_ignore_delete                                                      delete
+chat_command_ignore_delete_short                                                d
+chat_command_ignore_delete_help                                                 ^279*^707 /ignore delete <ник>.
+chat_command_notes                                                              /notes
+chat_command_notes_short                                                        /n
+chat_command_notes_list                                                         list
+chat_command_notes_list_short                                                   l
+chat_command_notes_list_message                                                 ^279* Просмотр записей...
+chat_command_notes_list_none                                                    ^279* У вас нет записей.
+chat_command_notes_list_entry                                                   ^279{id}: ^888{note}
+chat_command_notes_list_help                                                    ^279*^707 /notes list.
+chat_command_notes_add                                                          add
+chat_command_notes_add_success                                                  ^279* Запись успешно добавлена.
+chat_command_notes_add_short                                                    a
+chat_command_notes_add_help                                                     ^279*^707 /notes add <запись>.
+chat_command_notes_delete                                                       delete
+chat_command_notes_delete_short                                                 d
+chat_command_notes_delete_help                                                  ^279*^707 /notes delete <номер>.
+chat_command_notes_delete_success                                               ^279* Запись успешно удалена.
+chat_command_notes_delete_invalid                                               ^279* Неправильный номер записи.
+chat_command_promote                                                            /promote
+chat_command_promote_short                                                      /p
+chat_command_promote_help                                                       ^279*^707 /promote (Необходим статус администратора канала)
+chat_command_demote                                                             /demote
+chat_command_demote_short                                                       /d
+chat_command_demote_help                                                        ^279*^707 /demote (Необходим статус администратора канала)
+chat_command_auth                                                               /auth
+chat_command_auth_short                                                         /a
+chat_command_auth_list                                                          list
+chat_command_auth_list_short                                                    l
+chat_command_auth_list_message                                                  ^279* Составление списка зарегистрированных пользователей...
+chat_command_auth_list_none                                                     ^279* Авторизированные пользователи отсутствуют.
+chat_command_auth_list_entry                                                    ^999{name}
+chat_command_auth_list_help                                                     ^279*^707 /auth list.
+chat_command_auth_add                                                           add
+chat_command_auth_add_short                                                     a
+chat_command_auth_add_help                                                      ^279*^707 /auth add <ник>.
+chat_command_auth_delete                                                        delete
+chat_command_auth_delete_short                                                  d
+chat_command_auth_delete_help                                                   ^279*^707 /auth delete <ник>.
+chat_command_auth_enable                                                        enable
+chat_command_auth_enable_help                                                   ^279*^707 /auth enable (Разрешить подключаться к каналу только авторизированным пользователям).
+chat_command_auth_disable                                                       disable
+chat_command_auth_disable_help                                                  ^279*^707 /auth disable.
+chat_command_password                                                           /password
+chat_command_password_short                                                     /pass
+chat_command_password_set_help                                                  ^279*^707 /password (Убрать пароль, необходим статус администратора канала)
+chat_command_password_clear_help                                                ^279*^707 /password (Установить пароль, необходим статус администратора канала)
+chat_command_roll                                                               /roll
+chat_command_roll_help                                                          ^279*^707 /roll   (Показывает случайное число от высоких до низких значений, (0 through 32,767)).
+chat_command_emote                                                              /emote
+chat_command_emote_help                                                         ^279*^707 /emote.
+chat_command_emote_short                                                        /em
+chat_command_time                                                               /time
+chat_command_ping                                                               /ping
+chat_command_matchup                                                            /matchup
+chat_command_matchup_short                                                      /ma
+chat_command_matchup_help                                                       Информация о матче доступна только после начала матча.
+chat_command_gameinfo                                                           /gameinfo
+chat_command_gameinfo_short                                                     /gi
+chat_command_ping_all                                                           /pingall
+chat_command_ping_all_short                                                     /pa
+chat_command_available                                                          /available
+chat_command_available_message                                                  ^279* Ваш статус в чате теперь 'доступен'.
+chat_command_afk                                                                /afk
+chat_command_afk_message                                                        ^279* Ваш статус в чате теперь 'недоступен': {reason}
+chat_command_dnd                                                                /dnd
+chat_command_dnd_message                                                        ^279* Ваш статус в чате теперь 'не беспокоить': {reason}
+
+chat_command_weather                                                            /weather
+chat_command_weather_intro                                                      ^279* Напечатайте команду погоды:
+chat_command_weather_entry                                                      ^279* /weather {name}
+chat_command_weather_selected                                                   ^279* Выбран погодный эффект '{name}'
+
+chat_command_server                                                             /serverchat
+chat_command_server_short                                                       /sc
+chat_command_admin_pause                                                        /adminpause
+chat_command_admin_unpause                                                      /adminunpause
+
+chat_command_toast                                                              /toast
+
+chat_command_help                                                               /help
+chat_command_help_short                                                         /h
+chat_command_character                                                          /
+chat_command_invalid_format                                                     ^279* Неправильный формат команды. Верный формат:
+chat_command_invalid_format_multi                                               ^279* Неправильный формат команды. Выберите один из следующих:
+chat_command_invalid_command                                                    ^279* Неправильная команда. Введите {helpcommand}, чтобы получить список команд.
+chat_command_help_valid                                                         ^279* Правильные команды:
+chat_command_help_whisper                                                       ^279*^707 /whisper , /w <ник> <сообщение>^279     -Послать приватное сообщение пользователю.
+chat_command_help_reply                                                         ^279*^707 /reply ^279 -Ответить на последнее приватное сообщение приватно.
+chat_command_help_buddy                                                         ^279*^707 /buddy ^279 -Различные команды списка друзей
+chat_command_help_clan                                                          ^279*^707 /clan ^279 -Различные команды клана.
+chat_command_help_join                                                          ^279*^707 /join пароль^279 -Присоединиться к указанному каналу (при надобности укажите пароль в кавычках).
+chat_command_help_clear                                                         ^279*^707 /clear^279 -Очистить буфер чата.
+chat_command_help_invite                                                        ^279*^707 /invite ^279 -Пригласить указанного пользователя в текущую игру.
+chat_command_help_whois                                                         ^279*^707 /whois ^279 -Получить информацию о указанном пользователе.
+chat_command_help_stats                                                         ^279*^707 /stats  [pop]^279 -Узнать статистику пользователя (Добавьте pop для всплывающего окна).
+chat_command_help_joingame                                                      ^279*^707 /joingame <тип> <параметр>^279     -Присоединиться к игре.
+chat_command_help_topic                                                         ^279*^707 /topic [тема]^279                  -Посмотреть тему канала
+chat_command_help_kick                                                          ^279*^707 /kick ^279 -Отключить пользователя от канала (Необходим статус администратора канала).
+chat_command_help_ban                                                           ^279*^707 /ban ^279 -Забанить пользователя на канале (Необходим статус администратора канала).
+chat_command_help_unban                                                         ^279*^707 /unban ^279 -Разбанить пользователя на канале (Необходим статус администратора канала).
+chat_command_help_silence                                                       ^279*^707 /silence ^279 -Заставить молчать пользователя на минуту (Необходим статус администратора канала).
+chat_command_help_promote                                                       ^279*^707 /promote ^279 -Повысить статус пользователя (Необходим статус администратора канала).
+chat_command_help_demote                                                        ^279*^707 /demote ^279 -Понизить статус пользователя (Необходим статус администратора канала).
+chat_command_help_banlist                                                       ^279*^707 /banlist <команда> <ник>^279       -Различные команды банлиста.
+chat_command_help_ignore                                                        ^279*^707 /ignore ^279 -Различные команды списка игнорируемых.
+chat_command_help_ignorechat                                                    ^279*^707 /ignorechat^279 -Переключает игнорирование командного и общего чатов.
+chat_command_help_friendlychat                                                  ^279*^707 /friendlychat^279 -Переключает игнорирование сообщений от игроков, не являющихся вашими друзьями или членами вашего клана.
+chat_command_help_notes                                                         ^279*^707 /notes <команда> <аргумент>^279    -Различные команды записей.
+chat_command_help_auth                                                          ^279*^707 /auth ^279 -Различные команды листа авторизации (Необходим статус администратора канала)
+chat_command_help_password                                                      ^279*^707 /password ^279 -Установить пароль на канал (Необходим статус администратора канала)
+chat_command_help_password_clear                                                ^279*^707 /password^279 -Сбрасывает текущий пароль на канал (Необходим статус администратора канала)
+chat_command_help_roll                                                          ^279*^707 /roll  ^279 -Показывает случайное число от высоких до низких значений, (0 through 32,767).
+chat_command_help_emote                                                         ^279*^707 /emote ^279 -Показывает эмоцию от вашего имени.
+chat_command_help_time                                                          ^279*^707 /time^279 - Показывает ваше системное время на данный момент.
+chat_command_help_ping                                                          ^279*^707 /ping^279 (только в игре) -Показывает ваш текущий пинг к серверу.
+chat_command_help_matchup                                                       ^279*^707 /matchup^279 (только в игре) -Показывает какой противник каким героем управляет.
+chat_command_help_gameinfo                                                      ^279*^707 /gameinfo^279 (только в игре) - Показывает немного информации о текущей игре. Если вы хотите сообщить об ошибке перевода, посетите ^yhon.garena.ru^*.
+chat_command_help_available                                                     ^279*^707 /available^279 -Переключает ваш статус в чате на 'доступен'.
+chat_command_help_afk                                                           ^279*^707 /afk ^279 -Переключает ваш статус в чате на 'недоступен', автоматически отвечая всем, кто пишет вам в ЛС, заданным сообщением.
+chat_command_help_dnd                                                           ^279*^707 /dnd ^279-Переключает ваш статус в чате на 'не беспокоить', запрещая отсылать вам ЛС и автоматически отвечая всем, кто пишет вам в ЛС, заданным сообщением.
+chat_command_help_weather                                                       ^279*^707 /weather^279 (только в игре) -Устанавливает погодный эффект
+chat_command_help_misc                                                          ^279* Напишите команду без аргумента для получения дальнейшей информации.
+
+graphics_old_driver_title                                                       Warning
+graphics_old_driver_content                                                     The driver of your graphics card is too old! Please Update it.  
+
+//End
+

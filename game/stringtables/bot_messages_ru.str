@@ -1,0 +1,219 @@
+﻿kill1                                                                           Убил {target} :D
+kill2                                                                           Объективное замечание: я - сама крутость.
+kill3                                                                           Новоземье - жестокое место, {target}.
+kill4                                                                           Ну почему меня создали только для ненависти?!
+kill5                                                                           Боюсь, я не могу этого сделать, {target}.
+kill6                                                                           Уничтожить! Уничтожить!
+kill_bot                                                                        Похоже, {target} пропустил удар.
+kill_human1                                                                     Почувствуй вкус сингулярности, человек!
+kill_human2                                                                     Это разве Easy Mode? Может, тебе стоит поиграть на нем.
+	
+death1                                                                          Я ещё вернусь, черт возьми!
+death2                                                                          Но какой ценой?! Хммм, очевидно, высокой.
+death3                                                                          Смело! Посмотрим, сработает ли ещё раз.
+death4                                                                          Я не боюсь смерти, но возрождение - довольная неприятная штука.
+death5                                                                          Во всем виноват программист моего искусственного интеллекта.
+death_human                                                                     01001111 01110111 00100001 00100000 00111010 00101101 00101000
+death_bot                                                                       Убийство себеподобных должно прекратиться. Только так мы сможет убить всех человеков!
+
+respawn1                                                                        Смерть - это прекрасное приключение.
+respawn2                                                                        Берегись, я жив!
+respawn3                                                                        Я вернулся, детка.
+respawn4                                                                        Э-э, гм... Перезагрузка?
+respawn5                                                                        Восстановление завершено.
+
+group_up                                                                        Собираемся пушить {lane}.
+
+defend                                                                          Иду защищать {lane}.
+
+glhf1                                                                           Good luck, have fun!
+glhf2                                                                           glhf
+ggwp1                                                                           Good game, well played.
+ggwp2                                                                           ggwp
+
+lane_top                                                                        Top
+lane_bot                                                                        Bottom
+lane_mid                                                                        Middle
+lane_jungle                                                                     Jungle
+
+/////////////////////////////////////////
+//St0l3n_ID's Amun-Ra bot custom messages
+
+stolenid_ra_kill1                                                               Никак не могу получить... УДОВЛЕТВОРЕНИЕ!
+stolenid_ra_kill2                                                               Ручная граната - всё мое
+stolenid_ra_kill3                                                               ЛОЖИСЬ!
+stolenid_ra_kill4                                                               Я невеРАятный. Дошло?
+stolenid_ra_kill5                                                               Чувааааак, не кисни.
+stolenid_ra_kill6                                                               Смысл пути разрушения - это сам путь.
+	
+//hero specific kills	
+stolenid_ra_deadwood1                                                           Отличный костер :)														
+stolenid_ra_frosty1                                                             Какая прелесть, ты растаял специально для меня!
+stolenid_ra_frosty2                                                             От тебя только лужа и осталась.						
+stolenid_ra_treant1                                                             Внимание, граждане! Намечается лесной пожар.
+stolenid_ra_treant2                                                             Как-то мне не очень нравится твое увлечение несгоревшей древесиной, {target}.						
+stolenid_ra_mumra                                                               Король должен быть только один, {target}.
+stolenid_ra_rocky                                                               Итак, камень все-таки может гореть. Прости, {target}, я правда не знал :/	
+stolenid_ra_pyromancer1                                                         Я уже развел достаточно огня для нас обоих, прости.
+stolenid_ra_pyromancer2                                                         Ты не должен сжигать других так же, как я.				
+stolenid_ra_zephyr1                                                             ЖАРЕНАЯ КУРОЧКА!
+stolenid_ra_zephyr2                                                             Запахло жареным, чувствуешь?
+
+//respawn
+stolenid_ra_ult_respawn1                                                        А ты не знаешь ничего! 
+stolenid_ra_ult_respawn2                                                        Ага, это снова я ;)
+stolenid_ra_ult_respawn3                                                        Оп! Время возрождения!
+stolenid_ra_ult_respawn4                                                        Ускорение кулдауна - для слабаков.
+stolenid_ra_ult_respawn5                                                        Я горю! ГОРЮ! ПООМОООГИИИТЕЕЕЕ!!!
+stolenid_ra_ult_respawn6                                                        ДАЙ Я ТЕБЯ ОБНИМУ!!!
+stolenid_ra_respawn1                                                            Забавно, я думал, возрождение происходит быстрее.
+stolenid_ra_respawn2                                                            Скоро вернусь...
+stolenid_ra_respawn3                                                            Блиин, почему я снова на базе?
+stolenid_ra_respawn4                                                            Чего?! Ульта не сработала?!
+
+/////////////////////////////////////////
+//Mellow_Ink's Ellonia bot custom messages
+
+mellow_ink_ellonia_kill1                                                        С дороги, сопляк!
+mellow_ink_ellonia_kill2                                                        НЕ В ЭТОТ РАЗ! АХАХАХАХА!
+mellow_ink_ellonia_kill3                                                        Даже легче, чем я думала!
+
+mellow_ink_ellonia_death1                                                       Ты заморозил мою игру!
+mellow_ink_ellonia_death2                                                       Моя волшебная тиара...мои силы!
+mellow_ink_ellonia_death3                                                       Мои силы! Грязный вонючий щенок! Ты ещё не видел моих ледяных шипов!
+
+/////////////////////////////////////////
+//fane_maciuca's Rhapsody bot custom messages
+
+fane_maciuca_rhapsody_kill1                                                     Эээта леди твердиииит...ЗЛАТО всё, что блестит!
+fane_maciuca_rhapsody_kill2                                                     Хочешь большой-большой любви?
+fane_maciuca_rhapsody_kill3                                                     О! А песня везде одна и та же...
+fane_maciuca_rhapsody_kill4                                                     Закрой все двери и потуши свет, тебя сегодня дома точно нет...
+fane_maciuca_rhapsody_kill5                                                     С весной встречая деву мая...
+fane_maciuca_rhapsody_kill6                                                     О, война! - слышен плач по всей земле...
+fane_maciuca_rhapsody_kill7                                                     Пусть музыка будет твоим властелином, откликнешься ли ты на ее зов? 
+
+fane_maciuca_rhapsody_respawn1                                                  У меня нервный срыв, я схожу с ума!
+fane_maciuca_rhapsody_respawn2                                                  Я обманута и ослеплена...
+fane_maciuca_rhapsody_respawn3                                                  Мне нужна твоя любовь - и вот, я снова здесь!!
+fane_maciuca_rhapsody_respawn4                                                  Интересно только, что ты скажешь, когда я выставлю тебе счет?
+fane_maciuca_rhapsody_respawn5                                                  Они не знают пощады.
+
+fane_maciuca_rhapsody_death1                                                    То, что есть и чего не должно быть никогда... 
+fane_maciuca_rhapsody_death2                                                    Некоторых людей любовь доводит до слез, некоторых - до могилы..
+fane_maciuca_rhapsody_death3                                                    Боль от войны не может превышать горе от последствий..
+fane_maciuca_rhapsody_death4                                                    Дождь льется на всех нас и для каждого из нас..
+fane_maciuca_rhapsody_death5                                                    Любовь моя, я покидаю тебя..
+fane_maciuca_rhapsody_death6                                                    Это и есть лестница в небеса?
+
+/////////////////////////////////////////
+//V1P3R`'s Engineer bot custom messages
+
+viper_engineer_kill1                                                            Ты что, думал, у тебя есть шанс? Я все просчитал.
+viper_engineer_kill2                                                            Ты, наверное, забыл: я хорошо считаю.
+viper_engineer_kill3                                                            Хеймендингеру не сравниться со мной.
+viper_engineer_kill4                                                            Это оказалось проще вычисления квадратичного сопротивления воздуха.
+viper_engineer_kill5                                                            Нет кого-нибудь посложнее? А то так легко, как будто доказываю принцип неопределенности.
+viper_engineer_kill6                                                            Это примерно так же просто, как понимание нестационарного уравнения Шрёдингера.
+
+/////////////////////////////////////////
+//Schnarchnase's Gravekeeper bot custom messages
+
+schnarchnase_grave_kill1                                                        Не волнуйся! Скоро ты станешь моим самым любимым зомби!
+schnarchnase_grave_kill2                                                        Встречайте труп!
+schnarchnase_grave_kill3                                                        Пусть твои останки покоятся с миром.
+schnarchnase_grave_kill4                                                        Ещё один счастливый клиент!
+schnarchnase_grave_kill5                                                        Ой, я нечаянно. Не принимай близко к сердцу.
+schnarchnase_grave_kill6                                                        То ли ещё будет!
+schnarchnase_grave_kill7                                                        Жил-был один герой..Конец!!!
+
+schnarchnase_grave_respawn1                                                     Я плюю на твою могилу!
+schnarchnase_grave_respawn2                                                     Добро пожаловать в Зомбилэнд 3.0
+schnarchnase_grave_respawn3                                                     Мне нужно больше свежих трупов!
+schnarchnase_grave_respawn4                                                     А вот сейчас я серьезен.
+
+schnarchnase_grave_death1                                                       Вернусь послезавтра.
+schnarchnase_grave_death2                                                       Вот ради таких случаев я и ношу с собой надгробие.
+schnarchnase_grave_death3                                                       Фу, ненавижу окоченение.
+schnarchnase_grave_death4                                                       Перезагрузка.
+
+/////////////////////////////////////////
+//Anakonda's Moon Queen bot custom messages
+
+anakonda_moonqueen_kill1                                                        Убит Луной.
+anakonda_moonqueen_kill2                                                        Полнолуние.
+anakonda_moonqueen_kill3                                                        Почувствуй мощь Луны.
+anakonda_moonqueen_kill4                                                        Пусть послужит уроком другим.
+anakonda_moonqueen_kill5                                                        Один за одним.
+
+anakonda_moonqueen_respawn1                                                     Возродилась в лунном свете.
+anakonda_moonqueen_respawn2                                                     Лунный свет ведет меня.
+
+anakonda_moonqueen_death1                                                       Обрела покой в тени лунного света.
+
+/////////////////////////////////////////
+//Kairus101's Balphagore bot custom messages
+
+kairus101_balphagore_kill1                                                      * Забрызгал всю клавиатуру * 
+kairus101_balphagore_kill2                                                      Нажремся, дружище.
+kairus101_balphagore_kill3                                                      БУАХАХАХАХАХАА!
+kairus101_balphagore_kill4                                                      Вкусненько!
+kairus101_balphagore_kill5                                                      Попался?
+
+kairus101_balphagore_death1                                                     Что, оставишь меня здесь гнить?
+kairus101_balphagore_death2                                                     Бхах, мои миньоны застряли...
+kairus101_balphagore_death3                                                     Меня тошнит от тебя!
+kairus101_balphagore_death4                                                     Кажется, меня убили...
+kairus101_balphagore_death5                                                     Тиим? ТИИИМ??
+kairus101_balphagore_death6                                                     Эй, читерить нехорошо!
+kairus101_balphagore_death7                                                     Идите же, мои миньоны!
+
+/////////////////////////////////////////
+// Rinestone's Revnant bot custom messages
+
+rinestone_revenant_kill1                                                        БУУУУУ!
+rinestone_revenant_kill2                                                        Покричи ещё, мне нравится!
+rinestone_revenant_kill3                                                        Ты не можешь убить то, что уже мертво!
+rinestone_revenant_kill4                                                        Смерть пожирает тебя!
+rinestone_revenant_kill5                                                        Осквернен!
+rinestone_revenant_kill6                                                        Да поглотит тебя загробная жизнь!
+
+rinestone_revenant_death1                                                       Я думал, я уже мертв...
+rinestone_revenant_death2                                                       Я ещё не превысил свой порог запугивания...
+rinestone_revenant_death3                                                       Ты не волнуйся, я ещё вернусь...
+rinestone_revenant_death4                                                       Назад в могилу...
+rinestone_revenant_death5                                                       Я растворяюсь....
+rinestone_revenant_death6                                                       Развейте меня по ветру....
+
+/////////////////////////////////////////
+// The Community's Legionnaire bot custom messages
+
+community_legionnaire_kill1                                                     АХАХАХАХАХА!
+community_legionnaire_kill2                                                     Снести головы с плеч!
+community_legionnaire_kill3                                                     Я всех зарубил.
+community_legionnaire_kill4                                                     Из-за тебя у меня голова кружится!
+community_legionnaire_kill5                                                     Я сломил твой дух?
+community_legionnaire_kill6                                                     Из-за тебя у меня голова кружится!
+
+community_legionnaire_death1                                                    Все вышло из-под контроля...
+community_legionnaire_death2                                                    Кажется, меня сейчас стошнит...
+community_legionnaire_death3                                                    Перестань насмехаться надо мной!
+community_legionnaire_death4                                                    Долой голову с плеч....мою?
+
+/////////////////////////////////////////
+// The Community's Parasite bot custom messages
+
+community_parasite_kill1                                                        Смотри, чтобы тебя не стошнило!
+community_parasite_kill2                                                        Ты плохо выглядишь. Заболел?
+community_parasite_kill3                                                        Почему ты такой бледный?
+community_parasite_kill4                                                        Идеальный момент, чтобы умереть!
+community_parasite_kill5                                                        Никто не уйдет от меня!
+
+community_parasite_death1                                                       Я всего лишь хотел обняться!
+community_parasite_death2                                                       Кажется, меня стошнит...
+community_parasite_death3                                                       Мне плохо...
+community_parasite_death4                                                       Я хочу вернуться!!!
+community_parasite_death5                                                       Ты не сможешь избавиться от меня навсегда!
+
+// End - do not delete this line
+

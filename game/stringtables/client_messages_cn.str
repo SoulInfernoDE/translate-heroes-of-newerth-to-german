@@ -1,0 +1,612 @@
+﻿error_title						错误
+error_unknown					未知错误
+error_memory_not_enough			内存分配失败！\n请先退出其它运行中的应用程序后再尝试运行《超神英雄》。
+error_key_file_damaged			游戏安装文件损坏！\n请重新安装《超神英雄》客户端。
+
+disconnect_title				已断开连接
+disconnect_not_host				你必须拥有主机权限 才能在这个服务器上开始游戏
+disconnect_server_full			服务器满员
+disconnect_game_in_progress		游戏已在进行
+disconnect_server_error			服务器错误
+disconnect_snapshot_fragment	快照碎片过多
+disconnect_not_invited			你必须收到邀请才能进入这个私人游戏
+disconnect_no_cookie			你必须登录才能在这个服务器进行游戏
+disconnect_auth_failed			服务器无法验证你的账号, 请尝试重新登录
+disconnect_duplicate_connect	由于有其他客户端 使用你的帐号进入游戏, 你已被断开连接
+disconnect_unknown				你已被断开连接
+disconnect_timeout				服务器无响应
+disconnect_game_over			游戏结束
+disconnect_idle					你因为发呆太久而被断开连接
+disconnect_terminated			你超过了最长断线时间, 无法重新加入这个游戏
+disconnect_kicked				你被主机踢出了游戏
+disconnect_kicked_spec			你被你所观看的玩家踢出游戏
+disconnect_kicked_mentor		你被你所指导的玩家踢出游戏
+disconnect_vote_kicked			你被玩家们表决踢出了游戏
+disconnect_unassigned			主机在你还未加入 任何一个阵营之前开始了游戏
+disconnect_banned				主机禁止你加入该游戏
+disconnect_leaver				由于你的中退率过高而无法加入此游戏
+disconnect_not_verified			由于你是未认证玩家而无法加入此游戏
+disconnect_overflow				由于数据包溢出, 你从服务器断开了连接
+disconnect_flooding				由于洪水攻击服务器, 你被强制断开了连接
+disconnect_invalid_tier			你不能参与这个级别的游戏
+disconnect_invalid_psr			你的PSR太高或者太低, 不能加入这个游戏
+disconnect_not_on_roster		这个比赛的名单中没有你的名字
+disconnect_modified_core_files	你的resources0.s2z文件被修改了! 此文件禁止修改, 请重新安装HON
+disconnect_client_number_mismatch	连接错误, 请稍后再试
+disconnect_trial_not_allowed		你不能用测试帐号加入这个游戏, 测试帐号只能加入不计分比赛
+disconnect_duplicate_login			服务器无法认证你的帐号, 你必须保持登陆状态进行游戏
+disconnect_duplicate_game_connect	由于有其他客户端 使用你的帐号开始了另一场比赛, 你已被断开连接
+disconnect_unique_login_failed		由于服务器无法认证你的帐号, 你已被断开连接, 请稍后再试
+disconnect_mm_players_left		某个玩家与比赛断开了连接
+disconnect_mm_player_left		某个玩家已经离开了游戏
+disconnect_mm_connect_timeout	等待所有玩家连接到服务器的时间过长.
+disconnect_mm_start_timeout		等待所有玩家读取游戏的时间过长.
+disconnect_basic				初级帐号无法创建游戏
+disconnect_no_tokens			你需要代币或通行证 才能进行此游戏模式
+disconnect_failed_refresh		刷新升级时出错, 你已被登出
+disconnect_no_match_id			服务器获取比赛ID失败, 无法开始游戏
+disconnect_missing_spectate_player	你试图观看的玩家不在游戏中, 你已经断开连接
+disconnect_no_inception_spectator	观看者无法被观看或指导, 你已经断开连接
+disconnect_no_inception_mentor	指导者无法被观看或指导, 你已断开连接
+disconnect_not_accepted			你试图观看或指导的玩家 没有通过你的请求
+disconnect_too_many_player_spectators			你试图观看或指导的玩家 已达到他的数量上限
+disconnect_too_many_player_spectators_total		此服务器已达到观察或指导者数量上限
+disconnect_staff_spec_not_staff					只有在使用管理者帐号时 可以管理观察游戏.
+disconnect_tourney_rules_no_spec 				在锦标赛比赛中不允许 玩家进行观察或指导
+disconnect_max_spec_clients						无法再扩大观察者队伍; 已达到客户端最大数量.
+
+rejected_invalid_request		你的客户端发送了一个无效的连接请求
+rejected_empty_address			服务器无法确认你的地址
+rejected_wrong_game				该服务器正在运行另外一个游戏
+rejected_wrong_version			你的版本与服务器端不相符
+rejected_banned					服务器禁止你进入
+rejected_invalid_password		密码无效
+rejected_server_error			服务器错误
+rejected_server_taken			你选择的服务器已经被其他玩家使用, 请重试
+rejected_not_host				你必须拥有主机权限 才能在这个服务器上开始游戏
+rejected_missing_spectate_player			无法找到你试图观看的玩家
+
+connect_timeout_msg			连接服务器超时，请检查网络。点击确定退出游戏。
+authentication_fail_msg		服务器验证失败，点击确定退出游戏。
+replay_fail_msg				由于版本不兼容，无法播放录像。点击确定退出游戏
+replay_uncompatible_msg		由于版本不一致，播放的录像和实际游戏可能有误差 点击确定继续，点击取消退出游戏。
+
+// chat system messages
+chat_connecting						^279* 正在连接聊天服务器...
+chat_reconnecting					^279* 正在连接聊天服务器...(第{attempt}次, 最多{maxattempts}次)
+chat_waiting_verification			^279* 正在等待服务器校验账号...
+chat_connected						^279* 已连接!
+chat_connected_invisible			^279* 你使用隐身模式登陆, 在这个模式中你的客户端不会发送信息给你的好友和战队成员, 但你依然能接收到他们的信息. 
+chat_disconnected					^279* 从聊天服务器断开
+chat_reconnecting_delay				^279* 30秒内重新连接聊天服务器 (第{attempt}次, 最多{maxattempts}次)
+chat_not_connected					^279* 连接聊天服务器失败
+chat_new_channel					^279* 进入 ^090{channel}^279 频道
+chat_channel_message				^990{sender}:^888 {message}
+chat_channel_message_sent			^444{name}:^* {message}
+chat_group_channel_message			^279 {message}
+chat_whisper						^099(私聊:接收自{sender}) ^888{message}
+chat_whisper_sent					^066(私聊:发送给{target}) ^888{message}
+chat_whisper_buddies				^066<私聊:发送给所有好友> {message}
+chat_whisper_to_buddies				^099<私聊:{sender}对所有好友> {message}
+chat_whisper_failed_self			^279* 你不能与自己私聊
+chat_failed_invisible				^279* 隐身模式中不能聊天
+chat_mode_switch_fail				^279* 隐身模式中不能切换聊天状态, 请重新用正常模式登陆
+chat_mode_afk_auto_response			^099* 你的信息已发送, 但^990{target}^279目前是"暂时离开"状态:{message}
+chat_mode_afk_default_response		暂时离开
+chat_mode_dnd_auto_response			^099 你的信息发送失败, ^990{target}^279目前不希望被打扰:{message}
+chat_mode_dnd_default_response		请勿打扰
+chat_user_offline					^279* 该玩家不在线
+chat_im								^882{sender}: ^888{message}
+chat_im_sent						^444{name}: ^888{message}
+chat_im_failed						^279* ^990{target}^279 不在线
+chat_clan_whisper					^359(战队) {name}: ^888{message}
+chat_clan_whisper_sent				^458(战队) {name}: ^888{message}
+chat_clan_whisper_failed			^279* 你尚未加入任何战队
+chat_clan_im						^359{name}: ^888{message}
+chat_clan_im_sent					^458{name}: ^888{message}
+chat_flooding						^279* 信息发送失败 - 你发送了过多的信息, 请稍后重试
+chat_max_channels					^279* 你不能加入更多的频道, 请先退出一个频道
+chat_banned							^279* 断开连接 - {time}分钟内禁止进入聊天服务器
+chat_banned_connections				^279* 原因:尝试连接过多
+chat_banned_flooding				^279* 原因:洪水攻击
+chat_banned_unknown					^279* 原因:未知
+chat_banned_reconnect				^279* {time}秒内尝试重连(第{attempt}次, 最多{maxattempts}次)
+chat_info_not_found					^279* 没有找到用户"^990{name}^279"
+chat_info_offline					^279* ^990{name}^279 不在线, 上一次出现在{seen}
+chat_info_online_no_channels		^279* ^990{name}^279 在线, 但不在任何频道中
+chat_info_online_one_channel		^279* ^990{name}^279 在"{channel}"频道中
+chat_info_online_multi_channels		^279* ^990{name}^279 在以下频道中:{channels}
+chat_info_joining_game				^279* ^990{name}^279 现在在线并正在连接到游戏中
+chat_info_in_game					^279* ^990{name}^279 正在游戏"{game}^279"中
+chat_info_in_game_time				^279* ^990{name}^279 正在游戏"{game}^279"中, 当前游戏时间:{cgt}
+chat_ignored						^279* 已屏蔽^990{name}^279 
+chat_unignored						^279* 不再屏蔽^990{name}^279
+chat_joining_game					^279* 正在加入游戏"^990{name}^279"
+chat_left_game						^279* 你已经离开了游戏
+chat_user_info_online				^279* ^990{name}^279 在线
+chat_user_info_offline				^279* ^990{name}^279 不在线
+chat_user_info_in_game				^279* ^990{name}^279 正在游戏"{game}"中
+chat_saving_channel					^279* 正在将^g{channel}^279保存至你的频道列表...
+chat_failed_saving_channel			^279* 保存^g{channel}^279至频道列表失败...
+chat_invalid_channel				^279* 无法保存^g{channel}^279至你的频道列表, 这是一个小组频道或频道名包含了非法字符(%或^)
+chat_removing_channel				^279* 正在将^g{channel}^279从你的频道列表中删除...
+chat_failed_removing_channel		^279* 删除^g{channel}^279失败...
+chat_failed_saving_notification		^279* 保存通知失败...
+chat_failed_removing_notification	^279* 删除通知(ID:{id})失败...
+chat_failed_removing_notifications	^279* 删除所有通知失败...
+chat_invalid_buddy_group			^279* 无法移动^990{buddy}^279到好友组^g{group}^279, 组名包含了非法字符(%或^)
+chat_saving_buddy_group				^279* 正在移动^990{buddy}^279到好友组^g{group}^279...
+chat_removing_buddy_group			^279* 正在从好友组中移除^990{buddy}^279...
+chat_saved_buddy_group				^279* 已将^990{buddy}^279移动到好友组^g{group}^279...
+chat_removed_buddy_group			^279* 已将^990{buddy}^279从好友组中移除...
+chat_failed_buddy_group				^279* 为^990{buddy}^279变更好友组失败...
+chat_adding_buddy					^279* 正在添加^990{name}^279为好友...
+chat_failed_buddy_add				^279* 添加^990{target}^279为好友失败
+chat_failed_buddy_add_self			^279* 你不能添加自己为好友
+chat_failed_buddy_remove_self		^279* 你不能将自己从好友列表中删除
+chat_failed_buddy_add_duplicate		^279* 对方已在你的好友列表中
+chat_failed_buddy_add_reason		^279* 添加^990{target}^279为好友失败:{reason}
+chat_failed_buddy_remove			^279* 删除好友^990{target}^279失败
+chat_failed_buddy_remove_not_found	^279* 删除好友失败:未找到用户
+chat_approved_buddy_adder			^279* 正在添加^990{name}^279为好友
+chat_approved_buddy_added			^279* ^990{name}^279把你加为好友
+chat_requesting_buddy				^279* 正在请求添加^990{name}^279为好友...
+chat_requested_approval_adder		^279* 你请求了添加^990{name}^279为好友...
+chat_requested_approval_added		^279* ^990{name}^279请求把你加为好友...
+chat_requested_approval_failed		^279* 请求添加^990{name}^279为好友失败...
+chat_requested_approval_duplicate	^279* 你或者^990{name}^279刚刚提交过好友添加请求, 请等待1分钟后重新提交请求
+chat_requested_approval_ignored		^279* ^990{name}^279已经屏蔽了你, 无法请求添加他为好友
+chat_requested_approval_limit		^279* 你的好友数量已达上限
+chat_approving_buddy				^279* 正在接受^990{name}^279的好友添加请求...
+chat_failed_approving_buddy			^279* 接受^990{name}^279的好友添加请求失败...
+chat_clan_promoting					^279* 正在将战队成员^990{name}^279提升为管理员...
+chat_failed_clan_promote			^279* 提升^990{target}^279失败
+chat_failed_clan_promote_cannot_promote		^279* 你不能提升该用户
+chat_failed_clan_promote_generic			^279* 提升用户失败
+chat_clan_demoting					^279* 正在将战队成员^990{name}^279降级...
+chat_failed_clan_demote				^279* 降级^990{target}^279失败
+chat_failed_clan_demote_cannot_demote	^279* 你不能降级该用户
+chat_failed_clan_demote_generic			^279* 降级用户失败
+chat_clan_removing					^279* 正在删除战队成员 ^990{name}^279...
+chat_clan_removing_self				^279* 正在尝试离开战队...
+chat_failed_clan_remove				^279* 删除战队成员^990{target}^279失败
+chat_failed_clan_remove_self		^279* 离开战队失败
+chat_failed_clan_remove_demote		^279* 删除该用户前, 必须先将他降级
+chat_failed_clan_remove_generic		^279* 从战队中删除用户失败
+chat_failed_clan_name				^279* 查询战队名称和队标是否可用失败, 请重试
+chat_failed_clan_name_tip			查询战队名称和队标是否可用失败, 请重试
+chat_invalid_clan_name				^279* 战队名称^990{name}^279和队标^990{tag}^279不可用
+chat_invalid_clan_name_tip			战队名称^990{name}^*和队标^990{tag}^*不可用
+chat_invalid_clan_name_used			^279* 战队名称^990{name}^279已经被使用
+chat_invalid_clan_name_used_tip		战队名称^990{name}^*已经被使用
+chat_invalid_clan_tag_used			^279* 队标^990{tag}^279已经被使用
+chat_invalid_clan_tag_used_tip		队标^990{tag}^*已经被使用
+chat_invalid_clan_name_format		^279* 战队名称^990{name}^279无效. 有效的名称应该由英文字母, 数字, 横线(-)和空格组成, 长度为1-32字符
+chat_invalid_clan_name_format_tip	战队名称^990{name}^*无效. 有效的名称应该由英文字母, 数字, 横线(-)和空格组成, 长度为1-32字符
+chat_invalid_clan_tag_format		^279* 队标^990{tag}^279无效. 有效的名称应该由英文字母和数字组成, 长度为1-4字符
+chat_invalid_clan_tag_format_tip	队标^990{tag}^*无效. 有效的名称应该由英文字母和数字组成, 长度为1-4字符
+chat_success_buddy_add				^279* 添加了^990{target}^279为好友
+chat_success_buddy_remove			^279* 删除了好友^990{target}^279
+chat_success_clan_promote			^279* 提升^990{target}^279成功
+chat_success_clan_demote			^279* 降级^990{target}^279成功
+chat_success_clan_remove			^279* 移除了战队成员^990{target}^279
+chat_success_clan_remove_self		^279* 你已经离开了战队
+chat_success_clan_name_tip			战队名称与队标可用.
+chat_topic_change					^279* 主题已经改变为 '^990{topic}^279'
+chat_topic							^279* 主题是 '^990{topic}^279'
+chat_not_operator					^279* 你没有这个频道的管理权限
+chat_user_kicked					^279* ^990{kickee}^279被^990{kicker}^279踢出了频道
+chat_kicked							^279* 你被^990{kicker}^279踢出了频道"^990{channel}^279"
+chat_user_banned					^279* ^990{banned}^279被^990{banner}^279禁止进入频道
+chat_user_banned_no_name			^279* ^990{banned}^279被禁止进入频道
+chat_channel_banned					^279* ^990{banner}^279禁止你进入频道"^990{channel}^279"
+chat_channel_banned_no_name			^279* 你被禁止进入频道"^990{channel}^279"
+chat_user_unbanned					^279* ^990{unbanner}^279允许了^990{unbanned}^279进入该频道
+chat_user_unbanned_no_name			^279* ^990{unbanned}^279被允许进入频道
+chat_unbanned						^279* ^990{unbanner}^279允许了你进入频道"^990{channel}^279"
+chat_unbanned_no_name				^279* 你被允许进入频道"^990{channel}^279"
+chat_banned_from_channel			^279* 你被禁止进入频道"^990{channel}^279"
+chat_silenced						^279* 你在该频道中被禁言
+chat_silence_lifted					^279* 你在频道"^990{channel}^279"中的禁言状态已经被解除
+chat_silence_placed					^279* 你在频道"^990{channel}^279"中被^990{name}^279禁言了{duration}分钟
+chat_user_silence_placed			^279* ^990{name}^279将^990{silenced}^279禁言了{duration}分钟
+chat_muted							^279* 你当前已被禁言且无法进行交流.
+chat_message_all					^900{name}:^999 {message}
+chat_maintenance					^900服务器通知:^999 系统即将维护, 聊天服务器将在此期间关闭, 匹配和其他与聊天服务器相关的服务将暂不可用. 对您造成的困扰我们深表歉意, 并将尽快恢复服务的正常运行.
+chat_matchmaking_disabled			^900服务器通知:^999 匹配系统暂不可用. 对您造成的困扰我们深表歉意, 并将尽快恢复匹配系统的正常运行.
+chat_roll_message					{player}从{low}至{high}中掷出了{number}
+chat_current_time					当前时间:{time}
+chat_current_ping					当前延迟:{ping}
+chat_adding_banlist					^279* 正在将^990{name}^279加入黑名单...
+chat_failed_banlist_add				^279* 将^990{target}^279加入黑名单失败
+chat_failed_banlist_add_self		^279* 你不能将自己加入黑名单
+chat_failed_banlist_add_duplicate	^279* 该用户已经在你的黑名单中
+chat_failed_banlist_add_reason		^279* 将^990{target}^279加入黑名单失败:{reason}
+chat_failed_banlist_remove			^279* 将^990{target}^279从黑名单中移除失败
+chat_failed_banlist_remove_not_found	^279* 将用户从黑名单中移除失败:用户未找到
+chat_success_banlist_add				^279* 已将^990{target}^279加入黑名单
+chat_success_banlist_remove				^279* 已将^990{target}^279从黑名单中移除
+chat_adding_ignore						^279* 正在屏蔽^990{name}^279
+chat_failed_ignore_add					^279* 屏蔽^990{target}^279失败
+chat_failed_ignore_add_self				^279* 你不能屏蔽你自己
+chat_failed_ignore_add_duplicate		^279* 该用户已被你屏蔽
+chat_failed_ignore_add_reason			^279* 屏蔽^990{target}^279失败:{reason}
+chat_failed_ignore_remove				^279* 解除^990{target}^279屏蔽状态失败
+chat_failed_ignore_remove_not_found		^279* 解除用户屏蔽状态失败:用户未找到
+chat_success_ignore_add					^279* 已屏蔽^990{target}^279
+chat_success_ignore_remove				^279* 已解除^990{target}^279的屏蔽状态
+chat_user_on_banlist					^279* ^990{name}^279在你的屏蔽列表中:^999{reason}
+chat_admin_level_none				无管理状态
+chat_admin_level_officer			频道管理
+chat_admin_level_leader				频道长官
+chat_admin_level_administrator		频道总管
+chat_admin_level_staff				工作人员
+chat_promote_success				^279* ^990{promoter}^279将^990{name}^279提升为^990{rank}^279
+chat_promote_failure				^279* 你的权限不足以进一步提升该用户
+chat_demote_success					^279* ^990{demoter}^279将^990{name}^279降级为^990{rank}^279
+chat_demote_failure_too_low			^279* 该用户已经处于该频道的最低权限等级
+chat_demote_failure					^279* 你的权限不足以进一步降级该用户
+chat_not_in_channel					^279* 该用户不在此频道中
+chat_im_user_offline				^279* ^990{name}^279下线了
+chat_im_user_online					^279* ^990{name}^279上线了
+chat_version_mismatch				^279* 你的版本与聊天服务器不相符
+chat_no_permissions					^279* 你在该频道的管理员权限不足以进行此操作
+chat_auth_enabled					^279* 频道验证已经开启, 你必须通过验证才能进入频道
+chat_auth_disabled					^279* 频道验证已经关闭, 任何人均可进入频道
+chat_auth_add_success				^279* ^990{name}^279通过了验证
+chat_auth_add_failure				^279* ^990{name}^279已经通过验证
+chat_auth_remove_success			^279* ^990{name}^279的通过验证状态被消除
+chat_auth_remove_failure			^279* ^990{name}^279尚未通过验证
+chat_password_change				^279* ^990{name}^279改变了该频道的密码
+chat_password_required				^279* 需要密码以进入频道^990{name}^279
+chat_error_clan_rank				^279* 你的战队权限不足以进行此操作
+chat_error_clan_not_found			^279* 找不到战队成员^990{name}^279
+chat_clan_invite_sent				^279* 正在邀请^990{name}^279加入战队...
+chat_failed_clan_invite_in_clan			^279* ^990{name}^279已经在某战队中
+chat_clan_invite_received				^279* ^990{name}^279邀请你加入^990{clan}^279战队
+chat_clan_invite_rejected				^279* ^990{name}^279拒绝了你的战队邀请
+chat_clan_invite_failed_online			^279* 该用户不在线
+chat_clan_invite_failed_clan			^279* 该用户已经在某战队中
+chat_clan_invite_failed_invite			^279* 该用户已经被邀请加入某战队
+chat_clan_invite_failed_permissions		^279* 你的权限不足以邀请用户加入战队
+chat_clan_invite_failed_unknown			^279* 添加战队成员^990{name}^279失败
+chat_clan_invite_failed_unknown_self	^279* 添加你为战队成员失败
+chat_clan_new_user						^279* ^990{name}^279加入了你的战队
+chat_clan_new_user_self					^279* 你加入了^990{clan}^279战队
+chat_clan_create_fail_clan				^279* 在创建战队之前, 你必须退出当前所属战队
+chat_clan_create_fail_param				^279* 创建战队失败 - 缺少参数
+chat_clan_create_fail_tag				^279* 创建战队失败 - 队标过长
+chat_clan_create_fail_in_clan			^279* 创建战队失败 - ^990{name}^279已经在其他战队中
+chat_clan_create_fail_duplicate			^279* 创建战队失败 - 不允许用重复的成员来创建战队
+chat_clan_create_fail_invite			^279* 创建战队失败 - ^990{name}^*有一个未完成的战队邀请
+chat_clan_create_fail_not_found			^279* 创建战队失败 - 未找到^990{name}^*, 或他已在一个战队中, 或并未通过战队邀请
+chat_clan_create_fail_clan_name			^279* 创建战队失败 - 战队名称被拒绝. 请确保战队名称是1-32位的字母和数字, 并且没有被使用
+chat_clan_create_fail_tag				^279* 创建战队失败 - 队标被拒绝. 请确保队标是1-4位的字母和数字, 并且没有被使用
+chat_clan_create_fail_unknown			^279* 创建战队失败
+chat_clan_create_fail_time				^279* 创建战队失败 - 初始成员回应超时
+chat_clan_create_result_fail_clan		在创建战队之前, 你必须退出当前所属战队
+chat_clan_create_result_fail_param		失败 - 缺少参数
+chat_clan_create_result_fail_tag		失败 - 队标过长
+chat_clan_create_result_fail_in_clan	失败 - ^990{name}^*已经在其他战队中
+chat_clan_create_result_fail_duplicate	失败 - 创建成员重复
+chat_clan_create_result_fail_invite		失败 - ^990{name}^*有一个未完成的战队邀请
+chat_clan_create_result_fail_not_found	失败 - ^990{name}^*未找到
+chat_clan_create_result_fail_clan_name	失败 - 战队名称被拒绝
+chat_clan_create_result_fail_tag		失败 - 队标被拒绝
+chat_clan_create_result_fail_unknown	创建战队失败
+chat_clan_create_result_fail_time		失败 - 超时
+chat_clan_create_sent					^279* 战队创建请求已经提交, 正在等待成员同意
+chat_clan_create_accept					^279* ^990{name}^279接受了你的战队创建请求
+chat_clan_create_reject					^279* ^990{name}^279拒绝了你的战队创建请求
+chat_clan_create_result_reject			失败 - ^990{name}^*拒绝了你的请求
+chat_clan_create_success				^279* 创建战队成功
+chat_clan_create_result_success			你的战队已经创建成功! 
+chat_clan_left							^279* ^990{name}^279离开了战队
+chat_clan_left_self						^279* 你离开了战队
+chat_clan_kick							^279* ^990{changer}^279将^990{name}^279踢出了战队
+chat_clan_kick_self						^279* ^990{changer}^279将你踢出了战队
+chat_clan_joined						^279* ^990{name}^279加入了战队
+chat_clan_rank_change					^279* ^990{changer}^279将^990{name}^279的级别改为了^990{rank}^279
+chat_clan_rank_change_self				^279* ^990{changer}^279将你的级别改为了^990{rank}^279
+chat_clan_rank_none						不在战队中
+chat_clan_rank_member					成员
+chat_clan_rank_officer					管理员
+chat_clan_rank_leader					队长
+chat_clan_no_clan						^279* 你尚未加入任何战队
+chat_tourn_match_ready					^279* 你预定参加的联赛中的比赛^990{name}^279, 现在可以加入了. 请使用于"社区和战队"界面的"联赛"按钮加入
+chat_unable_to_join_group				由于你正在游戏或观看录像, 无法加入匹配小组
+chat_unable_to_join_scheduled_match		由于你正在游戏或观看录像, 无法加入预定的比赛
+chat_group_queue_rejoin					^279* 你的小组已被放回配对队列中, 队长已等待时间的位置...
+chat_group_invite_broadcast				^279* ^990{invited}^279 被 ^990{inviter}^279 邀请加入匹配小组...
+chat_group_max_match_fidelity_diff		^279* 你选择的比赛平衡度无法在你的小组中有较大分数差异时使用
+chat_sending_player_spectate_request	^279* 已向^990{name}^279发送请求
+chat_player_spectate_denied				^279* ^990{name}^279拒绝了你的请求或无应答
+chat_player_spectate_denied_full_server	^279* 服务器^990{name}^279已经达到了观察与指导者数量上限
+chat_player_spectate_denied_full_player	^279* ^990{name}^279已经达到了观察与指导者数量上限
+chat_player_spectate_denied_too_deep	^279* ^990{name}^279正在观察或指导一个玩家, 你无法观察或指导一个正在观察或指导的玩家
+chat_invited_to_game					^900* {inviter} 邀请你加入位于 '{address}' 的游戏 '{gamename}'.
+chat_not_on_team						^900* 无法进行队伍聊天, 你尚未加入队伍!
+
+chat_excessive_gameplay_message			适度游戏益脑, 沉迷游戏伤身. 合理安排时间, 享受健康生活.
+chat_excessive_gameplay_1_hour			你已进行了1小时的游戏.
+chat_excessive_gameplay_2_hours			你已进行了2小时的游戏.
+chat_excessive_gameplay_fatigue			你的游戏时间过长, 已进入疲劳状态. 在疲劳状态下游戏收益将被减半.
+chat_excessive_gameplay_unhealthy		你的游戏时间过长, 已进入沉迷状态. 在沉迷状态下不会获得游戏收益.
+
+// stats
+chat_stats_header				^492* ^982{name}^492的资料
+chat_stats_body1				^492    战队: ^999{clan_name}   ^982||   ^492   等级: ^999{level}   ^982||   ^492W: ^999{wins}^555({winpercent}) ^492L: ^999{losses} ^492断线: ^999{disconnects}^555({leavepercent})
+chat_stats_body2				^492    K/D/A: ^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists}   ^982||   ^492 经验/分 : ^999{expmin}   ^982||   ^492PSR: ^999{psr}
+
+// chat notifications
+chat_notification_cc_panel				按F6打开"社区和战队"界面
+chat_notification_buddy_online			{name} 上线了
+chat_notification_buddy_offline			{name} 下线了
+chat_notification_buddy_joined_game		{name} 加入了游戏"{game}"
+chat_notification_buddy_left_game		{name} 离开了游戏"{game}"
+chat_notification_clan_online			{name} 上线了
+chat_notification_clan_offline			{name} 下线了
+chat_notification_clan_joined_game		{name} 加入了游戏"{game}"
+chat_notification_clan_left_game		{name} 加入了游戏"{game}"
+chat_notification_clan_whisper			(战队) {name}: {message}
+chat_notification_clan_whisper_sent		(战队) {name}: {message}
+chat_notification_clan_new_user			{name}加入了你的战队
+chat_notification_clan_new_user_self	你加入了{clan}战队
+chat_notification_clan_left_self		你离开了战队
+chat_notification_clan_left				{name}离开了战队
+chat_notification_clan_joined			{name}加入了战队
+chat_notification_clan_rank_change		{changer}将^990{name}^279的级别改为了^990{rank}^279
+chat_notification_clan_rank_change_self	{changer}将你的级别改为了^990{rank}^279
+chat_notification_clan_kick				{changer}将^990{name}^279踢出了战队
+chat_notification_clan_kick_self		{changer}将你踢出了战队
+
+// chat commands
+chat_command_whisper				/whisper
+chat_command_whisper_short			/w
+chat_command_whisper_help			^279*^707 /whisper <用户名> <信息>.
+chat_command_reply					/reply
+chat_command_reply_short			/r
+chat_command_reply_invalid			^279* 尚未有人向你发送私聊信息!
+chat_command_reply_help				^279*^707 /reply <信息>.
+chat_command_buddy					/buddy
+chat_command_friend					/friend
+chat_command_buddy_short			/b
+chat_command_friend_short			/f
+chat_command_buddy_list				list
+chat_command_buddy_list_short		l
+chat_command_buddy_list_message		^279* 正在显示好友列表...
+chat_command_buddy_list_none		^279* 你没有好友.
+chat_command_buddy_list_help		^279*^707 /friend list.
+chat_command_buddy_message			message
+chat_command_buddy_message_short	m
+chat_command_buddy_message_help		^279*^707 /friend message <信息>.
+chat_command_buddy_add				add
+chat_command_buddy_add_short		a
+chat_command_buddy_add_help			^279*^707 /friend add <昵称>.
+chat_command_buddy_delete			delete
+chat_command_buddy_delete_short		d
+chat_command_buddy_delete_help		^279*^707 /friend delete <昵称>.
+chat_command_clan					/clan
+chat_command_clan_short				/c
+chat_command_clan_list				list
+chat_command_clan_list_short		l
+chat_command_clan_list_message		^279* 正在显示战队成员...
+chat_command_clan_list_none			^279* 你的战队中没有成员.
+chat_command_clan_list_help			^279*^707 /clan list.
+chat_command_clan_message			message
+chat_command_clan_message_short		m
+chat_command_clan_message_help		^279*^707 /clan message <信息>.
+chat_command_clan_promote			promote
+chat_command_clan_promote_short		p
+chat_command_clan_promote_help		^279*^707 /clan promote <用户名>.
+chat_command_clan_demote			demote
+chat_command_clan_demote_short		d
+chat_command_clan_demote_help		^279*^707 /clan demote <用户名>.
+chat_command_clan_remove			remove
+chat_command_clan_remove_short		r
+chat_command_clan_remove_help		^279*^707 /clan remove <用户名>.
+chat_command_clan_invite			invite
+chat_command_clan_invite_short		i
+chat_command_clan_invite_help		^279*^707 /clan invite <用户名>.
+chat_command_clan_leave				leave
+chat_command_clan_leave_short		l
+chat_command_clan_leave_help		^279*^707 /clan leave.
+chat_command_clear					/clear
+chat_command_clear_short			/cl
+chat_command_join					/join
+chat_command_join_help				^279*^707 /join <频道名> "密码". (密码必须在半角引号内)
+chat_command_join_short				/j
+chat_command_invite					/invite
+chat_command_invite_short			/i
+chat_command_invite_help			^279*^707 /invite <用户名>.
+chat_command_whois					/whois
+chat_command_whois_short			/who
+chat_command_whois_help				^279*^707 /whois <用户名>.
+chat_command_stats					/stats
+chat_command_stats_short			/s
+chat_command_stats_pop				pop
+chat_command_stats_help				^279*^707 /stats <用户名> [pop].
+chat_command_joingame				/joingame
+chat_command_joingame_short			/jg
+chat_command_joingame_buddy			friend
+chat_command_joingame_buddy_short	f
+chat_command_joingame_name			name
+chat_command_joingame_name_short	n
+chat_command_joingame_ip			ip
+chat_command_joingame_ip_short		i
+chat_command_joingame_buddy_help	^279*^707 /joingame friend <用户名>
+chat_command_joingame_name_help		^279*^707 /joingame name <游戏名>
+chat_command_joingame_ip_help		^279*^707 /joingame ip <地址>
+chat_command_joingame_buddy_failed	^279* 无法加入游戏 - 用户不存在, 或该用户不在游戏中.
+chat_command_topic					/topic
+chat_command_topic_short			/t
+chat_command_topic_help				^279*^707 /topic
+chat_command_topic_set_help			^279*^707 /topic <主题> (需要频道管理员权限)
+chat_command_kick					/kick
+chat_command_kick_short				/k
+chat_command_kick_help				^279*^707 /kick <用户名> (需要频道管理员权限)
+chat_command_ban					/ban
+chat_command_ban_help				^279*^707 /ban <用户名> (需要频道管理员权限)
+chat_command_unban					/unban
+chat_command_unban_help				^279*^707 /unban <用户名> (需要频道管理员权限)
+chat_command_silence				/silence
+chat_command_silence_help			^279*^707 /silence <用户名> <持续时间(分钟)> (需要频道管理员权限)
+chat_command_message_all_long		/messageall
+chat_command_message_all			/msgall
+chat_command_banlist				/banlist
+chat_command_banlist_short			/bl
+chat_command_banlist_list			list
+chat_command_banlist_list_short		l
+chat_command_banlist_list_message	^279* 正在显示黑名单...
+chat_command_banlist_list_none		^279* 黑名单中没有用户.
+chat_command_banlist_list_entry		^999{name}: ^888{reason}
+chat_command_banlist_list_help		^279*^707 /banlist list.
+chat_command_banlist_add			add
+chat_command_banlist_add_short		a
+chat_command_banlist_add_help		^279*^707 /banlist add <昵称> <原因>.
+chat_command_banlist_delete			delete
+chat_command_banlist_delete_short	d
+chat_command_banlist_delete_help	^279*^707 /banlist delete <昵称>.
+chat_command_ignorechat				/ignorechat
+chat_command_ignorechat_short		/ic
+chat_command_ignorechat_enemy_all_on	^279* 你屏蔽了来自敌方队伍的公共聊天信息.
+chat_command_ignorechat_all_on		^279* 你屏蔽了来自双方队伍的公共聊天信息.
+chat_command_ignorechat_team_on		^279* 你屏蔽了本队的聊天信息.
+chat_command_ignorechat_every_on	^279* 你屏蔽了本队的聊天信息和公共聊天信息.
+chat_command_ignorechat_off			^279* 你不再屏蔽任何信息.
+chat_command_friendlychat			/friendlychat
+chat_command_friendlychat_short		/fc
+chat_command_friendlychat_on		^279* 你现在只接收你的战队队友或好友的消息.
+chat_command_friendlychat_off		^279* 你现在可以接收所有玩家的消息.
+chat_command_ignore					/ignore
+chat_command_ignore_list			list
+chat_command_ignore_list_short		l
+chat_command_ignore_list_message	^279* 正在显示屏蔽列表...
+chat_command_ignore_list_none		^279* 你的屏蔽列表中没有用户.
+chat_command_ignore_list_entry		^999{name}
+chat_command_ignore_list_help		^279*^707 /ignore list.
+chat_command_ignore_add				add
+chat_command_ignore_add_short		a
+chat_command_ignore_add_help		^279*^707 /ignore add <昵称>.
+chat_command_ignore_delete			delete
+chat_command_ignore_delete_short	d
+chat_command_ignore_delete_help		^279*^707 /ignore delete <昵称>.
+chat_command_notes					/notes
+chat_command_notes_short			/n
+chat_command_notes_list				list
+chat_command_notes_list_short		l
+chat_command_notes_list_message		^279* 正在显示备注...
+chat_command_notes_list_none		^279* 你没有添加任何备注.
+chat_command_notes_list_entry		^279{id}: ^888{note}
+chat_command_notes_list_help		^279*^707 /notes list.
+chat_command_notes_add				add
+chat_command_notes_add_success		^279* 备注添加成功.
+chat_command_notes_add_short		a
+chat_command_notes_add_help			^279*^707 /notes add <备注>.
+chat_command_notes_delete			delete
+chat_command_notes_delete_short		d
+chat_command_notes_delete_help		^279*^707 /notes delete <序号>.
+chat_command_notes_delete_success	^279* 删除备注成功.
+chat_command_notes_delete_invalid	^279* 备注序号无效.
+chat_command_promote				/promote
+chat_command_promote_short			/p
+chat_command_promote_help			^279*^707 /promote <用户名> (需要频道管理员权限)
+chat_command_demote					/demote
+chat_command_demote_short			/d
+chat_command_demote_help			^279*^707 /demote <用户名> (需要频道管理员权限)
+chat_command_auth					/auth
+chat_command_auth_short				/a
+chat_command_auth_list				list
+chat_command_auth_list_short		l
+chat_command_auth_list_message		^279* 正在显示已验证用户...
+chat_command_auth_list_none			^279* 没有用户通过频道验证.
+chat_command_auth_list_entry		^999{name}
+chat_command_auth_list_help			^279*^707 /auth list.
+chat_command_auth_add				add
+chat_command_auth_add_short			a
+chat_command_auth_add_help			^279*^707 /auth add <昵称>.
+chat_command_auth_delete			delete
+chat_command_auth_delete_short		d
+chat_command_auth_delete_help		^279*^707 /auth delete <昵称>.
+chat_command_auth_enable			enable
+chat_command_auth_enable_help		^279*^707 /auth enable (只允许已验证的用户进入频道).
+chat_command_auth_disable			disable
+chat_command_auth_disable_help		^279*^707 /auth disable.
+chat_command_password				/password
+chat_command_password_short			/pass
+chat_command_password_set_help		^279*^707 /password (清除密码, 需要频道管理员权限)
+chat_command_password_clear_help	^279*^707 /password <密码> (设置密码, 需要频道管理员权限)
+chat_command_roll					/roll
+chat_command_roll_help				^279*^707 /roll <最小> <最大> (掷出一个介于最大和最小数字之间的数(1至32767)).
+chat_command_emote					/emote
+chat_command_emote_help				^279*^707 /emote <表情信息>.
+chat_command_emote_short			/em
+chat_command_time					/time
+chat_command_ping					/ping
+chat_command_matchup				/matchup
+chat_command_matchup_short			/ma
+chat_command_matchup_help			游戏信息只有在游戏开始后才可用.
+chat_command_gameinfo				/gameinfo
+chat_command_gameinfo_short			/gi
+chat_command_ping_all				/pingall
+chat_command_ping_all_short			/pa
+chat_command_available				/available
+chat_command_available_message		^279* 你的聊天状态是"正常聊天".
+chat_command_afk					/afk
+chat_command_afk_message			^279* 你的聊天状态是"暂时离开":{reason} 
+chat_command_dnd					/dnd
+chat_command_dnd_message			^279* 你的聊天状态是"请勿打扰":{reason}
+
+chat_command_weather				/weather
+chat_command_weather_intro			^279* 输入一个天气指令:
+chat_command_weather_entry			^279* /weather {name}
+chat_command_weather_selected		^279* 已选择天气效果"{name}"
+
+chat_command_server					/serverchat
+chat_command_server_short			/sc
+
+chat_command_help					/help
+chat_command_help_short				/h
+chat_command_character				/
+chat_command_invalid_format			^279* 命令格式错误. 正确的格式应为:
+chat_command_invalid_format_multi	^279* 命令格式错误. 正确的格式应为下列之一:
+chat_command_invalid_command		^279* 命令无效. 请输入{helpcommand}获得命令列表.
+chat_command_help_valid				^279* 有效的命令为:
+chat_command_help_whisper			^279*^707 /whisper <昵称> <信息>^279         -向用户发送私聊信息.
+chat_command_help_reply				^279*^707 /reply <信息>^279                  -回复最后一条私聊.
+chat_command_help_buddy				^279*^707 /friend <命令> <内容>^279          -各类与好友有关的命令.
+chat_command_help_clan				^279*^707 /clan <命令> <内容>^279            -各类与战队有关的命令.
+chat_command_help_join				^279*^707 /join <频道名> "密码"^279          -进入指定的频道 (如果该频道需要密码, 请带半角引号输入).
+chat_command_help_clear				^279*^707 /clear^279                         -清空聊天界面.
+chat_command_help_invite			^279*^707 /invite <用户名>^279               -邀请用户加入当前游戏.
+chat_command_help_whois				^279*^707 /whois <用户名>^279                -得到指定用户的信息.
+chat_command_help_stats				^279*^707 /stats <用户名> [pop]^279          -得到指定用户的统计 (可以加上"pop"来取消之前的stats指令).
+chat_command_help_joingame			^279*^707 /joingame <类型> <参数>^279        -加入一个游戏.
+chat_command_help_topic				^279*^707 /topic [主题]^279                  -查看或设置当前频道的主题
+chat_command_help_kick				^279*^707 /kick <用户名>^279                 -将用户踢出频道 (需要频道管理员权限).
+chat_command_help_ban				^279*^707 /ban <用户名>^279                  -禁止某用户进入频道 (需要频道管理员权限).
+chat_command_help_unban				^279*^707 /unban <用户名>^279                -取消禁止某用户进入频道 (需要频道管理员权限).
+chat_command_help_silence			^279*^707 /silence <用户名> <持续时间>^279   -将用户禁言<持续时间>分钟 (需要频道管理员权限).
+chat_command_help_promote			^279*^707 /promote <用户名>^279              -提升用户权限 (需要频道管理员权限)
+chat_command_help_demote			^279*^707 /demote <用户名>^279               -降低用户权限 (需要频道管理员权限)
+chat_command_help_banlist			^279*^707 /banlist <命令> <内容>^279         -黑名单管理命令.
+chat_command_help_ignore			^279*^707 /ignore <命令> <内容>^279          -屏蔽列表管理命令.
+chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -切换屏蔽"队伍"聊天或"公共"聊天.
+chat_command_help_friendlychat		^279*^707 /friendlychat^279					 -开关忽略不在你所属战队或好友列表中的玩家的消息.
+chat_command_help_notes				^279*^707 /notes <命令> <内容>^279           -备注管理命令.
+chat_command_help_auth				^279*^707 /auth <命令> <内容>^279            -频道已验证用户列表管理命令 (需要频道管理员权限)
+chat_command_help_password			^279*^707 /password <密码>^279               -设置当前频道的密码 (需要频道管理员权限)
+chat_command_help_password_clear	^279*^707 /password^279						 -清除当前频道的密码 (需要频道管理员权限)
+chat_command_help_roll				^279*^707 /roll <最小> <最大>^279			 -掷出一个介于最大和最小数字之间的数 (1至32767).
+chat_command_help_emote				^279*^707 /emote <信息>^279				     -发布表情信息.
+chat_command_help_time				^279*^707 /time^279                          -显示你的当前系统时间.
+chat_command_help_ping				^279*^707 /ping^279 (只能在游戏中使用)       -显示你跟服务器之间的当前延迟.
+chat_command_help_matchup			^279*^707 /matchup^279 (只能在游戏中使用)    -显示当前游戏中所有玩家的 队伍/玩家/颜色/英雄.
+chat_command_help_gameinfo			^279*^707 /gameinfo^279 (只能在游戏中使用)   -显示当前游戏的一些信息.
+chat_command_help_available			^279*^707 /available^279					 -将聊天状态切换为"正常聊天".
+chat_command_help_afk				^279*^707 /afk <暂时离开信息>^279			 -将聊天状态切换为"暂时离开", 当有人向你发送私聊信息时, 会自动回复你设置的暂时离开信息.
+chat_command_help_dnd				^279*^707 /dnd <请勿打扰信息>^279			 -将聊天状态切换为"请勿打扰", 可以阻止其他人向你发送私聊信息, 并自动回复你设置的请勿打扰信息.
+chat_command_help_weather			^279*^707 /weather^279 (只能在游戏中使用)	 -设定天气效果
+chat_command_help_misc				^279* 输入任意一个命令(不包含具体内容和参数)来查看如何使用这个命令.
+
+//End

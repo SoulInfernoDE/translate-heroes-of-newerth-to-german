@@ -1,0 +1,532 @@
+﻿error_title				錯誤
+error_unknown				未知的錯誤。
+disconnect_title				已中斷連線
+disconnect_not_host			您必須有主機權限才能在此伺服器開始進行遊戲。
+disconnect_server_full			伺服器已滿。
+disconnect_game_in_progress		您正嘗試加入的遊戲已在進行中。
+disconnect_server_error			伺服器錯誤。
+disconnect_snapshot_fragment		太多的快照片段。
+disconnect_not_invited			您並未收到加入此私人遊戲的邀請。
+disconnect_no_cookie			您必須登入該伺服器以進行遊戲。
+disconnect_auth_failed			伺服器無法授權您的帳戶。請嘗試再次登入。
+disconnect_unknown			系統已將您中斷連線。
+disconnect_timeout			伺服器無回應。
+disconnect_game_over			遊戲已結束。
+disconnect_idle				由於處於閒置狀態，系統已將您中斷連線。
+disconnect_terminated			您已超過中斷連線時間上限，不能再重新加入此遊戲。
+disconnect_kicked			您已被主機踢出遊戲。
+disconnect_vote_kicked			您已被投票踢出遊戲。
+disconnect_unassigned			主機已在你未加入隊伍前開始遊戲。
+disconnect_banned			主機已禁止您參加這場比賽。
+disconnect_leaver			由於您的早退率過高，所以不能加入這場遊戲。
+disconnect_overflow			由於封包溢位，系統已將您中斷連線。
+disconnect_flooding			由於伺服器癱瘓，系統已將您中斷連線。
+disconnect_invalid_tier			您不能在此階層玩遊戲。
+disconnect_invalid_psr			您的 PSR 對這場遊戲不是過高就是過低。
+disconnect_not_on_roster		您並未列在這場排定比賽的名冊上。
+disconnect_modified_core_files		您的 resources0.s2z 檔案已被修改。不能變更此檔案！請重新安裝 Heroes of Newerth。
+disconnect_client_number_mismatch	連線錯誤，請稍後再試一次。
+disconnect_trial_not_allowed		您不能以試用帳戶連線這場比賽。試用帳戶僅限於「無統計資料」的比賽。
+rejected_invalid_request		您的用戶端傳送無效的連線請求。
+rejected_empty_address		伺服器無法決定您的位址。
+rejected_wrong_game			此伺服器正在執行不同的遊戲。
+rejected_wrong_version			您的版本與伺服器版本不符。
+rejected_banned			您已被禁止進入此伺服器。
+rejected_invalid_password		無效的密碼。
+rejected_server_error			伺服器錯誤。
+rejected_server_taken			其他使用者已在您所選取的伺服器上開始進行遊戲。請再試一次。
+rejected_not_host			您必須有主機權限才能在此伺服器開始進行遊戲。
+// chat system messages
+chat_connecting			^279* 正在連線至聊天伺服器 ...
+chat_reconnecting			^279* 正在連線至聊天伺服器 ... (第 {attempt} 次嘗試，最多 {maxattempts} 次)
+chat_waiting_verification		^279* 正在等待聊天伺服器驗證身份...
+chat_connected				^279* 已連線！
+chat_connected_invisible		^279* 您現正以隱藏模式連線。在此模式下用戶端將不會傳送狀態更新給朋友及派系成員，但您仍會如處於線上狀態時收到他們的狀態更新。
+chat_disconnected			^279* 已自聊天伺服器中斷連線 ...
+chat_reconnecting_delay		^279* 30 秒內重新連線 (第 {attempt} 次嘗試，最多 {maxattempts} 次)。
+chat_not_connected			^279* 您並未連線至聊天伺服器。
+chat_new_channel			^279* 現在正於頻道 ^090{channel}^279 中發言。
+chat_channel_message			^990{sender}：^888 {message}
+chat_channel_message_sent		^444{name}：^* {message}
+chat_whisper				^099(來自 {sender} 的悄悄話) ^888{message}
+chat_whisper_sent			^066(對 {target} 說悄悄話) ^888{message}
+chat_whisper_buddies			^066<對好友說悄悄話> {message}
+chat_whisper_to_buddies		^099<{sender} 對好友說悄悄話> {message}
+chat_whisper_failed_self		^279* 您無法對自己說悄悄話。
+chat_failed_invisible			^279* 無法在隱藏模式下聊天。
+chat_mode_switch_fail			^279* 無法在隱藏模式下變更狀態。請登出並重新正常登入以使用此功能。
+chat_mode_afk_auto_response		^099* 您的訊息已傳遞，但 ^990{target}^279 目前離開電腦：{message}
+chat_mode_afk_default_response	目前離開電腦
+chat_mode_dnd_auto_response		^099* 您的訊息並未傳遞，^990{target}^279 不想受到打擾：{message}
+chat_mode_dnd_default_response	請勿打擾
+chat_user_offline			^279* 該玩家不在線上。
+chat_im					^882{sender}：^888{message}
+chat_im_sent				^444{name}：^888{message}
+chat_im_failed				^279* ^990{target}^279 不在線上。
+chat_clan_whisper			^359(Clan) {name}：^888{message}
+chat_clan_whisper_sent			^458(Clan) {name}：^888{message}
+chat_clan_whisper_failed		^279* 您並未加入派系。
+chat_clan_im				^359{name}：^888{message}
+chat_clan_im_sent			^458{name}：^888{message}
+chat_flooding				^279* 訊息未送出 ─ 您傳送的訊息太多。請稍候幾秒鐘，然後再試一次。
+chat_max_channels			^279* 無法加入更多頻道，請先退出其他頻道。
+chat_banned				^279* 已中斷連線 ─ 您被禁止進入聊天伺服器 {time} 秒鐘。					
+chat_banned_connections		^279* 原因：連線嘗試次數過多。
+chat_banned_flooding			^279* 原因：伺服器癱瘓。
+chat_banned_unknown			^279* 原因：不明。
+chat_banned_reconnect			^279* 正在嘗試在 {time} 秒內重新連線 (Attempt {attempt} of {maxattempts})。
+chat_info_not_found			^279* 找不到使用者「^990{name}^279」。
+chat_info_offline			^279* ^990{name}^279 目前離線，最近一次上線時間為 {seen}。
+chat_info_online_no_channels		  ^279* ^990{name}^279 目前在線上，並未進入任何頻道。
+chat_info_online_one_channel		^279* ^990{name}^279 目前在線上，並在頻道「{channel}」中。
+					
+chat_info_online_multi_channels	^279* ^990{name}^279 目前在線上，並在下列頻道中：{channels}。
+					
+chat_info_in_game			^279* ^990{name}^279 目前在線上，並在遊戲「{game}^279」中。
+chat_info_in_game_time		^279* ^990{name}^279 目前在線上，並在遊戲「{game}^279」中。目前遊戲時間：{cgt}。
+chat_ignored				^279* ^990{name}^279 現在正受到忽略。
+chat_unignored				^279* ^990{name}^279 不再受到忽略。
+chat_joining_game			^279* 加入遊戲「^990{name}^279」。
+chat_left_game				^279* 您已離開遊戲。
+chat_user_info_online			^279* ^990{name}^279 目前在線上。
+chat_user_info_offline			^279* ^990{name}^279 目前離線。
+chat_user_info_in_game		^279* ^990{name}^279 目前在遊戲「{game}」中。
+chat_saving_channel			^279* 正在儲存 ^g{channel}^279 至您的頻道清單 ...
+chat_failed_saving_channel		^279* 無法儲存 ^g{channel}^279 至您的頻道清單 ...
+chat_removing_channel			^279* 正從您的頻道清單移除 ^g{channel}^279 ...
+chat_failed_removing_channel		^279* 無法從自您的頻道清單移除 ^g{channel}^279 ...
+chat_failed_saving_notification		^279* 無法儲存通知 ...
+chat_failed_removing_notification	^279* 無法移除通知 ID {id}...
+chat_failed_removing_notifications	^279* 無法儲存所有通知 ...
+chat_adding_buddy			^279* 正在將 ^990{name}^279 加入為好友 ...
+chat_failed_buddy_add			^279* 無法將 ^990{target}^279 加入至好友名單。
+chat_failed_buddy_add_self		^279* 您無法將自己加入為好友。
+chat_failed_buddy_remove_self		^279* 您無法將自己當作好友移除。
+chat_failed_buddy_add_duplicate	^279* 該使用者已在您的好友名單上。
+chat_failed_buddy_add_reason		^279* 無法將 ^990{target}^279 加入好友名單：{reason}
+chat_failed_buddy_remove		^279* 無法將 ^990{target}^279 從好友名單移除。
+chat_failed_buddy_remove_not_found	^279* 無法將使用者從好友名單移除：找不到使用者。
+chat_approved_buddy_adder		^279* 正在將 ^990{name}^279 加入為好友 ...
+chat_approved_buddy_added		^279* ^990{name}^279 已將您加入為好友 ...
+chat_requesting_buddy			^279* 正在邀請 ^990{name}^279 成為好友 ...
+chat_requested_approval_adder		^279* 您已邀請 ^990{name}^279 成為好友 ...
+					
+chat_requested_approval_added	^279* ^990{name}^279 邀請您成為好友 ...
+					
+chat_requested_approval_failed		^279* 無法邀請 ^990{name}^279 成為好友 ...
+					
+chat_requested_approval_duplicate	^279* 您或使用者 ^990{name}^279 已在最近發出加入好友邀請，請稍候 1 分鐘，再重新發出邀請 ...
+chat_requested_approval_ignored	^279* 使用者 ^990{name}^279 將您列入忽略名單，無法邀請他們成為好友。
+chat_approving_buddy			^279* ^279*正在確認 ^990{name}^279 成為好友 ...
+chat_failed_approving_buddy		^279* 無法確認 ^990{name}^279 成為好友 ...
+chat_clan_promoting				^279* 正在將派系成員 ^990{name}^279 晉升為主管 ...
+chat_failed_clan_promote			^279* 無法晉升 ^990{target}^279 。
+chat_failed_clan_promote_cannot_promote	^279* 您無法晉升該使用者。
+chat_failed_clan_promote_generic		^279* 無法晉升使用者。
+chat_clan_demoting				^279* 正在將派系成員 ^990{name}^279 降級 ...
+chat_failed_clan_demote			^279* 無法將 ^990{target}^279 降級。
+chat_failed_clan_demote_cannot_demote	^279* 您無法將該使用者降級。
+chat_failed_clan_demote_generic		^279* 無法降級使用者。
+chat_clan_removing				^279* 正在移除派系成員 ^990{name}^279 ..
+chat_clan_removing_self		^279* 正在嘗試離開派系 ...
+chat_failed_clan_remove		^279* 無法將 ^990{target}^279 從派系中移除。
+chat_failed_clan_remove_self		^279* 無法離開派系。
+chat_failed_clan_remove_demote	^279* 必須把該使用者降級後才能移除。
+chat_failed_clan_remove_generic	^279* 無法將使用者從派系移除。
+chat_failed_clan_name			^279* 無法檢查派系名稱和標籤的可用性，請再試一次。
+chat_failed_clan_name_tip		無法檢查派系名稱和標籤的可用性，請再試一次。
+chat_invalid_clan_name			^279* 派系名稱 ^990{name}^279 和標籤 ^990{tag}^279 不可用。
+chat_invalid_clan_name_tip		派系名稱 ^990{name}^* 和標籤 ^990{tag}^* 不可用。
+chat_invalid_clan_name_used		^279* 派系名稱 ^990{name}^279 已被使用。
+chat_invalid_clan_name_used_tip	派系名稱 ^990{name}^* 已被使用。
+chat_invalid_clan_tag_used		^279* 派系標籤 ^990{tag}^279 已被使用。
+chat_invalid_clan_tag_used_tip		派系標籤 ^990{tag}^* 已被使用。
+chat_invalid_clan_name_format		^279* 派系名稱 ^990{name}^279 並非有效的派系名稱。必須包含英數字元、破折號和空格，而長度為 1 至 32 個字元。
+chat_invalid_clan_name_format_tip	派系名稱 ^990{name}^* 並非有效的派系名稱。必須包含英數字元、破折號和空格，而長度為 1 至 32 個字元。
+chat_invalid_clan_tag_format		^279* 派系標籤 ^990{tag}^279 並非有效的派系標籤。必須包含英數字元，而長度為 1 至 3 個字元。
+chat_invalid_clan_tag_format_tip	派系標籤 ^990{tag}^*  並非有效的派系標籤。必須包含英數字元，而長度為 1 至 3 個字元。
+chat_success_buddy_add		^279* 已將 ^990{target}^279 加入好友名單。
+chat_success_buddy_remove		^279* 已將 ^990{target}^279 從好友名單移除。
+chat_success_clan_promote		^279* 已成功將 ^990{target}^279 晉升。
+chat_success_clan_demote		^279* 已成功將 ^990{target}^279 降級。
+chat_success_clan_remove		^279* 已將 ^990{target}^279 從派系中移除。
+chat_success_clan_remove_self	^279* 您已離開派系。
+chat_topic_change			^279* 主題變更為「^990{topic}^279」。
+chat_topic				^279* 主題為「^990{topic}^279」。
+chat_not_operator			^279* 您沒有此頻道的管理員權限。
+chat_user_kicked			^279* ^990{kickee}^279 被 ^990{kicker}^279 踢出該頻道。
+chat_kicked				^279* 您已被 ^990{kicker}^279 踢出頻道「^990{channel}^279」。
+chat_user_banned			^279* 您已被 ^990{kicker}^279 踢出頻道「^990{channel}^279」。
+chat_user_banned_no_name		^279* ^990{banned}^279 已被禁止進入該頻道。
+chat_channel_banned			^279* 您已被 ^990{banner}^279 禁止進入頻道「^990{channel}^279」。
+chat_channel_banned_no_name	^279* 您已被禁止進入頻道「^990{channel}^279」。
+chat_user_unbanned			^279* ^990{unbanner}^279 准許 ^990{unbanned}^279 再次進入頻道。
+chat_user_unbanned_no_name		^279* ^990{unbanned}^279 獲准許再次進入頻道。
+chat_unbanned				^279* ^990{unbanner}^279 准許您再次進入頻道「^990{channel}^279」。
+chat_unbanned_no_name		^279* 您獲准許再次進入頻道「^990{channel}^279」。
+chat_banned_from_channel		^279* 您被禁止進入頻道「^990{channel}^279」。
+chat_silenced				^279* 您在此頻道不能發言。
+chat_silence_lifted			^279* 您在頻道「^990{channel}^279」中的禁止發言指令已被解除。
+chat_silence_placed			^279* 您在頻道「^990{channel}^279」已被 ^990{name}^279 禁止發言 {duration} 分鐘。
+chat_user_silence_placed		^279* ^990{silenced}^279 已被 ^990{name}^279 禁止發言 {duration} 分鐘。
+chat_message_all			^900{name}：^999 {message}
+chat_roll_message			{player} 擲出較 {low} {high} 的骰子點數而得到 {number} 分。
+chat_current_time			目前時間為：{time}。
+chat_current_ping			目前 Ping 值為：{ping}。
+chat_adding_banlist			^279* 正在將 ^990{name}^279 加入黑名單 ...
+chat_failed_banlist_add			^279* 無法將 ^990{target}^279 加入黑名單。
+chat_failed_banlist_add_self		^279* 您無法將自己加入黑名單。
+chat_failed_banlist_add_duplicate	^279* 該使用者已在您的黑名單上。
+chat_failed_banlist_add_reason		^279* 無法將 ^990{target}^279 加入黑名單：{reason}
+chat_failed_banlist_remove		^279* 無法將 ^990{target}^279 從黑名單中移除。
+chat_failed_banlist_remove_not_found	^279* 無法將使用者從黑名單移除：找不到使用者。
+chat_success_banlist_add		^279* 已將 ^990{target}^279 加入黑名單。
+chat_success_banlist_remove		^279* 已將 ^990{target}^279 從黑名單中移除。
+chat_adding_ignore			^279* 正在將 ^990{name}^279 加入忽略名單 ...
+chat_failed_ignore_add			^279* 無法將 ^990{target}^279 加入忽略名單。
+chat_failed_ignore_add_self		^279* 您無法將自己加入忽略名單。
+chat_failed_ignore_add_duplicate	^279* 該使用者已在您的忽略名單上。
+chat_failed_ignore_add_reason		^279* 無法將 ^990{target}^279 加入忽略名單：{reason}
+chat_failed_ignore_remove		^279* 無法將 ^990{target}^279 從忽略名單移除。
+chat_failed_ignore_remove_not_found	^279* 無法將使用者從忽略名單移除：找不到使用者。
+chat_success_ignore_add		^279* 已將 ^990{target}^279 加入忽略名單。
+chat_success_ignore_remove		^279* 已將 ^990{target}^279 從忽略名單移除。
+chat_user_on_banlist			^279* ^990{name}^279 在您的黑名單上：^999{reason}
+chat_admin_level_none			無管理員狀態
+chat_admin_level_officer		頻道主管
+chat_admin_level_leader		頻道台長
+chat_admin_level_administrator		頻道管理員
+chat_admin_level_staff			員工
+chat_promote_success				^279* ^990{name}^279 已被 ^990{promoter}^279 晉升為 ^990{rank}^279。
+chat_promote_failure				^279* 您沒有足夠的權限進一步晉升該使用者。
+chat_demote_success				^279* ^990{name}^279 已被 ^990{promoter}^279 降級為 ^990{rank}^279。
+chat_demote_failure_too_low			^279* 該使用者已處於此頻道最低的管理權限層級。
+chat_demote_failure				^279* 您沒有足夠的權限進一步降級該使用者。
+chat_not_in_channel				^279* 該使用者不在此頻道。
+chat_im_user_offline				^279* ^990{name}^279 現在離線。
+chat_im_user_online				^279* ^990{name}^279 現在在線上。
+chat_version_mismatch				您的版本與聊天伺服器的版本不符。
+chat_no_permissions			^279* 您在此頻道的管理權限無法進行此指令。
+chat_auth_enabled			^279* 此頻道已啟用授權，您必須在授權名單上才能加入。
+chat_auth_disabled			^279* 此頻道已停用授權，所有使用者現在均能加入。
+chat_auth_add_success			^279* ^990{name}^279 已獲加入授權名單。
+chat_auth_add_failure			^279* ^990{name}^279 已在授權名單上。
+chat_auth_remove_success		^279* ^990{name}^279 已從授權名單中移除。
+chat_auth_remove_failure		^279* ^990{name}^279 並不在授權名單上。
+chat_password_change			^279* 此頻道的密碼已被 ^990{name}^279 變更。
+chat_password_required		^279* 頻道 ^990{name}^279 需要密碼。
+chat_error_clan_rank			^279* 您需要更高的派系等級才能執行該動作。
+chat_error_clan_not_found		^279* 找不到名為 ^990{name}^279 的派系成員。
+chat_clan_invite_sent			^279* 正在傳送派系邀請給 ^990{name}^279 ...
+chat_failed_clan_invite_in_clan		^279* ^990{name}^279 已在一個派系中。
+chat_clan_invite_received		^279* ^990{name}^279 已邀請您加入派系 ^990{clan}^279。
+chat_clan_invite_rejected		^279* ^990{name}^279 拒絕您的派系邀請。
+chat_clan_invite_failed_online		^279* 該使用者不在線上。
+chat_clan_invite_failed_clan		^279* 該使用者已加入另一派系。
+chat_clan_invite_failed_invite		^279* 該使用者已獲邀加入另一派系。
+chat_clan_invite_failed_permissions	^279* 您沒有足夠權限邀請使用者加入您的派系。
+chat_clan_invite_failed_unknown	^279* 無法將 ^990{target}^279 加入派系。
+chat_clan_invite_failed_unknown_self	^279* 無法將您加入派系。
+chat_clan_new_user			^279* ^990{name}^279 已加入您的派系。
+chat_clan_new_user_self		^279* 您已加入派系 ^990{clan}^279。
+chat_clan_create_fail_clan		^279* 必須離開目前的派系才能建立新派系。
+chat_clan_create_fail_param		^279* 無法建立派系 ─ 缺少參數！
+chat_clan_create_fail_tag		^279* 無法建立派系 ─ 派系標籤過長。
+chat_clan_create_fail_in_clan		^279* 無法建立派系 ─ ^990{name}^279 已在派系中。
+chat_clan_create_fail_duplicate		^279* 無法建立派系 ─ 不允許重複的創始成員。
+chat_clan_create_fail_invite		^279* 無法建立派系 ─ ^990{name}^* 有其他未回覆的派系邀請。
+
+chat_clan_create_fail_not_found	^279* 無法建立派系 ─ 找不到 ^990{name}^*。
+chat_clan_create_fail_clan_name	^279* 無法建立派系 ─ 您的派系名稱未被接納。請確認名稱是否由 1 至 32 個英數字元組成，並未被使用。
+chat_clan_create_fail_tag		^279* 無法建立派系 ─ 您的派系標籤未被接納。請確認標籤是否由 1 至 32 個英數字元組成，並未被使用。
+
+chat_clan_create_fail_unknown		^279* 無法建立派系。
+chat_clan_create_fail_time		^279* 無法建立派系 ─ 給予創始成員接受邀請的期限逾時。
+chat_clan_create_result_fail_clan	必須離開目前的派系才能建立新派系。
+chat_clan_create_result_fail_param	失敗 ─ 缺少參數！
+chat_clan_create_result_fail_tag		失敗 ─ 派系標籤過長。
+chat_clan_create_result_fail_in_clan	失敗 ─ ^990{name}^* 已在一個派系中。
+chat_clan_create_result_fail_duplicate	失敗 ─ 重複的創始成員。
+chat_clan_create_result_fail_invite	失敗 ─ ^990{name}^* 有其他未回覆的派系邀請。
+chat_clan_create_result_fail_not_found	失敗 ─  找不到 ^990{name}^*。
+chat_clan_create_result_fail_clan_name	失敗 ─ 您的派系名稱未被接納。
+chat_clan_create_result_fail_tag		失敗 ─ 您的派系標籤未被接納。
+chat_clan_create_result_fail_unknown	無法建立派系。
+chat_clan_create_result_fail_time	失敗 ─  逾時。
+chat_clan_create_sent			^279* 已提交建立派系邀請，正在等待成員確認。
+chat_clan_create_accept		^279* ^990{name}^279 接受您的建立派系邀請。
+chat_clan_create_reject			^279* ^990{name}^279 拒絕您的建立派系邀請。
+chat_clan_create_result_reject		失敗 ─  ^990{name}^* 拒絕您的邀請。
+chat_clan_create_success		^279* 您的派系已建立成功。
+chat_clan_create_result_success	成功！您的派系已建立。
+chat_clan_left				^279* ^990{name}^279 已離開派系。
+chat_clan_left_self			^279* 您已離開派系。
+chat_clan_kick				^279* ^990{changer}^279 已將 ^990{name}^279 踢出派系。
+chat_clan_kick_self			^279* ^990{changer}^279 已將您踢出派系。
+chat_clan_joined			^279* ^990{name}^279 已加入派系。
+chat_clan_rank_change			^279* ^990{changer}^279 已將 ^990{name}^279 的等級變更為 ^990{rank}^279。
+chat_clan_rank_change_self		^279* ^990{name}^279 已將您的等級變更為 ^990{rank}^279。
+chat_clan_rank_none			不在派系中
+chat_clan_rank_member		成員
+chat_clan_rank_officer			主管
+chat_clan_rank_leader			領袖
+chat_clan_no_clan			^279* 您並未在派系中。
+chat_tourn_match_ready		^279* 您所排定要加入的聯賽比賽　^990{name}^279　已經可以加入。請透過 [社群與派系] 面板中的聯賽區加入。
+
+// stats
+chat_stats_header			^492* ^982{name}^492 的統計資料
+chat_stats_body1			^492    派系：^999{clan_name}   ^982||   ^492    等級：^999{level}   ^982||   ^492勝：^999{wins}^555({winpercent}) ^492負：^999{losses} ^492中斷連線：^999{disconnects}^555({leavepercent})
+chat_stats_body2			^492    K/D/A：^999{kills} ^492/ ^999{deaths} ^492/ ^999{assists}   ^982||   ^492經驗值 / 分鐘：^999{expmin}   ^982||   ^492PSR: ^999{psr}
+// chat notifications
+chat_notification_cc_panel		按下 F6 以打開 [社群與派系] 面板。
+chat_notification_buddy_online		{name} 在線上。
+chat_notification_buddy_offline		{name} 離線。
+chat_notification_buddy_joined_game	{name} 已加入遊戲「{game}」。
+chat_notification_buddy_left_game	{name} 已離開遊戲「{game}」。
+chat_notification_clan_online		{name} 在線上。
+chat_notification_clan_offline		{name} 離線。
+chat_notification_clan_joined_game	{name} 已加入遊戲「{game}」。
+chat_notification_clan_left_game	{name} 已離開遊戲「{game}」。
+chat_notification_clan_whisper		(派系) {name}：{message}
+chat_notification_clan_whisper_sent	(派系) {name}：{message}
+chat_notification_clan_new_user	{name} 已加入您的派系。
+chat_notification_clan_new_user_self	您已加入派系 {clan}。 
+chat_notification_clan_left_self		您已離開派系。
+chat_notification_clan_left		{name} 已離開派系。
+chat_notification_clan_joined		{name} 已加入派系。
+chat_notification_clan_rank_change		{changer} 已將 ^990{name}^279 的等級變更為 ^990{rank}^279。
+chat_notification_clan_rank_change_self	{changer} 已將您的等級變更為 ^990{rank}^279。
+chat_notification_clan_kick			{changer} 已將 ^990{name}^279 踢出派系。
+chat_notification_clan_kick_self			{changer} 已將您踢出派系。
+// chat commands
+chat_command_whisper			/whisper
+chat_command_whisper_short			/w
+chat_command_whisper_help			^279*^707 /whisper <name> <message>。
+chat_command_reply				/reply
+chat_command_reply_short			/r
+chat_command_reply_invalid			^279* 沒人對您說悄悄話！
+chat_command_reply_help			^279*^707 /reply <message>。
+chat_command_buddy				/buddy
+chat_command_buddy_short			/b
+chat_command_buddy_list			列出
+chat_command_buddy_list_short		l
+chat_command_buddy_list_message		^279* 列出好友...
+chat_command_buddy_list_none		^279* 您的好友名單上沒有任何使用者。
+chat_command_buddy_list_help			^279*^707 /buddy 名單。
+chat_command_buddy_message		訊息
+chat_command_buddy_message_short	m
+chat_command_buddy_message_help		^279*^707 /buddy message <message>.
+chat_command_buddy_add			加入
+chat_command_buddy_add_short		a
+chat_command_buddy_add_help		^279*^707 /buddy add <nick>.
+chat_command_buddy_delete			刪除
+chat_command_buddy_delete_short		d
+chat_command_buddy_delete_help		^279*^707 /buddy delete <nick>.
+chat_command_clan				/clan
+chat_command_clan_short			/c
+chat_command_clan_list			列出
+chat_command_clan_list_short			l
+chat_command_clan_list_message		^279* 列出派系成員...
+chat_command_clan_list_none			^279* 您的派系沒有任何使用者。
+chat_command_clan_list_help			^279*^707 / clan list.
+chat_command_clan_message			訊息
+chat_command_clan_message_short		m
+chat_command_clan_message_help		^279*^707 /clan message <message>.
+chat_command_clan_promote			晉升
+chat_command_clan_promote_short		p
+chat_command_clan_promote_help		^279*^707 /clan promote <name>
+chat_command_clan_demote			降級
+chat_command_clan_demote_short		d
+chat_command_clan_demote_help		^279*^707 /clan demote <name>
+chat_command_clan_remove			移除
+chat_command_clan_remove_short		r
+chat_command_clan_remove_help		^279*^707 /clan remove <name>
+chat_command_clan_invite			邀請
+chat_command_clan_invite_short		i
+chat_command_clan_invite_help		^279*^707 /clan invite <name>
+chat_command_clan_leave			離開
+chat_command_clan_leave_short		l
+chat_command_clan_leave_help		^279*^707 /clan leave.
+chat_command_clear				/clear
+chat_command_clear_short			/cl
+chat_command_join				/join
+chat_command_join_help			^279*^707 /join <channel> "password".  (以引號框住密碼)
+chat_command_join_short			/j
+chat_command_invite				/invite
+chat_command_invite_short			/i
+chat_command_invite_help			^279*^707 /invite <user>.
+chat_command_whois				/whois
+chat_command_whois_short			/who
+chat_command_whois_help			^279*^707 /whois <user>.
+chat_command_stats				/stats
+chat_command_stats_short			/s
+chat_command_stats_pop			pop
+chat_command_stats_help			^279*^707 /stats <user> [pop].
+chat_command_joingame			/joingame
+chat_command_joingame_short			/jg
+chat_command_joingame_buddy		好友
+chat_command_joingame_buddy_short	b
+chat_command_joingame_name		名稱
+chat_command_joingame_name_short	n
+chat_command_joingame_ip			IP
+chat_command_joingame_ip_short		i
+chat_command_joingame_buddy_help		^279*^707 /joingame buddy <name>
+chat_command_joingame_name_help		^279*^707 /joingame buddy <name>
+chat_command_joingame_ip_help		^279*^707 /joingame IP <address>
+chat_command_joingame_buddy_failed		^279* 無法加入遊戲 ─ 使用者不存在，或不在遊戲中。
+chat_command_topic				/topic
+chat_command_topic_short			/t
+chat_command_topic_help			^279*^707 /topic
+chat_command_topic_set_help			^279*^707 /topic <topic> (需有頻道管理員權限)
+chat_command_kick				/kick
+chat_command_kick_short			/k
+chat_command_kick_help			^279*^707 /kick <user> (需有頻道管理員權限)
+chat_command_ban				/ban
+chat_command_ban_help			^279*^707 /ban <user> (需有頻道管理員權限)
+chat_command_unban				/unban
+chat_command_unban_help			^279*^707 /unban <user> (需有頻道管理員權限)
+chat_command_silence				/silence
+chat_command_silence_help			^279*^707 /silence <user> <duration in min> (需有頻道管理員權限)
+chat_command_message_all_long		/messageall
+chat_command_message_all			/msgall
+chat_command_banlist				/banlist
+chat_command_banlist_short			/bl
+chat_command_banlist_list			列出
+chat_command_banlist_list_short		l
+chat_command_banlist_list_message		^279* 列出黑名單...
+chat_command_banlist_list_none		^279* 您的黑名單上沒有任何使用者。
+chat_command_banlist_list_entry		^999{name}：^888{reason}
+chat_command_banlist_list_help		^279*^707 /banlist list.
+chat_command_banlist_add			加入
+chat_command_banlist_add_short		a
+chat_command_banlist_add_help		^279*^707 /banlist add <nick> <reason>.
+chat_command_banlist_delete			刪除
+chat_command_banlist_delete_short		d
+chat_command_banlist_delete_help		^279*^707 /banlist delete <nick>。
+chat_command_ignorechat			/ignorechat
+chat_command_ignorechat_short		/ic
+chat_command_ignorechat_enemy_all_on	^279* 您現在正忽略來自敵營的「所有」聊天。
+chat_command_ignorechat_all_on		^279* 您現在正忽略來自敵我雙方的「所有」聊天。
+chat_command_ignorechat_team_on		^279* 您現在正忽略「隊伍」聊天。
+chat_command_ignorechat_every_on		^279* 您現在正忽略「所有」與「隊伍」聊天。
+chat_command_ignorechat_off			^279* 您不再忽略任何聊天。
+chat_command_ignore				/ignore
+chat_command_ignore_list			列出
+chat_command_ignore_list_short		l
+chat_command_ignore_list_message		^279* 列出忽略名單...
+chat_command_ignore_list_none		^279* 您的忽略名單上沒有任何使用者。
+chat_command_ignore_list_entry		^999{name}
+chat_command_ignore_list_help			^279*^707 /ignore list.
+chat_command_ignore_add			加入
+chat_command_ignore_add_short		a
+chat_command_ignore_add_help		^279*^707 /ignore add <nick>.
+chat_command_ignore_delete			刪除
+chat_command_ignore_delete_short		d
+chat_command_ignore_delete_help		^279*^707 /ignore delete <nick>.
+chat_command_notes				/notes
+chat_command_notes_short			/n
+chat_command_notes_list			列出
+chat_command_notes_list_short			l
+chat_command_notes_list_message		^279* 列出備註...
+chat_command_notes_list_none			^279* 您的備註沒有任何項目。
+chat_command_notes_list_entry			^279{id}：^888{note}
+chat_command_notes_list_help			^279*^707 /notes list.
+chat_command_notes_add			新增
+chat_command_notes_add_success		^279* 新增備註成功。
+chat_command_notes_add_short		a
+chat_command_notes_add_help		^279*^707 /notes add <note>.
+chat_command_notes_delete			刪除
+chat_command_notes_delete_short		d
+chat_command_notes_delete_help		^279*^707 /notes delete <id>.
+chat_command_notes_delete_success		^279* 刪除備註成功。
+chat_command_notes_delete_invalid		無效的備註 ID。
+chat_command_promote			/promote
+chat_command_promote_short			/p
+chat_command_promote_help			^279*^707 /promote <user> (需有頻道管理員權限)
+chat_command_demote				/demote
+chat_command_demote_short			/d
+chat_command_demote_help			^279*^707 /demote <user> (需有頻道管理員權限)
+chat_command_auth				/auth
+chat_command_auth_short			/a
+chat_command_auth_list			列出
+chat_command_auth_list_short			l
+chat_command_auth_list_message		^279* 列出授權使用者...
+chat_command_auth_list_none			^279* 此頻道無授權使用者。
+chat_command_auth_list_entry			^999{name}
+chat_command_auth_list_help			^279*^707 /auth list.
+chat_command_auth_add			加入
+chat_command_auth_add_short			a
+chat_command_auth_add_help			^279*^707 /auth add <nick>.
+chat_command_auth_delete			刪除
+chat_command_auth_delete_short		d
+chat_command_auth_delete_help		^279*^707 /auth delete <nick>.
+chat_command_auth_enable			啟用
+chat_command_auth_enable_help		^279*^707 /auth enable (僅允許授權名單上的使用者加入頻道)。
+chat_command_auth_disable			停用
+chat_command_auth_disable_help		^279*^707 /auth disable.
+chat_command_password			/password
+chat_command_password_short		/pass
+chat_command_password_set_help		^279*^707 /password (清除密碼，需有頻道管理員權限)
+chat_command_password_clear_help		^279*^707 /password <password> (設定密碼，需有頻道管理員權限)
+chat_command_roll				/roll
+chat_command_roll_help			^279*^707 /roll <low> <high> (擲出介於高及低之間的數字，(1 到 32,767))。
+chat_command_emote				/emote
+chat_command_emote_help			^279*^707 /emote <emote message>.
+chat_command_emote_short			/em
+chat_command_time				/time
+chat_command_ping				/ping
+chat_command_matchup			/matchup
+chat_command_matchup_short			/ma
+chat_command_matchup_help			對決資訊只可在比賽已開始時使用。
+
+chat_command_gameinfo			/gameinfo
+chat_command_gameinfo_short			/gi
+chat_command_available			/available
+chat_command_available_message		^279* 您的聊天狀態現在是「線上」。
+chat_command_afk				/afk
+chat_command_afk_message			^279* 您的聊天狀態現在是「離開電腦」：{reason} 。
+chat_command_dnd				/dnd
+chat_command_dnd_message			^279* 您的聊天狀態現在是「請勿打擾」：{reason} 。
+chat_command_help				/help
+chat_command_help_short			/h
+chat_command_character			/
+chat_command_invalid_format			^279* 無效的命令格式。正確的格式是：
+chat_command_invalid_format_multi		^279* 無效的命令格式。正確的格式是其中之一：
+chat_command_invalid_command		^279* 無效的命令。請鍵入 {helpcommand} 以取得命令清單。
+chat_command_help_valid			^279* 有效的命令為：
+chat_command_help_whisper			^279*^707 /whisper <nickname> <message>^279  -對使用者說悄悄話。
+chat_command_help_reply			^279*^707 /reply <message>^279               -回覆上一個悄悄話。
+chat_command_help_buddy			^279*^707 /buddy <command> <arguments>^279   -各種與好友相關的命令。
+chat_command_help_clan			^279*^707 /clan <command> <arguments>^279    -各種與派系相關的命令。
+chat_command_help_join			^279*^707 /join <channel> "password"^279     -加入指定的頻道 (可選擇以引號指定密碼)。
+chat_command_help_clear			^279*^707 /clear^279                         -清除聊天緩衝。
+chat_command_help_invite			^279*^707 /invite <user>^279                 -邀請指定使用者加入目前的遊戲。
+chat_command_help_whois			^279*^707 /whois <user>^279                  -取得指定使用者的資訊。
+chat_command_help_stats			^279*^707 /stats <user> [pop]^279            -取得指定使用者的統計資料 (可選擇納入「pop」以下拉統計資料)。
+chat_command_help_joingame			^279*^707 /joingame <type> <param>^279       -加入遊戲。
+chat_command_help_topic			^279*^707 /topic [topic]^279                 -檢視或設定目前的頻道主題
+chat_command_help_kick			^279*^707 /kick <user>^279                   -將使用者踢出頻道 (需有頻道管理員權限)。
+chat_command_help_ban			^279*^707 /ban <user>^279                    -禁止使用者加入頻道 (需有頻道管理員權限)。
+chat_command_help_unban			^279*^707 /unban <user>^279                  -解除禁止使用者加入頻道 (需有頻道管理員權限)。
+chat_command_help_silence			^279*^707 /silence <user> <duration>^279     -禁止使用者發言 <duration> 秒鐘 (需有頻道管理員權限)。
+chat_command_help_promote			^279*^707 /promote <user>^279                -晉升目標使用者 (需有頻道管理員權限)
+chat_command_help_demote			^279*^707 /demote <user>^279                 -降級目標使用者 (需有頻道管理員權限)
+chat_command_help_banlist			^279*^707 /banlist <command> <arguments>^279 -黑名單管理指令。
+chat_command_help_ignore			^279*^707 /ignore <command> <arguments>^279  -忽略名單管理指令。
+chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -切換忽略「隊伍」與「所有」聊天。
+chat_command_help_notes			^279*^707 /notes <command> <arguments>^279   -備註管理命令。
+chat_command_help_auth			^279*^707 /auth <command> <arguments>^279    -頻道授權使用者名單管理 (需有頻道管理員權限)
+chat_command_help_password			^279*^707 /password <password>^279           -設定目前頻道密碼 (需有頻道管理員權限)
+chat_command_help_password_clear		^279*^707 /password^279						 -清除目前頻道密碼 (需有頻道管理員權限)
+chat_command_help_roll			^279*^707 /roll <low> <high>^279			 -擲出介於低及高之間的數字，(1 到 32，767)。
+chat_command_help_emote			^279*^707 /emote <message>^279				 -在您的使用者名稱上顯示情感。
+chat_command_help_time			^279*^707 /time^279                          -列出您目前的系統時間。
+chat_command_help_ping			^279*^707 /ping^279 (僅用於遊戲)           -列出您目前對遊戲伺服器的 Ping 值。
+chat_command_help_matchup			^279*^707 /matchup^279 (僅用於遊戲)        -列出目前遊戲中玩家的隊伍/名稱/顏色/英雄。
+chat_command_help_gameinfo			^279*^707 /gameinfo^279 (僅用於遊戲)       -列出目前遊戲的相關資訊。
+chat_command_help_available			^279*^707 /available^279					 -切換聊天狀態為「線上」。
+chat_command_help_afk			^279*^707 /afk <afk message>^279			 -切換聊天狀態為「離開電腦」，自動以指定訊息回覆悄悄話。
+chat_command_help_dnd			^279*^707 /dnd <dnd message>^279			 -切換聊天狀態為「請勿打擾」，停止接收悄悄話，並自動以指定訊息回覆悄悄話。
+chat_command_help_misc			^279* 鍵入任何不含參數的命令，以取得如何使用命令的相關資訊。
+//End
+
