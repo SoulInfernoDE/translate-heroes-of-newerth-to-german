@@ -1,0 +1,3062 @@
+﻿// Buttons
+
+BACKSPACE		Backspace键
+TAB				Tab 键
+ENTER			Enter 键
+ESC				Esc 键
+SPACE			空格键
+CAPS_LOCK		Caps Lock 键
+SHIFT			Shift 键
+LSHIFT			左Shift 键
+RSHIFT			右Shift 键
+CTRL				Ctrl 键
+LCTRL			左Ctrl 键
+RCTRL			右 Ctrl 键
+ALT				ALT 键
+LALT				左ALT 键
+RALT				右ALT 键
+WIN				视窗键
+LWIN				左视窗键
+RWIN				右视窗键
+UP				上方键
+LEFT				左方键
+DOWN			下方键
+RIGHT			右方键
+NUM_LOCK		Num Lock 键
+DIVIDE			/ (num)
+MULTIPLY			* (num)
+ADD				+ (num)
+SUBTRACT		- (num)
+DECIMAL			. (num)
+NUM_ENTER		Enter (num)
+SEMI-COLON		;
+SLASH			/
+BACK_SLASH		\\
+QUOTE			"
+COMMA			,
+PERIOD			.
+
+// General
+general_cancel								取消
+general_ok									确定
+general_accept								接受
+general_go									移至
+general_connect								连线 
+general_disconnect							中断连线
+general_refresh								重新整理 
+eneral_private_game							私人游戏
+general_create_game							建立游戏
+general_send_message						传送讯息
+general_send								传送
+general_add_friend							新增好友
+general_select_server							选择服务器
+general_quick_play							快速游戏
+general_type								类型
+general_options								选项 
+general_create_account						建立账号
+eneral_local								本机
+general_channel_name							频道名称
+general_topic								主题
+general_users								用户
+general_server_name							服务器名称
+general_ping								侦测
+general_game_name							游戏名称
+general_players								玩家
+general_game_mode							游戏模式
+general_game_mode_short						模式
+general_game_type							游戏类型
+general_game_options							游戏选项
+general_yes								是
+general_no									否
+general_full_games							完整游戏
+general_all									全部
+general_none								无
+
+eneral_view								检视
+general_wait								请稍候...
+general_date								日期
+general_decline								拒绝
+general_approve								批准
+general_ignore								忽略
+general_join								加入 
+general_submit								送出
+general_close								关闭 
+general_continue								继续
+general_back								返回
+general_apply								套用
+general_ready								就绪
+general_error								错误
+general_retry								重试 
+general_login								登录
+general_error_login							登录失败
+general_error_sea_deny						东南亚用户必须经由 Garena 客户端连线。
+general_error_sea_message1				    「纽沃斯英雄」测试版即将供新加坡、马来西亚、越南及菲律宾用户使用。在封闭测试开始时，如果这些地区的玩家是 Garena 金牌会员，则可立即获得测试版钥匙，而其它钥匙将在其它小区中送出。
+请注意，此处未列明的地区（如印度尼西亚、泰国）将不能在 Garena 服务器上玩，需要购买付款账户才能在 S2 Games 国际服务器中加入游戏。
+
+genral_error_sea_message2						如需更多来自 Garena 团队关于「纽沃斯英雄」版本的更新，请造访其部落格：^yhtp://blog.garena.com^*，或 Garena 官方的「纽沃斯英雄」网站：^yhttp://hon.garena.com^*。
+
+eneral_mode_all_heroes						所有英雄
+general_mode_random							随机英雄
+general_mode_easy_mode						简易模式
+general_mode_no_hero_repick					不能重新选择英雄
+general_mode_no_hero_swap					不能交换英雄
+general_mode_no_agi_heroes					无敏捷型英雄
+general_mode_no_intel_heroes					无智力型英雄
+general_mode_no_str_heroes					无力量型英雄
+general_mode_no_respawn_timer					无重生定时器
+general_mode_drop_items						弃置物品
+general_mode_no_runes						无强化物品
+general_mode_super_creeps						超级部队部队
+general_mode_alt_hero_pick						更改英雄选择
+general_mode_duplicate_heroes					复制英雄
+general_mode_reverse_hero_select				反向选择英雄
+general_mode_no_top_lane						关闭顶端通道
+eneral_mode_no_middle_lane					关闭中间通道
+general_mode_no_bottem_lane					关闭底层通道
+general_mode_allow_veto						允许否决
+general_mode_shuffle							变更队伍
+general_mode_autobalance						自动平衡
+general_mode_no_leavers						不能中途退出
+general_mode_no_stats						无统计资料
+general_mode_official							官方
+general_mode_tournament_rules					联赛规则
+general_mode_hardcore						中坚
+general_mode_dev_heroes						开发中英雄
+
+// main.interface
+main_label_username							用户名称 
+main_label_password							密码 
+main_checkbox_remember_me					记住我的登录信息
+main_checkbox_auto_login						自动登录
+main_label_account_type						登录类型
+main_label_account_type_desc	
+main_label_account_level						级别：
+main_label_games_played						游戏：
+main_label_leaves							退出次数：
+main_label_record							记录
+
+main_button_upgrade							立即升级
+main_label_logged_in_as						登录为：
+main_button_login							登录
+main_button_logout							注销
+main_label_login_status_waiting					正在登录，请稍候...
+main_label_login_status_success					您现在已登录。
+main_label_login_status_failed					登录失败：{原因}
+main_button_create_account						建立账号
+main_button_need_login						登录进行在线游戏
+main_button_play_online						进行在线游戏
+main_button_local_game						本机游戏
+main_button_options							选项
+main_button_view_replay						查看回放
+main_button_quit								退出
+main_quit_confirm							真的要退出吗？
+main_quit_confirm2							您确定真的要退出「纽沃斯英雄」？
+main_label_update_avail						已有更新版本的「纽沃斯英雄」可供下载！是否想要现在下载此版本？
+main_button_cancel_update						取消更新
+main_label_update_calculating					正在计算更新
+main_label_update_downloading					正在下载更新
+main_label_old_version							旧版：^w{version}
+main_label_new_version						新版：^w{version}
+main_label_update_files						剩余档案：^w{count} / {total}
+main_label_update_progress						进度：^w{count}MB / {total}MB
+main_label_update_speed						下载速度：^w{speed}KB/sec
+main_label_update_time						剩余时间：^w{time}
+main_label_update_error						「纽沃斯英雄」下载错误
+main_login_save_username						储存用户名称
+main_login_save_username_tip					选择此选项，游戏将储存您的用户名称，幷在您开始进行游戏时自动输入。
+main_login_auto_auth							自动登录
+main_login_auto_auth_tip						选择此选项，游戏将储存您的密码，幷在您开始进行游戏时自动登录。
+main_login_invis_mode							隐形模式
+main_login_invis_mode_tip						选择此选项，当您登录/出或加入/离开游戏时，您的好友及派系伙伴将不会得通知，但您仍然可以收到他们的讯息状态。
+main_login_lost_pass							忘记登录信息？
+main_login_password_saved						<已储存>
+
+//confirmations.package
+confirm_disconnect_title						中断游戏连线？
+confirm_disconnect_msg						您确定要中断此游戏连线吗？
+confirm_leaver_result_nowleaver					如果您中断此游戏连线，您将无法加入限制中途离开的游戏。
+confirm_leaver_result_notleaver					如果您中断此游戏连线，您将不会成为中途退出玩家。
+
+//account.package
+account_retrieve_header						检索用户名称或密码
+account_lost_username							忘记用户名称
+account_lost_username_msg						输入您账号下方所属的电子邮件地址，以便将用户名称传送给您。
+account_lost_username_processing				正在处理请求，请稍候...
+account_lost_username_success					已将一封含有您用户名称的电子邮件传送到您账号所属的电子邮件地址。
+account_lost_username_error1					我是个错误。看看我。Justin 有一天也会真的弄出错误！不，我不会！我不需您这些讨厌的错误！
+account_lost_password							忘记密码
+account_lost_password_msg						输入用户名称或电子邮件地址，密码将会传送到您账号所属的电子邮件地址。
+account_lost_pass_sep							-或是-
+account_lost_password_success					已将一封含有您密码的电子邮件传送到您账号所属的电子邮件地址。
+
+main_menu_creategame						建立游戏
+main_menu_publicgame						公用游戏
+main_menu_amm							配对服务
+main_menu_ladder							玩家排名
+main_menu_matchstats							游戏统计
+main_menu_compendium						英雄简介
+main_menu_options							系统选项
+main_menu_tutorial							新手入门
+
+main_reconnect_header						重新连线？
+main_reconnect_ok							重新连线
+main_reconnect_body							您有 {time} 秒钟进行重新连线！
+main_reconnect_text							您与进行中的游戏已中断连线，可以重新加入该游戏。
+main_reconnect_playing_in						您正在进行一场游戏：
+
+
+
+
+
+main_filter_prequery_title						筛选指定地区
+
+main_filter_prequery_tip						选择此选项将根据您在服务器端（而不是客户端）选择的 ^!y地区^* 筛选游戏列表。 这将减少检索和 Ping 游戏列表所需的时间。 如果连接速度较慢，使用此选项将会有所帮助。
+
+main_filter_hide_restricted_tip					选择此选项将隐藏所有对您具有限制的游戏，包括有“中途退出玩家”状态或 PSR 不在房主指定的最小/最大 PSR 范围。
+
+main_leaver_title								中途退出率
+
+main_leaver_tip								您的中途退出率表示您能否加入限制中途退出的游戏。可允许的中途退出次数依游戏次数而定。
+
+main_leaver_tip_tier1						1 - 39 场游戏
+
+main_leaver_tip_tier1_threshold				3 次离开
+
+main_leaver_tip_tier2						40 - 79 场游戏
+
+main_leaver_tip_tier2_threshold				4 次离开
+
+main_leaver_tip_tier3						79 - 99 场游戏
+
+main_leaver_tip_tier3_threshold				5 次离开
+
+main_leaver_tip_tier4						100+ 场游戏
+
+main_leaver_tip_tier4_threshold				5%% 离开
+
+
+
+
+
+// game_options.package
+
+options_disabled								停用
+
+options_very_low								很低
+options_low									低
+options_normal								正常
+options_medium								适中
+options_high								高
+options_very_high							很高
+options_header_game_options					游戏选项
+options_header_video_options					视讯选项
+options_label_display							显示
+options_display_tip							在全屏幕模式中执行游戏时所使用的显示器。
+options_label_resolution						分辨率
+options_resolution_tip							显示器上所显示的像素数目。
+options_label_color_depth						色彩深度
+options_color_depth_tip							每个像素的位数。部份选择 16 位色彩深度的较低阶系统可体验到效能提升。
+options_label_refresh_rate						画面更新频率
+options_tip_refresh_rate						显示器每秒更新的次数。值愈高愈不会闪烁，但可能不支持较高的分辨率。
+options_label_anti_aliasing						消除锯齿
+options_label_anti_aliasing_tip					消除锯齿能平滑场景中的多个样例，令模型边缘的图像更柔软真实。 使用的样例越多，游戏的运行速度越慢。
+
+options_label_aspect_ratio						画面比例
+options_label_aspect_ratio_tip					水平和垂直显示大小的比例。 如果您使用 LCD 显示器，请确保您选择的分辨率适合该显示器以获得清晰图像。
+
+options_label_texture_filtering						纹理筛选
+options_label_texture_filtering_tip					根据距离更改或视角角度来平滑纹理。 没有筛选令系统运行最快，但画面象素将降低，而容许高度图像化则能达到最准确效果，但可能会降低低象素系统的性能。
+options_label_brightness					亮度：^w
+options_brightness_tip_header				亮度
+options_brightness_tip						向右拖移滑块增加亮度，向左降低亮度。 默认值为 1.00
+options_checkbox_full_screen_mode			全屏幕模式
+options_full_screen_tip						游戏将填满整个画面。
+options_checkbox_exclusive_mode				独占模式
+options_exclusive_mode_tip					以独占模式执行可能会稍微提高效能，但可能难以进行多个任务。
+options_checkbox_frame_queuing				画面队列
+options_frame_queuing_tip					启用画面队列可能会增加效能，但也会使输入延迟。
+options_header_rendering_options				算图选项
+options_label_model_quality					模型质量
+options_model_quality_tip					使用简单的模型点会使游戏在低象素系统和低象素显卡上运行得更顺畅。
+options_label_texture_size					纹理大小
+options_texture_size_tip					使用较大的纹理可获得更细致的视觉效果，但需占用更多视频和物理内存。
+
+options_shader_quality						着色器质量
+options_shader_quality_tip					着色器对图像处理器的要求很高。 降低质量会使视觉效果变差，但可以让游戏在低像素显示卡上运行。
+
+options_shadow_quality					阴影质量
+options_shadow_quality_tip					阴影质量越高，显示的阴影越清晰，但需要占用更多视频内存。 阴影受图像处理器和 CPU 限制。
+
+options_special_effects						特效
+options_special_effects_tip					特殊效果用于单位技能和类似的动画中。 使用低质量会减少粒子数，幷让游戏在低像素系统上更流畅运行。
+
+options_reflections						反射
+options_reflections_tip						反射用于如盾牌及水等物体，实时显示反射会影响效能。
+
+options_refraction							折射
+options_refraction_tip						折射可在使用场景扭曲时呈现高质量效果，但会影响效能。
+
+options_post_processing					后期处理
+options_post_processing_tip					启用后期处理效果会影响效能。
+
+options_spec_fog							在旁观者视角中启用烟雾
+
+options_spec_fog_tip						以旁观者状态检视游戏时出现烟雾。
+
+options_spec_skybox						在旁观者视角中启用 Skybox
+
+options_spec_skybox_tip					以旁观者状态检视游戏时出现 Skybox。
+
+options_display_foliage						显示树叶
+options_foliage_tip_text						关闭树叶显示将可提高显示效能。
+options_vsync							垂直同步
+options_vsync_tip_text						如果帧速率一直高于画面更新频率，使用垂直同步可提高图像质量。 垂直同步可能会降低帧速率，尤其是在较旧的显示卡。
+options_checkbox_transparency_aa_label			透明消除锯齿
+options_checkbox_transparency_aa_desc			透明消除锯齿是使透明材质边缘平滑的方法，与模型边缘相反，以营造出轻柔的外观。 这些材质类型最常作为树叶。增加取样会使某些材质更平滑，但可能会影响效能。
+options_dynamic_lights						动态光线
+options_dynamic_lights_tip					动态光线用于增强效果及游戏外观，但会降低某些显示卡的效能。
+options_button_reset_all					全部重设
+options_button_ok						确定
+options_button_apply						套用
+options_button_sound						声音
+options_button_controls						控制
+options_button_awards						奖赏
+options_button_stats						统计
+options_button_interface					界面
+options_button_graphics					图像
+options_button_voice						语音
+options_header_volume_options				音量选项
+options_label_master_volume					主音量 ^w
+options_master_volume_tip_header				主音量
+options_master_volume_tip					设定所有声音的音量。
+options_label_sound_effects					音效 ^w
+options_sound_effects_tip_header				音效
+options_sound_effects_tip					设定游戏中音效的音量。
+options_label_interface_volume				接口音量 ^w
+options_interface_volume_tip_header			接口音量
+options_interface_volume_tip					设定接口声音的音量，例如按钮点选。
+options_label_music_volume					音乐音量 ^w
+options_label_music_volume_tip_header			音乐音量
+options_label_music_volume_tip				设定音乐的音量。
+options_header_sound_options				声音选项
+options_label_sound_output					输出系统
+options_sound_output_tip					选择欲使用的声音输出系统。
+options_label_playback_driver				播放驱动程序
+options_playback_driver_tip					选择声音播放驱动程序。
+options_label_recording_driver				录音驱动程序
+options_recording_drive_tip					选择声音输入驱动程序。
+options_label_sound_quality					音质
+options_sound_quality_tip					您可选择降低音质以降低内存使用率。
+options_label_sound_channels				声道 ^w
+options_sound_channels_tip_header			声道
+options_sound_channels_tip					可同时播放的声音数。
+options_checkbox_disable_all_sounds			停用所有声音
+options_disable_all_sounds_tip				一旦启用，便会停用声音系统。停用声音有助于内存低的系统运作。
+
+options_checkbox_unit_reactions				单位反应
+options_unit_reactions_tip					启用单位反应时，当您按一下各单位或命令他们行动时，单位会有所反应。
+
+options_checkbox_mute_announcer			播报员静音
+
+options_checkbox_mute_announcer_tip			启用此选项，您将不会听到播报员的声音。
+
+options_checkbox_sound_mute				全部静音
+
+options_checkbox_sound_mute_tip				启用此选项，将会全部静音。
+
+options_checkbox_sound_muteMusic			音乐静音
+
+options_checkbox_sound_muteMusic_tip			启用此选项，音乐将会静音，但仍将听见其它声音。
+
+
+
+options_header_voice_chat_options			语音聊天选项
+
+options_label_test_mic_level					测试麦克风音量
+
+options_test_mic_level_tip					测试麦克风输入音量。
+
+options_button_begin_test					开始测试
+
+options_button_stop_test					停止测试
+
+options_label_voice_chat_volume				语音聊天音量 ^w
+
+options_voice_chat_volume_tip_header			语音聊天音量
+
+options_voice_chat_volume_tip				调整来自其它玩家传入的语音聊天音量。
+options_label_microphone_volume				麦克风音量 ^w
+options_mic_volume_tip_header				麦克风音量
+options_mic_volume_tip					调整您麦克风的输入音量。音量愈高，您对其他玩家的说话声音愈大。
+options_label_microphone_gain				麦克风增量：^w
+options_mic_gain_tip_header					麦克风增量：
+options_mic_gain_tip						调整麦克风的输入音量。音量愈高，您对其他玩家的说话声音愈大。
+options_label_auto_sound_dampen				自动调降音量 ^w
+options_auto_dampen_tip_header				自动调降音量
+options_auto_dampen_tip					使用 VOIP 时，您可自动降低其它游戏声音的音量。请拖曳滑杆以选择降音量。
+options_checkbox_mic_boost					麦克风音量加大
+options_mic_boost_tip						加大麦克风音量会降低音质。
+options_checkbox_disable_voice_chat			停用语音聊天
+options_disable_voice_chat_tip				关闭语音聊天。您将听不到其它玩家的聊天。
+options_checkbox_push_to_talk				按下即说
+options_push_to_talk_enable_tip				启用「按下即说」时，只要按下快速键就能开启麦克风。若未使用「按下即说」，您说话时，麦克风将自动开启。
+
+options_header_voice_chat_talk_settings			语音聊天设定
+options_label_push_to_talk_keybind			按下即说按钮
+options_push_to_talk_tip					若启用语音聊天，按住此键将开启麦克风。
+options_label_lane_talk_keybind				按下即说限制按钮
+options_push_to_lane_talk_tip				若启用语音聊天，按住此键将开启麦克风，但仅能与附近的盟友交谈，而非队中的所有人。
+options_label_mic_off_time					麦克风关闭时间
+options_mic_off_time_tip					在指定时间内若没有发言，将关闭麦克风。
+options_label_mic_on_sensitivity				开启麦克风灵敏度
+options_mic_on_sensitivity_tip				设定要让麦克风自动开启的声音强度。红色箭头表示麦克风音量测试的最高值。建议灵敏度略低于麦克风音量最高值。
+
+options_header_input_options				输入选项
+options_label_scroll_speed					卷动速度：^w
+options_camera_scroll_speed_tip_header			镜头卷动速度
+options_camera_scroll_speed_tip				游戏单位每秒的镜头移动速率。
+options_checkbox_screen_edge_scroll			画面边缘卷动
+options_screen_edge_scroll_tip				一旦启用，将鼠标光标置于画面的边缘，镜头将会移动。
+
+options_checkbox_camera_lock				锁定镜头
+options_screen_camera_lock_tip				一旦启用，镜头将随着游戏中的英雄移动。
+
+
+options_checkbox_constrain_cursor				限制?标
+options_constrain_cursor_tip					一旦启用，当游戏窗口有焦点时，鼠标光标将无法移出游戏窗口之外。
+
+options_checkbox_display_xp_rewards			显示经验值奖励
+options_display_xp_rewards_tip				一旦启用，当您的英雄在游戏中取得经验值时，游戏将在奖励来源以紫色数字显示。
+
+
+
+options_header_control_options				控制选项
+options_yellow_label_action					动作
+options_yellow_label_primary					主要
+options_yellow_label_secondary				次要
+options_bind_instructions_button		    		若要选择新的结合，请^y按下^*任何键或鼠标按钮。
+options_bind_instructions_impulse				若要选择新的结合，请^y按下^*组合键。
+
+options_bind_button_default					预设
+
+options_bind_button_clear					清除结合
+options_bind_header						选择新的结合
+
+
+options_healthbar_shadows_hero				英雄生命值状态列阴影
+options_healthbar_shadows_creep				部队生命值状态列阴影
+options_healthbar_shadows_building			建筑物生命值状态列阴影
+options_healthbar_shadows_misc				其它生命值状态列阴影
+
+options_healthbar_shadows_hero_tip			在英雄生命值状态列后显示一条阴影，表示每一击所受到的损害。阴影会缓慢移动，以符合英雄的实际生命值状态。
+options_healthbar_shadows_creep_tip			在部队生命值状态列后显示一条阴影，表示每一击所受到的损害。阴影会缓慢移动，以符合部队的实际生命值状态。
+options_healthbar_shadows_building_tip			在建筑物生命值状态列后显示一条阴影，表示每一击所受到的损害。阴影会缓慢移动，以符合建筑物的实际生命值状态。
+options_healthbar_shadows_misc_tip			在物体生命值状态列后显示一条阴影，表示每一击所受到的损害。阴影会缓慢移动，以符合物体的实际生命值状态。此选项涵盖英雄、部队与建筑物复选框未包括的生命值状态列。
+
+options_checkbox_goldlerp					金币动画显示
+options_checkbox_goldlerp_tip				启用此选项时，您的金币计数现值会在 350 毫秒内以动画呈现。
+
+options_label_game_controls					游戏控制
+options_label_primary_keybind				主要按钮
+options_label_primary_keybind_tooltip			主要按钮用于选择单位、使用技能以及与游戏接口互动。
+options_label_secondary_keybind				次要按钮
+options_label_secondary_keybind_tooltip			次要按钮用于发出环境敏感命令，如移动与攻击。
+options_label_shift_keybind					Shift 修改键
+options_label_shiftmod_keybind_tooltip			Shift 修改键可让用户将命令组成队列。
+options_label_ctrl_keybind					Ctrl 修改键
+options_label_ctrlmod_keybind_tooltip			Ctrl 修改键可用于结合其它数个游戏命令。
+options_label_mod3_keybind					直接路径
+options_label_mod3_keybind_tooltip			发出命令时按下此按钮，将可使单位尝试以最直接的路径抵达其目标。
+options_label_on-screen_info_keybind			信息画面
+options_label_on-screen_info_toggle_keybind		切换信息画面
+options_label_camera_drag_keybind			拖曳镜头
+options_label_minimap_ping_keybind			迷您地图侦测
+options_label_open_game_menu_keybind		开启游戏选单
+options_label_open_shop_keybind				开启商店
+options_label_score_rotate					切换记分板
+options_label_chat_team_keybind				聊天 (队伍)
+options_label_chat_all_keybind				聊天 (全部)
+options_label_show_chat_keybind				显示聊天
+options_label_center_screen_keybind			置中
+options_label_center_screen_keybind_tooltip		将主要选择的镜头置中，通常是您目前正在控制的单位。
+options_label_center_info_keybind				置中信息
+options_label_center_info_keybind_tooltip			将次要选择的镜头置中，如其它英雄及单位。
+options_label_focus_event_keybind				最后发生事件置中
+options_label_move_forward_keybind			前移
+options_label_move_left_keybind				左移
+options_label_move_back_keybind				后移
+options_label_move_right_keybind				右移
+options_label_select_hero_keybind				选择英雄
+options_label_attack_keybind					命令攻击
+options_label_stop_keybind					命令停止
+options_label_hold_keybind					命令暂停
+options_label_cancel_and_hold_keybind			命令取消幷暂停
+options_label_move_keybind					命令移动
+options_label_patrol_keybind					命令巡逻
+options_label_next_unit_keybind				下一个单位
+options_label_previous_unit_keybind			上一个单位
+options_label_next_centered_keybind			下一个单位(居中)
+options_label_previous_centered_keybind		上一个单位(居中)
+options_label_next_shopper_keybind			下一位顾客
+options_label_previous_shopper_keybind			上一位顾客
+options_label_nshopper_center_keybind			下一位顾客 (居中)
+options_label_pshopper_center_keybind			上一位顾客 (居中)
+options_label_acti_ab_1_keybind				启用技能 1
+options_label_acti_ab_2_keybind				启用技能 2
+options_label_acti_ab_3_keybind				启用技能 3
+options_label_acti_ab_4_keybind				启用技能 4
+options_label_acti_extra_ab_1_keybind			启用额外技能 1
+options_label_acti_extra_ab_2_keybind			启用额外技能 2
+options_label_acti_extra_ab_3_keybind			启用额外技能 3
+options_label_attribute_boost_keybind			属性提升
+options_label_acti_shared_1_keybind			启用共享技能 1
+options_label_acti_inven_1_keybind			启用背包 1
+options_label_acti_inven_2_keybind			启用背包 2
+options_label_acti_inven_3_keybind			启用背包 3
+options_label_acti_inven_4_keybind			启用背包 4
+options_label_acti_inven_5_keybind			启用背包 5
+options_label_acti_inven_6_keybind			启用背包 6
+options_label_taunt_keybind					嘲笑
+options_label_prev_attack_mod_keybind			上一个攻击修改键
+options_label_next_attack_mod_keybind			下一个攻击修改键
+options_label_levelup_keybind				升级
+options_label_frontqueue_keybind				前队列修改键
+options_label_alternate_keybind				次要启用修改键
+options_label_acti_ab_1_sec_keybind			启用次要技能 1 
+options_label_acti_ab_2_sec_keybind			启用次要技能 2 
+options_label_acti_ab_3_sec_keybind			启用次要技能 3 
+options_label_acti_ab_4_sec_keybind			启用次要技能 4 
+options_label_acti_extra_ab_1_sec_keybind		启用额外技能 1 
+options_label_acti_extra_ab_2_sec_keybind		启用额外技能 2 
+options_label_acti_extra_ab_3_sec_keybind		启用额外技能 3 
+
+options_header_control_groups				控制群组
+options_label_recall_1_keybind				回复选择 1
+options_label_recall_2_keybind				回复选择 2
+options_label_recall_3_keybind				回复选择 3
+options_label_recall_4_keybind				回复选择 4
+options_label_recall_5_keybind				回复选择 5
+options_label_recall_6_keybind				回复选择 6
+options_label_recall_7_keybind				回复选择 7
+options_label_recall_8_keybind				回复选择 8
+options_label_recall_9_keybind				回复选择 9
+options_label_recall_10_keybind				回复选择 10
+options_label_save_selection_1_keybind			储存选择 1
+options_label_save_selection_2_keybind			储存选择 2
+options_label_save_selection_3_keybind			储存选择 3
+options_label_save_selection_4_keybind			储存选择 4
+options_label_save_selection_5_keybind			储存选择 5
+ptions_label_save_selection_6_keybind			储存选择 6
+options_label_save_selection_7_keybind			储存选择 7
+options_label_save_selection_8_keybind			储存选择 8
+options_label_save_selection_9_keybind			储存选择 9
+options_label_save_selection_10_keybind		储存选择 10
+options_label_add_selection_1_keybind			加入选择 1
+options_label_add_selection_2_keybind			加入选择 2
+options_label_add_selection_3_keybind			加入选择 3
+options_label_add_selection_4_keybind			加入选择 4
+options_label_add_selection_5_keybind			加入选择 5
+options_label_add_selection_6_keybind			加入选择 6
+options_label_add_selection_7_keybind			加入选择 7
+options_label_add_selection_8_keybind			加入选择 8
+options_label_add_selection_9_keybind			加入选择 9
+options_label_add_selection_10_keybind			加入选择 10
+options_label_remove_select_1_keybind			从选择 1 移除
+options_label_remove_select_2_keybind			从选择 2 移除
+options_label_remove_select_3_keybind			从选择 3 移除
+options_label_remove_select_4_keybind			从选择 4 移除
+options_label_remove_select_5_keybind			从选择 5 移除
+options_label_remove_select_6_keybind			从选择 6 移除
+options_label_remove_select_7_keybind			从选择 7 移除
+options_label_remove_select_8_keybind			从选择 8 移除
+options_label_remove_select_9_keybind			从选择 9 移除
+options_label_remove_select_10_keybind			从选择 10 移除
+
+options_header_camera_controls				镜头控制
+options_label_zoom_out_keybind				缩小
+options_label_zoom_in_keybind				放大
+options_label_free_look_keybind				自由镜头
+options_label_reset_camera_keybind			重设镜头
+options_label_camera_up_keybind				镜头向上
+options_label_camera_down_keybind			镜头向下
+
+options_header_random_stuff					静音选项
+options_label_mute_sound_keybind				声音静音
+options_label_mute_music_keybind				音乐静音
+
+options_header_misc_controls				其它控件
+
+options_header_shop						商店
+options_label_slot_1_keybind					商店 - 购买物品 1
+options_label_slot_2_keybind					商店 - 购买物品 2
+options_label_slot_3_keybind					商店 - 购买物品 3
+options_label_slot_4_keybind					商店 - 购买物品 4
+options_label_slot_5_keybind					商店 - 购买物品 5
+options_label_slot_6_keybind					商店 - 购买物品 6
+options_label_slot_7_keybind					商店 - 购买物品 7
+options_label_slot_8_keybind					商店 - 购买物品 8
+options_label_slot_9_keybind					商店 - 购买物品 9
+options_label_slot_10_keybind				商店 - 购买物品 10
+options_label_slot_11_keybind				商店 - 购买物品 11
+options_label_slot_12_keybind				商店 - 购买物品 12
+options_label_slot_13_keybind				商店 - 购买物品 13
+options_label_slot_14_keybind				商店 - 购买物品 14
+options_label_slot_15_keybind				商店 - 购买物品 15
+options_label_slot_16_keybind				商店 - 购买物品 16
+options_label_slot_17_keybind				商店 - 购买物品 17
+options_label_slot_18_keybind				商店 - 购买物品 18
+options_label_slot_19_keybind				商店 - 购买物品 19
+options_label_slot_20_keybind				商店 - 购买物品 20
+options_label_close_shop_keybind				商店 - 关闭面板
+options_label_recipe_history_back_keybind		上一笔配方记录
+options_label_recipe_history_for_keybind			下一笔配方记录
+options_btn_reset_all_controls				重设所有控件
+options_btn_clear_shopkeys					清除商店快速键
+
+
+options_checkbox_health_always_on			一律显示生命值状态列
+options_screen_health_always_on_tip			一旦启用，将一律显示生命值状态列。
+
+options_checkbox_hover_hero_info				显示浮现信息
+options_screen_hover_hero_info_tip			一旦启用，英雄信息将浮现显示。
+
+options_checkbox_ground_sprite				显示地面精灵
+options_screen_ground_sprite_tip				一旦启用，精灵会显示在英雄下方，以传达队伍的颜色或玩家的颜色。
+
+options_checkbox_team_or_player_color			使用玩家特定颜色
+options_screen_team_or_player_color_tip			使用玩家特定颜色而非队伍颜色
+
+options_checkbox_show_timestamps			显示时间戳记
+options_checkbox_show_timestamps_tip			一旦启用，游戏中聊天会显示时间戳记。
+
+options_checkbox_reverse_minimap			切换迷您地图
+options_checkbox_reverse_minimap_tip			一旦启用，游戏接口上的迷您地图将会在画面左右切换。
+
+options_checkbox_camera_center_on_respawn		英雄重生镜头置中
+options_checkbox_camera_center_on_respawn_tip	一旦启用，您的英雄重生时，镜头会自动移至您的英雄所在位置。
+
+options_checkbox_disable_background_effects		停用背景效果
+options_checkbox_disable_background_effects_tip	一旦启用，背景大厅效果与动画将不被载入或播放。\n\n(需要重新启动)         
+
+options_slider_notification_duration				显示持续时间
+options_slider_notification_duration_tip			设定通知在消失前所显示的秒数长度。
+
+options_checkbox_disable_notifications			停用所有通知
+options_checkbox_disable_notifications_tip		一旦启用，将不会显示快显通知，但仍将储存至通知记录。
+
+options_checkbox_disable_notifications_ingame	游戏时停用通知
+options_checkbox_disable_notifications_ingame_tip	一旦启用，将不会在游戏时显示快显通知， 但仍将储存至通知记录，幷在非游戏时显示。
+
+options_checkbox_selection_highlight			反白选择
+options_checkbox_selection_highlight_tip			一旦启用，当鼠标经过时会将单位反白选择。
+
+options_enable_minimap_rightclick				迷您地图按右键
+options_enable_minimap_rightclick_tip			一旦启用，玩家只要在迷您地图上按一下右键便能指挥其角色人物。
+
+options_double_activate_abilities				按一下启用技能
+options_double_activate_abilities_tip			
+如果启用，在某些物品/技能上按二下将自动在您的英雄上使用技能，而无需选择目标。  （传送之石会将您的英雄传送回基地或自己使用生命药剂等等）
+
+options_enable_move_on_disconnect			在中断连线时移至基地 
+options_enable_move_on_disconnect_tip			一旦启用，服务器将会在当机或失去网络连线时，自动将英雄移回基地。
+
+options_checkbox_show_exp					显示经验值
+options_screen_show_exp_tip				一旦启用，将会显示经验值。
+
+options_checkbox_show_gold				显示金币数
+options_screen_show_gold_tip				一旦启用，将会显示金币数。
+
+options_checkbox_show_crit					显示致命数值
+options_screen_show_crit_tip					一旦启用，将会显示显示致命数值。
+
+options_checkbox_censor_chat				过滤脏话
+options_screen_censor_chat_tip				一旦启用，将会过滤掉聊天讯息的脏话。
+
+options_checkbox_show_deny      			显示抢先杀死效果
+options_screen_show_deny_tip				一旦启用，将会显示抢先杀死效果值。
+
+options_checkbox_show_cooldowns 			显示冷却时间
+options_screen_show_cooldowns_tip		   	 一旦启用，将在图标处显示冷却时间。
+
+options_interface_title						界面
+options_checkbox_healthbar_size 				生命值 / 法力值状态列比例
+options_checkbox_healthbar_size_tip			变更生命值与法力值状态列的比例。
+
+options_checkbox_show_menu_transitions 		显示选单转换
+options_screen_show_menu_transitions_tip		一旦启用，将显示如主选单动画的转换效果。
+
+options_button_default_binds					预设结合
+
+options_header_login_to_view_stats			登录以检视统计资料
+options_graphics_change_notnow				此时无法变更显示选项。若要变更这些选项，必须先注销您的账号。必要时，可能需要先中断连线。
+
+options_notifications_title						通知
+options_notifications_friends						好友
+options_notifications_friends_request				邀请
+options_notifications_friends_add					加入
+options_notifications_friends_removal				移除
+options_notifications_friends_signon				登录
+options_notifications_friends_signoff				注销
+options_notifications_friends_joingame				加入游戏
+options_notifications_friends_leavegame				离开游戏
+options_notifications_friends_imreceived				收到实时讯息
+options_notifications_friends_pmreceived				收到私人讯息
+options_notifications_friends_scored				获得
+options_notifications_clans						派系
+options_notifications_clans_signon					登录
+options_notifications_clans_signoff					注销
+options_notifications_clans_joingame				加入游戏
+options_notifications_clans_leavegame				离开游戏
+options_notifications_clans_rank_change				成员级别变更
+options_notifications_clans_removal				移除成员
+options_notifications_clans_addition				新增成员
+options_notifications_clans_event					派系事件
+options_notifications_tournaments					联赛
+options_notifications_tournaments_new				新联赛
+options_notifications_tournaments_upcomingmatch		近期的联赛游戏
+options_notifications_tournaments_registred			已注册联赛
+options_notifications_tournaments_matchresults		联赛游戏战绩
+options_notifications_invitations					邀请
+options_notifications_invitations_game				游戏
+options_notifications_invitations_channel				频道
+options_notifications_invitations_clan				派系
+options_notifications_invitations_team_matchmaking		安排队伍配对
+options_notifications_miscellaneous					其它
+options_notifications_miscellaneous_newpatch			新的修补程序
+notification_history							通知记录
+notification_history_remove_all_button				移除所有通知
+
+// create_account.package
+create_acc_nickname							昵称：
+create_acc_first_name							名字：
+create_acc_last_name							姓氏：
+create_acc_email								电子邮件地址：
+create_acc_confirm_email						确认电子邮件：
+create_acc_password							密码：
+create_acc_confirm_password					确认密码：
+create_acc_label_outside_of_usa					美国以外地区
+create_acc_lobby_create_account					建立账号
+create_acc_label_select_payment_type				选择付款类型幷在以下页面支付
+create_acc_label_terms_conditions					条款与条件 | 隐私权政策
+create_acc_label_finsh_create_account				建立账号
+create_account_please_wait						请稍候...
+create_acc_label_nick_name_tip		 			*这是游戏进行时识别您的名称。
+create_acc_input_address						地址：
+create_acc_input_province						省份：
+create_acc_input_state							州别：
+create_acc_input_country						国家：
+create_acc_input_city							城市：
+create_acc_input_postal_code					邮政编码 (ZIP)：
+create_acc_input_referrer						推荐人：
+create_acc_input_year							年份：
+create_acc_input_month						月份：
+create_acc_input_birth_day						出生日期：
+create_acc_label_account_success					已成功建立账号！
+create_acc_success_button_okay					确定
+create_acc_agreement							按一下「建立账号」按钮，表示您已同意「服务条款」。
+create_acc_customer_service						如需要协助，请寄电子邮件至 ^ysupport@heroesofnewerth.com^*。
+create_acc_secure_transfer						在透过网络传送前，您的账号信息须进行高级加密以获得保障。
+create_acc_info_text							使用此窗体来立即建立一个新的「纽沃斯英雄」账号。
+create_acc_wait								正在建立账号，请稍候...
+create_acc_submitting							正在送出购买，请稍候...
+reate_acc_success							账号建立成功。您现在可使用新的账号进行登录。
+create_acc_already_loggedin						已经登录
+create_acc_mustlogout							您已经登录已购买的「纽沃斯英雄」账号。如果您想要建立另一个账号，或是以不同的账号登录幷购买「纽沃斯英雄」，请按一下「注销」。
+create_acc_friends							请输入好友的昵称来更新其账号。^y(选用)
+create_acc_promocode							是否有优惠券或促销代码？请在此输入：
+create_acc_nocc_xfer							输入的促销代码会提供免费的「纽沃斯英雄」账号，信用卡信息将不会随着此交易送出。
+create_acc_nocc_xfer_subaccount					输入的促销代码会提供免费的「纽沃斯英雄」账号，信用卡信息将不会随着此交易送出。
+create_acc_successfull_purch					购买成功 - 已更新您的「纽沃斯英雄」账号。已将收据传送到您的电子邮件地址。
+create_acc_friends							升级好友账号
+create_acc_promocode							输入促销代码
+create_acc_purchase_btn						购买账号
+create_already_logged_in_title					账号已升级
+create_already_upgraded						此账号已是完整账号，无法再次升级。
+create_acc_total_price							价格总计
+create_acc_price_usd							价格 (USD)
+create_acc_havecode							是否已收到促销代码？
+create_acc_entercode_btn						输入代码
+
+// Tooltips for various create/etc. account forms - shared stuff mostly
+web_form_create_account_continue			填写基本账号信息后，请按一下「继续」填写付款信息。
+web_form_create_acct_title					建立新账号
+web_form_purchase_acct_title				购买新账号
+web_form_friend_nickname					好友昵称
+web_form_friend_nickname_tip				这是您想升级的好友账号昵称。
+web_form_promo_code						促销代码
+web_form_promo_code_tip					如果您已收到促销代码或经销商金钥，请在此输入幷按一下「套用」以取得购买价格的部份或全数折扣。
+web_form_secure_transfer_generic				交易信息在透过网络传送前，已经过高级加密取得保障。
+web_form_gift_recipient_tos					此账号的接受者必须同意 ^y服务条款^*
+web_form_gift_your_name					您的姓名 (选用)
+web_form_gift_your_name_tip				如果您想要让此礼物账号的接受者知道是谁送的，您可在此输入您的姓名或昵称。
+web_form_gift_friend_email					好友电子邮件
+web_form_gift_friend_email_tip				请输入您想赠送账号的好友电子邮件地址。购买后，他们将会收到一封电子邮件，详述如何建立其账号。
+web_form_acc_tos_generic					若要建立幷使用「纽沃斯英雄」账号，您必须同意服务条款
+web_form_must_login						请先登录
+web_form_must_login_text					您必须先登录才能使用此功能。
+web_form_subaccount_title					建立替代账号
+web_form_subaccount_name					替代账号
+web_form_subaccount_description				替代账号针对您的账号提供额外的识别，有其本身的昵称、统计资料及好友列表。您的替代账号与主账号连结在一起，您只能以其中一个账号在任何指定时间登录。
+web_form_subaccount_description_short			替代账号针对您的账号提供额外的识别，有其本身的昵称、统计资料及好友列表。
+web_form_resetstats_title					重设统计资料
+web_form_upgradefriend_title					升级好友
+web_form_resetstats_pubstats				公用统计资料
+web_form_resetstats_pubstats_tip				自公用游戏取得的统计资料。
+web_form_resetstats_rankedstats				已排名统计资料
+web_form_resetstats_rankedstats_tip			透过「纽沃斯英雄」的配对功能进行排名比赛所取得的统计资料。
+web_form_resetstats_psr					公用技术评比 (PSR)
+web_form_resetstats_psr_tip					自公用游戏取得的公用排名。
+web_form_resetstats_disconnects				中断连线
+web_form_resetstats_disconnects_tip			在游戏结束前，您曾中断连线的次数。
+web_form_resetstats_smr					个人比赛排名 (SMR)
+web_form_resetstats_smr_tip					您自己进行排名游戏所取得的排名。
+web_form_resetstats_tmr					团队比赛 排名 (TMR)
+web_form_resetstats_tmr_tip					在团队中进行排名游戏所取得的排名。
+web_form_resetstats_blurb					您可以美元清除账号的某些或所有统计数据。中断连线次数也会跟着重设。  ^r重设公用统计资料也将重设您的 PSR。
+web_form_resetstats_warning					注意：在「纽沃斯英雄」发行前，将会再次进行统计资料重设。
+web_form_resetstats_button					重设统计资料
+web_form_resetstats_about					关于重设统计资料
+web_form_resetstats_notice					按一下「重设统计数据」按钮以永久重设所选的统计资料。  请注意一旦重设便无法回复。
+web_form_create_subaccount_title				建立替代账号
+web_form_purchase_account					购买账号
+web_form_upgrade_account_title				升级账号
+web_form_create_subaccount_button			建立替代账号
+web_form_create_account_error				账号建立错误
+web_form_resetpass_error1					您已对此电子邮件地址传送太多密码变更要求。请联络 support@heroesofnewerth.com
+web_form_resetpass_error2					未找到相符的电子邮件或昵称。
+web_form_resetpass_error3					连线错误。请立即再试一次。
+web_form_resetpass_error4					请送出电子邮件或昵称。
+web_form_generic_error1					无法连线，请稍后再试一次。
+web_form_generic_error2					发生错误。请稍后再试一次。
+web_form_feature_unavailable				此功能目前无法使用。
+web_form_feature_unavailable_title				功能无法使用
+web_form_feature_unavailable_inmatch			比赛时无法使用此功能。
+web_form_promocode_processing				正在处理促销代码, 请稍候...
+web_form_promocode_error1					促销代码无效或找不到
+web_form_promocode_inuse					已输入有效的促销代码 - 您可省下 ${price_reduction}。
+web_form_resetstats_error1					授权失败，请再试一次。
+web_form_resetstats_error2					无法连线，请再试一次。
+web_form_resetstats_error3					请选择要重设的统计资料。
+web_form_resetstats_error4					您的信用卡被拒绝
+web_form_resetstats_error5					要求的变更对统计资料没有作用。
+web_form_resetstats_error6					输入的促销代码无效
+web_form_resetstats_error7					无效的付款信息 - 付款被拒绝。
+web_form_resetstats_error8					此功能目前正在进行维修。
+web_form_resetstats_success				所选的统计资料已成功重设。
+web_form_resetstats_success_title				统计资料重设
+web_form_friendupgrade_auccess_title			好友升级成功
+web_form_friendupgrade_success				您已成功升级好友的账号！
+web_form_subaccount_success_title			已建立替代账号
+web_form_subaccount_success				您已成功建立替代账号！在以新的替代账号登录前，必须先注销。
+web_form_paypal_notice					我们亦接受 Paypal 付款，详请请浏览 www.heroesofnewerth.com  
+web_form_website_payment_notice				您也可在我们的网站 www.heroesofnewerth.com 购买账号。除了信用卡，我们的网站亦接受 Paypal 付款。
+web_form_nickchange_title					变更昵称
+web_form_nickchange_newnick				新昵称
+web_form_nickchange_confirmnick				确认昵称
+web_form_nickchange_notice					此表格可将您的昵称变更为任何可用的昵称，包括尚未购买「纽沃斯英雄」，但在测试期间已存在或使用的昵称。
+web_form_nickchange_error0					昵称已存在 - 您必须变更输入项目。
+web_form_nickchange_error1					无法连线。  请立即重试。
+web_form_nickchange_error2					昵称不能以数字 [0-9] 或 'S2' 为首。
+web_form_nickchange_error3					无效的昵称字符、长度或格式。
+web_form_nickchange_error4					无法读取账号信息。
+web_form_nickchange_error5					无法储存交易数据 - 请再试一次。
+web_form_nickchange_error6					不明错误 - 请联络 support@heroesofnewerth.com
+web_form_nickchange_error7					信用卡被拒绝。
+web_form_nickchange_error8					昵称与确认昵称不符。
+web_form_nickchange_error9					无效的密码。  请再试一次。
+web_form_nickchange_success				已成功变更昵称为 ^g{nickname}^*。  必须先注销，变更才能生效。
+web_form_nickchange_success_title			昵称已变更
+web_form_nickchange_tos					按一下「变更昵称」按钮， 表示您同意服务条款
+web_form_reportabuse_title					报告滥用行为
+web_form_reportabuse_accountname			您的账号
+web_form_reportabuse_accountname_tip			这是您目前登录的账号名称。  它将包含在报告内送出。
+web_form_reportabuse_abuser				滥用者的账号
+web_form_reportabuse_abuser_tip				您要举报的用户姓名。
+web_form_reportabuse_type					滥用类型
+web_form_reportabuse_type_tip				请选择用户所涉及的滥用类型。  请确实选择正确的滥用类型，以便我们加快处理您的报告。
+web_form_reportabuse_matchid				比赛 ID
+web_form_reportabuse_matchid_tip				发生意外事件的比赛 ID。  内含的下拉式选单包括您进入或参与的最近几场比赛。
+web_form_reportabuse_server				服务器
+web_form_reportabuse_server_tip				发生意外事件的服务器名称。
+web_form_reportabuse_body					意外事件说明
+web_form_reportabuse_body_tip				请写下发生意外事件的简短说明。  如果可以的话，请确定包含关于指定使用滥用的时间，以及发生内容等详细数据。
+web_form_reportabuse_button				送出报告
+web_form_reportabuse_submit				正在传送报告...
+web_form_reportabuse_error1				连线错误 - 请再试一次。
+web_form_reportabuse_error2				未指定报告的账号。
+web_form_reportabuse_error3				未指定违规者的账号。
+web_form_reportabuse_error4				未说明违规事件。
+web_form_reportabuse_error5				信息不足无法送出报告。					
+web_form_reportabuse_error6				您已送出太多报告。  请等待之前的报告检阅完毕，再送出另外的报告。
+web_form_reportabuse_success_title			报告成功
+web_form_reportabuse_success				已成功送出您的报告。  GM 将立即着手调查。
+web_form_reportabuse_type0					广告
+web_form_reportabuse_type1					不良昵称
+web_form_reportabuse_type2					发现问题
+web_form_reportabuse_type3					骚扰/威胁
+web_form_reportabuse_type4					仇恨言论
+web_form_reportabuse_type5					假冒S2Games 官方
+web_form_reportabuse_type6					自我增强
+web_form_reportabuse_type7					非法内容
+web_form_reportabuse_type8					淫秽语言
+web_form_reportabuse_type9					一般滥用
+web_form_reportabuse_type10				言语滥用
+web_form_reportabuse_lastmatches_status		撷取最近的比赛。  请稍候。
+web_form_reportabuse_playerlist_status			撷取玩家清单。  请稍候。
+web_form_reportabuse_select_matchid			请选择一个比赛 ID
+web_form_reportabuse_noplayers				找不到玩家
+web_form_reportabuse_blurb					您可向 S2 举报有问题的玩家以进行审查。 请小心填写窗体，幷尽可能将该事件说明得愈清楚愈好。 一旦收到您的窗体幷进行审查，GM 会向您通知所采取的行动。 故意滥用报告滥用行为功能可能导致您的账号被中止。
+web_form_reportabuse_type0_desc				在游戏或公共频道中滥发服务广告。。
+web_form_reportabuse_type1_desc				种族攻击、色情信息或亵渎的昵称均可举报，幷建议变更昵称。
+web_form_reportabuse_type2_desc				故意及恶意利用系统错误获得对敌人的队伍或盟友的优势。范例包括如下：
+web_form_reportabuse_type2_desc1			秒杀系统错误
+web_form_reportabuse_type2_desc2			不当使用服务器
+web_form_reportabuse_type2_desc3			故意造成游戏当机
+web_form_reportabuse_type2_desc4			金币操纵
+web_form_reportabuse_type3_desc				未使用
+web_form_reportabuse_type4_desc				未使用
+web_form_reportabuse_type5_desc				冒充 S2Games 员工或志愿人员恐吓或利用其它玩家。
+web_form_reportabuse_type6_desc				透过使用多个账号或机器操控统计数据、评级或游戏结果。
+web_form_reportabuse_type7_desc				共享任何违反美国法律的内容。 范例包括：
+web_form_reportabuse_type7_desc1			制造炸弹
+web_form_reportabuse_type7_desc2			儿童色情
+web_form_reportabuse_type7_desc3			非法毒品信息
+web_form_reportabuse_type8_desc				未使用
+web_form_reportabuse_type9_desc				游戏中对于英雄、物品或技能的一般滥用。 范例包括：
+web_form_reportabuse_type9_desc1			故意对受伤友方使用物品或技能 (如蝴蝶仙子的传送术)
+web_form_reportabuse_type9_desc2			不合理的拒绝参加比赛
+web_form_reportabuse_type9_desc3			故意中断比赛（如调出友方位置）
+web_form_reportabuse_type10_desc			在游戏中故意贬低或使用言语骚扰另一位玩家，或在其它方面对另一位玩家有负面影响。  范例包括：
+web_form_reportabuse_type10_desc1			使用种族歧视的措辞
+web_form_reportabuse_type10_desc2			政治或宗教不宽容
+web_form_reportabuse_type10_desc3			性别或身分上的性骚扰
+web_form_reportabuse_type10_desc4			过度亵渎
+web_form_reportabuse_type10_desc5			意图以任何方式威胁个人
+web_form_reportabuse_overview				概述
+
+web_form_lan_account_feature_unavailable_unpaid		未付款的账号用户无法使用此功能
+
+web_form_lan_account_feature_unavailable			LAN 账号用户目前无法使用此功能
+
+web_form_lan_account_feature_unavailable_text		此功能目前仅能透过本网站使用。
+web_form_login_upgrade_description				「纽沃斯英雄」已发行，公开测试已结束。  您将必须购买「纽沃斯英雄」以继续进行游戏。  请填写必要信息，以将您的「纽沃斯英雄」账号升级为已付款状态。
+
+// Purchase promo stuff for people who havent bought by release
+purchase_promo_your_hero_here					(您的英雄)
+purchase_promo_have_account					以不同账号登录？
+purchase_promo_view_tos						查看服务条款
+purchase_promo_dream_title						S2Games 的梦想计划
+purchase_promo_dream_desc					让您的英雄加入 HoN！ 请浏览 ^yhttp://dream.heroesofnewerth.com^* 以取得更多信息。
+purchase_promo_much_more					还有更多好康！
+purchase_promo_avail_now						马上可用！
+purchase_promo_purchase_now_desc				现在购买加入成为「纽沃斯英雄」的一员，幷帮助我们持续改进，使它成为最好的多人竞技游戏吧！
+purchase_promo_content_title					持续的新内容修补程序
+purchase_promo_content_desc					包括新的英雄、物品、平衡调整及功能。
+purchase_promo_matchmaking_title				自动配对系统
+purchase_promo_matchmaking_desc
+purchase_promo_competitive_title					完全支持竞赛游戏
+purchase_promo_competitive_desc					包括大型竞赛社群、大型现金奖金联赛，以及额外的游戏中功能，以支持作为电子竞技的「纽沃斯英雄」。
+purchase_promo_achievements_title				成就
+purchase_promo_achievements_desc
+purchase_promo_modes_title						新游戏模式
+purchase_promo_modes_desc
+purchase_promo_sdk_title						SDK (包括地图编辑器)
+purchase_promo_sdk_desc						玩家可以建立自己的游戏及游戏模式。
+purchase_promo_nick_notice						准备升级最后登录的账号 (^g{account}^*)。  如果您想要使用不同的账号，请按一下上方按钮以使用不同账号登录。
+
+// Tutorial Stuff
+
+prompt_tutorial_title							进入教学模式？
+prompt_tutorial_text							欢迎加入「纽沃斯英雄」。 建议新手正式上线 P.K 前，先进入教学模式。是否要进行教学模式呢？
+
+// Garena Stuff
+
+garena_error_GA002000						Garena 会员必须注册一个新账号。
+garena_error_GA001004						您的账号无法登录。
+garena_error_GA001003						账号暂停服务。如需更多信息，请浏览「客户服务」页面。
+garena_error_GA001002						昵称或密码无效。
+garena_error_GA001000						无法连线。请再试一次。
+garena_error_GA001001						目前无法使用 Garena 验证。
+garena_error_GA001005						注册 Garena 失败。请再试一次。
+garena_error_GA001006						此昵称已被使用。请选择另一昵称。
+garena_error_GA003001						您的账号未启用 HoN。加入封闭测试需要有效的测试金钥 (Beta Key)。
+garena_error_GA003002						系统禁止您的账号进行「纽沃斯英雄」游戏。
+garena_create_账号_title						建立「纽沃斯英雄」账号
+garena_create_account_body						登录前，必须先建立「纽沃斯英雄」账号，该账号之后将连结至您的 Garena 账号。
+
+// states
+create_acc_state_alabama						亚拉巴马州
+create_acc_state_alaska						阿拉斯加州
+create_acc_state_arizona						亚利桑那州
+create_acc_state_arkansas						阿肯色州
+create_acc_state_california						加州
+create_acc_state_colorado						科罗拉多州
+create_acc_state_connecticut						康乃迪克州
+create_acc_state_delaware						德拉瓦州
+create_acc_state_dc							华盛顿特区
+create_acc_state_florida						佛罗里达州
+create_acc_state_georgia						乔治亚州
+create_acc_state_hawaii						夏威夷州
+create_acc_state_idaho							爱达荷州
+create_acc_state_illinois						伊利诺伊州
+create_acc_state_indiana						印第安纳州
+create_acc_state_iowa							爱荷华州
+create_acc_state_kansas						堪萨斯州
+create_acc_state_kentucky						肯塔基州
+create_acc_state_louisiana						路易斯安那州
+create_acc_state_maine						缅因州
+create_acc_state_maryland						马里兰州
+create_acc_state_massachusetts					麻萨诸塞州
+create_acc_state_michigan						密执安州
+create_acc_state_minnesota						明尼苏达州
+create_acc_state_mississippi						密西西比州
+create_acc_state_missouri						密苏里州
+create_acc_state_montana						蒙大拿州
+create_acc_state_nebraska						内布拉斯加
+create_acc_state_nevada						内华达州
+create_acc_state_new_hampshire					新罕布什尔州
+create_acc_state_new_jersey						纽泽西州
+create_acc_state_new_mexico					新墨西哥州
+create_acc_state_new_york						纽约州
+create_acc_state_north_carolina					北卡罗莱纳州
+create_acc_state_north_dakota					北达科他州
+create_acc_state_ohio							俄亥俄州
+create_acc_state_oklahoma						俄克拉荷马州
+create_acc_state_oregon						奥勒冈州
+create_acc_state_pennsylvania					宾夕法尼亚州
+create_acc_state_rhode_island					罗得岛
+create_acc_state_south_carolina					南卡罗莱纳州
+create_acc_state_south_dakota					南达科他州
+create_acc_state_tennessee						田纳西州
+create_acc_state_texas							德州
+create_acc_state_utah							犹他州
+create_acc_state_vermont						佛蒙特州
+create_acc_state_virginia						维吉尼亚州
+create_acc_state_washington						华盛顿州
+create_acc_state_west_virginia					西维吉尼亚州
+create_acc_state_wisconsin						威斯康星州
+create_acc_state_wyoming						怀俄明州
+
+// countries
+create_acc_country_united_states					美国
+create_acc_country_algeria						阿尔及利亚
+create_acc_country_american_samoa				美属萨摩亚
+create_acc_country_andorra						安道尔共和国
+create_acc_country_angola						安哥拉
+create_acc_country_anguilla						安圭拉
+create_acc_country_antarctica					南极洲
+create_acc_country_antigua_barbuda				安地卡及巴布达
+create_acc_country_argentina					阿根廷
+create_acc_country_aruba						阿鲁巴
+create_acc_country_australia						澳大利亚
+create_acc_country_austria						奥地利
+create_acc_country_bahamas					巴哈马
+create_acc_country_bahrain						巴林
+create_acc_country_bangledesh					孟加拉国
+create_acc_country_barbados					巴贝多
+create_acc_country_belgium						比利时
+create_acc_country_belize						贝里斯
+create_acc_country_benin						贝南
+create_acc_country_bermuda						百慕达
+create_acc_country_bhutan						不丹
+create_acc_country_bolivia						玻利维亚
+create_acc_country_bosnia						波斯尼亚与赫塞哥维纳
+create_acc_country_bouvet_island					布维岛
+create_acc_country_brazil						巴西
+create_acc_country_brit_ocean					英属印度洋领地
+create_acc_country_brunei						文莱
+create_acc_country_burkina						布吉纳法索
+create_acc_country_burundi						蒲隆地
+create_acc_country_cameroon					喀麦隆
+create_acc_country_canada						加拿大
+create_acc_country_cape_verde					维德角
+create_acc_country_cayman						英属开曼群岛
+create_acc_country_african_rep					中非共和国
+create_acc_country_chad						查德
+create_acc_country_czech						捷克共和国
+create_acc_country_chile						智利
+create_acc_country_china						中国
+create_acc_country_christmas					圣诞岛
+create_acc_country_cocos						可可斯岛 (基林群岛)
+create_acc_country_colombia						哥伦比亚
+create_acc_country_comoros						科摩洛
+create_acc_country_congo						刚果
+create_acc_country_cook						库克群岛
+create_acc_country_cote						科特迪瓦
+create_acc_country_croatia						克罗埃西亚
+create_acc_country_cyprus						塞普勒斯
+create_acc_country_denmark						丹麦
+create_acc_country_djibouti						吉布地
+create_acc_country_dominica						多米尼克
+create_acc_country_dominican_rep					多米尼加共和国
+create_acc_country_east_timor					东帝汶
+create_acc_country_ecuador						厄瓜多
+create_acc_country_egypt						埃及
+create_acc_country_elsalvador					萨尔瓦多
+create_acc_country_equatorial_g					赤道几内亚
+create_acc_country_eritrea						厄利垂亚
+create_acc_country_estonia						爱沙尼亚
+create_acc_country_ethiopia						衣索比亚
+create_acc_country_falkland_island					福克兰群岛 (马尔维纳斯)
+create_acc_country_faroe						法罗群岛
+create_acc_country_fiji							斐济
+create_acc_country_finland						芬兰
+create_acc_country_france						法国
+create_acc_country_france_metro					法属美特罗波利坦
+create_acc_country_france_guiana					法属圭亚那
+create_acc_country_france_poly					法属玻里尼西亚
+create_acc_country_france_south					法属南部属地
+create_acc_country_gabon						加彭
+create_acc_country_gambia						甘比亚
+create_acc_country_germany						德国
+create_acc_country_ghana						迦纳
+create_acc_country_gibraltar						直布罗陀
+create_acc_country_greece						希腊
+create_acc_country_greenland					格陵兰
+create_acc_country_grenada						格瑞纳达
+create_acc_country_guadeloupe					法属瓜地洛普
+create_acc_country_guam						关岛
+create_acc_country_guatemala					危地马拉
+create_acc_country_guinea						几内亚
+create_acc_country_guinea_bissau					几内亚比索
+create_acc_country_guyana						盖亚那
+create_acc_country_haiti						海地
+create_acc_country_heard_mcdonald				赫德及麦当劳群岛
+create_acc_country_honduras					宏都拉斯
+create_acc_country_hungary						匈牙利
+create_acc_country_iceland						冰岛
+create_acc_country_india						印度
+create_acc_country_indonesia					印度尼西亚
+create_acc_country_ireland						爱尔兰
+create_acc_country_israel						以色列
+create_acc_country_italy						意大利
+create_acc_country_ivory_coast					科特迪瓦
+create_acc_country_jamaica						牙买加
+create_acc_country_japan						日本
+create_acc_country_kenya						肯亚
+create_acc_country_laos						寮国
+create_acc_country_latvia						拉脱维亚
+create_acc_country_lesotho						赖索托
+create_acc_country_liechtenstein					列支敦斯登
+create_acc_country_lithuania						立陶宛
+create_acc_country_luxembourg					卢森堡
+create_acc_country_macau						澳门
+create_acc_country_madagascar					马达加斯加
+create_acc_country_malawia						马拉威
+create_acc_country_malaysia						马来西亚
+create_acc_country_maldives						马尔地夫
+create_acc_country_mali						马利
+create_acc_country_malta						马耳他
+create_acc_country_marshall						马绍尔群岛
+create_acc_country_martinique					法属马丁尼克
+create_acc_country_mauritania					毛里塔尼亚
+create_acc_country_mauritius					模里西斯
+create_acc_country_mayotte						马约特岛
+create_acc_country_mexico						墨西哥
+create_acc_country_micronesia					密克罗西尼亚
+create_acc_country_monaco						摩纳哥
+create_acc_country_mongolia					蒙古
+create_acc_country_montenegro					蒙特内哥罗
+create_acc_country_moracco						摩洛哥
+create_acc_country_mozambique					莫桑比克
+create_acc_country_myanmar					缅甸
+create_acc_country_namibia						纳米比亚
+create_acc_country_nauru						诺鲁
+create_acc_country_nepal						尼泊尔
+create_acc_country_netherlands					荷兰
+create_acc_country_netherlands_ant				荷属安地列斯群岛
+create_acc_country_new_caledonia					新喀里多尼亚
+create_acc_country_new_zealand					纽西兰
+create_acc_country_nicaragua					尼加拉瓜
+create_acc_country_niger						尼日
+create_acc_country_niue						纽埃
+create_acc_country_norfolk_island					诺福克岛
+create_acc_country_norther_mariana				北马里亚纳群岛
+create_acc_country_norway						挪威
+create_acc_country_oman						阿曼
+create_acc_country_pakistan						巴基斯坦
+create_acc_country_palau						帛琉
+create_acc_country_panama						巴拿马
+create_acc_country_papau_nguinea				巴布亚纽几内亚
+create_acc_country_paraguay					巴拉圭
+create_acc_country_peru						秘鲁
+create_acc_country_phillipines					菲律宾
+create_acc_country_pitcairn						皮特凯恩群岛
+create_acc_country_poland						波兰
+create_acc_country_portugal						葡萄牙
+create_acc_country_puerto_rico					波多黎各
+create_acc_country_qatar						卡达
+create_acc_country_romania						罗马尼亚
+create_acc_country_russia						俄罗斯
+create_acc_country_saint_kitts					圣克里斯多福
+create_acc_country_saint_lucia					圣露西亚
+create_acc_country_saint_vincent					圣文森及格瑞那丁
+create_acc_country_samoa						萨摩亚
+create_acc_country_san_marino					圣马利诺
+create_acc_country_sao_tome					圣多美普林西比
+create_acc_country_saudi_arabia					沙特阿拉伯
+create_acc_country_senegal						塞内加尔
+create_acc_country_serbia						塞尔维亚
+create_acc_country_seychelles					塞席尔群岛
+create_acc_country_sierra_leone					狮子山
+create_acc_country_singapore					新加坡
+create_acc_country_slovakia						斯洛伐克
+create_acc_country_slovenia						斯洛维尼亚
+create_acc_country_solomon						索罗门群岛
+create_acc_country_south_africa					南非
+create_acc_country_south_korea					韩国
+create_acc_country_spain						西班牙
+create_acc_country_sri_lanka						斯里兰卡
+create_acc_country_sthelena						圣赫勒拿
+create_acc_country_stpierre						圣比岛及密启伦群岛
+create_acc_country_sudan						苏丹
+create_acc_country_suriname					苏利南
+create_acc_country_svalbard						冷岸和央麦恩岛
+create_acc_country_swaziland					史瓦济兰
+create_acc_country_sweden						瑞典
+create_acc_country_switzerland					瑞士
+create_acc_country_syria						叙利亚
+create_acc_country_tanzania						坦尚尼亚
+create_acc_country_togo						多哥
+create_acc_country_tongo						东加
+create_acc_country_trinidad						千里达及托巴哥
+create_acc_country_tunisia						突尼西亚
+create_acc_country_turkey						土耳其
+create_acc_country_turks_and_caicos				土克斯及开科斯群岛
+create_acc_country_uganda						乌干达
+create_acc_country_ukraine						乌克兰
+create_acc_country_united_kingdom				英国
+create_acc_country_us_minor					美属边疆群岛
+create_acc_country_uruguay						乌拉圭
+create_acc_country_vanuatu						万那杜
+create_acc_country_vatican						梵蒂冈城国
+create_acc_country_venezuela					委内瑞拉
+create_acc_country_virgin_brit					维京群岛 (英属)
+create_acc_country_virgin_us						维京群岛 (美属)
+create_acc_country_wallis						瓦利斯和福杜纳群岛
+create_acc_country_western_sahara				西撒哈拉
+create_acc_country_zaire						扎伊尔
+
+// credit_card.package
+creditcard_label_correct_error				更正此错误
+creditcard_button_close_window				关闭窗口
+creditcard_label_promocode					促销代码
+creditcard_label_first_name					名字
+credit_card_first_name_tip					输入信用卡上的名字。
+creditcard_label_last_name					姓氏
+credit_card_last_name_tip					输入信用卡上的姓氏。
+creditcard_label_billing_zip					账单邮政编码
+credit_card_billing_zip_tip					输入与信用卡账单地址相关的邮政编码。
+creditcard_label_cvv_number					输入信用卡背面的检核码。
+creditcard_label_expiration_date				输入信用卡的到期日。
+creditcard_label_upgrade_agreement			按一下「升级账号」按钮，表示您同意服务条款
+creditcard_label_purchase_agreement			按一下「购买账号」按钮，表示您同意服务条款
+creditcard_label_subacct_agreement			按一下「建立替代账号」按钮，表示您同意服务条款
+creditcard_label_upgrade_prime				升级账号
+creditcard_label_secure_card					您的信用卡信息在透过网络传输前，已用高级加密取得保障。
+creditcard_button_dont_upgrade				不，谢谢，请不要升级
+creditcard_label_processing_form				正在处理窗体...
+creditcard_header_upgrade_prime				升级成为主要账号 - 账单详细资料
+creditcard_label_prime_up_successful			升级成功！
+creditcard_label_prime_up_ty					谢谢您升级成为主要账号。 您对独立游戏的支持，使我们能持续建立经济实惠的新游戏。
+creditcard_label_prime_benefits				您现在可使用所有主要账号的好处！ 以下是您交易的详细数据。
+creditcard_label_transaction_email				已传送一封内含详细数据的电子邮件至上列电子邮件。 如有疑问，请联络 support@s2games.com 或 visit http://www.heroesofnewerth.com。
+creditcard_label_match_content				下列字段必须与您信用卡账号上的信息完全相符。
+creditcard_label_prime_card_number			信用卡号码
+creditcard_label_prime_cvv_number			信用卡检核码
+creditcard_label_prime_expiration				到期日
+creditcard_label_prime_month				月：
+creditcard_label_prime_year					年：
+credit_card_processing						正在处理交易...
+credit_card_error							已发生错误：{error}
+credit_card_upgrade_success				购买成功 - 您的 「纽沃斯英雄」 账号已升级。
+credit_card_error_plain						已发生错误：
+credit_card_error_duplicate_subscription			出现重复订购。
+credit_card_error_invalid_number				信用卡号码无效。
+credit_card_error_invalid_code				信用卡代码 (CVV2/CVC2/CID) 无效。
+credit_card_error_address					提供的地址与持卡人的账单地址不符。
+credit_card_error_duplicate_transaction		已送出重复交易。
+credit_card_error_expiration_date			信用卡到期日期无效。
+credit_card_error_declined					此交易已被拒绝。
+credit_card_result_charge					今日的费用：^w${charge}
+credit_card_result_first_name				姓氏：^w{name}
+credit_card_result_last_name				名字：^w{name}
+credit_card_result_transaction_number		交易 #：^w{id}
+credit_card_result_subscription_number		订购 #：^w{id}
+credit_card_result_next_bill_date			下一次账单日期：^w{date}
+credit_card_result_email					电子邮件：^w{email}
+
+// game.interface
+game_scores_label_name						名称
+game_scores_label_hero						英雄
+game_scores_label_lvl						级别
+game_scores_label_player_name				玩家姓名
+game_scores_label_k							K
+game_scores_label_d							D
+game_scores_label_a							A
+game_scores_label_tab_lvl					级别
+game_scores_label_tab_player_name			玩家姓名
+game_scores_label_tab_k						K
+game_scores_label_tab_d						D
+game_scores_label_tab_a						A
+game_shop_label_recipe						配方
+game_shop_label_combine						结合
+
+game_scores_header_scores					得分
+game_button_scores							得分
+game_halfscores_tooltip						按一下仅在记分板显示玩家化身与级别。若要全部展开或隐藏得分，请使用上方的按钮。
+game_button_menu							选单
+game_button_open_close_shop					开启/关闭商店
+game_shop_label_shopname						商店
+game_shop_label_accessories					普通商人
+game_shop_label_weapons						武器商人
+game_shop_label_relics						地精商人
+game_shop_label_supplies						物资商人
+game_shop_label_secret						神秘商店
+game_shop_label_recipe_outpost					战地商人
+game_shop_label_recipe_one					精炼商人
+game_shop_label_recipe_two						援护法商
+game_shop_label_recipe_three					防护商人
+game_shop_label_recipe_four					远古遗物
+game_shop_label_recipe_five						神兵利器
+game_shop_label_recommended					建议商品
+game_label_stash							储藏点
+game_label_stash_tool_tip					储藏点用于当您的库存已满时储存物品。您不在基地期间所购买的物品将自动放在储藏点中。\n\n在储藏点中对自动形成的物品按一下左键将会自动拆开。
+
+game_label_stash_deconstruct_tool_tip			分解工具提示
+game_shop_label_requires					要求：
+game_shop_label_used_in					用途：
+game_shop_label_total_cost					总成本
+game_shop_label_buyall					购买所有组件
+game_shop_label_total_cost_tip				配方的总成本同时包括配方成本与完成配方所需的组件物品成本。使用此按钮将尝试购买此配方所需的所有物品，幷将任何您可购买的物品放在您的背包或储藏点中。
+
+game_shop_label_shoptip_header				商店信息
+game_shop_label_shoptip_summary			商店有两个主要类别：物品和配方。 物品是用于建立配方的独立组件。 某些配方需要您在购买了配方组件后，再购买实际的配方物品才能完成配方，而其它配方将在您拥有了要求组件后自动形成。\n\n如果您不小心购买了某物品，则可在 15 秒的宽限期内全额退回此物品。
+
+game_shop_label_shoptip_featuresheader		商店功能与快速键：
+game_shop_label_shoptip_features				要查看物品可用于哪些配方，请按住 ^gSHIFT^*，幷在该物品上 ^g按左键^*。\n\n要将物品从背包移至储藏点或从储藏点移至背包，请按住 ^gCTRL^*，幷在该物品上 ^g按右键^*。\n\n要卖掉某物品，请在该物品上 ^g按右键^* 选择，然后 ^g按左键^* 将其置于商店接口上，或者按住 ^gCTRL^* 和 ^gSHIFT^*，然后在该物品上 ^g按右键^*。
+
+game_ui_label_gold							金币
+game_attributes_label_atk_spd				攻击速度
+game_attributes_label_magic_armor			魔法防御力
+game_header_scores_team_one					队伍 1
+game_header_scores_team_two					队伍 2
+game_label_ally_level						L
+game_label_buy_back							买回
+game_label_hero_kd_hero						英雄：
+game_label_creep_kills_creep				部队：
+
+game_invulnerable							无敌
+game_disconnect								中断连线
+
+//game_chat.package
+gamechat_button_send_message				传送讯息
+gamechat_tip_hit_z_history					^y*提示：^*点击 "Z" 以开启聊天记录
+gamechat_indicate_team						[TEAM]
+gamechat_indicate_all						[ALL]
+gamechat_header_chat						聊天
+game_chat_button_team						队伍
+game_chat_button_all						全部
+game_chat_for								^y聊天主题： ^* {target}
+
+// main_local_browser.package
+local_header_local_game						本机游戏
+local_header_join_local_game				加入本机游戏
+local_label_your_name						您的姓名
+local_button_refresh_list					重新整理清单
+local_button_connect_ip						连线至 IP
+local_button_join_selected					加入所选游戏
+local_create_game_header					建立本机游戏
+local_select_server_header					选择一个服务器
+local_select_server_button					选择服务器
+main_local_browser_filter_header			筛选游戏清单
+main_local_browser_filter_desc				输入游戏名称或部份游戏名称，以筛选结果。
+local_need_password_header					需要密码
+main_local_browser_password_tip				此游戏需要密码才能加入。请输入游戏建立者所提供的密码。
+local_server_header							服务器
+main_local_browser_ip						IP
+main_local_browser_ip_tip					输入因特网通讯协议 (IP) 地址，以连线至远程游戏。
+main_local_browser_connect_to_ip			连线至 IP
+main_local_broswer_password					密码
+main_local_browser_password_tip				输入此游戏的密码。
+main_local_browser_starting					正在开始远程游戏...
+main_local_browser_header					游戏浏览器 - ^r{servers}^* 服务器上的 ^r{players}^* 玩家
+
+// main_popup.interface
+popup_header								讯息
+
+// cc_community.package
+cc_com_header_您的_friends_list				您的好友清单
+cc_com_header_add_friends					加入新好友
+cc_com_label_enter_nickname					加入成为好友：
+cc_com_button_add							加入
+
+cc_com_button_find_in_game					在目前的游戏中寻找
+cc_com_aside_header_in_current_game			在目前的游戏中
+cc_com_aside_current_button_add				加入
+
+cc_com_button_recently_with					最近一起游戏的玩家
+cc_com_aside_header_recently_with			最近一起游戏的玩家
+cc_com_aside_recent_button_add				加入
+
+cc_com_header_clan_management				派系管理
+cc_com_create_button						建立新派系
+cc_com_label_not_in_clan					您目前不属?任何派系。
+cc_com_label_start_clan						立刻建立属?自己的派系！您只需要 5 名成员即可(包括您自己在内)。 所有特许成员目前必须登录「纽沃斯英雄」，幷且尚未成为任何派系的成员。
+cc_com_label_if_interested					如果您有兴趣加入派系，请变更您的下方的状态。派系领导人将可检视您的状态。
+cc_com_dropbox_not_interested				不感兴趣
+cc_com_dropbox_looking_for_派系				寻找派系
+cc_com_header_clan_inv_recent				最近一起游戏的玩家
+cc_com_button_clan_inv_recent_add			加入
+cc_com_header_clan_inv_current				在目前的游戏中
+cc_com_button_clan_inv_current_add			加入
+
+cc_com_rtclick_clan_invite_member			邀请新成员
+cc_com_label_find_nickname_below			请在下方输入昵称：
+cc_com_button_findoptions_invite			邀请
+cc_com_button_findoptions_current			在目前的游戏中寻找
+cc_com_button_findoptions_recent			最近一起游戏的玩家
+
+cc_com_newclan_button						建立派系
+cc_com_newclan_header						建立新派系
+cc_com_newclan_tip_header					建立派系提示
+cc_com_newclan_invite_button				传送邀请
+cc_com_newclan_check_name					检查派系名称与标签
+cc_com_newclan_clanname						派系名称
+cc_com_newclan_clantag						派系卷标 (1-3 字符)
+cc_com_newclan_leader						派系领导人
+cc_com_newclan_memberinfo					输入您的派系中 4 位特许成员的昵称。所有特许成员目前必须登录「纽沃斯英雄」，幷且尚未成为任何派系的成员。 
+cc_com_newclan_founding1					成员 1
+cc_com_newclan_founding2					成员 2
+cc_com_newclan_founding3					成员 3
+cc_com_newclan_founding4					成员 4
+cc_com_newclan_waitinginfo					正在等待您的特许成员响应派系邀请。如果 4 位特许成员在时限前全部接受邀请，将可建立您的新派系。
+cc_com_newclan_waitingtime					剩余时间： 
+cc_com_newclan_results_button				继续
+cc_com_newclan_success						派系建立成功讯息
+cc_com_newclan_failure						派系建立失败讯息
+cc_com_newclan_finished_button				关闭窗口
+
+ccpanel_header_options						选项
+ccpanel_button_config_cc					配置派系与社群面板
+ccpanel_label_panel_explanation				当您的好友与派系成员采取行动时，派系与社群面板会通知您。请选择您想要检视的通知。
+ccpanel_checkbox_connection_note			连线通知
+ccpanel_checkbox_disconnect_note			中断连线通知
+ccpanel_checkbox_join_note					加入游戏通知
+ccpanel_checkbox_leave_note					离开游戏通知
+ccpanel_checkbox_friend_adds_note			好友清单加入
+ccpanel_checkbox_friends_remove_note		好友清单移除
+ccpanel_checkbox_clan_message_note			派系讯息
+ccpanel_checkbox_rank_change_note			派系级别变更
+ccpanel_checkbox_new_member_note			离开新派系
+ccpanel_checkbox_depature_note				离开派系
+ccpanel_checkbox_clan_invite_note			派系邀请
+ccpanel_checkbox_match_note					派系比赛通知
+ccpanel_checkbox_invite_note				游戏邀请
+ccpanel_button_save_settings				储存设定值
+ccpanel_game_invite							游戏邀请
+ccpanel_label_clan_and_community			派系与社群面板
+
+// cc_serverlist.package
+ccserverlist_checkbox_show_full				显示全部：
+ccserverlist_checkbox_show_empty			显示空白：
+ccserverlist_checkbox_show_sandbox			显示沙盒：
+ccserverlist_checkbox_max_ping				最大 Ping：
+ccserverlist_editbox_map					地图：
+ccserverlist_checkbox_different				不同版本：
+ccserverlist_checkbox_all_level				所有级别范围：
+ccserverlist_checkbox_unresponsive			无反应：
+ccserverlist_button_save					储存
+ccserverlist_combobox_races					种族：
+ccserverlist_button_filters					筛选s
+ccserverlist_button_refresh					重新整理
+ccserverlist_button_connect_ip				连线至 IP
+ccserverlist_editbox_ip						IP：
+ccserverlist_editbox_pass					通过：
+
+// cc_statistics.package
+ccstats_button_fetch						提取
+ccstats_button_show_stats					显示统计数据
+ccstats_button_hide_stats					隐藏统计资料
+
+// cc_message.package
+cc_message_label_enter_name_message			对讯息输入昵称
+cc_message_label_message					讯息
+
+// cc_whisper.package
+ccwhisper_label_send_clan_message			传送讯息至派系。
+ccwhisper_button_send_whisper				传送
+ccwhisper_button_send_message				传送讯息
+ccwhisper_header_send_a_message				传送一则讯息
+
+// cc_tournamentlist.package
+cctournament_upcoming_header				您近期的联赛
+cctournament_upcoming_tournament			联赛：
+cctournament_upcoming_tournamentadmin		管理员：
+cctournament_upcoming_date					日期:
+cctournament_upcoming_time					时间：
+cctournament_upcoming_bracket				层级：
+cctournament_upcoming_pool					集区：
+cctournament_upcoming_pooltip				您正在对抗的队伍区由联赛的淘汰类型及您的输掉次数来决定。
+cctournament_upcoming_starttime				比赛开始时间：
+cctournament_upcoming_joingame				现在加入此游戏
+cctournament_upcoming_adminonline			用户在在线，请按一下其名字以传送实时讯息
+
+// social_groups.package
+no_ims										您没有实时讯息对话。请在下方输入昵称，以传送讯息至另一位玩家。
+im_user_not_found							用户名称找不到！
+im_user_offline								用户离线！
+
+// game_end_stats.interface
+endstats_label_match_id						比赛 ID
+endstats_label_日期							日期
+endstats_label_time							时间
+endstats_label_match_length					长度
+endstats_label_match_ver					版本
+endstats_label_server						服务器
+endstats_label_match_comments				比赛批注
+endstats_button_submit_comment				送出批注
+endstats_header_legion_players				联盟军团玩家
+endstats_header_player_name					玩家名称
+endstats_label_lvl							级别
+endstats_label_hk							HK
+endstats_label_d							D
+endstats_label_ck							CK
+endstats_label_cd							CD
+endstats_label_xp_min						经验值/分
+endstats_label_rate							比率
+endstats_header_player_statistics			玩家统计资料
+endstats_label_xp_earned					获得的经验值
+endstats_label_deaths						死亡次数
+endstats_label_gold_earned					获得的金币
+endstats_label_gold_spent					花费
+endstats_label_action_per_min				每分钟的行动
+endstats_label_buy_backs					买回英雄次数
+endstats_label_xp/minute					经验值/分
+endstats_label_gold_lost					损失金币数目
+endstats_label_gold/minute					金币/分
+endstats_label_time_played					游戏时间
+endstats_header_enemy_heroes				敌方英雄
+endstats_label_hero_damage					损害
+endstats_label_hero_kills					杀死人数
+endstats_label_hero_assists					协助次数
+endstats_label_hero_gold					金币
+endstats_header_enemy_building				敌方建筑物
+endstats_label_building_damage				损害
+endstats_label_building_razes				拆毁
+endstats_label_building_gold				金币
+endstats_header_team_creeps					队伍部队
+endstats_label_creep_damage					损害
+endstats_label_creep_kills					杀死人数
+endstats_label_creep_gold					金币
+endstats_header_neutrals					中立部队
+endstats_label_neutral_damage				损害
+endstats_label_neutral_kills				杀死人数
+endstats_label_neutral_gold					金币
+endstats_header_creep_denies				抢先杀死的部队
+endstats_label_creep_deny_count				抢先杀死的部队次数
+endstats_label_creep_xp_denied				抢先杀死的经验
+endstats_header_hellbourne_players			地狱族玩家
+endstats_header_legion_statistics			联盟军团统计资料
+endstats_header_hellbourne_statistics		地狱族统计资料
+endstats_label_attributes_player			玩家属性
+endstats_label_hero_played					游戏英雄
+endstats_label_hero_level					级别
+endstats_label_hero_info_health				生命值
+endstats_label_hero_info_mana				法力值
+endstats_label_hero_info_damage				损害
+endstats_label_hero_info_speed				速度
+endstats_label_hero_info_atk_spd			攻击速度
+endstats_label_hero_info_int				智力
+enstasts_label_hero_info_agi				敏捷度
+endstats_label_hero_info_str				力量
+endstats_label_hero_info_armor				防御力
+endstats_label_hero_info_inventory			背包
+endstats_label_kda							K / D / A
+endstats_label_apm							APM
+endstats_label_match_name					^y比赛：^*
+game_end_stats_victory_legion				联盟军团获胜！
+game_end_stats_victory_hellbourne			地狱族获胜！
+game_end_stats_detailed						详细统计资料 - {name}
+game_end_stats_show_winner					显示赢家
+game_end_stats_concede						队伍认输！
+game_end_stats_awards_soon					即将提供比赛奖励！
+game_end_stats_no_matches					您尚未参加任何一场有记录的比赛。 您可在下方输入比赛 ID 来加以提取。
+game_end_stats_kda							^g{kills}^*/^r{deaths}^*/^y{assists}^*
+game_end_stats_progress_bar					请稍候...
+game_end_stats_download_in_progress			请等候下载完成。
+game_end_stats_download_retry_btn			失败 - 重试
+game_end_stats_watch_replay_btn				观看回放
+game_end_stats_compat_btn					协调
+game_end_stats_refresh_btn					检查档案
+
+main_stats_retrieving_match					提取比赛信息...
+main_stats_retrieving_matches				提取比赛...
+main_stats_failed_retrieval					无法提取比赛信息。
+main_stats_cancel							取消
+main_stats_retry							重试
+main_stats_does_not_exist					尚未送出比赛。
+main_stats_downloading_replay				正在下载比赛  回放...
+main_stats_error_downloading_replay			正在下载回放时，出现错误。
+main_stats_download_replay_progress			进度：^w{count}MB / {total}MB
+main_stats_download_replay_speed			下载速度：^w{speed}KB/sec
+main_stats_download_replay_remaining		剩余时间：^w{time}
+main_stats_retrieving_stats					检索统计资料...
+main_stats_error_message					检索玩家统计资料时，出现错误。请再试一次。
+
+game_end_stats_recentgames					检视最近的游戏 统计资料
+game_end_stats_matchdetails					比赛详细资料
+game_end_stats_download_btn					下载回放
+game_end_stats_download_tootlip				下载此比赛的回放。
+game_end_stats_comment_btn					批注
+game_end_stats_comment_tooltip				「纽沃斯英雄」上的回放网站可检视比赛批注。
+game_end_stats_awards						比赛奖励
+game_end_stats_close_button					关闭统计资料
+game_end_stats_download_waiting_btn			正在检查...
+game_end_stats_download_waiting_tootlip		正在检查回放档案。
+game_end_stats_download_retry_tooltip		回放下载已失败，该档案也许尚未上传，请按一下这里再试一次。
+game_end_stats_download_unav_btn			回放无法使用
+game_end_stats_download_unav_tooltip		此回放无法下载。
+game_end_stats_download_compat_tooltip		此回放属旧版「纽沃斯英雄」。 需要下载兼容性档案才能检视此回放。
+game_end_stats_fetch_btn					提取比赛 ID
+game_end_stats_fetch_tooltip				输入完成游戏的比赛 ID。过去的比赛 ID 可在回放网站上搜寻。提取比赛详细资料后，您可检视比赛详细资料，如果有的话，可下载回放。
+
+// game_spectator.interface
+game_spectator_stats_gold/min				金币/分
+game_spectator_stats_bldgdmg				建筑物损害
+game_spectator_k/d/a						K/D/A
+
+// cc_ircchat.package
+ircchat_main_button_join_create_new			加入 / 建立新频道
+ircchat_header_join_create_new				加入 / 建立新频道
+ircchat_button_join_create					加入 / 建立
+ircchat_button_channel_join_create			加入 / 建立
+ircchat_button_chat_text_send_message		传送讯息
+ircchat_button_chat_channel_create_new		加入 / 建立新频道
+ircchat_header_chat							聊天
+ccstats_button_show_ccchat					显示聊天
+ccstats_button_hide_ccchat					隐藏聊天
+
+// game_hero_select.interface
+hselect_label_hd_strength					力量：
+hselect_label_hd_agility					敏捷度：
+hselect_label_hd_intel						智力：
+hselect_button_ready						准备就绪
+game_hero_select_ready_tip_me_ready			您已准备好参加战斗！
+game_hero_select_ready_tip					准备好时，请按一下此按钮，以开始游戏。准备好后，您将无法切换或重选。 当所有玩家都准备好时，比赛将开始。
+game_hero_select_ready_tip_no_hero			在您准备好前，您必须选择一位英雄。
+game_hero_select_ready_tip_other_ready		此玩家已准备好参加战斗！
+game_hero_select_ready_tip_not_ready		此玩家尚未准备好...
+game_hero_select_random						随机选择英雄
+game_hero_select_random_tip_already_picked	您已经选择一位英雄。
+game_hero_select_random_tip_free			随机选择一位英雄不会影响您的起始金币。
+game_hero_select_random_tip					随机选择一位英雄将送您 ^y{gold}^* 额外金币。
+hselect_header_hero_details					英雄详细资料
+hselect_label_hd_damage						损害
+hselect_label_hd_armor						防御力
+hselect_label_hd_move_speed					移动速度
+hselect_label_hd_attack_type				攻击类型
+hselect_label_hd_attack_range				攻击范围
+hselect_label_hd_attack_rate				攻击速率
+hselect_label_hd_abilities					技能
+game_hero_select_mana_cost					法力值消耗：{value}
+game_hero_select_cooldown					冷却时间：{time}s
+hselect_header_statistics					统计资料
+hselect_label_strength						力量型
+hselect_label_agility						敏捷型
+hselect_label_intelligence					智力型
+hselect_swap_request_tip_header				交换英雄
+hselect_swap_request_tip_text				邀请与此玩家交换英雄。 交换之后，您不能重新选择或再次交换。
+hselect_swap_accept_tip_header				交换英雄
+hselect_swap_accept_tip_text				此玩家提出与您交换英雄。 按一下英雄的头像以完成交换。 交换之后，将不能重新选择或再次交换。
+game_hero_select_repick						重新选择英雄
+game_hero_select_repick_tip_disabled		此比赛中停用重新选择。
+game_hero_select_repick_tip_already_used	您已经使用重新选择。
+game_hero_select_repick_tip_already_swapped	因为您已交换过，所以无法重新选择。
+game_hero_select_repick_tip_no_hero			选择一位英雄后，您可使用此按钮以回复您的选择。 重新选择需花费 ^y{gold}^* 金币。您仅可重新选择一次。重新选择后，无法交换。
+game_hero_select_repick_tip					按一下此按钮以选择一位新英雄。 重新选择需花费 ^y{gold}^* 金币。您仅可重新选择一次。重新选择后，无法交换。
+game_hero_select_repick_tip_free			按一下这里以选择一位新英雄。您仅可重新选择一次。重新选择后，无法交换。
+game_hero_select_starting_gold				起始金币
+game_hero_select_starting_gold_tip_me		比赛开始时，您将拥有 ^y{gold}^* 金币。
+game_hero_select_starting_gold_tip_other	比赛开始时，此玩家将拥有 ^y{gold}^* 金币。
+game_hero_select_status_select_hero			选择您的英雄
+game_hero_select_status_waiting				等待其它玩家
+game_hero_select_status_ban_hero			禁止一位英雄
+hero_select_voip_tip_header					语音聊天
+hero_select_voip_mute_tip					您已使此玩家静音。请按一下这里来解除静音。
+hero_select_voip_tip						按一下这里来使此玩家静音。
+game_hero_select_label_damage				^y损害：^*      {damage}
+game_hero_select_label_attack_range			^y攻击范围：^*     {range}
+game_hero_select_label_attack_speed			^y攻击速度：^*     {speed}
+
+// main_lobby.interface
+mainlobby_button_main_menu					主选单
+main_lobby_replay_view						比赛统计资料
+main_lobby_replay_view_desc					使用比赛统计数据检视器来检阅过去「纽沃斯英雄」游戏比赛的摘要。使用统计数据检视器，您可快速找到您最近的游戏、以比赛 ID 查阅游戏，以及下载回放档案。
+main_lobby_ranked_play						排名游戏
+main_lobby_ranked_play_desc					排名游戏让您可以建立组别游戏，甚至将不同的好友放在敌对的队伍中。  然后，玩家可以根据自己的喜好寻找类似的游戏，幷尝试根据统计建立实力相符的队伍。  这些比赛可用于玩家排名表中对玩家进行排名。
+mainlobby_button_quick_play_config			快速游戏配置
+main_lobby_button_quick_play_config_desc	您可以在此处为所有游戏模式和游戏选项选择禁止、中立或首选。 然后，您的客户端将查看所有可用游戏，幷根据您选择的偏好配置加入游戏。 偏好选项越多，加入游戏的时间就可能越长。
+
+main_lobby_quick_play_desc					根据您的喜好，使用此项功能可快捷地进入游戏大厅。 如果您打开左侧的快速游戏配置，则您可设置所有模式和选项，以便帮助您找到游戏。快速游戏配置不会尝试根据玩家的程度寻找游戏。 要获得该功能，请使用 iMatch。
+
+mainlobby_label_qp_config_note				要配置快速游戏，您可以设定以下类别为首选、中立或禁止。 当您选取快速游戏时，系统将会寻找最接近您的喜好选项的比赛。
+
+main_lobby_qp_show_advanced_filters_label	针对进阶游戏筛选，按一下显示进阶按钮以显示所有额外的选项。
+main_lobby_qp_hide_advanced_filters_label	针对隐藏进阶游戏筛选，按一下隐藏进阶按钮以显示所有额外的选项。
+mainlobby_button_save_qp_config				储存快速游戏配置
+mainlobby_label_join_size					仅以此队伍人数加入游戏 
+mainlobby_header_team_size					队伍人数
+mainlobby_header_game_type					游戏类型
+mainlobby_label_normal						普通
+mainlobby_label_random_draft				随机征兵
+mainlobby_label_single_draft				单一征兵
+mainlobby_label_banning_draft				禁止征兵
+mainlobby_label_banning_pick				禁止选择
+mainlobby_label_captains_draft				队长征兵
+mainlobby_label_captains_mode				队长模式
+mainlobby_label_deathmatch					死亡竞赛
+mainlobby_header_game_options				游戏选项
+mainlobby_label_tier						级别
+mainlobby_label_tier_tip					根据特定级别限制服务器。\n\n^y仅限新手^* - 只有总账户经验级别较低的账户才可以进行比赛。\n^y允许新手^* - 任何经验级别的玩家都可以进行比赛。\n^y高级玩家^* - 只有整体经验级别较高的账户才可以进行比赛。
+mainlobby_header_game_tier1					仅限新手
+mainlobby_header_game_tier2					允许新手
+mainlobby_header_game_tier3					高级玩家
+mainlobby_label_min_max_psr					最小/最大 PSR
+mainlobby_label_min_max_psr_tip				只允许玩家的指定 PSR 在服务器最小/最大 PSR 范围的 2%% 内，才能加入游戏。 被邀请加入游戏的玩家将忽略所有最小/最大 PSR 限制。
+mainlobby_header_game_official				正式 - 已记录统计统计数据
+mainlobby_header_game_official2				非正式
+main_lobby_public							公用
+main_lobby_private							私人
+main_lobby_leaver_restricted				限制中途退出
+main_lobby_leaver_restricted_desc			曾有在游戏结束前中途退出记录的玩家将不可以加入受限制的游戏。
+
+mainlobby_game_types_label					游戏类型
+
+mainlobby_label_more						进阶选项
+mainlobby_button_show_advanced				显示进阶
+mainlobby_button_hide_advanced				隐藏进阶
+
+mainlobby_button_ranked_play				排名游戏
+
+mainlobby_button_custom_game				游戏清单
+mainlobby_button_custom_game_desc			如果您不想使用快速游戏配置，而希望手动查看可加入游戏列表，请使用此按钮。 在游戏列表中，您可以筛选队伍人数、模式、选项和 Ping 的结果。 如果要在按下按钮时快速加入游戏，我们建议您使用快速游戏配置。
+mainlobby_button_create_game				建立游戏
+mainlobby_button_create_game_desc			使用此功能设定将能帮助您建立一个完全符合您的喜好，或使您的好友可以轻松加入的游戏。您可在建立游戏时先设定为私人游戏，等待您的好友加入，然后再公布游戏以便让其它玩家加入到剩余的位置。
+mainlobby_header_custom_加入_a_game			加入游戏
+mainlobby_header_custom_filter_results		筛选服务器结果
+main_lobby_filter_description				
+mainlobby_label_custom_game_name			游戏名称
+main_lobby_game_name_desc					通过键入完整或部分搜索字句，筛选游戏浏览器。\n\n使用 '|' 可分隔搜索字句，在字句开头使用 '-' 可排除词语，而使用 '\\|' 或 '\\-' 可转义 '|' 或 '-'。\n
+mainlobby_label_custom_game_type			游戏模式
+mainlobby_label_custom_game_type_desc		游戏模式可决定一般英雄的选择方式。\n\n^y^*普通 - 标准英雄选择方式。\n^y随机选择^* - 将英雄选择数量限制为 20 个，在玩家之间交替选择。\n^y单一选择^* - 每名玩家可以选择一个敏捷型英雄，一个智力型英雄或一个力量型英雄。\n^y禁止选择^* - 与随机选择相同，但蓝方和粉红方需先轮流禁止共 4 个英雄。\n^y禁止选择^* - 蓝方和粉红方每方需轮流禁止共 6 个英雄，然后玩家交替从剩余的英雄中选择。
+
+// Removing this for now - JT                ^y死亡竞赛^* - 普通英雄选择方式。但是死亡后，玩家必须选择一个新的英雄。 当一个队伍的全部英雄死亡时，游戏结束。\n
+mainlobby_label_custom_game_region			地区
+mainlobby_label_custom_game_region_desc		服务器所在的地理位置。
+mainlobby_label_custom_game_US				美国 - 全部
+mainlobby_label_custom_game_USC				美国 - 中部
+mainlobby_label_custom_game_USE				美国 - 东部
+mainlobby_label_custom_game_USS				美国 - 南部
+mainlobby_label_custom_game_USW				美国 - 西部
+mainlobby_label_custom_game_EU				欧洲 - 全部
+mainlobby_label_custom_game_DE				德国
+mainlobby_label_custom_game_UK				英国
+mainlobby_label_custom_game_NL				荷兰
+mainlobby_label_custom_game_JPN				日本
+mainlobby_label_custom_game_AU				澳大利亚
+mainlobby_label_custom_game_ID				印度尼西亚
+mainlobby_label_custom_game_ZAF				南非
+mainlobby_label_custom_game_SEA				东南亚
+mainlobby_label_custom_game_GREG			一般服务器
+mainlobby_label_custom_game_GVIP			VIP 服务器
+mainlobby_label_custom_team_size			队伍人数
+mainlobby_label_custom_team_size_desc		限制游戏为特定队伍人数。
+main_lobby_filter_队伍_size_none			不限制队伍人数
+main_lobby_filter_any						任何
+main_lobby_filter_advanced					进阶
+main_lobby_filter_队伍_size_one_v_one		一对一
+main_lobby_filter_team_size_two_v_two		二对二
+main_lobby_filter_team_size_three_v_three	三对三
+main_lobby_filter_team_size_four_v_four		四对四
+main_lobby_filter_team_size_five_v_five		五对五
+mainlobby_label_custom_map					地图
+mainlobby_label_custom_map_desc				将游戏限制至指定地图。
+mainlobby_label_custom_server_type			服务器类型
+mainlobby_label_custom_server_type_desc		根据服务器类型限制游戏。 官方服务器是由 S2 支持的服务器，可保证运行未经修改的官方游戏设置和地图。 非官方服务器是由小区支持的服务器，它可使用经修改的地图和游戏设置。main_lobby_server_official_stats			官方 - 统计资料
+main_lobby_server_official_nostats			官方 - 无统计资料
+main_lobby_server_unofficial				非官方
+msin_lobby_game_access						游戏存取权
+main_lobby_view_advanced_filters			按一下^y检视^* ^y进阶^* 可显示所有额外的选项。
+mainlobby_show_advanced_filters_button		检视进阶
+mainlobby_hide_advanced_filters_button		隐藏进阶
+
+mainlobby_header_custom_name				名称
+mainlobby_header_custom_map					地图
+mainlobby_header_custom_slots				位置
+mainlobby_header_custom_ping				Ping
+mainlobby_header_custom_size				人数
+mainlobby_header_custom_type				类型
+mainlobby_header_custom_minpsr				PSR >
+mainlobby_header_custom_maxpsr				PSR <
+mainlobby_header_custom_options				选项
+mainlobby_button_custom_refresh				重新整理清单
+mainlobby_button_custom_join_selected		加入所选游戏
+mainlobby_header_custom_karma				限制中途退出者/运气的游戏
+mainlobby_button_custom_instant_upgrade		现在立即升级成主要账号
+mainlobby_button_custom_return				返回游戏浏览器...
+mainlobby_header_custom_prime_req			需要主要账号
+mainlobby_header_create_create_game			建立游戏
+mainlobby_header_create_public_game			建立公用游戏
+mainlobby_label_custom_searching				正在搜寻...
+mainlobby_label_cc_friends					好友
+mainlobby_label_cc_clan						派系
+mainlobby_cc_rt按一下_friends_filter			筛选
+mainlobby_cc_rtclick_clan_filter				筛选
+mainlobby_label_custom_game_access			游戏存取权
+mainlobby_tip_custom_game_access			公用比赛对所有玩家开放。 私人比赛需要密码才能加入。
+mainlobby_label_custom_retrieving_list			正在检索清单...
+mainlobby_label_filter_server_name			筛选服务器名称
+mainlobby_tip_filter_server_name				输入服务器名称，或部份服务器名称，以筛选结果。
+mainlobby_create_game_remote				正在开始远程游戏…
+
+mainlobby_label_icon_key					检视图示键
+mainlobby_filter_prequery					筛选预先查询
+mainlobby_filter_hide_restricted			隐藏限制的游戏
+mainlobby_icon_key_options_header			游戏设置和选项
+mainlobby_icon_key_maps_header				地图
+mainlobby_icon_key_checkboxes				选项方块
+mainlobby_icon_key_chat_header				聊天图示
+mainlobby_icon_key_chat_staff				S2 Games 员工
+mainlobby_icon_key_chat_gm					游戏主管
+mainlobby_icon_key_chat_op					频道操作员
+mainlobby_icon_key_chat_premium				白金账号
+mainlobby_icon_key_chat_ingame				游戏中玩家
+mainlobby_icon_key_opt_nopref				无特定喜好
+mainlobby_icon_key_opt_required				必需
+mainlobby_icon_key_opt_excluded				排除
+
+mainlobby_new_channel_header				加入 / 建立频道
+mainlobby_server_browser_header				选择服务器
+mainlobby_friends_header					您的好友清单
+mainlobby_server_header						服务器
+mainlobby_quick_play_options_header			快速游戏选项
+
+main_lobby_add_new_friend					加入新好友
+main_lobby_加入_create						加入 / 建立
+main_lobby_加入_new_channel					加入 新频道 
+main_lobby_searching						正在搜寻...
+main_lobby_no_games_found					找不到游戏！ 为何不建立新游戏？
+main_lobby_response							{count} 回应的 {visible}
+main_lobby_responses						{count} 回应的 {visible}
+main_lobby_no_servers_found					找不到服务器！
+
+main_lobby_playersonline					在线玩家：
+
+mainlobby_gamelist_official_title			官方 - 统计资料
+mainlobby_gamelist_official_desc			这是官方游戏，统计数据将被记录。
+mainlobby_gamelist_official_2_title			官方 - 无统计资料
+mainlobby_gamelist_official_2_desc			这是官方游戏，统计数据将不会被记录。
+mainlobby_gamelist_unofficial_title			非官方
+mainlobby_gamelist_unofficial_desc			这是非官方游戏，统计数据将不会被记录
+mainlobby_gamelist_beginner_title			仅限新手
+mainlobby_gamelist_beginner_desc			只有新玩家可加入此游戏。
+mainlobby_gamelist_general_title			允许新手
+mainlobby_gamelist_general_desc				所有玩家都可加入此游戏。
+mainlobby_gamelist_veteran_title			高级游戏
+mainlobby_gamelist_veteran_desc				只限经验丰富的玩家加入此游戏。
+mainlobby_gamelist_noleaver_title			不能中途退出
+mainlobby_gamelist_noleaver_desc			中途退出百分比较高的玩家不能加入此游戏。
+mainlobby_gamelist_watchtower_title			Watchtower
+mainlobby_gamelist_watchtower_desc			在 Watchtower 中玩游戏
+mainlobby_gamelist_caldavar_title			Forests of Caldavar
+mainlobby_gamelist_caldavar_desc			在 Forests of Caldavar 中玩游戏
+mainlobby_gamelist_darkwoodvale_title		Darkwood Vale
+mainlobby_gamelist_darkwoodvale_desc		在两通道地图 Darkwood Vale 中玩游戏
+mainlobby_gamelist_test_title				测试地图
+mainlobby_gamelist_test_desc				这对于每个人都是秘密。
+mainlobby_gamelist_normal_title				普通
+mainlobby_gamelist_normal_desc				适用标准英雄选择
+mainlobby_gamelist_randomdraft_title		随机征兵
+mainlobby_gamelist_randomdraft_desc			玩家轮流从较小的随机区中选择英雄。
+mainlobby_gamelist_singledraft_title		单一征兵
+mainlobby_gamelist_singledraft_desc			玩家从三个随机英雄中选择其它一个英雄进行游戏。
+mainlobby_gamelist_banningdraft_title		禁止征兵
+mainlobby_gamelist_banningdraft_desc		在队长从选择中移除多个选项后，玩家轮流从较小的随机区中选择英雄。
+mainlobby_gamelist_banningpick_title		禁止选择
+mainlobby_gamelist_banningpick_desc			队长轮流在每个队伍中禁止三名玩家，然后玩家交替从剩余英雄中选择。
+mainlobby_gamelist_captainsdraft_title		队长征兵
+mainlobby_gamelist_captainsdraft_desc		队长先轮流在随机区中禁止英雄，然后轮流为队友选择阵容。
+mainlobby_gamelist_captainsmode_title		队长模式
+mainlobby_gamelist_captainsmode_desc		队长先轮流禁止英雄，然后轮流为队友选择阵容。
+mainlobby_gamelist_death比赛_title			死亡竞赛
+mainlobby_gamelist_deathmatch_desc			在英雄角色被击杀后，强制玩家选择新英雄参赛。
+
+mainlobby_gamelist_forcerandom_title		随机英雄
+mainlobby_gamelist_forcerandom_desc			强制玩家采用随机英雄。
+mainlobby_gamelist_allheroes_title			所有英雄
+mainlobby_gamelist_allheroes_desc			不管是哪个阵营，两支队伍都可使用所有英雄。
+mainlobby_gamelist_easymode_title			简易模式
+mainlobby_gamelist_easymode_desc			修改了游戏规则，让所有玩家都可获得更多经验和金币，幷降低基地的防御能力。
+mainlobby_gamelist_shuffleteams_title		随机变更队伍
+mainlobby_gamelist_shuffleteams_desc		游戏开始后，将玩家随机分配给队伍。
+mainlobby_gamelist_autobalance_title		自动平衡
+mainlobby_gamelist_autobalance_desc			游戏开始后，将根据其 PSR 自动平衡团队。 加载英雄选择画面后，将向玩家显示其队伍。 选择此游戏选项时，将禁用锁定位置。
+mainlobby_gamelist_more_title				进阶选项
+mainlobby_gamelist_more_desc				主机已启用至少一个进阶游戏选项。
+mainlobby_gamelist_devheroes_title			开发中英雄
+mainlobby_gamelist_devheroes_desc			处于此模式时，可选择当前未完成的开发中英雄。
+mainlobby_gamelist_hardcore_title			高水平
+mainlobby_gamelist_hardcore_desc			每秒不会增加金币，且部队/塔抢先杀死将向敌方队伍提供 0 经验/金币。
+
+mainlobby_gamelist_trial_blocked			试用账号无法加入正式的记录统计数据的游戏
+
+// replay_viewer.package
+replayv_header_replay_viewer				本机回放
+replayv_button_local_replays				本机回放
+replayv_button_online_replays				在线回放
+replayv_header_replay_list					回放清单
+replayv_header_replay_details				回放详细资料
+replayv_button_view_replay					检视回放
+replayv_button_download_compat				相容
+replayv_button_close_window					关闭窗口
+replayv_label_replay_detail_info			如要查看回放详细数据，请从左面清单中选择一个回放档案。
+replay_viewer_game_options					^y游戏选项：^* {options}
+replay_view_tip_online						浏览在线的回放数据库。
+replayv_label_match_id						比赛 ID： 
+replayv_label_version						版本： 
+replayv_label_date_played					游戏的日期：
+replayv_label_match_length					比赛长度：
+replayv_label_map							地图： 
+replayv_label_game_mode						游戏模式： 
+replayv_button_view_match_winner			检视赢家
+replayv_tip_online_replays					通过登录幷选择“在线游戏”，然后按一下“比赛统计数据”按钮，可下载比赛的回放。
+replayv_tip_replay_list						回放让您可以从任何玩家的角度或观众的角度观看以前的比赛。
+replay_compat_calculating					计算下载中
+replay_compat_downloading					正在下载
+replay_compat_writing						等待存档
+replay_compat_version						版本：^w{version}
+replay_compat_files							剩余档案大小： ^w{count} / {total}
+replay_compat_progress						进度： ^w{count}MB / {total}MB
+replay_compat_speed							下载速度： ^w{speed}KB/sec
+replay_compat_time							剩余时间： ^w{time}
+
+// preorder_features.package
+pofeatures_header							预先购买您的「纽沃斯英雄」账号
+pofeatures_title1							今天就预先购买吧
+pofeatures_title2							无重复收费！
+pofeatures_ppbenefit1						保留您的测试版昵称
+pofeatures_ppbenefit2						可邀请您的好友进入测试版
+pofeatures_ppbenefit3						可在游戏中拥有嘲讽技能
+pofeatures_ppbenefit4						特殊游戏图示
+pofeatures_ppbenefit5						独特聊天名称颜色
+pofeatures_ppbenefit6						成为预购账户，您将不再看到此广告！
+pofeatures_onetime							一次性费用！
+pofeatures_oneusd							美元D
+pofeatures_feature_learnmore				了解更多
+pofeatures_feature_gameplay					游戏玩法改进
+pofeatures_feature_engine					引擎优势
+pofeatures_feature_matchmaking				比赛系统
+pofeatures_feature_matchmakingtxt			如果您自己玩或与好友队伍一起玩时，将与类似玩家进行比赛。
+pofeatures_feature_stattracking				统计追踪
+pofeatures_feature_stattrackingtxt			游戏将自动追踪多项统计资料。 可存取大量重要的在线或游戏数据。
+pofeatures_feature_heroes					多样化的英雄
+pofeatures_feature_heroestxt				可选择玩 HoN 新英雄和许多您熟悉的最佳英雄。
+pofeatures_feature_ladder					游戏排名
+pofeatures_feature_laddertxt				游戏会自动更新玩家和派系排名。 可查阅您在竞赛中的排名。
+pofeatures_feature_editor					自订地图编辑器
+pofeatures_feature_editortxt				使用地图编辑器建立新地图或新游戏。
+pofeatures_feature_reconnection				游戏重新连接
+pofeatures_feature_reconnectiontxt			玩家中断连接时，将不会再将游戏造成影响 - 曾中断连接的玩家可重新加入游戏！
+pofeatures_feature_noleaver					中途退出保护
+pofeatures_feature_noleavertxt				建立及加入有中途退出玩家限制的游戏。
+pofeatures_feature_netcode					客户端-服务器Net代码
+pofeatures_feature_netcodetxt				当一位玩家出现连接问题时，其它玩家都不会滞后！
+pofeatures_feature_hotkeys					可重新设定快速键
+pofeatures_feature_hotkeystxt				为每个在游戏中的指令建立快速键，让您可提高政击效率。
+pofeatures_feature_voip						内置VOIP
+pofeatures_feature_voiptxt					无需外部语音聊天程序。语音聊天可在「纽沃斯英雄」内进行。
+pofeatures_pptoday							要预购，请立即前往我们的网站！
+pofeatures_ulr								http://beta.heroesofnewerth.com/
+pofeatures_closemsg							要预购您的「纽沃斯英雄」账户，请登录测试站点幷选择购买。 预购账户将收取一次性费用。当游戏正式发布时，您的账户就可以立即开始进行游戏。
+
+// game_replay_control.interface
+game_replay_control_speed					速度 
+game_replay_control_viewing					^y正在检视：^* 
+game_replay_control_view_as					检视回放
+game_replay_control_view_as_tip				选择玩家名称时，您将以该玩家的角度查看回放。 如选择观众则可让您从观众角度查看回放。
+game_replay_control_title					回放控制
+game_replay_control_fog						显示战争烟雾
+game_replay_control_fog_tip					选择此选项时，将向选定玩家显示战争烟雾。
+game_replay_control_lockcam					锁定角度
+game_replay_control_lockcam_tip				选择此选项，画面将跟随选定玩家。
+
+// game_loading.interface
+game_loading_button_cancel					取消载入
+
+// game_lobby
+gamelobby_phase_choosing					正在选择
+gamelobby_add_as_friend_tip					加入好友清单
+globby_lock_tip								锁定位置
+globby_unlock_tip							解除锁定位置
+globby_disabled_tip							此游戏模式禁用锁定位置。
+globby_kick_spec_tip						踢出此游戏。
+globby_make_ref_tip							将此玩家指定为裁判
+globby_spot_locked							锁定
+
+gamelobby_add_friend_tip					将 {name} 加入至好友清单
+gamelobby_take_slot_button					占用此玩家的位置
+game_lobby_take_slot_color					占用 {color} 位置
+gamelobby_player_level_tip					玩家级别
+gamelobby_referee_tip						裁判由游戏主机指定。 通常在竞技游戏中使用裁判来加强比赛规则。
+gamelobby_kick_tip							踢出 {name}
+game_lobby_mute								静音/取消静音 {name}
+gamelobby_make_referee_tip					使 {name} 成为裁判
+game_lobby_demote_referee					降低裁判 {name} 的级别
+game_lobby_no_referee						无裁判
+gamelobby_spectators_header					观众
+gamelobby_spectate_button					成为观众
+gamelobby_disconnect_button					中断连线
+gamelobby_disband_game_button				解散游戏
+gamelobby_disband_button					解散
+gamelobby_start_game_button					开始游戏
+gamelobby_private_button					私人游戏
+gamelobby_private_tip_header				私人游戏
+gamelobby_private_tip_text					通过选择此功能，您的游戏将不会显示在游戏列表中，也不会被快速比赛使用。 未受到邀请的玩家将无法加入。
+game_lobby_match_name						^y比赛名称：^* {name}
+game_lobby_server_name						^y服务器：^* {name}
+game_lobby_ping								^yPing：^* {value}ms
+game_lobby_map								^y地图：^* {name}
+game_lobby_match_id_none					^y比赛 ID：^444 <无>
+game_lobby_match_id							^y比赛 ID：^* {value}
+game_lobby_host								^y主机：^* {host}
+game_lobby_num_players						^y玩家：^* {count}/{max}
+game_lobby_version							^y版本：^* {version}
+game_lobby_mode								^y游戏模式：^* {mode}
+game_lobby_options							^y游戏选项：^* {options}
+game_lobby_leave_team_tip					离开此队伍
+game_lobby_prediction_tip					根据公开技能评级 (PSR) 预测此队伍获胜的机会率。
+game_lobby_rank_tip							{name}'s 目前的公开技能评级 (PSR)
+game_lobby_point_value_penalty_tip			由于级别较高，将此玩家的点值降低 ^922{percent}^*。
+game_lobby_psr_value_tip					此玩家的公开技能评级 (PSR)
+game_lobby_rsr_value_tip					此玩家的排名技能评级 (RSR)
+game_lobby_point_value_tip					此玩家的得分数
+game_lobby_locklabel						通过在以下列表中选择玩家，可将玩家锁定在当前位置。 如果玩家被锁定，在使用“平衡队伍”时将不会移动他们。
+game_lobby_locksave							锁定玩家位置
+game_lobby_balanceteams_btn					平衡队伍
+game_lobby_balance_btn						平衡
+game_lobby_lock_tip_label					按一下位置旁边的彩色图标将锁定位置。 除非解锁，否则玩家不能占领此位置。 锁定位置亦能阻止平衡队伍移动占领该位置的玩家。
+game_lobby_host_locked_slot_tip				此位置已被锁上。 按一下此处解锁。玩家不能占领锁定位置，平衡队伍亦不能将玩家移离锁定位置。
+
+game_lobby_host_locks_disabled_tip			选择游戏选项“自动平衡”时，将禁用锁定位置。
+game_lobby_host_open_slot_tip				此位置已解锁。 按一下此处可锁定它。 玩家不能占领锁定位置，且“平衡队伍”无法将玩家移离锁定位置。
+game_lobby_locked_slot_tip					主持已锁定此位置。 玩家不能占领锁定位置，且“平衡队伍”无法将玩家移离锁定位置。
+
+game_lobby_swap_tip							将玩家指定为此颜色
+game_lobby_assign_spectator_tip				将玩家指定为观众
+game_lobby_assign_referee_tip				将玩家指定为裁判
+game_lobby_assign_host_tip					将玩家指定为主持
+game_lobby_kick_tip							踢出此玩家
+
+game_lobby_phase_banning					禁止阶段
+game_lobby_phase_picking					选择阶段
+game_lobby_first_ban						第一个禁止
+
+// game_menu.interface
+game_menu_header							游戏选单
+game_menu_client_functions_header			客户端功能
+game_menu_share_control_header				单位控制分享选项和玩家投票
+game_menu_share_full						全部
+game_menu_share_courier						信使
+game_menu_add_friend_tip					将{player}^* 加入至好友清单
+game_menu_return_button						返回游戏
+game_menu_options_button					选项
+game_menu_disconnect_button					中断连线
+game_menu_concede_button					认输
+game_menu_remake_button						重来
+game_menu_quit_button						退出 HoN
+game_menu_match_id							比赛 ID： {id}
+game_menu_share_control_text				您可与队友分享对单位的控制权。 为了让队友使用您的宠物，与他们分享控制权相当有用。
+game_menu_disband_confirm					是否确定要中断连线？
+game_menu_disconnect_header					确认中断连线
+game_menu_disconnect_confirm				您确定想要中断连线？
+game_menu_disconnect_hide_checkbox			不再显示此消息
+game_menu_disconnect_noleaver				您可中途退出幷不会受到处罚。
+game_menu_leave_percentage_text				您的“中途退出百分比”是计算您在游戏尚未结束前就离开的百分比。  许多玩家会在建立新游戏时设定“中途退出百分比”的限制。  如中途退出的百分比偏高，可能会限制您以后加入设有限制游戏的机会。
+game_menu_quit_header						确认退出
+game_menu_quit_confirm						是否确定要退出到桌面？
+game_menu_leave_rate_text					中途退出率：
+game_menu_empty_slot						-空玩家位置-
+game_menu_leave_rate_label					中途退出率：
+game_menu_dont_show_again					不再显示此消息
+game_menu_kick_tooltip						号召投票表决是否踢出 {player}
+game_menu_kick_disabled_other_vote_tooltip	不能在目前投票未结束前开始新投票。
+game_menu_kick_disabled_cooldown_tooltip	您需要等待 {time} 秒，才能号召其它投票。
+game_menu_remake_tooltip					按此按钮将启动表决是否重新比赛的投票。 所有玩家都必须投票一致，才能通过投票。 重新比赛会将所有玩家都退回大厅，就像游戏从来未开始一样。
+game_menu_concede_tooltip					按此按钮将启动表决是否承认比赛失败的投票。 您的队伍必须投票一致，才能通过投票。 认输视为输。但是承认比赛失败后，任何人都可自由离开，不会遭到任何处罚。
+game_menu_currentleavepercent				目前中途退出百分比：
+game_menu_newleavepercent					新中途退出百分比：
+game_menu_newleavethreshold					新中途退出起增点：
+game_menu_endmatch							结束比赛选项
+game_menu_endmatch_description				如果符合相应标准，您可结束目前的游戏。 可能需要投票才能重新比赛或认输。
+game_menu_flow								暂停选项
+game_menu_flow_description					您可随时暂停，但需要队伍投票。
+game_menu_pause_button						暂停
+game_menu_pause_tooltip						按此按钮将启动表决是否暂停比赛的投票。 您的队伍必须投票一致，才能通过投票。将在投票通过后 5 秒内暂停。
+game_menu_unpause_button					取消暂停
+game_menu_unpause_tooltip					按此按钮将在 5 秒内取消游戏暂停。 暂停游戏的队伍可随时取消暂停。 在取消暂停前，敌方队伍必须等待 1 分钟。
+game_menu_moved_title						共享、重新比赛、认输和暂停已移动！
+game_menu_moved								要共享控制，请使用游戏屏幕左上角队伍面板中的按钮。 要重新比赛、认输或暂停，请开启游戏屏幕右上角中的记分板。
+
+// game_vote.package
+vote_concede								认输？
+vote_remake									重来？
+vote_kick									踢出 {target}^*?
+vote_pause									暂停？
+
+// alt_info_hero.interface
+alt_info_hero_level							级别 {level}
+
+// cc_panel.interface
+cc_panel_unread_im							您有一封未读取的即时讯息。
+cc_panel_unread_ims							您有 {count} 封未读取的即时讯息。
+cc_panel_invited							^y{player}^* 邀请您加入游戏 ^y'{game}'^*
+cc_panel_resize								调整大小
+cc_panel_leaveclan							确认派系状态变更
+cc_panel_leaveclantxt						是否确定要离开此派系？ 离开派系后，必须获得派系官员的重新邀请。
+cc_panel_leave_button						是，离开派系
+
+// tos.package
+tos_header									服务条款
+tos_close_window							关闭窗口
+
+// game_upgrade.interface
+game_upgrade_header							升级成主要账号
+game_upgrade_benefits_header				升级优势
+
+// main_create_account.package
+main_create_account_header					建立账号
+main_create_account_details_header			账号详细资料
+main_create_account_referral_header			转介账号
+main_create_account_tos_header				账号建立规定
+main_create_account_nickname_check			正在检查昵称...
+main_create_account_nickname_available		可用的昵称
+main_create_account_processing_header		正在处理窗体...
+main_create_account_creating_account		正在建立账号...
+main_create_account_upgrade_header			升级为完整账号
+main_create_account_success_header			账号已建立
+main_create_account_first_name				姓氏
+main_create_account_first_name_tip			请输入您的姓氏。
+main_create_account_last_name				名字
+main_create_account_last_name_tip			请输入您的名字。
+main_create_account_email					电子邮件地址
+main_create_account_email_tip				请输入您的电子邮件地址。
+main_create_account_confirm_email			确认电子邮件
+main_create_account_confirm_email_tip		请再次输入您的电子邮件地址。
+main_create_account_password				密码
+main_create_account_password_tip			指定密码。
+main_create_account_confirm_password		确认密码
+main_create_account_confirm_password_tip	请再次输入您的密码。
+main_create_account_referer					参考账号
+main_create_account_referer_tip				参考账号工具提示
+main_create_account_result_email			电子邮件：{email}
+main_create_account_result_password			密码：{password}
+main_create_account_welcome					欢迎 {name}！
+
+// player_stats.package
+player_stats_lifetime_header				生命周期统计资料
+player_stats_averages_header				平均游戏统计数据
+player_stats_next_level						下一级总经验值
+player_stats_next_level_needed				下一级所需经验值
+player_stats_wins							胜利次数
+player_stats_losses							战败次数
+player_stats_disconnects					中断连线次数
+player_stats_win_percent					{percent}%
+player_stats_leave_percent					中途退出比例
+player_stats_winning_percentage				胜利 %%
+player_stats_matches						比赛次数
+player_stats_concede						认输
+player_stats_em_matches						简单模式比赛 %%
+player_stats_em_matches_percent				{percent}%
+player_stats_karma							运气
+player_stats_last_match						^y上次活动：^* {last}
+player_stats_account_age					^y建立账户：^* {age}
+player_stats_header							玩家统计资料
+player_stats_experience_earned				已获取经验
+player_stats_experience_per_minute			经验 / 分钟
+player_stats_deaths							死亡
+player_stats_gold_earned					已获取金币
+player_stats_gold_spent						已花费金币
+player_stats_actions_per_minute				行动 / 分钟
+player_stats_gold_lost						已失去金币
+player_stats_gold_per_minute				金币/ 分钟
+player_stats_time_played					游戏时间
+player_stats_enemy_heroes					敌方英雄
+player_stats_enemy_buildings				敌方建筑
+player_stats_team_creeps					队伍部队
+player_stats_neutral_creeps					中立部队
+player_stats_denies_header					抢先杀死的部队
+player_stats_damage							损害
+player_stats_razes							拆毁
+player_stats_kills							杀死人数
+player_stats_kd_ratio						K：D 比率
+player_stats_assists						协助次数
+player_stats_gold							金币
+player_stats_deny_count						抢先杀死次数
+player_stats_deny_xp						抢先杀死经验值
+player_stats_clan_name						派系：{clan}
+player_stats_level							玩家级别
+player_stats_rank							排名：{rank}
+player_stats_psr							PSR
+player_stats_wards							安排的守卫
+player_stats_apm							APM
+player_avg_game_length						游戏时长
+player_avg_kda								K  /  D  /  A
+player_avg_creep_kills						部队击杀
+player_avg_creep_denies						部队抢先杀死
+player_stats_mostplayed						最多人玩的英雄
+player_stats_nohistory						此玩家无比赛历史记录可显示。
+player_stats_public_游戏					显示公开游戏的统计
+player_stats_public_games_msg				按一下这里来检视无排名（公开）比赛的统计资料。
+player_stats_ranked_games					显示排名比赛的统计
+player_stats_ranked_games_msg				按一下此处可查看排名比赛的统计资料。
+player_stats_fetch							撷取统计资料
+player_stats_fetch_msg						输入玩家的名字以检视其统计资料。
+player_stats_matchid						比赛 ID
+player_stats_from							显示统计数据来源：
+player_stats_player_name					玩家名称：
+player_stats_last_20_matches				前 20 场比赛
+player_stats_smr_tmr						SMR / TMR
+
+// game_setup.package
+game_setup_spcectators_label				观众
+game_setup_spectators_tip					设定观众位置的数量。 观众可以加入游戏，幷在不与其它玩家互动的情况下观看游戏。
+game_setup_referees_label					裁判
+game_setup_referees_tip						设定裁判位置的数量。 裁判可以踢走玩家、暂停游戏、幷解除玩家的异常状态。
+game_setup_team_size_label					队伍人数
+game_setup_team_size_tip					每个队伍中的玩家数。
+game_setup_tier_label						级别
+game_setup_tier_tip							根据特定级别限制服务器。\n\n^y仅限新手^* - 只有总账户经验级别较低的账户才可以进行比赛。\n^y允许新手^* - 任何经验级别的玩家都可以进行比赛。\n^y高级玩家^* - 只有整体经验级别较高的账户才可以进行比赛。
+game_setup_map_label						地图
+game_setup_map_tip							选择游戏地图。
+game_setup_type_label						游戏模式
+game_setup_type_tip							游戏模式通常会改变英雄选择方式。\n\n^y普通^* - 标准英雄选择。\n^y随机选择^* - 将英雄选择限制为 20 位英雄，然后在玩家之间交替选择。\n^y单一选择^* - 每名玩家可以选择一位敏捷型英雄，一位智力型英雄或一位力量型英雄。\n^y禁止选择^* - 与随机选择相同，蓝方和粉红方先轮流禁止共 4 位英雄。\n^y禁止选择^* - 蓝方和分红方轮流禁止共 6 位英雄，然后玩家交替从剩余英雄人选中选择。
+
+// keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
+game_setup_select_server_label				选择服务器
+game_setup_select_server_tip				^!y自动^* 将选择位于上次通过 “浏览...” 选择的地区（如有）的游戏服务器。\n\n^!y浏览...^* 将让您可以手动从指定地区选择服务器。\n\n^!y练习^* 将让您可以在本地服务器启动单玩家练习游戏。
+game_setup_姓名_label						游戏名称
+game_setup_private							私人游戏
+game_setup_private_tip						通过选择此功能，您的游戏将不会显示在游戏列表中，也不会被快速比赛使用。  此功能最好用于创建游戏以让好友加入。  可在游戏大厅更改此选项。
+
+game_setup_no_leavers						不能中途退出
+game_setup_no_leavers_tip					中途退出百分比较高的玩家无法加入此游戏。
+game_setup_record_stats						记录统计数据
+game_setup_record_stats_tip					记录这场比赛的统计资料。
+game_setup_local							本机
+game_setup_automatic						自动
+game_setup_browse							浏览...
+game_setup_one_v_one						一对一
+game_setup_two_v_two						二对二
+game_setup_three_v_three					三对三
+game_setup_four_v_four						四对四
+game_setup_five_v_five						五对五
+game_setup_normal							普通
+game_setup_random_draft						随机征兵
+game_setup_single_draft						单一征兵
+game_setup_banningdraft						禁止征兵
+game_setup_banningpick						禁止选择
+game_setup_captainsdraft					队长征兵
+game_setup_captainsmode						队长模式
+game_setup_deathmatch						死亡竞赛
+game_setup_advanced_options					显示进阶游戏选项
+game_setup_custom_post						次要统计统计资料提交
+game_setup_custom_post_tip					游戏会将游戏统计发送至额外的服务器。(进阶用户)
+game_setup_custom_post_URL					脚本URL
+game_setup_custom_post_save_btn				设定Post URL
+game_setup_custom_post_description			您可按自己喜好将此游戏的统计提交至选择的 URL。  此 URL 应该是一个程序编码，包含此比赛的所有统计的 Post 提交脚本。  要了解有关统计数组和代码示例的详细信息，请到 ^yhttp://www.heroesofnewerth.com/submitstats.php^*
+game_setup_practice							练习
+
+// tooltips
+tooltip_passive_bonuses						被动的额外红利
+tooltip_aura								光环
+tooltip_aura_effects						光环效果
+tooltip_activation							启用
+tooltip_activation1							启用  [^y{key1}^*]
+tooltip_activation2							启用  [^y{key1}^*, ^y{key2}^*]
+tooltip_ally_abilities						技能
+tooltip_ally_attributes						属性
+tooltip_attack_info							攻击信息
+tooltip_attribute_info						属性信息
+tooltip_defense_info						防御信息
+tooltip_experience_info						经验值信息
+tooltip_strength_info						力量额外点数
+tooltip_agility_info						敏捷度额外点数
+tooltip_intelligence_info					智力额外点数
+tooltip_level								级别 {level}
+tooltip_unleveled							不分级别
+tooltip_move_speed							移动速度：
+tooltip_mana								法力值：
+tooltip_mana_regen							法力值回复：
+tooltip_value								值：
+tooltip_type								类型： 
+tooltip_range								范围：
+tooltip_radius								半径：
+tooltip_channeling_time						引导时间：{time} 秒
+tooltip_mana_cost							法力值成本： 
+tooltip_mana_upkeep							维持法力值：每秒 {value}
+tooltip_triggered_mana_cost					冷却时间： {time} 秒
+tooltip_cooldown							冷却时间： {time} seconds
+tooltip_health								生命值：
+tooltip_health_regen						生命值回复：
+tooltip_total_experience					经验值： 
+tooltip_next_level							下一级别：
+tooltip_armor								防御力： 
+tooltip_armor_msg							较高的防御力将降低英雄将吸取的物理伤害值。tooltip_damage_reduction					伤害减免：^y
+tooltip_magic_armor							魔法防御力：
+tooltip_magic_armor_msg						较高的魔法防御力将降低英雄从某些法术和技能中吸取的伤害值。
+tooltip_magic_damage_reduction				魔法伤害减免：^y
+tooltip_combat_type							战斗类型：
+tooltip_primary_attribute					主要属性：
+tooltip_strength_per_level					每级力量：
+tooltip_agility_per_level					每级敏捷：
+tooltip_intelligence_per_level				每级智力：
+tooltip_strength							力量：
+tooltip_strenght_msg						每点力量都将增加英雄的最大生命值和生命值回复率。
+tooltip_agility								敏捷度： 
+tooltip_agility_msg							每点敏捷都将增加英雄的防御力和攻击速度。
+tooltip_intelligence						智力： 
+tooltip_intelligence_msg					每点智力都将增加英雄的最大法力值和法力值回复率。
+tooltip_damage								损害： 
+tooltip_attack_speed						攻击速度： 
+tooltip_attack_speed_msg					此值说明此英雄每秒的攻击次数。
+tooltip_cast_speed							施法速度：
+tooltip_attack_type							攻击类型： 
+tooltip_attack_msg							这是英雄使用的攻击类型。  近战攻击者近距离战斗，而远程攻击者从远处攻击。
+tooltip_base_attack_cooldown				基础攻击冷却时间：{time} 秒
+tooltip_attack_cooldown						攻击冷却时间： ^y{time} 秒
+tooltip_attacks_per_second					每秒攻击 ^y{value}^*
+tooltip_gold								金币： 
+tooltip_label_changecolors					打开/ 关闭独特玩家颜色
+tooltip_combattype							战斗类型：
+tooltip_movespeed							移动速度
+tooltip_movespeed_msg						这是英雄相对于其它英雄的移动速度。
+tooltip_teamshare							切换与队伍共享的信使
+tooltip_miniscore							切换小记分板
+tooltip_fullscore							切换完整记分板和游戏控件
+tooltip_hide_score_controls					隐藏游戏控制
+tooltip_show_score_controls					显示游戏控制
+
+tooltip_viewstats							检视统计资料
+tooltip_purchase							购买HoN
+tooltip_logout								注销
+tooltip_options								选项
+tooltip_offlinereplays						本机回放
+tooltip_changelog							变更日志
+tooltip_lang								语言
+tooltip_players_online						在线玩家
+tooltip_friends								好友
+tooltip_clan								派系
+tooltip_ims									收到的实时讯息
+tooltip_notifications						通知已收到
+tooltip_autoconnect_title					自动连线
+tooltip_autoconnect							选择此选项，每次登录时将连至此频道。
+tooltip_recitems							建议物品
+tooltip_recitems_msg						建议将这些物品用于此英雄...
+tooltip_prim_attrib							主要属性
+tooltip_prim_attrib_msg						这是主要物品或内容。
+tooltip_dps									每秒伤害
+tooltip_dps_msg								这是在考虑目标的防御力和技能之前，此英雄每秒造成的平均伤害。
+tooltip_attack_dmg							攻击损害
+tooltip_attack_dmg_msg						这是在考虑目标的防御力和技能之前，此英雄每次攻击造成的平均伤害。
+tooltip_total_health						总生命值
+tooltip_total_health_msg					此值是指此英雄具有的生命值，表示在被杀死前英雄可承受的伤害。
+tooltip_total_mana							总法力值
+tooltip_total_mana_msg						此值是指英雄具有的法力值。  英雄使用其技能或释放法术时，将消耗法力值。
+tooltip_attack_range						攻击范围
+tooltip_attack_range_msg					此值是指英雄可成功攻击的最大目标距离。  此值通常对大部分启动技能和法术的范围没有影响。
+tooltip_lvl_controls						级别与背包控制
+tooltip_lvl_controls_msg					查看物品与级别对您的角色的影响。
+tooltip_total_cost							总成本
+tooltip_total_cost_msg						此为在您的英雄背包中所有物品的总成本。
+tooltip_hero_announcement					英雄宣告
+tooltip_hero_announcement_msg				按一下这里来听播音员说这位英雄的名称。
+tooltip_hero_lvl							英雄级别
+tooltip_hero_lvl_msg						这是您目前正在检视的英雄级别。  您可增加及减少英雄的级别，来查看比赛过程中英雄属性的变更。
+tooltip_increase_lvl						增加级别
+tooltip_increase_lvl_msg					按一下这里来增加您正在检视的英雄级别。
+tooltip_decrease_lvl						减少级别
+tooltip_decrease_lvl_msg					按一下这里来减少您正在检视的英雄级别。
+tooltip_reset_lvl							重设级别
+tooltip_reset_lvl_msg						按一下这里来重设英雄的级别回到 1。
+tooltip_open_shop							开启商店
+tooltip_open_shop_msg						按一下这里来开启商店接口，幷将物品加入所选英雄的背包。
+tooltip_reset_inv							重设背包
+tooltip_reset_inv_msg						按一下这里来清除所选英雄的背包。
+tooltip_detailed_hero_list					详细英雄清单
+tooltip_detailed_hero_list_msg				此清单会显示各个英雄的详细信息，您可选取清单内的英雄，以前往主英雄信息页面。
+tooltip_simple_hero_list					简单英雄清单
+tooltip_simple_hero_list_msg				此清单为所有英雄的简化显示。  按一下此清单内的英雄，以检视英雄的详细信息。
+tooltip_sort_name							按英雄名称排序
+tooltip_sort_name_msg						按一下这里来按英雄名称排序英雄清单。
+tooltip_sort_primary						按主要属性排序
+tooltip_sort_primary_msg					按一下这里来按主要属性排序英雄清单 (力量、敏捷度或智力)。
+tooltip_sort_attack							按攻击类型排序
+tooltip_sort_attack_msg						按一下这里来按攻击类型排序英雄清单 (近战或远距)。
+tooltip_sort_str							按力量排序
+tooltip_sort_str_msg						按一下这里来按力量排序英雄清单。
+tooltip_sort_agi							按敏捷度排序
+tooltip_sort_agi_msg						按一下这里来按敏捷度排序英雄清单。
+tooltip_sort_int							按智力排序
+tooltip_sort_int_msg						按一下这里来按智力排序英雄清单。
+tooltip_sort_armor							按防御力排序
+tooltip_sort_armor_msg						按一下这里来按防御力排序英雄清单。
+tooltip_sort_magi_armor						按神奇防御力排序
+tooltip_sort_magi_armor_msg					按一下这里来按神奇防御力排序英雄清单。
+tooltip_sort_movement						按移动速度排序
+tooltip_sort_movement_msg					按一下这里来按移动速度排序英雄清单。
+tooltip_sort_dps							按平均损害排序
+tooltip_sort_dps_msg						按一下这里来按每秒平均损害排序英雄清单 (DPS)。
+tooltip_hero_abils							英雄技能
+tooltip_hero_abils_msg						本字段列出每个英雄的 4 种技能。  在每个技能图示上停留会出现技能的说明。
+tooltip_faction								英雄派别
+tooltip_faction_msg							此图示代表英雄所属的联盟派别。  绿色的图示表示英雄与联盟军团 4结盟，而红色的图示表示英雄与地狱族结盟。
+tooltip_extras								按一下开启账号额外选单。
+tooltip_sort_dmg							依攻击损害排序
+tooltip_sort_dmg_msg						按一下这里来按攻击损害排序英雄清单。
+
+tooltip_report								报告滥用行为
+
+// ui_items.package
+ui_items_friend_clan_label					派系
+ui_items_friend_no_clan_label				无
+ui_items_friend_server_label				^y服务器： ^*
+ui_items_friend_game_time_label				^y游戏时间：^*
+ui_items_friend_right_click_label			按右键取得选项
+ui_items_slider_low							低
+ui_items_slider_high						高
+ui_items_cc_right_click_send_message		传送讯息
+ui_items_cc_right_click_follow				跟随
+ui_items_cc_right_click_unfollow			不跟随
+ui_items_cc_right_click_加入g_game			加入游戏
+ui_items_cc_right_click_message_clan		向整个派系传送讯息
+ui_items_cc_right_click_view_stats			检视统计资料
+ui_items_cc_right_click_add_buddy			加入好友
+ui_items_cc_right_click_remove_buddy		移除好友
+ui_items_cc_right_click_remove_buddytxt		您确定要移除此好友？
+ui_items_cc_right_click_invite_to_game		邀请加入游戏
+ui_items_cc_right_click_user_info			用户信息
+ui_items_cc_right_click_channel_kick		自频道踢出 
+ui_items_cc_right_click_channel_ban			遭频道禁止
+ui_items_cc_right_click_channel_silence		让用户沉默
+ui_items_cc_right_click_ignore				忽略
+ui_items_cc_right_click_ignoretxt			您确定要忽略这位玩家？
+ui_items_cc_right_click_unignore			取消忽略
+ui_items_cc_right_click_addban				加入黑名单
+ui_items_cc_right_click_addbantxt			您确定要将这位玩家加入黑名单？
+ui_items_cc_right_click_remban				自黑名单移除
+ui_items_cc_right_click_channel_promote		晋级 (频道)
+ui_items_cc_right_click_channel_demote		降级 (频道)
+ui_items_cc_right_click_clan_promote		晋级 (派系)
+ui_items_cc_right_click_clan_demote			降级 (派系)
+ui_items_cc_right_click_clan_remove			从派系移除
+ui_items_cc_right_click_clan_removetxt		您确定想要移除此派系的成员？
+ui_items_cc_right_click_clan_invite			邀请加入派系
+ui_items_cc_right_click_clan_leave			离开派系
+ui_items_cc_friends_online					在线好友
+ui_items_cc_friends_in_game					游戏中的好友
+ui_items_cc_ friends_offline					离线好友
+ui_items_cc_clan_online						在线成员
+ui_items_cc_clan_in_game					游戏中的成员
+ui_items_cc_clan_offline					离线成员
+ui_items_chat_leavechan						离开此频道
+ui_items_patchupdate						更新您的客户端？
+ui_items_patchupdatetxt						在更新成新的修补程序前，将中断您的客户端连线。  是否要继续？
+
+// player_statistics.package
+player_statistics_name						统计资料：^w{name}
+player_statistics_skill_factor				SF：^w{value}
+
+// private_chatpass.package
+private_chat_header							私人聊天密码
+private_chat								您必须输入密码以进入此私人聊天室。
+private_chat_btn							加入频道
+
+// Clan invites
+clan_invite_body_label				{inviter} 邀请您加入派系 {clan}。
+clan_invite_header_label			派系邀请
+chat_success_clan_name_tip			派系名称与标签均可用。
+
+Shop_Accessories_description									普通商人有大量主要可提高基本数值的小饰品和珠宝。
+Shop_Recipes1_description										精炼商人有可帮助刚开始历险的英雄制作大部份的基本物品。
+Shop_Recipes2_description										援护法商有可帮助队伍的物品。Shop_Recipes3_description										防护商人有可提高存活率的物品。Shop_Recipes4_description										远古遗物有增强英雄战斗力的物品，可提高伤害产生力。
+Shop_Recipes5_description										神兵利器有能修改或增加英雄攻击属性的道具。
+Shop_Recommended_description									建议商品多是对抗敌人可靠又好用的物品。
+Shop_Relics_description											地精商人出售各种有不同效果的稀有神器。
+Shop_Secret_description											阴暗诡异的神秘商人出售多种罕见且强大的神器。 玩家必须冒险进入丛林才能找到隐秘的神秘商店。
+Shop_Supplies_description										物资商人出售多种使用后就耗尽的物品和药水。
+Shop_Weapons_description										武器商人出售各种可提高伤害或防御力的护甲和武器。
+Shop_Outpost_description										战地商人出售多种基本(非配方) 物品，大部份物品都是建立配方时的组件部份有用
+
+game_command_tooltip_name_move			移动
+game_command_tooltip_name_attack		攻击
+game_command_tooltip_name_stop			停止
+game_command_tooltip_name_hold			停留
+game_command_tooltip_name_patrol		巡逻
+game_command_tooltip_name_taunt			嘲讽
+game_command_tooltip_desc_move			移动单位至目标位置。
+game_command_tooltip_desc_attack		发出攻击命令。 您的单位将移至该区域或目标单位幷进行攻击。
+game_command_tooltip_desc_stop			阻止您的单位完成此前发出的所有命令。
+game_command_tooltip_desc_hold			占领位置，不会攻击任何单位。
+game_command_tooltip_desc_patrol		单位将在当前位置和目标位置之间前后移动。
+game_command_tooltip_desc_taunt			嘲讽目标敌方英雄。 嘲讽时，您将显现给您的目标队伍。 在 30 秒内杀死嘲讽目标可造成猛击。
+
+// main_passchange.package
+main_passchange_title						密码必须更新
+main_passchange_expired						您的密码已到期或即将到期！
+main_passchange_expired_txt					您的密码过期后，您就无法再玩「纽沃斯英雄」，直至更改密码。  请现在选择新密码，避免被中断游戏。
+
+main_passchange_note						^y注意：^* 您无法再次使用您的旧密码，而您的新密码必须至少有 6 个字符的长度。
+main_passchange_newpass						新密码
+main_passchange_newpass2					确认密码
+main_passchange_btn							设定新密码
+main_passchange_cancel						取消，不是现在
+
+// patchnotes.package
+patchnotes_title						修补程序附注
+patchnotes_close_btn					关闭
+patchnotes_latest_button				最新
+patchnotes_history_button				记录
+
+// System dates
+weekday_unknown					未知
+weekday_sunday					星期日
+weekday_monday					星期一
+weekday_tuesday					星期二
+weekday_wednesday				星期三
+weekday_thursday				星期四
+weekday_friday					星期五
+weekday_saturday				星期六
+
+weekday_unknown_short				未知
+weekday_sunday_short				日
+weekday_monday_short				一
+weekday_tuesday_short				二
+weekday_wednesday_short				三
+weekday_thursday_short				四
+weekday_friday_short				五
+weekday_saturday_short				六
+
+loading_tiptitle				游戏提示
+loading_tip1					使用商店时按住 ^gCONTROL^* 将显示配方滚动，而不是物品，让您可以快速购买配方。
+loading_tip2					使用技能时，可按住 ^gSHIFT^* 幷选择其它技能，将其放在技能队列中。 完成第一个技能后，第二个技能将在其后立即启动。
+loading_tip3					您可以攻击比自己生命值较低的部队。 如果您杀死它们，将是“抢先杀死”，而周围敌人获得的经验将比正常要少。
+loading_tip4					如果您攻击生命值较低的塔幷摧毁它，敌方队伍获得的金币将比他们自己摧毁它要少。
+loading_tip5					在游戏中键入 /matchup 或 /ma 将打印包含所有玩家、英雄、级别和玩家颜色的列表。
+loading_tip6					通过在 ^g右键 ^g按一下^* 物品时按住 ^gSHIFT^* 和 ^gCONTROL^*，可以销售储藏点中的物品。
+loading_tip7					通过按住 ^gCONTROL^* 幷 ^g右键 ^g按一下^* 物品，可在储藏点和背包之间快速转移物品。
+loading_tip8					忘记您英雄的位置？ 点按 ^gC^* 键将在屏幕中间显示您的英雄。
+loading_tip9					魔法防御力可减少您从魔法伤害中吸取的伤害，其中包括许多法术和技能。
+loading_tip10					请务必具备至少一块传送之石。 您永远不会知道何时需要在地图另一边附守或使用它来避免遭到趁机攻击。
+loading_tip11					停守原地（预设为 ^gH^*）将阻止您的英雄攻击或移动，让您可以更精准地攻击。
+loading_tip12					通过按一下屏幕左侧图片上面的小箭头，可快速地与其它玩家分享信使的控制权。
+loading_tip13					真视守卫是种便宜而又能有效地观察敌人走向及其同伴的好方法。
+loading_tip14					游戏开始时，不要在没有自我治疗方法时离开基地。
+loading_tip15					Kongor 将在被杀后 10 分钟内重生，幷收回未使用的生命标记。
+loading_tip16					Kongor 被杀时将掉落生命标记。 标记将立即复活死掉的持有者，但只能用一次。
+loading_tip17					恐吓Chiprel！
+loading_tip18					河里将每两分钟产生一次加强型物品，让您可以提高移动速度、隐形、回复、双倍伤害或幻象。
+loading_tip19					只要附近没有任何阻挡，中立部队就会每分钟重生一次。
+loading_tip20					可以在购买后的 15 秒内全额退回已购物品。
+loading_tip21					杀死整个敌方队伍称为种族灭绝。
+loading_tip22					在游戏刚开始时，您不能承受许多次击中，因此务必站在部队后面，避免造成太大伤害。
+loading_tip23					敌方队伍具有隐形英雄时，请使用显影之尘、真现守卫或蓝焰之眼来显现他们。
+loading_tip24					配方本身没有用处，您需要所有组件才能使其发挥作用。
+loading_tip25					在游戏初期，如果您通道中的敌方英雄突然消失，请务必让您的队伍知道。 这可防止他们意外被杀。
+loading_tip26					队伍协作是获胜的重要关键。 如果您发现自己单独时经常被杀，请与盟友在一起。
+loading_tip27					观看小地图。 这是了解敌人位置的绝佳工具。 注意在您通道上消失的敌方英雄或帮助您的盟友。
+loading_tip28					沟通很重要。 和您的队友保持联络、呼叫求助或在其它玩家呼叫有英雄消失时倾听。
+loading_tip29					如要 Ping 小地图幷提醒您的队伍，请按住 ^gALT^* 幷按一下某个区域！
+loading_tip30					英雄的玩法有很多种。 尝试选择您平常不太常用的各种物品。
+loading_tip31					信使可利用喷水池的水填满瓶子。
+loading_tip32					攻击正将注意力放在您队友身上（因此而忽略您）的敌方通常能扭转局势。利用敌人注意力分散的时机，让您自己占领先机。
+loading_tip33					您可进入树木中很多地方隐藏或走快捷方式。 了解这些地方的位置将大幅提高您的生存几率。
+loading_tip34					您在技能描述中读到“高级魔法”时，表示该技能将影响目标，即使它具有魔法免疫效果。
+loading_tip35					通过点选显示在左上角的队友图像，了解您的队伍有哪些技能正在冷却。
+loading_tip36					如果您在战斗早期就使用伤害较高的核弹，而不是等到战斗后期才使用，您的队伍将会更欣赏您。
+loading_tip37					您可在屏幕左上角看到盟友的金币、技能、生命值和法力值。 如果您选择他们的英雄，则可看到他们的物品。
+loading_tip38					不要害怕失败。 良好的判断来自经验的积累，而经验则来自判断错误。 每个人都曾经是新人。
+loading_tip39					待别人好一点！ 如果您对着别人咆哮，该玩家通常都会忽略建议。 尝试以礼貌的口吻说话，给别人建议，而不是命令别人。
+loading_tip40					在游戏中键入 /gameinfo 或 /gi 将打印包含当前游戏选项的列表。
+loading_tip41					在此提示方块上按一下将显示新的提示。
+loading_tip42					如果在游戏浏览器接口上选择 ^!y地区^* 幷启用“筛选预先查询”点算空格，则可较快地浏览和重新整理游戏。
+loading_tip43					游戏中弹出消息时，可在上面的任何位置 ^g右键 ^g按一下^* 以关闭它，而无需按一下 X 按钮。
+loading_tip44					通过按一下“选项”，然后导航至“接口”选项卡，可以打开或关闭特定通知，或在游戏中禁用通知。
+loading_tip45					每支队伍在每场游戏中都只能最多暂停 3 次。 请谨慎使用暂停次数！
+
+// increment this to (n - 1) when new tips are added to dynamically update the interface
+loading_tip_total				44
+
+// Matchmaking
+amm_title									自动配对
+amm_jumptier__tip_title						立即加入
+amm_jumptier_tip							按一下此按钮将自动加入在此RSR差异级别的排名比赛。
+amm_stats_header							配对统计资料
+
+main_lobby_amm_header						已排名游戏
+main_lobby_amm_region_header				搜寻地区
+main_lobby_amm_region_test					测试
+main_lobby_amm_region_usw					美国西部
+main_lobby_amm_region_usc					美国中部
+main_lobby_amm_region_uss					美国南部
+main_lobby_amm_region_use					美国东部
+main_lobby_amm_region_eu					欧洲
+main_lobby_amm_region_uk					英国
+main_lobby_amm_region_nl					荷兰
+main_lobby_amm_region_de					德国
+main_lobby_amm_region_japan					日本
+main_lobby_amm_region_south_africa			南非
+main_lobby_amm_region_sea					东南亚
+main_lobby_amm_region_australia				澳大利亚
+main_lobby_amm_region_indonesia				印度尼西亚
+main_lobby_amm_find_team					寻找队伍
+main_lobby_amm_join_team					加入队伍区
+main_lobby_amm_join_solo					加入单人区
+main_lobby_amm_join_solo_progress			正在加入...
+main_lobby_amm_current_wait					已等待： {time}
+main_lobby_amm_status_not_in_pool			不在选择区中！
+main_lobby_amm_status_requested_match		正在加入比赛配对区...
+main_lobby_amm_status_in_pool				正在寻找玩家...
+main_lobby_amm_looking_for_server			找到比赛！正在寻找服务器...
+main_lobby_amm_waiting_for_server			找到比赛！ 正在等待服务器启动...
+main_lobby_amm_waiting_for_players			正在等待其它玩家...
+main_lobby_amm_stats_header					统计资料
+main_lobby_amm_solo_matches					比赛次数： {count}
+main_lobby_amm_solo_rating					评比： {value}
+main_lobby_amm_team_matches					队伍比赛次数： {count}
+main_lobby_amm_team_rating					队伍评级： {value}
+
+matchmaker_message_header					配对状态
+matchmaker_alert_join_failed				无法加入配对区。
+matchmaker_alert_no_server_found			无法找到这场比赛的服务器。
+matchmaker_alert_server_failed_to_start		服务器无法启动。
+matchamaker_connected_content				您已连接，正在等待其它玩家完成载入。 所有客户端都加载后，将可选择英雄。 请耐心等待...
+matchmaker_alert_leaver_msg					从此队列中断连线将会在您的统计资料中增加中途退出记录一次！
+matchmaker_alert_discoed_tip				此玩家无法成功载入。 将寻求新玩家来填充此位置。matchmaker_alert_key_loading				正在载入
+matchmaker_alert_key_loaded					已载入
+matchmaker_alert_key_failed					失败
+matchmaker_reject_unknown					已被拒绝加入配对区。
+matchmaker_reject_disabled					配对功能目前不能使用。
+matchmaker_reject_leaver					您有太多中途离开的记录，无法使用配对功能。
+matchmaker_reject_no_region					在加入前，您必须从地图选择一个或多个地区。 您希望玩的地区是绿色。
+
+matchmaker_status_msg						比赛系统当前正在为您的游戏寻找玩家。 找到 10 个合适玩家后，将选择服务器，所有玩家都将开始连接。
+matchmaker_status_leaver_msg				找到全部 10 个玩家且开始载入后，所有中途离开次数都会记录至统计数据！
+
+matchmaker_title							选择初始比赛评级 (SMR)
+matchmaker_beginner							初学者
+matchmaker_beginner_desc					此选项会让您与其它初学者比赛的次数较多。 如果您是「纽沃斯英雄」的新手，又不太熟悉玩法，请选择此选项。
+matchmaker_beginner_btn						我是初学者
+matchmaker_intermediate						中级
+matchmaker_intermediate_desc				此选项会让您与其它中级玩家比赛的次数较多。 如果您熟悉「纽沃斯英雄」的玩法且具有中级经验，请选择此选项。
+matchmaker_intermediate_btn					我是中级
+matchmaker_expert							高水平
+matchmaker_expert_desc						此选项会让您与高水平技术的玩家比赛。 如果您没有丰富的「纽沃斯英雄」的游戏经验，选择此选项将会令您觉得游戏很困难又一点都不好玩。
+matchmaker_expert_btn						我是高水平
+matchmaker_initial_rating_description		请选择您的技能水平，以设置您的初始 SMR。 选择相应级别将让您更能享受游戏。 如果选择的级别不合适，您或其它玩家都会觉得游戏不好玩。
+matchmaker_leaver_description				^922您中途退出。
+matchmaker_not_leaver_description			您信誉良好。
+matchmaker_provisional_description			您剩余 {count} 场临时游戏。
+
+// communicator.package
+irc_join_create_tip_title					加入 / 建立聊天室
+irc_join_create_tip							输入聊天室的名称来加入。 若该聊天室不存在，则将加以建立。
+irc_status_chan								状态
+
+amm_chat_block_msg							所有玩家都成功连接后，您便可以聊天。
+amm_chat_wait_msg							玩家目前正在连接。 请耐心等待所有玩家连接成功。 待所有玩家都连接后，将立即可选择英雄。  此时，您中途退出游戏都将在您的统计中添加断开连接。
+amm_chat_drops_msg							{X} 名玩家未从队列中加入比赛，将使用当前位于队列中的其它玩家替代他们。  请耐心等待，这可能需要比较长的时间。
+
+//notifications.package
+notify_join_game							加入此游戏
+notify_view_tournaments						检视联赛
+notify_join_chan							加入频道
+notify_view_results							检视游戏结果
+
+// New notification strings    situation = title, dependent = text line 1, info = text line 2
+
+// 0
+notify_unknown_title						未知
+notify_unknown_text							缺少通知类型
+
+// 1 added you to their buddy list
+notify_buddy_adder_situation				已加入好友
+notify_buddy_adder_dependent						
+notify_buddy_adder_info						您们现在是好友。
+
+// 2 was added to your buddy list
+notify_buddy_added_situation				已加入好友
+notify_buddy_added_dependent				
+notify_buddy_added_info						您们现在是好友。
+
+// 3
+notify_buddy_remover_situation				移除好友
+notify_buddy_remover_dependent				
+notify_buddy_remover_info					自您的好友清单移除。
+
+// 4
+notify_buddy_removed_situation				移除好友
+notify_buddy_removed_dependent				{name}				
+notify_buddy_removed_info					自您的好友清单移除。
+
+// 5
+notify_clan_rank_situation					派系级别变更
+notify_clan_rank_dependent					
+notify_clan_rank_info						被变更为「{rank}」。
+
+// 6
+notify_clan_add_situation					加入派系
+notify_clan_add_dependent					
+notify_clan_add_info						加入派系。
+
+// 7
+notify_clan_remove_situation				自派系移除
+notify_clan_remove_dependent				
+notify_clan_remove_info						离开派系。
+notify_clan_remove_info_removed				被 {name} 移除。
+
+// 8
+notify_buddy_online_situation				好友登录
+notify_buddy_online_dependent				
+notify_buddy_online_info					已登录。
+
+// 9
+notify_buddy_left_game_situation			好友离开游戏
+notify_buddy_left_game_dependent			
+notify_buddy_left_game_info					离开「{gamename}」。
+
+// 10
+notify_buddy_offline_situation				好友注销
+notify_buddy_offline_dependent						
+notify_buddy_offline_info					已注销。
+
+// 11
+notify_buddy_join_game_situation			好友已加入游戏
+notify_buddy_join_game_dependent			
+notify_buddy_join_game_info					已加入游戏
+
+// 12
+notify_clan_online_situation				派系成员登录
+notify_clan_online_dependent				
+notify_clan_online_info						已登录。
+
+// 13
+notify_clan_left_game_situation				派系成员离开游戏
+notify_clan_left_game_dependent				
+notify_clan_left_game_info 					离开「{gamename}」。
+
+// 14
+notify_clan_offline_situation				派系成员注销
+notify_clan_offline_dependent				
+notify_clan_offline_info					已注销。
+
+// 15
+notify_clan_join_game_situation				派系成员已加入游戏
+notify_clan_join_game_dependent				
+notify_clan_join_game_info					已加入游戏。
+
+// 16
+notify_clan_whisper_title					派系悄悄话
+notify_clan_whisper_text					已对派系说悄悄话。
+
+// 17
+notify_update_situation						可用修补程序
+notify_update_dependent						版本 {version} 使用中！
+notify_update_info							请重新登录以下载修补程序。
+
+// 18
+notify_generic_title						信息
+notify_generic_text				
+
+// 19
+notify_im_situation							已收到实时讯息
+notify_im_dependent							
+notify_im_info								已向您传送实时讯息。
+
+// 20
+notify_game_invite_situation				游戏邀请
+notify_game_invite_dependent				
+notify_game_invite_info						邀请您加入游戏。
+
+// 21
+notify_self_join_game_situation				自行加入
+notify_self_join_game_dependent				您
+notify_self_join_game_info					已加入「{gamename}」。
+
+// 22
+notify_buddy_requested_adder_situation		好友邀请
+notify_buddy_requested_adder_dependent		您
+notify_buddy_requested_adder_info			邀请 {name} 成为好友。
+
+// 23
+notify_buddy_requested_added_situation		好友邀请
+notify_buddy_requested_added_dependent		{name}
+notify_buddy_requested_added_info			已邀请您成为好友。
+
+// compendium.package
+compendium_title							英雄概要
+compendium_ability1							技能 1
+compendium_ability2							技能 2
+compendium_ability3							技能 3
+compendium_ability4							技能 4
+compendium_hero_name						英雄名称
+compendium_type								类型：
+compendium_range							范围：
+compendium_dmg								损害：
+compendium_speed							速度：
+compendium_usage_soon						即将提供使用统计数据！
+compendium_health							生命值
+compendium_mana								法力
+compendium_lvl_inventory					英雄级别与背包
+compendium_rec_items						建议物品
+compendium_inventory						背包
+compendium_items							物品
+compendium_current_lvl						目前级别：
+compendium_totalcost						总成本：
+compendium_controls_soon					即将提供英雄控制！
+compendium_primary_atrib					主要属性：
+compendium_attrib_types						力量/敏捷/智力
+compendium_attack_type						攻击类型：
+compendium_melee_range						近战/远距
+compendium_type_melee						近战
+compendium_type_ranged						远距
+
+compendium_hero_name						英雄名称
+compendium_attribute						属性
+compendium_atk								攻击
+compendium_strength							力量
+compendium_agility							敏捷
+compendium_intelligence						智力
+compendium_armor							防御值
+compendium_atk_dmg							攻击损害
+compendium_speed							速度
+compendium_abilities						技能
+
+compendium_list_simple						简单英雄清单
+compendium_list_detailed					详细英雄清单
+
+// Used For stat/lvl stuff
+compendium_lvl								级别
+
+tooltip_primary_attribute_strength			此英雄的主要属性为力量。
+tooltip_primary_attribute_agility			此英雄的主要属性为敏捷。
+tooltip_primary_attribute_intelligence		此英雄的主要属性为智力。
+
+//ladder.package
+ladder_title								玩家排名
+ladder_field_acc_games_played				已玩游戏
+ladder_field_acc_wins						胜利次数
+ladder_field_acc_losses						战败次数
+ladder_field_acc_concedes					投降次数
+ladder_field_acc_concedevotes				投降表决次数
+ladder_field_acc_buybacks					买回次数
+ladder_field_acc_discos						离开次数
+ladder_field_acc_kicked						被踢出次数
+
+// Assuming the below is PSR anyways
+ladder_field_acc_pub_skill					PSR
+ladder_field_acc_pub_count					公用游戏
+ladder_field_acc_avg_score					平均得分
+ladder_field_acc_herokills					杀死英雄数目
+ladder_field_acc_herodmg					伤害英雄数目
+ladder_field_acc_heroexp					英雄经验值
+ladder_field_acc_herokillsgold				杀死英雄赏金
+ladder_field_acc_heroassists				英雄协助次数
+ladder_field_acc_deaths						英雄死亡数目
+ladder_field_acc_goldlost2death				损失金币数目
+ladder_field_acc_secs_dead					死亡秒数
+ladder_field_acc_teamcreepkills				杀死敌军部队数目
+ladder_field_acc_teamcreepdmg				伤害敌军部队数目
+ladder_field_acc_teamcreepexp				取自敌军部队的经验值
+ladder_field_acc_teamcreepgold				取自敌军部队的金币
+ladder_field_acc_neutralcreepkills			杀死中立部队数目
+ladder_field_acc_neutralcreepdmg			伤害敌军部队数目
+ladder_field_acc_neutralcreepexp			取自中立部队的经验值
+ladder_field_acc_neutralcreepgold			取自中立部队的金币
+ladder_field_acc_bdmg						摧毁建筑物数目
+ladder_field_acc_bdmgexp					摧毁建筑物的经验值
+ladder_field_acc_razed						建筑物受损数目
+ladder_field_acc_bgold						来自建筑物的金币
+ladder_field_acc_denies						抢先杀死
+ladder_field_acc_exp_denied					抢先杀死的经验值
+ladder_field_acc_gold						赢得金币数
+ladder_field_acc_gold_spent					花费金币数
+ladder_field_acc_exp						总经验值
+
+// Not actions per minute? just a total count of all actions?
+ladder_field_acc_actions					行动次数
+ladder_field_acc_secs						进行秒数
+ladder_field_acc_consumables				耗材
+ladder_field_acc_wards						安排的守卫
+ladder_field_acc_em_played					EM 游戏百分比
+ladder_field_acc_expPerMin					经验/分钟
+
+// I seriously, SERIOUSLY do not like using colons in here。  This should've been fixed on the web end already。  Grr！
+ladder_field_acc_k:d:a						K:D:A
+ladder_field_acc_k_d_a						K:D:A
+ladder_field_acc_wardsPerGame				守卫/游戏
+ladder_field_acc_consumablesPerGame			耗材/游戏
+ladder_field_acc_avgGameLength				平均游戏时长
+ladder_field_acc_expPerGame					经验/游戏
+ladder_field_acc_goldPerGame				金币/游戏
+ladder_field_acc_goldPerMin					金币/分钟
+ladder_field_acc_spentPerMin				花费/分钟
+ladder_field_acc_deniesPerMin				抢先杀死/分钟
+ladder_field_acc_deniesPerGame				抢先杀死/游戏
+ladder_field_acc_buildingsPerGame			建筑/游戏
+ladder_field_Player							玩家姓名
+ladder_field_PlayerSkillRating				玩家技术评级
+ladder_field_Rank							排名
+ladder_error_nodata							此时无法取得排名资料。
+
+ladder_title								玩家排行榜
+ladder_fieldshort_acc_games_played				G.P.
+ladder_fieldshort_acc_wins						胜
+ladder_fieldshort_acc_losses					败
+ladder_fieldshort_acc_concedes					C
+ladder_fieldshort_acc_concedevotes				C.V.
+ladder_fieldshort_acc_buybacks					买回
+ladder_fieldshort_acc_discos					中途退出
+ladder_fieldshort_acc_kicked					被踢出
+
+// Assuming the below is PSR anyways
+ladder_fieldshort_acc_pub_skill					PSR
+ladder_fieldshort_acc_pub_count					P 游戏
+ladder_fieldshort_acc_avg_score					平均得分
+ladder_fieldshort_acc_herokills					HK
+ladder_fieldshort_acc_herodmg					英雄伤害
+ladder_fieldshort_acc_heroexp					英雄经验
+ladder_fieldshort_acc_herokillsgold				HKG
+ladder_fieldshort_acc_heroassists				说明
+ladder_fieldshort_acc_deaths					英雄死亡
+ladder_fieldshort_acc_goldlost2death			已丢失的金币
+ladder_fieldshort_acc_secs_dead					秒死
+ladder_fieldshort_acc_teamcreepkills			ECK
+ladder_fieldshort_acc_teamcreepdmg				伤害/EC
+ladder_fieldshort_acc_teamcreepexp				经验/EC
+ladder_fieldshort_acc_teamcreepgold				金币/EC
+ladder_fieldshort_acc_neutralcreepkills			NC 杀死
+ladder_fieldshort_acc_neutralcreepdmg			NC 伤害
+ladder_fieldshort_acc_neutralcreepexp			NC 经验
+ladder_fieldshort_acc_neutralcreepgold			NC 金币
+ladder_fieldshort_acc_bdmg						B 伤害
+ladder_fieldshort_acc_bdmgexp					E/B 伤害
+ladder_fieldshort_acc_razed						摧毁的建筑
+ladder_fieldshort_acc_bgold						B 金币
+ladder_fieldshort_acc_denies					抢先杀死
+ladder_fieldshort_acc_exp_denied				抢先杀死的经验
+ladder_fieldshort_acc_gold						已赢得的金币
+ladder_fieldshort_acc_gold_spent				已花费的金币
+ladder_fieldshort_acc_exp						经验总数
+
+// Not actions per minute? just a total count of all actions?
+ladder_fieldshort_acc_actions					行动
+ladder_fieldshort_acc_secs						已玩秒数
+ladder_fieldshort_acc_consumables				耗材
+ladder_fieldshort_acc_wards						守卫
+ladder_fieldshort_acc_em_played					EM %%
+ladder_fieldshort_acc_expPerMin					经验/分钟
+
+// I seriously, SERIOUSLY do not like using colons in here。  This should've been fixed on the web end already。  Grr！
+ladder_fieldshort_acc_k:d:a						K:D:A
+ladder_fieldshort_acc_k_d_a						K:D:A
+ladder_fieldshort_acc_wardsPerGame				W/G
+ladder_fieldshort_acc_consumablesPerGame		耗材/游戏
+ladder_fieldshort_acc_avgGameLength				平均 GL
+ladder_fieldshort_acc_expPerGame				经验/游戏
+ladder_fieldshort_acc_goldPerGame				金币/游戏
+ladder_fieldshort_acc_goldPerMin				金币/分钟
+ladder_fieldshort_acc_spentPerMin				花费/分钟
+ladder_fieldshort_acc_deniesPerMin				抢先杀死/分钟
+ladder_fieldshort_acc_deniesPerGame				抢先杀死/游戏
+ladder_fieldshort_acc_buildingsPerGame			建筑/游戏
+ladder_fieldshort_Player						玩家
+ladder_fieldshort_PlayerSkillRating				PSR
+ladder_fieldshort_Rank							排名
+
+ladder_reset_fields							重设字段
+ladder_first_page							第一页
+ladder_previous_page						上一页
+ladder_next_page							下一页
+ladder_fields								排行榜字段
+ladder_currentpage							目前页面：{totalpages} 之 {page} 
+ladder_loading_title						正在载入排行榜
+ladder_loading_body							正在加载排行榜数据，请稍候...
+ladder_view_page							检视页面：
+ladder_page_go								前往
+ladder_merow_nohistory						您没有比赛记录！
+
+ladder_error_message						撷取玩家排行榜时发生错误。
+
+
+//social_groups.package
+social_groups_newIM							新的实时讯息
+social_groups_newIM_msg						请输入昵称，开始与玩家交谈。
+
+//news.package
+news_title									最新消息
+
+//tournaments.package
+tournament_name								联赛名称
+tournament_teams							队伍：
+tournament_avg_lvl							平均级别：
+tournament_details							按一下取的详细资料
+tournament_official							正式联赛
+tournament_prizes							奖金
+tournament_start_date						开始日期：
+tournament_end_date							结束日期：
+tournament_signups							开始登录：
+tournament_endsignups						结束登录：
+tournament_teamsize							队伍规模：
+tournament_avg_games						平均游戏：
+tournament_elim								淘汰：
+tournament_strict_lvl						精密级别：
+tournament_strict_games						精密游戏：
+tournament_description						联赛说明
+tournament_title							联赛
+tournament_full_list						如欲取得所有可加入的联赛清单，或建立一支联赛队伍，请浏览本游戏网站的联赛区：
+tournament_website							http://www.heroesofnewerth.com
+tournament_not_enrolled_msg					您目前幷未加入任何近期的联赛。若要了解关于参加「纽沃斯英雄」联赛的更多精彩信息，请浏览「纽沃斯英雄」网站。
+tournament_not_played						您尚未进行任何联赛。
+
+
+//loading.interface
+amm_no_disco_msg							您已成功进入游戏，此时离开将会受到处罚！
+
+//system_bar.package
+lang_en										英文
+lang_fr										法文
+lang_de										德文
+lang_br										葡萄牙文
+lang_es										西班牙文
+lang_vn										越南文
+lang_ru										俄文
+lang_notnow									您无法在此时变更语言。若要变更语言，您必须先注销您的账号。必要时，您可能必须先中断连线。
+purch_subacct								购买替代账号
+purch_resetstats							重设统计资料
+purch_giftacct								购买礼物账号
+purch_upgradefriend							升级好友
+purch_upgradeaccount						升级账号
+purch_nickchange							变更昵称
+client_outofdate							已有较新的「纽沃斯英雄」版本！您必须先更新才能进行在线游戏。
+update_now									立即更新
+
+//trial_accounts.package
+trial_gen_limited_title						试用账号无法进行该项作业！
+trial_gen_btn_nothanks						不，谢谢，我要继续试用
+trial_gen_btn_upgrade						立即升级我的账号！
+trial_matchmaking_limited					试用账号所进行的游戏无法记录战绩，包括配对游戏。如果您想要进行配对游戏，您必须先立即升级账号。
+
+
+
+// End - do not delete this line
