@@ -1,22 +1,22 @@
 ﻿client_default_name				UnnamedNewbie
 
-error_title						Error
-error_unknown					Unknown error.
-error_memory_not_enough			Your system memory is not enough!\nPlease quit other running applications and run Heroes of Newerth again.
-error_key_file_damaged			Some of your game key files are damaged!\nPlease re-install Heroes of Newerth.
+error_title						Fehler
+error_unknown					Unbekannter Fehler.
+error_memory_not_enough			Dein Systemspeicher reicht nicht aus!\nBitte beende laufende Anwendungen und starte Heroes of Newerth erneut.
+error_key_file_damaged			Ein paar deiner Spieldateien sind beschaedigt!\nBitte Re-installiere Heroes of Newerth.
 
-disconnect_auth_failed				The server could not authorize your account. Please try logging in again.
+disconnect_auth_failed				Der Server konnte deinen Account nicht verifizieren. Bitte versuche dich erneut ein zu loggen.
 disconnect_banned					You are no longer allowed to join this match because you exceeded the maximum allowed number of unsuccessful reconnection attempts.
 disconnect_basic					Basic accounts cannot create games.
-disconnect_client_number_mismatch	Connection error, please try again in a moment.
+disconnect_client_number_mismatch	Verbindungsfehler, bitte versuche es spaeter noch einmal.
 disconnect_duplicate_connect		You have been disconnected because another client connected to the game using the same account.
 disconnect_duplicate_game_connect	You have been disconnected because another client has started playing a different game on this account.
 disconnect_duplicate_login			The server could not authorize your account. You must stay logged in to play.
 disconnect_failed_refresh			Error when refreshing upgrades. You have been logged out.
 disconnect_flooding					You have been disconnected for flooding the server.
 disconnect_game_in_progress			The game you are attempting to join is already in progress.
-disconnect_game_over				The game has ended.
-disconnect_idle						You have been disconnected for being idle.
+disconnect_game_over				Das Spiel ist vorbei.
+disconnect_idle						Die Verbindung wurde aufgrund Inaktivitaet getrennt.
 disconnect_invalid_psr				Your PSR is either too high or too low for this game.
 disconnect_invalid_tier				You are not allowed to play games in this tier.
 disconnect_kicked					You have been kicked from the game by the host.
