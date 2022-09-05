@@ -1,0 +1,63 @@
+﻿// Tutorial
+
+// Ability_PyromancerTutorial1
+Ability_PyromancerTutorial1_name										Phoenix Wave
+Ability_PyromancerTutorial1_description									Pyromancer envía un fénix que daña a todos los enemigos en línea recta.
+Ability_PyromancerTutorial1_description_simple							Selecciona una posición para disparar una ola de fuego en esa dirección que ocasiona ^o{100,170,240,310} de Daño Mágico^* a los enemigos que atraviesa.
+Ability_PyromancerTutorial1_effect_header								Efectos de Status
+Ability_PyromancerTutorial1_IMPACT_effect								Causa {100,170,240,310} de Daño Mágico a cada enemigo en línea recta.
+Ability_PyromancerTutorial1_IMPACT_effect:Alt2							Causa {100,170,240,310} de Daño Mágico a cada enemigo en línea recta.
+Ability_PyromancerTutorial1_tooltip_flavor								¡Su contenido puede estar bien calientito!
+
+// Ability_PyromancerTutorial2
+Ability_PyromancerTutorial2_name										Dragonfire
+Ability_PyromancerTutorial2_description									Pyromancer conjura un poderoso dragón de elemento fuego en la ubicación seleccionada, dañando y estuneando a los enemigos en esa área.
+Ability_PyromancerTutorial2_description_simple							Selecciona una ubicación para ocasionar ^o{90,150,210,280} de Daño Mágico^* y aplicar ^o1.6 segundos de Stun^* a los enemigos dentro del radio. 
+Ability_PyromancerTutorial2_effect_header								Efectos de Status
+Ability_PyromancerTutorial2_IMPACT_effect								Ocasiona {90,150,210,280} de Daño Mágico y estunea a cada objetivo enemigo dentro del radio por 1.6 segundos.
+Ability_PyromancerTutorial2_IMPACT_effect:Alt2							     Ocasiona {90,150,210,280} de Daño Mágico y estunea a cada objetivo enemigo dentro del radio por 1.6 segundos.
+Ability_PyromancerTutorial2_tooltip_flavor								¿Costo de Maná? Listo.\n¿Tiempo de recarga? Listo.\n¿La capacidad de llamar a un dragón?\n\nNo tiene precio.
+
+// Ability_PyromancerTutorial3
+Ability_PyromancerTutorial3_name										Fervor
+Ability_PyromancerTutorial3_description									Aprendiendo a controlar el fuego que lleva dentro de sí, Pyromancer incrementa su velocidad de casteo, de ataque y de movimiento luego de utilizar una habilidad, mientras al mismo tiempo, cualquier cosa que impacten sus hechizos o ataques se prenderá fuego por un corto tiempo.
+Ability_PyromancerTutorial3_description_simple							Otorga pasivamente ^o{10,20,30,40} de Velocidad de casteo^*. Al usar una habilidad, recibe bonificaciones o buffs acumulables (stackeables) de ^o{2,3,4,5}% de Velocidad de Movimiento^* y ^o{20,30,40,50}% de Velocidad de ataque^* por 6 segundos.\n\nCada vez que dañas a un enemigo se acumula una carga y el enemigo recibirá ^o{1,2,3,4} de Daño Mágico por segundo^* por cada carga.
+Ability_PyromancerTutorial3_effect_header								Efecto(s) de Fervor
+Ability_PyromancerTutorial3_effect_header2								Burning! Efecto(s)
+Ability_PyromancerTutorial3_IMPACT_effect								Al golpear un enemigo con cualquier ataque o habilidad, aplica Burning! al objetivo por 3 segundos.
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect						Aplica Fervor a uno mismo por 6 segundos y agrega una carga, con un máximo de 3 cargas.
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect:Alt2					Aplica Fervor a uno mismo por 6 segundos y agrega una carga, con un máximo de 3 cargas.
+Ability_PyromancerTutorial3_tooltip_flavor								¡Quémate bebé, quémate!
+
+// State_PyromancerTutorial_Ability3
+State_PyromancerTutorial_Ability3_name									Fervor
+
+// State_PyromancerTutorial_Ability3_Burning
+State_PyromancerTutorial_Ability3_Burning_name							Burning!
+State_PyromancerTutorial_Ability3_Burning_FRAME_effect					{1,2,3,4} de Daño Mágico por segundo por carga
+
+// State_PyromancerTutorial_Ability3_Burning_Building
+State_PyromancerTutorial_Ability3_Burning_Building_name					Burning!
+State_PyromancerTutorial_Ability3_Burning_Building_FRAME_effect			{1,2,3,4} de Daño Mágico por segundo por carga
+
+// Ability_PyromancerTutorial4
+Ability_PyromancerTutorial4_name										Blazing Strike
+Ability_PyromancerTutorial4_description									Usando el poder otorgado a él por Sol, Pyromancer lanza una bola de fuego envuelta en llamas hacia el enemigo seleccionado, ocasionando una gigantesca cantidad de daño.
+Ability_PyromancerTutorial4_description2								^930Esta habilidad puede ser mejorada con el ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfecto del Staff:^* Incrementa el daño de {450,675,950} a {650,875,1150}.
+Ability_PyromancerTutorial4_description_simple							Selecciona a una unidad enemiga para causarle ^o{450,675,950} de Daño Mágico^*.\n\n^gStaff of the Master^* incrementa el daño causado^*.
+Ability_PyromancerTutorial4_effect_header								Efecto(s) de Status
+Ability_PyromancerTutorial4_IMPACT_effect								Causa {450,675,950} de Daño Mágico al objetivo.
+Ability_PyromancerTutorial4_IMPACT_effect:Alt2							Causa {450,675,950} de Daño Mágico al objetivo.
+Ability_PyromancerTutorial4_IMPACT_effect:Alt3							Causa {450,675,950} de Daño Mágico al objetivo.
+Ability_PyromancerTutorial4_name:ult_boost								Inferno Strike ^g(Mejorado)^*
+Ability_PyromancerTutorial4_description2:ult_boost						Esta habilidad ha sido mejorada por el Staff of the Master.
+Ability_PyromancerTutorial4_description_simple:ult_boost				Selecciona una unidad enemiga para causarle ^g{650,875,1150}^* ^ode Daño Mágico^*.
+Ability_PyromancerTutorial4_IMPACT_effect:ult_boost						Causa ^g{650,875,1150}^* de Daño Mágico al objetivo.
+Ability_PyromancerTutorial4_tooltip_flavor								Es más o menos como lanzar una pelota de béisbol. De fuego.
+
+// Hero_Pyromancer
+Hero_PyromancerTutorial_name											Pyromancer
+Hero_PyromancerTutorial_description										Por siglos, la Sacred Order u Orden Sagrada ha otorgado honores a los "Chiflados en llamas" esos hombres y mujeres repletos de una ardiente devoción, si no casi absurda y loca, por Sol. Estos Chiflados en llamas quienes sirven a Legion son más comúnmente conocidos como Pyromancers por su dominio del fuego, y por ser criaturas fuertemente ligadas y a tono con ese elemento.
+Hero_PyromancerTutorial_role											El Pyromancer es un puntilloso nuker de Daño Mágico que puede incinerar al enemigo en segundos utilizando sus tres dañinas habilidades en sucesión rápida. Dado que el stun de Dragonfire tiene un leve pero notorio tiempo de inicio o animación inicial al castear, la mejor opción es acompañarlo con otro héroe que cuente con un stun de largo alcance o rango.
+
+// End - do not delete this line

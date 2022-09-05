@@ -1,0 +1,245 @@
+﻿wl_Powerup_Damage_name 								Runa de Doble Daño
+wl_State_Damage_name 								Doble Daño
+wl_State_Damage_FRAME_effect 						Todo daño ocasionado se duplica.
+
+wl_Powerup_Speed_name 								Runa de Haste
+wl_State_Speed_name 								Haste
+
+wl_Powerup_Regen_name 								Runa de Regeneración
+wl_State_Regen_name 								Regeneración
+
+wl_Powerup_Slow_name 								Runa de Manipulación del Tiempo
+wl_State_Slow_name 									Manipulación del Tiempo
+wl_State_Slow_FRAME_effect 							Se aplica un slow de 50% a todos los enemigos.
+wl_State_SlowAura_name 								Time Slowed
+wl_State_SlowAura_FRAME_effect 						Todo es ralentizado en un 50%.
+
+
+wl_Obelisk_name 									Obelisk
+
+wl_Warlock_name 									Prophet
+
+wl_State_Hero2_name 								Acceso a la Tienda
+wl_State_Hero2_FRAME_effect 						¡Hora de irse de compras! El atajdo en teclado por defecto para abrir la tienda es la tecla "B".
+
+wl_Outside_name 									Out of the Arena
+wl_Outside_FRAME_effect 							Taking 50 Damage per second. Get back inside the arena!
+
+
+
+// Ability 0
+wl_Ability0_name 									Vortex
+wl_Ability0_description 							Crea un Vortex que chupa a todos los jugadores en el área.
+wl_Ability0_description_simple 						Selecciona un área para crear un Vortex allí que atrae a los jugadores en un rango de ^o400^* hacia su centro con una fuerza de ^o40^* por {2,3,4,5,6}s.
+wl_Ability0_IMPACT_effect							Atrae a los jugadores en un rango de ^o400^* hacia su centro con hasta ^o40^* de fuerza por {2,3,4,5,6}s.\n\nVortex tarda ^o0.8s^* en comenzar a castearse.
+
+wl_Item_Ability0_name 								Vortex
+wl_Item_Ability0_description 						Crea un Vortex que chupa a todos los jugadores en el área.
+wl_Item_Ability0_description_simple 				Selecciona un área que luego atraerá a los jugadores hacia su centro.
+wl_Item_Ability0_IMPACT_effect						Atrae a los jugadores en un rango de ^o400^* hacia el centro con hasta ^o40^* de fuerza por ^o2/3/4/5/6^*s.\n\nVortex tarda ^o0.8s^* en comenzar a castearse.
+wl_Item_Ability0_shop_flavor 						Hace cuatrocientos años el gran profeta Sir Asaac Rewton se convirtió en maestro de las tres leyes de la gravedad.\nUsando este conocimiento le otorgó a todos los profetas la posibilidad de aplicar sus leyes al utilizar una nueva habilidad ^oVortex^* la cual aplica leyes conocidas para crear un campo gravitacional del que nadie puede escapar.
+
+
+// Ability 1
+wl_Ability1_name 									Fireball
+wl_Ability1_description 							Dispara una bola de fuego en la dirección seleccionada.\n¡Golpea a cualquier enemigo para empujarlo hacia afuera!
+wl_Ability1_description_simple 						Selecciona una dirección para disparar una bola de fuego.\n\nFireball ocasiona ^o50^* de Daño y ^o700^* de distancia de empuje.\n\nLas bolas de fuego pueden colisionar unas con otras.
+wl_Ability1_IMPACT_effect 							Dispara una bola de fuego en la dirección seleccionada a ^o{800,850,900,950,1000}^* de velocidad.\n\nFireball cuenta con un radio de impacto de ^o50^* y se desvanece al impactar ocasionando ^o50^* de Daño y ^o700^* de rango de empuje.\n\nLas bolas de fuego pueden chocar unas con otras creando una pequeña explosión.\n\nFireball tiene un tiempo de casteo previo de ^o{0.25,0.20,0.15,0.10,0.05}s^* y una recarga de ^o{6,5.5,5,4.5,4}s^*.
+
+wl_Item_Ability1_name 								Fireball
+wl_Item_Ability1_description 						Dispara una bola de fuego hacia la dirección seleccionada.\n¡Golpea a cualquier enemigo para empujarlo hacia afuera!
+wl_Item_Ability1_description_simple 				Dispara una bola de fuego hacia la dirección seleccionada. Las Fireballs dañan y empujan hacia atrás a los enemigos.
+wl_Item_Ability1_IMPACT_effect 						Dispara una bola de fuego hacia la dirección seleccionada a ^o800/850/900/950/1000^* de velocidad.\n\nFireball tiene un radio de impacto de ^o50^* y desaparece al impactar ocasionando ^o50^* de Daño y ^o700^* de rango de empuje.\n\nLas bolas de fuego pueden chocar unas con otras creando una pequeña explosión.\n\nFireball tiene un tiempo de casteo previo de ^o{0.25,0.20,0.15,0.10,0.05}s^* y una recarga de ^o{6,5.5,5,4.5,4}s^*.\n\n^rPuede ser actualizada 5 veces.^*
+wl_Item_Ability1_shop_flavor 						Hace largo tiempo los profetas aprendieron cómo usar su magia interna para producir fuego. La bola de fuego concentra mucho fuego alrededor de una esfera de magma que explota al impactar. La explosión ha evolucionado desde entonces hasta causar un gran efecto de empuje hacia atrás, incluso contra rivales alejados de su centro.
+
+
+// Ability 2
+wl_Ability2_name 									Explosive Port
+wl_Ability2_description								¡Teletranspórtate hacia adelante empujando a cualquier enemigo a tu paso!
+wl_Ability2_description_simple 						Teletranspórtate 700 unidades en la dirección hacia la que estás viendo, ocasionando ^o{5,10,15,20,25}^* de Daño y ^o{500,525,550,575,600}^* de empuje en un radio de ^o150^* alrededor de donde caes.
+wl_Ability2_IMPACT_effect 							Teletranspórtate 700 unidades en la dirección hacia la que estás virado, ocasionando ^o{5,10,15,20,25}^* de Daño y ^o{500,525,550,575,600}^* de empuje en un radio de ^o150^* alrededor de donde caes.\n\nExplosive port tiene ^o0.4s^* de tiempo de casteo previo.
+
+wl_Item_Ability2_name 								Explosive Port
+wl_Item_Ability2_description 						¡Teletranspórtate hacia adelante empujando a cualquier enemigo a tu paso!
+wl_Item_Ability2_description_simple 				Te teletransporta hacia adelante, dañando y empujando a cualquier enemigo alrededor de donde caes.
+wl_Item_Ability2_IMPACT_effect 						Teletranspórtate 700 unidades en la dirección hacia la que estás viendo, causando ^o5/10/15/20/25^* de Daño y ^o500/525/550/575/600^* de empuje en un radio de ^o150^* alrededor de donde caes.\n\nExplosive port tiene un tiempo de casteo previo de ^o0.4s^*.\n\n^rPuede ser actualizado 5 veces.^*
+wl_Item_Ability2_shop_flavor 						Los profetas siempre han sido magos que dominan magia aún desconocida.\nExplosive port no es la excepción dado que utiliza un nuevo tipo de magia para transportar al profeta a un lugar aparentemente distante causando gran desastre en todos alrededor excepto sobre sí mismo.
+
+
+// Ability 3
+wl_Ability3_name 									Thunderbolt
+wl_Ability3_description 							Dispara Thunderbolt hacia la ubicación seleccionada.
+wl_Ability3_description_simple 						Selecciona una ubicación para disparar allí Thunderbolt.\n\nThunderbolt causa ^o{40,45,50,55,60}^* de Daño y ^o{700,725,750,775,800}^* de empuje en su radio de efecto.
+wl_Ability3_IMPACT_effect 							Selecciona una ubicación para disparar allí Thunderbolt.\n\nThunderbolt causa ^o{40,45,50,55,60}^* de Daño y ^o{700,725,750,775,800}^* de empuje en un radio de ^o100^* al impactar.\n\nThunderbolt tiene ^o0.5s^* de tiempo de casteo previo.\n\nSi apuntas Thunderbolt cerca de un Obelisk, cargará al Obelisk de energía. La próxima vez que un Thunderbolt caiga cerca de un Obelisk cargado, ¡explotará con potente energía!
+
+wl_Item_Ability3_name 								Thunderbolt
+wl_Item_Ability3_description 						Dispara Thunderbolt hacia la ubicación seleccionada.
+wl_Item_Ability3_description_simple 				Dispara Thunderbolt a la ubicación seleccionada dañando y empujando hacia atrás a los enemigos.
+wl_Item_Ability3_IMPACT_effect 						Selecciona una ubicación para disparar allí Thunderbolt.\n\nThunderbolt causa ^o40/45/50/55/60^* de Daño y ^o700/725/750/775/800^* de empuje en un radio de ^o100^* al impactar.\n\nThunderbolt tiene un tiempo de casteo previo de ^o0.5s^*.\n\nSi apuntas Thunderbolt cerca a un Obelisk, cargará al Obelisk de energía. La próxima vez que Thunderbolt caiga cerca de un Obelisk cargado, éste explotará con potente energía!\n\n^rSe puede actualizar 5 veces.^*
+wl_Item_Ability3_shop_flavor 						De todos los 64 elementos el único que aún no dominan los profetas es el rayo.\nThunderbolt es un hechizo a base de rayos que causa un GRAN efecto de empuje porque dada la falta de fondos en la investigación nunca pudieron maximizar su Daño..\n¡Culpen al presidente!
+
+
+// Ability 4
+wl_Ability4_name 									Meteor
+wl_Ability4_description 							¡Lanza al aire a todos en un radio de 300 del Meteoro, alejándolos!
+wl_Ability4_description_simple 						Selecciona una ubicación para lanzar Meteor.\n\nLa explosión causa Daño basado en cuán cerca estaba la persona de su centro; hasta ^o{60,70,80,90,100}^* de Daño y hasta ^o{600,700,800,900,1000}^* de empuje.
+wl_Ability4_IMPACT_effect 							Dispara un Meteoro hacia la ubicación seleccionada.\n\nEl Meteoro explota en la ubicación en un radio de ^o300^* luego de ^o1.3s^*.\n\nEl Meteoro puede atravesar un máximo de ^o800^* de rango.\n\nLa explosión causa Daño basado en cuán cerca estaba la persona de su centro, un máximo de ^o{60,70,80,90,100}^* de Daño y hasta ^o{600,700,800,900,1000}^* de empuje.
+
+wl_Item_Ability4_name 								Meteor
+wl_Item_Ability4_description 						¡Lanza al aire a todos en un radio de 300 del Meteoro, alejándolos!
+wl_Item_Ability4_description_simple 				Dispara un Meteoro hacia la ubicación seleccionada el cual explota ocasionando Daño y empuje hacia atrás.
+wl_Item_Ability4_IMPACT_effect 						Dispara un Meteoro hacia la ubicación seleccionada.\n\nEl Meteoro explota en la ubicación en un radio de ^o300^* luego de ^o1.3s^*.\n\nEl Meteoro explota en la ubicación en un radio de ^o800^* de rango.\n\nLa explosión causa Daño basado en cuán cerca estaba la persona de su centro, un máximo de ^o60/70/80/90/100^* de Daño y hasta ^o600/700/800/900/1000^* de empuje.\n\n^rSe puede actualizar 5 veces.^*
+wl_Item_Ability4_shop_flavor 						¿Otra magia de fuego, dices?\n¿Esta no será distinta, dices?\n¡Los profetas atacan con gran fuerza desde el cielo!\nMetero es un hechizo otorgado por dios mismo capaz de afectar el terreno mismo, pero como ya sabemos, y para empezar, los profetas no son precisamente terrícolas...\n¡Siéntete en libertad de tirar algunos Meteoros, pero asegúrate de estar fuera de su radio de efecto!\nEsta no es una magia de fuego como cualquier otra.
+
+
+// Ability 5
+wl_Ability5_name 									Arcane Missile
+wl_Ability5_description								Dispara un Misil Arcano que rebota en todo aquél que golpea.
+wl_Ability5_description_simple 						Selecciona una ubicación para disparar un pequeño Misil Arcano. Por ^o{3,3.5,4,5.5,6}s^* el Misil rebotará en los héroes que golpee, ocasionando Daño y empujándolos.\n\nLos misiles pueden rebotar en tu propio Héroe.
+wl_Ability5_IMPACT_effect							Selecciona una ubicación para disparar un Misil Arcano que cuenta con una hitbox (caja de colisión) de 100 unidades.\n\nPor ^o{3,3.5,4,5.5,6}s^* el Misil rebotará en los Héroes que golpee y será redirigido hacia el próximo Héroe más cercano. Causa ^o{10,12,14,16,18} de Daño y {400} de empuje^* a todos a quienes golpee.\n\nEl Misil puede rebotar en tu propio Héroe, pero no te dañará ni te empujará.
+
+wl_Item_Ability5_name 								Arcane Missile
+wl_Item_Ability5_description 						Dispara un pequeño Misil Arcano que rebota en todo aquél que golpea.
+wl_Item_Ability5_description_simple 				Lanza un pequeño misil arcano en la dirección seleccionada que rebota por un cierta duración.
+wl_Item_Ability5_IMPACT_effect 						Selecciona una dirección para disparar un pequeño Misil con una hitbox (caja de colisión) de 100 unidades.\n\nPor ^o3/3.5/4/5.5/6s^* el Misil rebotará en los Héroes que golpee y será redirigido hacia el próximo Héroe más cercano. Causa ^o10/12/14/16/18 de Daño y {400} de empuje^* a todos a quienes golpee.\n\nLos Misiles pueden rebotar en tu propio Héroe, pero no te dañará ni te empujará.\n\n^rSe puede actualizar 5 veces.^*
+wl_Item_Ability5_shop_flavor 						Too bad, it's me ^rBlacksmith!^*
+
+
+// Ability 6
+wl_Ability6_name 									Alter Time
+wl_Ability6_description								Úsalo para guardar tus puntos de vida y tu posición actuales, ¡y vuelve para atrás en el tiempo segundos después!
+wl_Ability6_description_simple 						Al usarlo, guarda tus puntos de vida y posición actuales.\n\nEn los próximos ^o{2,2.25,2.5,2.75,3} segundos^*, si recibes Daño Letal o presionas el botón de nuevo pasará una de dos cosas: Si hay un Héroe Enemigo a tu lado, será transportado de vuelta al momento en que usaste esta habilidad y ahora quedarás curado de cualquier daño recibido durante la duración.\n\nSi no hay héroes cerca, volverás a la posición donde la usaste y se te curará cualquier daño recibido.
+wl_Ability6_IMPACT_effect							Al usarlo, guarda tus puntos de vida y posición actuales.\n\nEn los próximos ^o{2,2.25,2.5,2.75,3} segundos^*, si recibes Daño Letal o presionas el botón de nuevo pasará una de dos cosas: Si hay un Héroe Enemigo a tu lado, será transportado de vuelta al momento en que usaste esta habilidad y ahora quedarás curado de cualquier daño recibido durante la duración.\n\nSi no hay héroes cerca, volverás a la posición donde la usaste y se te curará cualquier daño recibido.
+
+wl_State_Ability6_name								Alter Time
+
+wl_Item_Ability6_name 								Alter Time
+wl_Item_Ability6_description 						Úsalo para guardar tus puntos de vida actuales ¡y vuelve para atrás en el tiempo segundos después!
+wl_Item_Ability6_description_simple 				Úsalo para guardar tus puntos de vida actuales ¡y vuelve para atrás en el tiempo segundos después!
+wl_Item_Ability6_IMPACT_effect 						Al usarlo, guarda tus puntos de vida y posició actuales.\n\nEn los próximos ^o2/2.25/2.5/2.75/3 segundos^*, si recibes Daño Letal o presionas el botón de nuevo pasará una de dos cosas:\nSi hay un Héroe Enemigo a tu lado, será transportado de vuelta al momento en que usaste esta habilidad y ahora quedarás curado de cualquier daño recibido durante la duración.\n\nSi no hay héroes cerca, volverás a la posición donde la usaste y se te curará cualquier daño recibido.
+wl_Item_Ability6_shop_flavor 						Aaah el tiempo... Hace mucho los profetas capturaron a Chronos, el Señor y manipulador del tiempo en Newerth.\nLo engrilletaron y consiguieron adherirle un aparato que les permite drenar su poder por un corto período de tiempo.\nEsto les permite a los profetas volver en el tiempo de un momento a otro.
+
+
+// Ability 7
+wl_Ability7_name 									Sword Throw
+wl_Ability7_description								Lanza una espada que puedes redireccionar a través de la duración.
+wl_Ability7_description_simple 						Selecciona una ubicación para lanzar ahí una Espada por ^o{4,4.5,5,5.5,6}s^*, causando ^020 de Daño^* y ^o1000 de empuje^* a quien golpee.\n\nPuedes usar esta habilidad de nuevo para redireccionar la Espada a una nueva ubicación.
+wl_Ability7_IMPACT_effect							Selecciona una ubicación para lanzar ahí una Espada por ^o{4,4.5,5,5.5,6}s^*, causando ^020 de Daño^* y ^o1000 de empuje^* a quien golpee.\n\nPuedes usar esta habilidad de nuevo para redireccionar la Espada a una nueva ubicación.
+
+wl_Item_Ability7_name 								Sword Throw
+wl_Item_Ability7_description 						Lanza una espada que puedes redireccionar a través de la duración.
+wl_Item_Ability7_description_simple 				Lanza una espada a la ubicación seleccionada, causando daño y empujando hacia atrás a quienes golpee.
+wl_Item_Ability7_IMPACT_effect 						Seleeciona una ubicación para lanzar ahí una Espada por ^o4/4.5/5/5.5/6s^*, causando ^020 de Daño^* y ^o1000 de empuje^* a quien golpee.\n\nPuedes usar esta habilidad de nuevo para redireccionar la Espada a una nueva ubicación.\n\n^rSe puede actualizar 5 veces.^*
+wl_Item_Ability7_shop_flavor 						
+
+
+// Ability 8
+wl_Ability8_name 									Smash
+wl_Ability8_description								Stomps the ground, teleporting everyone to the other side of you and pushing them around you away in that direction!
+wl_Ability8_description_simple 						Activate to deal ^o50^* Damage and up to ^o800^* Push to enemies within the radius depending on how far they are from you.\n\nDeals ^o{10,13,16,19,22}^* ^gnon-lethal^* Damage to yourself and pushes you away from the enemies you hit.
+w1_Ability8_IMPACT_effect							Activate to deal ^o50^* Damage and up to ^o800^* Push to enemies within the radius depending on how far they are from you.\n\nDeals ^o{10,13,16,19,22}^* ^gnon-lethal^* Damage to yourself and pushes you away from the enemies you hit.\n\nHas a ^o{1.0,0.85,0.7,0.55,0.4}s^* cast time.
+
+wl_Item_Ability8_name 								Smash
+wl_Item_Ability8_description 						¡Pisa fuerte el suelo, teletransportando a todos al lado opuesto a ti y empujándolos en esa dirección!
+wl_Item_Ability8_description_simple 				¡Pisa fuerte el suelo, empujando a todos lejos de ti en todas direcciones!
+wl_Item_Ability8_IMPACT_effect 						Actívalo para ocasionar ^o50^* de Daño y hasta ^o800^* de empuje a enemigos en su radio dependiendo de cuán lejos estén de ti.\n\nTe ocasiona ^o10/13/16/19/22^* de Daño ^no letal^* y te aleja de los enemigos que golpee.\n\nTiene un tiempo de casteo de ^o1.0/0.85/0.7/0.55/0.4s^*.\n\n^rSe puede actualizar 5 veces.^*
+wl_Item_Ability8_shop_flavor 						¿Hay algo que los profetas no puedan hacer?\nPor mucho tiempo se pensó que no podían ejecutar artes marciales.\nPor más de 2000 años han entrenado en fuerza, precisión y han conseguido dominar un pisotón de kung-fu que lanza todo alrededor suyo en todas direcciones, sin embargo se dañan también sin duda ellos mismos al pisar tan fuerte el terreno.
+
+
+// Ability 9
+wl_Ability9_name 									Pullbomb
+wl_Ability9_description 							Dispara una bomba que puedes detonar en cualquier instante, atrayendo a los héroes hacia la explosión.
+wl_Ability9_description_simple						Selecciona una dirección para disparar una bomba.\n\nActiva esta habilidad de nuevo para detonar la bomba, ocasionando ^o{10,15,20,25,30}^* de Daño y ^o{700,725,750,775,800}^* de empuje a los enemigos en su radio.
+wl_Ability9_IMPACT_effect							Selecciona una dirección para disparar una bomba.\n\nLa bomba viaja a una velocidad de ^o750^*, hasta un rango de ^o1500^* unidades.\n\nLa habilidad se puede activar nuevamente para detonar la bomba, ocasionando ^o{10,15,20,25,30}^* de Daño y ^o{700,725,750,775,800}^* de empuje a los enemigos dentro de su radio.
+
+wl_Item_Ability9_name 								Pullbomb
+wl_Item_Ability9_description 						Dispara una bomba que puedes detonar en cualquier instante, atrayendo a los héroes hacia la explosión.
+wl_Item_Ability9_description_simple 				Dispara una bomba que puedes detonar en cualquier instante, atrayendo a los héroes hacia la explosión.
+wl_Item_Ability9_IMPACT_effect 						Selecciona una dirección para disparar una bomba.\n\nLa bomba viaja a una velocidad de ^o750^*, hasta un rango de ^o1500^* unidades.\n\nEl ítem se puede activar nuevamente para detonar la bomba, ocasionando ^o10/15/20/25/30^* de Daño y ^o700/725/750/775/800^* de empuje a los enemigos dentro de su radio.\n\n^rSe puede actualizar 5 veces.^*
+
+
+// Ability 10
+wl_Ability10_name 									Ghost
+wl_Ability10_description 							Conviértete en un Fantasma, permitiendo que los proyectiles te atraviesen y explotando al final.
+wl_Ability10_description_simple						Actívala para convertirte en un Fantasma por ^o{1.6,1.7,1.8,1.9,2}s^*, con lo cual evadirás la mayoría de los proyectiles.\n\nUsar una habilidad mientras estás de Fantasma hace que el estado finalice abruptamente.\n\nSi Ghosted agota su duración, todos los enemigos dentro de ^o175^* de rango reciben ^o{30,35,40,45,50}^* de Daño y ^o{500,525,550,575,600}^* de empuje.
+wl_Ability10_IMPACT_effect							Actívala para convertirte en un Fantasma por ^o{1.6,1.7,1.8,1.9,2}s^*, con lo cual evadirás la mayoría de los proyectiles.\n\nUsar una habilidad mientras estás de Fantasma hace que el estado finalice abruptamente.\n\nSi Ghosted agota su duración, todos los enemigos dentro de ^o175^* de rango reciben ^o{30,35,40,45,50}^* de Daño y ^o{500,525,550,575,600}^* de empuje.
+wl_Ability10_effect_header	                        Efecto(s) de Ghosted
+
+wl_State_Ability10_name 							Ghosted
+wl_State_Ability10_FRAME_effect						Al finalizar su duración, causa ^o{30,35,40,45,50}^* de Daño y ^o{600,625,650,675,700}^* de empuje a todos los enemigos dentro del rango.
+
+wl_Item_Ability10_name 								Ghost
+wl_Item_Ability10_description 						Conviértete en un Fantasma, permitiendo que los proyectiles te atraviesen y explotando después.
+wl_Item_Ability10_description_simple 				Conviértete en un Fantasma, permitiendo que los proyectiles te atraviesen y explotando al final.
+wl_Item_Ability10_IMPACT_effect						Al usar, te convierte en un Fantasma por ^o1.6/1.7/1.8/1.9/2s^*, con lo cual evadirás la mayoría de los proyectiles.\n\nUsar una habilidad mientras estás de Fantasma hace que el estado finalice abruptamente.\n\nSi Ghosted agota su duración, todos los enemigos dentro de ^o175^* de rango reciben ^o30/35/40/45/50^* de Daño y ^o500/525/550/575/600^* de empuje.
+
+
+// Ability 11
+wl_Ability11_name 									Essence Link
+wl_Ability11_description 							Intenta enlazarte a un Obelisk o un Enemigo, haciendo que se atraigan el uno al otro.
+wl_Ability11_description_simple						Selecciona una dirección para disparar un Link Bolt.\n\nAl golpear a un enemigo o un Obelisk, amarra tanto al objetivo como a ti juntos. Por los próximos 2s ambos serán atraídos el uno hacia el otro.\n\nActiva esta habilidad de nuevo para cancelar el efecto de forma prematura.
+wl_Ability11_IMPACT_effect							Dispara un Link Bolt en la dirección seleccionada. El Link viaja a una velocidad de ^o1000^*, hasta un rango de ^o1200^*, y tiene un radio de impacto de ^o70^.\n\nAl golpear a un enemigo u Obelisk, amarra juntos al objetivo y a ti. Durante los siguientes 2s ambos serán atraidos el uno hacia el otro con una fuerza de empuje de ^o{900,1000,1100,1200,1300}^*.\n\nActiva esta habilidad nuevamente para cancelar su efecto prematuramente.
+wl_Ability11_effect_header	Linked Effect(s)
+
+wl_State_Ability11_name 							Linked
+wl_State_Ability11_FRAME_effect 					Atraído hacia la unidad enlazada a ti.
+wl_State_Ability11_self_name 						Linked
+wl_State_Ability11_self_FRAME_effect 				Atraído hacia la unidad enlazada a ti.
+wl_State_Ability11_obelisk_name						Linked
+
+wl_Item_Ability11_name 								Essence Link
+wl_Item_Ability11_description 						Intenta enlazarte a un Obelisk o un enemigo, haciendo que se atraigan el uno al otro.
+wl_Item_Ability11_description_simple 				Intenta enlazarte a un Obelisk o un enemigo, haciendo que se atraigan el uno al otro.
+wl_Item_Ability11_IMPACT_effect						Dispara un Link en la dirección seleccionada. El Link viaja a una velocidad de ^o1000^*, hasta un rango de ^o1200^*, y tiene un radio de impacto de ^o70^*.\n\nAl golpear a un enemigo u Obelisk, amarra juntos al objetivo y a ti. Durante los siguientes 2s ambos serán atraídos el uno hacia el otro con una fuerza de empuje de ^o900/1000/1100/1200/1300^*.\n\nActiva esta habilidad nuevamente para cancelar su efecto prematuramente.\n\n^rSe puede actualizar hasta 5 veces.^*
+
+
+// Ability 12
+wl_Ability12_name 									Slide
+wl_Ability12_description 							Empújate solo instantáneamente hacia la dirección deseada.
+wl_Ability12_description_simple						Selecciona una dirección para aplicar instantáneamente un empuje de {800,850,900,950,1000} a ti mismo.\n\nMientras tu velocidad permanezca por encima de 300, el primer enemigo que se acerque a ti recibirá ^o{20,25,30,35,40}^* de Daño y ^o{560,570,580,590,600}^* de empuje.
+wl_Ability12_IMPACT_effect							Selecciona una dirección para aplicar instantáneamente un empuje de {800,850,900,950,1000} a ti mismo.\n\nMientras tu velocidad permanezca por encima de 300, el primer enemigo que se acerque a ti recibirá ^o{20,25,30,35,40}^* de Daño y ^o{560,570,580,590,600}^* de empuje.\n\nCastear una habilidad disminuye tu velocidad en 300.
+wl_Ability12_effect_header							Efecto Slide
+wl_State_Ability12_name 							Deslizándote
+
+wl_Item_Ability12_name 								Slide
+wl_Item_Ability12_description 						Empújate solo instantáneamente hacia la dirección deseada.
+wl_Item_Ability12_description_simple 				Empújate solo instantáneamente hacia la dirección deseada.
+wl_Item_Ability12_IMPACT_effect						Selecciona una dirección para aplicar instantáneamente un empuje de {800,850,900,950,1000} a ti mismo.\n\nMientras tu velocidad permanezca por encima de 300, el primer enemigo que se acerque a ti recibirá ^o20/25/30/35/40^* de Daño y ^o560/570/580/590/600^* de empuje.\n\nCastear una habilidad disminuye tu velocidad en 300.\n\n^rSe puede actualizar 5 veces.^*
+
+
+// Ability 13
+wl_Ability13_name 									Deflection
+wl_Ability13_description 							¡Por unos cuantos segundos, Rechaza la mayoría de las magias y no recibes daño de la Arena!
+wl_Ability13_description_simple						Actívala para Rechazar la mayoría de las magias por ^o{2,2.25,2.5,2.75,3}s^*.\n\nMientras Deflection está activado, ¡NO recibirás daño al estar fuera de la Arena!\n\nUsar otra habilidad finaliza Deflection prematuramente.
+wl_Ability13_IMPACT_effect							Actívala para Rechazar la mayoría de las magias por ^o{2,2.25,2.5,2.75,3}s^*.\n\nMientras Deflection está activado, ¡NO recibirás daño al estar fuera de la Arena!\n\nUsar otra habilidad finaliza Deflection prematuramente.
+wl_Ability13_effect_header							Deflecting Effect(s)
+
+wl_State_Ability13_name 							Deflecting
+wl_State_Ability13_FRAME_effect						La mayoría de las magias son Rechazadas.
+
+wl_Item_Ability13_name 								Deflection
+wl_Item_Ability13_description 						¡Por unos cuantos segundos, Rechaza la mayoría de las magias y no recibes daño de la Arena!
+wl_Item_Ability13_description_simple 				¡Por unos cuantos segundos, Rechaza la mayoría de las magias y no recibes daño de la Arena!
+wl_Item_Ability13_IMPACT_effect						Al usarlo, Rechaza la mayoría de las magias por ^o2/2.25/2.5/2.75/3s^*.\n\nMientras Deflection está activado, ¡NO recibirás daño al estar fuera de la Arena!\n\nUsar otra habilidad finaliza Deflection prematuramente.\n\n^rSe puede actualizar 5 veces.^*
+
+
+// Ability ? (May get reworked? - Haven't written stuff for this)
+wl_Item_Upgrade0_name 								Lifesteal
+wl_Item_Upgrade0_description 						Te cura en una cantidad parcial de acuerdo al daño que ocasionas.
+wl_Item_Upgrade0_description_simple 				Te cura en una cantidad parcial de acuerdo al daño que ocasionas.
+wl_Item_Upgrade0_IMPACT_effect 						Cúrate tú mismo en un porcentaje de ^o8/13/18/23/28%^* de todo el Daño ocasionado.\n\n^rSe puede actualizar 5 veces.^*
+wl_Item_Upgrade0_shop_flavor 						La energía vital es otro de los elementos que los profetas han dominado.\nHan hallado la forma de drenar vida causando Daño al mismo tiempo.\nAlgo muy útil para cualquier profeta de experiencia.
+
+wl_Upgrade0_name									Lifesteal
+wl_Upgrade0_FRAME_effect							Cúrate tú mismo en un porcentaje de ^o8/13/18/23/28%^* de todo el Daño ocasionado.
+
+// wl_AbilityChannelbar
+wl_AbilityChannelbar_name							Tienda Disponible
+
+// wl_AbilityTooltip
+wl_AbilityTooltip_name								Ayuda
+wl_AbilityTooltip_description						Si necesitas más ayuda, ¡haz clic aquí!
+wl_AbilityTooltip_description_simple				En este modo, deberás ser el último que quede en el área permitida a medida que la Arena se achica lentamente. Si te paras fuera del área permitida, recibirás Daño progresivamente. Compra nuevas habilidades o actualiza las actuales entre ronda y ronda.\n\nHaz clic para más información.
+wl_AbilityTooltip_IMPACT_effect						En este modo, deberás ser el último que quede en el área permitida a medida que la Arena se achica lentamente. Si te paras fuera del área permitida, recibirás Daño progresivamente. Compra nuevas habilidades o actualiza las actuales entre ronda y ronda.\n\nHaz clic para más información.
+
+// End - do not delete this line

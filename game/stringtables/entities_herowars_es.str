@@ -1,0 +1,606 @@
+// Ability_DevX1_Chain
+Ability_DevX1_Chain_name									Chain Hook
+Ability_DevX1_Chain_description								Devourer lanza su Gancho a la ubicación o unidad seleccionada.
+Ability_DevX1_Chain_description_simple						Devourer lanza su Gancho a la ubicación o unidad seleccionada
+Ability_DevX1_Chain_name:superhook_elec						Super Hook: ^yElectrico^*
+Ability_DevX1_Chain_description:superhook_elec				Devourer lanza su Gancho a la ubicación o unidad seleccionada.\n\n^yEfecto de Super Hook^*: Si lo recibe un Enemigo, instantaneamente mata al objetivo.\n\nExpira al Usar or Morir.
+Ability_DevX1_Chain_description_simple:superhook_elec		Devourer lanza su Gancho a la ubicación o unidad seleccionada.\n\n^yEfecto de Super Hook^*: Si lo recibe un Enemigo, instantaneamente mata al objetivo.\n\nExpira al Usar or Morir.
+Ability_DevX1_Chain_tooltip_flavor							Get over here!
+Ability_DevX1_Chain_name:superhook_split					Super Hook: ^oSplit Hook^*
+Ability_DevX1_Chain_description:superhook_split				Devourer lanza su Gancho a la ubicación o unidad seleccionada.\n\n^oEfecto de Super Hook^*: Lanza 2 Ganchos adicionales en direcciones separadas.\n\nExpira al Usar o Morir.
+Ability_DevX1_Chain_description_simple:superhook_split		Devourer lanza su Gancho a la ubicación o unidad seleccionada.\n\n^oEfecto de Super Hook^*: Lanza 2 Ganchos adicionales en direcciones separadas.\n\nExpira al Usar o Morir.
+Ability_DevX1_Chain_tooltip_flavor							Get over here!
+
+// Shop
+
+Building_HeroWars_Shop_name									Tienda
+
+// Runes
+
+// Rune Names
+
+// Gadget_HeroWars_GoldRune
+Gadget_HeroWars_GoldRune_name								Runa de Gold
+
+// Gadget_HeroWars_BoomRune
+Gadget_HeroWars_BoomRune_name								Runa de Bomba
+
+State_HeroWars_Boom_name									Da Bomb!
+State_HeroWars_Boom_description								Al expirar, inflige ^o600 de Daño^* y ^*Aturde a los enemigos por 2.5 segundos^* en un radio de ^o570 unidades^*.\n\nLa bomba explota como se esperaba, incluso si el jugador muere.
+
+State_HeroWars_BoomStun_name 								¡Impacto de la Bomba!
+State_HeroWars_BoomStun_description 						Aturdido por ^o2.5 segundos^* 
+
+State_HeroWars_KillState_name								Fuera de los límites!
+State_HeroWars_KillState_description						Regresa al campo de juego, o enfrenta la consecuencia.
+
+// Gadget_HeroWars_ElecRune
+Gadget_HeroWars_ElecRune_name								Runa de Hook Electrico
+
+State_HeroWars_ElectricHook_name							Super Hook: Electrico
+State_HeroWars_ElectricHook_description						Instantaneamente mata a un Enemigo si el Gancho llega a impactarlo.\n\nExpira al Morir o Usar.
+State_HeroWars_ElectricHook_description_simple				Instantaneamente mata a un Enemigo si el Gancho llega a impactarlo.\n\nExpira al Morir o Usar.
+
+// Gadget_HeroWars_SplitHookRune
+Gadget_HeroWars_SplitHookRune_name							Runa de Split Hook
+
+State_HeroWars_SplitHook_name								Super Hook: Split Hook
+State_HeroWars_SplitHook_description						Lanza 3 Ganchos en direcciones separadas.\n\nExpira al Morir o Usar.
+State_HeroWars_SplitHook_description_simple					Lanza 3 Ganchos en direcciones separadas.\n\nExpira al Morir o Usar.
+
+// Gadget_HeroWars_TimeRune
+Gadget_HeroWars_TimeRune_name								Runa de Tiempo
+
+State_HeroWars_Time_Ally_name								Runa de TIempo
+State_HeroWars_Time_Ally_description						Un aliado ha jalado un ^gRuna de TIempo!^*
+
+State_HeroWars_HemoState_name								Bleeding!
+State_HeroWars_HemoState_description						Recibes mientras estas en el recorrido.
+
+
+// Items
+
+// Item_HeroWars_HookMult
+Item_HeroWars_HookMult_name									Mejora de Hook: BlindHook
+Item_HeroWars_HookMult_description							Cada rebote del gancho incrementa el rango en ^o750^* hasta un máximo de ^o2000^*.
+Item_HeroWars_HookMult_description_simple					Cada rebote del gancho incrementa el rango en ^o750^* hasta un máximo de ^o2000^*.
+Item_HeroWars_HookMult_shop_categories
+Item_HeroWars_HookMult_IMPACT_effect						Cada rebote del gancho incrementa el rango en ^o750^* hasta un máximo de ^o2000^*.
+
+// Item_HeroWars_FireBrand
+Item_HeroWars_FireBrand_name								Mejora de Hook: FireHook
+Item_HeroWars_FireBrand_description							Al impactar el Gancho, todos los enemigos dentro del radio de ^o250^* son infligidos con una zona de expansión en su posición actual.\n\nLa zona se expande hasta un radio de 250 durante 2 segundos y explota.
+Item_HeroWars_FireBrand_description_simple					Crea una zona debajo de los enemigos cercanos al jalar que daña, explota y causa terror.
+Item_HeroWars_FireBrand_search_terms						firehook
+Item_HeroWars_FireBrand_shop_flavor							
+Item_HeroWars_FireBrand_shop_categories						
+Item_HeroWars_FireBrand_FRAME_effect						Impacto de la Explosión: Los enemigos cerca del radio de explosión son ^oAterrorizados por 2.5 segundos^* y ^oQuemados por 30% de su Salud Máxima^*.
+
+State_HeroWars_FireBrand_Debuff_name						Firehook Burn
+State_HeroWars_FireBrand_Debuff_description					Aterrorizado\nQuemado por ^o30% de tu Salud Máxima^* durante 2.5 segundos.
+
+// Item_HeroWars_FrostBrand
+Item_HeroWars_FrostBrand_name								Hook Upgrade: FrostHook
+Item_HeroWars_FrostBrand_description						Al impactar el Gancho, crea un circulo de hielo alrededor del objetivo en un radio de ^o450^*.
+Item_HeroWars_FrostBrand_description_simple					Relentiza y daña a todos los enemigos cercanos al impactar el Gancho.
+Item_HeroWars_FrostBrand_search_terms						icehook,frosthook
+Item_HeroWars_FrostBrand_shop_flavor						
+Item_HeroWars_FrostBrand_shop_categories					
+Item_HeroWars_FrostBrand_FRAME_effect						Impacto del Circulo de Hielo: Inflige ^o50 de Daño^* y aplica ^o-45% Velocidad de Movimiento^* a los enemigos dentro del radio de ^o450 por 6 segundos^*.
+
+State_HeroWars_FrostBrand_Freeze_name						Gancho de Hielo
+State_HeroWars_FrostBrand_Freeze_description				
+
+// Item_HeroWars_LightBrand
+Item_HeroWars_LightBrand_name								Mejora de Hook: LighHook
+Item_HeroWars_LightBrand_description						Bonus pasivo: Incrementa la vision alrededor del Gancho a 600 unidades.\n\n^oActivalo^* para que tu gancho ^oatraviese a tus alidos^*.\n\nNo puede activarse mientras el gancho este en uso.
+Item_HeroWars_LightBrand_description:enabled_lighthook		Bonus pasivo: Tu gancho ^gatraviesa aliados^*. Incrementa la visión alrededor del gancho a 600 unidades.\n\n^oDesactivalo^* para que tu ^ogancho golpee a tus aliados de nuevo^*.\n\nNo puede activarse mientras el gancho este en uso. No se puede vender mientras este activado.
+Item_HeroWars_LightBrand_description_simple					Al activar tu gancho ^oatravesará a tus alidos^*.\nIncrementa la visión del gancho.
+Item_HeroWars_LightBrand_search_terms						lighthook
+Item_HeroWars_LightBrand_shop_flavor						
+Item_HeroWars_LightBrand_shop_categories					
+Item_HeroWars_LightBrand_FRAME_effect						
+
+// Item_HeroWars_BlindGrenade
+Item_HeroWars_BlindGrenade_name								Consumible: Granada Ciega
+Item_HeroWars_BlindGrenade_description						
+Item_HeroWars_BlindGrenade_description_simple				Lanza una granada para ^oreducir la visión enemiga^* y ^ocorta la visión de su equipo^*.
+Item_HeroWars_BlindGrenade_shop_categories						
+Item_HeroWars_BlindGrenade_IMPACT_effect					Lanza una granada para cegar a los enemigos en un radio, ^oreduce su visión^* al extremo y ^ocorta la visión del objetivo con su equipo^* por ^o8 segundos^*.\n\nTarda 3 segundos de tiempo de viaje.\n\nUn stock inicial de 3 y un stock máximo de 3. Un stock se refresca cada 30 segundos.
+
+State_HeroWars_BlindGrenade_name							Cegado.
+State_HeroWars_BlindGrenade_description						Golpeado recientemente por una Granada Cegadora.\n\nVisión reducida a ^o300^* unidades.
+State_HeroWars_BlindGrenade_description_simple				Golpeado recientemente por una Granada Cegadora.\n\nVisión reducida a ^o300^* unidades.
+
+// Item_HeroWars_Mine
+Item_HeroWars_Mine_name										Consumible: Mina Terrestre
+Item_HeroWars_Mine_description								Coloca una mina inatacable en frente de ti al activarlo luego de 5 segundos. Cualquier enemigo que pisa la mina dentro del radio de ^o250^* de esta, lo hace estallar. La mina expira despues de 30 segundos si no estalla.\n\nSe desactiva si hay mas de 3 minas existentes en el mapa por el jugador que lo coloca.\n\nLas minas pueden ser pateadas por Pebbles Arm.\n\nStock inicial y stock máximo son de 3. Un stock se refresca cada 30 segundos.
+Item_HeroWars_Mine_description_simple						Coloca una mina terrestre que explota al contacto de un enemigo.
+Item_HeroWars_Mine_search_terms								mine
+Item_HeroWars_Mine_shop_flavor								
+Item_HeroWars_Mine_shop_categories					
+Item_HeroWars_Mine_FRAME_effect								Impacto del estallido de la Mina: Inflige ^o12% de la Salud Máxima del enemigo^* a todas la unidades en un radio de ^o250^*.
+
+Gadget_HeroWars_Mine_name									Mina Terrestre
+	
+// Item_HeroWars_BackHook
+Item_HeroWars_BackHook_name									Mejora de Hook: Back Hook
+Item_HeroWars_BackHook_description							Otorga ^oBack Hook^* permanentemente a Devourer, le permite al gancho golpear un objetivo en su camino y atraerlo hacia él.
+Item_HeroWars_BackHook_description_simple					Le permite al gancho golpear a un objetivo en su camino y atraerlo a Devourer.
+Item_HeroWars_BackHook_shop_categories						
+Item_HeroWars_BackHook_IMPACT_effect						Otorga ^oBack Hook^* permanentemente a Devourer, le permite al gancho golpear a un objetivo en su camino y atraerlo hacia él.
+
+// Item_HeroWars_Claw
+Item_HeroWars_Claw_name										Mejora de Hook: Hemorrhage
+Item_HeroWars_Claw_description								Sangra al enemigo al ser jalado.\n^rMejorable x3 veces.^*\n11%/15%/19% de la distancia de viaje.
+Item_HeroWars_Claw_description_simple						Sangra al enemigo al ser jalado.\n^rMejorable x3 veces.^*\n11%/15%/19% de la distancia de viaje.
+Item_HeroWars_Claw_shop_categories								
+Item_HeroWars_Claw_IMPACT_effect							Sangra al enemigo al ser jalado.\n^rMejorable x3 veces.^*\n11%/15%/19% de la distancia de viaje.
+
+Item_HeroWars_Claw_name:charge1								Hemorrhage (Level 1)
+Item_HeroWars_Claw_description:charge1						El enemigo sangra por ^o11% de la distancia de viaje^* durante el Hook.
+Item_HeroWars_Claw_description_simple:charge1				El enemigo sangra por ^o11% de la distancia de viaje^* durante el Hook.
+Item_HeroWars_Claw_shop_categories:charge1								
+Item_HeroWars_Claw_IMPACT_effect:charge1					El enemigo sangra por ^o11% de la distancia de viaje^* durante el Hook.
+
+Item_HeroWars_Claw_name:charge2								Hemorrhage (Level 2)
+Item_HeroWars_Claw_description:charge2						El enemigo sangra por ^o15% de la distancia de viaje^* durante el Hook.
+Item_HeroWars_Claw_description_simple:charge2				El enemigo sangra por ^o15% de la distancia de viaje^* durante el Hook.
+Item_HeroWars_Claw_shop_categories:charge2								
+Item_HeroWars_Claw_IMPACT_effect:charge2					El enemigo sangra por ^o15% de la distancia de viaje^* durante el Hook.
+
+Item_HeroWars_Claw_name:charge3								Hemorrhage (Level 3)
+Item_HeroWars_Claw_description:charge3						El enemigo sangra por ^o19% de la distancia de viaje^* durante el Hook.
+Item_HeroWars_Claw_description_simple:charge3				El enemigo sangra por ^o19% de la distancia de viaje^* durante el Hook.
+Item_HeroWars_Claw_shop_categories:charge3								
+Item_HeroWars_Claw_IMPACT_effect:charge3					El enemigo sangra por ^o19% de la distancia de viaje^* durante el Hook.
+
+// Item_HeroWars_Grapple
+Item_HeroWars_Grapple_name									Item: Grapple
+Item_HeroWars_Grapple_description							
+Item_HeroWars_Grapple_description_simple					Dispara un Grappling Line que te empuja al Objetivo o Pilar.
+Item_HeroWars_Grapple_shop_categories						
+Item_HeroWars_Grapple_IMPACT_effect							Activa para disparar un Grappling Line que ^ote empuja al Objetivo o Pilar^*.\n\nDesatará al usuario si es jalado o pateado.
+
+// Item_HeroWars_Jaw
+Item_HeroWars_Jaw_name										Mejora de Hook: Life Steal
+Item_HeroWars_Jaw_description								Cura al impactar el Gancho.\n^rMejorable x3 veces.^*\nCura 25%/35%/45% de Vida.
+Item_HeroWars_Jaw_description_simple						Cura al impactar el Gancho.\n^rMejorable x3 veces.^*\nCura 25%/35%/45% de Vida.
+Item_HeroWars_Jaw_shop_categories								
+Item_HeroWars_Jaw_IMPACT_effect								Cura al impactar el Gancho.\n^rMejorable x3 veces.^*\nCura 25%/35%/45% de Vida.
+
+Item_HeroWars_Jaw_name:charge1								Life Steal (Level 1)
+Item_HeroWars_Jaw_description:charge1						Te cura ^g25%^* del Daño del Gancho infligido.
+Item_HeroWars_Jaw_description_simple:charge1				Te cura ^g25%^* del Daño del Gancho infligido.
+Item_HeroWars_Jaw_shop_categories:charge1								
+Item_HeroWars_Jaw_IMPACT_effect:charge1						Te cura ^g25%^* del Daño del Gancho infligido.
+
+Item_HeroWars_Jaw_name:charge2								Life Steal (Level 2)
+Item_HeroWars_Jaw_description:charge2						Te cura ^g35%^* del Daño del Gancho infligido.
+Item_HeroWars_Jaw_description_simple:charge2				Te cura ^g35%^* del Daño del Gancho infligido.
+Item_HeroWars_Jaw_shop_categories:charge2								
+Item_HeroWars_Jaw_IMPACT_effect:charge2						Te cura ^g35%^* del Daño del Gancho infligido.
+
+Item_HeroWars_Jaw_name:charge3								Life Steal (Level 3)
+Item_HeroWars_Jaw_description:charge3						Te cura ^g45%^* del Daño del Gancho infligido.
+Item_HeroWars_Jaw_description_simple:charge3				Te cura ^g45%^* del Daño del Gancho infligido.
+Item_HeroWars_Jaw_shop_categories:charge3								
+Item_HeroWars_Jaw_IMPACT_effect:charge3						Te cura ^g45%^* del Daño del Gancho infligido.
+
+// Item_HeroWars_Paw
+Item_HeroWars_Paw_name										Mejora de Héroe: Speed
+Item_HeroWars_Paw_description								^o+12 de Velocidad de Movimiento^*.\n^rMejorable x5 veces.^*
+Item_HeroWars_Paw_description_simple						^o+12 de Velocidad de Movimiento^*.\n^rMejorable x5 veces.^*
+Item_HeroWars_Paw_shop_categories						
+Item_HeroWars_Paw_IMPACT_effect								^o+12 de Velocidad de Movimiento^*.\n^rMejorable x5 veces.^*
+
+// Item_HeroWars_HealWard
+Item_HeroWars_HealWard_name									Consumible: Healing Ward
+Item_HeroWars_HealWard_description							
+Item_HeroWars_HealWard_description_simple					Coloca un Healing Ward que curará a los aliados cercanos.
+Item_HeroWars_HealWard_shop_categories						
+Item_HeroWars_HealWard_IMPACT_effect						Coloca un Healing Ward que ^gcura a los aliados cercanos^* por ^o8% de su Salud Máxima por segundo^*.\n\nSe destruye si es atacado.\n\nStock inicial y stock máximo son de 3. Un stock es refrescado cada 30 segundos.
+
+Gadget_HeroWars_HealWard_name								Healing Ward
+State_HeroWars_HealWard_name								Healing Ward
+State_HeroWars_HealWard_description							Regeneración por ^g8% de tu Salud Máxima^* por segundo.
+
+// Item_HeroWars_TinyArm
+Item_HeroWars_TinyArm_name									Item: Pebbles Arm
+Item_HeroWars_TinyArm_description							
+Item_HeroWars_TinyArm_description_simple					Lanza a un héroe cercano a la Ubicación Seleccionada.
+Item_HeroWars_TinyArm_shop_categories						
+Item_HeroWars_TinyArm_IMPACT_effect							Lanza a un héroe cercano a la Ubicación Seleccionada.\n\nInflige ^o50 de Daño^* a todos los enemigos dentro del radio de ^o300^*.\n\nTambien puede lanzar minas, pero solo incurre 3 segundos de cooldown si es usado en una.\n\nSi el objetivo es lanzado fuera del área de juego, son teletransportados de vuelta a la ubicación de donde fueron lanzados.
+
+// Item_HeroWars_TomeOfPower
+Item_HeroWars_TomeOfPower_name								Mejora de Héroe: Level Tome
+Item_HeroWars_TomeOfPower_description						^o+1 nivel del héroe^* al comprar.
+Item_HeroWars_TomeOfPower_description_simple				^o+1 nivel del héroe^* al comprar.
+Item_HeroWars_TomeOfPower_shop_categories						
+Item_HeroWars_TomeOfPower_IMPACT_effect						
+
+// Item_HeroWars_Totem
+Item_HeroWars_Totem_name									Item: Shield Wall
+Item_HeroWars_Totem_description								
+Item_HeroWars_Totem_description_simple						Crea una Superficie de Colisión que ^oBloquea los Movimientos y Refleja los Ganchos^*.
+Item_HeroWars_Totem_shop_categories						
+Item_HeroWars_Totem_IMPACT_effect							Crea una Superficie de Colisión que ^oBloquea los Movimientos y Refleja los Ganchos^*.\n\nLa pared dura 9 segundos.
+
+// Item_HeroWars_Ward
+Item_HeroWars_Ward_name										Consumible: Bengala
+Item_HeroWars_Ward_description								
+Item_HeroWars_Ward_description_simple						Dispara una bengala que otorga visión de la ubicación seleccionada.
+Item_HeroWars_Ward_shop_categories						
+Item_HeroWars_Ward_IMPACT_effect							Dispara una bengala que ^ootorga visión en un radio de 700 de la ubicación seleccionada^* por ^o30 segundos^*.\n\nStock inicial y stock máximo son de 3. Un stock es refrescado cada 30 segundos.
+
+
+
+
+// States
+State_HeroWars_Shop_name									Tienda
+State_HeroWars_Shop_description								Comprar items
+State_HeroWars_Shop_description_simple						Comprar items
+
+State_HeroWars_StartGame_name								Pre-Round
+State_HeroWars_StartGame_description						¡15 segundos para que Devo Wars comience!
+State_HeroWars_StartGame_description_simple					¡15 segundos para que Devo Wars comience!
+
+State_HeroWars_Respawn_name									Respawn Shield
+State_HeroWars_Respawn_description							Immune
+State_HeroWars_Respawn_description_simple					Immune
+
+
+
+
+
+// Hook Upgrades
+
+// Ability_DevX_HookLevelUp_Damage
+Ability_DevX_HookLevelUp_Damage_name										Mejora de Hook: Daño
+Ability_DevX_HookLevelUp_Damage_description									Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description_simple							Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_effect_header								Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o0	
+
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_1						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_2						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_3						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_4						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_5						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_6						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_7						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_8						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_9						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_10						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_11						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_12						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_13						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_14						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_15						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_16						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_17						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_18						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_19						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_20						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_21						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_22						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_23						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_24						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_25						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_26						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o380
+
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_1				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_2				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_3				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_4				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_5				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_6				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_7				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_8				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_9				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_10				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_11				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_12				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_13				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_14				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_15				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_16				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_17				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_18				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_19				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_20				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_21				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_22				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_23				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_24				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_25				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_26				Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o380
+
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_1						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_2						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_3						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_4						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_5						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_6						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_7						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_8						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_9						Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_10					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_11					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_12					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_13					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_14					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_15					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_16					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_17					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_18					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_19					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_20					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_21					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_22					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_23					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_24					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_25					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_26					Incrementa el Daño del Gancho permanentemente ^g+15^* Por Nivel.\n\nDaño Actual: ^w235^* + ^o380
+
+// Ability_DevX_HookLevelUp_Range
+Ability_DevX_HookLevelUp_Range_name											Mejora de Hook: Range
+Ability_DevX_HookLevelUp_Range_description									Incrementa el Rango del Gancho permanentemente ^g+80^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description_simple							Incrementa el Rango del Gancho permanentemente ^g+80^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_effect_header								Incrementa el Rango del Gancho permanentemente ^g+80^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o0
+
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_1						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_2						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_3						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_4						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_5						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_6						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_7						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_8						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_9						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_10						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_11						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_12						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_13						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_14						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_15						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_16						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_17						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_18						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_19						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_20						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_21						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_22						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_23						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_24						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_25						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_26						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o3000
+
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_1					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_2					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_3					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_4					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_5					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_6					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_7					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_8					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_9					Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_10				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_11				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_12				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_13				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_14				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_15				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_16				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_17				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_18				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_19				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_20				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_21				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_22				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_23				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_24				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_25				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_26				Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o3000
+
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_1						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_2						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_3						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_4						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_5						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_6						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_7						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_8						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_9						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_10						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_11						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_12						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_13						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_14						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_15						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_16						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_17						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_18						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_19						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_20						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_21						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_22						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_23						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_24						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_25						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_26						Incrementa el Rango del Gancho permanentemente ^g+120^* Por Nivel.\n\nRango Actual: ^w1600^* + ^o3000
+
+// Ability_DevX_HookLevelUp_Speed
+Ability_DevX_HookLevelUp_Speed_name											Mejora de Hook: Velocidad
+Ability_DevX_HookLevelUp_Speed_description									Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_header								Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o0
+
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_1						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_2						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_3						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_4						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_5						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_6						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_7						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_8						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_9						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_10						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_11						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_12						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_13						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_14						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_15						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_16						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_17						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_18						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_19						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_20						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_21						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_22						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_23						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_24						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_25						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_26						Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o1000
+
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_1					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_2					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_3					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_4					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_5					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_6					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_7					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_8					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_9					Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_10				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_11				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_12				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_13				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_14				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_15				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_16				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_17				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_18				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_19				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_20				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_21				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_22				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_23				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_24				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_25				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_26				Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o1000
+
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_1							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_2							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_3							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_4							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_5							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_6							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_7							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_8							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_9							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_10							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_11							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_12							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_13							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_14							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_15							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_16							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_17							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_18							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_19							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_20							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_21							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_22							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_23							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_24							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_25							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_26							Incrementa la Velocidad del Gancho permanentemente ^g+40^* Por Nivel.\n\nVelocidad Actual: ^w1100^* + ^o1000
+
+// Ability_DevX_HookLevelUp_Width
+Ability_DevX_HookLevelUp_Width_name											Upgrade Hook: Radius
+Ability_DevX_HookLevelUp_Width_description									Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description_simple							Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_effect_header								Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o0
+
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_1						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_2						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_3						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_4						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_5						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_6						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_7						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_8						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_9						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_10						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_11						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_12						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_13						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_14						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_15						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_16						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_17						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_18						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_19						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_20						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_21						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_22						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_23						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_24						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_25						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_26						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o125
+
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_1					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_2					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_3					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_4					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_5					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_6					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_7					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_8					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_9					Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_10				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_11				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_12				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_13				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_14				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_15				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_16				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_17				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_18				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_19				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_20				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_21				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_22				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_23				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_24				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_25				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_26				Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o125
+
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_1						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_2						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_3						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_4						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_5						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_6						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_7						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_8						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_9						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_10						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_11						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_12						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_13						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_14						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_15						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_16						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_17						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_18						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_19						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_20						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_21						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_22						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_23						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_24						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_25						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_26						Incrementa el Radio del Gancho permanentemente ^g+5^* Por Nivel.\n\nRadio Actual: ^w70^* + ^o125
+
+// END DO NOT REMOVE ETC 

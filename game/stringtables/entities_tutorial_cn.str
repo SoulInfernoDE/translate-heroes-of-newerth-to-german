@@ -1,0 +1,63 @@
+��﻿// Tutorial
+
+// Ability_PyromancerTutorial1
+Ability_PyromancerTutorial1_name										火凤燎原
+Ability_PyromancerTutorial1_description									烈焰术士向前送出火凤以伤害直线上的敌军.
+Ability_PyromancerTutorial1_description_simple							指定地点以向该方向射出火焰波, 对经过的敌军造成^o{100,170,240,310}魔法伤害^*.
+Ability_PyromancerTutorial1_effect_header								状态效果
+Ability_PyromancerTutorial1_IMPACT_effect								对直线上所有目标造成{100,170,240,310}魔法伤害.
+Ability_PyromancerTutorial1_IMPACT_effect:Alt2							对直线上所有目标造成{100,170,240,310}魔法伤害.
+Ability_PyromancerTutorial1_tooltip_flavor								里面很热哦!
+
+// Ability_PyromancerTutorial2
+Ability_PyromancerTutorial2_name										炎龙降世
+Ability_PyromancerTutorial2_description									烈焰术士在指定地点召唤巨大的元素火龙, 伤害并眩晕范围内的敌军.
+Ability_PyromancerTutorial2_description_simple							指定地点以对范围内敌军造成^o{90,150,210,280}魔法伤害^*与^o1.6秒眩晕^*. 
+Ability_PyromancerTutorial2_effect_header								状态效果
+Ability_PyromancerTutorial2_IMPACT_effect								造成{90,150,210,280}魔法伤害并眩晕范围内所有目标1.6秒.
+Ability_PyromancerTutorial2_IMPACT_effect:Alt2							造成{90,150,210,280}魔法伤害并眩晕范围内所有目标1.6秒.
+Ability_PyromancerTutorial2_tooltip_flavor								魔法消耗? 还行.\n冷却时间? 还行\n这是召唤龙的技能?\n\n无价之宝.
+
+// Ability_PyromancerTutorial3
+Ability_PyromancerTutorial3_name										烈燃狂热
+Ability_PyromancerTutorial3_description									利用对体内烈焰的控制, 烈焰术士在施法时增加其施法, 攻击, 与移动速度, 同时使所有被其技能或攻击击中的目标在短时间内燃烧.
+Ability_PyromancerTutorial3_description_simple							被动提供^o{10,20,30,40}施法速度^*. 使用技能时, 获得可叠加的^o{2,3,4,5}%移动速度^*与^o{20,30,40,50}%攻击速度^*增益, 持续6秒.\n\n每次对敌军造成伤害时, 其受到一层效果. 烈焰术士对其造成每层^o每秒{1,2,3,4}魔法伤害^*.
+Ability_PyromancerTutorial3_effect_header								狂热效果
+Ability_PyromancerTutorial3_effect_header2								烈燃!效果
+Ability_PyromancerTutorial3_IMPACT_effect								造成技能或攻击伤害时, 对目标释放烈燃!, 持续3秒.
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect						对自身释放狂热, 持续6秒, 并增加一层效果, 最多3层.
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect:Alt2					对自身释放狂热, 持续6秒, 并增加一层效果, 最多3层.
+Ability_PyromancerTutorial3_tooltip_flavor								烧吧, 宝贝, 烧吧!
+
+// State_PyromancerTutorial_Ability3
+State_PyromancerTutorial_Ability3_name									狂热
+
+// State_PyromancerTutorial_Ability3_Burning
+State_PyromancerTutorial_Ability3_Burning_name							烈燃!
+State_PyromancerTutorial_Ability3_Burning_FRAME_effect					每层每秒{1,2,3,4}魔法伤害
+
+// State_PyromancerTutorial_Ability3_Burning_Building
+State_PyromancerTutorial_Ability3_Burning_Building_name					烈燃!
+State_PyromancerTutorial_Ability3_Burning_Building_FRAME_effect			每层每秒{1,2,3,4}魔法伤害
+
+// Ability_PyromancerTutorial4
+Ability_PyromancerTutorial4_name										爆炎打击
+Ability_PyromancerTutorial4_description									使用日神授予的力量, 烈焰术士向目标敌军投出一枚爆热火球, 造成巨大伤害.
+Ability_PyromancerTutorial4_description2								^930此技能可被大师之杖强化.^*\n\n^g强化效果:^* 伤害由{450,675,950}增加至{650,875,1150}.
+Ability_PyromancerTutorial4_description_simple							指定敌军单位以对其造成^o{450,675,950}魔法伤害^*.\n\n^g大师之杖^*将增加造成的伤害.
+Ability_PyromancerTutorial4_effect_header								状态效果
+Ability_PyromancerTutorial4_IMPACT_effect								对目标造成{450,675,950}魔法伤害.
+Ability_PyromancerTutorial4_IMPACT_effect:Alt2							对目标造成{450,675,950}魔法伤害.
+Ability_PyromancerTutorial4_IMPACT_effect:Alt3							对目标造成{450,675,950}魔法伤害.
+Ability_PyromancerTutorial4_name:ult_boost								狱火星袭 ^g(强化)^*
+Ability_PyromancerTutorial4_description2:ult_boost						此技能已被^g大师之杖^*强化.
+Ability_PyromancerTutorial4_description_simple:ult_boost				指定敌军单位以对其造成^g{650,875,1150}^*^o魔法伤害^*.
+Ability_PyromancerTutorial4_IMPACT_effect:ult_boost						对目标造成^g{650,875,1150}^*魔法伤害.
+Ability_PyromancerTutorial4_tooltip_flavor								这有点像投棒球. 火质的.
+
+// Hero_PyromancerTutorial
+Hero_PyromancerTutorial_name											烈焰术士
+Hero_PyromancerTutorial_description										For centuries, the Sacred Order has recognized the "Flame-Touched," those men and women filled with a burning, if more than slightly mad, devotion to Sol.  Those Flame-Touched who serve in the Legion are more commonly called Pyromancers for their mastery over fire, and creatures strongly attuned to that element.
+Hero_PyromancerTutorial_role											烈焰术士是一个爆发魔法伤害输出, 其三个伤害技能的连击可以瞬间将敌人化为灰烬. 由于炎龙降世的眩晕在释放时有延迟, 他最好与具有远程眩晕的英雄配合.
+       
+// End - do not delete this line

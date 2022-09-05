@@ -1,0 +1,245 @@
+﻿wl_Powerup_Damage_name 								双攻神符
+wl_State_Damage_name 								双攻神符
+wl_State_Damage_FRAME_effect 						造成的伤害翻倍.
+
+wl_Powerup_Speed_name 								极速神符
+wl_State_Speed_name 								极速神符
+
+wl_Powerup_Regen_name 								回复神符
+wl_State_Regen_name 								回复神符
+
+wl_Powerup_Slow_name 								时光神符
+wl_State_Slow_name 									时光操控
+wl_State_Slow_FRAME_effect 							所有敌人将被减速50%.
+wl_State_SlowAura_name 								时光减速
+wl_State_SlowAura_FRAME_effect 						减速50%.
+
+
+wl_Obelisk_name 									方尖塔
+
+wl_Warlock_name 									先知
+
+wl_State_Hero2_name 								购物时间
+wl_State_Hero2_FRAME_effect 						购物时间到咯! 按 "B" 键打开商店.
+
+wl_Outside_name 									脱离竞技场
+wl_Outside_FRAME_effect 							每秒受到50伤害. 赶快返回竞技场!
+
+
+
+// Ability 0
+wl_Ability0_name 									漩涡
+wl_Ability0_description 							创造一个漩涡, 将范围内所有玩家拉向中心.
+wl_Ability0_description_simple 						在指定地点创造漩涡, 将^o400^*范围内的玩家以最大^o40^*的拉力拉向中心, 持续{2,3,4,5,6}秒.
+wl_Ability0_IMPACT_effect							将^o400^*范围内的玩家以最大^o40^*的拉力拉向中心, 持续^o{2,3,4,5,6}^*秒.\n\n施法时间^o0.8秒^*.
+
+wl_Item_Ability0_name 								漩涡
+wl_Item_Ability0_description 						创造一个漩涡, 将范围内所有玩家拉向中心.
+wl_Item_Ability0_description_simple 				创造一个漩涡, 将范围内所有玩家拉向中心.
+wl_Item_Ability0_IMPACT_effect						将^o400^*范围内的玩家以最大^o40^*的拉力拉向中心, 持续^o2/3/4/5/6^*秒.\n\n施法时间^o0.8秒^*.\n\n^r可以升至5级.^*
+wl_Item_Ability0_shop_flavor 						Four hundred years ago the great prophet Sir Asaac Rewton mastered the three laws of gravity.\nUsing this knowledge he granted all prophets the possibility to apply his laws for a new ability ^oVortex^* which applies the known laws to create a gravity field which noone can escape.
+
+
+// Ability 1
+wl_Ability1_name 									火球
+wl_Ability1_description 							向指定方向发射火球, 推开打中的敌人!
+wl_Ability1_description_simple 						向指定方向发射火球.\n\n火球造成^o50^*伤害并推开^o700^*距离.\n\n火球可以与火球抵消.
+wl_Ability1_IMPACT_effect 							向指定方向发射飞行速度^o{800,850,900,950,1000}^*的火球.\n\n火球具有^o50^*碰撞体积, 在命中第一个目标时造成^o50^*伤害并推开^o700^*距离.\n\n火球可以与火球抵消, 并引发爆炸.\n\n施法时间^o{0.25,0.20,0.15,0.10,0.05}秒^*, 冷却时间^o{6,5.5,5,4.5,4}秒^*.
+
+wl_Item_Ability1_name 								火球
+wl_Item_Ability1_description 						向指定方向发射火球, 推开打中的敌人!
+wl_Item_Ability1_description_simple 				向指定方向发射火球, 推开打中的敌人!
+wl_Item_Ability1_IMPACT_effect 						向指定方向发射飞行速度^o800/850/900/950/1000^*的火球.\n\n火球具有^o50^*碰撞体积, 在命中第一个目标时造成^o50^*伤害并推开^o700^*距离.\n\n火球可以与火球抵消, 并引发爆炸.\n\n施法时间^o0.25/0.20/0.15/0.10/0.05秒^*, 冷却时间^o6/5.5/5/4.5/4秒^*.\n\n^r可以升至5级.^*
+wl_Item_Ability1_shop_flavor 						Long ago the prophets learned how to use their inner magic to produce fire. The fireball focuses a lot of fire around a magma ball which explodes on impact. The explosion has since evolved to cause a great knock back effect sliding some people far away from the impact location.
+
+
+// Ability 2
+wl_Ability2_name 									跳炸
+wl_Ability2_description								向前瞬移并在着陆时推开敌人!
+wl_Ability2_description_simple 						向面朝的方向瞬移700距离, 着陆时在周围^o150^*范围内造成^o{5,10,15,20,25}^*伤害并推开^o{500,525,550,575,600}^*距离.
+wl_Ability2_IMPACT_effect 							向面朝的方向瞬移700距离, 着陆时在周围^o150^*范围内造成^o{5,10,15,20,25}^*伤害并推开^o{500,525,550,575,600}^*距离.\n\n施法时间^o0.4秒^*.
+
+wl_Item_Ability2_name 								跳炸
+wl_Item_Ability2_description 						向前瞬移并在着陆时推开敌人!
+wl_Item_Ability2_description_simple 				向前瞬移并在着陆时推开敌人!
+wl_Item_Ability2_IMPACT_effect 						向面朝的方向瞬移700距离, 着陆时在周围^o150^*范围内造成^o5/10/15/20/25^*伤害并推开^o500/525/550/575/600^*距离.\n\n施法时间^o0.4秒^*.\n\n^r可以升至5级.^*
+wl_Item_Ability2_shop_flavor 						The prophets have always been magicians mastering unknown magic.\nExplosive port is no exception as it utilizes a whole new realm to transport the prophet to the location seemingly instant causing a great disaster to everyone except himself.
+
+
+// Ability 3
+wl_Ability3_name 									雷箭
+wl_Ability3_description 							向指定地点发射雷箭.
+wl_Ability3_description_simple 						向指定地点发射雷箭.\n\n在范围内造成^o{40,45,50,55,60}^*伤害并推开^o{700,725,750,775,800}^*距离.
+wl_Ability3_IMPACT_effect 							向指定地点发射雷箭.\n\n命中时在^o100^*范围内造成^o{40,45,50,55,60}^*伤害并推开^o{700,725,750,775,800}^*距离.\n\n施法时间^o0.5秒^*.\n\n如果雷箭击中了方尖塔, 将使方尖塔充能. 之后再用雷箭打击充能的方尖塔, 将引发大爆炸!
+
+wl_Item_Ability3_name 								雷箭
+wl_Item_Ability3_description 						向指定地点发射雷箭.
+wl_Item_Ability3_description_simple 				向指定地点发射雷箭.
+wl_Item_Ability3_IMPACT_effect 						向指定地点发射雷箭.\n\n命中时在^o100^*范围内造成^o40/45/50/55/60^*伤害并推开^o700/725/750/775/800^*距离.\n\n施法时间^o0.5秒^*.\n\n如果雷箭击中了方尖塔, 将使方尖塔充能. 之后再用雷箭打击充能的方尖塔, 将引发大爆炸!\n\n^r可以升至5级.^*
+wl_Item_Ability3_shop_flavor 						Out of all the 64 elements the only one the prophets have yet to master is lightning.\nThunderbolt is a lightning based spell which causes a GREAT knock back but because there was lack in research funds they never managed to maximize the Damage.\nBlame the president!
+
+
+// Ability 4
+wl_Ability4_name 									陨石
+wl_Ability4_description 							发射陨石, 炸飞周围单位!
+wl_Ability4_description_simple 						向指定地点发射陨石.\n\n爆炸时, 距离爆炸中心越近, 伤害越高, 最多^o{60,70,80,90,100}^*伤害并推开^o{600,700,800,900,1000}^*距离.
+wl_Ability4_IMPACT_effect 							向指定地点发射陨石.\n\n陨石将在^o1.3秒^*后于指定点周围^o300^*范围内爆炸.\n\n陨石最多飞行^o800^*距离.\n\n爆炸时, 距离爆炸中心越近, 伤害越高, 最多^o{60,70,80,90,100}^*伤害并推开^o{600,700,800,900,1000}^*距离.
+
+wl_Item_Ability4_name 								陨石
+wl_Item_Ability4_description 						发射陨石, 炸飞周围单位!
+wl_Item_Ability4_description_simple 				发射陨石, 炸飞周围单位!
+wl_Item_Ability4_IMPACT_effect 						向指定地点发射陨石.\n\n陨石将在^o1.3秒^*后于指定点周围^o300^*范围内爆炸.\n\n陨石最多飞行^o800^*距离.\n\n爆炸时, 距离爆炸中心越近, 伤害越高, 最多^o60/70/80/90/100^*伤害并推开^o600/700/800/900/1000^*距离.\n\n^r可以升至5级.^*
+wl_Item_Ability4_shop_flavor 						Another fire spell you say?\nThis one will be no different you say?\nThe prophets strike with great power from the sky!\nThe Meteor is a spell granted by god himself capable of disrupting earth itself, but as we all know the prophets weren't earthlings to start with...\nFeel free to shoot some Meteors, but make sure you're out of the blast radius!\nThis is not just another fire spell.
+
+
+// Ability 5 (May get reworked? - Haven't written stuff for this)
+wl_Ability5_name 									弹珠
+wl_Ability5_description								发射弹珠, 在短时间内弹射.
+wl_Ability5_description_simple 						向指定方向发射弹珠. 在^o{3,3.5,4,5.5,6}秒^*内, 弹珠将在英雄之间弹射, 推开并造成伤害.\n\n弹珠可以跳回自身.
+wl_Ability5_IMPACT_effect							向指定方向发射碰撞体积为100的弹珠.\n\n在^o{3,3.5,4,5.5,6}秒^*内, 挡住将在英雄之间弹射并跳向最近的英雄. 造成^o{10,12,14,16,18}伤害并推开{400}距离^*.\n\n弹珠可以跳回自身, 但不造成伤害与推开.
+
+wl_Item_Ability5_name 								弹珠
+wl_Item_Ability5_description 						发射弹珠, 在短时间内弹射.
+wl_Item_Ability5_description_simple 				发射弹珠, 在短时间内弹射.
+wl_Item_Ability5_IMPACT_effect 						向指定方向发射碰撞体积为100的弹珠.\n\n在^o3/3.5/4/5.5/6秒^*内, 挡住将在英雄之间弹射并跳向最近的英雄. 造成^o10/12/14/16/18伤害并推开{400}距离^*.\n\n弹珠可以跳回自身, 但不造成伤害与推开.\n\n^r可以升至5级.^*
+wl_Item_Ability5_shop_flavor 						Too bad, it's me ^rBlacksmith!^*
+
+
+// Ability 6
+wl_Ability6_name 									倒流
+wl_Ability6_description								保存当前生命与位置, 在短时间后倒流!
+wl_Ability6_description_simple 						保存当前生命与位置.\n\n在接下来的^o{2,2.25,2.5,2.75,3}秒^*内, 如果受到致命伤害或再次使用此技能, 将触发技能效果:\n你将治疗在此期间受到的伤害, 且若周围有敌人存在, 它将被传送回你使用此技能的位置; 若周围没有敌人, 你将被传送回你使用此技能的位置.
+wl_Ability6_IMPACT_effect							保存当前生命与位置.\n\n在接下来的^o{2,2.25,2.5,2.75,3}秒^*内, 如果受到致命伤害或再次使用此技能, 将触发技能效果:\n你将治疗在此期间受到的伤害, 且若周围有敌人存在, 它将被传送回你使用此技能的位置; 若周围没有敌人, 你将被传送回你使用此技能的位置.
+
+wl_State_Ability6_name								倒流
+
+wl_Item_Ability6_name 								倒流
+wl_Item_Ability6_description 						保存当前生命与位置, 在短时间后倒流!
+wl_Item_Ability6_description_simple 				保存当前生命与位置, 在短时间后倒流!
+wl_Item_Ability6_IMPACT_effect 						保存当前生命与位置.\n\n在接下来的^o2/2.25/2.5/2.75/3秒^*内, 如果受到致命伤害或再次使用此技能, 将触发技能效果:\n你将治疗在此期间受到的伤害, 且若周围有敌人存在, 它将被传送回你使用此技能的位置; 若周围没有敌人, 你将被传送回你使用此技能的位置.\n\n^r可以升至5级.^*
+wl_Item_Ability6_shop_flavor 						Aaah time... Long ago the prophets captured Chronos, Newerth's time lord and manipulator.\nThey shackled him up and managed to attach a device which allows to drain his power for a short about of time.\nThis allows the prophets to reverse time from a moment to another.
+
+
+// Ability 7
+wl_Ability7_name 									魔剑
+wl_Ability7_description								扔出魔剑, 你可以在持续时间内改变目标地点.
+wl_Ability7_description_simple 						向指定地点扔出魔剑, 持续^o{4,4.5,5,5.5,6}秒^*, 造成^o20伤害^*并^o推开1000距离^*.\n\n你可以再次使用此技能以改变魔剑的目标地点.
+wl_Ability7_IMPACT_effect							向指定地点扔出魔剑, 持续^o{4,4.5,5,5.5,6}秒^*, 造成^o20伤害^*并^o推开1000距离^*.\n\n你可以再次使用此技能以改变魔剑的目标地点.
+
+wl_Item_Ability7_name 								魔剑
+wl_Item_Ability7_description 						扔出魔剑, 你可以在持续时间内改变目标地点.
+wl_Item_Ability7_description_simple 				扔出魔剑, 你可以在持续时间内改变目标地点.
+wl_Item_Ability7_IMPACT_effect 						向指定地点扔出魔剑, 持续^o4/4.5/5/5.5/6秒^*, 造成^o20伤害^*并^o推开1000距离^*.\n\n你可以再次使用此技能以改变魔剑的目标地点.\n\n^r可以升至5级.^*
+wl_Item_Ability7_shop_flavor 						
+
+
+// Ability 8
+wl_Ability8_name 									震击
+wl_Ability8_description								轰击地面, 推开周围敌人!
+wl_Ability8_description_simple 						在自身周围造成^o50^*伤害并根据与你的距离造成最多^o800^*推送.\n\n对自身造成^o{10,13,16,19,22}^*^g非致命^*伤害并向敌人的反方向推开.
+w1_Ability8_IMPACT_effect							在自身周围造成^o50^*伤害并根据与你的距离造成最多^o800^*推送.\n\n对自身造成^o{10,13,16,19,22}^*^g非致命^*伤害并向敌人的反方向推开.\n\n施法时间^o{1.0,0.85,0.7,0.55,0.4}秒^*.
+
+wl_Item_Ability8_name 								震击
+wl_Item_Ability8_description 						轰击地面, 推开周围敌人!
+wl_Item_Ability8_description_simple 				轰击地面, 推开周围敌人!
+wl_Item_Ability8_IMPACT_effect 						在自身周围造成^o50^*伤害并根据与你的距离造成最多^o800^*推送.\n\n对自身造成^o10/13/16/19/22^*^g非致命^*伤害并向敌人的反方向推开.\n\n施法时间^o1.0/0.85/0.7/0.55/0.4秒^*.\n\n^r可以升至5级.^*
+wl_Item_Ability8_shop_flavor 						Is there something the prophets can't do?\nFor long it was thought they couldn't do martial arts.\nFor over 2000 years they practiced their strength and accuracy and they managed to master a kung fu smash which launches everything around them in all directions, however it does indeed hurt to smash the ground that hard.
+
+
+// Ability 9
+wl_Ability9_name 									黑洞
+wl_Ability9_description 							发射黑洞, 并在任意时刻引爆, 拉回周围单位.
+wl_Ability9_description_simple						向指定方向发射黑洞.\n\n再次使用此技能以引爆黑洞, 造成^o{10,15,20,25,30}^*伤害并拉回^o{700,725,750,775,800}^*距离.
+wl_Ability9_IMPACT_effect							向指定方向发射黑洞.\n\n黑洞具有^o750^*飞行速度, 最多飞行^o1500^*距离.\n\n再次使用此技能以引爆黑洞, 造成^o{10,15,20,25,30}^*伤害并拉回^o{700,725,750,775,800}^*距离.
+
+wl_Item_Ability9_name 								黑洞
+wl_Item_Ability9_description 						发射黑洞, 并在任意时刻引爆, 拉回周围单位.
+wl_Item_Ability9_description_simple 				发射黑洞, 并在任意时刻引爆, 拉回周围单位.
+wl_Item_Ability9_IMPACT_effect 						向指定方向发射黑洞.\n\n黑洞具有^o750^*飞行速度, 最多飞行^o1500^*距离.\n\n再次使用此技能以引爆黑洞, 造成^o10/15/20/25/30^*伤害并拉回^o700/725/750/775/800^*距离.\n\n^r可以升至5级.^*
+
+
+// Ability 10
+wl_Ability10_name 									虚无
+wl_Ability10_description 							进入虚无状态, 投射物将直接穿过你, 效果结束后引发爆炸.
+wl_Ability10_description_simple						进入^o{1.6,1.7,1.8,1.9,2}秒^*虚无状态, 闪避投射物.\n\n使用技能将提前结束虚无状态.\n\n虚无状态自然结束时, 将引发爆炸, 在^o175^*范围内造成^o{30,35,40,45,50}^*伤害并推开^o{500,525,550,575,600}^*距离.
+wl_Ability10_IMPACT_effect							进入^o{1.6,1.7,1.8,1.9,2}秒^*虚无状态, 闪避投射物.\n\n使用技能将提前结束虚无状态.\n\n虚无状态自然结束时, 将引发爆炸, 在^o175^*范围内造成^o{30,35,40,45,50}^*伤害并推开^o{500,525,550,575,600}^*距离.
+wl_Ability10_effect_header							虚无 效果
+
+wl_State_Ability10_name 							虚无
+wl_State_Ability10_FRAME_effect						自然结束时, 在周围造成^o{30,35,40,45,50}^*伤害并推开^o{600,625,650,675,700}^*距离.
+
+wl_Item_Ability10_name 								虚无
+wl_Item_Ability10_description 						进入虚无状态, 投射物将直接穿过你, 效果结束后引发爆炸.
+wl_Item_Ability10_description_simple 				进入虚无状态, 投射物将直接穿过你, 效果结束后引发爆炸.
+wl_Item_Ability10_IMPACT_effect						进入^o1.6/1.7/1.8/1.9/2秒^*虚无状态, 闪避投射物.\n\n使用技能将提前结束虚无状态.\n\n虚无状态自然结束时, 将引发爆炸, 在^o175^*范围内造成^o30/35/40/45/50^*伤害并推开^o500/525/550/575/600^*距离.\n\n^r可以升至5级.^*
+
+
+// Ability 11
+wl_Ability11_name 									锁链
+wl_Ability11_description 							将自身与方尖塔或敌人连接, 将双方拖到一起.
+wl_Ability11_description_simple						向指定方向发射锁链.\n\n命中敌人或方尖塔时, 你将与其链接在一起. 在接下来的2秒内, 双方都将被拖向对方.\n\n再次使用此技能将提前断开锁链.
+wl_Ability11_IMPACT_effect							向指定方向发射锁链. 锁链具有^o1000^*飞行速度, 最多飞行^o1200^*距离, 碰撞体积为^o70^*.\n\n命中敌人或方尖塔时, 你将与其链接在一起. 在接下来的2秒内, 双方都将被以^o{900,1000,1100,1200,1300}^*拉力拖向对方.\n\n再次使用此技能将提前断开锁链.
+wl_Ability11_effect_header							锁链 效果
+
+wl_State_Ability11_name 							锁链
+wl_State_Ability11_FRAME_effect 					被拉向链接的单位.
+wl_State_Ability11_self_name 						锁链
+wl_State_Ability11_self_FRAME_effect 				被拉向链接的单位.
+wl_State_Ability11_obelisk_name						锁链
+
+wl_Item_Ability11_name 								锁链
+wl_Item_Ability11_description 						将自身与方尖塔或敌人连接, 将双方拖到一起.
+wl_Item_Ability11_description_simple 				将自身与方尖塔或敌人连接, 将双方拖到一起.
+wl_Item_Ability11_IMPACT_effect						向指定方向发射锁链. 锁链具有^o1000^*飞行速度, 最多飞行^o1200^*距离, 碰撞体积为^o70^*.\n\n命中敌人或方尖塔时, 你将与其链接在一起. 在接下来的2秒内, 双方都将被以^o900/1000/1100/1200/1300^*拉力拖向对方.\n\n再次使用此技能将提前断开锁链.\n\n^r可以升至5级.^*
+
+
+// Ability 12
+wl_Ability12_name 									滑铲
+wl_Ability12_description 							滑向任意方向.
+wl_Ability12_description_simple						向指定方向滑铲{800,850,900,950,1000}距离.\n\n对撞到的第一个敌人造成^o{20,25,30,35,40}^*伤害并推开^o{560,570,580,590,600}^*距离.
+wl_Ability12_IMPACT_effect							向指定方向滑铲{800,850,900,950,1000}距离.\n\n对撞到的第一个敌人造成^o{20,25,30,35,40}^*伤害并推开^o{560,570,580,590,600}^*距离.\n\n施放技能将降低300滑铲速度.
+wl_Ability12_effect_header							滑铲 效果
+wl_State_Ability12_name 							滑铲
+
+wl_Item_Ability12_name 								滑铲
+wl_Item_Ability12_description 						滑向任意方向.
+wl_Item_Ability12_description_simple 				滑向任意方向.
+wl_Item_Ability12_IMPACT_effect						向指定方向滑铲800/850/900/950/1000距离.\n\n对撞到的第一个敌人造成^o20/25/30/35/40^*伤害并推开^o560/570/580/590/600^*距离.\n\n施放技能将降低300滑铲速度.\n\n^r可以升至5级.^*
+
+
+// Ability 13
+wl_Ability13_name 									反射
+wl_Ability13_description 							在短时间内反射技能, 且不会受到场外伤害!
+wl_Ability13_description_simple						在^o{2,2.25,2.5,2.75,3}秒^*内反射受到的技能.\n\n在此技能效果期间, 你将不会受到位于竞技场之外的伤害!\n\n使用技能将使此技能提前结束.
+wl_Ability13_IMPACT_effect							在^o{2,2.25,2.5,2.75,3}秒^*内反射受到的技能.\n\n在此技能效果期间, 你将不会受到位于竞技场之外的伤害!\n\n使用技能将使此技能提前结束.
+wl_Ability13_effect_header							反射 效果
+
+wl_State_Ability13_name 							反射
+wl_State_Ability13_FRAME_effect						反射受到的技能.
+
+wl_Item_Ability13_name 								反射
+wl_Item_Ability13_description 						在短时间内反射技能, 且不会受到场外伤害!
+wl_Item_Ability13_description_simple 				在短时间内反射技能, 且不会受到场外伤害!
+wl_Item_Ability13_IMPACT_effect						在^o2/2.25/2.5/2.75/3秒^*内反射受到的技能.\n\n在此技能效果期间, 你将不会受到位于竞技场之外的伤害!\n\n使用技能将使此技能提前结束.\n\n^r可以升至5级.^*
+
+
+// Ability ? (May get reworked? - Haven't written stuff for this)
+wl_Item_Upgrade0_name 								吸血
+wl_Item_Upgrade0_description 						在造成伤害时治疗自身.
+wl_Item_Upgrade0_description_simple 				在造成伤害时治疗自身.
+wl_Item_Upgrade0_IMPACT_effect 						以造成伤害的^o8/13/18/23/28%^*治疗自身.\n\n^r可以升至5级.^*
+wl_Item_Upgrade0_shop_flavor 						Life is another one of those elements the prophets have mastered.\nThey managed to figure out a way to drain life while dealing Damage at the same time.\nA very useful feature for an experienced prophet.
+
+wl_Upgrade0_name									吸血
+wl_Upgrade0_FRAME_effect							以造成伤害的^o8/13/18/23/28%^*治疗自身.
+
+// wl_AbilityChannelbar
+wl_AbilityChannelbar_name							购物时间
+
+// wl_AbilityTooltip
+wl_AbilityTooltip_name								帮助
+wl_AbilityTooltip_description						如果你需要帮助信息, 点这里!
+wl_AbilityTooltip_description_simple				在这张地图中, 你只需要尽可能活到最后, 竞技场将逐渐缩小, 如果你被打出了竞技场, 将受到持续伤害. 在每轮的间隔时间中, 你可以购买或升级技能.\n\n点击查看更多信息.
+wl_AbilityTooltip_IMPACT_effect						在这张地图中, 你只需要尽可能活到最后, 竞技场将逐渐缩小, 如果你被打出了竞技场, 将受到持续伤害. 在每轮的间隔时间中, 你可以购买或升级技能.\n\n点击查看更多信息.
+
+// End - do not delete this line

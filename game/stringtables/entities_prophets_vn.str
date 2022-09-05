@@ -1,0 +1,245 @@
+﻿wl_Powerup_Damage_name 								Bùa Sát Thương
+wl_State_Damage_name 								Gấp đôi sát thương
+wl_State_Damage_FRAME_effect 						Sát thương được nhân đôi.
+
+wl_Powerup_Speed_name 								Bùa Nhanh Nhẹn
+wl_State_Speed_name 								Nhanh nhẹn
+
+wl_Powerup_Regen_name 								Bùa Hồi Phục
+wl_State_Regen_name 								Hồi phục
+
+wl_Powerup_Slow_name 								Bùa Thời Không
+wl_State_Slow_name 									Kiểm soát thời không
+wl_State_Slow_FRAME_effect 							Mọi kẻ địch bị làm chậm đi 50%.
+wl_State_SlowAura_name 								Thời gian trôi chậm
+wl_State_SlowAura_FRAME_effect 						Mọi thứ bị làm chậm đi 50%.
+
+
+wl_Obelisk_name 									Cột đá
+
+wl_Warlock_name 									Prophet
+
+wl_State_Hero2_name 								Cửa Hàng
+wl_State_Hero2_FRAME_effect 						Đến giờ sắm sửa. Nút tắt mở cửa hàng là "B".
+
+wl_Outside_name 									Ra khỏi vòng đấu
+wl_Outside_FRAME_effect 							Chịu 50 sát thương mỗi giây. Vào vòng lại mau!
+
+
+
+// Ability 0
+wl_Ability0_name 									Xoáy Phép
+wl_Ability0_description 							Tạo một xoáy phép hút mọi kẻ địch ở quanh.
+wl_Ability0_description_simple 						Chọn một vùng để tạo xoáy phép hút mọi kẻ khác trong tầm ^o400^* đơn vị vào tâm xoáy với lực kéo tới ^o40^* đơn vị trong {2,3,4,5,6}s.
+wl_Ability0_IMPACT_effect							Hút mọi kẻ trong tầm ^o400^* đơn vị vào tâm xoáy với lực kéo ^o40^* đơn vị trong {2,3,4,5,6}s.\n\nXoáy phép mất ^o0.8 giây^* để thi triển.
+
+wl_Item_Ability0_name 								Xoáy Phép
+wl_Item_Ability0_description 						Tạo một xoáy phép hút mọi kẻ địch ở quanh.
+wl_Item_Ability0_description_simple 				Chọn một vùng để tạo xoáy phép hút mọi kẻ khác.
+wl_Item_Ability0_IMPACT_effect						Hút mọi kẻ trong tầm ^o400^* vào tâm xoáy với lực kéo ^o40^* đơn vị trong ^o2/3/4/5/6^*s.\n\nXoáy phép mất ^o0.8 giây^* để thi triển.
+wl_Item_Ability0_shop_flavor 						
+
+
+// Ability 1
+wl_Ability1_name 									Cầu Lửa
+wl_Ability1_description 							Bắn cầu lửa theo hướng chỉ định.\nĐẩy văng kẻ địch trúng đòn!
+wl_Ability1_description_simple 						Chỉ định hướng để bắn cầu lửa.\n\nCầu lửa gây ^o50^* sát thương và đẩy văng ^o700^* đơn vị.\n\nCầu lửa có thể chạm nhau.
+wl_Ability1_IMPACT_effect 							Bắn cầu lửa theo hướng chỉ định với tốc độ ^o{800,850,900,950,1000}^*.\n\nBán kính chạm của cầu lửa là ^o50^*, tan biến khi tiếp xúc và gây ^o50^* sát thương cùng đẩy văng ^o700^* đơn vị.\n\nCầu lửa chạm nhau sẽ tạo một vụ nổ nhỏ.\n\nThi triển cầu lửa cần ^o{0.25,0.20,0.15,0.10,0.05} giây^* và hồi lại sau ^o{6,5.5,5,4.5,4} giây^*.
+
+wl_Item_Ability1_name 								Cầu Lửa
+wl_Item_Ability1_description 						Bắn cầu lửa theo hướng chỉ định.\nĐẩy văng kẻ địch trúng đòn!
+wl_Item_Ability1_description_simple 				Bắn cầu lửa theo hướng chỉ định. Gây sát thương và đẩy văng kẻ địch trúng đòn!
+wl_Item_Ability1_IMPACT_effect 						Bắn cầu lửa theo hướng chỉ định với tốc độ ^o800/850/900/950/1000^*.\n\nBán kính chạm của cầu lửa là ^o50^*, tan biến khi tiếp xúc và gây ^o50^* sát thương cùng đẩy văng ^o700^* đơn vị.\n\nCầu lửa chạm nhau sẽ tạo một vụ nổ nhỏ.\n\nThi triển cầu lửa cần ^o0.25/0.20/0.15/0.10/0.05 giây^* và hồi lại sau ^o6/5.5/5/4.5/4 giây^*.\n\n^rCó thể nâng cấp 5 lần.^*
+wl_Item_Ability1_shop_flavor 						
+
+
+// Ability 2
+wl_Ability2_name 									Dịch Chuyển
+wl_Ability2_description								Dịch chuyển tới đồng thời đẩy văng địch!
+wl_Ability2_description_simple 						Dịch chuyển theo hướng mắt nhìn 700 đơn vị, gây ^o{5,10,15,20,25}^* sát thương và đẩy văng ^o{500,525,550,575,600}^* đơn vị trong bán kính ^o150^* đơn vị nơi đáp xuống.
+wl_Ability2_IMPACT_effect 							Dịch chuyển theo hướng mắt nhìn 700 đơn vị, gây ^o{5,10,15,20,25}^* sát thương và đẩy văng ^o{500,525,550,575,600}^* đơn vị trong bán kính ^o150^* đơn vị nơi đáp xuống.\n\nThi triển cần ^o0.4 giây^*.
+
+wl_Item_Ability2_name 								Dịch Chuyển
+wl_Item_Ability2_description 						Dịch chuyển tới đồng thời đẩy văng địch!
+wl_Item_Ability2_description_simple 				Dịch chuyển tới, gây sát thương đồng thời đẩy văng địch.
+wl_Item_Ability2_IMPACT_effect 						Dịch chuyển theo hướng mắt nhìn 700 đơn vị, gây ^o5/10/15/20/25^* sát thương và đẩy văng ^o500/525/550/575/600^* đơn vị trong bán kính ^o150^* đơn vị nơi đáp xuống.\n\nThi triển cần ^o0.4 giây^*.\n\n^rCó thể nâng cấp 5 lần.^*
+wl_Item_Ability2_shop_flavor 						
+
+
+// Ability 3
+wl_Ability3_name 									Phóng Sét
+wl_Ability3_description 							Phóng luồng sét vào vị trí chỉ định.
+wl_Ability3_description_simple 						Chọn vùng để phóng sét tới.\n\nLuồng sét gây ^o{40,45,50,55,60}^* sát thương và đẩy văng ^o{700,725,750,775,800}^* đơn vị.
+wl_Ability3_IMPACT_effect 							Chọn vùng để phóng sét tới.\n\nLuồng sét gây ^o{40,45,50,55,60}^* sát thương và đẩy văng ^o{700,725,750,775,800}^* đơn vị trong bán kính ^o100^* khi tiếp xúc.\n\nThi triển cần ^o0.5 giây^*.\n\nNếu phóng sét gần Trụ Đá, sét sẽ tích năng lượng cho trụ. Nếu có luồng sét khác phóng gần trụ đã tích năng lượng, nó sẽ nổ rất mạnh!
+
+wl_Item_Ability3_name 								Phóng Sét
+wl_Item_Ability3_description 						Phóng luồng sét vào vị trí chỉ định.
+wl_Item_Ability3_description_simple 				Phóng luồng sét vào vị trí chỉ định gây sát thương và đẩy văng địch.
+wl_Item_Ability3_IMPACT_effect 						Chọn vùng để phóng sét tới.\n\nLuồng sét gây ^o40/45/50/55/60^* sát thương và đẩy văng ^o700/725/750/775/800^* đơn vị trong bán kính ^o100^* khi tiếp xúc.\n\nThunderbolt has ^o0.5s^* cast time.\n\nThi triển cần ^o0.5 giây^*.\n\nNếu phóng sét gần Trụ Đá, sét sẽ tích năng lượng cho trụ. Nếu có luồng sét khác phóng gần trụ đã tích năng lượng, nó sẽ nổ rất mạnh!\n\n^rCó thể nâng cấp 5 lần.^*
+wl_Item_Ability3_shop_flavor 						
+
+
+// Ability 4
+wl_Ability4_name 									Thiên Thạch
+wl_Ability4_description 							Đẩy văng kẻ địch trong bán kính 300 đơn vị tại vùng đáp!
+wl_Ability4_description_simple 						Chọn vị trí để thả thiên thạch.\n\nThiên thạch nổ gây sát thương dựa trên vùng đứng của mục tiêu so với trung tâm; lên tới ^o{60,70,80,90,100} sát thương và đẩy văng ^o{600,700,800,900,1000}^* đơn vị.
+wl_Ability4_IMPACT_effect 							Chọn vị trí để thả thiên thạch.\n\nThiên thạch gây nổ trong bán kính ^o300^* đơn vị tại vùng đáp sau ^o1.3s^*.\n\nThiên thạch có tầm di chuyển tối đa ^o800^* đơn vị.\n\n Vụ nổ gây sát thương dựa trên vùng đứng của mục tiêu so với trung tâm; lên tới ^o{60,70,80,90,100} sát thương và đẩy văng ^o{600,700,800,900,1000}^* đơn vị.
+
+wl_Item_Ability4_name 								Thiên Thạch
+wl_Item_Ability4_description 						Đẩy văng kẻ địch trong bán kính 300 đơn vị tại vùng đáp!
+wl_Item_Ability4_description_simple 				Thả thiên thạch tại vị trí chỉ định gây sát thương và đẩy văng.
+wl_Item_Ability4_IMPACT_effect 						Chọn vị trí để thả thiên thạch.\n\nThiên thạch gây nổ trong bán kính ^o300^* đơn vị tại vùng đáp sau ^o1.3s^*.\n\nThiên thạch có tầm di chuyển tối đa ^o800^* đơn vị.\n\n Vụ nổ gây sát thương dựa trên vùng đứng của mục tiêu so với trung tâm; lên tới ^o60/70/80/90/100^* sát thương và đẩy văng ^o600/700/800/900/1000^* đơn vị.\n\n^rCó thể nâng cấp 5 lần.^*
+wl_Item_Ability4_shop_flavor 						
+
+
+// Ability 5
+wl_Ability5_name 									Đạn Phép
+wl_Ability5_description								Bắn đạn phép có hiệu ứng nẩy.
+wl_Ability5_description_simple 						Chọn vị trí để bắn đạn phép. Trong ^o{3,3.5,4,5.5,6} giây^*, đạn phép sẽ nẩy giữa các Tướng trúng phải, gây sát thương và đẩy văng.\n\nTướng bạn điều khiển không ngoại lệ.
+wl_Ability5_IMPACT_effect							Chọn vị trí để bắn đạn phép có vùng chạm 100 đơn vị. Trong ^o{3,3.5,4,5.5,6} giây^*, đạn phép sẽ nẩy qua lại giữa các Tướng trúng phải, gây ^o{10,12,14,16,18} sát thương kèm đẩy {400} đơn vị^*.\n\nTướng bạn điều khiển không ngoại lệ, nhưng khi trúng sẽ không bị đẩy hoặc dính sát thương.
+
+wl_Item_Ability5_name 								Đạn Phép
+wl_Item_Ability5_description 						Bắn đạn phép có hiệu ứng nẩy.
+wl_Item_Ability5_description_simple 				Bắn đạn phép có hiệu ứng nẩy tồn tại trong thời gian ngắn.
+wl_Item_Ability5_IMPACT_effect 						Chọn vị trí để bắn đạn phép có vùng chạm 100 đơn vị. Trong ^o{3,3.5,4,5.5,6} giây^*, đạn phép sẽ nẩy qua lại giữa các Tướng trúng phải, gây ^o10/12/14/16/18 sát thương kèm đẩy {400} đơn vị^*.\n\nTướng bạn điều khiển không ngoại lệ, nhưng khi trúng sẽ không bị đẩy hoặc dính sát thương.\n\n^rCó thể nâng cấp 5 lần.^*
+wl_Item_Ability5_shop_flavor 						
+
+
+// Ability 6
+wl_Ability6_name 									Đảo Thời Gian
+wl_Ability6_description								Đặt điểm hồi lại, quay ngược thời gian!
+wl_Ability6_description_simple 						Khi sử dụng, đặt điểm hồi cho bạn.\n\nTrong vòng ^o{2,2.25,2.5,2.75,3} giây tới^*, nếu bạn nhận phải chiêu kết liễu hoặc ấn lại nút kỹ năng, 1 trong 2 trường hợp sẽ xảy ra: Nếu có Tướng địch đứng kế bạn, hắn sẽ bị dịch chuyển đến vị trí đặt điểm hồi trước đó và máu mất do dính sát thương sẽ được hồi lại.\n\nNếu không có Tướng nào đứng kế, bản thân bạn sẽ quay lại vị trí đặt điểm hồi và máu mất do dính sát thương sẽ được hồi lại.
+wl_Ability6_IMPACT_effect							Khi sử dụng, đặt điểm hồi cho bạn.\n\nTrong vòng ^o{2,2.25,2.5,2.75,3} giây tới^*, nếu bạn nhận phải chiêu kết liễu hoặc ấn lại nút kỹ năng, 1 trong 2 trường hợp sẽ xảy ra: Nếu có Tướng địch đứng kế bạn, hắn sẽ bị dịch chuyển đến vị trí đặt điểm hồi trước đó và máu mất do dính sát thương sẽ được hồi lại.\n\nNếu không có Tướng nào đứng kế, bản thân bạn sẽ quay lại vị trí đặt điểm hồi và máu mất do dính sát thương sẽ được hồi lại.
+
+wl_State_Ability6_name								Đảo Thời Gian
+
+wl_Item_Ability6_name 								Đảo Thời Gian
+wl_Item_Ability6_description 						Đặt điểm hồi lại, quay ngược thời gian!
+wl_Item_Ability6_description_simple 				Đặt điểm hồi lại, quay ngược thời gian!
+wl_Item_Ability6_IMPACT_effect 						Khi sử dụng, đặt điểm hồi cho bạn.\n\nTrong vòng ^o2/2.25/2.5/2.75/3 giây^*, nếu bạn nhận phải chiêu kết liễu hoặc ấn lại nút kỹ năng, 1 trong 2 trường hợp sẽ xảy ra: Nếu có Tướng địch đứng kế bạn, hắn sẽ bị dịch chuyển đến vị trí đặt điểm hồi trước đó và máu mất do dính sát thương sẽ được hồi lại.\n\nNếu không có Tướng nào đứng kế, bản thân bạn sẽ quay lại vị trí đặt điểm hồi và máu mất do dính sát thương sẽ được hồi lại.
+wl_Item_Ability6_shop_flavor 						
+
+
+// Ability 7
+wl_Ability7_name 									Ném Kiếm
+wl_Ability7_description								Ném kiếm yểm phép vào địch.
+wl_Ability7_description_simple 						Chọn vị trí để ném kiếm phép tới trong ^o{4,4.5,5,5.5,6} giây^*, gây ^o20 sát thương^* và ^ođẩy văng 1000^* đơn vị những ai trúng phải.\n\nBạn có thể ấn nút kỹ năng lần nữa để định vị kiếm bay tới điểm khác.
+wl_Ability7_IMPACT_effect							Chọn vị trí để ném kiếm phép tới trong ^o{4,4.5,5,5.5,6} giây^*, gây ^o20 sát thương^* và ^ođẩy văng 1000^* đơn vị những ai trúng phải.\n\nBạn có thể ấn nút kỹ năng lần nữa để định vị kiếm bay tới điểm khác.
+
+wl_Item_Ability7_name 								Ném Kiếm
+wl_Item_Ability7_description 						Ném kiếm yểm phép vào địch.
+wl_Item_Ability7_description_simple 				Ném kiếm yểm phép vào địch, gây sát thương và đẩy văng.
+wl_Item_Ability7_IMPACT_effect 						Chọn vị trí để ném kiếm phép tới trong ^o4/4.5/5/5.5/6s^*, gây ^o20 sát thương^* và ^ođẩy văng 1000^* đơn vị những ai trúng phải.\n\nBạn có thể ấn nút kỹ năng lần nữa để định vị kiếm bay tới điểm khác.\n\n^rCó thể nâng cấp 5 lần.^*
+wl_Item_Ability7_shop_flavor 						
+
+
+// Ability 8
+wl_Ability8_name 									Giậm Đất
+wl_Ability8_description								Giậm mạnh mặt đất, đẩy văng địch!
+wl_Ability8_description_simple 						Kích hoạt để gây ^o50^* sát thương và đẩy kẻ địch trong bán kính văng tới ^o800^* đơn vị tùy vào khoảng cách với bạn.\n\nGây ^o{10,13,16,19,22}^* sát thương ^gkhông chí mạng^* lên bản thân và đẩy bạn xa khỏi kẻ địch trúng chiêu.
+w1_Ability8_IMPACT_effect							Kích hoạt để gây ^o50^* sát thương và đẩy kẻ địch trong bán kính văng tới ^o800^* đơn vị tùy vào khoảng cách với bạn.\n\nGây ^o{10,13,16,19,22}^* sát thương ^gkhông chí mạng^* lên bản thân và đẩy bạn xa khỏi kẻ địch trúng chiêu.\n\nThi triển cần ^o{1.0,0.85,0.7,0.55,0.4} giây^*.
+
+wl_Item_Ability8_name 								Giậm Đất
+wl_Item_Ability8_description 						Giậm mạnh mặt đất, đẩy văng địch!
+wl_Item_Ability8_description_simple 				Giậm mạnh mặt đất, đẩy văng địch!
+wl_Item_Ability8_IMPACT_effect 						Kích hoạt để gây ^o50^* sát thương và đẩy kẻ địch trong bán kính văng tới ^o800^* đơn vị tùy vào khoảng cách với bạn.\n\nGây ^o{10,13,16,19,22}^* sát thương ^gkhông chí mạng^* lên bản thân và đẩy bạn xa khỏi kẻ địch trúng chiêu.\n\nThi triển cần ^o1.0/0.85/0.7/0.55/0.4 giây^*.\n\n^rCó thể nâng cấp 5 lần.^*
+wl_Item_Ability8_shop_flavor 						
+
+
+// Ability 9
+wl_Ability9_name 									Bom Kéo
+wl_Ability9_description 							Bắn một quả bom bạn có thể kích nổ tùy ý, kéo địch vào vụ nổ.
+wl_Ability9_description_simple						Chọn vị trí để bắn bom.\n\nKích hoạt kỹ năng lần nữa để kích nổ bom, gây ^o{10,15,20,25,30}^* sát thương và kéo kẻ địch trong bán kính đi ^o{700,725,750,775,800}^* đơn vị.
+wl_Ability9_IMPACT_effect							Chọn vị trí để bắn bom.\n\nBom bay với tốc độ ^o750^* và có thể xa đến ^o1500^* đơn vị.\n\nKích hoạt kỹ năng lần nữa để kích nổ bom, gây ^o{10,15,20,25,30}^* sát thương và kéo kẻ địch trong bán kính đi ^o{700,725,750,775,800}^* đơn vị.
+
+wl_Item_Ability9_name 								Bom Kéo
+wl_Item_Ability9_description 						Bắn một quả bom bạn có thể kích nổ tùy ý, kéo địch vào vụ nổ.
+wl_Item_Ability9_description_simple 				Bắn một quả bom bạn có thể kích nổ tùy ý, kéo địch vào vụ nổ.
+wl_Item_Ability9_IMPACT_effect 						Chọn vị trí để bắn bom.\n\nBom bay với tốc độ ^o750^* và có thể xa đến ^o1500^* đơn vị.\n\nKích hoạt kỹ năng lần nữa để kích nổ bom, gây ^o{10,15,20,25,30}^* sát thương và kéo kẻ địch trong bán kính đi ^o{700,725,750,775,800}^* đơn vị.\n\n^rCó thể nâng cấp 5 lần.^*
+
+
+// Ability 10
+wl_Ability10_name 									Ma Ảnh
+wl_Ability10_description 							Trở thành bóng ma, mọi phép bắn sẽ xuyên qua người. 
+wl_Ability10_description_simple						Kích hoạt để trở thành bóng ma trong ^o{1.6,1.7,1.8,1.9,2}s^*, né hầu hết phép bắn.\n\nSử dụng kỹ năng khi đang là bóng ma sẽ mất hiệu ứng bóng.\n\nNếu kéo được bóng đến hết thời gian, mọi kẻ địch xung quanh ^o175^* đơn bị sẽ dính ^o{30,35,40,45,50}^* sát thương và bị đẩy văng ^o{500,525,550,575,600}^* đơn vị.
+wl_Ability10_IMPACT_effect							Kích hoạt để trở thành bóng ma trong ^o{1.6,1.7,1.8,1.9,2}s^*, né hầu hết phép bắn.\n\nSử dụng kỹ năng khi đang là bóng ma sẽ mất hiệu ứng bóng.\n\nNếu kéo được bóng đến hết thời gian, mọi kẻ địch xung quanh ^o175^* đơn bị sẽ dính ^o{30,35,40,45,50}^* sát thương và bị đẩy văng ^o{500,525,550,575,600}^* đơn vị.
+wl_Ability10_effect_header	Ma Ảnh(s)
+
+wl_State_Ability10_name 							Ma Ảnh
+wl_State_Ability10_FRAME_effect						Khi hiệu ứng kết thúc, gây ^o{30,35,40,45,50}^* sát thương và đẩy văng ^o{600,625,650,675,700}^* đơn vị mọi kẻ địch trong tầm.
+
+wl_Item_Ability10_name 								Ma Ảnh
+wl_Item_Ability10_description 						Trở thành bóng ma, mọi phép bắn sẽ xuyên qua người.
+wl_Item_Ability10_description_simple 				Trở thành bóng ma, mọi phép bắn sẽ xuyên qua người.
+wl_Item_Ability10_IMPACT_effect						Kích hoạt để trở thành bóng ma trong ^o1.6/1.7/1.8/1.9/2 giây^*, né hầu hết phép bắn.\n\nSử dụng kỹ năng khi đang là bóng ma sẽ mất hiệu ứng bóng.\n\nNếu kéo được bóng đến hết thời gian, mọi kẻ địch xung quanh ^o175^* đơn bị sẽ dính ^o30/35/40/45/50^* sát thương và bị đẩy văng ^o500/525/550/575/600^* đơn vị.
+
+
+// Ability 11
+wl_Ability11_name 									Dây Phép
+wl_Ability11_description 							Dùng kết nối bản thân với trụ đá hoặc kẻ địch, kéo lại gần nhau.
+wl_Ability11_description_simple						Chỉ hướng để phóng dây phép.\n\nKhi tiếp xúc với địch hoặc trụ đá sẽ kéo hai bên lại gần nhau. Trong 2 giây sau đó, cả hai tiếp tục bị kéo về phía nhau.\n\nKích hoạt kỹ năng lần nữa để hủy sớm.
+wl_Ability11_IMPACT_effect							Phóng dây phép theo hướng chỉ định. Dây phép bay với tốc độ ^o1000^*, tầm xa lên đến ^o1200^* đơn vị và bán kính chạm ^o70^ đơn vị.\n\nKhi tiếp xúc với địch hoặc trụ đá sẽ kéo hai bên lại gần nhau. Trong 2 giây sau đó, cả hai tiếp tục bị kéo về phía nhau với lực kéo ^o{900,1000,1100,1200,1300}^*.\n\nKích hoạt kỹ năng lần nữa để hủy sớm.
+wl_Ability11_effect_header	Trói buộc(s)
+
+wl_State_Ability11_name 							Trói buộc
+wl_State_Ability11_FRAME_effect 					Kéo kẻ địch bị trói về phía bạn.
+wl_State_Ability11_self_name 						Trói buộc
+wl_State_Ability11_self_FRAME_effect 				Kéo kẻ địch bị trói về phía bạn
+wl_State_Ability11_obelisk_name						Trói buộc
+
+wl_Item_Ability11_name 								Dây Phép
+wl_Item_Ability11_description 						Dùng kết nối bản thân với trụ đá hoặc kẻ địch, kéo lại gần nhau.
+wl_Item_Ability11_description_simple 				Dùng kết nối bản thân với trụ đá hoặc kẻ địch, kéo lại gần nhau.
+wl_Item_Ability11_IMPACT_effect						Phóng dây phép theo hướng chỉ định. Dây phép bay với tốc độ ^o1000^*, tầm xa lên đến ^o1200^* đơn vị và bán kính chạm ^o70^ đơn vị.\n\nKhi tiếp xúc với địch hoặc trụ đá sẽ kéo hai bên lại gần nhau. Trong 2 giây sau đó, cả hai tiếp tục bị kéo về phía nhau với lực kéo ^o900/1000/1100/1200/1300^*.\n\nKích hoạt kỹ năng lần nữa để hủy sớm.\n\n^rCó thể nâng cấp 5 lần.^*
+
+
+// Ability 12
+wl_Ability12_name 									Đẩy Tới
+wl_Ability12_description 							Lập tức đẩy bản thân về hướng chỉ định.
+wl_Ability12_description_simple						Chỉ hướng để lập tức áp lực đẩy {800,850,900,950,1000} lên bản thân.\n\nChỉ cần tốc độ bạn trên 300, kẻ địch đầu tiên gần bạn sẽ dính ^o{20,25,30,35,40}^* sát thương và bị đẩy ^o{560,570,580,590,600}^* đơn vị.
+wl_Ability12_IMPACT_effect							Chỉ hướng để lập tức áp lực đẩy {800,850,900,950,1000} lên bản thân.\n\nChỉ cần tốc độ bạn trên 300, kẻ địch đầu tiên gần bạn sẽ dính ^o{20,25,30,35,40}^* sát thương và bị đẩy ^o{560,570,580,590,600}^* đơn vị.\n\nXài phép sẽ làm mất 300 tốc độ.
+wl_Ability12_effect_header							Lao tới(s)
+wl_State_Ability12_name 							Lao tới
+
+wl_Item_Ability12_name 								Đẩy Tới
+wl_Item_Ability12_description 						Lập tức đẩy bản thân về hướng chỉ định.
+wl_Item_Ability12_description_simple 				Lập tức đẩy bản thân về hướng chỉ định.
+wl_Item_Ability12_IMPACT_effect						Chỉ hướng để lập tức áp lực đẩy {800,850,900,950,1000} lên bản thân.\n\nChỉ cần tốc độ bạn trên 300, kẻ địch đầu tiên gần bạn sẽ dính ^o20/25/30/35/40^* sát thương và bị đẩy ^o560/570/580/590/600^* đơn vị.\n\nXài phép sẽ làm mất 300 tốc độ.\n\n^rCó thể nâng cấp 5 lần.^*
+
+
+// Ability 13
+wl_Ability13_name 									Chắn Phép
+wl_Ability13_description 							Trong vài giây, đẩy lệch hầu hết phép!
+wl_Ability13_description_simple						Kích hoạt để đẩy lệch hầu hết phép trong ^o{2,2.25,2.5,2.75,3} giây^*.\n\nKhi Chắn Phép tác dụng, bạn KHÔNG nhận sát thương khi ở ngoài vòng!\n\nDùng phép khác sẽ hủy lá chắn sớm.
+wl_Ability13_IMPACT_effect							Kích hoạt để đẩy lệch hầu hết phép trong ^o{2,2.25,2.5,2.75,3} giây^*.\n\nKhi Chắn Phép tác dụng, bạn KHÔNG nhận sát thương khi ở ngoài vòng!\n\nDùng phép khác sẽ hủy lá chắn sớm.
+wl_Ability13_effect_header							Đẩy lệch(s)
+
+wl_State_Ability13_name 							Đẩy lệch 
+wl_State_Ability13_FRAME_effect						Hầu hết phép sẽ bị đẩy lệch.
+
+wl_Item_Ability13_name 								Chắn Phép
+wl_Item_Ability13_description 						Trong vài giây, đẩy lệch hầu hết phép!
+wl_Item_Ability13_description_simple 				Trong vài giây, đẩy lệch hầu hết phép!
+wl_Item_Ability13_IMPACT_effect						Kích hoạt để đẩy lệch hầu hết phép trong ^o2/2.25/2.5/2.75/3 giây^*.\n\nKhi Chắn Phép tác dụng, bạn KHÔNG nhận sát thương khi ở ngoài vòng!\n\nDùng phép khác sẽ hủy lá chắn sớm.\n\n^rCó thể nâng cấp 5 lần.^*
+
+
+// Ability ? (May get reworked? - Haven't written stuff for this)
+wl_Item_Upgrade0_name 								Hút Sinh Lực
+wl_Item_Upgrade0_description 						Hồi máu bản thân theo lượng sát thương gây ra.
+wl_Item_Upgrade0_description_simple 				Hồi máu bản thân theo lượng sát thương gây ra.
+wl_Item_Upgrade0_IMPACT_effect 						Hồi cho bản thân máu bằng ^o8/13/18/23/28%^* sát thương gây được.\n\n^rCó thể nâng cấp 5 lần.^*
+wl_Item_Upgrade0_shop_flavor 						
+
+wl_Upgrade0_name									Hút Sinh Lực
+wl_Upgrade0_FRAME_effect							Hồi cho bản thân máu bằng ^o8/13/18/23/28%^* sát thương gây được
+
+// wl_AbilityChannelbar
+wl_AbilityChannelbar_name							Cho dùng cửa hàng
+
+// wl_AbilityTooltip
+wl_AbilityTooltip_name								Hướng dẫn
+wl_AbilityTooltip_description						Nếu cần thêm hướng dẫn, bấm đây!
+wl_AbilityTooltip_description_simple				Ở bản đồ này, bạn cần trở thành người trụ vững cuối cùng trong khi vòng đấu nhỏ từ từ. Nếu bước khỏi vòng, bạn sẽ nhận sát thương theo thời gian. Mua kỹ năng mới hoặc nâng cấp cái cũ giữa mỗi ván.\n\nNhấp để xem thêm.
+wl_AbilityTooltip_IMPACT_effect						Ở bản đồ này, bạn cần trở thành người trụ vững cuối cùng trong khi vòng đấu nhỏ từ từ. Nếu bước khỏi vòng, bạn sẽ nhận sát thương theo thời gian. Mua kỹ năng mới hoặc nâng cấp cái cũ giữa mỗi ván.\n\nNhấp để xem thêm.
+
+// End - do not delete this line

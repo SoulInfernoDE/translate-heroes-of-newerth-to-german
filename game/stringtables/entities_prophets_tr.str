@@ -1,0 +1,246 @@
+﻿wl_Powerup_Damage_name                                                          Çifte Hasar Rünü
+wl_State_Damage_name                                                            Çifte Hasar
+wl_State_Damage_FRAME_effect                                                    Tüm hasar ikiye katlandı.
+
+wl_Powerup_Speed_name                                                           Hız Rünü
+wl_State_Speed_name                                                             Hız
+
+wl_Powerup_Regen_name                                                           Yenilenme Rünü
+wl_State_Regen_name                                                             Yenilenme
+
+wl_Powerup_Slow_name                                                            Zaman Manipülasyon Rünü
+wl_State_Slow_name                                                              Zaman Manipülasyon
+wl_State_Slow_FRAME_effect                                                      Tüm düşmanlar 50% yavaşlatıldı.
+wl_State_SlowAura_name                                                          Zaman Yavaşlatıldı
+wl_State_SlowAura_FRAME_effect                                                  Her şey 50% yavaşlatıldı.
+
+
+wl_Obelisk_name                                                                 Obelisk
+
+wl_Warlock_name                                                                 Prophet
+
+wl_State_Hero2_name                                                             Dükkan Açık
+wl_State_Hero2_FRAME_effect                                                     Alış-veriş zamanı! Dükkan kısayol tuşu "B" olarak ayarlanmıştır.
+
+wl_Outside_name                                                                 Arena Dışı
+wl_Outside_FRAME_effect                                                         Saniyede 50 hasar. Arena sahasına geri dön!
+
+
+
+// Ability 0
+wl_Ability0_name                                                                Girdap
+wl_Ability0_description                                                         Oyuncuları içine çeken bir Girdap yaratır.
+wl_Ability0_description_simple                                                  Belirlenen noktada Girdap yaratır ve ^o400^* birim içerisindeki herşeyi merkeze doğru ^o40^* birim ile çeker ve {2,3,4,5,6} saniye sürer.
+wl_Ability0_IMPACT_effect                                                       Belirlenen noktada Girdap yaratır ve ^o400^* birim içerisindeki herşeyi merkeze doğru ^o40^* birim ile çeker ve {2,3,4,5,6} saniye sürer.\n\nGirdap oluşturmak ^o0.8s^* sürer.
+
+wl_Item_Ability0_name                                                           Girdap
+wl_Item_Ability0_description                                                    Oyuncuları içine çeken bir Girdap yaratır.
+wl_Item_Ability0_description_simple                                             Belilerlenen hedefte bir girdap oluşturarak etraftaki herşeyi içine çeker.
+wl_Item_Ability0_IMPACT_effect                                                  Belirlenen noktada Girdap yaratır ve ^o400^* birim içerisindeki herşeyi merkeze doğru ^o40^* birim ile çeker ve {2,3,4,5,6} saniye sürer.\n\nGirdap oluşturmak ^o0.8s^* sürer.
+wl_Item_Ability0_shop_flavor                                                    400 yıl önce Prophet Sir Asaac Rewton 3 yer çekimi kuralında efendi oldu.\nYer çekimi hakkındaki bilgisini kullanarak yeni bir yetenek olan ^oGirdap^*'ı geliştirdi ve kimsenin kaçamayacağı bir yetenek haline getirdi.
+
+
+// Ability 1
+wl_Ability1_name                                                                Ateş Topu
+wl_Ability1_description                                                         Belirlenen yöne Ateş Topu fırlat.\nRakibini vur ve onu geri it!
+wl_Ability1_description_simple                                                  Belirlenen yöne Ateş Topu fırlat.\n\nAteş Topu ^o50^* Hasar verir ve ^o700^* birim iter..\n\n Ateş Topu birbirine sekebilir.
+wl_Ability1_IMPACT_effect                                                       Belirlenen yöne ^o{800,850,900,950,1000}^* hızla Ateş Topu fırlatır.\n\nAteş Topu ^o50^* birim içerisindeki bir hedefe vurur ve ^o50^* Hasar vererek onu ^o700^* birim iter.\n\nAteş Topları birbirine çarparak küçük patlamalar yaratabilir.\n\nAteş Topu ^o{0.25,0.20,0.15,0.10,0.05}s^* fırlatma süresine ve ^o{6,5.5,5,4.5,4}s^* bekleme süresine sahiptir.
+
+wl_Item_Ability1_name                                                           Ateş Topu
+wl_Item_Ability1_description                                                    Belirlenen yöne Ateş Topu fırlat.\nRakibini vur ve onu geri it!
+wl_Item_Ability1_description_simple                                             Belirlenen yöne Ateş Topu fırlat. Ateş Topu hasar verir ve rakibi geri iter.
+wl_Item_Ability1_IMPACT_effect                                                  Belirlenen yöne ^o{800,850,900,950,1000}^* hızla Ateş Topu fırlatır.\n\nAteş Topu ^o50^* birim içerisindeki bir hedefe vurur ve ^o50^* Hasar vererek onu ^o700^* birim iter.\n\nAteş Topları birbirine çarparak küçük patlamalar yaratabilir.\n\nAteş Topu ^o{0.25,0.20,0.15,0.10,0.05}s^* fırlatma süresine ve ^o{6,5.5,5,4.5,4}s^* bekleme süresine sahiptir.\n\n^r5 defa geliştirilebilir.^*
+wl_Item_Ability1_shop_flavor                                                    Uzun zaman önce Prophet'ler ateşi nasıl kontrol edeceklerini öğrendiler. Ateş Topu etrafında yüklü bir mağma ateşiyle ile patlama yaratır ve bu sayede düşmanını geri iter!
+
+
+// Ability 2
+wl_Ability2_name                                                                Işınlan
+wl_Ability2_description                                                         İleriye doğru ışınlanarak rakipleri uzaklaştırır!
+wl_Ability2_description_simple                                                  700 birim ileriye ışınlanarak, ^o{5,10,15,20,25}^* Hasar verir ve ^o150^* birim içerisindekileri ^o{500,525,550,575,600}^* birim uzaklaştırır.
+wl_Ability2_IMPACT_effect                                                       700 birim ileriye ışınlanarak, ^o{5,10,15,20,25}^* Hasar verir ve ^o150^* birim içerisindekileri ^o{500,525,550,575,600}^* birim uzaklaştırır.\n\nIşınlan ^o0.4s^* kullanma süresine sahiptir.
+
+wl_Item_Ability2_name                                                           Işınlan
+wl_Item_Ability2_description                                                    İleriye doğru ışınlanarak rakipleri uzaklaştırır!
+wl_Item_Ability2_description_simple                                             İleriye doğru ışınlanarak ışınlandığı yerdeki rakiplerini uzaklaştırır!
+wl_Item_Ability2_IMPACT_effect                                                  700 birim ileriye ışınlanarak, ^o5/10/15/20/25^* Hasar verir ve ^o150^* birim içerisindekileri ^o500/525/550/575/600^* birim uzaklaştırır.\n\nIşınlan ^o0.4s^* kullanım süresine sahiptir.\n\n^r5 defa geliştirilebilir.^*
+wl_Item_Ability2_shop_flavor                                                    Prophetler bilinmeyen gizli büyüleri öğrenmekte ustadırlar.\nIşınlan Prophet'leri zor durumdan kurtaracak güzel bir yetenektir.
+
+
+// Ability 3
+wl_Ability3_name                                                                Yıldırım
+wl_Ability3_description                                                         Belirlenen hedefe Yıldırım vurur.
+wl_Ability3_description_simple                                                  Yıldırım vurmak için bir hedef belirle.\n\nYıldırım ^o{40,45,50,55,60}^* Hasar verir ve ^o{700,725,750,775,800}^* birim ileriye iter.
+wl_Ability3_IMPACT_effect                                                       Yıldırım vurmak için bir hedef belirle.\n\nYıldırım ^o{40,45,50,55,60}^* Hasar verir ve ^o100^* birim içerisindekileri ^o{700,725,750,775,800}^* birim ileriye iter.\n\nYıldırım oluşturma süresi o0.5s^*'dir.\n\nEğer Obelisk yanındaki bir hedefe Yıldırım kullanırsanız, Obelisk enerjiyle dolacaktır. Obelisk'e yakın bir sonraki Yıldırımda ise enerji güçlü bir şekilde patlayacaktır!
+
+wl_Item_Ability3_name                                                           Yıldırım
+wl_Item_Ability3_description                                                    Belirlenen hedefe Yıldırım vurur.
+wl_Item_Ability3_description_simple                                             Belilenen hedefe Yıldırım vurur ve oradaki rakibi geri iter.
+wl_Item_Ability3_IMPACT_effect                                                  Yıldırım vurmak için bir hedef belirle.\n\nYıldırım ^o{40,45,50,55,60}^* Hasar verir ve ^o100^* birim içerisindekileri ^o{700,725,750,775,800}^* birim ileriye iter.\n\nYıldırım oluşturma süresi o0.5s^*'dir.\n\nEğer Obelisk yanındaki bir hedefe Yıldırım kullanırsanız, Obelisk enerjiyle dolacaktır. Obelisk'e yakın bir sonraki Yıldırımda ise enerji güçlü bir şekilde patlayacaktır!
+wl_Item_Ability3_shop_flavor                                                    64 elementin içerisinden sadece bir Prophet ışığın gücünü kontrol edebiliyor.\nYıldırım ışığın gücünü içinde barındıran güçlü bir hasar büyüsüdür.
+
+
+// Ability 4
+wl_Ability4_name                                                                Meteor
+wl_Ability4_description                                                         300 birim içerisine meteor fırlatır!
+wl_Ability4_description_simple                                                  Meteor fırlatmak için bir hedef belirleyin.\n\nMeteor rakibe ne kadar yakın ise okadar fazla hasar verir, hasar ^o{60,70,80,90,100}^*'a kadar yükselir ve ^o{600,700,800,900,1000}^* birim ileri iter.
+wl_Ability4_IMPACT_effect                                                       Meteor fırlatmak için bir hedef belirleyin.\n\nMeteor ^o300^* biri içerisine ^o1.3s^* saniye içerisinde düşer.\n\nMeteor ^o800^* birim uzaklığa kadar sürüklenebilir.\n\nMeteor rakibe ne kadar yakın ise okadar fazla hasar verir, hasar ^o{60,70,80,90,100}^*'a kadar yükselir ve ^o{600,700,800,900,1000}^* birim ileri iter.
+
+wl_Item_Ability4_name                                                           Meteor
+wl_Item_Ability4_description                                                    300 birim içerisine meteor fırlatır!
+wl_Item_Ability4_description_simple                                             300 birim içerisine meteor fırlatır!
+wl_Item_Ability4_IMPACT_effect                                                  Meteor fırlatmak için bir hedef belirleyin.\n\nMeteor ^o300^* biri içerisine ^o1.3s^* saniye içerisinde düşer.\n\nMeteor ^o800^* birim uzaklığa kadar sürüklenebilir.\n\nMeteor rakibe ne kadar yakın ise okadar fazla hasar verir, hasar ^o{60,70,80,90,100}^*'a kadar yükselir ve ^o{600,700,800,900,1000}^* birim ileri iter.\n\n^r5 defa geliştirilebilir.^*
+wl_Item_Ability4_shop_flavor                                                    Başka bir ateş büyüsü mü?\nBu seferki farklı olmayacak diyorsun?\nProphet'lar gökyüzünün gücünede sahiptir!\nMeteorları istediğin zaman fırlatabilirsin ama doğru hedefe attığından emin ol!\nMeteor başka bir ateş yeteneğidir.
+
+
+// Ability 5
+wl_Ability5_name                                                                Büyü Füzesi
+wl_Ability5_description                                                         Küçük Büyü Füzesi fırlatarak alana hasar vermesini sağlar.
+wl_Ability5_description_simple                                                  Küçük Büyü Füzesi fırlatarak alana hasar vermesini sağlar. ^o{3,3.5,4,5.5,6}s^* boyunca Büyü Füzesi fırtalır ve füzeler hedefe vurduğunda Hasar vererek onları iter.\n\nBüyü Füzeleri kendi kahramanından da sekebilir.
+wl_Ability5_IMPACT_effect                                                       100 birim uzaklığa Küçük Büyü Füzesi fırlatarak alana hasar vermesini sağlar.\n\n^o{3,3.5,4,5.5,6}s^* boyunca Büyü Füzeleri seker ve her bir sekmesinde en yakındakine doğru tekrardan seker. ^o{10,12,14,16,18} Hasar verir ve onları {400} birim iter^*.\n\nBüyü Füzeleri kendi kahramanından da sekebilir fakat Hasar vermez ya da itmez.
+
+wl_Item_Ability5_name                                                           Büyü Füzesi
+wl_Item_Ability5_description                                                    Küçük Büyü Füzesi fırlatarak alana hasar vermesini sağlar.
+wl_Item_Ability5_description_simple                                             Küçük Büyü Füzeleri fırlatır ve bu füzeler kahramanlar arasında belli bir süre seker.
+wl_Item_Ability5_IMPACT_effect                                                  100 birim uzaklığa Küçük Büyü Füzesi fırlatarak alana hasar vermesini sağlar.\n\nFor ^o3/3.5/4/5.5/6s^* boyunca Büyü Füzeleri seker ve her bir sekmesinde en yakındakine doğru tekrardan seker. Deals ^o10/12/14/16/18 Hasar verir ve onları {400} birim iter^*.\n\nBüyü Füzeleri kendi kahramanından da sekebilir fakat Hasar vermez ya da itmez.\n\n^r5 defa geliştirilebilir.^*
+wl_Item_Ability5_shop_flavor                                                    Çok kötü, benim ^rBlacksmith!^*
+
+
+// Ability 6
+wl_Ability6_name                                                                Değişim
+wl_Ability6_description                                                         Kullanıldığında o an ki Can Değerini, pozisyonunu belirler ve zamanda geri gider!
+wl_Ability6_description_simple                                                  Kullanıldığında, o an ki can değeri ve mevkini belirler.\n\nSonrasında ^o{2,2.25,2.5,2.75,3} saniye^*, eğer öldürücü bir hasar almış isen ya da tuşa basmışsan iki şey meydana gelir: Eğer yanında bir rakip var ise, rakip yeteneği kullandığın yerdeki mevkiye geri gidecek ve kaybettiğin can değerini geri alacaksın.\n\nEğer yakında rakip yok ise, yeteneği kullandığın yere geri gelecek ve kaybettiğin can değerini geri kazanacaksın.
+wl_Ability6_IMPACT_effect                                                       Kullanıldığında, o an ki can değeri ve mevkini belirler.\n\nSonrasında ^o{2,2.25,2.5,2.75,3} saniye^*, eğer öldürücü bir hasar almış isen ya da tuşa basmışsan iki şey meydana gelir: Eğer yanında bir rakip var ise, rakip yeteneği kullandığın yerdeki mevkiye geri gidecek ve kaybettiğin can değerini geri alacaksın.\n\nEğer yakında rakip yok ise, yeteneği kullandığın yere geri gelecek ve kaybettiğin can değerini geri kazanacaksın.
+
+wl_State_Ability6_name                                                          Değişim
+
+wl_Item_Ability6_name                                                           Değişim
+wl_Item_Ability6_description                                                    Can Değerini korumak ve zamanda geri gitmek için kullan!
+wl_Item_Ability6_description_simple                                             Can Değerini korumak ve zamanda geri gitmek için kullan!
+wl_Item_Ability6_IMPACT_effect                                                  Kullanıldığında, o an ki can değeri ve mevkini belirler.\n\nSonrasında ^o2/2.25/2.5/2.75/3 saniye^*, eğer öldürücü bir hasar almış isen ya da tuşa basmışsan iki şey meydana gelir: Eğer yanında bir rakip var ise, rakip yeteneği kullandığın yerdeki mevkiye geri gidecek ve kaybettiğin can değerini geri alacaksın.\n\nEğer yakında rakip yok ise, yeteneği kullandığın yere geri gelecek ve kaybettiğin can değerini geri kazanacaksın.
+wl_Item_Ability6_shop_flavor                                                    Aaah zaman... Uzun zaman önce Prophetlar Chronos'u ele geçirdi, Newerth'ün zaman efendisi ve manipülatörü.\nOnun yaşam enerjisini çekmek için bir makineye bağladılar.\nBu Prophetlara zamanı kontrol edebilmeyi öğretti.
+
+
+// Ability 7
+wl_Ability7_name                                                                Saplama
+wl_Ability7_description                                                         Belirlenen hedefe belirli süre boyunca bıçak fırlatır.
+wl_Ability7_description_simple                                                  Hedef belirleyerek, hedefe bıçak fırlatır ve bıçaklar ^o{4,4.5,5,5.5,6}s^* boyunca, ^020 Damage^* Hasar verir ve ^o1000 Push^* birim iter.\n\nBu yeteneği yeni bir hedef belirleyerek tekrardan kullanabilirsin.
+wl_Ability7_IMPACT_effect                                                       Hedef belirleyerek, hedefe bıçak fırlatır ve bıçaklar ^o{4,4.5,5,5.5,6}s^* boyunca, ^020 Damage^* Hasar verir ve ^o1000 Push^* birim iter.\n\nBu yeteneği yeni bir hedef belirleyerek tekrardan kullanabilirsin.
+
+wl_Item_Ability7_name                                                           Saplama
+wl_Item_Ability7_description                                                    Belirlenen hedefe belirli süre boyunca bıçak fırlatır.
+wl_Item_Ability7_description_simple                                             Belirlenen hedefe belirli süre boyunca bıçak fırlatır, hasar verir ve onu geri iter.
+wl_Item_Ability7_IMPACT_effect                                                  Hedef belirleyerek, hedefe bıçak fırlatır ve bıçaklar ^o4/4.5/5/5.5/6s^* boyunca, ^020 Damage^* Hasar verir ve ^o1000 Push^* birim iter.\n\nBu yeteneği yeni bir hedef belirleyerek tekrardan kullanabilirsin.\n\n^r5 defa geliştirilebilir.^*
+wl_Item_Ability7_shop_flavor                                                    	
+
+
+// Ability 8
+wl_Ability8_name                                                                Çarpma
+wl_Ability8_description                                                         Yere vurarak, herkesi diğer tarafına ışınlar ve onları o yöne doğru iter!
+wl_Ability8_description_simple                                                  Kullanıldığında, ^o50^* Hasar verir ve ^o800^* birim iter.\n\nKendine ^o{10,13,16,19,22}^* ^gölümcül olmayan^* Hasar verir.
+w1_Ability8_IMPACT_effect                                                       Kullanıldığında, ^o50^* Hasar verir ve ^o800^* birim iter.\n\nKendine ^o{10,13,16,19,22}^* ^gölümcül olmayan^* Hasar verir.\n\nÇarpma ^o{1.0,0.85,0.7,0.55,0.4}s^* etkinleştirme süresine sahiptir.
+
+wl_Item_Ability8_name                                                           Çarpma
+wl_Item_Ability8_description                                                    Yere vurarak, herkesi diğer tarafına ışınlar ve onları o yöne doğru iter!
+wl_Item_Ability8_description_simple                                             Yere vurarak, rakiplerini kendinden uzaklaştırır!
+wl_Item_Ability8_IMPACT_effect                                                  Kullanıldığında, ^o50^* Hasar verir ve ^o800^* birim iter.\n\nKendine ^o10/13/16/19/22^* ^gölümcül olmayan^* Hasar verir.\n\nÇarpma ^o1.0/0.85/0.7/0.55/0.4s^* etkinleştirme süresine sahiptir.\n\n^rCan be upgraded 5 times.^*
+wl_Item_Ability8_shop_flavor                                                    Prophet'ların yapamacağı bir şey var mı?\n2000 yıllık uzun süreli bir eğitim ve antremandan sonra gücü ve tekniği iyi bir şekilde kullanabilmeyi öğrenen Prophetlar kendilerini kung fu'da iyi bir şekilde geliştirdiler. Bu sayede yere güçlü bir vuruş yaparak düşmanlarını kendinden uzaklaştırmayı öğrendiler.
+
+
+// Ability 9
+wl_Ability9_name                                                                Bomba
+wl_Ability9_description                                                         Bomba ateşler ve bombayı istediği zaman patlatabilir, rakipleri patlama olan yere doğru çeker.
+wl_Ability9_description_simple                                                  Bombayı ateşlemek için bir hedef belirleyin.\n\nYeteneği kullandıktan sonra patlamak için tekrardan yeteneğe tıkla, ^o{10,15,20,25,30}^* Hasar verir ve ^o{700,725,750,775,800}^* birim rakibi patladığı alana çeker.
+wl_Ability9_IMPACT_effect                                                       Bombayı ateşlemek için bir hedef belirleyin.\n\nYeteneği kullandıktan sonra patlamak için tekrardan yeteneğe tıkla, ^o{10,15,20,25,30}^* Hasar verir ve ^o{700,725,750,775,800}^* birim rakibi patladığı alana çeker. 
+
+wl_Item_Ability9_name                                                           Bomba
+wl_Item_Ability9_description                                                    Bomba ateşler ve bombayı istediği zaman patlatabilir, rakipleri patlama olan yere doğru çeker.
+wl_Item_Ability9_description_simple                                             Bomba ateşler ve bombayı istediği zaman patlatabilir, rakipleri patlama olan yere doğru çeker.
+wl_Item_Ability9_IMPACT_effect                                                  Bombayı ateşlemek için bir hedef belirleyin.\n\nBomba ^o750^* hızla ^o1500^* birim uzağa kadar gider.\n\nYeteneği kullandıktan sonra patlamak için tekrardan yeteneğe tıkla, ^o10/15/20/25/30^* Hasar verir ve ^o700/725/750/775/800^* birim rakibi patladığı alana çeker.\n\n^r5 defa geliştirilebilir.^*
+
+
+// Ability 10
+wl_Ability10_name                                                               Hayalet
+wl_Ability10_description                                                        Hayalet olmak, üzerine gelen yeteneklerin, içinden geçip gitmesine yardımcı olur.
+wl_Ability10_description_simple                                                 Kullanıldığında, ^o{1.6,1.7,1.8,1.9,2}s^* boyunca hayalet olur ve yeteneklerden kurtulur.\n\nHayalet sırasında bir yetenek kullanmak Hayaleti sonlandırır.\n\nEğer Hayalet tamamiyle kullanılırsa, ^o175^* birim içerisindekiler ^o{30,35,40,45,50}^* Hasar alır ve ^o{500,525,550,575,600}^* birim itilir.
+wl_Ability10_IMPACT_effect                                                      Kullanıldığında, ^o{1.6,1.7,1.8,1.9,2}s^* boyunca hayalet olur ve yeteneklerden kurtulur.\n\nHayalet sırasında bir yetenek kullanmak Hayaleti sonlandırır.\n\nEğer Hayalet tamamiyle kullanılırsa, ^o175^* birim içerisindekiler ^o{30,35,40,45,50}^* Hasar alır ve ^o{500,525,550,575,600}^* birim itilir.
+wl_Ability10_effect_header                                                      Ghosted Effect(s)
+
+wl_State_Ability10_name                                                         Hayalet
+wl_State_Ability10_FRAME_effect                                                 Hayalet tamamiyle kullanılırsa, ^o175^* birim içerisindekiler ^o{30,35,40,45,50}^* Hasar alır ve ^o{500,525,550,575,600}^* birim itilir.
+
+wl_Item_Ability10_name                                                          Hayalet
+wl_Item_Ability10_description                                                   Hayalet olmak, üzerine gelen yeteneklerin içinden geçip gitmesine yardımcı olur.
+wl_Item_Ability10_description_simple                                            Hayalet olmak, üzerine gelen yeteneklerin içinden geçip gitmesine yardımcı olur.
+wl_Item_Ability10_IMPACT_effect                                                 Kullanıldığında, ^o1.6/1.7/1.8/1.9/2s^*, boyunca hayalet olur ve yeteneklerden kurtulur.\n\nHayalet sırasında bir yetenek kullanmak Hayaleti sonlandırır.\n\nEğer Hayalet tamamiyle kullanılırsa, ^o175^* birim içerisindekiler ^o30/35/40/45/50^* Hasar alır ve ^500/525/550/575/600^* birim itilir.
+
+
+// Ability 11
+wl_Ability11_name                                                               Ruh Bağı
+wl_Ability11_description                                                        Kendini Obelisk'e ya da bir rakibe bağlar ve bağlananlar birbirine doğru yaklaşır.
+wl_Ability11_description_simple                                                 Ruh Bağı'nı bağlamak için bir hedef belirle.\n\n Ruh Bağı yapıldıktan sonra {1.2}saniye boyunca, bağlananlar birbirine doğru yakınlaşır.\n\nEfekti erkenden önlemek için yeteneği aktifleştirebilirsin.
+wl_Ability11_IMPACT_effect                                                      Ruh Bağı'nı bağlamak için bir hedef belirle. Ruh Bağı ^o1000^* hızda , ^o1200^* mesafe gider ve ^o70^ birim genişliği vardır..\n\n Ruh Bağı yapıldıktan sonra {1.2}saniye boyunca, bağlananlar birbirine doğru yakınlaşır ve ^o{900,1000,1100,1200,1300}^* birim çekilir.\n\nEfekti erkenden önlemek için yeteneği aktifleştirebilirsin.
+wl_Ability11_effect_header                                                      Linked Effect(s)
+
+wl_State_Ability11_name                                                         Bağ
+wl_State_Ability11_FRAME_effect                                                 Bağlanan birimleri birbirine çeker.
+wl_State_Ability11_self_name                                                    Bağ
+wl_State_Ability11_self_FRAME_effect                                            Bağlanan birimleri birbirine çeker.
+wl_State_Ability11_obelisk_name                                                 Bağ
+
+wl_Item_Ability11_name                                                          Ruh Bağı
+wl_Item_Ability11_description                                                   Kendini Obelisk'e ya da bir rakibe bağlar ve bağlananlar birbirine doğru yaklaşır.
+wl_Item_Ability11_description_simple                                            Kendini Obelisk'e ya da bir rakibe bağlar ve bağlananlar birbirine doğru yaklaşır.
+wl_Item_Ability11_IMPACT_effect                                                 Ruh Bağı'nı bağlamak için bir hedef belirle. Ruh Bağı ^o1000^* hızda , ^o1200^* mesafe gider ve ^o70^ birim genişliği vardır..\n\n Ruh Bağı yapıldıktan sonra {1.2}saniye boyunca, bağlananlar birbirine doğru yakınlaşır ve ^o{900,1000,1100,1200,1300}^* birim çekilir.\n\nEfekti erkenden önlemek için yeteneği aktifleştirebilirsin.\n\n^r5 defa geliştirilebilir.^*
+
+
+// Ability 12
+wl_Ability12_name                                                               Kayma
+wl_Ability12_description                                                        Ani bir şekilde istediğin yöne doğru, kendini götürür.
+wl_Ability12_description_simple                                                 Belirlenen yöne doğru {800,850,900,950,1000} birim Kayma yapar.\n\nHızın 300'ün üzerinde olursa, yanına yaklaşan ilk rakip ^o{20,25,30,35,40}^* Hasar alacak ve ^o{560,570,580,590,600}^* birim ileriye itilecek.
+wl_Ability12_IMPACT_effect                                                      Belirlenen yöne doğru {800,850,900,950,1000} birim Kayma yapar.\n\nHızın 300'ün üzerinde olursa, yanına yaklaşan ilk rakip ^o{20,25,30,35,40}^* Hasar alacak ve ^o{560,570,580,590,600}^* birim ileriye itilecek.
+wl_Ability12_effect_header                                                      Kayma Efekti
+wl_State_Ability12_name                                                         Kayma
+
+wl_Item_Ability12_name                                                          Kayma
+wl_Item_Ability12_description                                                   Ani bir şekilde istediğin yöne doğru, kendini götürür.
+wl_Item_Ability12_description_simple                                            Ani bir şekilde istediğin yöne doğru, kendini götürür.
+wl_Item_Ability12_IMPACT_effect                                                 Belirlenen yöne doğru {800,850,900,950,1000} birim Kayma yapar.\n\nHızın 300'ün üzerinde olursa, yanına yaklaşan ilk rakip ^o{20,25,30,35,40}^* Hasar alacak ve ^o{560,570,580,590,600}^* birim ileriye itilecek.\n\n^r5 defa geliştirilebilir.^*
+
+
+// Ability 13
+wl_Ability13_name                                                               Saptırma
+wl_Ability13_description                                                        Saptırma, bir kaç saniye boyunca Arenada hasar yemenizi önler!
+wl_Ability13_description_simple                                                 Saptırma kullanıldığında, ^o2/2.25/2.5/2.75/3s^* saniye boyunca aktif olur.\n\n Saptırma açık iken, Arena dışında olsan bile hasar almazsın!\n\nHerhangi bir yetenek kullanmak Saptırmayı sonlandırır.
+wl_Ability13_IMPACT_effect                                                      Saptırma kullanıldığında, ^o2/2.25/2.5/2.75/3s^* saniye boyunca aktif olur.\n\n Saptırma açık iken, Arena dışında olsan bile hasar almazsın!\n\nHerhangi bir yetenek kullanmak Saptırmayı sonlandırır.
+wl_Ability13_effect_header                                                      Saptırma Efekti
+
+wl_State_Ability13_name                                                         Saptırma
+wl_State_Ability13_FRAME_effect                                                 Büyüler hedefinden saptırılır.
+
+wl_Item_Ability13_name                                                          Saptırma
+wl_Item_Ability13_description                                                   Bir kaç saniyeliğine üzerine gelen büyüleri saptırırsın ve hiç hasar almazsın!
+wl_Item_Ability13_description_simple                                            Bir kaç saniyeliğine üzerine gelen büyüleri saptırırsın ve hiç hasar almazsın!
+wl_Item_Ability13_IMPACT_effect                                                 Saptırma kullanıldığında, ^o2/2.25/2.5/2.75/3s^* saniye boyunca aktif olur.\n\n Saptırma açık iken, Arena dışında olsan bile hasar almazsın!\n\nHerhangi bir yetenek kullanmak Saptırmayı sonlandırır.\n\n^r5 defa geliştirilebilir.^*
+
+
+// Ability ? (May get reworked? - Haven't written stuff for this)
+wl_Item_Upgrade0_name                                                           Can Çekme
+wl_Item_Upgrade0_description                                                    Hasarının bir kısmını Can Değerine ekler.
+wl_Item_Upgrade0_description_simple                                             Hasarının bir kısmını Can Değerine ekler.
+wl_Item_Upgrade0_IMPACT_effect                                                  Hasarının, ^o8/13/18/23/28%^* kadarı Can Çeker.\n\n^r5 defa geliştirilebilir.^*
+wl_Item_Upgrade0_shop_flavor                                                    Prophet'ların ustalaştığı bir diğer element yaşamdır.\nYaşam enerjisini çekerken aynı zamanda da hasar verebilirler.\nTecrübeli bir Prophet için mükemmel bir özellik!
+
+wl_Upgrade0_name                                                                Can Çekme
+wl_Upgrade0_FRAME_effect                                                        Hasarının ^o8/13/18/23/28%^* kadarı kadar Can Çeker.
+
+// wl_AbilityChannelbar
+wl_AbilityChannelbar_name                                                       Dükkan Açık
+
+// wl_AbilityTooltip
+wl_AbilityTooltip_name                                                          Yardım
+wl_AbilityTooltip_description                                                   Yardıma ihtiyacın olursa, burayı tıkla!
+wl_AbilityTooltip_description_simple                                            Bu oyunda, yavaşça küçülen Arenada ayakta kalan son oyuncu olmalısın. Eğer Arena'nın dışına çıkarsan, zamanla Hasar alacaksın. Raundlar ilerledikçe kendini geliştirmek için yeni yetenekler satın almalısın.\n\nDaha fazla bilgi için lütfen tıklayın.
+wl_AbilityTooltip_IMPACT_effect                                                 Bu oyunda, yavaşça küçülen Arenada ayakta kalan son oyuncu olmalısın. Eğer Arena'nın dışına çıkarsan, zamanla Hasar alacaksın. Raundlar ilerledikçe kendini geliştirmek için yeni yetenekler satın almalısın.\n\nDaha fazla bilgi için lütfen tıklayın.
+
+// End - do not delete this line
+

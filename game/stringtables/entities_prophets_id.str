@@ -1,0 +1,245 @@
+wl_Powerup_Damage_name               Double Damage Rune
+wl_State_Damage_name                 Double Damage
+wl_State_Damage_FRAME_effect         Semua damage yang diberikan menjadi double.
+									 
+wl_Powerup_Speed_name                Haste Rune
+wl_State_Speed_name                  Haste
+									 
+wl_Powerup_Regen_name                Regeneration Rune
+wl_State_Regen_name                  Regeneration
+									 
+wl_Powerup_Slow_name                 Time Manipulation Rune
+wl_State_Slow_name                   Time Manipulation
+wl_State_Slow_FRAME_effect           Semua musuh di-slow sebesar 50%
+wl_State_SlowAura_name               Time Slowed
+wl_State_SlowAura_FRAME_effect       Semuanya di-slow sebesar 50%
+									 
+									 
+wl_Obelisk_name                      Obelisk
+									 
+wl_Warlock_name                      Prophet
+									 
+wl_State_Hero2_name                  Akses Shop
+wl_State_Hero2_FRAME_effect          Waktunya berbelanja! Hotkey default untuk membuka shop adalah "B".
+									 
+wl_Outside_name                      Keluar Arena
+wl_Outside_FRAME_effect              Menerima 50 Damage per deik. Segera masuk ke dalam Arena!
+									 
+									 
+									 
+// Ability 0                         
+wl_Ability0_name                     Vortex
+wl_Ability0_description              Menciptakan sebuah Vortex yang menarik semua pemain di dalam area.
+wl_Ability0_description_simple       Menargetkan sebuah area untuk menciptakan sebuah Vortex di sana dan menarik pemain dalam ^o400^* range ke pusat dengan maksimum ^o40^* force selama {2,3,4,5,6} detik.
+wl_Ability0_IMPACT_effect            Menarik pemain dalam ^o400^* range ke pusat dengan maksimum ^o40^* force selama {2,3,4,5,6} detik.\n\nVortex membutuhkan ^o0.8 detik^* untuk cast.
+									 
+wl_Item_Ability0_name                Vortex
+wl_Item_Ability0_description         Menciptakan sebuah Vortex yang menarik semua pemain di dalam area.
+wl_Item_Ability0_description_simple  Menargetkan sebuah area yang menarik pemain ke pusat.
+wl_Item_Ability0_IMPACT_effect       Menarik segalanya dalam ^o400^* range ke pusat dengan maksimum ^o40^* force selama ^o2/3/4/5/6^* detik.\n\nVortex membutuhkan ^o0.8 detik^* untuk cast.
+wl_Item_Ability0_shop_flavor         Empat ratus tahun yang lalu, seorang Prophet yang hebat, Sir Asaac Rewton, menguasai tiga hukum gravitasi.\nDengan pegetahuan ini, dia memberikan semua Prophet kemungkinan menggunakan hukumnya untuk skill yang baru, ^oVortex^*, yang menerapkan hukum-hukum tersebut untuk menciptakan medan gravitasi yang tidak seorang pun dapat menghindarinya.
+									 
+									 
+// Ability 1                         
+wl_Ability1_name                     Fireball
+wl_Ability1_description              Menembakkan fireball ke arah target.\nKenai musuh untuk mendorong mereka keluar!
+wl_Ability1_description_simple       Menargetkan suatu arah untuk menembakkan fireball.\n\nFireball memberikan ^o50^* Damage dan ^o700^* push.\n\nFireball dapat saling mengenai.
+wl_Ability1_IMPACT_effect            Menembakkan sebuah fireball ke arah target dengan ^o{800,850,900,950,1000}^* speed.\n\nFireball memiliki touch radius ^o50^* dan hilang saat tabrakan, memberikan ^o50^* Damage dan ^o700^* push.\n\nFireball dapat saling mengenai, menciptakan ledakan kecil.\n\nFireball memiliki ^o{0.25,0.20,0.15,0.10,0.05} detik^* cast time dan ^o{6,5.5,5,4.5,4} detik^* cooldown.
+									 
+wl_Item_Ability1_name                Fireball
+wl_Item_Ability1_description         Menembakkan fireball ke arah target.\nKenai musuh untuk mendorong mereka keluar!
+wl_Item_Ability1_description_simple  Menembakkan sebuah fireball ke arah target. Fireball melukai dan mendorong musuh.
+wl_Item_Ability1_IMPACT_effect       Menembakkan sebuah fireball ke arah target dengan ^o800/850/900/950/1000^* speed.\n\nFireball memiliki touch radius ^o50^* dan hilang saat tabrakan, memberikan ^o50^* Damage dan ^o700^* push.\n\nFireball dapat saling mengenai, menciptakan ledakan kecil.\n\nFireball memiliki ^o0.25/0.20/0.15/0.10/0.05 detik^* cast time dan ^o6/5.5/5/4.5/4s^* cooldown.\n\n^rDapat di-upgrade 5 kali.^*
+wl_Item_Ability1_shop_flavor         Dahulu kala, para Prophet mempelajari bagaimana menggunakan sihir batin untuk membuat api. Fireball banyak berfokus pada api di sekeliling bola magma yang meledak saat tabrakan. Ledakan tersebut kemudian berkembang menjadi sebuah efek mendorong menjauh kepada beberapa orang dari lokasi tabrakan.
+									 
+									 
+// Ability 2                         
+wl_Ability2_name                     Explosive Port
+wl_Ability2_description              Teleport ke depan, menembak setiap musuh menjauh!
+wl_Ability2_description_simple       Teleport 700 unit ke arah Anda menghadap, memberikan ^o{5,10,15,20,25}^* Damage dan ^o{500,525,550,575,600}^* push dalam sebuah ^o150^* radius di mana Anda mendarat.
+wl_Ability2_IMPACT_effect            Teleport 700 units ke arah Anda menghadap, memberikan ^o{5,10,15,20,25}^* Damage dan ^o{500,525,550,575,600}^* push dalam sebuah ^o150^* radius di mana Anda mendarat.\n\nExplosive port memiliki ^o0.4 detik^* cast time.
+									 
+wl_Item_Ability2_name                Explosive Port
+wl_Item_Ability2_description         Teleport ke depan, menembak setiap musuh menjauh!
+wl_Item_Ability2_description_simple  Teleport Anda ke depan, melukai dan mendorong setiap musuh di mana Anda mendarat.
+wl_Item_Ability2_IMPACT_effect       Teleport 700 unit ke arah Anda menhadap, memberikan ^o5/10/15/20/25^* Damage dan ^o500/525/550/575/600^* push dalam sebuah ^o150^* radius di mana Anda mendarat.\n\nExplosive port memiliki ^o0.4 detik^* cast time.\n\n^rDapat di-upgrade 5 kali.^*
+wl_Item_Ability2_shop_flavor         Para Prophet telah lama menjadi penyihir yang menguasai sihir rahasia.\nExplosive port termasuk di dalamnya, karena memanfaatkan dunia yang benar-benar baru untuk mengangkut Prophet ke lokasi dengan seketika, menyebabkan bencara besar kepada semua orang, kecuali dirinya sendiri.
+									 
+									 
+// Ability 3                         
+wl_Ability3_name                     Thunderbolt
+wl_Ability3_description              Fires a Thunderbolt to the target location.
+wl_Ability3_description_simple       Menargetkan suatu lokasi untuk menembakkan sebuah Thunderbolt di sana.\n\nThunderbolt memberikan ^o{40,45,50,55,60}^* Damage dan ^o{700,725,750,775,800}^* push dalam radius.
+wl_Ability3_IMPACT_effect            Menargetkan suatu lokasi untuk menembakkan sebuah Thunderbolt di sana.\n\nThunderbolt memberikan ^o{40,45,50,55,60}^* Damage dan ^o{700,725,750,775,800}^* push dalam ^o100^* radius saat tabrakan.\n\nThunderbolt memiliki ^o0.5 detik^* cast time.\n\nJika Anda menargetkan sebuah Thunderbolt dekat sebuah Obelisk, ia akan menyerang Obelisk itu dengan energi. Kemudian setelah Thunderbolt mendarat mendekati Obelisk yang diserang, ia akan meledak dengan energi yang kuat!
+									 
+wl_Item_Ability3_name                Thunderbolt
+wl_Item_Ability3_description         Menembakkan sebuah Thunderbolt ke lokasi target.
+wl_Item_Ability3_description_simple  Menembakkan sebuah Thunderbolt ke lokasi target, melukai dan mendorong musuh menjauh.
+wl_Item_Ability3_IMPACT_effect       Menargetkan suatu lokasi untuk menembakkan sebuah Thunderbolt di sana.\n\nThunderbolt memberikan ^o40/45/50/55/60^* Damage dan ^o700/725/750/775/800^* push dalam sebuah ^o100^* radius saat tabrakan.\n\nThunderbolt memiliki ^o0.5 detik^* cast time.\n\nJika Anda menargetkan sebuah Thunderbolt dekat sebuah Obelisk, ia akan menyerang Obelisk itu dengan energi. Kemudian setelah Thunderbolt mendarat mendekati Obelisk yang diserang, ia akan meledak dengan energi yang kuat!\n\n^rDapat di-upgrade 5 kali.^*
+wl_Item_Ability3_shop_flavor         Dari semua 64 elemen, satu-satunya yang para Prophet belum menguasainya adalah petir.\nThunderbolt adalah spell berbasis petir yang menyebabkan dorongan yang BESAR. Akan tetapi karena kurangnya biaya penelitian, mereka tidak pernah berhasil memaksimalkan damagenya.\nSalahkan presiden!
+									 
+									 
+// Ability 4                         
+wl_Ability4_name                     Meteor
+wl_Ability4_description              Melemparkan semuanya dalam 300 radius dari Meteor!
+wl_Ability4_description_simple       Menargetkan suatu lokasi untuk meluncurkan sebuah Meteor.\n\nLedakan memberikan Damage berdasarkan seberapa dekat orang tersebut ke pusat, hingga ^o{60,70,80,90,100}^* Damage dan hingga ^o{600,700,800,900,1000}^* push.
+wl_Ability4_IMPACT_effect            Menembakkan sebuah Meteor ke lokasi target.\n\nMeteor meledak pada lokasi dalam sebuah ^o300^* radius setelah ^o1.3 detik^*.\n\nMeteor dapat berjalan maksimum hingga ^o800^* range.\n\nLedakan memberikan Damage berdasarkan seberapa dekat orang tersebut ke pusat, tetapi dibatasi maksimum ^o{60,70,80,90,100}^* Damage dan hingga ^o{600,700,800,900,1000}^* push.
+									 
+wl_Item_Ability4_name                Meteor
+wl_Item_Ability4_description         Melemparkan semuanya dalam 300 radius dari Meteor!
+wl_Item_Ability4_description_simple  Menembakkan sebuah Meteor pada lokasi target yang meledak dan memberikan Damage dan dorongan.
+wl_Item_Ability4_IMPACT_effect       Menembakkan sebuah Meteor ke lokasi target.\n\nMeteor meledak pada lokasi dalam ^o300^* radius setelah ^o1.3 detik^*.\n\nMeteor dapat berjalan maksimum hingga ^o800^* range.\n\nLedakan memberikan Damage berdasarkan seberapa dekat orang tersebut ke pusat, tetapi dibatasi maksimum ^o60/70/80/90/100^* Damage dan hingga ^o600/700/800/900/1000^* push.\n\n^rDapat di-upgrade 5 kali.^*
+wl_Item_Ability4_shop_flavor         Spell api lainnya Anda bilang?\nIni juga tidak ada bedanya Anda bilang?\nPara Prophet menyerang dengan kekuatan yang dahsyat dari langit!\nMeteor adalah spell yang diberikan oleh Dewa yang mampu menghancurkan bumi. Tetapi seperti yang kita ketahui, para Prophet bukan berasal dari bumi..\nSilahkan saja menembakkan beberapa Meteor, tetapi pastikan Anda berada di luar radius ledakan!\nIni bukan sekedar spell api.
+									 
+									 
+// Ability 5                         
+wl_Ability5_name                     Arcane Missile
+wl_Ability5_description              Menembakkan sebuah Arcane Missile kecil yang memantul dari setiap yang dikenainya.
+wl_Ability5_description_simple       Menargetkan suatu arah untuk menembakkan sebuah Arcane Missile kecil. Selama ^o{3,3.5,4,5.5,6} detik^*, Missile akan memantul dari Hero-hero yang dikenainya, memberikan Damage dan mendorong mereka.\n\nMissile dapat memantul dari Hero Anda sendiri.
+wl_Ability5_IMPACT_effect            Menargetkan suatu arah untuk menembakkan sebuah Arcane Missile kecil dengan 100 unit hitbox.\n\nSelama ^o{3,3.5,4,5.5,6} detik^*, Missile akan memantul dari Hero-hero yang dikenainya dan menargetkan ulang ke arah Hero terdekat berikutnya. Memberikan ^o{10,12,14,16,18} Damage dan {400} Push^* kepada setiap yang dikenainya.\n\nMissile dapat memantul dari Hero Anda sendiri, tetapi tidak memberikan damage dan tidak mendorong Anda.
+									 
+wl_Item_Ability5_name                Arcane Missile
+wl_Item_Ability5_description         Menembakkan sebuah Arcane Missile kecil yang memantul dari setiap yang dikenainya.
+wl_Item_Ability5_description_simple  Menembakkan sebuah Arcanem Missile kecil ke arah target yang memantul selama sebuah durasi.
+wl_Item_Ability5_IMPACT_effect       Menargetkan suatu lokasi untuk menembakkan sebuah Arcane Missile kecil dengan 100 unit hitbox.\n\nSelama ^o3/3.5/4/5.5/6 detik^*, Missile akan memantul dari Hero-hero yang dikenainya dan menargetkan ulang ke arah Hero terdekat berikutnya. Memberikan ^o10/12/14/16/18 Damage dan {400} Push^* kepada setiap yang dikenainya.\n\nMissile dapat memantul dari Hero Anda sendiri, tetapi tidak memberikan damage dan tidak mendorong Anda.\n\n^rDapat di-upgrade 5 kali.^*
+wl_Item_Ability5_shop_flavor         Sayang sekali, ini aku, ^rBlacksmith!^*
+									 
+									 
+// Ability 6                         
+wl_Ability6_name                     Alter Time
+wl_Ability6_description              Gunakan untuk menyimpan health dan posisi Anda sekarang, dan kemudian kembali lagi beberapa saat kemudian!
+wl_Ability6_description_simple       Saat digunakan, menyimpan health dan posisi Anda sekarang.\n\nUntuk ^o{2,2.25,2.5,2.75,3} detik^* berikutnya, jika Anda menerima Damage mematikan atau menekan tombol kembali, satu atau dua hal akan terjadi: Jika ada Hero Musuh di sebelah Anda, mereka akan di-teleport kembali ke tempat di mana Anda meng-cast skill ini dan Anda akan di-heal untuk setiap damage yang Anda terima selama durasi.\n\nJika tidak ada Hero di dekat, Anda akan kembali ke posisi cast dan di-heal untuk setiap damage yang Anda terima.
+wl_Ability6_IMPACT_effect            Saat digunakan, menyimpan health dan posisi Anda sekarang.\n\nUntuk ^o{2,2.25,2.5,2.75,3} detik^* berikutnya, jika Anda menerima Damage mematikan atau menekan tombol kembali, satu atau dua hal akan terjadi: Jika ada Hero Musuh di sebelah Anda, mereka akan di-teleport kembali ke tempat di mana Anda meng-cast skill ini dan Anda akan di-heal untuk setiap damage yang Anda terima selama durasi.\n\nJika tidak ada Hero di dekat, Anda akan kembali ke posisi cast dan di-heal untuk setiap damage yang Anda terima.
+									 
+wl_State_Ability6_name               Alter Time
+									 
+wl_Item_Ability6_name                Alter Time
+wl_Item_Ability6_description         Gunakan untuk menyimpan health Anda sekarang, dan kemudian kembali lagi beberapa saat kemudian!
+wl_Item_Ability6_description_simple  Gunakan untuk menyimpan health Anda sekarang, dan kemudian kembali lagi beberapa saat kemudian!
+wl_Item_Ability6_IMPACT_effect       Saat digunakan, menyimpan health dan posisi Anda sekarang.\n\nUntuk ^o2/2.25/2.5/2.75/3 detik^* berikutnya, jika Anda menerima Damage mematikan atau menekan tombol kembali, satu atau dua hal akan terjadi:\nJika ada Hero Musuh di sebelah Anda, mereka akan di-teleport kembali ke tempat di mana Anda meng-cast skill ini dan Anda akan di-heal untuk setiap damage yang Anda terima selama durasi.\n\nJika tidak ada Hero di dekat, Anda akan kembali ke posisi cast dan di-heal untuk setiap damage yang Anda terima.
+wl_Item_Ability6_shop_flavor         Aduh.. Waktu.. Dahulu kala, para Prophet menangkap Chronos, raja waktu dan manipulator Newerth.\nMereka membelenggunya dan berhasil memasang sebuah alat yang dapat menghisap kekuatannya untuk waktu yang singkat.\nHal ini memungkinkan para Prophet untuk membalikkan waktu dari suatu masa ke masa lainnya.
+									 
+									 
+// Ability 7                         
+wl_Ability7_name                     Sword Throw
+wl_Ability7_description              Melemparkan sebuah pedang yang dapat Anda target ulang selama durasi.
+wl_Ability7_description_simple       Menargetkan suatu lokasi untuk melemparkan sebuah pedang di sana selama ^o{4,4.5,5,5.5,6} detik^*, memberikan ^020 Damage^* dan ^o1000 Push^* kepada setiap yang dikenainya.\n\nAnda dapat menggunakan skill ini kembali menargetkan ulang pedang tersebut ke lokasi yang baru.
+wl_Ability7_IMPACT_effect            Menargetkan suatu lokasi untuk melemparkan sebuah pedang di sana selama ^o{4,4.5,5,5.5,6} detik^*, memberikan ^020 Damage^* dan ^o1000 Push^* kepada setiap yang dikenainya.\n\nAnda dapat menggunakan skill ini kembali menargetkan ulang pedang tersebut ke lokasi yang baru.
+									 
+wl_Item_Ability7_name                Sword Throw
+wl_Item_Ability7_description         Melemparkan sebuah pedang yang dapat Anda target ulang selama durasi.
+wl_Item_Ability7_description_simple  Melemparkan sebuah pedang pada lokasi target, memberikan damage dan mendorong setiap yang dikenainya.
+wl_Item_Ability7_IMPACT_effect       Menargetkan suatu lokasi untuk melemparkan sebuah pedang di sana selama ^o4/4.5/5/5.5/6 detik^*, memberikan ^020 Damage^* dan ^o1000 Push^* kepada setiap yang dikenainya.\n\nAnda dapat menggunakan skill ini kembali menargetkan ulang pedang tersebut ke lokasi yang baru.\n\n^rDapat di-upgrade 5 kali.^*
+wl_Item_Ability7_shop_flavor         
+									 
+									 
+// Ability 8                         
+wl_Ability8_name                     Smash
+wl_Ability8_description              Menghentak tanah, teleport semua orang ke sisi lain dari Anda dan mendorong mereka yang berada di sekitar Anda menjauh ke arah tersebut!
+wl_Ability8_description_simple       Aktifkan untuk memberikan ^o50^* Damage dan hingga ^o800^* Push kepada musuh di dalam radius tergantung pada seberapa jauh mereka dari Anda.\n\nMemberikan ^o{10,13,16,19,22}^* Damage ^gtidak mematikan^* kepada diri sendiri dan mendorong Anda menjauh dari musuh yang Anda serang.
+w1_Ability8_IMPACT_effect            Aktifkan untuk memberikan ^o50^* Damage dan hingga ^o800^* Push kepada musuh di dalam radius tergantung pada seberapa jauh mereka dari Anda.\n\nMemberikan ^o{10,13,16,19,22}^* Damage ^gtidak mematikan^* kepada diri sendiri dan mendorong Anda menjauh dari musuh yang Anda serang.\n\nMemiliki ^o{1.0,0.85,0.7,0.55,0.4} detik^* cast time.
+									 
+wl_Item_Ability8_name                Smash
+wl_Item_Ability8_description         Menghentak tanah, teleport semua orang ke sisi lain dari Anda dan mendorong mereka menjauh ke arah tersebut!
+wl_Item_Ability8_description_simple  Menghentak tanah, mendorong semua orang di sekitar Anda menjauh ke segala arah!
+wl_Item_Ability8_IMPACT_effect       Aktifkan untuk memberikan ^o50^* Damage dan hingga ^o800^* Push kepada musuh di dalam radius tergantung pada seberapa jauh mereka dari Anda.\n\nMemberikan ^o10/13/16/19/22^* Damage ^gtidak mematikan^* kepada diri sendiri dan mendorong Anda menjauh dari musuh yang Anda serang.\n\nMemiliki ^o1.0/0.85/0.7/0.55/0.4 detik^* cast time.\n\n^rDapat di-upgrade 5 kali.^*
+wl_Item_Ability8_shop_flavor         Apakah ada sesuatu yang para Prophet tidak dapat lakukan?\nSudah lama mereka dianggap tidak bisa melakukan bela diri.\nSelama lebih dari 2000 tahun, mereka melatik kekuatan dan akurasi mereka, dan mereka berhasil menguasai jurus hentak, yang melemparkan segalanya di sekitar mereka ke semua arah. Akan tetapi, memang menyakitkan menghentakkan tanah sekeras itu.
+									 
+									 
+// Ability 9                         
+wl_Ability9_name                     Pullbomb
+wl_Ability9_description              Menembakkan sebuah bom yang Anda dapat ledakkan kapan saja, menarik orang ke arah ledakan.
+wl_Ability9_description_simple       Menargetkan suatu arah untuk menembakkan sebuah bom.\n\nAktifkan spell ini kembali akan meledakkan bom, memberikan ^o{10,15,20,25,30}^* Damage dan ^o{700,725,750,775,800}^* Pull kepada musuh dalam radius.
+wl_Ability9_IMPACT_effect            Menargetkan suatu arah untuk menembakkan sebuah bom.\n\nBom berjalan dengan speed ^o750^*, hingga range ^o1500^* unit.\n\nSpell kemudian dapat diaktifkan kembali untuk meledakkan bom, memberikan ^o{10,15,20,25,30}^* Damage dan ^o{700,725,750,775,800}^* Pull kepada musuh dalam radius.
+									 
+wl_Item_Ability9_name                Pullbomb
+wl_Item_Ability9_description         Menembakkan sebuah bom yang Anda dapat ledakkan kapan saja, menarik orang ke arah ledakan.
+wl_Item_Ability9_description_simple  Menembakkan sebuah bom yang Anda dapat ledakkan kapan saja, menarik orang ke arah ledakan.
+wl_Item_Ability9_IMPACT_effect       Menargetkan suatu arah untuk menembakkan sebuah bom.\n\nBom berjalan dengan speed ^o750^*, hingga range ^o1500^* unit.\n\nSpell kemudian dapat diaktifkan kembali untuk meledakkan bom, memberikan ^o10/15/20/25/30^* Damage dan ^o700/725/750/775/800^* Pull kepada musuh dalam radius.\n\n^rDapat di-upgrade 5 kali.^*
+									 
+									 
+// Ability 10                        
+wl_Ability10_name                    Ghost
+wl_Ability10_description             Menjadi Ghost, membiarkan projektil menembus Anda dan meledak setelahnya.
+wl_Ability10_description_simple      Aktifkan untuk menjadi Ghost selama ^o{1.6,1.7,1.8,1.9,2} detik^*, menghindari sebagian besar projektil.\n\nMenggunakan skill ketika menjadi Ghost akan mengakhiri skill ini lebih awal.\n\nJika Ghost berlangsung selama durasi penuh, semua musuh dalam ^o175^* range akan diberikan ^o{30,35,40,45,50}^* Damage dan ^o{500,525,550,575,600}^* Push.
+wl_Ability10_IMPACT_effect           Aktifkan untuk menjadi Ghost selama ^o{1.6,1.7,1.8,1.9,2} detik^*, menghindari sebagian besar projektil.\n\nMenggunakan skill ketika menjadi Ghost akan mengakhiri skill ini lebih awal.\n\nJika Ghost berlangsung selama durasi penuh, semua musuh dalam ^o175^* range akan diberikan ^o{30,35,40,45,50}^* Damage dan ^o{500,525,550,575,600}^* Push.
+wl_Ability10_effect_header           Efek Ghosted
+									 
+wl_State_Ability10_name              Ghosted
+wl_State_Ability10_FRAME_effect      Setelah durasi penuh, memberikan ^o{30,35,40,45,50}^* Damage dan ^o{600,625,650,675,700}^* Push kepada semua musuh dalam range.
+									 
+wl_Item_Ability10_name               Ghost
+wl_Item_Ability10_description        Menjadi Ghost, membiarkan projektil menembus Anda dan meledak setelahnya.
+wl_Item_Ability10_description_simple Menjadi Ghost, membiarkan projektil menembus Anda dan meledak saat selesai.
+wl_Item_Ability10_IMPACT_effect      Saat digunakan, menjadi Ghost selama ^o1.6/1.7/1.8/1.9/2 detik^*, menghindari sebagian besar projektil.\n\nMenggunakan skill ketika menjadi Ghost akan mengakhiri skill ini lebih awal.\n\nJika Ghost berlangsung selama durasi penuh, semua musuh dalam ^o175^* range akan diberikan ^o30/35/40/45/50^* Damage dan ^o500/525/550/575/600^* Push.
+									 
+									 
+// Ability 11                        
+wl_Ability11_name                    Essence Link
+wl_Ability11_description             Mecoba menghubungkan diri sendiri dengan Obelisk atau Enemy, menarik Anda berdua satu sama lain.
+wl_Ability11_description_simple      Menargetkan suatu arah untuk menembakkan Link Bolt.\n\nSaat tabrakan dengan musuh atau Obelisk, mengikat target dan Anda. Selama 2 detik berikutnya, Anda berdua akan ditarik ke arah unit yang terikat dengan Anda.\n\nAktifkan skill ini kembali akan membatalkan efek lebih awal.
+wl_Ability11_IMPACT_effect           Menembakkan sebuah Link Bolt ke arah target. Link berjalan dengan speed ^o1000^*, hingga range ^o1200^*, dan memiliki touch radius ^o70^.\n\nSaat bertabrakan dengan musuh atau Obelisk, mengikat target dan Anda bersama. Selama 2 detik berikutnya, Anda berdua akan ditarik ke arah unit yang terikat dengan Anda dengan ^o{900,1000,1100,1200,1300}^* Push force.\n\nAktifkan skill ini kembali akan membatalkan efek lebih awal.
+wl_Ability11_effect_header           Efek Linked
+									 
+wl_State_Ability11_name              Linked
+wl_State_Ability11_FRAME_effect      Ditarik ke arah unit yang terikat dengan Anda.
+wl_State_Ability11_self_name         Linked
+wl_State_Ability11_self_FRAME_effect Ditarik ke arah unit yang terikat dengan Anda.
+wl_State_Ability11_obelisk_name      Linked
+									 
+wl_Item_Ability11_name               Essence Link
+wl_Item_Ability11_description        Mecoba menghubungkan diri sendiri dengan Obelisk atau Enemy, menarik Anda berdua satu sama lain.
+wl_Item_Ability11_description_simple Mecoba menghubungkan diri sendiri dengan Obelisk atau Enemy, menarik Anda berdua satu sama lain.
+wl_Item_Ability11_IMPACT_effect      Menembakkan sebuah Link ke arah target. Link berjalan dengan speed ^o1000^*, hingga range ^o1200^*, dan memiliki touch radius ^o70^.\n\nSaat bertabrakan dengan musuh atau Obelisk, mengikat target dan Anda bersama. Selama 2 detik berikutnya, Anda berdua akan ditarik ke arah unit yang terikat dengan Anda dengan ^o900/1000/1100/1200/1300^* Push force.\n\nAktifkan skill ini kembali akan membatalkan efek lebih awal.\n\n^rDapat di-upgrade 5 kali.^*
+									 
+									 
+// Ability 12                        
+wl_Ability12_name                    Slide
+wl_Ability12_description             Seketika mem-push diri sendiri ke arah yang diinginkan.
+wl_Ability12_description_simple      Menargetkan suatu arah untuk seketika menerapkan {800,850,900,950,1000} Push kepada diri sendiri.\n\nSelama speed Anda bertahan di atas 300, musuh pertama yang datang mendekati Anda diberikan ^o{20,25,30,35,40}^* Damage dan ^o{560,570,580,590,600}^* Push.
+wl_Ability12_IMPACT_effect           Menargetkan suatu arah untuk seketika menerapkan {800,850,900,950,1000} Push kepada diri sendiri.\n\nSelama speed Anda bertahan di atas 300, musuh pertama yang datang mendekati Anda diberikan ^o{20,25,30,35,40}^* Damage dan ^o{560,570,580,590,600}^* Push.\n\nMeng-cast sebuah spell akan mengurangi speed Anda sebesar 300.
+wl_Ability12_effect_header           Efek Sliding
+wl_State_Ability12_name              Sliding
+									 
+wl_Item_Ability12_name               Slide
+wl_Item_Ability12_description        Seketika mem-push diri sendiri ke arah yang diinginkan.
+wl_Item_Ability12_description_simple Seketika mem-push diri sendiri ke arah yang diinginkan.
+wl_Item_Ability12_IMPACT_effect      Menargetkan suatu arah untuk seketika menerapkan {800,850,900,950,1000} Push kepada diri sendiri.\n\nSelama speed Anda bertahan di atas 300, musuh pertama yang datang mendekati Anda diberikan ^o20/25/30/35/40^* Damage dan ^o560/570/580/590/600^* Push.\n\nMeng-cast sebuah spell akan mengurangi speed Anda sebesar 300.\n\n^rDapat di-upgrade 5 kali.^*
+									 
+									 
+// Ability 13                        
+wl_Ability13_name                    Deflection
+wl_Ability13_description             Selama beberapa detik, men-deflect sebagaian besar spell dan tidak menerima damage dari Arena!
+wl_Ability13_description_simple      aktifkan untuk men-Deflect sebagian besar spell selama ^o{2,2.25,2.5,2.75,3} detik^*.\n\nKetika Deflection sedang hidup, Anda TIDAK menerima damage dengan berada di luar Arena!\n\nMenggunakan sebuah skill akan mengakhiri Deflection lebih awal.
+wl_Ability13_IMPACT_effect           Aktifkan untuk men-Deflect sebagian besar spell selama ^o{2,2.25,2.5,2.75,3} detik^*.\n\nKetika Deflection sedang hidup, Anda TIDAK menerima damage dengan berada di luar Arena!\n\nMenggunakan sebuah skill akan mengakhiri Deflection lebih awal.
+wl_Ability13_effect_header           Efek Deflecting
+									 
+wl_State_Ability13_name              Deflecting
+wl_State_Ability13_FRAME_effect      Sebagian besar spell akan di-deflect.
+									 
+wl_Item_Ability13_name               Deflection
+wl_Item_Ability13_description        Selama beberapa detik, men-deflect sebagaian besar spell dan tidak menerima damage dari Arena!
+wl_Item_Ability13_description_simple Selama beberapa detik, men-deflect sebagaian besar spell dan tidak menerima damage dari Arena!
+wl_Item_Ability13_IMPACT_effect      Saat digunakan, men-Deflect sebagian besar spell selama ^o2/2.25/2.5/2.75/3 detik^*.\n\nKetika Deflection sedang hidup, Anda TIDAK menerima damage dengan berada di luar Arena!\n\nMenggunakan sebuah skill akan mengakhiri Deflection lebih awal.\n\n^rDapat di-upgrade 5 kali.^*
+									 
+									 
+// Ability ? (May get reworked? - Haven't written stuff for this)		
+wl_Item_Upgrade0_name 		Lifesteal
+wl_Item_Upgrade0_description 		Meng-heal diri sendiri sebesar sebagian damage yang Anda berikan
+wl_Item_Upgrade0_description_simple 		Meng-heal diri sendiri sebesar sebagian damage yang Anda berikan
+wl_Item_Upgrade0_IMPACT_effect 		Meng-heal diri sendiri sebesar ^o8/13/18/23/28%^* dari semua Damage yang diberikan.\n\n^rDapat di-upgrade 5 kali.^*
+wl_Item_Upgrade0_shop_flavor 		Life adalah salah satu elemen yang para Prophet telah kuasai.\nMereka berhasil mencari cara menghisap Life sambil memberikan Damage pada waktu yang sama.\nSebuah fitur yang sangat berguna bagi seorang Prophet yang berpengalaman.
+		
+wl_Upgrade0_name		Lifesteal
+wl_Upgrade0_FRAME_effect		Meng-heal diri sendiri sebesar ^o8/13/18/23/28%^* atas seluruh Damage yang diberikan.
+		
+// wl_AbilityChannelbar		
+wl_AbilityChannelbar_name		Shop Tersedia
+		
+// wl_AbilityTooltip		
+wl_AbilityTooltip_name		Help
+wl_AbilityTooltip_description		Jika Anda memerlukan bantuan, klik di sini!
+wl_AbilityTooltip_description_simple		Di game ini, Anda ingin menjadi orang terakhir yang tersisa saat Arena mengecil secara perlahan. Jika Anda berada di luar, Anda akan menerima Damage seiring waktu. Beli skill baru atau upgrade sill Anda sekarang di antara ronde.\n\nKlik untuk info lebih lanjut.
+wl_AbilityTooltip_IMPACT_effect		Di game ini, Anda ingin menjadi orang terakhir yang tersisa saat Arena mengecil secara perlahan. Jika Anda berada di luar, Anda akan menerima Damage seiring waktu. Beli skill baru atau upgrade sill Anda sekarang di antara ronde.\n\nKlik untuk info lebih lanjut.
+		
+// End - do not delete this line		

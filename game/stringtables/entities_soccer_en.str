@@ -1,0 +1,1059 @@
+﻿// Ability_Soccer_Kick
+Ability_Soccer_SlideKick_name									Slide
+Ability_Soccer_SlideKick_name:soccer_hasball					Kick
+Ability_Soccer_SlideKick_description							Spends 25 energy to slide in target direction.
+Ability_Soccer_SlideKick_description:soccer_hasball				Spends up to 35 energy to kick the ball in the direction you're facing
+Ability_Soccer_SlideKick_description_simple						Spends 25 energy to slide in target direction.
+Ability_Soccer_SlideKick_description_simple:soccer_hasball		Spends up to 35 energy to kick the ball in the direction you're facing
+
+// State_Soccer_Slide
+State_Soccer_Slide_name											Slide
+State_Soccer_Slide_description									 
+
+
+// Powerups Runes
+Powerup_Soccer_EnergyRune_name									Energy Rune
+
+// Powerup Items
+Item_Soccer_EnergyRune_name										Energy Rune
+Item_Soccer_EnergyRune_description								Activate to Regenerate ^o25 Energy^* Per Second for 4 Seconds.
+Item_Soccer_EnergyRune_description_simple						Activate to Regenerate ^o25 Energy^* Per Second for 4 Seconds.
+
+// Powerup States
+State_Soccer_Powerup_Refresh_name								Energy Rune
+State_Soccer_Powerup_Refresh_description						Regenerating ^o25 Energy^* Per Second.
+
+// State_Soccer_Respawn
+State_Soccer_Respawn_name										Preparation
+State_Soccer_Respawn_description								A new round is about to begin!
+
+// State_Soccer_Sprint
+State_Soccer_Sprint_name										Sprinting
+State_Soccer_Sprint_description									Movement Speed Increased.
+
+// Ability_Soccer_Sprint
+Ability_Soccer_Sprint_name										Sprint
+Ability_Soccer_Sprint_description								Increases Movement Speed by ^g145^*\nDrains ^o14^* Energy per Second.
+Ability_Soccer_Sprint_description_simple						Increases Movement Speed by ^g145^*\nDrains ^o14^* Energy per Second.
+
+// State_Soccer_Fatigue
+State_Soccer_Fatigue_name										Knocked Out
+State_Soccer_Fatigue_description								You are knocked out and will need to recover before you return to normal.
+
+// State_Soccer_Fatigue_DamageMitigation
+State_Soccer_Fatigue_DamageMitigation_name						Post-Fatigue Protection
+State_Soccer_Fatigue_DamageMitigation_description				Receive 50% Damage Reduction against the player who knocked you out.
+
+// State_Soccer_StartGame
+State_Soccer_StartGame_name										Pre-Match
+State_Soccer_StartGame_description								The match is about to begin!
+State_Soccer_StartGame_description_simple						The match is about to begin!
+
+// State_Soccer_HasBall
+State_Soccer_HasBall_name										You have the ball!
+State_Soccer_HasBall_description								Kick the ball into your goal to score!\n\nMovement is limited.
+State_Soccer_HasBall_description_simple							Kick the ball into your goal to score!\n\nMovement is limited.
+
+// Soccer_Speedup
+Soccer_Speedup_name												Speed up
+Soccer_Speedup_description										Increases movement speed every time you kick the ball.
+
+// State_Soccer_Afterkick
+State_Soccer_Afterkick_name										Recently Kicked
+State_Soccer_Afterkick_description								Movement abilities are restrained.
+
+// Soccer_Damage
+Soccer_State_Damage_name										Protective Aura
+Soccer_State_Damage_description									Decreases damage taken based on how far from your goal you are. Further away means more damage.
+
+// Soccer_State_GoalieSpeedup
+Soccer_State_GoalieSpeedup_name									Goalie Speed up
+Soccer_State_GoalieSpeedup_description							Decreases damage taken and increases movement speed and regeneration when close to own goal.
+
+// Ability_Soccer_PowerKick
+Ability_Soccer_PowerKick_name									Powerkick
+Ability_Soccer_PowerKick_description							Channel a more powerful kick.
+
+// Ability_Soccer_PowerKickA
+Ability_Soccer_PowerKickA_name									Powerkick
+Ability_Soccer_PowerKickA_description							End the kick early for reduced strength but less channel time.
+
+// Ability_Soccer_Pass
+Ability_Soccer_Pass_name										Pass
+Ability_Soccer_Pass_description									Pass the ball to your closest ally. Uses a 60 degree cone and 2500 range, face the ally you want to pass.
+
+//Popups											
+Popup_soccer_outside											Ball out! Sent to center!
+Popup_soccer_legionsball										Legion's ball!
+Popup_soccer_hellbournesball									Hellbourne's ball!
+
+
+// Heroes
+
+---------------------------------
+---------------------------------
+
+//WITCH_SLAYER
+
+// Ability_WitchSlayer3
+Ability_WitchSlayer3_name:soccer								Power Drain
+Ability_WitchSlayer3_description:soccer							Over the years the Witch Slayer has learned how to drain the power of his enemies for his own use.
+Ability_WitchSlayer3_description_simple:soccer					Drains ^o21^* Energy per second from the target.
+Ability_WitchSlayer3_effect_header:soccer						Power Drain Effect(s)
+Ability_WitchSlayer3_IMPACT_effect:soccer						Applies Power Drain to target for duration of the channel. Witch Slayer gains Energy equal to the Energy drained.\n\nChannel breaks at 900 range.
+Ability_WitchSlayer3_tooltip_flavor:soccer						I'm just going to borrow this!
+
+// State_WitchSlayer_Ability3
+State_Soccer_WitchSlayer_Ability3_name							Power Drain
+State_Soccer_WitchSlayer_Ability3_FRAME_effect					21 Energy drained per second
+
+// Ability_WitchSlayer4
+Ability_WitchSlayer4_name:soccer								Silver Bullet
+Ability_WitchSlayer4_description:soccer							With no other option left, the Witch Slayer fires a Silver Bullet from his gun at the target enemy. The impact usually leaves them in many small pieces.
+Ability_WitchSlayer4_description2:soccer						...
+Ability_WitchSlayer4_description_simple:soccer					Target an enemy unit to deal ^o175 Damage^*.
+Ability_WitchSlayer4_IMPACT_effect:soccer						Deals ^o175 Damage^* to target.
+Ability_WitchSlayer4_tooltip_flavor:soccer						Nothing can save her now except for Silver Bullets!
+
+// Passive_WitchSlayer
+Ability_Soccer_WitchSlayer_Passive_name							Curse
+Ability_Soccer_WitchSlayer_Passive_description					On attack, applies a 4 second Debuff that reduces Movement Speed by ^o40^*, and increases all damage taken by ^o15%^*.
+Ability_Soccer_WitchSlayer_Passive_description_simple			On attack, applies a 4 second Debuff that reduces Movement Speed by ^o40^*, and increases all damage taken by ^o15%^*.
+
+// State_Passive_WitchSlayer
+State_Soccer_WitchSlayer_Passive_name							Curse
+State_Soccer_WitchSlayer_Passive_description					Movement Speed Slowed.\nDamage taken increased.
+
+// Hero_WitchSlayer
+Hero_WitchSlayer_role:soccer									Passive Ability: ^yCurse^*\nOn attack, applies a 3 second Debuff that reduces Movement Speed by ^o40^*, and increases all damage taken by ^o15%^*.
+
+---------------------------------
+---------------------------------
+
+//CHRONOS
+
+// Ability_Chronos4
+Ability_Soccer_Chronos4_name									Time Travel
+Ability_Soccer_Chronos4_description								On activation, saves current location.\n\nAfter 3 seconds, or upon second activation, reverts position.
+Ability_Soccer_Chronos4_description_simple						On activation, saves current location.\n\nAfter 3 seconds, or upon second activation, reverts position.
+
+// Ability_Chronos1
+Ability_Chronos1_description:soccer								Target a location to ^oteleport to that position^*.\n\nUpon arrival, ^oDeals 50 Damage^* to enemies around you.
+Ability_Chronos1_description_simple:soccer						Target a location to ^oteleport to that position^*.\n\nUpon arrival, ^oDeals 50 Damage^* to enemies around you.
+
+// Passive_Chronos
+Ability_Soccer_Chronos_Passive_name								Curse Of Ages
+Ability_Soccer_Chronos_Passive_description						On attack, stuns target for ^o1.3 Seconds^*.
+Ability_Soccer_Chronos_Passive_description_simple				On attack, stuns target for ^o1.3 Seconds^*.
+
+// Hero_Chronos
+Hero_Chronos_role:soccer										Passive Ability: ^yCurse of Ages^*\nOn attack, stuns target for ^o1.3 Seconds^*.
+
+---------------------------------
+---------------------------------
+
+//ANDROMEDA
+
+// Ability_Andromeda1
+Ability_Andromeda1_description:soccer							Andromeda rips a Comet from her dimension to hurl at an enemy, damaging and stunning them.
+Ability_Andromeda1_description2:soccer									
+Ability_Andromeda1_description_simple:soccer					Target an enemy to deal ^o100 Damage^* and apply a ^o2 Second Stun^*.
+Ability_Andromeda1_effect_header:soccer							Comet Effect(s)
+Ability_Andromeda1_effect_header2:soccer								
+Ability_Andromeda1_tooltip_flavor:soccer								
+Ability_Andromeda1_IMPACT_effect:soccer							Deals ^o100 Damage^* and Stuns target for 2 seconds on impact.
+Ability_Andromeda1_tooltip_flavor:soccer						
+
+// Ability_Andromeda4
+Ability_Andromeda4_name:soccer									Void Rip
+Ability_Andromeda4_description:soccer							Andromeda pauses time and space, instantly switching places with another hero.
+Ability_Andromeda4_description2:soccer							...
+Ability_Andromeda4_description_simple:soccer					Target an ally or enemy hero to ^oswap positions^* with them.
+Ability_Andromeda4_effect_header:soccer							Void Rip Effect(s)
+Ability_Andromeda4_effect_header2:soccer						...		
+Ability_Andromeda4_IMPACT_effect:soccer							Instantly swaps your position with the target's.
+Ability_Andromeda4_tooltip_flavor:soccer						Tag, you're it!
+
+// Passive_Andromeda
+Ability_Soccer_Andromeda_Passive_name							Infinite
+Ability_Soccer_Andromeda_Passive_description					Knockout time Reduced by ^o50%^*
+Ability_Soccer_Andromeda_Passive_description_simple				Knockout time Reduced by ^o50%^*
+
+// Hero_Andromeda
+Hero_Andromeda_role:soccer										Passive Ability: ^yInfinite^*\nKnockout time Reduced by ^o50%^*
+
+---------------------------------
+---------------------------------
+
+//BLITZ
+
+// Ability_Blitz1
+Ability_Blitz1_description:soccer								Blitz exploits the weakness of his foes sluggish movements and blasts them with electricity.
+Ability_Blitz1_description2:soccer										
+Ability_Blitz1_description_simple:soccer						Target an enemy, Deals ^o50^* + ^o25^*% of your difference in movement speed to the enemy as Damage and Stuns for ^o1 Second^*.
+Ability_Blitz1_effect_header									
+Ability_Blitz1_effect_header2									
+Ability_Blitz1_tooltip_flavor									Faster than lightning.
+Ability_Blitz1_FRAME_effect:soccer										
+Ability_Blitz1_IMPACT_effect:soccer								Deals 50 plus 25% of your difference in Movement Speed to the target in Damage and Stuns target for 1 Second.
+
+// Ability_Blitz2
+Ability_Blitz3_description:soccer								Blitz surges himself or an ally with adrenaline granting the nimble movements of a fox.
+Ability_Blitz3_description2:soccer										
+Ability_Blitz3_description_simple:soccer						Target yourself or an Ally to grant a boost of ^o100% Movement Speed^* for ^o3^* Seconds.
+Ability_Blitz3_effect_header:soccer								Quicken Effect(s)
+Ability_Blitz3_effect_header2:soccer									
+Ability_Blitz3_tooltip_flavor:soccer							Better, Stronger, Faster 
+Ability_Blitz3_IMPACT_effect:soccer								Applies Quicken to target for 3 seconds.
+
+// Passive_Blitz
+Ability_Soccer_Blitz_Passive_name								Sprinter
+Ability_Soccer_Blitz_Passive_description						Reduces the Energy Drain of ^oSprint^* by ^g2.5^*.
+Ability_Soccer_Blitz_Passive_description_simple					Reduces the Energy Drain of ^oSprint^* by ^g2.5^*.
+
+// Hero_Blitz
+Hero_Blitz_role:soccer											Passive Ability: ^ySprinter^*\nReduces the Energy Drain of ^oSprint^* by ^g2.5^*.
+
+---------------------------------
+---------------------------------
+
+//DEVOURER
+
+// Ability_Devourer2
+Ability_Devourer2_description:soccer							The Devourer allows himself to decay, draining his Health over time and releasing poisonous gasses that slow nearby enemy units.
+Ability_Devourer2_description_simple:soccer						Activate to toggle on or off. Deals ^o25 Damage per second^* to self. Nearby enemies are affected with ^o-35% Movement Speed^*.
+Ability_Devourer2_effect_header:soccer							Decay Effect(s)
+Ability_Devourer2_IMPACT_effect:soccer							When toggled, deals 25 Damage per second to self and applies Decay to enemies in radius.\nDecay has a linger time of 2 seconds.
+Ability_Devourer2_tooltip_flavor:soccer							What's that smell?
+
+// State_Devourer_Ability2_Other
+State_Devourer_Ability2_Other_FRAME_effect:soccer				
+
+// Ability_Devourer1
+Ability_Devourer1_name:soccer									Guttling Hook
+Ability_Devourer1_description:soccer							The Devourer launches his Guttling Hook at a target unit or location. The first targetable unit that touches the hook will be dragged back to the Devourer.
+Ability_Devourer1_description_simple:soccer						Target a position to launch a Guttling Hook towards it.\nThe First unit it encounters  will be pulled to you.\nIf the affected unit is an enemy, it receives ^o100 Damage^*. Can grab the ball.
+Ability_Devourer1_effect_header:soccer							Status Effect(s)
+Ability_Devourer1_IMPACT_effect:soccer							Launches a hook that grabs the first units it impacts. On impact, deals 100 Damage if it's an enemy and drags the unit back to self.\n\nTarget is Stunned while being dragged. Can grab the ball.
+Ability_Devourer1_tooltip_flavor:soccer							Get over here!
+
+// Passive_Devourer
+Ability_Soccer_Devourer_Passive_name							Cadaver Armor
+Ability_Soccer_Devourer_Passive_description						When Devourer grabs the ball & this ability is not on cooldown, he cannot have the ball stolen for ^o3 Seconds^*.\n\nHealth Regeneration increased.
+Ability_Soccer_Devourer_Passive_description_simple				When Devourer grabs the ball & this ability is not on cooldown, he cannot have the ball stolen for ^o3 Seconds^*.\n\nHealth Regeneration increased.
+
+/// State_Passive_Devourer
+State_Soccer_Devourer_Passive_name								Cadaver Armor
+State_Soccer_Devourer_Passive_description						Ball can not be stolen
+
+// Hero_Devourer
+Hero_Devourer_role:soccer										Passive Ability: ^yCadaver Armor^*\nWhen Off Cooldown, when Devourer grabs the ball, he cannot have it stolen for ^o3 Seconds^*.\n\nHealth Regeneration increased.
+
+---------------------------------
+---------------------------------
+
+//RALLY
+
+// Ability_Rally1
+Ability_Rally1_description:soccer								Rally compels himself or an ally to leap forward in the direction of his choosing dealing damage and stunning enemies they hit.
+Ability_Rally1_description2:soccer										
+Ability_Rally1_description_simple:soccer						Click yourself or an ally hero and drag the cursor in a direction to launch them in the chosen direction.\n\nEnemies hit by the launched ally are dealt ^o70 Damage and a 1.3 Second Stun^*.
+Ability_Rally1_effect_header:soccer									
+Ability_Rally1_effect_header2:soccer								
+Ability_Rally1_tooltip_flavor:soccer								
+Ability_Rally1_IMPACT_effect:soccer								Rally compels himself or an ally to leap forward in the direction of his choosing dealing ^o70 Damage^* and stunning enemies for ^o1.3^* seconds that they hit.
+
+// Ability_Rally3
+Ability_Soccer_Rally3_name										Battle Stand
+Ability_Soccer_Rally3_description								Rally places his battle spirit flag making all allies feel stronger in battle and thus increasing their energy gain temporarily while close to the flag.
+Ability_Soccer_Rally3_description2										
+Ability_Soccer_Rally3_description_simple						Rally places his battle spirit flag, granting all allies within its radius increased Energy Regeneration.
+Ability_Soccer_Rally3_effect_header								Battle Stand Effect(s)
+Ability_Soccer_Rally3_effect_header2							Battle Stand Effect(s)	
+Ability_Soccer_Rally3_tooltip_flavor							
+Ability_Soccer_Rally3_IMPACT_effect								Rally places a flag on the ground restoring energy to allies.
+
+// State_Soccer_Rally3
+State_Soccer_Rally3_name										Battle Stand
+State_Soccer_Rally3_FRAME_effect								6 Energy gained per second
+
+// Ability_Soccer_Rally_Passive
+Ability_Soccer_Rally_Passive_name								Rallying Call
+Ability_Soccer_Rally_Passive_description						Gives various buffing attributes to other allies.
+Ability_Soccer_Rally_Passive_description_simple					Gives various buffing attributes to other allies.
+
+// State_Passive_Rally
+State_Soccer_Rally_Passive_name									Rallying Call
+State_Soccer_Rally_Passive_description							
+
+// Gadget_Rally3
+// Rally's Battle Stand Flag
+Gadget_Soccer_Rally3_name										Battle Stand
+
+// Hero_Rally
+Hero_Rally_role:soccer											Passive Ability: ^yRalling Call^*\nGives various buffing attributes to other allies.
+
+---------------------------------
+---------------------------------
+
+//PEBBLES
+
+// Ability_Rocky1
+Ability_Rocky1_name:soccer										Stalagmites
+Ability_Rocky1_description:soccer								Pebbles summons forth an eruption of stalagmites at a target location, stunning and damaging all enemies in the area.
+Ability_Rocky1_description_simple:soccer						Target a location to deal ^o15 Damage^* and apply a ^o2 second Stun^* to enemies in the radius. Units affected by Chuck take ^o60 Damage^* from Stalagmites.\n\n^oCasting in the sequence Stalagmites -> Chuck will yield the highest potential combo damage.^*
+Ability_Rocky1_effect_header:soccer								Status Effect(s)
+Ability_Rocky1_IMPACT_effect:soccer								Deals 15 Damage to targets in radius and Stuns for 2 seconds.\n\nDamage is dealt in 4 instances, with 0.25 seconds between each instance. If a unit is also airborne from Chuck, each instance deals an additional 15 Damage, dealing up to a total of 120 Damage.\n\n^oCasting in the sequence Stalagmites -> Chuck will yield the highest potential combo damage.^*
+Ability_Rocky1_tooltip_flavor:soccer							What, no Stalactites?
+
+// Ability_Rocky2
+Ability_Rocky2_name:soccer										Chuck
+Ability_Rocky2_description:soccer								Pebbles throws a nearby visible unit to target location, damaging it and all enemies in an area around where it lands.
+Ability_Rocky2_description_simple:soccer						Target a unit to throw the nearest unit within range at it, dealing ^o55 Damage^* to nearby enemy units.
+Ability_Rocky2_description_simple:Rocky_Grow1:soccer			Target a unit to throw the nearest unit within range at it, dealing ^o55 Damage^* to nearby enemy units.
+Ability_Rocky2_description_simple:Rocky_Grow2:soccer			Target a unit to throw the nearest unit within range at it, dealing ^o55 Damage^* to nearby enemy units.
+Ability_Rocky2_description_simple:Rocky_Grow3:soccer			Target a unit to throw the nearest unit within range at it, dealing ^o55 Damage^* to nearby enemy units.
+Ability_Rocky2_effect_header:soccer								Status Effect(s)
+Ability_Rocky2_IMPACT_effect:soccer								Tosses the nearest unit within 275 units at target. Target is airborne for 1 second.\n\nUpon landing, deals 55 Damage to enemies in radius
+Ability_Rocky2_IMPACT_effect:Rocky_Grow1:soccer					Tosses the nearest unit within 275 units at target. Target is airborne for 1 second.\n\nUpon landing, deals 55 Damage to enemies in radius
+Ability_Rocky2_IMPACT_effect:Rocky_Grow2:soccer					Tosses the nearest unit within 275 units at target. Target is airborne for 1 second.\n\nUpon landing, deals 55 Damage to enemies in radius.
+Ability_Rocky2_IMPACT_effect:Rocky_Grow3:soccer					Tosses the nearest unit within 275 units at target. Target is airborne for 1 second.\n\nUpon landing, deals 55 Damage to enemies in radius.
+Ability_Rocky2_tooltip_flavor:soccer							Who's for rock jumping?
+
+// Passive_Rocky
+Ability_Soccer_Rocky_Passive_name								Combo King
+Ability_Soccer_Rocky_Passive_description						Maximum Energy Increased.
+Ability_Soccer_Rocky_Passive_description_simple					Max Energy Increased by ^o50^*.
+Ability_Soccer_Rocky_Passive_effect_header						Passive Effect(s)
+Ability_Soccer_Rocky_Passive_FRAME_effect						50 Maximum Energy
+
+// Hero_Rocky
+Hero_Rocky_role:soccer											Passive Ability: ^yCombo King^*\nMax Energy Increased by ^o50^*.
+
+---------------------------------
+---------------------------------
+
+//EMPATH
+
+// Ability_Empath2
+Ability_Empath2_name											Illusory Veil
+Ability_Empath2_description:soccer								...
+Ability_Empath2_description_simple:soccer						Click and drag cursor to create a wall that will block all player movement and reflects the ball. The wall lasts ^o2.5 seconds^*.
+Ability_Empath2_IMPACT_effect:soccer							Creates a 650 width wall that blocks all player movement and reflects the ball for 2.5 seconds.
+
+// Ability_Empath4
+Ability_Empath4_description:soccer								Empath becomes one with an allied hero, buffing the host. Empath may continue to cast spells and use items as normal.
+Ability_Empath4_description2:soccer								...
+Ability_Empath4_description_simple:soccer						Target an allied hero to go inside them for up to 30 seconds. While inside, Empath is invulnerable and her host receives ^o15 Attack Damage, 5 Energy Regen and 30 Attack Speed^*.\n\nFor the duration, grants an additional skill that allows you to apply a burst of ^oSpeed^* to your host.
+Ability_Empath4_IMPACT_effect:soccer							Bonds with the target hero, removing all buffs and debuffs from self. You are invulnerable and Disarmed while bonded. Grants 15 Damage, 5 Energy Regen and 30 Attack Speed to the host hero. The bond lasts 30 seconds, and expire if the host dies. Activate to end the bond early.
+Ability_Empath4_IMPACT_effect:Empath_Inside						Will instantly end the bond between the host and Empath, placing Empath outside and adjacent to the host.
+
+// State_Empath_Ability4_Speed
+State_Empath_Ability4_Speed_description:soccer					Empath has infused the target with a short burst of ^gMovement Speed^*.
+State_Empath_Ability4_Speed_description2						
+State_Empath_Ability4_Speed_effect_header						
+State_Empath_Ability4_Speed_effect_header2					
+State_Empath_Ability4_Speed_tooltip_flavor						
+
+// Passive_Empath
+Ability_Soccer_Empath_Passive_name								Blessing
+Ability_Soccer_Empath_Passive_description						Can Attack Friendly Heroes.\n\nInstead of Dealing Damage, Heals the target for ^g40 Health^* and grants them ^o10 Energy^*.
+Ability_Soccer_Empath_Passive_description_simple				Can Attack Friendly Heroes.\n\nInstead of Dealing Damage, Heals the target for ^g40 Health^* and grants them ^o10 Energy^*.
+
+// Hero_Empath
+Hero_Empath_role:soccer											Passive Ability: ^yBlessing^*\nCan Attack Friendly Heroes.\n\nInstead of Dealing Damage, Heals the target for ^g40 Health^* and grants them ^o10 Energy^*.
+
+---------------------------------
+---------------------------------
+
+//FLUX
+
+// Ability_Flux2
+Ability_Flux2_description:soccer 								Pushes or pulls target (depending on polarity).\n\nDeals Attack Damage.
+Ability_Flux2_description_simple:soccer 						Target a unit to push or pull the target (depending on polarity) and deal your ^oAttack Damage^* if target is an enemy.
+Ability_Flux2_IMPACT_effect:soccer								^oPulls^* target towards you and deals your ^oAttack Damage ^*if target is an enemy.
+Ability_Flux2_IMPACT_effect:Fluxpushsoccer						^oPushes^* target away from you and deals your ^oAttack Damage^* if target is an enemy.
+Ability_Flux2_IMPACT_effect:Fluxpullsoccer						^oPulls^* target towards you and deals your ^oAttack Damage^* if target is an enemy.
+
+// Ability_Flux3
+Ability_Flux3_description:soccer								Flux changes his polarity (changing from pull to push and back again).
+Ability_Flux3_description:Flux_subpushsoccer					Flux changes his polarity (changing from pull to push).
+Ability_Flux3_description_simple:soccer 						Activate to swap between pushing and pulling on all of Flux's abilities.\n\n^oPulling^* mode - press to switch to ^oPushing^* mode.
+Ability_Flux3_description_simple:Flux_subpushsoccer				Activate to swap between pushing and pulling on all of Flux's abilities.\n\n^oPushing^* mode - press to switch to ^oPulling^* mode.
+Ability_Flux3_IMPACT_effect:soccer								Changes his polarity from pull to push and vice versa.\n\n^rPULLING^*
+Ability_Flux3_IMPACT_effect:Flux_subpushsoccer					Changes his polarity from pull to push and vice versa.\n\n^oPUSHING^*
+
+// Passive_Flux
+Ability_Soccer_Flux_Passive_name								Push Master
+Ability_Soccer_Flux_Passive_description							Kick distance on Ball is ^oincreased by 20%^*.
+Ability_Soccer_Flux_Passive_description_simple					Kick distance on Ball is ^oincreased by 20%^*.
+
+// Hero_Flux
+Hero_Flux_role:soccer											Passive Ability: ^yPush Master^*\nKick distance on Ball is ^oincreased by 20%^*.
+
+---------------------------------
+---------------------------------
+
+//MONKEY_KING
+
+// Ability_MonkeyKing1
+Ability_MonkeyKing1_name:soccer									Illusive Dash
+Ability_MonkeyKing1_description:soccer							The Monkey King dashes forward, damaging enemies caught in his path.
+Ability_MonkeyKing1_IMPACT_effect:soccer						Dashes 300 units forward, following pathing. Deals ^o15 + your Attack Damage to enemies you pass through.
+Ability_MonkeyKing1_description_simple:soccer					Dash forward, dealing ^o15 + your Attack Damage^* to enemies on impact.
+Ability_MonkeyKing1_tooltip_flavor:soccer						"With every hair on his body able to emulate a perfect copy of himself..."
+
+// Ability_MonkeyKing2
+Ability_MonkeyKing2_name:soccer									Heavenly Vault
+Ability_MonkeyKing2_description:soccer							The Monkey King vaults over a unit, jumping in front of it while knocking it backwards.
+Ability_MonkeyKing2_IMPACT_effect:soccer						Vaults over target, pushing the target back 200 units and applying Vaulted if it is an enemy. Monkey King lands 300 units behind the target, creating a shockwave that applies Vaulted to enemies in a 250 radius.\n\nVaulted deals ^o65^* Damage and applies a tapering 20% Movement Speed Slow for 2 seconds.
+Ability_MonkeyKing2_description_simple:soccer					Target a unit to vault over it while pushing it back.\n\nThe target and enemies around your landing point are dealt ^o65^* Damage and a tapering 20% Movement Speed Slow for 2 seconds.
+Ability_MonkeyKing2_tooltip_flavor:soccer						"...able to ascend a great distance in a single bound..."
+
+// Passive_MonkeyKing
+Ability_MonkeyKing4_name:soccer									Flying Nimbus
+Ability_MonkeyKing4_description:soccer							The Monkey King summons his trusty Nimbus Cloud when out of combat, gaining a large movement speed boost.
+Ability_MonkeyKing4_description2:soccer								
+Ability_MonkeyKing4_IMPACT_effect:soccer						When not taking damage for 7 seconds, passively grants 25+ bonus Movement Speed and 1.5+ Energy Regen. Dissipates on damage taken.
+Ability_MonkeyKing4_ABILITY_IMPACT_effect:soccer						
+Ability_MonkeyKing4_description_simple:soccer					^rNon-combat mount.^* When not taking damage for 7 seconds, passively gains ^o25 bonus Movement Speed and 1.5 Energy Regen^*.
+Ability_MonkeyKing4_tooltip_flavor:soccer						"...The Monkey King commands even the elements in his holy journey."
+
+// Hero_MonkeyKing
+Hero_MonkeyKing_role:soccer										Passive Ability: ^yFlying Nimbus^*\n^rNon-combat mount.^* When not taking damage for 7 seconds, passively jump upon your trusty Flying Nimbus, granting ^o25 bonus Movement Speed and 1.5 Energy Regen^*. Dissipates and goes on cooldown when you take damage.
+
+
+---------------------------------
+---------------------------------
+
+//PUPPET_MASTER
+
+// Ability_PuppetMaster1
+Ability_PuppetMaster1_name:soccer								Puppeteer's Hold
+Ability_PuppetMaster1_description:soccer						The Puppet Master ties up a target enemy unit with puppet strings. The strings restrain movement heavily.
+Ability_PuppetMaster1_description_simple:soccer					Target an enemy unit to apply a ^o3 second Bind^*. If the target moves away from the center they will be pulled back.
+Ability_PuppetMaster1_effect_header:soccer						Puppeteer's Hold
+Ability_PuppetMaster1_IMPACT_effect:soccer						Target an enemy unit to apply a 3 second bind. If the target moves away from the center they will be pulled back in. 
+
+// Ability_PuppetMaster2
+Ability_PuppetMaster2_name:soccer								Puppet Show
+Ability_PuppetMaster2_description:soccer						The Puppet Master enslaves an enemy unit as his Puppet. The target is driven crazy and will attack the nearest unit, be it friend or foe.
+Ability_PuppetMaster2_description_simple:soccer					Targets an enemy unit to apply a ^o2.5 second Forced Attack^* against a nearby unit.
+Ability_PuppetMaster2_effect_header:soccer						Crazy Puppet Effect(s)
+Ability_PuppetMaster2_IMPACT_effect:soccer						Applies Crazy Puppet to target for 2.5 seconds. Any unit with Crazy Puppet active on them will be forced to attack enemy heroes first then all units.\n\nIf the Crazy Puppet unit is forced to attack the target and that target dies, then Crazy Puppet will end at that time. If no unit was within radius when Puppet Show was applied, the target will attack the next unit that comes within 600 radius. Attacks dealt by the target is non-lethal.
+Ability_PuppetMaster2_tooltip_flavor:soccer						Fight for my amusement!
+
+// Ability_PuppetMaster3
+Ability_PuppetMaster3_name										Whiplash
+Ability_PuppetMaster3_description:soccer						Imbuing his attack with his magical Puppet Strings, the Puppet Master is able to increase his base damage and unleash devastating attacks that damage multiple enemies.
+Ability_PuppetMaster3_description_simple:soccer					Passively grants every 3rd attack ^o2.0x^* Critical Strike with ^o100%^* Splash Damage in a ^o275 Radius^*.
+Ability_PuppetMaster3_ATTACK_IMPACT_effect:soccer				Starts with 4 charges. On attack, removes a charge. When only one charge remains, the next attack will have a 100% chance to deal a 2.0x critical strike and apply 100% splash damage in radius of 275 and charges are reset to 4.
+Ability_PuppetMaster3_tooltip_flavor:soccer						I'm feeling a bit strung out.
+
+// Hero_PuppetMaster
+Hero_PuppetMaster_role:soccer									Passive Ability: ^yWhiplash^*\nPassively grants every 3rd attack ^o2.0x^* Critical Strike with ^o100%^* Splash Damage in a ^o275 Radius^*.
+
+---------------------------------
+---------------------------------
+
+//ALUNA
+
+// Ability_Aluna1
+Ability_Aluna1_name:soccer										Emerald Lightning
+Ability_Aluna1_description:soccer								Lightning never hits the same target twice.
+Ability_Aluna1_description_simple:soccer						Target an enemy unit to launch lightning, ^ostunning the target for 1s^* and bouncing 2 times, stealing ^o20 Attack Speed^* per target and giving it to Aluna for ^o5 Seconds^*.
+Ability_Aluna1_IMPACT_effect:soccer								Fires lightning that chains to ^o2^* targets. Targets are Stunned for ^o1^* second + ^o0.5^* seconds per bounce. Targets hit also lose ^o20^* Attack Speed for 5 seconds and Aluna gains Attack Speed equal to the amount stolen for 5 seconds.
+Ability_Aluna1_tooltip_flavor:soccer							My beauty is a bit stunning.
+
+// Ability_Aluna3
+Ability_Aluna3_name:soccer										Déja Vu
+Ability_Aluna3_description:soccer								Aluna can see the past and future on the surface of moonlit water, and she can travel there under proper conditions.
+Ability_Aluna3_description_simple:soccer						This skill has ^o3^* activation points.\n\n^oFirst:^* Gains unitwalking and ^o{30,35,40,45}% Movement Speed^* for ^o{3,4,5,6}^* seconds.\n^oSecond:^* Send a Shadow along the path you took from activation, slowing enemies hit by ^o{-25,-30,-35,-40}% Movement Speed^* for ^o{3,3.5,4,4.5}^* seconds.\n^oThird:^* Teleport to the Shadow's location.^*
+Ability_Aluna3_IMPACT_effect:soccer								This ability has 3 activation points.\n\n^rButton 1:^* Gain ^o+{30,35,40,45}% Movement Speed^* and Unitwalking for up to ^o{3,4,5,6} seconds^*.\n\n^rButton 2:^* Sends a shadow back to the first activation point. Enemies that touch the shadow receive a ^o{25,30,35,40}% Movement Speed Slow^* for ^o{3,3.5,4,4.5} seconds^*.\n\n^rButton 3:^* Teleports you to the shadow's location.\n\nMovement Speed buff is removed once the shadow disappears. If the skill's state expires naturally after the first activation, then the Shadow will now spawn from Aluna and start travelling back to where she first used this skill.
+Ability_Aluna3_tooltip_flavor:soccer							A juke a day keeps the gankers away.
+
+// Passive for Aluna
+Ability_Soccer_Aluna_Passive_name								Emerald Blue
+Ability_Soccer_Aluna_Passive_description						Whenever Emerald Lighting impacts an enemy or if Déja Vu is cast, you gain a charge.\n\nWhen charges reach 3, the next ^oSlide/Kick^* costs ^o0 Energy^*, and resets charges.\nCharges are also reset when a new round begins.
+Ability_Soccer_Aluna_Passive_description_simple					Whenever Emerald Lighting impacts an enemy or if Déja Vu is cast, you gain a charge.\n\nWhen charges reach 3, the next ^oSlide/Kick^* costs ^o0 Energy^*, and resets charges.\nCharges are also reset when a new round begins.
+Ability_Soccer_Aluna_Passive_IMPACT_effect						
+Ability_Soccer_Aluna_Passive_tooltip_flavor									
+
+// State_Soccer_AlunaBlue
+State_Soccer_AlunaBlue_name										Emerald Blue
+State_Soccer_AlunaBlue_description								Next Kick or Slide is 0 Energy Cost.
+
+// Hero_Aluna
+Hero_Aluna_role:soccer											Passive Ability: ^yEmerald Blue^*\nWhenever Emerald Lighting or Power Throw Impacts an enemy, you gain a charge.\n\nWhen charges reach 3, the next ^oSlide/Kick^* costs ^o0 Energy^*, and resets charges.\nCharges are also reset when a new round begins.
+
+---------------------------------
+---------------------------------
+
+//MAGEBANE
+
+// Ability_Javaras1
+Ability_Javaras1_name:soccer									Energy Burn
+Ability_Javaras1_description:soccer								On each attack, Magebane burns some of the target's Energy.
+Ability_Javaras1_description_simple:soccer						Auto-attacks passively burn 12 of the target's energy per hit.
+Ability_Javaras1_description2:soccer							
+Ability_Javaras1_effect_header:soccer							
+Ability_Javaras1_ATTACK_IMPACT_effect:soccer					Auto-attacks passively burn ^o12^* of the target's Energy per hit.
+Ability_Javaras1_tooltip_flavor:soccer							
+
+// Ability_Javaras2
+Ability_Javaras2_name:soccer									Flash
+Ability_Javaras2_description:soccer								Target a location to teleport to that position
+Ability_Javaras2_description_simple:soccer						Target a location to teleport to that position
+Ability_Javaras2_IMPACT_effect:soccer							Target a location to teleport to that position
+Ability_Javaras2_tooltip_flavor									In the blink of an eye!
+
+// Ability_Javaras4
+Ability_Javaras4_name:soccer									Energy Rift
+Ability_Javaras4_description:soccer								Magebane tears a rift in a target unit's mind, stunning it briefly. He then detonates the rift, bringing the target enemy's energy to the same amount of their health.
+Ability_Javaras4_description_simple:soccer						If the Target Enemy's Health is Lower Percentage then his Current Energy, Drains the Enemy's Energy to Match Their Current Health Percetage.
+Ability_Javaras4_effect_header:soccer							Status Effect(s)
+Ability_Javaras4_IMPACT_effect:soccer							If the Target Enemy's Health is Lower Percentage then his Current Energy, Drains the Enemy's Energy to Match Their Current Health Percetage.
+Ability_Javaras4_tooltip_flavor:soccer							Tripping in the rift.
+
+// Hero_Javaras
+Hero_Javaras_role:soccer										Passive Ability: ^yEnergy Burn^*\nAuto-attacks passively burn 12 of the target's energy per hit.
+
+---------------------------------
+---------------------------------
+
+//BUSHWACK
+
+// Ability_Bushwack1
+Ability_Bushwack1_description:soccer							Fires a quick shot at an enemy slowing the target and dealing damage.
+Ability_Bushwack1_description2:soccer									
+Ability_Bushwack1_description_simple:soccer						Target an enemy unit to deal ^o20^* + your Attack Damage as Damage and apply a ^o70% Movement Speed^* Slow for 1 second.
+Ability_Bushwack1_tooltip_flavor:soccer							Gonna need a bigger one for Cthuluphant.
+Ability_Bushwack1_IMPACT_effect:soccer							Deals 20 + Attack Damage.\n\nApplies Snap Shot to the target for 1 second.
+
+// Ability_Bushwack2
+Ability_Bushwack2_name:soccer									Side Step
+Ability_Bushwack2_description:soccer							Quickly Dash towards a position and add damage to your next attack.
+Ability_Bushwack2_description2:soccer									
+Ability_Bushwack2_description_simple:soccer						Target a position to dash towards it and add ^o10 Damage^* to your next attack.
+Ability_Bushwack2_effect_header:soccer							Side Step Effect(s)
+Ability_Bushwack2_effect_header2:soccer								
+Ability_Bushwack2_tooltip_flavor:soccer							Been there. Dodged that.
+Ability_Bushwack2_ACTION_effect:soccer									
+Ability_Bushwack2_IMPACT_effect:soccer							Dashes towards target position, following pathing, and applies Side Step to self until your next attack or for 5 second.
+
+// Ability_Bushwack4
+Ability_Bushwack4_name:soccer									Giant Hunter
+Ability_Bushwack4_description:soccer							Deals ^o9 Additional Damage^* for every ^o25 Max Health^* the target has more than Bushwack.
+Ability_Bushwack4_description_simple:soccer						Deals ^o9 Additional Damage^* for every ^o25 Max Health^* the target has more than Bushwack.
+Ability_Bushwack4_tooltip_flavor:soccer							 
+Ability_Bushwack4_DAMAGE_effect:soccer							 
+
+// Hero_Bushwack
+Hero_Bushwack_role:soccer										Passive Ability: ^yGiant Hunter^*\nDeals ^o9 Additional Damage^* for every ^o25 Max Health^* the target has more then Bushwack.
+
+---------------------------------
+---------------------------------
+
+//BEHEMOTH
+
+// Passive_Behemoth
+Ability_Soccer_Behemoth_Passive_name							Stomp
+Ability_Soccer_Behemoth_Passive_description						At the end of slide, Stuns all Enemies for ^o0.6 Seconds^* in a ^o200 Radius^*.
+Ability_Soccer_Behemoth_Passive_description_simple				At the end of slide, Stuns all Enemies for ^o0.6 Seconds^* in a ^o200 Radius^*.
+
+// Ability_Behemoth1
+Ability_Behemoth1_description:soccer							With a mighty slam of his tree trunk, the Behemoth rips the earth apart, damaging and stunning enemies in front of him and leaving an impassable mound of terrain.
+Ability_Behemoth1_description_simple:soccer						Target a location or unit to create an impassible wall extending in that direction which deals ^o90 Damage^* and applies a ^o1 second Stun^* to enemy units it hits.\n\nWall lasts for ^o3^* seconds.
+Ability_Behemoth1_effect_header:soccer							Status Effect(s)
+Ability_Behemoth1_IMPACT_effect:soccer							Deals ^o90 Damage^* to each target in a line and ^oStuns them for 1 seconds^*. Leaves an ^oimpassable mound of terrain for 3 seconds^*.
+Ability_Behemoth1_tooltip_flavor:soccer							Here's the line and you crossed it!
+
+// Ability_Behemoth2
+Ability_Behemoth2_description:soccer							The Behemoth unleashes his anger, causing his next attack to have increased damage.
+Ability_Behemoth2_description_simple:soccer						Activate to cause your next attack within 14 seconds to deal an additional ^o75 Damage^*.
+Ability_Behemoth2_effect_header:soccer							Enraged Effect(s)
+Ability_Behemoth2_IMPACT_effect:soccer							Applies Enraged to self for 14 seconds or until your next attack.
+Ability_Behemoth2_tooltip_flavor:soccer							You pushed too far.
+
+// Hero_Behemoth
+Hero_Behemoth_role:soccer										Passive Ability: ^yStomp^*\nAt the end of slide, Stuns all Enemies for ^o0.6 Seconds^* in a ^o200 Radius^*.
+
+---------------------------------
+---------------------------------
+
+//KINESIS
+
+// Ability_Kenisis1
+Ability_Kenisis1_description:soccer								Lifts a target into the air then smash them down dealing area damage and stunning around them.
+Ability_Kenisis1_description_simple:soccer						Target a unit to ^oStun it and make it take 40% less Damage for 1.4 Seconds^*. Afterwards, the target drops to the ground dealing ^o60 Damage and Stunning for 1 Second in a 300 unit radius^*.
+Ability_Kenisis1_IMPACT_effect:soccer							Places the target in a stasis for up to 1.4 Seconds. Target gains 40% Damage Reduction and is Stunned while in stasis.\n\nWhen stasis expires, it takes 60 Damage if it's an enemy. Enemies around the target take up to 60 Damage and are Stunned for 1 second.				 
+
+Ability_Kenisis3_description:soccer								Kenisis reflects a portion of damage from incoming enemies.
+Ability_Kenisis3_description_simple:soccer						Reflects ^o35%^* of Damage Taken.
+Ability_Kenisis3_IMPACT_effect:soccer							Reflects 35% of all damage dealt to you.
+
+//Ability_Kenisis4
+Ability_Soccer_Kenisis4_name									Psychic
+Ability_Soccer_Kenisis4_description								Kenisis cycles his telekinesis to buff allies and debuff enemies.
+Ability_Soccer_Kenisis4_description_simple						Applies a Buff/Debuff to target for 6.5 seconds.\n\nOn Use, ^oPsychic^* Cycles.\n\nCycle List:\n-/+ ^o90 Movement Speed^*\n-/+ ^o20 Damage, 35 Attack Speed^*\n-/+ ^o20 Health Regen, 75 Max Health^*
+Ability_Soccer_Kenisis4_effect_header							Cycle List:
+Ability_Soccer_Kenisis4_IMPACT_effect							Applies a Buff/Debuff to target for 6.5 seconds.\n\nOn Use, ^oPsychic^* Cycles.
+
+// State_Soccer_Kenisis_Buff1
+State_Soccer_Kenisis_Tooltip_name								Psychic
+State_Soccer_Kenisis_Tooltip_FRAME_effect						-/+ 90 Movement Speed\n-/+ 20 Damage, 35 Attack Speed\n-/+ 20 Health Regen, 75 Max Health
+State_Soccer_Kenisis_Tooltip_IMPACT_effect						-/+ 90 Movement Speed\n-/+ 20 Damage, 35 Attack Speed\n-/+ 20 Health Regen, 75 Max Health
+
+Ability_Soccer_Kenisis4_name:cyclemove							Psychic (Movement Speed)
+Ability_Soccer_Kenisis4_description:cyclemove					Kenisis cycles his telekinesis to buff and debuff enemies.
+Ability_Soccer_Kenisis4_description_simple:cyclemove			Target an Ally to Grant ^g+90 Movement Speed^*, or an Enemy to Inflict ^r-90 Movement Speed^* for 6.5 Seconds.\nOn Use, ^oPsychic^* Cycles.\n\nCycle List:\n-/+ ^o90 Movement Speed^*\n-/+ ^o20 Damage^*\n-/+ ^o20 Health Regen^*
+Ability_Soccer_Kenisis4_IMPACT_effect:cyclemove					Applies -/+ ^o90% Movement Speed^* for 6.5 seconds depending on the targets team.
+
+Ability_Soccer_Kenisis4_name:cycledamage						Psychic (Damage)
+Ability_Soccer_Kenisis4_description:cycledamage					Kenisis cycles his telekinesis to buff and debuff enemies.
+Ability_Soccer_Kenisis4_description_simple:cycledamage			Target an Ally to Grant ^g+20 Damage and 35 Attack Speed^*, or an Enemy to Inflict ^r-20 Damage and Attack Speed^* for 6.5 Seconds.\nOn Use, ^oPsychic^* Cycles.\n\nCycle List:\n-/+ ^o90 Movement Speed^*\n-/+ ^o20 Damage^*\n-/+ ^o20 Health Regen^*
+Ability_Soccer_Kenisis4_IMPACT_effect:cycledamage				Applies -/+ ^o20 Damage and 35 Attack Speed^* for 6.5 seconds depending on the targets team.
+
+Ability_Soccer_Kenisis4_name:cycleheal							Psychic (Health Regeneration)
+Ability_Soccer_Kenisis4_description:cycleheal					Kenisis cycles his telekinesis to buff and debuff enemies.
+Ability_Soccer_Kenisis4_description_simple:cycleheal			Target an Ally to Grant ^g+20 Health Regeneration^*, or an Enemy to Inflict ^r-20 Health Regeneration^* for 6.5 Seconds.\nOn Use, ^oPsychic^* Cycles\n\nCycle List:\n-/+ ^o90 Movement Speed^*\n-/+ ^o20 Damage^*\n-/+ ^o20 Health Regen^*
+Ability_Soccer_Kenisis4_IMPACT_effect:cycleheal					Applies -/+ ^o20 Health Regeneration and 75 Max Health^* for 6.5 seconds depending on the targets team.
+
+//States_Kenisis
+State_Soccer_Kenisis_Buff1_name									Psychic Speed
+State_Soccer_Kenisis_Buff1_description							Movement Speed Increased.
+
+State_Soccer_Kenisis_Buff2_name									Psychic Damage
+State_Soccer_Kenisis_Buff2_description							Damage Increased.
+
+State_Soccer_Kenisis_Buff3_name									Psychic Heal
+State_Soccer_Kenisis_Buff3_description							Health Regen Increased.
+
+State_Soccer_Kenisis_Buff4_name									Psychic Energy
+State_Soccer_Kenisis_Buff4_description							Energy Regen Increased.
+
+State_Soccer_Kenisis_DeBuff1_name								Psychic Anti-Speed
+State_Soccer_Kenisis_DeBuff1_description						Movement Speed Decreased.
+
+State_Soccer_Kenisis_DeBuff2_name								Psychic Anti-Damage
+State_Soccer_Kenisis_DeBuff2_description						Damage Decreased.
+
+State_Soccer_Kenisis_DeBuff3_name								Psychic Anti-Heal
+State_Soccer_Kenisis_DeBuff3_description						Health Regen Decreased.
+
+State_Soccer_Kenisis_DeBuff4_name								Psychic Anti-Energy
+State_Soccer_Kenisis_DeBuff4_description						Energy Regen Decreased.
+
+// Hero_Kenisis
+Hero_Kenisis_role:soccer										Passive Ability: ^yInherent Defense^*\nReflects ^o35%^* of Damage Taken.
+
+---------------------------------
+---------------------------------
+
+//PHARAOH
+
+// Passive_Mumra
+Ability_Soccer_Mumra_Passive_name								Wrathful Slide
+Ability_Soccer_Mumra_Passive_description						Pharaoh can slide a much further distance.\n\nCooldown of Slide is ^r+1.5 Seconds^* more then Usual.
+Ability_Soccer_Mumra_Passive_description_simple					Pharaoh can slide a much further distance.\n\nCooldown of Slide is ^r+1.5 Seconds^* more then Usual.
+
+// Ability_Mumra1
+Ability_Mumra1_description:soccer								Pharaoh conjures plumes of fire around him for a short duration, hitting random nearby enemy targets, damaging each and stunning them briefly.
+Ability_Mumra1_description_simple:soccer						Activate to impact a random target in radius ^oevery 0.75 seconds for 10 seconds^*.\n\nEach impact deals ^o10 Damage^* and applies a ^o0.1 second stun^*.
+Ability_Mumra1_effect_header:soccer								Status Effect(s)
+Ability_Mumra1_IMPACT_effect:soccer								For 10 seconds, impacts a random target in radius every 0.75 seconds, dealing 10 Damage and stunning them for 0.1 seconds.
+Ability_Mumra1_tooltip_flavor:soccer							I caused Sodom and Gomorrah!
+
+// Ability_Mumra2
+Ability_Mumra2_name												Wall of Mummies
+Ability_Mumra2_description:soccer								Pharaoh summons a wall of Mummies around himself and anyone close enough to him. Enemies who come close will be pushed away, causing damage.
+Ability_Mumra2_description_simple:soccer						Activate to spawn 8 mummies in a ring arounds self for 3s.\n\nEach mummy may push an enemy by 200 units on the outside dealing ^o10 Damage^*.
+Ability_Mumra2_effect_header:soccer								Status Effect(s)
+Ability_Mumra2_IMPACT_effect:soccer								Spawns 8 Mummies around self for 3 seconds. Pushes away nearby enemies by 275 units who are outside the circle of Mummies, dealing 10 Damage. Each Mummy can perform 1 push. Each Mummy takes three attacks for others to destroy, one attack for self to destroy.
+Ability_Mumra2_tooltip_flavor:soccer							Keepers of the tomb.
+
+// Hero_Mumra
+Hero_Mumra_role:soccer											Passive Ability: ^yWrathful Slide^*\nPharaoh can slide a much further distance.\n\nCooldown of Slide is ^r+1.5 Seconds^* more then Usual.
+
+---------------------------------
+---------------------------------
+
+//SCOUT
+
+// Ability_Scout1
+Ability_Scout1_name:soccer										Vanish
+Ability_Scout1_description:soccer								The Scout slips into stealth mode for a brief time, using the advantage of surprise.
+Ability_Scout1_description_simple:soccer						Activate to gain ^oInvisibility^* and a ^obonus 20% Movement Speed^* for 5 seconds.\n\nCancelled if you attack an enemy.
+Ability_Scout1_effect_header:soccer								Vanish Effect(s)
+Ability_Scout1_effect_header2:soccer							Flurry
+Ability_Scout1_IMPACT_effect:soccer								Applies Vanish to self for 5 seconds.\nAttacking a unit with Vanish active will toggle Vanish off.
+Ability_Scout1_tooltip_flavor:soccer							Where's Waldo?
+
+// Ability_Scout4
+Ability_Scout4_name:soccer										Marksman Shot
+Ability_Scout4_description:soccer								The Scout uses his crossbow to perform a devastating ranged attack on a single unit, damaging, mini-stunning and slowing it.
+Ability_Scout4_description2:soccer								...
+Ability_Scout4_description_simple:soccer						Target an enemy to channel up for 1 Second, after completion, fires a shot that deals ^o75 Damage^* and applies a ^o-20% Move Speed Slow^* for 4 Seconds.
+Ability_Scout4_effect_header:soccer								Wounded Effect(s)
+Ability_Scout4_IMPACT_effect:soccer								After channel time, fires projectile at target, ministunning it and dealing ^o75 Damage^*. Applies Wounded to target unit for 4 seconds.\n\nIf the target moves more than 1800 units away during the channel time, the spell is cancelled.
+Ability_Scout4_tooltip_flavor:soccer							Steal from the rich, give to the poor.
+
+// Passive_Scout
+Ability_Scout3_description:soccer								The Scout's mastery of close range combat allows him to occasionally Disarm and Silence an opponent, then take advantage of the opening with a devastating attack.
+Ability_Scout3_description_simple:soccer						Deals a 1.4x critical attack and a ^o3 Second Disarm & Silence^* when off cooldown.\n\nAttacks reduce the cooldown by 1 second.
+Ability_Scout3_ATTACK_IMPACT_effect:soccer						Deals a 1.4x critical attack and a ^o3 Second Disarm & Silence^* when off cooldown.\n\nAttacks reduce the cooldown by 1 second.
+
+// Hero_Scout
+Hero_Scout_role:soccer											Passive Ability: ^yDisarm^*\nDeals a 1.4x critical attack and a ^o3 Second Disarm & Silence^* when off cooldown.\n\nAttacks reduce the cooldown by 1 second.
+
+---------------------------------
+---------------------------------
+
+//KRAKEN
+
+// Ability_Kraken1
+Ability_Kraken1_name:soccer										Torrent
+Ability_Kraken1_description:soccer								Kraken conjures a surge of seawater, drowning an enemy. Deals damage and slows.
+Ability_Kraken1_description_simple:soccer						Target an enemy unit to deal ^o80 Damage^* and ^o-40% Movement Speed^* to it for 3 seconds.
+Ability_Kraken1_effect_header:soccer							Torrent Effect(s)
+Ability_Kraken1_IMPACT_effect:soccer							Deals ^o80 Damage^* and applies Torrent to the target for 3 seconds.
+Ability_Kraken1_tooltip_flavor:soccer							Not as good as Kunkka's Torrent.
+
+// Ability_Kraken4
+Ability_Kraken4_name											Release the Kraken!
+Ability_Kraken4_description:soccer								Every seafarer's nightmare is manifest as this hulk of watery flesh! Summons a Whirlpool that damages and pulls in enemies.
+Ability_Kraken4_description_simple:soccer						Target a position to summon a Whirlpool for ^o3 seconds^*.\n\nThe Whirlpool will pull and slow enemy units.
+Ability_Kraken4_IMPACT_effect:soccer							After a 1 second delay, a 300 radius whirlpool spawns at target position that lasts ^o3 seconds^*. Applies a ^o50% Movement Speed Slow^*, and pulls enemies towards the center at a rate of 75 units per second.
+Ability_Kraken4_tooltip_flavor:soccer							You know what I'm thinking about.
+
+// Passive_Kraken
+Ability_Soccer_Kraken_Passive_name								Elemental Armor
+Ability_Soccer_Kraken_Passive_description						Debuffs inflicted on Kraken are reduced.
+Ability_Soccer_Kraken_Passive_description_simple				Stun and Debuff Durations reduced by ^o30%^*.
+
+// Hero_Kraken
+Hero_Kraken_role:soccer											Passive Ability: ^yElemental Armor^*\nStun and Debuff Durations reduced by ^o30%^*.
+
+---------------------------------
+---------------------------------
+
+//SILHOUETTE
+
+// Ability_Silhouette2											
+Ability_Silhouette2_name:soccer									Hero Grapple
+Ability_Silhouette2_description:soccer							Silhouette's trusty grappling hook allows her to perform jaw-dropping combat feats, zipping from hero to hero.
+Ability_Silhouette2_description2:soccer								
+Ability_Silhouette2_description_simple:soccer					Target a location to hook and create a chain to the first enemy hero encountered for ^o6 seconds^*.\n\nWhile Silhouette is chained to an Enemy Hero, she gains ^o100 Movement Speed^* and Hero Grapple is replaced by two sub-abilities, ^oSky Dance^* and ^oLog Bolas^*.\n\nSky Dance and Log Bolas apply ^o80 Damage and a 1 second Stun^*.
+Ability_Silhouette2_effect_header:soccer								
+Ability_Silhouette2_effect_header2:soccer								
+Ability_Silhouette2_tooltip_flavor:soccer						I'm very good at hooking.
+Ability_Silhouette2_IMPACT_effect:soccer						Target a location to hook and create a chain to the first Enemy Hero encountered. The chain lasts for 6 seconds or if it stretches to 1800 units. \n\nWhile Silhouette is chained to an Enemy Hero, she gains 100 Movement Speed and Hero Grapple is replaced by two sub-abilities, Sky Dance and Log Bolas. \n\nSky Dance and Log Bolas deal ^o80 Damage and a 1 second Stun^*.
+
+// Ability_Silhouette2_Go
+Ability_Silhouette2_Go_name:soccer								Sky Dance				
+Ability_Silhouette2_Go_description 								Silhouette's favorite dance is that in which she gets to dance on the heads of enemies she flies over.
+Ability_Silhouette2_Go_description_simple:soccer				Activate to launch Silhouette to the Enemy Hero that she's chained to. She deals ^o80 Damage^* and a ^o1 second Stun^* to enemy units she passes through.
+Ability_Silhouette2_Go_tooltip_flavor:soccer					Watch out for that.. TREE!
+Ability_Silhouette2_Go_IMPACT_effect:soccer						Activate to launch Silhouette to the Enemy Hero that she's chained to. She deals ^o80^* Damage and a 1 second Stun to enemy units she passes through.
+
+// Ability_Silhouette2_Pull
+Ability_Silhouette2_Pull_name:soccer							Log Bolas						
+Ability_Silhouette2_Pull_description:soccer						Silhouette flies towards the Enemy Hero, using their body as a weapon by pulling it to herself.
+Ability_Silhouette2_Pull_description_simple:soccer				Activate to pull the grapple back. The grapple deals ^o80 Damage^* and a ^o1 second Stun^* to enemy units it passes through.
+Ability_Silhouette2_Pull_tooltip_flavor:soccer					Get over here!
+Ability_Silhouette2_Pull_IMPACT_effect:soccer					Activate to pull the grapple back. The grapple deals ^o80 Damage^* and a ^o1 second Stun^* to enemy units it passes through.
+
+// Ability_Silhouette4
+Ability_Silhouette4_name:soccer									Shadow	
+Ability_Silhouette4_description:soccer							Silhouette creates an illusion of herself that exactly replicates her. She may swap places with her illusion to even further throw her enemies off!
+Ability_Silhouette4_description_simple:soccer					Activate to disjoint, dispel all Buffs & Debuffs on self, and create a Shadow. The Shadow is an illusion that lasts for ^o20 seconds^* and takes ^o200% of normal damage^* and deals ^o10 Damage^*. \n\nCreates a sub-ability which allows Silhouette to swap locations with the Shadow.
+Ability_Silhouette4_tooltip_flavor:soccer						This is my Shadow. There are many like it, but this one is mine.
+Ability_Silhouette4_IMPACT_effect:soccer						Activate to disjoint, dispel all Buffs & Debuffs on self, and create a Shadow. The Shadow is an illusion that lasts for 20 seconds and takes 200% of normal damage and deals 10 damage. \n\nCreates a sub-ability which allows Silhouette to swap locations with the Shadow.
+
+// Ability_Silhouette4_Swap
+Ability_Silhouette4_Swap_name:soccer							Like a Ninja
+Ability_Silhouette4_Swap_description_simple:soccer				Instantly swaps the locations of Silhouette and her Shadow.
+Ability_Silhouette4_Swap_tooltip_flavor:soccer					Like a Ninja, poofing for the very first time.
+Ability_Silhouette4_Swap_IMPACT_effect:soccer					Instantly swaps the locations of Silhouette and her Shadow.
+
+// Ability_Silhouette3			
+Ability_Silhouette3_description:soccer							Silhouette's attacks pepper the target, adding power with each consecutive attack. She will also take opportunities to throw out a burst of attacks after performing one of her abilities.
+Ability_Silhouette3_description_simple:soccer					After activating a skill, Silhouette gains ^o400 Attack Speed^* for 2 attacks.
+Ability_Silhouette3_tooltip_flavor:soccer						 
+Ability_Silhouette3_FRAME_effect:soccer							After activating a skill, Silhouette gains ^o400 Attack Speed^* for 2 attacks.
+
+// State_Silhouette_Ability3
+State_Silhouette_Ability3_name:soccer							Relentless Salvo
+State_Silhouette_Ability3_description:soccer					Silhouette will attack twice in quick succession.
+State_Silhouette_Ability3_description_simple:soccer				Silhouette will attack twice in quick succession.
+
+// Hero_Silhouette
+Hero_Silhouette_role:soccer										Passive Ability: ^yRelentless Salvo^*\nAfter activating a skill, Silhouette gains ^o400 Attack Speed^* for 2 attacks.
+
+---------------------------------
+---------------------------------
+
+//RAMPAGE
+
+// State_Soccer_Rampage_Ability3_Movespeed	
+State_Soccer_Rampage_Ability3_Movespeed_name					Horned Strike
+
+// Ability_Rampage3
+Ability_Rampage3_name:soccer									Horned Strike
+Ability_Rampage3_description:soccer								...
+Ability_Rampage3_description_simple:soccer						When off cooldown, an attack will ^opush^* the target back by 257 units for ^o0.95 seconds^*. Also grants Rampage a bonus ^o15% Movement Speed for 1.5 seconds^* after triggering.
+Ability_Rampage3_description2:soccer							This ability contains ^yBashing^* properties. Items and abilities with ^yBashing^* properties contain a shared cooldown time.
+Ability_Rampage3_ATTACK_IMPACT_effect:soccer					When off cooldown, ^oStuns^* and pushes the target back by 257 units for ^o0.95 seconds^*. Also grants Rampage a bonus ^o15% Movement Speed for 1.5 seconds^* after triggering.
+
+// Hero_Rampage
+Hero_Rampage_role:soccer										Passive Ability: ^yHorned Strike^*\nWhen off cooldown, an attack will ^opush^* the target with 150 force for ^o0.95 seconds^*.
+
+---------------------------------
+---------------------------------
+
+//DRUNKEN_MASTER
+
+
+---------------------------------
+---------------------------------
+
+//BUBBLES
+
+// Ability_Bubbles1
+Ability_Bubbles1_name:soccer									Shell Surf
+Ability_Bubbles1_description:soccer								Bubbles uses his Shell as the focus for a teleport spell. Bubble's Shell slides toward his opponents, damaging anyone it strikes. Bubbles may choose to teleport to his Shell at any point in its journey.
+Ability_Bubbles1_description2:soccer									
+Ability_Bubbles1_description_simple:soccer						Target a location to throw a shell in that direction, dealing ^o70 Damage^* to units it touches. Use this ability again to teleport to the shell.
+Ability_Bubbles1_effect_header:soccer									
+Ability_Bubbles1_effect_header2:soccer									
+Ability_Bubbles1_tooltip_flavor:soccer							Wish I had a red one.
+Ability_Bubbles1_IMPACT_effect:soccer							Throws the Shell in the target direction, damaging all enemies in the radius for 70 Damage.\n\nUsing this ability again while the Shell is in mid-flight will teleport self to the Shell's current location.
+
+// Ability_Bubbles3
+Ability_Bubbles3_name:soccer									Take Cover
+Ability_Bubbles3_description:soccer								Bubbles retreats into his enchanted Shell, becoming impervious to all forms of attack.\n
+Ability_Bubbles3_description2:soccer							
+Ability_Bubbles3_description_simple:soccer						When off cooldown, avoids the next instance of damage.
+Ability_Bubbles3_effect_header:soccer							
+Ability_Bubbles3_effect_header2:soccer							
+Ability_Bubbles3_tooltip_flavor:soccer							There are no turtles in foxholes.
+Ability_Bubbles3_IMPACT_effect:soccer							When off cooldown, avoids the next instance of damage.
+Ability_Bubbles3_CHANNEL_START_effect:soccer					
+
+// Ability_Bubbles4
+Ability_Bubbles4_name:soccer									Kelp Field
+Ability_Bubbles4_description:soccer								Arcane seaweed vines sprout from the ground, latching onto enemy heroes. Trying to escape the vines is futile - running causes them to snap, stunning and damaging their captive.
+Ability_Bubbles4_description2:soccer							...
+Ability_Bubbles4_description_simple:soccer						Target a location to deal ^o40 Damage^* and apply a 0.3 second Stun to units in that area.\n\nFor 3 seconds, any enemies who move more than 600 units away from the center of the effect take ^o40 Damage^* and are Stunned for 1 second.\n\nSkill is set on a 4 second cooldown at the start of each round.
+Ability_Bubbles4_effect_header:soccer									
+Ability_Bubbles4_effect_header2:soccer									
+Ability_Bubbles4_tooltip_flavor:soccer							Watch your step!
+Ability_Bubbles4_IMPACT_effect:soccer							Deals 40 Damage to targets in radius, Stuns for 0.3 seconds, and attaches kelp to them for 5 seconds. While attached, enemies who move more than 600 units away from the center of the effect take 40 Damage and are Stunned for 1 second.\n\nSkill is set on a 4 second cooldown at the start of each round.
+
+// State_Bubbles_Ability4
+State_Bubbles_Ability4_name:soccer								Kelp Field
+State_Bubbles_Ability4_description:soccer						Moving more than 600 units away from the center of Kelp Field will Stun you for 1 second and deals 40 damage to you.
+
+// Hero_Bubbles
+Hero_Bubbles_role:soccer										Passive Ability: ^yTake Cover^*\nWhile not on cooldown, avoids the next instance of damage.
+
+---------------------------------
+---------------------------------
+
+//GLADIATOR
+
+// Ability_Gladiator1
+Ability_Gladiator1_name:soccer									Pitfall
+Ability_Gladiator1_description:soccer							Arenas that Gladiators live in are full of Pitfalls and traps. The Gladiator can bring out the essence of the Arena anywhere, summoning a Spike Trap that will go off after a delay. Anyone hit is Stunned, damaged, then snared.
+Ability_Gladiator1_description_simple:soccer					Target a location to summon a Pitfall. After a ^o1.5 second delay^*, enemy units at the location take ^o120 Damage^*, get launched into the air for ^o1.5 seconds^* and receive ^o-30% Movement Speed^* for ^o1 second^*.
+Ability_Gladiator1_description2:soccer									
+Ability_Gladiator1_effect_header:soccer							Spiked! Effect(s)
+Ability_Gladiator1_effect_header2:soccer								
+Ability_Gladiator1_tooltip_flavor:soccer						You're going dow... I mean up!
+Ability_Gladiator1_IMPACT_effect:soccer							Creates a Pitfall at target position, which is visible to allies only.\n\nAfter 1.5 seconds, the Pitfall deals 120 Damage to enemies in radius, knocks them up for 1.5 seconds, and applies Spiked! for 1 seconds.\n\nGrants 400 day and night Clearvision around the Pitfall after it triggers.
+
+// Ability_Gladiator2
+Ability_Gladiator2_name:soccer									Showdown
+Ability_Gladiator2_description:soccer							One-on-One challenges are the lifeblood of a Gladiator and they can challenge anyone at any time. After a short delay, the challenged person is returned to where they were previously so the fight can begin!\n\nShowdown will only teleport Enemy Players who currently have the ball.
+Ability_Gladiator2_description_simple:soccer					Target a unit to mark it for Showdown. If Showdown is activated again or in ^o2 seconds^*, the target will be returned to his marked location.\n\nShowdown will only teleport Enemy Players who currently have the ball.
+Ability_Gladiator2_description2:soccer									
+Ability_Gladiator2_effect_header:soccer								
+Ability_Gladiator2_effect_header2:soccer								
+Ability_Gladiator2_tooltip_flavor:soccer						Stay near tower, I pull dem runners in!
+Ability_Gladiator2_IMPACT_effect:soccer							Summons a Colosseum at the target's location and applies Challenged to Fight to it for 2 seconds.\n\nActivate again to teleport Challenged unit to the Colosseum early.
+
+// Ability_Gladiator3
+Ability_Gladiator3_name:soccer									Flagellation
+Ability_Gladiator3_description:soccer							Knowing how to wield only one weapon is a weakness. The Gladiator is master of many, but prefers to use a Whip as his secondary so he can harm those a good distance from himself with ease.
+Ability_Gladiator3_description_simple:soccer					When available, passively grants your next attack ^o15 Bonus Damage^* and ^o100% True Damage Cleave in a 380 AoE^*.
+Ability_Gladiator3_description2:soccer									
+Ability_Gladiator3_effect_header:soccer								
+Ability_Gladiator3_effect_header2:soccer								
+Ability_Gladiator3_tooltip_flavor:soccer						When in doubt, whip it out.
+Ability_Gladiator3_FRAME_effect:soccer									
+Ability_Gladiator3_ATTACK_START_effect:soccer							
+Ability_Gladiator3_ATTACK_IMPACT_effect:soccer					While off cooldown, grants 15 Damage.\n\nWhen attacking an enemy unit, your next attack deals 100% splash damage in a 380 radius.
+
+// Hero_Gladiator
+Hero_Gladiator_role:soccer										Passive Ability: ^yFlagellation^*\nWhen available, passively grants your next attack ^o15 Bonus Damage^* and ^o100% True Damage Cleave in a 380 AoE^*.
+
+---------------------------------
+---------------------------------
+
+//PYROMANCER
+
+// Ability_Pyromancer1
+Ability_Pyromancer1_name:soccer									Phoenix Wave
+Ability_Pyromancer1_description:soccer							Pyromancer sends forth a phoenix that damages enemies in a line.
+Ability_Pyromancer1_description_simple:soccer					Target a position to shoot out a wave of fire in that direction which deals ^o70 Damage^* to enemies it passes through.
+Ability_Pyromancer1_effect_header:soccer						Status Effect(s)
+Ability_Pyromancer1_IMPACT_effect:soccer						Deals 70 Damage to targets in a 600 unit line. Radius of line starts out at 70 and ends at 275.
+Ability_Pyromancer1_tooltip_flavor:soccer						Contents may be hot!
+
+// Ability_Pyromancer2
+Ability_Pyromancer2_name:soccer									Dragonfire
+Ability_Pyromancer2_description:soccer							Pyromancer conjures a mighty elemental fire dragon at a target location, damaging and stunning enemies in an area.
+Ability_Pyromancer2_description_simple:soccer					Target a position to deal ^o70 Damage^* and apply a ^o1.3 second Stun^* to enemies in the radius. 
+Ability_Pyromancer2_effect_header:soccer						Status Effect(s)
+Ability_Pyromancer2_IMPACT_effect:soccer						After a 0.5 second delay, deals 70 Damage to targets in radius and stuns them for 1.3 seconds.
+Ability_Pyromancer2_tooltip_flavor:soccer						Mana Cost? Check.\nCooldown? Check\nThe ability to summon a dragon?\n\nPriceless.
+
+// Passive_Pyromancer
+Ability_Soccer_Pyromancer_Passive_name							Hot Streak
+Ability_Soccer_Pyromancer_Passive_description					On Spell Impact, Pyromancer gains a Stacking Buff increasing various attributes.\n\n^o+5 Attack Speed\n+14 Movement Speed\n+5 Damage^*\n\nMaximum 5 Charges.\nLasts 12 Seconds.
+Ability_Soccer_Pyromancer_Passive_description_simple			On Spell Impact, Pyromancer gains a Stacking Buff increasing various attributes.\n\n^o+5 Attack Speed\n+14 Movement Speed\n+5 Damage^*\n\nMaximum 5 Charges.\nLasts 12 Seconds.
+
+// Hero_Pyromancer
+Hero_Pyromancer_role:soccer										Passive Ability: ^yHot Streak^*\nOn Spell Impact, Pyromancer gains a Stacking Buff increasing various attributes.\n\n^o+5 Attack Speed\n+14 Movement Speed\n+5 Damage^*\n\nMaximum 5 Charges.\nLasts 8 Seconds.
+
+---------------------------------
+---------------------------------
+
+//KING_KLOUT
+
+// Ability_KingKlout1
+Ability_KingKlout1_name:soccer									Goblin Toss
+Ability_KingKlout1_description:soccer							King Klout gets seven minions to throw at enemies.
+Ability_KingKlout1_description_simple:soccer					When learned you get up to ^o7 minions^* that follow you around, gaining 1 every 8 seconds. Target an enemy to throw the first one at them, doing one of three things:\n\n- ^bBLUE^*: Deals ^o25 Damage^*, chaining to nearby enemies.\n- ^rRED^*: Deals ^o15 Damage^* with another ^o25 Damage^* and a ^o10% Tapering Movespeed Slow^* over 3 seconds in the AOE\n- ^gGREEN^*: Same as ^rRED^*, but bounces to two additional nearby enemies.
+Ability_KingKlout1_effect_header:soccer							Minon Burn Effect(s)
+Ability_KingKlout1_effect_header2:soccer						Minon Slow Effect(s)
+Ability_KingKlout1_IMPACT_effect:soccer							When learned you get up to ^o7 minions^* that follow you around, gaining 1 every 8 seconds. Target an enemy to throw the first one at them, doing one of three things:\n\n- ^bBLUE^*: Deals ^o25 Damage^*, chaining to nearby enemies.\n- ^rRED^*: Deals ^o15 Damage^* with another ^o25Damage^* and a ^o10% Tapering Movespeed Slow^* over 3 seconds in the AOE\n- ^gGREEN^*: Same as ^rRED^*, but bounces to two additional nearby enemies.\n\n-Enemy Heroes dying around you either spawns a new ^rRED^* Minion if you don't have 7, or it upgrades one of your existing Minions to a better one.\n-Every 5th Minon spawned is a ^rRED^* one.\n-There is a 10% chance that when a ^bBLUE^* Minion spawns it will be upgraded to a ^rRED^* Minion.\n-There is a 25% chance that when a ^rRED^* Minion spawns it will be upgraded to a ^gGREEN^* Minion.
+Ability_KingKlout1_tooltip_flavor:soccer						Go my minions!
+
+// Ability_KingKlout3
+Ability_KingKlout3_name:soccer									Conscription
+Ability_KingKlout3_description:soccer							Where does the King Klout get his Minions from? The dark secret is he can transform anyone into one of them, removing their combat ability for a time.
+Ability_KingKlout3_effect_header:soccer							Conscription Effect(s)
+Ability_KingKlout3_effect_header2:soccer						Conscripted Effect(s)
+Ability_KingKlout3_description_simple:soccer					All non-DOT damage you deal applies stacks of Conscription for 3 seconds; each stack ^oamplifies damage against the target by 2%^*.\n\nWhen someone gets ^o5 stacks^*, they are dealt ^o20 Damage^*, Transformed and Slowed for ^o1.5 seconds^*, and one of your Minions is upgraded.
+Ability_KingKlout3_ATTACK_IMPACT_effect:soccer					All non-DOT damage you deal applies stacks of Conscription for 3 seconds; each stack ^oamplifies damage against the target by 2%^*.\n\nWhen someone gets ^o5 stacks^*, they are dealt ^o20 Damage^*, Transformed and Slowed for ^o1.5 seconds^*, and one of your Minions is upgraded.\n\n-You cannot build stacks on the target for 5 seconds after they are Transformed\n-Transforming someone either spawns a new ^rRED^* Minion if you don't have 7, or it upgrades one of your existing Minions to a better one.
+Ability_KingKlout3_tooltip_flavor:soccer						You are now MINE!
+
+// Ability_KingKlout4
+Ability_KingKlout4_name:soccer									Parade of Power
+Ability_KingKlout4_description:soccer							King Klout lets out a wave of fear that travels across the map, letting him warp to its position.
+Ability_KingKlout4_description_simple:soccer					Target a direction to fire a bolt in a line. Any enemy hit takes up to ^o20 Damage^*.\n\nActivate the ability again to teleport to its location, sending another ^oParade of Power^* back to where you teleported from.
+Ability_KingKlout4_effect_header:soccer							King Klout's Parade Effect(s)
+Ability_KingKlout4_IMPACT_effect:soccer							Target a direction to fire a ball in a line. Any enemy hit takes up to ^o20 Damage^*.\n\nActivate the ability again to teleport to its location, sending another ^oParade of Power^* back to where you teleported from.
+
+// Hero_KingKlout
+Hero_KingKlout_role:soccer										Passive Ability: ^yConscription^*\nAll non-DOT damage you deal applies stacks of conscription for 3 seconds; each stack ^olowers Magic Armor by 0.4^*.\n\nWhen someone gets ^o5 stacks^*, they are dealt ^o20 Damage^*, Transformed and Slowed for ^o1.5 seconds^*, and one of your Minions is upgraded.
+
+---------------------------------
+---------------------------------
+
+//ZEPHYR
+
+// Ability_Zephyr1
+Ability_Zephyr1_name:soccer										Gust
+Ability_Zephyr1_description:soccer								Zephyr summons a gust of wind in the direction of his choosing, pushing and dealing damage to enemies it hits.
+Ability_Zephyr1_description_simple:soccer						Click and drag the cursor in a direction to summon a Gust of Wind there.\n\nThe Gust pushes enemies, dealing ^o70 Damage^* and a Mini-Stun, additonally knocking the ball off them if they have it.
+Ability_Zephyr1_effect_header:soccer							Status Effect(s)
+Ability_Zephyr1_IMPACT_effect:soccer							All units caught in the wind cone are ^opushed^* in the direction of the wind, dealt ^o70 Damage^*, and Stunned for 0.1 seconds, additonally knocking the ball off them if they have it.
+Ability_Zephyr1_tooltip_flavor:soccer							Super effective against grass types!
+
+// Ability_Zephyr4
+Ability_Zephyr4_name:soccer										Typhoon
+Ability_Zephyr4_description:soccer								Zephyr creates a mighty Typhoon, slowing Movement Speed and dealing damage to any units near it. The closer an enemy is to the center of the Typhoon, the higher the damage and speed reduction becomes.\nGrants 600 day and night Clearvision while active.
+Ability_Zephyr4_description_simple:soccer						Target a location to create a Typhoon there. Enemies in the Typhoon are dealt up to ^o30 Damage per second^* and up to ^o-90% Movement Speed^*, increasing the closer they are to the center.\n\nThe Typhoon lasts for ^o6 seconds^*.
+Ability_Zephyr4_effect_header:soccer							Harsh Winds Effect(s)
+Ability_Zephyr4_IMPACT_effect:soccer							Spawns a Typhoon at the target location, while Typhoon is active and applies ^oHarsh Winds^* to enemies who remain in a 550 radius.\n\nCharges are based on the distance an enemy is from the center of the Typhoon. The closer they are, the more charges are applied.\n\nEnemies who are within 60 units of the center are snared to minimum Movement Speed and take maximum damage regardless of charges.\n\nThe Typhoon lasts 6 seconds.
+Ability_Zephyr4_tooltip_flavor:soccer							Did I break wind?
+
+// Passive_Zephyr
+Ability_Soccer_ZephyrPassive_name								Wind Mastery
+Ability_Soccer_ZephyrPassive_description						While Sprinting, Zephyr gains ^oUnit Walking^* and ^g15 Health Regeneration^*.
+Ability_Soccer_ZephyrPassive_description_simple					While Sprinting, Zephyr gains ^oUnit Walking^* and ^g15 Health Regeneration^*.
+
+// State_Zephyr_Ability4_Debuff
+State_Soccer_Zephyr_Ability4_Debuff_name						Harsh Winds
+State_Soccer_Zephyr_Ability4_Debuff_FRAME_effect				Deals up to 30 Damage per second
+
+// Hero_Zephyr
+Hero_Zephyr_role:soccer											Passive Ability: ^yWind Mastery^*\nWhile Sprinting, Zephyr gains ^oUnit Walking^* and ^g15 Health Regeneration^*.
+
+---------------------------------
+---------------------------------
+
+//KANE
+
+// Ability_Kane1
+Ability_Kane1_description:soccer								Kane thrusts his mighty sword forward, striking foes and dragging them back to the threat of his shield.
+Ability_Kane1_description_simple:soccer							Activate to throw your sword out in front of you, dealing ^o100^* Damage.\n\nApplies a ^o40% Movement Speed Slow for 4 seconds^* and pulls enemies hit to you.
+Ability_Kane1_IMPACT_effect:soccer								Activate to throw your sword out 450 units in front of you, dealing ^o100^* Damage.\n\nApplies a ^o40% Movement Speed Slow for 4 seconds^* and pulls enemies hit to you.
+
+// Ability_Kane2
+Ability_Kane2_name:soccer										Balance of Power
+Ability_Kane2_description:soccer								Kane has mastered the art of both defense and offense allowing him to switch between two auras that allow you and your team mates to crit or have extra armor.
+Ability_Kane2_description_simple:soccer							Toggle between Offensive and Defensive modes:\n\nOffensive Force: On Attack, the cooldown of Waylay is reduced by ^g1.6 Seconds^*.\n\nDefensive Might: You gain ^g+250 Max Health^* and ^g+30 Movement Speed^*, but receive ^r-15^* Damage and ^r-25 Attack Speed^*.
+Ability_Kane2_description_simple:Kane_Offense_Soccer			On Attack, the cooldown of Waylay is reduced by ^g1.6 Seconds^*.\n\nToggle to swap to ^oDefensive Might^*.
+Ability_Kane2_description_simple:Kane_Defense_Soccer			You gain ^g+250 Max Health^* and ^g+30 Movement Speed^*, but receive ^r-15^* Damage and ^r-25 Attack Speed^*.\n\nToggle to swap to ^oOffensive Force^*.
+Ability_Kane2_effect_header:soccer								
+Ability_Kane2_IMPACT_effect:soccer 								Defensive Might: You gain ^g+250 Max Health^* and ^g+30 Movement Speed^*, but receive ^r-15^* Damage and ^r-25 Attack Speed^*.\n\nOffensive Force: On Attack, the cooldown of Waylay is reduced by ^g1.6 Seconds^*.
+Ability_Kane2_IMPACT_effect:Kane_Offense_Soccer					On Attack, the cooldown of Waylay is reduced by ^g1.6 Seconds^*.\n\nToggle to swap to ^oDefensive Might^*.
+Ability_Kane2_IMPACT_effect:Kane_Defense_Soccer					You gain ^g+250 Max Health^* and ^g+30 Movement Speed^*, but receive ^r-15^* Damage and ^r-25 Attack Speed^*.\n\nToggle to swap to ^oOffensive Force^*.
+Ability_Kane2_tooltip_flavor:soccer								I am often placed in formidable situations that require quick tactics and manuevering. With the right stance I can change the flow of any battle.
+
+// Ability_Soccer_Kane2_Tooltip
+Ability_Soccer_Kane2_Tooltip_name								Balance of Power
+Ability_Soccer_Kane2_Tooltip_description						Kane has mastered the art of both defense and offense allowing him to switch between Offensive and Defensive modes.
+Ability_Soccer_Kane2_Tooltip_description_simple					Kane has mastered the art of both defense and offense allowing him to switch between Offensive and Defensive modes.
+
+
+// Passive_Kane
+Ability_Soccer_KanePassive_name									Bloodthirst
+Ability_Soccer_KanePassive_description							Attacks Heal ^o5% Maximum HP^*.
+Ability_Soccer_KanePassive_description_simple					Attacks Heal ^o5% Maximum HP^*.
+
+// Hero_Kane
+Hero_Kane_role:soccer											Passive Ability: ^yBloodthirst^*\nAttacks Heal ^o5% Maximum HP^*.
+
+---------------------------------
+---------------------------------
+
+//LODESTONE
+
+// Ability_Lodestone1
+Ability_Lodestone1_name:soccer									Rocket Drill
+Ability_Lodestone1_description:soccer							Lodestone fires his drill arm at an area. Lodestone can then drag himself to the drill.
+Ability_Lodestone1_description_simple:soccer					Target an area to launch a drill dealing ^o50 Damage^* and applying an ^o60% Movement Speed slow^* for 2 seconds.\n\nActivate again to launch yourself towards the drill dealing ^o50 Damage^* and applying a ^o1.5 second Stun^*. Enemies hit a second time take half damage.
+Ability_Lodestone1_IMPACT_effect:soccer							Launches a drill at target position, dealing 50 Damage to targets and applying a 60% Movement Speed Slow for 2 seconds, and attaches the drill to target position.\n\nActivate again to launch yourself towards the drill, ending 300 units past it, dealing 50 Damage to enemies you pass through and Stun for 1.5 seconds. Enemies hit a second time take half damage.\n\nThe drill returns to you if you move more than 1200 units away from it.
+
+// Ability_Lodestone2
+Ability_Lodestone2_name:soccer									Headsmash
+Ability_Lodestone2_description:soccer							Lodestone smashes an enemy but receives some recoil damage.
+Ability_Lodestone2_description_simple:soccer					Target an enemy to deal ^o75 Damage^* to you and the target, also inflicts a ^o1 Second Fear^o to the target.\n\nIf the target is holding the ball when hit, they will drop it.
+Ability_Lodestone2_IMPACT_effect:soccer							Deals 75 Damage to target and yourself, also inflicts a 1 second fear to the target. Damage dealt to yourself is non-lethal.\n\nAdditionally, if the target is holding the ball they will drop it.
+
+// Passive_Lodestone
+Ability_Soccer_LodestonePassive_name							Energy Plates
+Ability_Soccer_LodestonePassive_description						Lodestone is restored for ^g5 Energy^* when Auto Attacked.
+Ability_Soccer_LodestonePassive_description_simple				Lodestone is restored for ^g5 Energy^* when Auto Attacked.
+
+// Hero_Lodestone
+Hero_Lodestone_role:soccer										Passive Ability: ^yEnergy Plates^*\nLodestone is restored ^g5 Energy^* when Auto Attacked.
+
+---------------------------------
+---------------------------------
+
+// End - do not delete this line

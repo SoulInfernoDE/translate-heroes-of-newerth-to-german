@@ -1,0 +1,40 @@
+// ---------- Team Deathmatch (TDM) ----------
+
+
+// This string change is to rename the Automed Courier ability entity in Team Deathmatch only to show the channel bar that represents the pre-round timer
+Ability_AutomatedCourier_name:team_deathmatch					Preparation Time
+
+// State_Team_Deathmatch_Burn
+State_Team_Deathmatch_Burn_name									Sudden Death - Burn
+State_Team_Deathmatch_Burn_FRAME_effect							Taking 3% of your Max Health per second
+
+// State_Team_Deathmatch_Reveal
+State_Team_Deathmatch_Reveal_name								Sudden Death - Revealed
+
+
+
+
+// Ability_Ophelia2
+Ability_Ophelia2_description:team_deathmatch					Ophelia judges an enemy unit.
+Ability_Ophelia2_description_simple:team_deathmatch				Target a unit to Judge them, dealing ^o{75,150,225,300} Magic Damage^*.
+Ability_Ophelia2_IMPACT_effect:team_deathmatch					Target a unit to Judge them, dealing ^o{75,150,225,300} Magic Damage^*.
+
+
+// Ability_Ra4_Deathmatch
+Ability_Ra4_Deathmatch_name										Pyroclasmic Rebirth
+Ability_Ra4_Deathmatch_description								On death, Amun-Ra spends Mana to revive himself, restoring Health based on how much Mana was spent and triggering Ignite. Amun-Ra deals bonus damage after he revives.
+Ability_Ra4_Deathmatch_description_simple						On death, Amun-Ra will spend up to 50% of his Max Mana to revive himself, triggering ^oIgnite^* and restoring up to ^o60% of Max Health^* based on the percentage of Mana spent. You deal ^o{10,20,30}% extra damage^* for 10 seconds after reviving.
+Ability_Ra4_Deathmatch_IMPACT_effect							On death, spends up to 50% of your Max Mana to revive yourself. After 3 seconds, you will revive with ^o10% Health + 1% Health per % of Mana spent^*, up to ^o60% of Max Health^*, and trigger Ignite. You deal ^o{10,20,30}%^* extra damage for 10 seconds after reviving.
+Ability_Ra4_Deathmatch_tooltip_flavor							Round Two, FIGHT!
+
+
+
+// Building_TDM_Legion
+Building_TDM_Legion_name										Timeless Gears (Legion)
+
+// Building_TDM_Hellbourne
+Building_TDM_Hellbourne_name									Timeless Gears (Hellbourne)
+
+
+
+// End - do not delete this line

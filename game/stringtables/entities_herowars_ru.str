@@ -1,0 +1,606 @@
+﻿// Ability_DevX1_Chain
+Ability_DevX1_Chain_name                                                        Цепной крюк
+Ability_DevX1_Chain_description                                                 Devourer запускает свой крюк в указанного воина или место.
+Ability_DevX1_Chain_description_simple                                          Devourer запускает свой крюк в указанного воина или место.
+Ability_DevX1_Chain_name:superhook_elec                                         Суперкрюк: ^yЭлектрошок^*
+Ability_DevX1_Chain_description:superhook_elec                                  Devourer запускает крюк в указанного воина или место.\n\n^yЭффект Суперкрюка^*: при попадании во врага мгновенно убивает его.\n\nИспользуется один раз, исчезает при смерти.
+Ability_DevX1_Chain_description_simple:superhook_elec                           Devourer запускает крюк в указанного воина или место.\n\n^yЭффект Суперкрюка^*: при попадании во врага мгновенно убивает его.\n\nИспользуется один раз, исчезает при смерти.
+Ability_DevX1_Chain_tooltip_flavor                                              Иди сюда!
+Ability_DevX1_Chain_name:superhook_split                                        Суперкрюк: ^oТройной крюк^*
+Ability_DevX1_Chain_description:superhook_split                                 Devourer запускает крюк в указанного воина или место.\n\n^yЭффект Суперкрюка^*: запускает 2 дополнительных крюка в разных направлениях.\n\nИспользуется один раз, исчезает при смерти.
+Ability_DevX1_Chain_description_simple:superhook_split                          Devourer запускает крюк в указанного воина или место.\n\n^yЭффект Суперкрюка^*: запускает 2 дополнительных крюка в разных направлениях.\n\nИспользуется один раз, исчезает при смерти.
+Ability_DevX1_Chain_tooltip_flavor                                              Иди сюда!
+
+// Shop
+
+Building_HeroWars_Shop_name                                                     Магазин
+
+// Runes
+
+// Rune Names
+
+// Gadget_HeroWars_GoldRune
+Gadget_HeroWars_GoldRune_name                                                   Золотая руна
+
+// Gadget_HeroWars_BoomRune
+Gadget_HeroWars_BoomRune_name                                                   Взрывная руна
+
+State_HeroWars_Boom_name                                                        Ходячая бомба!
+State_HeroWars_Boom_description                                                 При взрыве наносит ^o600 урона^* и ^*оглушает врага на 2.5 секунды^* в ^oрадиусе 570 ед.^*.\n\nБомба взрывается, даже если игрок умирает.
+
+State_HeroWars_BoomStun_name                                                    Последствия взрыва!
+State_HeroWars_BoomStun_description                                             Оглушен на ^o2.5 секунды^
+
+State_HeroWars_KillState_name                                                   Out Of Bounds!
+State_HeroWars_KillState_description                                            Return to the play field, or face the consequence.
+
+// Gadget_HeroWars_ElecRune
+Gadget_HeroWars_ElecRune_name                                                   Руна электрошока
+
+State_HeroWars_ElectricHook_name                                                Суперкрюк: Электрошок
+State_HeroWars_ElectricHook_description                                         При попадании во врага мгновенно убивает его.\n\nИспользуется один раз, исчезает при смерти.
+State_HeroWars_ElectricHook_description_simple                                  При попадании во врага мгновенно убивает его.\n\nИспользуется один раз, исчезает при смерти.
+
+// Gadget_HeroWars_SplitHookRune
+Gadget_HeroWars_SplitHookRune_name                                              Руна тройного крюка
+
+State_HeroWars_SplitHook_name                                                   Суперкрюк: Тройной крюк
+State_HeroWars_SplitHook_description                                            Запускает 3 крюка в разных направлениях.\n\nИспользуется один раз, исчезает при смерти.
+State_HeroWars_SplitHook_description_simple                                     Запускает 3 крюка в разных направлениях.\n\nИспользуется один раз, исчезает при смерти.
+
+// Gadget_HeroWars_TimeRune
+Gadget_HeroWars_TimeRune_name                                                   Руна времени
+
+State_HeroWars_Time_Ally_name                                                   Руна времени
+State_HeroWars_Time_Ally_description                                            Союзник захватил ^gруну времени!^*
+
+State_HeroWars_HemoState_name                                                   Bleeding!
+State_HeroWars_HemoState_description                                            You are taking damage while on route.
+
+
+// Items
+
+// Item_HeroWars_HookMult
+Item_HeroWars_HookMult_name                                                     Крюк: Больше отскоков
+Item_HeroWars_HookMult_description                                              Каждый отскок крюка увеличивает дальность его полета на ^o750^*, вплоть до ^o2000^*.
+Item_HeroWars_HookMult_description_simple                                       Каждый отскок крюка увеличивает дальность его полета на ^o750^*, вплоть до ^o2000^*.
+Item_HeroWars_HookMult_shop_categories
+Item_HeroWars_HookMult_IMPACT_effect                                            Каждый отскок крюка увеличивает дальность его полета на ^o750^*, вплоть до ^o2000^*.
+
+// Item_HeroWars_FireBrand
+Item_HeroWars_FireBrand_name                                                    Крюк: Огненный крюк
+Item_HeroWars_FireBrand_description                                             При попадании крюка во врага, под другими противниками в ^oрадиусе 250^* появляется расширяющаяся область.\n\nЗа 2 секунды область расширяется до радиуса 250 и взрывается.
+Item_HeroWars_FireBrand_description_simple                                      Создает под врагами взрывную область, наносящую урон и устрашающую их.
+Item_HeroWars_FireBrand_search_terms                                            firehook
+Item_HeroWars_FireBrand_shop_flavor                                             	
+Item_HeroWars_FireBrand_shop_categories                                         	
+Item_HeroWars_FireBrand_FRAME_effect                                            При взрыве: враги в радиусе взрыва получают эффект ^oстраха на 2.5 секунды^*, ^o30% от их максимального здоровья сжигается^*.
+
+State_HeroWars_FireBrand_Debuff_name                                            Горение от огненного крюка
+State_HeroWars_FireBrand_Debuff_description                                     Страх\nСжигание ^o30% от вашего максимального здоровья^* в течение 2.5 секунд.
+
+// Item_HeroWars_FrostBrand
+Item_HeroWars_FrostBrand_name                                                   Крюк: Ледяной крюк
+Item_HeroWars_FrostBrand_description                                            При попадании крюка во врага, создает ледяное кольцо ^oрадиусом 450^* вокруг цели.
+Item_HeroWars_FrostBrand_description_simple                                     При попадании во врага замедляет и наносит урон всем ближайшим противникам.
+Item_HeroWars_FrostBrand_search_terms                                           icehook,frosthook
+Item_HeroWars_FrostBrand_shop_flavor                                            	
+Item_HeroWars_FrostBrand_shop_categories                                        	
+Item_HeroWars_FrostBrand_FRAME_effect                                           Ледяное кольцо: наносит ^o50 урона^*, накладывает ^o45% замедления скорости передвижения^* всем врагам в радиусе ^o450 на 6 секунд^*.
+
+State_HeroWars_FrostBrand_Freeze_name                                           Ледяной крюк
+State_HeroWars_FrostBrand_Freeze_description                                    	
+
+// Item_HeroWars_LightBrand
+Item_HeroWars_LightBrand_name                                                   Крюк: Световой крюк
+Item_HeroWars_LightBrand_description                                            Пассивные бонусы: Увеличивает радиус обзора вокруг крюка до 600 ед.\n\n^oПри включении^* ваш крюк будет ^oпроходить сквозь союзников^*.\n\nНельзя активировать, пока крюк в полете.
+Item_HeroWars_LightBrand_description:enabled_lighthook                          Пассивные бонусы: Ваш крюк ^gпроходит сквозь союзников^*. Увеличивает радиус обзора вокруг крюка до 600 ед.\n\n^oПри отключении^* крюк сможет ^oвновь притягивать союзников^*.\n\nНельзя активировать, пока крюк в полете. Нельзя продать, пока включен эффект предмета.
+Item_HeroWars_LightBrand_description_simple                                     Крюк будет ^oпроходить сквозь союзников^*. Увеличивает радиус обзора вокруг крюка.
+Item_HeroWars_LightBrand_search_terms                                           lighthook
+Item_HeroWars_LightBrand_shop_flavor                                            	
+Item_HeroWars_LightBrand_shop_categories                                        	
+Item_HeroWars_LightBrand_FRAME_effect                                           	
+
+// Item_HeroWars_BlindGrenade
+Item_HeroWars_BlindGrenade_name                                                 Расход: Ослепляющая граната
+Item_HeroWars_BlindGrenade_description                                          	
+Item_HeroWars_BlindGrenade_description_simple                                   Граната, ^oснижающая радиус обзора врагов^* и ^oисключающая их радиус обзора из командного^*.
+Item_HeroWars_BlindGrenade_shop_categories                                      	
+Item_HeroWars_BlindGrenade_IMPACT_effect                                        Бросает гранату, которая ^oснижает радиус обзора врагов^* в радиусе и ^oисключает их радиус обзора из командного^* на 8 секунд.\n\nГраната летит 3 секунды.\n\nМаксимум 3 шт. при первой покупке; вы можете хранить 3 шт. 30-секундная перезарядка перед каждой следующей покупкой.
+
+State_HeroWars_BlindGrenade_name                                                Ослеплен
+State_HeroWars_BlindGrenade_description                                         Попал под действие Ослепляющей гранаты.\n\nРадиус обзора уменьшен до ^o300^* ед.
+State_HeroWars_BlindGrenade_description_simple                                  Попал под действие Ослепляющей гранаты.\n\nРадиус обзора уменьшен до ^o300^* ед.
+
+// Item_HeroWars_Mine
+Item_HeroWars_Mine_name                                                         Расход: Фугас
+Item_HeroWars_Mine_description                                                  Устанавливает неатакуемую мину перед собой, которая становится активной через 5 секунд. Враг, вошедший в ^oрадиус 250^* от мины, активирует её. Если мина не была активирована в течение 30 секунд - она исчезает.\n\nОдновременно на карте могут быть активными не более 3 мин, установленных одним игроком.\n\nМины можно подбросить Каменной рукой.\n\nМаксимум 3 шт. при первой покупке; вы можете хранить 3 шт. 30-секундная перезарядка перед каждой следующей покупкой.
+Item_HeroWars_Mine_description_simple                                           Устанавливает на землю мину, которая взрывается при контакте с врагом.
+Item_HeroWars_Mine_search_terms                                                 mine
+Item_HeroWars_Mine_shop_flavor                                                  	
+Item_HeroWars_Mine_shop_categories                                              	
+Item_HeroWars_Mine_FRAME_effect                                                 Взрыв фугаса: Наносит ^o12% от максимального здоровья врага^* всем противникам в радиусе ^o250^*.
+
+Gadget_HeroWars_Mine_name                                                       Фугас
+	
+// Item_HeroWars_BackHook
+Item_HeroWars_BackHook_name                                                     Крюк: Обратный захват
+Item_HeroWars_BackHook_description                                              Devourer получает постоянный эффект ^oОбратного захвата^*, позволяющий крюку притягивать героев в момент возвращения к нему.
+Item_HeroWars_BackHook_description_simple                                       В момент возвращения крюк захватит и притянет героев к Devourer.
+Item_HeroWars_BackHook_shop_categories                                          	
+Item_HeroWars_BackHook_IMPACT_effect                                            Devourer получает постоянный эффект ^oОбратного захвата^*, позволяющий крюку притягивать героев в момент возвращения к нему.
+
+// Item_HeroWars_Claw
+Item_HeroWars_Claw_name                                                         Крюк: Кровотечение
+Item_HeroWars_Claw_description                                                  Пойманные на крюк враги истекают кровью.\n^rМожет быть улучшен 3 раза.^*\nУрон равен 11%/15%/19% от пройденного расстояния.
+Item_HeroWars_Claw_description_simple                                           Пойманные на крюк враги истекают кровью.\n^rМожет быть улучшен 3 раза.^*\nУрон равен 11%/15%/19% от пройденного расстояния.
+Item_HeroWars_Claw_shop_categories                                              	
+Item_HeroWars_Claw_IMPACT_effect                                                Пойманные на крюк враги истекают кровью.\n^rМожет быть улучшен 3 раза.^*\n11%/15%/19% от пройденного расстояния.
+
+Item_HeroWars_Claw_name:charge1                                                 Кровотечение (Уровень 1)
+Item_HeroWars_Claw_description:charge1                                          Пойманные на крюк враги истекают кровью и получают урон, равный ^o11% от пройденного расстояния^*.
+Item_HeroWars_Claw_description_simple:charge1                                   Пойманные на крюк враги истекают кровью и получают урон, равный ^o11% от пройденного расстояния^*.
+Item_HeroWars_Claw_shop_categories:charge1                                      	
+Item_HeroWars_Claw_IMPACT_effect:charge1                                        Пойманные на крюк враги истекают кровью и получают урон, равный ^o11% от пройденного расстояния^*.
+
+Item_HeroWars_Claw_name:charge2                                                 Кровотечение (Уровень 2)
+Item_HeroWars_Claw_description:charge2                                          Пойманные на крюк враги истекают кровью и получают урон, равный ^o15% от пройденного расстояния^*.
+Item_HeroWars_Claw_description_simple:charge2                                   Пойманные на крюк враги истекают кровью и получают урон, равный ^o15% от пройденного расстояния^*.
+Item_HeroWars_Claw_shop_categories:charge2                                      	
+Item_HeroWars_Claw_IMPACT_effect:charge2                                        Пойманные на крюк враги истекают кровью и получают урон, равный ^o15% от пройденного расстояния^*.
+
+Item_HeroWars_Claw_name:charge3                                                 Кровотечение (Уровень 3)
+Item_HeroWars_Claw_description:charge3                                          Пойманные на крюк враги истекают кровью и получают урон, равный ^o19% от пройденного расстояния^*.
+Item_HeroWars_Claw_description_simple:charge3                                   Пойманные на крюк враги истекают кровью и получают урон, равный ^o19% от пройденного расстояния^*.
+Item_HeroWars_Claw_shop_categories:charge3                                      	
+Item_HeroWars_Claw_IMPACT_effect:charge3                                        Пойманные на крюк враги истекают кровью и получают урон, равный ^o19% от пройденного расстояния^*.
+
+// Item_HeroWars_Grapple
+Item_HeroWars_Grapple_name                                                      Предмет: Кошка
+Item_HeroWars_Grapple_description                                               	
+Item_HeroWars_Grapple_description_simple                                        Бросает "кошку", которая притянет вас к цели или к столбам.
+Item_HeroWars_Grapple_shop_categories                                           	
+Item_HeroWars_Grapple_IMPACT_effect                                             При активации бросает "кошку", которая ^oпритянет вас к цели или к столбам^*.\n\nИспользуйте "кошку" для спасения, если вас притягивает или подбрасывает враг.
+
+// Item_HeroWars_Jaw
+Item_HeroWars_Jaw_name                                                          Крюк: Похищение жизни
+Item_HeroWars_Jaw_description                                                   Исцеляет вас при захвате врага.\n^rМожет быть улучшен 3 раза.^*\nИсцеляет на 25%/35%/45%.
+Item_HeroWars_Jaw_description_simple                                            Исцеляет вас при захвате врага.\n^rМожет быть улучшен 3 раза.^*\nИсцеляет на 25%/35%/45%.
+Item_HeroWars_Jaw_shop_categories                                               	
+Item_HeroWars_Jaw_IMPACT_effect                                                 Исцеляет вас при захвате врага.\n^rМожет быть улучшен 3 раза.^*\nИсцеляет на 25%/35%/45%.
+
+Item_HeroWars_Jaw_name:charge1                                                  Похищение жизни (Уровень 1)
+Item_HeroWars_Jaw_description:charge1                                           Исцеляет вас на ^g25%^* от нанесенного крюком урона.
+Item_HeroWars_Jaw_description_simple:charge1                                    Исцеляет вас на ^g25%^* от нанесенного крюком урона.
+Item_HeroWars_Jaw_shop_categories:charge1                                       	
+Item_HeroWars_Jaw_IMPACT_effect:charge1                                         Исцеляет вас на ^g25%^* от нанесенного крюком урона.
+
+Item_HeroWars_Jaw_name:charge2                                                  Похищение жизни (Уровень 2)
+Item_HeroWars_Jaw_description:charge2                                           Исцеляет вас на ^g35%^* от нанесенного крюком урона.
+Item_HeroWars_Jaw_description_simple:charge2                                    Исцеляет вас на ^g35%^* от нанесенного крюком урона.
+Item_HeroWars_Jaw_shop_categories:charge2                                       	
+Item_HeroWars_Jaw_IMPACT_effect:charge2                                         Исцеляет вас на ^g35%^* от нанесенного крюком урона.
+
+Item_HeroWars_Jaw_name:charge3                                                  Похищение жизни (Уровень 3)
+Item_HeroWars_Jaw_description:charge3                                           Исцеляет вас на ^g45%^* от нанесенного крюком урона.
+Item_HeroWars_Jaw_description_simple:charge3                                    Исцеляет вас на ^g45%^* от нанесенного крюком урона.
+Item_HeroWars_Jaw_shop_categories:charge3                                       	
+Item_HeroWars_Jaw_IMPACT_effect:charge3                                         Исцеляет вас на ^g45%^* от нанесенного крюком урона.
+
+// Item_HeroWars_Paw
+Item_HeroWars_Paw_name                                                          Герой: Скорость
+Item_HeroWars_Paw_description                                                   Увеличивает ^oскорость передвижения на 12^*.\n^rМожет быть улучшен 5 раз.^*
+Item_HeroWars_Paw_description_simple                                            Увеличивает ^oскорость передвижения на 12^*.\n^rМожет быть улучшен 5 раз.^*
+Item_HeroWars_Paw_shop_categories                                               	
+Item_HeroWars_Paw_IMPACT_effect                                                 Увеличивает ^oскорость передвижения на 12^*.\n^rМожет быть улучшен 5 раз.^*
+
+// Item_HeroWars_HealWard
+Item_HeroWars_HealWard_name                                                     Расход: Страж-целитель
+Item_HeroWars_HealWard_description                                              	
+Item_HeroWars_HealWard_description_simple                                       Устанавливает тотем, который исцеляет ближайших союзников.
+Item_HeroWars_HealWard_shop_categories                                          	
+Item_HeroWars_HealWard_IMPACT_effect                                            Устанавливает Стража-целителя, который ^gисцеляет ближайших союзников^* на ^o8% от их максимального здоровья в секунду^*.\n\nВраги уничтожат Стража с одного удара.\n\nМаксимум 3 шт. при первой покупке; вы можете хранить 3 шт. 30-секундная перезарядка перед каждой следующей покупкой.\n\n
+
+Gadget_HeroWars_HealWard_name                                                   Страж-целитель
+State_HeroWars_HealWard_name                                                    Страж-целитель
+State_HeroWars_HealWard_description                                             Исцеляет на ^g8% от вашего максимального здоровья^* в секунду.
+
+// Item_HeroWars_TinyArm
+Item_HeroWars_TinyArm_name                                                      Предмет: Каменная рука
+Item_HeroWars_TinyArm_description                                               	
+Item_HeroWars_TinyArm_description_simple                                        Бросает ближайшего героя в указанное место.
+Item_HeroWars_TinyArm_shop_categories                                           	
+Item_HeroWars_TinyArm_IMPACT_effect                                             Бросает ближайшего героя в указанное место.\n\nНаносит ^o50 урона^* всем врагам в ^oрадиусе 300^*.\n\nМожет подбрасывать мины, в этом случае время перезарядки - 3 секунды.\n\nЕсли цель брошена за пределы карты, она телепортируется обратно в то место, откуда была брошена.
+
+// Item_HeroWars_TomeOfPower
+Item_HeroWars_TomeOfPower_name                                                  Герой: Уровень
+Item_HeroWars_TomeOfPower_description                                           При покупке увеличивает ^oуровень вашего героя на 1^*.
+Item_HeroWars_TomeOfPower_description_simple                                    При покупке увеличивает ^oуровень вашего героя на 1^*.
+Item_HeroWars_TomeOfPower_shop_categories                                       	
+Item_HeroWars_TomeOfPower_IMPACT_effect                                         	
+
+// Item_HeroWars_Totem
+Item_HeroWars_Totem_name                                                        Предмет: Защитная стена
+Item_HeroWars_Totem_description                                                 	
+Item_HeroWars_Totem_description_simple                                          Создает ^oнепроходимую и отталкивающую крюки^* стену.
+Item_HeroWars_Totem_shop_categories                                             	
+Item_HeroWars_Totem_IMPACT_effect                                               Создает ^oнепроходимую и отталкивающую крюки^* стену.\n\nВремя действия - 9 секунд.
+
+// Item_HeroWars_Ward
+Item_HeroWars_Ward_name                                                         Расход: Сигнальная ракета
+Item_HeroWars_Ward_description                                                  	
+Item_HeroWars_Ward_description_simple                                           Выпущенная в указанное место сигнальная ракета расчищает зону видимости.
+Item_HeroWars_Ward_shop_categories                                              	
+Item_HeroWars_Ward_IMPACT_effect                                                Выпускает ракету, которая ^oобеспечивает обзор указанной области в радиусе 700^* на ^o30 секунд^*.\n\nМаксимум 3 шт. при первой покупке; вы можете хранить 3 шт. 30-секундная перезарядка перед каждой следующей покупкой.
+
+
+
+
+// States
+State_HeroWars_Shop_name                                                        Магазин
+State_HeroWars_Shop_description                                                 Купить предметы
+State_HeroWars_Shop_description_simple                                          Купить предметы
+
+State_HeroWars_StartGame_name                                                   Подготовка к игре
+State_HeroWars_StartGame_description                                            15 секунд до начала игры!
+State_HeroWars_StartGame_description_simple                                     15 секунд до начала игры!
+
+State_HeroWars_Respawn_name                                                     Щит возрождения
+State_HeroWars_Respawn_description                                              Полная защита
+State_HeroWars_Respawn_description_simple                                       Полная защита
+
+
+
+
+
+// Hook Upgrades
+
+// Ability_DevX_HookLevelUp_Damage
+Ability_DevX_HookLevelUp_Damage_name                                            Улучшение крюка (Урон)
+Ability_DevX_HookLevelUp_Damage_description                                     Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description_simple                              Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_effect_header                                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o0	
+
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_1                           Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_2                           Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_3                           Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_4                           Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_5                           Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_6                           Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_7                           Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_8                           Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_9                           Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_10                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_11                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_12                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_13                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_14                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_15                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_16                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_17                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_18                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_19                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_20                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_21                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_22                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_23                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_24                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_25                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_26                          Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o365
+
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_1                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_2                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_3                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_4                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_5                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_6                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_7                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_8                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_9                    Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_10                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_11                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_12                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_13                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_14                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_15                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_16                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_17                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_18                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_19                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_20                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_21                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_22                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_23                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_24                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_25                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_26                   Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o380
+
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_1                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_2                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_3                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_4                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_5                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_6                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_7                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_8                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_9                         Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_10                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_11                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_12                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_13                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_14                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_15                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_16                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_17                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_18                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_19                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_20                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_21                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_22                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_23                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_24                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_25                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_26                        Увеличение урона крюка на ^g15^* за уровень.\n\nТекущий урон: ^w235^* + ^o380
+
+// Ability_DevX_HookLevelUp_Range
+Ability_DevX_HookLevelUp_Range_name                                             Улучшение крюка(Дальность)
+Ability_DevX_HookLevelUp_Range_description                                      Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description_simple                               Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_effect_header                                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o0
+
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_1                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_2                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_3                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_4                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_5                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_6                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_7                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_8                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_9                            Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_10                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_11                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_12                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_13                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_14                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_15                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_16                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_17                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_18                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_19                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_20                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_21                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_22                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_23                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_24                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_25                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_26                           Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o3000
+
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_1                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_2                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_3                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_4                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_5                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_6                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_7                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_8                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_9                     Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_10                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_11                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_12                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_13                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_14                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_15                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_16                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_17                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_18                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_19                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_20                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_21                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_22                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_23                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_24                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_25                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_26                    Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o3000
+
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_1                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_2                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_3                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_4                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_5                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_6                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_7                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_8                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_9                          Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_10                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_11                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_12                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_13                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_14                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_15                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_16                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_17                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_18                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_19                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_20                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_21                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_22                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_23                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_24                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_25                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_26                         Увеличение дальности полета крюка на ^g120^* за уровень.\n\nТекущая дальность: ^w1600^* + ^o3000
+
+// Ability_DevX_HookLevelUp_Speed
+Ability_DevX_HookLevelUp_Speed_name                                             Улучшение крюка(Скорость)
+Ability_DevX_HookLevelUp_Speed_description                                      Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_header                                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o0
+
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_1                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_2                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_3                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_4                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_5                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_6                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_7                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_8                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_9                            Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_10                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_11                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_12                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_13                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_14                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_15                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_16                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_17                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_18                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_19                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_20                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_21                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_22                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_23                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_24                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_25                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_26                           Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o1000
+
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_1                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_2                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_3                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_4                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_5                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_6                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_7                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_8                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_9                     Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_10                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_11                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_12                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_13                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_14                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_15                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_16                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_17                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_18                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_19                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_20                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_21                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_22                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_23                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_24                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_25                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_26                    Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o1000
+
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_1                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_2                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_3                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_4                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_5                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_6                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_7                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_8                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_9                               Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_10                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_11                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_12                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_13                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_14                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_15                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_16                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_17                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_18                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_19                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_20                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_21                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_22                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_23                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_24                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_25                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_26                              Увеличение скорости крюка на ^g40^* за уровень.\n\nТекущая скорость: ^w1100^* + ^o1000
+
+// Ability_DevX_HookLevelUp_Width
+Ability_DevX_HookLevelUp_Width_name                                             Улучшение крюка(Радиус)
+Ability_DevX_HookLevelUp_Width_description                                      Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description_simple                               Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_effect_header                                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o0
+
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_1                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_2                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_3                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_4                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_5                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_6                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_7                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_8                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_9                            Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_10                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_11                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_12                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_13                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_14                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_15                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_16                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_17                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_18                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_19                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_20                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_21                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_22                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_23                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_24                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_25                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_26                           Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o125
+
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_1                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_2                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_3                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_4                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_5                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_6                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_7                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_8                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_9                     Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_10                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_11                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_12                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_13                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_14                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_15                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_16                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_17                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_18                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_19                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_20                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_21                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_22                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_23                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_24                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_25                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_26                    Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o125
+
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_1                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_2                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_3                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_4                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_5                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_6                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_7                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_8                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_9                          Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_10                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_11                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_12                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_13                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_14                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_15                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_16                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_17                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_18                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_19                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_20                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_21                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_22                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_23                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_24                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_25                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_26                         Увеличение радиуса захвата крюка на ^g5^* на уровень.\n\nТекущий радиус захвата: ^w70^* + ^o125
+
+// END DO NOT REMOVE ETC 

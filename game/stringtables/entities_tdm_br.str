@@ -1,0 +1,40 @@
+// ---------- Team Deathmatch (TDM) ----------
+
+
+// This string change is to rename the Automed Courier ability entity in Team Deathmatch only to show the channel bar that represents the pre-round timer
+Ability_AutomatedCourier_name:team_deathmatch					Tempo de Preparação
+
+// State_Team_Deathmatch_Burn
+State_Team_Deathmatch_Burn_name									Morte Súbita - Queime
+State_Team_Deathmatch_Burn_FRAME_effect							Tirando 3% de sua Vida Máxima por segundo
+
+// State_Team_Deathmatch_Reveal
+State_Team_Deathmatch_Reveal_name								Morte Súbita - Revelado
+
+
+
+
+// Ability_Ophelia2
+Ability_Ophelia2_description:team_deathmatch					Ophelia julga uma unidade inimiga.
+Ability_Ophelia2_description_simple:team_deathmatch				Selecione uma unidade para aplicar Judge sobre ela, causando ^o{75,150,225,300} de Dano Mágico^*.
+Ability_Ophelia2_IMPACT_effect:team_deathmatch					Selecione uma unidade para aplicar Judge sobre ela, causando ^o{75,150,225,300} de Dano Mágico^*.
+
+
+// Ability_Ra4_Deathmatch
+Ability_Ra4_Deathmatch_name										Pyroclasmic Rebirth
+Ability_Ra4_Deathmatch_description								Ao morrer, Amun-Ra gasta Mana para se reviver, restaurando Vida baseado na quantidade de Mana que foi usada e ativando Ignite. Amun-Ra Causa dano bonus após reviver.
+Ability_Ra4_Deathmatch_description_simple						Ao morrer, Amun-Ra vai gastar até 50% de sua Mana Máxima para se reviver, ativando ^oIgnite^* e restaurando até ^o60% do Máximo de Vida^* baseado na porcentagem de Mana gasta. Você causa ^o{10,20,30}% de dano extra^* por 10 segundos após reviver.
+Ability_Ra4_Deathmatch_IMPACT_effect							Ao morrer, gasta até 50% de sua Mana Máxima para se reviver. Após 3 segundos, você vai reviver com ^o10% Vida + 1% Vida por % de Mana gasta^*, até ^o60% do Máximo de Vida^*, ativando Ignite no processo. Você causa ^o{10,20,30}%^* de dano extra por 10 segundos após reviver.
+Ability_Ra4_Deathmatch_tooltip_flavor							Round Two, FIGHT!
+
+
+
+// Building_TDM_Legion
+Building_TDM_Legion_name										Equipamentos Intemporais (Legion)
+
+// Building_TDM_Hellbourne
+Building_TDM_Hellbourne_name									Equipamentos Intemporais (Hellbourne)
+
+
+
+// End - do not delete this line

@@ -1,0 +1,1101 @@
+﻿// Ability_Soccer_Kick
+Ability_Soccer_SlideKick_name                                                   Подкат
+Ability_Soccer_SlideKick_name:soccer_hasball                                    Пинок
+Ability_Soccer_SlideKick_description                                            Расходует 25 ед. энергии, чтобы выполнить подкат в выбранном направлении.
+Ability_Soccer_SlideKick_description:soccer_hasball                             Расходует до 35 ед. энергии, чтобы пнуть мяч вперед от вас.
+Ability_Soccer_SlideKick_description_simple                                     Расходует 25 ед. энергии, чтобы выполнить подкат в выбранном направлении.
+Ability_Soccer_SlideKick_description_simple:soccer_hasball                      Расходует до 35 ед. энергии, чтобы пнуть мяч вперед от вас.
+
+// State_Soccer_Slide
+State_Soccer_Slide_name                                                         Подкат
+State_Soccer_Slide_description                                                   
+
+
+// Powerups Runes
+Powerup_Soccer_EnergyRune_name                                                  Руна энергии
+
+// Powerup Items
+Item_Soccer_EnergyRune_name                                                     Руна энергии
+Item_Soccer_EnergyRune_description                                              Используйте, чтобы в течение 4 секунд регенерировать ^o25 ед. энергии^* в секунду.
+Item_Soccer_EnergyRune_description_simple                                       Используйте, чтобы в течение 4 секунд регенерировать ^o25 ед. энергии^* в секунду.
+
+// Powerup States
+State_Soccer_Powerup_Refresh_name                                               Руна энергии
+State_Soccer_Powerup_Refresh_description                                        Регенерирует ^o25 ед. энергии^* в секунду.
+
+// State_Soccer_Respawn
+State_Soccer_Respawn_name                                                       Подготовка
+State_Soccer_Respawn_description                                                Начинается новый раунд!
+
+// State_Soccer_Sprint
+State_Soccer_Sprint_name                                                        Бег
+State_Soccer_Sprint_description                                                 Скорость передвижения повышена.
+
+// Ability_Soccer_Sprint
+Ability_Soccer_Sprint_name                                                      Рывок
+Ability_Soccer_Sprint_description                                               Повышает скорость передвижения на ^g145^* ед.\nРасходует ^o14^* ед. энергии в секунду.
+Ability_Soccer_Sprint_description_simple                                        Повышает скорость передвижения на ^g145^* ед.\nРасходует ^o14^* ед. энергии в секунду.
+
+// State_Soccer_Fatigue
+State_Soccer_Fatigue_name                                                       Нокаут
+State_Soccer_Fatigue_description                                                Вам нужно восстановиться, прежде чем вы сможете играть дальше.
+
+// State_Soccer_StartGame
+State_Soccer_StartGame_name                                                     Перед игрой
+State_Soccer_StartGame_description                                              Игра начинается!
+State_Soccer_StartGame_description_simple                                       Игра начинается!
+
+// State_Soccer_HasBall
+State_Soccer_HasBall_name                                                       Вы получили мяч!
+State_Soccer_HasBall_description                                                Забейте мяч в ворота, чтобы получить очко!\n\nПередвижение ограничено.
+State_Soccer_HasBall_description_simple                                         Забейте мяч в ворота, чтобы получить очко!\n\nПередвижение ограничено.
+
+// Soccer_Speedup
+Soccer_Speedup_name                                                             Ускорение
+Soccer_Speedup_description                                                      Повышает скорость передвижения каждый раз, когда вы пинаете мяч.
+
+// State_Soccer_Afterkick
+State_Soccer_Afterkick_name                                                     Недавний пинок
+State_Soccer_Afterkick_description                                              Способности перемещения ограничены.
+
+// Soccer_Damage
+Soccer_State_Damage_name                                                        Защитная аура
+Soccer_State_Damage_description                                                 Снижает получаемый урон в зависимости от расстояния до ворот. Чем дальше - тем больше урон.
+
+// Soccer_State_GoalieSpeedup
+Soccer_State_GoalieSpeedup_name                                                 Ускорение вратаря
+Soccer_State_GoalieSpeedup_description                                          Получаемый урон снижен, а скорость передвижения и регенерация повышены, пока вы рядом с воротами.
+
+// Ability_Soccer_PowerKick
+Ability_Soccer_PowerKick_name                                                   Мощный пинок
+Ability_Soccer_PowerKick_description                                            Увеличивает силу пинка.
+
+// Ability_Soccer_PowerKickA
+Ability_Soccer_PowerKickA_name                                                  Мощный пинок
+Ability_Soccer_PowerKickA_description                                           Пнуть мяч раньше, но с меньшей силой.
+
+// Ability_Soccer_Pass
+Ability_Soccer_Pass_name                                                        Пас
+Ability_Soccer_Pass_description                                                 Передает мяч ближайшему союзнику. Способность действует в конусе с углом 60 градусов на расстоянии 2500 ед. Повернитесь к союзнику, которому вы хотите передать мяч.
+
+//Popups											
+Popup_soccer_outside                                                            Мяч за пределами поля! Мяч появится в центре!
+Popup_soccer_legionsball                                                        Мяч у Легиона!
+Popup_soccer_hellbournesball                                                    Мяч у Преисподней!
+
+
+// Heroes
+
+---------------------------------
+---------------------------------
+
+//WITCH_SLAYER
+
+// Ability_WitchSlayer3
+Ability_WitchSlayer3_name:soccer                                                Изъятие силы
+Ability_WitchSlayer3_description:soccer                                         За годы практики Witch Slayer научился лишать врагов силы и использовать её в своимх целях.
+Ability_WitchSlayer3_description_simple:soccer                                  Вытягивает у цели ^o15^* ед. энергии в секунду.
+Ability_WitchSlayer3_effect_header:soccer                                       Эффекты Изъятия силы
+Ability_WitchSlayer3_IMPACT_effect:soccer                                       На время действия способности накладывает на цель эффект Изъятие силы. Witch Slayer получает всю изъятую энергию.\n\nДействие способности прерывается на расстоянии 900 ед.
+Ability_WitchSlayer3_tooltip_flavor:soccer                                      	
+
+// State_WitchSlayer_Ability3
+State_Soccer_WitchSlayer_Ability3_name                                          Изъятие силы
+State_Soccer_WitchSlayer_Ability3_FRAME_effect                                  Вытягивание 15 ед. энергии в секунду
+
+// Ability_WitchSlayer4
+Ability_WitchSlayer4_name:soccer                                                Серебряная пуля
+Ability_WitchSlayer4_description:soccer                                         Witch Slayer приберегает серебряную пулю, как последнее средство. Когда приходит время, это добро крупного калибра отлично справляется со злом.
+Ability_WitchSlayer4_description2:soccer                                        ...
+Ability_WitchSlayer4_description_simple:soccer                                  Выберите врага, чтобы нанести ^o175 ед. урона^*.
+Ability_WitchSlayer4_IMPACT_effect:soccer                                       Наносит ^o175 ед. урона^* цели.
+Ability_WitchSlayer4_tooltip_flavor:soccer                                      	
+
+// Passive_WitchSlayer
+Ability_Soccer_WitchSlayer_Passive_name                                         Проклятие
+Ability_Soccer_WitchSlayer_Passive_description                                  При атаке на 3 секунды накладывает отрицательный эффект, снижающий скорость передвижения на ^o40^* и увеличивающий весь входящий урон на ^o15%^*.
+Ability_Soccer_WitchSlayer_Passive_description_simple                           При атаке на 3 секунды накладывает отрицательный эффект, снижающий скорость передвижения на ^o40^* и увеличивающий весь входящий урон на ^o15%^*.
+
+// State_Passive_WitchSlayer
+State_Soccer_WitchSlayer_Passive_name                                           Проклятие
+State_Soccer_WitchSlayer_Passive_description                                    Скорость передвижения снижена.\nВходящий урон увеличен.
+
+// Hero_WitchSlayer
+Hero_WitchSlayer_role:soccer                                                    Пассивная способность: ^yПроклятие^*\nПри атаке на 3 секунды накладывает отрицательный эффект, снижающий скорость передвижения на ^o40^* и увеличивающий весь входящий урон на ^o15%^*.
+
+---------------------------------
+---------------------------------
+
+//CHRONOS
+
+// Ability_Chronos4
+Ability_Soccer_Chronos4_name                                                    Путешествие во времени
+Ability_Soccer_Chronos4_description                                             При использовании запоминает текущее местоположение.\n\nЧерез 3 секунды или при повторном использовании, меняется местоположением.
+Ability_Soccer_Chronos4_description_simple                                      При использовании запоминает текущее местоположение.\n\nЧерез 3 секунды или при повторном использовании, меняется местоположением.
+
+// Ability_Chronos1
+Ability_Chronos1_description:soccer                                             Выберите место, чтобы ^oтуда телепортироваться^*.\n\nПо прибытии ^oнаносит 50 ед. урона^* врагам вокруг.
+Ability_Chronos1_description_simple:soccer                                      Выберите место, чтобы ^oтуда телепортироваться^*.\n\nПо прибытии ^oнаносит 50 ед. урона^* врагам вокруг.
+
+// Passive_Chronos
+Ability_Soccer_Chronos_Passive_name                                             Проклятие веков
+Ability_Soccer_Chronos_Passive_description                                      При атаке оглушает цель на ^o1.3 секунды^*.
+Ability_Soccer_Chronos_Passive_description_simple                               При атаке оглушает цель на ^o1.3 секунды^*.
+
+// Hero_Chronos
+Hero_Chronos_role:soccer                                                        Пассивная способность: ^yПроклятие веков^*\nПри атаке оглушает цель на ^o1.3 секунды^*.
+
+---------------------------------
+---------------------------------
+
+//ANDROMEDA
+
+// Ability_Andromeda1
+Ability_Andromeda1_description:soccer                                           Andromeda выхватывает комету из родного измерения и швыряет её во врагов, оглушая и нанося им урон.
+Ability_Andromeda1_description2:soccer                                          	
+Ability_Andromeda1_description_simple:soccer                                    Выберите врага, чтобы нанести ^o100 ед. урона^* и оглушить на ^o2 секунды^*.
+Ability_Andromeda1_effect_header:soccer                                         Эффекты Кометы
+Ability_Andromeda1_effect_header2:soccer                                        	
+Ability_Andromeda1_tooltip_flavor:soccer                                        	
+Ability_Andromeda1_IMPACT_effect:soccer                                         Наносит ^o100 ед. урона^* и оглушает цель на 2 секунды при столкновении.
+Ability_Andromeda1_tooltip_flavor:soccer                                        	
+
+// Ability_Andromeda4
+Ability_Andromeda4_name:soccer                                                  Разрыв пустоты
+Ability_Andromeda4_description:soccer                                           Andromeda останавливает время и свёртывает пространство, меняясь местами с другим героем.
+Ability_Andromeda4_description2:soccer                                          ...
+Ability_Andromeda4_description_simple:soccer                                    Укажите союзного или вражеского героя, чтобы ^oпоменяться с ним местами^*.
+Ability_Andromeda4_effect_header:soccer                                         Эффекты Разрыва пустоты
+Ability_Andromeda4_effect_header2:soccer                                        ...
+Ability_Andromeda4_IMPACT_effect:soccer                                         Мгновенно меняет местами вашего и выбранного героев. 
+Ability_Andromeda4_tooltip_flavor:soccer                                        	
+
+// Passive_Andromeda
+Ability_Soccer_Andromeda_Passive_name                                           Бесконечность
+Ability_Soccer_Andromeda_Passive_description                                    Время нокаута снижено на ^o50%^*
+Ability_Soccer_Andromeda_Passive_description_simple                             Время нокаута снижено на ^o50%^*
+
+// Hero_Andromeda
+Hero_Andromeda_role:soccer                                                      Пассивная способность: ^yБесконечность^*\nВремя нокаута снижено на ^o50%^*
+
+---------------------------------
+---------------------------------
+
+//BLITZ
+
+// Ability_Blitz1
+Ability_Blitz1_description:soccer                                               Blitz пользуется медлительностью своих врагов и взрывает их электричеством.
+Ability_Blitz1_description2:soccer                                              	
+Ability_Blitz1_description_simple:soccer                                        Наносит выбранному врагу ^o50^* ед. урона с прибавкой ^o25^*% от разницы в скорости движения цели и вашего героя, а также оглушает на ^o1 секунду^*.
+Ability_Blitz1_effect_header                                                    	
+Ability_Blitz1_effect_header2                                                   	
+Ability_Blitz1_tooltip_flavor                                                   	
+Ability_Blitz1_FRAME_effect:soccer                                              	
+Ability_Blitz1_IMPACT_effect:soccer                                             Наносит 50 ед. урона с прибавкой 25% от разницы в скорости движения цели и вашего героя, а также оглушает на 1 секунду.
+
+// Ability_Blitz2
+Ability_Blitz3_description:soccer                                               Blitz провоцирует выброс адреналина у союзника, придавая ему скорость и проворство лисы.
+Ability_Blitz3_description2:soccer                                              	
+Ability_Blitz3_description_simple:soccer                                        Выберите союзника или вашего героя, чтобы на ^o3^* секунды повысить его ^oскорость передвижения на 100%^*.\n\nЭффект может поднять скорость передвижения выше максимума в 522 ед.
+Ability_Blitz3_effect_header:soccer                                             Эффекты Ускорения
+Ability_Blitz3_effect_header2:soccer                                            	
+Ability_Blitz3_tooltip_flavor:soccer                                            	
+Ability_Blitz3_IMPACT_effect:soccer                                             Накладывает на цель эффект Ускорение на 3 секунды.\n\nЭффект может поднять скорость передвижения выше максимума в 522 ед.
+
+// Passive_Blitz
+Ability_Soccer_Blitz_Passive_name                                               Спринтер
+Ability_Soccer_Blitz_Passive_description                                        Снижает расход энергии ^oРывка^* на ^g2.5^* ед.
+Ability_Soccer_Blitz_Passive_description_simple                                 Снижает расход энергии ^oРывка^* на ^g2.5^* ед.
+
+// Hero_Blitz
+Hero_Blitz_role:soccer                                                          Пассивная способность: ^yСпринтер^*\nСнижает расход энергии ^oРывка^* на ^g2.5^* ед.
+
+---------------------------------
+---------------------------------
+
+//DEVOURER
+
+// Ability_Devourer2
+Ability_Devourer2_description:soccer                                            Devourer позволяет себе разлагаться, постепенно теряя здоровье и выпуская ядовитые газы, которые наносят урон окружающим врагам и замедляют их.
+Ability_Devourer2_description_simple:soccer                                     Используйте, чтобы включить/выключить способность. Действующая способность наносит вашему герою ^o25 ед. урона в секунду^*. ^oСкорость передвижения ближайших врагов снижается на 35%^*.
+Ability_Devourer2_effect_header:soccer                                          Эффекты Разложения
+Ability_Devourer2_IMPACT_effect:soccer                                          Действующая способность наносит вашему герою 25 ед. урона в секунду и накладывает эффект Разложение на врагов в радиусе.\nЭффект Разложения действует 2 секунды.
+Ability_Devourer2_tooltip_flavor:soccer                                         	
+
+// State_Devourer_Ability2_Other
+State_Devourer_Ability2_Other_FRAME_effect:soccer                               	
+
+// Ability_Devourer1
+Ability_Devourer1_name:soccer                                                   Крюк обжоры
+Ability_Devourer1_description:soccer                                            Devourer выбирает воина или место и бросает крюк. Первый воин, которого коснётся крюк, будет притянут к Devourer.
+Ability_Devourer1_description_simple:soccer                                     Выберите место и бросьте туда крюк.\nКрюк притянет первого задетого воина к вашему герою.\nЕсли цель оказалась врагом, крюк наносит ей ^o100 ед. урона^*.
+Ability_Devourer1_effect_header:soccer                                          Эффекты Крюка обжоры
+Ability_Devourer1_IMPACT_effect:soccer                                          Бросает крюк, который впивается в первого задетого живого воина. Если цель оказалась врагом, крюк наносит ей 100 ед. урона и притягивает к вашему герою. Во время притягивания цель оглушена.
+Ability_Devourer1_tooltip_flavor:soccer                                         	
+
+// Passive_Devourer
+Ability_Soccer_Devourer_Passive_name                                            Трупная броня
+Ability_Soccer_Devourer_Passive_description                                     Если Devourer взял мяч и эта способность не на перезарядке, то в течение ^o3 секунд^* мяч нельзя будет украсть у Devourer.\n\nРегенерация здоровья повышена.
+Ability_Soccer_Devourer_Passive_description_simple                              Если Devourer взял мяч и эта способность не на перезарядке, то в течение ^o3 секунд^* мяч нельзя будет украсть у Devourer.\n\nРегенерация здоровья повышена.
+
+/// State_Passive_Devourer
+State_Soccer_Devourer_Passive_name                                              Трупная броня
+State_Soccer_Devourer_Passive_description                                       Мяч нельзя украсть
+
+// Hero_Devourer
+Hero_Devourer_role:soccer                                                       Пассивная способность: ^yТрупная броня^*\nЕсли Devourer взял мяч и эта способность не на перезарядке, то в течение ^o3 секунд^* мяч нельзя будет украсть у Devourer.\n\nРегенерация здоровья повышена.
+
+---------------------------------
+---------------------------------
+
+//RALLY
+
+// Ability_Rally1
+Ability_Rally1_description:soccer                                               Rally приказывает себе или союзнику прыгнуть в выбранном направлении, нанося урон задетым врагам и оглушая их.
+Ability_Rally1_description2:soccer                                              	
+Ability_Rally1_description_simple:soccer                                        Щёлкните на вашем или союзном герое и переместите указатель мыши в направлении прыжка.\n\nВраги, задетые прыгнувшим союзником, получают ^o{70} ед. урона^* и ^oоглушаются на {1.3} секунды.^*
+Ability_Rally1_effect_header:soccer                                             	
+Ability_Rally1_effect_header2:soccer                                            	
+Ability_Rally1_tooltip_flavor:soccer                                            	
+Ability_Rally1_IMPACT_effect:soccer                                             Rally приказывает себе или союзнику прыгнуть в выбранном направлении, нанося 70 ед. урона задетым врагам и оглушая их на 1.3 секунды.
+
+// Ability_Rally3
+Ability_Soccer_Rally3_name                                                      Боевой стяг
+Ability_Soccer_Rally3_description                                               Ралли размещает боевой стяг, побуждая союзников повышать силу и энергию в бою.
+Ability_Soccer_Rally3_description2                                              	
+Ability_Soccer_Rally3_description_simple                                        Ралли размещает боевой стяг, повышающий регенерацию энергии всех союзников в радиусе.
+Ability_Soccer_Rally3_effect_header                                             Эффекты Боевого стяга
+Ability_Soccer_Rally3_effect_header2                                            Эффекты Боевого стяга
+Ability_Soccer_Rally3_tooltip_flavor                                            	
+Ability_Soccer_Rally3_IMPACT_effect                                             Ралли размещает боевой стяг на земле, повышающий регенерацию энергии всех союзников в радиусе.
+
+// State_Soccer_Rally3
+State_Soccer_Rally3_name                                                        Боевой стяг
+State_Soccer_Rally3_FRAME_effect                                                Восстановление 6 ед. энергии в секунду
+
+// Ability_Soccer_Rally_Passive
+Ability_Soccer_Rally_Passive_name                                               Боевой клич
+Ability_Soccer_Rally_Passive_description                                        Союзники получают усиление различных характеристик.
+Ability_Soccer_Rally_Passive_description_simple                                 Союзники получают усиление различных характеристик.
+
+// State_Passive_Rally
+State_Soccer_Rally_Passive_name                                                 Боевой клич
+State_Soccer_Rally_Passive_description                                          	
+
+// Gadget_Rally3
+// Rally's Battle Stand Flag
+Gadget_Soccer_Rally3_name                                                       Боевой стяг
+
+// Hero_Rally
+Hero_Rally_role:soccer                                                          Пассивная способность: ^yБоевой клич^*\nСоюзники получают усиление различных характеристик.
+
+---------------------------------
+---------------------------------
+
+//PEBBLES
+
+// Ability_Rocky1
+Ability_Rocky1_name:soccer                                                      Сталагмиты
+Ability_Rocky1_description:soccer                                               Pebbles вытягивает из-под земли поле сталагмитов, которые оглушают задетых врагов и наносят им урон.
+Ability_Rocky1_description_simple:soccer                                        Выберите место, чтобы нанести врагам в области действия ^o15 ед. урона^* и ^oоглушить их на 2 секунды^*. Воины под воздействием Броска получают ^o30 ед. урона^* от Сталагмитов.\n\n^oМаксимальный урон можно нанести быстрым использованием сперва Сталагмитов, затем Броска.^*
+Ability_Rocky1_effect_header:soccer                                             Эффекты Сталагмитов
+Ability_Rocky1_IMPACT_effect:soccer                                             Наносит 15 ед. урона врагам в области и оглушает их на 2 секунды.\n\nУрон наносится в 4 захода с интервалом 0.25 сек. Если цель находится в воздухе после Броска, каждый заход наносит ей дополнительно 15 ед. урона, вплоть до 120 ед. урона.\n\n^oМаксимальный урон можно нанести быстрым использованием сперва Сталагмитов, затем Броска.^*
+Ability_Rocky1_tooltip_flavor:soccer                                            	
+
+// Ability_Rocky2
+Ability_Rocky2_name:soccer                                                      Бросок
+Ability_Rocky2_description:soccer                                               Pebbles пинает оказавшегося поблизости видимого воина в выбранное место. Приземляясь, невольный снаряд получает урон и наносит его всем врагам на месте приземления.
+Ability_Rocky2_description_simple:soccer                                        Выберите воина, чтобы бросить в него другим ближайшим воином. Враги в месте приземления получат ^o55 ед. урона^*.
+Ability_Rocky2_description_simple:Rocky_Grow1:soccer                            Выберите воина, чтобы бросить в него другим ближайшим воином. Враги в месте приземления получат ^o55 ед. урона^*.
+Ability_Rocky2_description_simple:Rocky_Grow2:soccer                            Выберите воина, чтобы бросить в него другим ближайшим воином. Враги в месте приземления получат ^o55 ед. урона^*.
+Ability_Rocky2_description_simple:Rocky_Grow3:soccer                            Выберите воина, чтобы бросить в него другим ближайшим воином. Враги в месте приземления получат ^o55 ед. урона^*.
+Ability_Rocky2_effect_header:soccer                                             Эффекты Броска
+Ability_Rocky2_IMPACT_effect:soccer                                             Бросает ближайшего воина в цель на расстоянии до 275 ед. Воин взлетает в воздух на 1 секунду.\n\nПриземляясь, он наносит 55 ед. урона врагам в области.
+Ability_Rocky2_IMPACT_effect:Rocky_Grow1:soccer                                 Бросает ближайшего воина в цель на расстоянии до 275 ед. Воин взлетает в воздух на 1 секунду.\n\nПриземляясь, он наносит 55 ед. урона врагам в области.
+Ability_Rocky2_IMPACT_effect:Rocky_Grow2:soccer                                 Бросает ближайшего воина в цель на расстоянии до 275 ед. Воин взлетает в воздух на 1 секунду.\n\nПриземляясь, он наносит 55 ед. урона врагам в области.
+Ability_Rocky2_IMPACT_effect:Rocky_Grow3:soccer                                 Бросает ближайшего воина в цель на расстоянии до 275 ед. Воин взлетает в воздух на 1 секунду.\n\nПриземляясь, он наносит 55 ед. урона врагам в области.
+Ability_Rocky2_tooltip_flavor:soccer                                            	
+
+// Passive_Rocky
+Ability_Soccer_Rocky_Passive_name                                               Король комбо
+Ability_Soccer_Rocky_Passive_description                                        Увеличивает максимум энергии.
+Ability_Soccer_Rocky_Passive_description_simple                                 Максимум энергии увеличен на ^o50^* ед.
+Ability_Soccer_Rocky_Passive_effect_header                                      Эффекты пассивной способности
+Ability_Soccer_Rocky_Passive_FRAME_effect                                       50 ед. максимума энергии
+
+// Hero_Rocky
+Hero_Rocky_role:soccer                                                          Пассивная способность: ^yКороль комбо^*\nМаксимум энергии увеличен на ^o50^* ед.
+
+---------------------------------
+---------------------------------
+
+//EMPATH
+
+// Ability_Empath2
+Ability_Empath2_name                                                            Illusory Veil
+Ability_Empath2_description:soccer                                              Создает стену, которая удерживает всех игроков и отражает мяч.\n\nСуществует 4 секунды.
+Ability_Empath2_description_simple:soccer                                       Щелкните мышкой и поведите ей, чтобы создать стену, которая блокирует движение всех игроков и отражает мяч. Стена существует ^o4 секунды^*.
+Ability_Empath2_IMPACT_effect:soccer                                            На 4 секунды создаёт стену шириной 650 ед., которая блокирует движение всех игроков и отражает мяч.
+
+// Ability_Empath4
+Ability_Empath4_description:soccer                                              Empath сливается с героем союзника и усиливает его. Как и прежде, Empath может творить заклинания и применять предметы.
+Ability_Empath4_description2:soccer                                             ...
+Ability_Empath4_description_simple:soccer                                       Выберите героя союзника, чтобы ваш герой слился с ним вплоть до 30 секунд. Пока длится слияние, Empath неуязвима, а носитель получает ^o15 ед. силы атаки, 30 ед. скорости атаки и 5 ед. регенерации энергии^*.\n\nПока длится слияние, Empath получает дополнительный навык, позволяющий ^oускорить^* носителя.
+Ability_Empath4_IMPACT_effect:soccer                                            Ваш герой создаёт слияние с выбранным героем, снимая с себя все усиления и ослабления. Во время слияния ваш герой неуязвим, но безоружен. Носитель получает 15 ед. силы атаки, 5 ед. регенерации энергии и 30 ед. скорости атаки. Слияние длится 30 секунд и разрывается при сметри носителя или досрочно при повтроном использовании способности.
+Ability_Empath4_IMPACT_effect:Empath_Inside                                     Мгновенно разорвёт слияние между Empath и носителем. Empath окажется вне носителя, рядом с ним.
+
+// State_Empath_Ability4_Speed
+State_Empath_Ability4_Speed_description:soccer                                  Empath подгоняет носителя на уровне подсознания, позволяя ему ^oдвигаться ещё быстрее^*.
+State_Empath_Ability4_Speed_description2                                        	
+State_Empath_Ability4_Speed_effect_header                                       	
+State_Empath_Ability4_Speed_effect_header2                                      	
+State_Empath_Ability4_Speed_tooltip_flavor                                      	
+
+// Passive_Empath
+Ability_Soccer_Empath_Passive_name                                              Благословление
+Ability_Soccer_Empath_Passive_description                                       Может атаковать союзных героев.\n\nВместо нанесения урона, исцеляет цель на ^g40 ед. здоровья^*.
+Ability_Soccer_Empath_Passive_description_simple                                Может атаковать союзных героев.\n\nВместо нанесения урона, исцеляет цель на ^g40 ед. здоровья^*.
+
+// Hero_Empath
+Hero_Empath_role:soccer                                                         Пассивная способность: ^yБлагословление^*\nМожет атаковать союзных героев.\n\nВместо нанесения урона, исцеляет цель на ^g40 ед. здоровья^*.
+
+---------------------------------
+---------------------------------
+
+//FLUX
+
+// Ability_Flux2
+Ability_Flux2_description:soccer                                                Отталкивает или притягивает цель (зависит от выбранного полюса).\n\nНаносит урон в зависимости от урона вашего героя.
+Ability_Flux2_description_simple:soccer                                         Выберите воина, чтобы оттолкнуть или притянуть его (зависит от выбранного полюса), нанеся  урон в размере ^oурона вашего героя^*, если цель - враг.
+Ability_Flux2_IMPACT_effect:soccer                                              ^oПритягивает^* цель к вашему герою. Если цель - враг, наносит урон в размере ^oурона вашего героя^*.
+Ability_Flux2_IMPACT_effect:Fluxpushsoccer                                      ^oОтталкивает^* цель от вашего героя. Если цель - враг, наносит урон в размере ^oурона вашего героя^*.
+Ability_Flux2_IMPACT_effect:Fluxpullsoccer                                      ^oПритягивает^* цель к вашему герою. Если цель - враг, наносит урон в размере ^oурона вашего героя^*.
+
+// Ability_Flux3
+Ability_Flux3_description:soccer                                                Flux изменяет свою полярность (выбирая между притягиванием и отталкиванием).
+Ability_Flux3_description:Flux_subpushsoccer                                    Flux изменяет свою полярность (выбирая между притягиванием и отталкиванием).
+Ability_Flux3_description_simple:soccer                                         Используйте, чтобы переключаться между эффектами притягивания и отталкивания для всех способностей Flux.\n\n^oПритягивание^* - нажмите, чтобы переключить на ^oОтталкивание^*.
+Ability_Flux3_description_simple:Flux_subpushsoccer                             Используйте, чтобы переключаться между эффектами притягивания и отталкивания для всех способностей Flux.\n\n^oОтталкивание^* - нажмите, чтобы переключить на ^oОтталкивание^*.
+Ability_Flux3_IMPACT_effect:soccer                                              Изменяет полярность, переключаясь между притягиванием и отталкиванием.\n\n^rПРИТЯГИВАНИЕ^*
+Ability_Flux3_IMPACT_effect:Flux_subpushsoccer                                  Изменяет полярность, переключаясь между притягиванием и отталкиванием.\n\n^rОТТАЛКИВАНИЕ^*
+
+// Passive_Flux
+Ability_Soccer_Flux_Passive_name                                                Мастерский удар
+Ability_Soccer_Flux_Passive_description                                         Дальность пинка ^oувеличена на 20%^*.
+Ability_Soccer_Flux_Passive_description_simple                                  Дальность пинка ^oувеличена на 20%^*.
+
+// Hero_Flux
+Hero_Flux_role:soccer                                                           Пассивная способность: ^yМастерский удар^*\nДальность пинка ^oувеличена на 20%^*.
+
+---------------------------------
+---------------------------------
+
+//MONKEY_KING
+
+// Ability_MonkeyKing1
+Ability_MonkeyKing1_name:soccer                                                 Лихой рывок
+Ability_MonkeyKing1_description:soccer                                          Monkey King движется вперёд, нанося урон оказавшимся на пути врагам.
+Ability_MonkeyKing1_IMPACT_effect:soccer                                        Двигается в направлении взгляда на 300 ед. Наносит оказавшимся на пути врагам урон, равный ^o15 + сила атаки вашего героя^*.
+Ability_MonkeyKing1_description_simple:soccer                                   Двигается вперед, нанося оказавшимся на пути врагам урон, равный ^o15 + сила атаки вашего героя^*.
+Ability_MonkeyKing1_tooltip_flavor:soccer                                       	
+
+// Ability_MonkeyKing2
+Ability_MonkeyKing2_name:soccer                                                 Небесный скачок
+Ability_MonkeyKing2_description:soccer                                          Monkey King перепрыгивает через воина, приземляется и отталкивает цель назад.
+Ability_MonkeyKing2_IMPACT_effect:soccer                                        Перепрыгивает через цель, отталкивая её назад на 200 ед. Если цель - враг, на него накладывается эффект Кувырком. Monkey King приземляется на расстоянии в 300 ед. за спиной цели, создавая ударную волну в области 250 ед.\n\nЭффект Кувырком наносит ^o65^* ед. урона и замедляет движение целей на 20% на 2 секунды (ослабевающий эффект).
+Ability_MonkeyKing2_description_simple:soccer                                   Выберите цель, чтобы перепрыгнуть через неё и оттолкнуть назад.\n\nЦель и враги в области приземления вашего героя получают ^o65^* ед. урона, их движение замедляется на 20% на 2 секунды (ослабевающий эффект).
+Ability_MonkeyKing2_tooltip_flavor:soccer                                       	
+
+// Passive_MonkeyKing
+Ability_MonkeyKing4_name:soccer                                                 Дождевое облако
+Ability_MonkeyKing4_description:soccer                                          Вне боя Monkey King призывает верное дождевое облако и садится на него, начиная намного быстрее двигаться.
+Ability_MonkeyKing4_description2:soccer                                         	
+Ability_MonkeyKing4_IMPACT_effect:soccer                                        Если ваш герой не получает урон 7 секунд, скорость его движения увеличивается на 25 ед., а регенерация энергии -  на 1.5 ед. Облако тает при получении урона.
+Ability_MonkeyKing4_ABILITY_IMPACT_effect:soccer                                	
+Ability_MonkeyKing4_description_simple:soccer                                   ^rНебоевое средство передвижения^*. Если ваш герой не получает урон 7 секунд, ^oскорость его движения увеличивается на 25 ед., а регенерация энергии -  на 1.5 ед.^*
+Ability_MonkeyKing4_tooltip_flavor:soccer                                       	
+
+// Hero_MonkeyKing
+Hero_MonkeyKing_role:soccer                                                     Пассивная способность: ^yДождевое облако^*\n^rНебоевое средство передвижения^*. Если ваш герой не получает урон 7 секунд, ^oскорость его движения увеличивается на 25 ед., а регенерация энергии -  на 1.5 ед.^* Облако тает при получении урона.
+
+
+---------------------------------
+---------------------------------
+
+//PUPPET_MASTER
+
+// Ability_PuppetMaster1
+Ability_PuppetMaster1_name:soccer                                               Нити кукловода
+Ability_PuppetMaster1_description:soccer                                        Puppet Master подвешивает выбранного врага на ниточки, которые сильно мешают движению.
+Ability_PuppetMaster1_description_simple:soccer                                 Выберите врага, чтобы ^oсвязать его на 3 секунды^*. Если цель отдалится от крестовины, она будет притянута назад.
+Ability_PuppetMaster1_effect_header:soccer                                      Нити кукловода
+Ability_PuppetMaster1_IMPACT_effect:soccer                                      Выберите врага, чтобы связать его на 3 секунды. Если цель отдалится от крестовины, она будет притянута назад.
+
+// Ability_PuppetMaster2
+Ability_PuppetMaster2_name:soccer                                               Кукольный театр
+Ability_PuppetMaster2_description:soccer                                        Puppet Master порабощает врага, сделав его своей куклой. Цель сходит с ума и будет атаковать ближайшего воина, будь то друг или враг.
+Ability_PuppetMaster2_description_simple:soccer                                 Выберите врага, чтобы ^oзаставить его 2.5 секунды атаковать^* ближайшего воина.
+Ability_PuppetMaster2_effect_header:soccer                                      Эффекты Дурной куклы
+Ability_PuppetMaster2_IMPACT_effect:soccer                                      Накладывает на цель эффект Дурная кукла на 2.5 секунд. Любой воин с таким эффектом вынужден атаковать вначале героев врага, затем всех остальных.\n\nЕсли воин с эффектом Дурная кукла вынужден атаковать цель, и та погибает, эффект снимается.
+Ability_PuppetMaster2_tooltip_flavor:soccer                                     	
+
+// Ability_PuppetMaster3
+Ability_PuppetMaster3_name                                                      Whiplash
+Ability_PuppetMaster3_description:soccer                                        Наделяя свои атаки волшебной силой нитей, Puppet Master увеличивает свой базовый урон и наносит сокрушительные удары нескольким врагам.
+Ability_PuppetMaster3_description_simple:soccer                                 Каждые 3 атаки наносит критический удар в размере ^o2.0x^* от базового и ^o100% урона по области^* в радиусе ^o275 ед^*.
+Ability_PuppetMaster3_ATTACK_IMPACT_effect:soccer                               Первоначально 4 заряда, атака расходует 1 заряд. Когда остаётся только один заряд, следующая атака с вероятностью 100% наносит критический урон в размере 2.0x от базового и 100% урона по области в радиусе 275 ед., а также восполняет количество зарядов до 4.
+Ability_PuppetMaster3_tooltip_flavor:soccer                                     	
+
+// Hero_PuppetMaster
+Hero_PuppetMaster_role:soccer                                                   Пассивная способность: ^yПлётка^*\nКаждые 3 атаки наносит критический удар в размере ^o2.0x^* от базового и ^o100% урона по области^* в радиусе ^o275 ед^*.
+
+---------------------------------
+---------------------------------
+
+//ALUNA
+
+// Ability_Aluna1
+Ability_Aluna1_name:soccer                                                      Изумрудная молния
+Ability_Aluna1_description:soccer                                               Молния не бьёт в одно место дважды.
+Ability_Aluna1_description_simple:soccer                                        Выберите врага и пустите молнию, которая ^oоглушит первоначальную цель на 1 секунду^*, поразит 1 дополнительного врага и понизит ^oскорость их атак на 20^* на 5 секунд, повысив скорость атаки самого героя.
+Ability_Aluna1_IMPACT_effect:soccer                                             Пускает молнию, которая последовательно поражает до ^o2^* врагов. Цели оглушаются на ^o1^* секунду + ^o0.5^* секунды за каждый скачок молнии. ^oСкорость атаки целей снижается на 20^* на 5 секунд, при этом Aluna на 5 секунд получает такое же ускорение атаки.
+Ability_Aluna1_tooltip_flavor:soccer                                            	
+
+// Ability_Aluna2
+Ability_Aluna2_name:soccer                                                      Мощный бросок
+Ability_Aluna2_description:soccer                                               Aluna вкладывает всю силу в один бросок, со смертельной скоростью и точностью отправляя оружие в цель.
+Ability_Aluna2_description_simple:soccer                                        Выберите точку броска. Оружие полетит к ней и поразит всех врагов по пути, нанеся ^o100 ед. урона^*, который будет снижаться на ^o10% за каждого поражённого врага^*.
+Ability_Aluna2_IMPACT_effect:soccer                                             Бросает оружие на расстояние 1700 ед., нанося врагам ^o100^* ед. урона, который будет снижаться на 10% за каждого поражённого врага.
+Ability_Aluna2_tooltip_flavor:soccer                                            	
+
+// Ability_Aluna3
+Ability_Soccer_Aluna_Passive_name                                               Синий изумруд
+Ability_Soccer_Aluna_Passive_description                                        Получает заряд каждый раз, когда Изумрудная молния или Мощный бросок попадают во врага.\n\nПри достижении 3 зарядов, следующий ^oПинок/Подкат^* будет стоить ^o0 ед. энергии^*, при этом все заряды будут сброшены.\nЗаряды сбрасываются в начале каждого раунда.
+Ability_Soccer_Aluna_Passive_description_simple                                 Получает заряд каждый раз, когда Изумрудная молния или Мощный бросок попадают во врага.\n\nПри достижении 3 зарядов, следующий ^oПинок/Подкат^* будет стоить ^o0 ед. энергии^*, при этом все заряды будут сброшены.\nЗаряды сбрасываются в начале каждого раунда.
+Ability_Soccer_Aluna_Passive_IMPACT_effect                                      	
+Ability_Soccer_Aluna_Passive_tooltip_flavor                                     	
+
+// State_Soccer_AlunaBlue
+State_Soccer_AlunaBlue_name                                                     Синий изумруд
+State_Soccer_AlunaBlue_description                                              Следующий Пинок/Подкат стоит 0 ед. энергии.
+
+// Hero_Aluna
+Hero_Aluna_role:soccer                                                          Пассивная способность: ^yСиний изумруд^*\nПолучает заряд каждый раз, когда Изумрудная молния или Мощный бросок попадают во врага.\n\nПри достижении 3 зарядов, следующий ^oПинок/Подкат^* будет стоить ^o0 ед. энергии^*, при этом все заряды будут сброшены.\nЗаряды сбрасываются в начале каждого раунда.
+
+---------------------------------
+---------------------------------
+
+//MAGEBANE
+
+// Ability_Javaras1
+Ability_Javaras1_name:soccer                                                    Сгорание энергии
+Ability_Javaras1_description:soccer                                             С каждым ударом Magebane сжигает часть энергии цели.
+Ability_Javaras1_description_simple:soccer                                      Пассивно сжигает ^o12^* ед. энергии цели с каждой авто-атакой.
+Ability_Javaras1_description2:soccer                                            	
+Ability_Javaras1_effect_header:soccer                                           	
+Ability_Javaras1_ATTACK_IMPACT_effect:soccer                                    Пассивно сжигает ^o12^* ед. энергии цели с каждой авто-атакой.
+Ability_Javaras1_tooltip_flavor:soccer                                          	
+
+// Ability_Javaras2
+Ability_Javaras2_name:soccer                                                    Вспышка
+Ability_Javaras2_description:soccer                                             Выберите место, чтобы ваш герой туда телепортировался.
+Ability_Javaras2_description_simple:soccer                                      Выберите место, чтобы ваш герой туда телепортировался.
+Ability_Javaras2_IMPACT_effect:soccer                                           Выберите место, чтобы ваш герой туда телепортировался.
+Ability_Javaras2_tooltip_flavor                                                 	
+
+// Ability_Javaras4
+Ability_Javaras4_name:soccer                                                    Раскол энергии
+Ability_Javaras4_description:soccer                                             Magebane раскалывает разум выбранного воина и ненадолго его оглушает. Затем раскол взрывается, приводя уровень энергии цели к уровню её здоровья.
+Ability_Javaras4_description_simple:soccer                                      Если уровень здоровья цели меньше текущего уровня её энергии, вытягивает энергию цели до текущего уровня её здоровья.
+Ability_Javaras4_effect_header:soccer                                           Эффекты Раскола энергии
+Ability_Javaras4_IMPACT_effect:soccer                                           Если уровень здоровья цели меньше текущего уровня её энергии, вытягивает энергию цели до текущего уровня её здоровья.
+Ability_Javaras4_tooltip_flavor:soccer                                          	
+
+// Hero_Javaras
+Hero_Javaras_role:soccer                                                        Пассивная способность: ^yСгорание энергии^*\nПассивно сжигает ^o12^* ед. энергии цели с каждой авто-атакой.
+
+---------------------------------
+---------------------------------
+
+//BUSHWACK
+
+// Ability_Bushwack1
+Ability_Bushwack1_description:soccer                                            Стреляет во врага быстролетящим дротиком, замедляя цель и нанося ей урон.
+Ability_Bushwack1_description2:soccer                                           	
+Ability_Bushwack1_description_simple:soccer                                     Выберите врага и нанесите ^o20^* ед. урона с прибавкой в размере урона вашего героя. Дротик накладывает на цель ^oзамедление скорости движения на 70%^* на 1 секунду.
+Ability_Bushwack1_tooltip_flavor:soccer                                         	
+Ability_Bushwack1_IMPACT_effect:soccer                                          Наносит 20 ед. урона с прибавкой в размере урона вашего героя.\n\nНакладывает на цель эффект Укола дротиком на 1 секунду.
+
+// Ability_Bushwack2
+Ability_Bushwack2_name:soccer                                                   Обход
+Ability_Bushwack2_description:soccer                                            Быстро перемещается в выбранном направлении и наносит больший урон при следующей атаке.
+Ability_Bushwack2_description2:soccer                                           	
+Ability_Bushwack2_description_simple:soccer                                     Выберите место. Ваш герой быстро переместится к нему и добавит ^o10 ед. урона^* к своей следующей атаке
+Ability_Bushwack2_effect_header:soccer                                          Эффекты Обхода
+Ability_Bushwack2_effect_header2:soccer                                         	
+Ability_Bushwack2_tooltip_flavor:soccer                                         	
+Ability_Bushwack2_ACTION_effect:soccer                                          	
+Ability_Bushwack2_IMPACT_effect:soccer                                          Ваш герой быстро перемещается в выбранном направлении и накладывает на себя эффект Обход, который держится 5 секунд или до следующей атаки.
+
+// Ability_Bushwack4
+Ability_Bushwack4_name:soccer                                                   Великий охотник
+Ability_Bushwack4_description:soccer                                            Дополнительно наносит ^o9 ед. урона^* за каждые ^o25 ед. максимума здоровья^* цели сверх здоровья Bushwack.
+Ability_Bushwack4_description_simple:soccer                                     Дополнительно наносит ^o9 ед. урона^* за каждые ^o25 ед. максимума здоровья^* цели сверх здоровья Bushwack.
+Ability_Bushwack4_tooltip_flavor:soccer                                          
+Ability_Bushwack4_DAMAGE_effect:soccer                                           
+
+// Hero_Bushwack
+Hero_Bushwack_role:soccer                                                       Пассивная способность: ^yВеликий охотник^*\nДополнительно наносит ^o9 ед. урона^* за каждые ^o25 ед. максимума здоровья^* цели сверх здоровья Bushwack.
+
+---------------------------------
+---------------------------------
+
+//BEHEMOTH
+
+// Passive_Behemoth
+Ability_Soccer_Behemoth_Passive_name                                            Топот
+Ability_Soccer_Behemoth_Passive_description                                     В завершении подката, на ^o0.6 секунд^* оглушает всех врагов в радиусе ^o200 ед^*.
+Ability_Soccer_Behemoth_Passive_description_simple                              В завершении подката, на ^o0.6 секунд^* оглушает всех врагов в радиусе ^o200 ед^*.
+
+// Ability_Behemoth1
+Ability_Behemoth1_description:soccer                                            Behemoth раскалывает землю могучим ударом древесного ствола, наносит урон и оглушает стоящих перед ним врагов, оставляя непроходимую насыпь.
+Ability_Behemoth1_description_simple:soccer                                     Выберите место или воина, чтобы расколоть землю от вашего героя в выбранном направлении, создав при этом непроходимую насыпь. Разлом наносит врагам ^o90 ед. урона^* и ^oоглушает их на 1 секунду^*.\n\nНасыпь остаётся на ^o5.5^* секунд.
+Ability_Behemoth1_effect_header:soccer                                          Эффекты
+Ability_Behemoth1_IMPACT_effect:soccer                                          Наносит по 90 ед. урона каждой цели на линии и оглушает её на 1 секунду. Оставляет непроходимую насыпь на 5.5 секунд.
+Ability_Behemoth1_tooltip_flavor:soccer                                         	
+
+// Ability_Behemoth2
+Ability_Behemoth2_description:soccer                                            Behemoth даёт волю гневу, усиливая свою следующую атаку.
+Ability_Behemoth2_description_simple:soccer                                     Используйте, чтобы следующей атакой дополнительно нанести ^o75^* ед. урона.
+Ability_Behemoth2_effect_header:soccer                                          Эффекты В гневе
+Ability_Behemoth2_IMPACT_effect:soccer                                          Накладывает на вашего героя эффект В гневе, который длится 14 секунд или до следующей атаки.
+Ability_Behemoth2_tooltip_flavor:soccer                                         	
+
+// Hero_Behemoth
+Hero_Behemoth_role:soccer                                                       Пассивная способность: ^yТопот^*\nВ завершении подката, на ^o0.6 секунд^* оглушает всех врагов в радиусе ^o200 ед^*.
+
+---------------------------------
+---------------------------------
+
+//KINESIS
+
+// Ability_Kenisis1
+Ability_Kenisis1_description:soccer                                             Поднимает цель в воздух, а затем ударяет оземь, нанося ей урон. Враги вокруг места падения тоже получают урон и оглушаются.
+Ability_Kenisis1_description_simple:soccer                                      Выберите воина, чтобы поместить его в стазис-поле. Цель в стазис-поле ^oоглушается и получает на 40% меньше урона в течение 1 секунды^*. После этого цель падает, нанося ^o60 ед. урона^* и ^oна 1 секунду оглушая врагов в радиусе 300 ед^*.
+Ability_Kenisis1_IMPACT_effect:soccer                                           Помещает цель в стазис-поле на 1 секунду. Находящаяся в стазисе цель оглушена и получает на 40% меньше урона.\n\nЕсли цель - враг, после завершения стазиса она получает 60 ед. урона. Враги вокруг цели получают до 60 ед. урона и оглушаются на 1 секунду.				 
+
+Ability_Kenisis3_description:soccer                                             Kinesis отражает часть входящего урона.
+Ability_Kenisis3_description_simple:soccer                                      Отражает ^o35%^* входящего урона.
+Ability_Kenisis3_IMPACT_effect:soccer                                           Отражает 35% всего входящего урона.
+
+//Ability_Kenisis4
+Ability_Soccer_Kenisis4_name                                                    Экстрасенс
+Ability_Soccer_Kenisis4_description                                             Kinesis использует свои способности для усиления союзников и ослабления врагов. 
+Ability_Soccer_Kenisis4_description_simple                                      Усиливает/ослабляет цель.\n\nПри использовании создает экстрасенсорный круг.\n\nСписок кругов:\n-/+ ^o90 скорости передвижения^*\n-/+ ^o20 урона, 35 скорости атаки^*\n-/+ ^o20 регенерации здоровья, 75 максимума здоровья^*
+Ability_Soccer_Kenisis4_effect_header                                           Список кругов:
+
+// State_Soccer_Kenisis_Buff1
+State_Soccer_Kenisis_Tooltip_name                                               Экстрасенс
+State_Soccer_Kenisis_Tooltip_FRAME_effect                                       -/+ 90 скорости передвижения\n-/+ 20 урона, 35 скорости атаки\n-/+ 20 регенерации здоровья, 75 максимума здоровья
+State_Soccer_Kenisis_Tooltip_IMPACT_effect                                      -/+ 90 скорости передвижения\n-/+ 20 урона, 35 скорости атаки\n-/+ 20 регенерации здоровья, 75 максимума здоровья
+
+Ability_Soccer_Kenisis4_name:cyclemove                                          Экстрасенс (Скорость)
+Ability_Soccer_Kenisis4_description:cyclemove                                   Kinesis использует свои способности для усиления союзников и ослабления врагов.
+Ability_Soccer_Kenisis4_description_simple:cyclemove                            Укажите союзника, чтобы на 6.5 секунд ^gувеличить его скорость передвижения на 90 ед.^*, или врага, чтобы ^rзамедлить его на 90 ед.^*\nПри использовании создает экстрасенсорный круг.\n\nСписок кругов:\n-/+ ^o90 скорости передвижения^*\n-/+ ^o20 урона^*\n-/+ ^o20 регенерации здоровья^*
+Ability_Soccer_Kenisis4_IMPACT_effect:cyclemove                                 -/+ ^o90 скорости передвижения^* в зависимости от команды, за которую играет цель.
+
+Ability_Soccer_Kenisis4_name:cycledamage                                        Экстрасенс (Урон)
+Ability_Soccer_Kenisis4_description:cycledamage                                 Kinesis использует свои способности для усиления союзников и ослабления врагов.
+Ability_Soccer_Kenisis4_description_simple:cycledamage                          Укажите союзника, чтобы на 6.5 секунд ^gповысить его урон на 20 ед., а скорость атаки на 35 ед.^*, или врага, чтобы ^rснизить его урон на 20 ед., а скорость атаки на 35 ед.^*\nПри использовании создает экстрасенсорный круг.\n\nСписок кругов:\n-/+ ^o90 скорости передвижения^*\n-/+ ^o20 урона^*\n-/+ ^o20 регенерации здоровья^*
+Ability_Soccer_Kenisis4_IMPACT_effect:cycledamage                               -/+ ^o20 урона и 35 скорости атаки^* в зависимости от команды, за которую играет цель.
+
+Ability_Soccer_Kenisis4_name:cycleheal                                          Экстрасенс (Регенерация)
+Ability_Soccer_Kenisis4_description:cycleheal                                   Kinesis использует свои способности для усиления союзников и ослабления врагов.
+Ability_Soccer_Kenisis4_description_simple:cycleheal                            Укажите союзника, чтобы на 6.5 секунд ^gповысить его регенерацию здоровья на 20 ед.^*, или врага, чтобы ^rснизить его регенерацию здоровья на 20 ед.^*.\nПри использовании создает экстрасенсорный круг.\n\nСписок кругов:\n-/+ ^o90 скорости передвижения^*\n-/+ ^o20 урона^*\n-/+ ^o20 регенерации здоровья^*
+Ability_Soccer_Kenisis4_IMPACT_effect:cycleheal                                 -/+ ^o20 регенерации здоровья и 75 максимума здоровья^* в зависимости от команды, за которую играет цель.
+
+//States_Kenisis
+State_Soccer_Kenisis_Buff1_name                                                 Экстрасенсорная скорость
+State_Soccer_Kenisis_Buff1_description                                          Скорость передвижения повышена.
+
+State_Soccer_Kenisis_Buff2_name                                                 Экстрасенсорный урон
+State_Soccer_Kenisis_Buff2_description                                          Урон увеличен.
+
+State_Soccer_Kenisis_Buff3_name                                                 Экстрасенсорное исцеление
+State_Soccer_Kenisis_Buff3_description                                          Регенерация здоровья повышена.
+
+State_Soccer_Kenisis_Buff4_name                                                 Экстрасенсорная энергия
+State_Soccer_Kenisis_Buff4_description                                          Регенерация энергии повышена.
+
+State_Soccer_Kenisis_DeBuff1_name                                               Экстрасенсорная анти-скорость
+State_Soccer_Kenisis_DeBuff1_description                                        Скорость передвижения снижена.
+
+State_Soccer_Kenisis_DeBuff2_name                                               Экстрасенсорный анти-урон
+State_Soccer_Kenisis_DeBuff2_description                                        Урон уменьшен.
+
+State_Soccer_Kenisis_DeBuff3_name                                               Экстрасенсорное анти-исцеление
+State_Soccer_Kenisis_DeBuff3_description                                        Регенерация здоровья снижена.
+
+State_Soccer_Kenisis_DeBuff4_name                                               Экстрасенсорная анти-энергия
+State_Soccer_Kenisis_DeBuff4_description                                        Регенерация энергии снижена.
+
+// Hero_Kenisis
+Hero_Kenisis_role:soccer                                                        Пассивная способность: ^yВрождённая защита^*\nОтражает ^o35%^* входящего урона.
+
+---------------------------------
+---------------------------------
+
+//PHARAOH
+
+// Passive_Mumra
+Ability_Soccer_Mumra_Passive_name                                               Гневный подкат
+Ability_Soccer_Mumra_Passive_description                                        Pharaoh может выполнить подкат на дальнее расстояние.\n\nВремя перезарядки подката на ^r1.5 секунды^* больше, чем обычно.
+Ability_Soccer_Mumra_Passive_description_simple                                 Pharaoh может выполнить подкат на дальнее расстояние.\n\nВремя перезарядки подката на ^r1.5 секунды^* больше, чем обычно.
+
+// Ability_Mumra1
+Ability_Mumra1_description:soccer                                               Из-под земли вокруг Pharaoh начинают бить струи огня. Они наносят урон случайным врагам по соседству и ненадолго оглушают их.
+Ability_Mumra1_description_simple:soccer                                        Используйте, чтобы ^oв течение 10 секунд каждые 0.75 секунды^* наносить урон случайным целям в области действия.\n\nКаждый раз струя огня наносит ^o10 ед. урона^* и ^oоглушает цель на 0.1 секунды^*.
+Ability_Mumra1_effect_header:soccer                                             Эффекты
+Ability_Mumra1_IMPACT_effect:soccer                                             В течение 10 секунд каждые 0.75 секунды поражает случайные цели в области действия, нанося 10 ед. урона и оглушая на 0.1 секунды.
+Ability_Mumra1_tooltip_flavor:soccer                                            	
+
+// Ability_Mumra2
+Ability_Mumra2_name                                                             Wall of Mummies
+Ability_Mumra2_description:soccer                                               Pharaoh призывает мумий, которые окружают его и любого, кто оказался слишком близко. Пытающиеся подойти враги отталкиваются и получают урон.
+Ability_Mumra2_description_simple:soccer                                        Используйте, чтобы призвать 8 мумий, которые встанут кольцом вокруг вашего героя на 3 секунды.\n\nКаждая мумия может оттолкнуть врага на 200 от круга и нанести ^o10 ед. урона^*.ев.
+Ability_Mumra2_effect_header:soccer                                             Эффекты
+Ability_Mumra2_IMPACT_effect:soccer                                             Мумия отталкивает приблизившегося врага на 275 ед. и наносит 10 ед. урона. Каждая мумия может толкнуть 1 раз, погибает от 1 удара вашего героя или 3 ударов других героев.
+Ability_Mumra2_tooltip_flavor:soccer                                            	
+
+// Hero_Mumra
+Hero_Mumra_role:soccer                                                          Пассивная способность: ^yГневный подкат^*\nPharaoh может выполнить подкат на дальнее расстояние.\n\nВремя перезарядки подката на ^r1.5 секунды^* больше, чем обычно.
+
+---------------------------------
+---------------------------------
+
+//SCOUT
+
+// Ability_Scout1
+Ability_Scout1_name:soccer                                                      Маскировка
+Ability_Scout1_description:soccer                                               Scout ненадолго маскируется и пропадает из вида.
+Ability_Scout1_description_simple:soccer                                        Включите, чтобы ваш герой замаскировался.\n\nМаскировка делает вашего героя ^oневидимым^* с задержкой в 0.25 секунд и ^oускоряет его движение на 20%^*.\n\nМаскировка пропадает если ваш герой атакует врага.
+Ability_Scout1_effect_header:soccer                                             Эффекты Маскировки
+Ability_Scout1_effect_header2:soccer                                            Шквал
+Ability_Scout1_IMPACT_effect:soccer                                             Накладывает на вашего героя эффект Маскировка на 5 секунд.\nНападение во время действия этого эффекта прерывает маскировку.
+Ability_Scout1_tooltip_flavor:soccer                                            	
+
+// Ability_Scout4
+Ability_Scout4_name:soccer                                                      Снайперский выстрел
+Ability_Scout4_description:soccer                                               Scout взводит арбалет и точно поражает одного воина тяжёлым болтом, который наносит урон и ненадолго замедляет цель.
+Ability_Scout4_description2:soccer                                              ...
+Ability_Scout4_description_simple:soccer                                        Выберите врага. Ваш герой будет готовиться к выстрелу 1 секунду, после этого он стреляет, наносит ^o75 ед. урона^* и ^oзамедляет её движение на 20%^* на 4 секунды.
+Ability_Scout4_effect_header:soccer                                             Эффекты Ранения
+Ability_Scout4_IMPACT_effect:soccer                                             Прицелившись, пускает арбалетный болт, который ненадолго оглушает цель и наносит ей 75 ед. урона. Накладывает на цель эффект Ранение на 4 секунды.\n\nЕсли во время прицеливания цель отдалилась от вашего героя больше, чем на {1800,2300,2800} ед., выстрел отменяется.
+Ability_Scout4_tooltip_flavor:soccer                                            	
+
+// Passive_Scout
+Ability_Scout3_description:soccer                                               Scout - мастер ближнего боя, что позволяет ему иногда разоружать противника, заставить его замолчать и наносить страшные удары открывшемуся врагу.
+Ability_Scout3_description_simple:soccer                                        Пока способность не на перезарядке, ваш герой наносит ^o1.4x критического урона^*, ^oобезвреживает врага и заставляет его замолчать на 3 секунды^*.\n\nАтака уменьшает перезарядку на 1 секунду.
+Ability_Scout3_ATTACK_IMPACT_effect:soccer                                      Пока способность не на перезарядке, ваш герой наносит ^o1.4x критического урона^*, ^oобезвреживает врага и заставляет его замолчать на 3 секунды^*.\n\nАтака уменьшает перезарядку на 1 секунду.
+
+// Hero_Scout
+Hero_Scout_role:soccer                                                          Пассивная способность: ^yРазоружение^*\nПока способность не на перезарядке, ваш герой наносит ^o1.4x критического урона^*, ^oобезвреживает врага и заставляет его замолчать на 3 секунды^*.\n\nАтака уменьшает перезарядку на 1 секунду.
+
+---------------------------------
+---------------------------------
+
+//KRAKEN
+
+// Ability_Kraken1
+Ability_Kraken1_name:soccer                                                     Поток
+Ability_Kraken1_description:soccer                                              Kraken выпускает струю морской воды и обливает врага. Поток наносит урон и замедляет.
+Ability_Kraken1_description_simple:soccer                                       Выберите вражеского воина, чтобы нанести ему ^o80 ед. урона^*, а также на 3 секунды ^oуменьшить его скорость движения на 40%^*.
+Ability_Kraken1_effect_header:soccer                                            Эффекты Потока
+Ability_Kraken1_IMPACT_effect:soccer                                            Наносит ^o80 ед. урона^* и накладывает на цель эффект Поток на 3 секунды
+Ability_Kraken1_tooltip_flavor:soccer                                           	
+
+// Ability_Kraken4
+Ability_Kraken4_name                                                            Release the Kraken!
+Ability_Kraken4_description:soccer                                              Всем мореходам снятся кошмары о его водянистой, бесформенной туше! Создаёт водоворот, который затягивает врагов и замедляет их.
+Ability_Kraken4_description_simple:soccer                                       Выберите место для создания водоворота на ^o3 секунды^*.\n\nВодоворот замедляет движение врагов и тянет их к центру.
+Ability_Kraken4_IMPACT_effect:soccer                                            С задержкой в 1 секунду создаёт водоворот радиусом 300 ед. в выбранном месте. Водоворот существует 3 секунды, ^oзамедляет движение врагов на 50%^* и тянет их к центру со скоростью 75 ед. в секунду.
+Ability_Kraken4_tooltip_flavor:soccer                                           	
+
+// Passive_Kraken
+Ability_Soccer_Kraken_Passive_name                                              Стихийная броня
+Ability_Soccer_Kraken_Passive_description                                       Снижает длительность отрицательных эффектов на Kraken.
+Ability_Soccer_Kraken_Passive_description_simple                                Оглушение и длительность отрицательных эффектов снижены на ^o30%^*.
+
+// Hero_Kraken
+Hero_Kraken_role:soccer                                                         Пассивная способность: ^yСтихийная броня^*\nОглушение и длительность отрицательных эффектов снижены на ^o30%^*.
+
+---------------------------------
+---------------------------------
+
+//SILHOUETTE
+
+// Ability_Silhouette2											
+Ability_Silhouette2_name:soccer                                                 Зацеп героя
+Ability_Silhouette2_description:soccer                                          Верная кама Silhouette позволяет ей прыгать между врагами или кидать их друг в друга.
+Ability_Silhouette2_description2:soccer                                         	
+Ability_Silhouette2_description_simple:soccer                                   Выберите место, куда полетит кама. Она зацепится за первого задетого вражеского героя и будет связана верёвкой с вашим героем на ^o6 секунд^*.\n\nПока Silhouette соединена с врагом, она получает ^o100 ед. скорости передвижения^*, а эта способность заменяется двумя навыками: ^oНебесный танец^* и ^oДревесная бола^*.\n\nОба навыка наносят ^o80 ед. урона врагам и оглушают их на 1 секунду^*.
+Ability_Silhouette2_effect_header:soccer                                        	
+Ability_Silhouette2_effect_header2:soccer                                       	
+Ability_Silhouette2_tooltip_flavor:soccer                                       	
+Ability_Silhouette2_IMPACT_effect:soccer                                        Выберите место, куда полетит кама. Она зацепится за первого задетого вражеского героя и будет связана верёвкой с вашим героем на 6 секунд. Верёвка порвётся, если отойти дальше, чем на 1800 ед.\n\nПока Silhouette соединена с врагом, она получает 100 ед. скорости передвижения, а эта способность заменяется двумя навыками: Небесный танец и Древесная бола.\n\nОба навыка наносят 80 ед. урона врагам и оглушают их на 1 секунду.
+
+// Ability_Silhouette2_Go
+Ability_Silhouette2_Go_name:soccer                                              Небесный танец				
+Ability_Silhouette2_Go_description                                              Больше всего Silhouette нравится танцевать на головах врагов, над которыми она пролетает.
+Ability_Silhouette2_Go_description_simple:soccer                                Используйте, чтобы притянуть Silhouette к вражескому герою с зацепившейся за него камой. Пролетая мимо врагов, ваш герой наносит им ^o80 ед. урона^* и ^oоглушает на {1} секунду^*.
+Ability_Silhouette2_Go_tooltip_flavor:soccer                                    	
+Ability_Silhouette2_Go_IMPACT_effect:soccer                                     Используйте, чтобы притянуть Silhouette к вражескому герою с зацепившейся за него камой. Пролетая мимо врагов, ваш герой наносит им ^o80 ед. урона^* и ^oоглушает на {1} секунду^*.
+
+// Ability_Silhouette2_Pull
+Ability_Silhouette2_Pull_name:soccer                                            Древесная бола						
+Ability_Silhouette2_Pull_description:soccer                                     Silhouette использует врага как снаряд, который тянет к себе.
+Ability_Silhouette2_Pull_description_simple:soccer                              Используйте, чтобы притянуть каму к вашему герою. Кама наносит ^o80 ед. урона^* задетым врагам и ^oоглушает на {1} секунду^*.
+Ability_Silhouette2_Pull_tooltip_flavor:soccer                                  	
+Ability_Silhouette2_Pull_IMPACT_effect:soccer                                   Используйте, чтобы притянуть каму к вашему герою. Кама наносит ^o80 ед. урона^* задетым врагам и ^oоглушает на {1} секунду^*.
+
+// Ability_Silhouette4
+Ability_Silhouette4_name:soccer                                                 Тень	
+Ability_Silhouette4_description:soccer                                          Silhouette создаёт свою точную иллюзорную копию. Более того, она может меняться местами с копией и запутывать врагов ещё больше!
+Ability_Silhouette4_description_simple:soccer                                   Используйте, чтобы снять все состояния с вашего героя и создать его тень, которая считается иллюзией, существует ^o20 секунд^*, получает ^o200%^* и наносит ^o10 ед. урона^*. \n\nУ Silhouette появляется дополнительная способность, чтобы меняться местами с тенью.
+Ability_Silhouette4_tooltip_flavor:soccer                                       	
+Ability_Silhouette4_IMPACT_effect:soccer                                        Используйте, чтобы снять все состояния с вашего героя и создать его тень, которая считается иллюзией, существует 20 секунд, получает 200% и наносит 10 ед. урона. \n\nУ Silhouette появляется дополнительная способность, чтобы меняться местами с тенью.
+
+// Ability_Silhouette4_Swap
+Ability_Silhouette4_Swap_name:soccer                                            Как ниндзя
+Ability_Silhouette4_Swap_description_simple:soccer                              Мгновенно меняет местами Silhouette и её тень.
+Ability_Silhouette4_Swap_tooltip_flavor:soccer                                  	
+Ability_Silhouette4_Swap_IMPACT_effect:soccer                                   Мгновенно меняет местами Silhouette и её тень.
+
+// Ability_Silhouette3			
+Ability_Silhouette3_description:soccer                                          Silhouette входит в раж и с каждым ударом всё сильнее ранит врага. Используя одну из способностей, она быстро наносит пару ударов противнику.
+Ability_Silhouette3_description_simple:soccer                                   Используя одну из способностей, Silhouette ^oускоряет атаку до 400 ед.^* на 2 атаки.
+Ability_Silhouette3_tooltip_flavor:soccer                                        
+Ability_Silhouette3_FRAME_effect:soccer                                         Используя одну из способностей, Silhouette ^oускоряет атаку до 400 ед.^* на 2 атаки.
+
+// State_Silhouette_Ability3
+State_Silhouette_Ability3_name:soccer                                           Безжалостный напор
+State_Silhouette_Ability3_description:soccer                                    Silhouette дважды быстро атакует.
+State_Silhouette_Ability3_description_simple:soccer                             Silhouette дважды быстро атакует.
+
+// Hero_Silhouette
+Hero_Silhouette_role:soccer                                                     Пассивная способность: ^yБезжалостный напор^*\nИспользуя одну из способностей, Silhouette ^oускоряет атаку до 400 ед.^* на 2 атаки.
+
+---------------------------------
+---------------------------------
+
+//RAMPAGE
+
+// Ability_Rampage1
+Ability_Rampage1_name:soccer                                                    Давка
+Ability_Rampage1_description:soccer                                             	
+Ability_Rampage1_description2:soccer                                            	
+Ability_Rampage1_description_simple:soccer                                      Выберите врага, чтобы помчаться к нему, на ^oскорости 200 ед.^*.\n\nПриблизившись к цели, носорог налетит на неё, нанеся ^o100 ед. урона^* и ^oотбросив на 150 ед.^* за ^o0.95 секунд^*. Прибавка к скорости передвижения сохраняется в течение 5 секунд после успешной атаки. 
+Ability_Rampage1_effect_header:soccer                                           Эффекты Давки
+Ability_Rampage1_IMPACT_effect:soccer                                           Ваш герой мчится на выбранного воина и накладывает на себя эффект Давка.\n\nДвижение прерывается, если ваш герой становится оглушён, обездвижен или стеснён в движениях.\n\nНаходясь в пределах 450 ед. от цели, Rampage бросается на неё, наносит 100 ед. урона при столкновении, оглушает и отбрасывает цель на 150 ед. за 0.95 сек.
+Ability_Rampage1_tooltip_flavor:soccer                                          	
+
+// State_Soccer_Rampage_Ability3_Movespeed	
+State_Soccer_Rampage_Ability3_Movespeed_name                                    Давка
+
+// Ability_Rampage3
+Ability_Rampage3_name:soccer                                                    Бодание
+Ability_Rampage3_description:soccer                                             Если способность не на перезарядке, атака ^oотбросит^* врага на 257 ед. за ^o0.95 секунд^*.
+Ability_Rampage3_description_simple:soccer                                      Если способность не на перезарядке, атака ^oотбросит^* врага на 257 ед. за ^o0.95 секунд^*.
+Ability_Rampage3_description2:soccer                                            Эта способность обладает свойствами ^yоглушения^*. Предметы и способности с такими свойствами имеют общую перезарядку.
+Ability_Rampage3_ATTACK_IMPACT_effect:soccer                                    Если способность не на перезарядке, ^oоглушает^* и отбрасывает врага на 257 ед. за ^o0.95 секунд^*.
+
+// Ability_Rampage4
+Ability_Rampage4_name:soccer                                                    Железный аркан
+Ability_Rampage4_description:soccer                                             Rampage может заарканить героя врага цепями, которые всегда возит с собой. Пойманный герой оглушается и некоторое время волочится вслед за скакуном Rampage.
+Ability_Rampage4_description_simple:soccer                                      Выберите героя врага, чтобы ^oволочить его за вашим героем 2.5 сек.^* В это время и цель и Rampage ^oнеуязвимы^*. По окончании действия эффекта, цель получает ослабевающее замедление и ошеломление на ^o1 секунду^*.
+Ability_Rampage4_description2:soccer                                            	
+Ability_Rampage4_effect_header:soccer                                           	
+Ability_Rampage4_tooltip_flavor:soccer                                          	
+Ability_Rampage4_FRAME_effect:soccer                                            	
+Ability_Rampage4_IMPACT_effect:soccer                                           Связывает цель на 2.5 секунды. В это время цель оглушена и волочится вслед за движущимся Rampage, и цель и Rampage ^oнеуязвимы^*.\n\nПо окончании действия эффекта, цель получает ослабевающее замедление и ошеломление на ^o1 секунду^*.\n\nЦепь лопается, если цель отдаляется от Rampage больше, чем на 575 ед.
+
+// State_Soccer_Rampage_Ability4
+State_Soccer_Rampage_Ability4_name                                              Железный аркан
+
+// Hero_Rampage
+Hero_Rampage_role:soccer                                                        Пассивная способность: ^yБодание^*\nЕсли способность не на перезарядке, атака ^oотбросит^* врага на 150 ед. за ^o0.95 секунд^*.
+
+---------------------------------
+---------------------------------
+
+//DRUNKEN_MASTER
+
+// Passive_DrunkenMaster
+Ability_Soccer_DrunkenMaster_Passive_name                                       Выпивка
+Ability_Soccer_DrunkenMaster_Passive_description                                Получает заряд Выпивки, максимум 4 заряда.\n\nЗаряды появляются каждые 4.5 секунды.
+Ability_Soccer_DrunkenMaster_Passive_description_simple                         Получает заряд Выпивки, максимум 4 заряда.\n\nЗаряды появляются каждые 4.5 секунды.
+
+// Ability_DrunkenMaster1
+Ability_DrunkenMaster1_name:soccer                                              Выходка
+Ability_DrunkenMaster1_description:soccer                                       	
+Ability_DrunkenMaster1_description2:soccer                                      	
+Ability_DrunkenMaster1_effect_header2:soccer                                    	
+Ability_DrunkenMaster1_tooltip_flavor:soccer                                    	
+Ability_DrunkenMaster1_description_simple:soccer                                Выберите врага, чтобы подскочить к нему и крепко наподдать на ^o70% от силы атаки вашего героя с прибавкой в 35 ед. урона^*. Затем ваш герой до 1.5 секунд кружит вокруг цели.\n\nПосле этого, либо при повторном использовании способности, он наносит ещё один сильный удар и отбрасывает цель на 400 ед. от себя.\n\n^255При 2 зарядах Выпивки^*:\n^oуменьшает скорость движения на 15% на 3 секунды.^*
+Ability_DrunkenMaster1_IMPACT_effect:soccer                                     Подскакивает к цели и атакует её, нанося 35 ед. урона + 70% от силы атаки вашего героя. Затем ваш герой до 1.5 секунд кружит вокруг цели, которая на это время оглушается.\n\nПосле этого, либо при повторном использовании способности, он наносит ещё один сильный удар и отбрасывает цель на 400 ед. от себя.\n\nПри 2 зарядах Выпивки: после второго удара уменьшает скорость движения на 15% на 3 секунды.
+
+// Ability_DrunkenMaster3
+Ability_DrunkenMaster3_name:soccer                                              Шатун
+Ability_DrunkenMaster3_description:soccer                                       Быстро и непредсказуемо движется в выбранном направлении, на время переставая быть целью.
+Ability_DrunkenMaster3_description2:soccer                                       
+Ability_DrunkenMaster3_effect_header:soccer                                      
+Ability_DrunkenMaster3_effect_header2:soccer                                     
+Ability_DrunkenMaster3_tooltip_flavor:soccer                                    	
+Ability_DrunkenMaster3_description_simple:soccer                                Выберите место, чтобы ваш герой туда прыгнул и нанес ^o40 ед. урона^* в области действия.\n\n^255При 2 зарядах Выпивки^*:\n^oскорость движения и сила атаки увеличиваются на 30 ед. на 4 секунды.^*
+Ability_DrunkenMaster3_IMPACT_effect:soccer                                     Выберите место, чтобы ваш герой туда прыгнул и нанес ^o40 ед. урона^* в области действия.\n\n^255При 2 зарядах Выпивки^*:\n^oскорость движения и сила атаки увеличиваются на 30 ед. на 4 секунды.^*
+
+// Hero_DrunkenMaster
+Hero_DrunkenMaster_role:soccer                                                  Пассивная способность: ^yВыпивка^*\nПолучает заряд Выпивки, максимум 4 заряда.\n\nЗаряды появляются каждые 4.5 секунды.
+
+---------------------------------
+---------------------------------
+
+//BUBBLES
+
+// Ability_Bubbles1
+Ability_Bubbles1_name:soccer                                                    Скольжение
+Ability_Bubbles1_description:soccer                                             Bubbles использует свой панцирь как точку телепортации. Панцирь скользит по врагам Bubble и ранит всех, кого встречает на пути. Bubbles может в любой момент телепортироваться к своему движущемуся панцирю.
+Ability_Bubbles1_description2:soccer                                            	
+Ability_Bubbles1_description_simple:soccer                                      Выберите место, чтобы запустить панцирь в том направлении. Панцирь наносит ^o70 ед. урона^* воинам, которых коснётся. Повторно используйте эту способность, чтобы переместить вашего героя к панцирю.
+Ability_Bubbles1_effect_header:soccer                                           	
+Ability_Bubbles1_effect_header2:soccer                                          	
+Ability_Bubbles1_tooltip_flavor:soccer                                          	
+Ability_Bubbles1_IMPACT_effect:soccer                                           Выберите место, чтобы запустить панцирь в том направлении. Панцирь наносит ^o70 ед. урона^* воинам, которых коснётся.\n\nПовторно используйте эту способность, чтобы переместить вашего героя к панцирю.
+
+// Ability_Bubbles3
+Ability_Bubbles3_name:soccer                                                    Я в домике
+Ability_Bubbles3_description:soccer                                             Bubbles прячется в свой зачарованный панцирь и перестаёт получать урон.\n
+Ability_Bubbles3_description2:soccer                                            	
+Ability_Bubbles3_description_simple:soccer                                      Если способность не на перезарядке, позволяет избежать урона.
+Ability_Bubbles3_effect_header:soccer                                           	
+Ability_Bubbles3_effect_header2:soccer                                          	
+Ability_Bubbles3_tooltip_flavor:soccer                                          	
+Ability_Bubbles3_IMPACT_effect:soccer                                           Если способность не на перезарядке, позволяет избежать урона.
+Ability_Bubbles3_CHANNEL_START_effect:soccer                                    	
+
+// Ability_Bubbles4
+Ability_Bubbles4_name:soccer                                                    Морские заросли
+Ability_Bubbles4_description:soccer                                             Из земли вырастают волшебные водоросли и оплетают героев врага. Пытаться убежать себе дороже - растения схватят беглецов, оглушат и нанесут им урон.
+Ability_Bubbles4_description2:soccer                                            ...
+Ability_Bubbles4_description_simple:soccer                                      Выберите место, чтобы нанести ^o40 ед. урона^* врагам в этой области и ^oоглушить их на {0.3} секунды^*.\n\nЕсли в течение 3 секунд противники попытаются отойти от центра действия способности дальше, чем на 600 ед., они получат ^o40 ед. урона^* и оглушение на 1 секунду.
+Ability_Bubbles4_effect_header:soccer                                           	
+Ability_Bubbles4_effect_header2:soccer                                          	
+Ability_Bubbles4_tooltip_flavor:soccer                                          	
+Ability_Bubbles4_IMPACT_effect:soccer                                           Наносит 40 ед. урона врагам в радиусе, оглушает их на 0.3 секунды и оплетает их водорослями на 3 секунды. Если противники попытаются отойти от центра действия способности, они получат 40 ед. урона и оглушение на 1 секунду.
+
+// State_Bubbles_Ability4
+State_Bubbles_Ability4_name:soccer                                              Морские заросли
+State_Bubbles_Ability4_description:soccer                                       Отдаление от центра Морских зарослей больше, чем на 600 ед., приведёт к получению 40 ед. урона и оглушению на 1 секунду.
+
+// Hero_Bubbles
+Hero_Bubbles_role:soccer                                                        Пассивная способность: ^yЯ в домике^*\nЕсли способность не на перезарядке, позволяет избежать урона.
+
+---------------------------------
+---------------------------------
+
+//GLADIATOR
+
+// Ability_Gladiator1
+Ability_Gladiator1_name:soccer                                                  Западня
+Ability_Gladiator1_description:soccer                                           На аренах гладиаторских боёв полным-полно западней и ловушек. Gladiator прекрасно усвоил уроки арен и пользуется ими повсюду, устраивая вскоре срабатывающие западни с шипами. Задетые шипами воины оглушаются, получают урон и замедляются.
+Ability_Gladiator1_description_simple:soccer                                    Выберите место под западню. С ^oзадержкой в 1.5 секунды^* враги в этом месте получат ^o120 ед. урона^*, будет подброшены в воздух на ^o1.5 секунды^* и ^oбудут двигаться медленнее на 30%^* на протяжении ^o1 секунды.^*
+Ability_Gladiator1_description2:soccer                                          	
+Ability_Gladiator1_effect_header:soccer                                         Эффекты На колу!
+Ability_Gladiator1_effect_header2:soccer                                        	
+Ability_Gladiator1_tooltip_flavor:soccer                                        	
+Ability_Gladiator1_IMPACT_effect:soccer                                         Создаёт в выбранном месте западню, которая видна только союзникам.\n\nЧерез 1.5 секунды западня наносит 120 ед. урона врагам в области действия, подбрасывает их в воздух на 1.5 секунды и накладывает эффект На колу! на 1 секунду.
+
+// Ability_Gladiator2
+Ability_Gladiator2_description:soccer                                           Для гладиаторов сражения один на один - дело привычное. Gladiator может в любой момент вызвать кого-то на поединок. Скоро вызванный воин вернётся на прежнее место, где его ждёт бой!\n\nСпособность телепортирует только вражеского воина с мячом.
+Ability_Gladiator2_description_simple:soccer                                    Выберите воина, чтобы вызвать его на поединок. Через ^o2 секунды^* или при повторном использовании способности цель вернётся на место, где была вызвана.\n\nСпособность телепортирует только вражеского воина с мячом.
+Ability_Gladiator2_description2:soccer                                          	
+Ability_Gladiator2_effect_header:soccer                                         	
+Ability_Gladiator2_effect_header2:soccer                                        	
+Ability_Gladiator2_tooltip_flavor:soccer                                        	
+Ability_Gladiator2_IMPACT_effect:soccer                                         Создаёт Колизей в месте, где находится цель. Накладывает на цель эффект Вызов на поединок на 2 секунды.\n\nПовторное использование способности досрочно переносит вызванного воина в Колизей.\n\nСпособность телепортирует только вражеского воина с мячом. 
+
+// Ability_Gladiator3
+Ability_Gladiator3_name:soccer                                                  Бичевание
+Ability_Gladiator3_description:soccer                                           Только слабаки умеют владеть всего одним видом оружия. Gladiator искусно обращается с разным оружием. Помимо меча, в бою он пользуется кнутом, которым легко достать врагов на расстоянии.
+Ability_Gladiator3_description_simple:soccer                                    Готовая к использованию способность пассивно ^oдобавляет 15 ед. урона^* к следующей атаке вашего героя и ^oрассечение с полным чистым уроном в радиусе 380 ед.^*
+Ability_Gladiator3_description2:soccer                                          	
+Ability_Gladiator3_effect_header:soccer                                         	
+Ability_Gladiator3_effect_header2:soccer                                        	
+Ability_Gladiator3_tooltip_flavor:soccer                                        	
+Ability_Gladiator3_FRAME_effect:soccer                                          	
+Ability_Gladiator3_ATTACK_START_effect:soccer                                   	
+Ability_Gladiator3_ATTACK_IMPACT_effect:soccer                                  Готовая к использованию способность добавляет 15 ед. урона.\n\nСледующий удар по воину врага наносит 100% чистого урона в радиусе 380 ед.
+
+// Hero_Gladiator
+Hero_Gladiator_role:soccer                                                      Пассивная способность: ^yБичевание^*\nГотовая к использованию способность пассивно ^oдобавляет 15 ед. урона^* к следующей атаке вашего героя и ^oрассечение с полным чистым уроном в радиусе 380 ед.^*
+
+---------------------------------
+---------------------------------
+
+//PYROMANCER
+
+// Ability_Pyromancer1
+Ability_Pyromancer1_name:soccer                                                 Полёт Феникса
+Ability_Pyromancer1_description:soccer                                          Pyromancer выпускает Феникса, который наносит урон оказавшимся на пути врагам.
+Ability_Pyromancer1_description_simple:soccer                                   Выберите место, в которое полетит огненный Феникс. По пути он наносит ^o70 ед. урона^* задетым врагам.
+Ability_Pyromancer1_effect_header:soccer                                        Status Effect(s)
+Ability_Pyromancer1_IMPACT_effect:soccer                                        Наносит 70 ед. урона целям на линии длиной 600 ед. Область поражения постепенно расширяется с 70 до 275 ед.
+Ability_Pyromancer1_tooltip_flavor:soccer                                       	
+
+// Ability_Pyromancer2
+Ability_Pyromancer2_name:soccer                                                 Огнедышащий дракон
+Ability_Pyromancer2_description:soccer                                          Pyromancer призывает в выбранное место могучего огнедышащего дракона, который наносит урон врагам в области действия и оглушает их.
+Ability_Pyromancer2_description_simple:soccer                                   Выберите место, чтобы нанести ^o70 ед. урона^* врагам в области действия и ^oоглушить их на 1.3 секунды^*.
+Ability_Pyromancer2_effect_header:soccer                                        Эффекты
+Ability_Pyromancer2_IMPACT_effect:soccer                                        С задержкой в 0.5 секунды наносит 70 ед. урона целям в области действия и оглушает их на 1.3 секунды.
+Ability_Pyromancer2_tooltip_flavor:soccer                                       	
+
+// Passive_Pyromancer
+Ability_Soccer_Pyromancer_Passive_name                                          Пылающий удар
+Ability_Soccer_Pyromancer_Passive_description                                   При каждом попадании заклинанием, Pyromancer получает заряд положительного эффекта, который усиливает его характеристики.\n\n^o+5 скорости атаки\n+14 скорости передвижения\n+5 урона^*\n\nМаксимум 5 зарядов.\nДлительность 12 секунд.
+Ability_Soccer_Pyromancer_Passive_description_simple                            При каждом попадании заклинанием, Pyromancer получает заряд положительного эффекта, который усиливает его характеристики.\n\n^o+5 скорости атаки\n+14 скорости передвижения\n+5 урона^*\n\nМаксимум 5 зарядов.\nДлительность 12 секунд.
+
+// Hero_Pyromancer
+Hero_Pyromancer_role:soccer                                                     Пассивная способность: ^yПылающий удар^*\nПри каждом попадании заклинанием, Pyromancer получает заряд положительного эффекта, который усиливает его характеристики.\n\n^o+5 скорости атаки\n+14 скорости передвижения\n+5 урона^*\n\nМаксимум 5 зарядов.\nДлительность 12 секунд.
+
+---------------------------------
+---------------------------------
+
+//KING_KLOUT
+
+// Ability_KingKlout1
+Ability_KingKlout1_name:soccer                                                  Швырни гоблина
+Ability_KingKlout1_description:soccer                                           За King Klout следуют 7 подручных, которых он может бросать во врагов.
+Ability_KingKlout1_description_simple:soccer                                    При изучении ваш герой получает до ^o7 подручных^*, которые следуют за господином. Каждые 8 секунд приходит 1 новый подручный. Выберите врага, чтобы швырнуть в него гоблина с одним из следующих эффектов:\n\n- ^bСИНИЙ^*: Наносит ^o25 ед. урона^* и по цепочке задевает ближайших врагов.\n- ^rКРАСНЫЙ^*: Наносит ^o15 ед. урона^* и дополнительно ^o25 ед. урона^* с ^oзамедлением движения на 10%^* на {3} секунды в области (ослабевающий эффект).\n- ^gЗЕЛЁНЫЙ^*: Действует так же, как и и ^rКРАСНЫЙ^*, но отскакивает ещё к двум ближайшим врагам.
+Ability_KingKlout1_effect_header:soccer                                         Эффекты Пылающего подручного
+Ability_KingKlout1_effect_header2:soccer                                        Эффекты Замедляющего подручного
+Ability_KingKlout1_IMPACT_effect:soccer                                         При изучении ваш герой получает до ^o7 подручных^*, которые следуют за господином. Каждые 8 секунд приходит 1 новый подручный. Выберите врага, чтобы швырнуть в него гоблина с одним из следующих эффектов:\n\n- ^bСИНИЙ^*: Наносит ^o25 ед. урона^* и по цепочке задевает ближайших врагов.\n- ^rКРАСНЫЙ^*: Наносит ^o15 ед. урона^* и дополнительно ^o25 ед. урона^* с ^oзамедлением движения на 10%^* на {3} секунды в области (ослабевающий эффект).\n- ^gЗЕЛЁНЫЙ^*: Действует так же, как и и ^rКРАСНЫЙ^*, но отскакивает ещё к двум ближайшим врагам.\n\n-Если рядом с вашим героем умирает герой врага и у King Klout нет 7 подручных, рядом появится новый ^rКРАСНЫЙ^* подручный, или один из существующих подручных будет улучшен.\n-Каждый 5-й появившийся подручный оказывается ^rКРАСНЫМ^*.\n-При появлении ^bСИНЕГО ^*подручного есть 10%-ный шанс, что этот подручный будет улучшен до ^rКРАСНОГО^*.\n-При появлении ^rКРАСНОГО^* подручного есть 25%-ный шанс, что этот подручный будет улучшен до ^gЗЕЛЁНОГО^*.
+Ability_KingKlout1_tooltip_flavor:soccer                                        	
+
+// Ability_KingKlout3
+Ability_KingKlout3_name:soccer                                                  Орава
+Ability_KingKlout3_description:soccer                                           Откуда у King Klout столько подручных? Секрет в том, что он может превратить в гоблина кого угодно.
+Ability_KingKlout3_effect_header:soccer                                         Эффекты Оравы
+Ability_KingKlout3_effect_header2:soccer                                        Эффекты Оравы
+Ability_KingKlout3_description_simple:soccer                                    Любой наносимый вашим героем урон (кроме постепенного) накладывает на цели заряды Орава. Каждый такой заряд уменьшает ^oмагическую броню на 0.4 ед.^*.\n\nКогда на герое врага накапливается ^o{5} зарядов^* Оравы, он получает ^o20 ед. урона^*, превращается и замедляется на ^o1.5 секунды^*, а один из подручных King Klout улучшается.
+Ability_KingKlout3_ATTACK_IMPACT_effect:soccer                                  Любой наносимый вашим героем урон (кроме постепенного) накладывает на цели заряды Орава. Каждый такой заряд уменьшает ^oмагическую броню на 0.4 ед.^*.\n\nКогда на герое врага накапливается ^o{5} зарядов^* Оравы, он получает ^o20 ед. урона^*, превращается и замедляется на ^o1.5 секунды^*, а один из подручных King Klout улучшается.\n\n-После превращения, цель в течение 5 секунд не может получать заряды Оравы.\n-При превращении героя врага, если у King Klout нет 7 подручных, рядом появится новый ^rКРАСНЫЙ^* подручный, или один из существующих подручных будет улучшен.
+Ability_KingKlout3_tooltip_flavor:soccer                                        	
+
+// Ability_KingKlout4
+Ability_KingKlout4_name:soccer                                                  Проявление силы
+Ability_KingKlout4_description:soccer                                           King Klout выпускает шар страха в заданном направлении и может перемещаться к нему.
+Ability_KingKlout4_description_simple:soccer                                    Выберите направление, в котором полетит шар энергии и поразит врагов на линии. Каждый задетый враг получает до ^o20 ед. урона^*.\n\nВ любой момент ваш герой может снова использовать эту способность и телепортироваться к шару, отправив к прошлому месту своего пребывания новое ^oПроявление силы^*.
+Ability_KingKlout4_effect_header:soccer                                         Эффекты Проявления силы
+Ability_KingKlout4_IMPACT_effect:soccer                                         Выберите направление, в котором полетит шар энергии и поразит врагов на линии. Каждый задетый враг получает до ^o20 ед. урона^*.\n\nВ любой момент ваш герой может снова использовать эту способность и телепортироваться к шару, отправив к прошлому месту своего пребывания новое ^oПроявление силы^*.
+
+// Hero_KingKlout
+Hero_KingKlout_role:soccer                                                      Пассивная способность: ^yОрава^*\nЛюбой наносимый вашим героем урон (кроме постепенного) накладывает на цели заряды Орава. Каждый такой заряд уменьшает ^oмагическую броню на 0.4 ед.^*.\n\nКогда на герое врага накапливается ^o{5} зарядов^* Оравы, он получает ^o20 ед. урона^*, превращается и замедляется на ^o1.5 секунды^*, а один из подручных King Klout улучшается.
+
+---------------------------------
+---------------------------------
+
+//ZEPHYR
+
+// Ability_Zephyr1
+Ability_Zephyr1_name:soccer                                                     Порыв ветра
+Ability_Zephyr1_description:soccer                                              Zephyr создаёт порыв ветра, который дует в выбранном направлении, отталкивает задетых врагов и наносит им урон.
+Ability_Zephyr1_description_simple:soccer                                       Щёлкните мышкой и поведите её указателем в нужном направлении, чтобы направить туда порыв ветра.\n\nПорыв отталкивает врагов, ненадолго оглушает их, наносит ^o70 ед. урона^* и выбивает у них мяч.
+Ability_Zephyr1_effect_header:soccer                                            Эффекты Порыва ветра
+Ability_Zephyr1_IMPACT_effect:soccer                                            Все войска в расширяющейся области действия отталкиваются в направлении дующего ветра, получают ^o70 ед. урона^* и оглушаются на 0.1 секунды. Порыв ветра также выбивает мяч у врагов. 
+Ability_Zephyr1_tooltip_flavor:soccer                                           	
+
+// Ability_Zephyr4
+Ability_Zephyr4_name:soccer                                                     Тайфун
+Ability_Zephyr4_description:soccer                                              Zephyr создаёт могучий тайфун, который наносит урон всем врагам в области действия в замедляет их движение. Чем ближе враг к центру тайфуна, тем больше он пострадает.
+Ability_Zephyr4_description_simple:soccer                                       Выберите место, чтобы создать тайфун. Застигнутые тайфуном враги получают до ^o30 ед. урона в секунду^* и ^oтеряют до 90% скорости движения^*. Чем ближе к центру тайфуна, тем больше страдает цель.\n\nТайфун длится ^o6 секунд^*.
+Ability_Zephyr4_effect_header:soccer                                            Эффекты Жестоких ветров
+Ability_Zephyr4_IMPACT_effect:soccer                                            Создает тайфун в выбранном месте. Активный тайфун вешает заряды Жестоких ветров на врагов в пределах 550 ед. от центра.\n\nКоличество зарядов зависит от удалённости врага от центра тайфуна: чем ближе к центру, тем больше зарядов.\n\nВраги в пределах 60 ед. от центра двигаются с минимальной скоростью и получают максимальный урон независимо от количества зарядов.\n\nТайфун длится 6 секунд.
+Ability_Zephyr4_tooltip_flavor:soccer                                           	
+
+// Passive_Zephyr
+Ability_Soccer_ZephyrPassive_name                                               Мастерство ветра
+Ability_Soccer_ZephyrPassive_description                                        Во время рывка, Zephyr получает ^oхождение сквозь войска^* и ^g15 регенерации здоровья^*.
+Ability_Soccer_ZephyrPassive_description_simple                                 Во время рывка, Zephyr получает ^oхождение сквозь войска^* и ^g15 регенерации здоровья^*.
+
+// State_Zephyr_Ability4_Debuff
+State_Soccer_Zephyr_Ability4_Debuff_name                                        Жестокие ветра
+State_Soccer_Zephyr_Ability4_Debuff_FRAME_effect                                Наносит до 30 ед. урона в секунду.
+
+// Hero_Zephyr
+Hero_Zephyr_role:soccer                                                         Пассивная способность: ^yМастерство ветра^*\nВо время рывка, Zephyr получает ^oхождение сквозь войска^* и ^g15 регенерации здоровья^*.
+
+---------------------------------
+---------------------------------
+
+//KANE
+
+// Ability_Kane1
+Ability_Kane1_description:soccer                                                Kane делает выпад большим мечом, ранит врагов и притягивает их к себе.
+Ability_Kane1_description_simple:soccer                                         Используйте, чтобы ваш герой махнул мечом перед собой, нанося ^o100^* ед. урона.\n\nЗадетые враги ^oзамедляются на 40% на 4 секунды^* и притягиваются к вашему герою.
+Ability_Kane1_IMPACT_effect:soccer                                              Используйте, чтобы ваш герой махнул мечом перед собой, нанося ^o100^* ед. урона на расстоянии до 450 ед.\n\nЗадетые враги ^oзамедляются на 40% на 4 секунды^* и притягиваются к вашему герою.
+
+// Ability_Kane2
+Ability_Kane2_name:soccer                                                       Баланс сил
+Ability_Kane2_description:soccer                                                Kane постиг искусство нападения и защиты. Быстро меняя тактику боя, он проламывает оборону врага или уходит в защиту и восстанавливает силы.
+Ability_Kane2_description_simple:soccer                                         Переключитесь в режим Защиты или Нападения:\n\nНападение: при атаке время перезарядки Ловли снижено на ^g1.6 секунды^*.\n\nЗащита: увеличение ^gмаксимума здоровья на 250 ед.^* а ^gскорости передвижения на 30 ед.^*, при этом ^rсила атаки снижена на 15 ед.^*, а ^rскорость атаки на 25 ед^*.
+Ability_Kane2_description_simple:Kane_Offense_Soccer                            При атаке время перезарядки Ловли снижено на ^g1.6 секунды^*.\n\nЩёлкните, чтобы переключиться на ^oЗащиту^*.
+Ability_Kane2_description_simple:Kane_Defense_Soccer                            Увеличение ^gмаксимума здоровья на 250 ед.^* а ^gскорости передвижения на 30 ед.^*, при этом ^rсила атаки снижена на 15 ед.^*, а ^rскорость атаки на 25 ед^*.\n\nЩёлкните, чтобы переключиться на ^oНападение^.
+Ability_Kane2_effect_header:soccer                                              	
+Ability_Kane2_IMPACT_effect:soccer                                              Защита: Увеличение ^gмаксимума здоровья на 250 ед.^* а ^gскорости передвижения на 30 ед.^*, при этом ^rсила атаки снижена на 15 ед.^*, а ^rскорость атаки на 25 ед^*.\n\nНападение: При атаке время перезарядки Ловли снижено на ^g1.6 секунды^*.
+Ability_Kane2_IMPACT_effect:Kane_Offense_Soccer                                 При атаке время перезарядки Ловли снижено на ^g1.6 секунды^*.\n\nЩёлкните, чтобы переключиться на ^oЗащиту^*.
+Ability_Kane2_IMPACT_effect:Kane_Defense_Soccer                                 Увеличение ^gмаксимума здоровья на 250 ед.^* а ^gскорости передвижения на 30 ед.^*, при этом ^rсила атаки снижена на 15 ед.^*, а ^rскорость атаки на 25 ед^*.\n\nЩёлкните, чтобы переключиться на ^oНападение^.
+Ability_Kane2_tooltip_flavor:soccer                                             	
+
+// Ability_Soccer_Kane2_Tooltip
+Ability_Soccer_Kane2_Tooltip_name                                               Баланс сил
+Ability_Soccer_Kane2_Tooltip_description                                        Kane постиг искусство нападения и защиты. Быстро меняя тактику боя, он проламывает оборону врага или уходит в защиту и восстанавливает силы.
+Ability_Soccer_Kane2_Tooltip_description_simple                                 Kane постиг искусство нападения и защиты. Быстро меняя тактику боя, он проламывает оборону врага или уходит в защиту и восстанавливает силы.
+
+
+// Passive_Kane
+Ability_Soccer_KanePassive_name                                                 Жажда крови
+Ability_Soccer_KanePassive_description                                          Атаки исцеляют на ^o5% от максимума здоровья^*.
+Ability_Soccer_KanePassive_description_simple                                   Атаки исцеляют на ^o5% от максимума здоровья^*.
+
+// Hero_Kane
+Hero_Kane_role:soccer                                                           Пассивная способность: ^yЖажда крови^*\nАтаки исцеляют на ^o5% от максимума здоровья^*.
+
+---------------------------------
+---------------------------------
+
+//LODESTONE
+
+// Ability_Lodestone1
+Ability_Lodestone1_name:soccer                                                  Ракетный бур
+Ability_Lodestone1_description:soccer                                           Lodestone выстреливает бур в выбранную область, раня и замедляя врагов. После этого он может притянуть себя к буру.
+Ability_Lodestone1_description_simple:soccer                                    Выберите область. Ваш герой выстрелит буром, который наносит ^o50 ед. урона^* и ^oзамедляет движение целей на 60%^* на 2 секунды.\n\nПовторное использование переносит вашего героя к буру. Прыжок наносит ^o25 ед. урона^* задетым врагам и ^oоглушает их на 1.5 секунды^*.
+Ability_Lodestone1_IMPACT_effect:soccer                                         Выстреливает бур в выбранное место, наносит 50 ед. урона целям в области действия и замедляет их на 60% на 2 секунды. Бур втыкается на месте приземления.\n\nПовторное использование переносит вашего героя к буру с перелётом в 300 ед. Задетые враги получают 25 ед. урона и оглушаются на 1.5 секунды. Если цель уже получила урон от бура, во второй раз она получает только половину урона.\n\nБур возвращается к вашему герою, если расстояние между ними превысило 1200 ед.
+
+// Ability_Lodestone2
+Ability_Lodestone2_name:soccer                                                  Удар головой
+Ability_Lodestone2_description:soccer                                           Lodestone с размаху бьёт врага головой, но и сам получает урон.
+Ability_Lodestone2_description_simple:soccer                                    Выберите врага, чтобы нанести ему и вашему герою ^o75 ед. урона^*, при этом враг ^oпугается на 1 секунду^o.\n\nЕсли у врага был мяч при получении удара, он его бросит.
+Ability_Lodestone2_IMPACT_effect:soccer                                         Выберите врага, чтобы нанести ему и вашему герою 75 ед. урона, при этом враг пугается на 1 секунду. Способность не может убить вашего героя.\n\nЕсли у врага был мяч при получении удара, он его бросит.
+
+// Passive_Lodestone
+Ability_Soccer_LodestonePassive_name                                            Энергоплиты
+Ability_Soccer_LodestonePassive_description                                     При получении авто-атаки, Lodestone восстанавливает ^g5 ед. энергии^*.
+Ability_Soccer_LodestonePassive_description_simple                              При получении авто-атаки, Lodestone восстанавливает ^g5 ед. энергии^*.
+
+// Hero_Lodestone
+Hero_Lodestone_role:soccer                                                      Пассивная способность: ^yЭнергоплиты^*\nПри получении авто-атаки, Lodestone восстанавливает ^g5 ед. энергии^*.
+
+---------------------------------
+---------------------------------
+
+// End - do not delete this line

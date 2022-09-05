@@ -1,0 +1,609 @@
+﻿// Ability_DevX1_Chain
+Ability_DevX1_Chain_name                                                        Ланцюговий гак
+Ability_DevX1_Chain_description                                                 Devourer запускає свій гак у вказаного воїна або місце.
+Ability_DevX1_Chain_description_simple                                          Devourer запускає свій гак у вказаного воїна або місце.
+Ability_DevX1_Chain_name:superhook_elec                                         Супергак: ^yЕлектрошок^*
+Ability_DevX1_Chain_description:superhook_elec                                  Devourer запускає свій гак у вказаного воїна або місце.\n\n^yЕфект Супергака^*: при попаданні на ворога миттєво вбиває його.\n\nВикористовується один раз, зникає при смерті.
+Ability_DevX1_Chain_description_simple:superhook_elec                           Devourer запускає свій гак у вказаного воїна або місце.\n\n^yЕфект Супергака^*: при попаданні на ворога миттєво вбиває його.\n\nВикористовується один раз, зникає при смерті.
+Ability_DevX1_Chain_tooltip_flavor                                              Иди сюда!
+Ability_DevX1_Chain_name:superhook_split                                        Суперкрюк: ^oТройной крюк^*
+Ability_DevX1_Chain_description:superhook_split                                 Devourer запускає свій гак у вказаного воїна або місце.\n\n^yЕфект Супергака^*: запускає 2 додаткових гака в різних напрямках.\n\nВикористовується один раз, зникає при смерті.
+Ability_DevX1_Chain_description_simple:superhook_split                          Devourer запускає свій гак у вказаного воїна або місце.\n\n^yЕфект Супергака^*: запускає 2 додаткових гака в різних напрямках.\n\nВикористовується один раз, зникає при смерті.
+Ability_DevX1_Chain_tooltip_flavor                                              Іди сюди!
+
+// Shop
+
+Building_HeroWars_Shop_name                                                     Магазин
+
+// Runes
+
+// Rune Names
+
+// Gadget_HeroWars_GoldRune
+Gadget_HeroWars_GoldRune_name                                                   Золота руна
+
+// Gadget_HeroWars_BoomRune
+Gadget_HeroWars_BoomRune_name                                                   Вибухова руна
+
+State_HeroWars_Boom_name                                                        Ходяча бомба!
+State_HeroWars_Boom_description                                                 При вибуху завдає ^o600 Урону^* та ^*оглушує ворога на 2.5 сек.^* в ^oрадіусі 570 од.^*.\n\nБомба вибухає, навіть якщо гравець вмирає.
+
+State_HeroWars_BoomStun_name                                                    Наслідки вибуху!
+State_HeroWars_BoomStun_description                                             Оглушений на ^o2.5 сек.^
+
+// Gadget_HeroWars_ElecRune
+Gadget_HeroWars_ElecRune_name                                                   Руна електрошоку
+
+State_HeroWars_ElectricHook_name                                                Супергак: Електрошок
+State_HeroWars_ElectricHook_description                                         При попаданні на ворога миттєво вбиває його.\n\nВикористовується один раз, зникає при смерті.
+State_HeroWars_ElectricHook_description_simple                                  При попаданні на ворога миттєво вбиває його.\n\nВикористовується один раз, зникає при смерті.
+
+// Gadget_HeroWars_SplitHookRune
+Gadget_HeroWars_SplitHookRune_name                                              Руна потрійного гака
+
+State_HeroWars_SplitHook_name                                                   Супергак: Потрійний гак
+State_HeroWars_SplitHook_description                                            Запускає 3 гака в різних напрямках.\n\nВикористовується один раз, зникає при смерті.
+State_HeroWars_SplitHook_description_simple                                     Запускає 3 гака в різних напрямках.\n\nВикористовується один раз, зникає при смерті.
+
+// Gadget_HeroWars_TimeRune
+Gadget_HeroWars_TimeRune_name                                                   Руна часу
+
+State_HeroWars_Time_Ally_name                                                   Руна часу
+State_HeroWars_Time_Ally_description                                            Союзник захопив ^gруну часу!^*
+
+
+
+
+
+// Items
+
+// Item_HeroWars_HookMult
+Item_HeroWars_HookMult_name                                                     Гак: Більше відскоків
+Item_HeroWars_HookMult_description                                              Кожен відскок гака збільшує дальність його польоту на ^o750^*, аж до ^o2000^*.
+Item_HeroWars_HookMult_description_simple                                       Кожен відскок гака збільшує дальність його польоту на ^o750^*, аж до ^o2000^*.
+Item_HeroWars_HookMult_shop_categories
+Item_HeroWars_HookMult_IMPACT_effect                                            Кожен відскок гака збільшує дальність його польоту на ^o750^*, аж до ^o2000^*.
+
+// Item_HeroWars_FireBrand
+Item_HeroWars_FireBrand_name                                                    Гак: Вогняний гак
+Item_HeroWars_FireBrand_description                                             При попаданні гака у ворога, під іншими супротивниками в ^oрадіусі 250^* з'являється дедалі ширша область.\n\nЗа 2 секунди область розширюється до радіуса 250 і вибухає.  
+Item_HeroWars_FireBrand_description_simple                                      Створює під ворогами область, яка вибухає, завдає урон і накладає ефект страху.
+Item_HeroWars_FireBrand_search_terms                                            firehook
+Item_HeroWars_FireBrand_shop_flavor                                             	
+Item_HeroWars_FireBrand_shop_categories                                         	
+Item_HeroWars_FireBrand_FRAME_effect                                            Після вибуху: вороги в радіусі вибуху отримують ефект ^oстраху на 2.5 сек.^*, ^o30% від їх максимального здоров'я спалюється^*.
+
+State_HeroWars_FireBrand_Debuff_name                                            Горіння від вогняного гака
+State_HeroWars_FireBrand_Debuff_description                                     Страх\nСпалювання ^o30% від Вашого максимального здоров'я^* протягом 2.5 секунд.
+
+// Item_HeroWars_FrostBrand
+Item_HeroWars_FrostBrand_name                                                   Гак: Крижаний гак
+Item_HeroWars_FrostBrand_description                                            При попаданні гака у ворога, створює крижане кільце ^oрадіусом 450^* навколо цілі.
+Item_HeroWars_FrostBrand_description_simple                                     При попаданні на ворога уповільнює і завдає урон всім найближчим противникам.
+Item_HeroWars_FrostBrand_search_terms                                           icehook,frosthook
+Item_HeroWars_FrostBrand_shop_flavor                                            	
+Item_HeroWars_FrostBrand_shop_categories                                        	
+Item_HeroWars_FrostBrand_FRAME_effect                                           Крижане кільце: завдає ^o50 урону^*, накладає ^o45% уповільнення швидкості пересування^* всім ворогам в радіусі ^o450 на 6 секунд^*.
+
+State_HeroWars_FrostBrand_Freeze_name                                           Крижаний гак
+State_HeroWars_FrostBrand_Freeze_description                                    	
+
+// Item_HeroWars_LightBrand
+Item_HeroWars_LightBrand_name                                                   Гак: Світловий гак
+Item_HeroWars_LightBrand_description                                            Пасивні бонуси: Збільшує радіус огляду навколо гака до 600 од.\n\n^oПри включенні^* Ваш гак буде ^oпроходити крізь союзників^*.\n\nНе можна активувати, поки гак у польоті.
+Item_HeroWars_LightBrand_description:enabled_lighthook                          Пасивні бонуси: Ваш гак ^gпроходить крізь союзників^*. Збільшує радіус огляду навколо гака до 600 од.\n\n^oПри відключенні^* гак зможе ^oзнову притягувати союзників^*.\n\nНе можна активувати, поки гак у польоті. Не можна продати, поки включений ефект предмета.
+Item_HeroWars_LightBrand_description_simple                                     При включенні ваш гак буде ^oпроходити крізь союзників^*.\nзбільшує радіус огляду навколо гака.
+Item_HeroWars_LightBrand_search_terms                                           lighthook
+Item_HeroWars_LightBrand_shop_flavor                                            	
+Item_HeroWars_LightBrand_shop_categories                                        	
+Item_HeroWars_LightBrand_FRAME_effect                                           	
+
+// Item_HeroWars_BlindGrenade
+Item_HeroWars_BlindGrenade_name                                                 Витрата: Осліплююча граната
+Item_HeroWars_BlindGrenade_description                                          	
+Item_HeroWars_BlindGrenade_description_simple                                   Кидає гранату, яка ^oзнижує радіус огляду ворогів^* та ^oвиключає їх радіус огляду з командного^*.
+Item_HeroWars_BlindGrenade_shop_categories                                      	
+Item_HeroWars_BlindGrenade_IMPACT_effect                                        Кидає гранату, яка ^oзнижує радіус огляду ворогів^* в радіусі та ^oвиключає їх радіус огляду з командного^* на 8 секунд.\n\nГраната летить 3 секунди.\n\nМаксимум 3 шт. при першій покупці; ви можете зберігати 3 шт. 30-секундна перезарядка перед кожною наступною покупкою.
+
+State_HeroWars_BlindGrenade_name                                                Осліплений
+State_HeroWars_BlindGrenade_description                                         Потрапив під дію Осліплюючою гранати.\n\nРадіус огляду зменшений до ^o300^* од.
+State_HeroWars_BlindGrenade_description_simple                                  Потрапив під дію Осліплюючою гранати.\n\nРадіус огляду зменшений до ^o300^* од.
+
+// Item_HeroWars_Mine
+Item_HeroWars_Mine_name                                                         Витрата: Фугас
+Item_HeroWars_Mine_description                                                  Встановлює не атакуючу міну перед собою, яка стає активною через 5 секунд. Ворог, який увійшов в ^oрадіус 250^* від міни, активує її. Якщо міна не була активована протягом 30 секунд - вона зникає.\n\nОдночасно на мапі можуть бути активними не більше 3 мін, встановлених одним гравцем.\n\nМіни можна підкинути Кам'яної рукою.\n\nМаксимум 3 шт. при першій покупці; ви можете зберігати 3 шт. 30-секундна перезарядка перед кожною наступною покупкою.
+Item_HeroWars_Mine_description_simple                                           Встановлює на землю міну, яка вибухає при контакті з ворогом.
+Item_HeroWars_Mine_search_terms                                                 mine
+Item_HeroWars_Mine_shop_flavor                                                  	
+Item_HeroWars_Mine_shop_categories                                              	
+Item_HeroWars_Mine_FRAME_effect                                                 Вибух фугаса: Завдає ^o12% від максимального здоров'я ворога^* усім противникам в радіусі ^o250^*.
+
+Gadget_HeroWars_Mine_name                                                       Фугас
+	
+// Item_HeroWars_BackHook
+Item_HeroWars_BackHook_name                                                     Гак: Зворотнє захоплення
+Item_HeroWars_BackHook_description                                              Devourer отримує постійний ефект ^oЗворотнього захоплення^*, що дозволяє гакові ппритягувати героїв у момент повернення до нього.
+Item_HeroWars_BackHook_description_simple                                       У момент повернення гак захопить і притягне героїв до Devourer.
+Item_HeroWars_BackHook_shop_categories                                          	
+Item_HeroWars_BackHook_IMPACT_effect                                            Devourer отримує постійний ефект ^oЗворотнього захоплення^*, що дозволяє гакові ппритягувати героїв у момент повернення до нього.
+
+// Item_HeroWars_Claw
+Item_HeroWars_Claw_name                                                         Гак: Кровотеча
+Item_HeroWars_Claw_description                                                  Спіймані на гак вороги стікають кров'ю.\n^rМоже бути покращено 3 рази.^*\nУрон рівний 11%/15%/19% від пройденої відстані.
+Item_HeroWars_Claw_description_simple                                           Спіймані на гак вороги стікають кров'ю.\n^rМоже бути покращено 3 рази.^*\nУрон рівний 11%/15%/19% від пройденої відстані.
+Item_HeroWars_Claw_shop_categories                                              	
+Item_HeroWars_Claw_IMPACT_effect                                                Спіймані на гак вороги стікають кров'ю.\n^rМоже бути покращено 3 рази.^*\nУрон рівний 11%/15%/19% від пройденої відстані.
+
+Item_HeroWars_Claw_name:charge1                                                 Кровотеча (Рівень 1)
+Item_HeroWars_Claw_description:charge1                                          Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o11% від пройденої відстані^*.
+Item_HeroWars_Claw_description_simple:charge1                                   Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o11% від пройденої відстані^*.
+Item_HeroWars_Claw_shop_categories:charge1                                      	
+Item_HeroWars_Claw_IMPACT_effect:charge1                                        Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o11% від пройденої відстані^*.
+
+Item_HeroWars_Claw_name:charge2                                                 Кровотеча (Рівень 2)
+Item_HeroWars_Claw_description:charge2                                          Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o15% від пройденої відстані^*.
+Item_HeroWars_Claw_description_simple:charge2                                   Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o15% від пройденої відстані^*.
+Item_HeroWars_Claw_shop_categories:charge2                                      	
+Item_HeroWars_Claw_IMPACT_effect:charge2                                        Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o15% від пройденої відстані^*.
+
+Item_HeroWars_Claw_name:charge3                                                 Кровотеча (Рівень 3)
+Item_HeroWars_Claw_description:charge3                                          Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o19% від пройденої відстані^*.
+Item_HeroWars_Claw_description_simple:charge3                                   Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o19% від пройденої відстані^*.
+Item_HeroWars_Claw_shop_categories:charge3                                      	
+Item_HeroWars_Claw_IMPACT_effect:charge3                                        Спіймані на гак вороги стікають кров'ю та отримують урон, рівний ^o19% від пройденої відстані^*.
+
+// Item_HeroWars_Grapple
+Item_HeroWars_Grapple_name                                                      Предмет: Кішка
+Item_HeroWars_Grapple_description                                               	
+Item_HeroWars_Grapple_description_simple                                        Кидає "кішку", що притягне Вас до цілі або до стовпів.
+Item_HeroWars_Grapple_shop_categories                                           	
+Item_HeroWars_Grapple_IMPACT_effect                                             При активації кидає "кішку", яка ^oпритягне Вас до цілі або до стовпів.^*.\n\nВикористовуйте "кішку" для порятунку, якщо вас притягує або підкидає ворог.
+
+// Item_HeroWars_Jaw
+Item_HeroWars_Jaw_name                                                          Гак: Викрадення життя
+Item_HeroWars_Jaw_description                                                   Зцілює вас при попаданні у ворога.\n^rМоже бути покращено 3 рази.^*\Зцілює на 25%/35%/45%.
+Item_HeroWars_Jaw_description_simple                                            Зцілює вас при попаданні у ворога.\n^rМоже бути покращено 3 рази.*\Зцілює на 25%/35%/45%.
+Item_HeroWars_Jaw_shop_categories                                               	
+Item_HeroWars_Jaw_IMPACT_effect                                                 Зцілює вас при попаданні у ворога.\n^rМоже бути покращено 3 рази.^*\Зцілює на 25%/35%/45%.
+
+Item_HeroWars_Jaw_name:charge1                                                  Викрадення життя (Рівень 1)
+Item_HeroWars_Jaw_description:charge1                                           Зцілює Вас на ^g25%^* від нанесеного гаком урону.
+Item_HeroWars_Jaw_description_simple:charge1                                    Зцілює Вас на ^g25%^* від нанесеного гаком урону.
+Item_HeroWars_Jaw_shop_categories:charge1                                       	
+Item_HeroWars_Jaw_IMPACT_effect:charge1                                         Зцілює Вас на ^g25%^* від нанесеного гаком урону.
+
+Item_HeroWars_Jaw_name:charge2                                                  Викрадення життя (Рівень 2)
+Item_HeroWars_Jaw_description:charge2                                           Зцілює Вас на ^g35%^* від нанесеного гаком урону.
+Item_HeroWars_Jaw_description_simple:charge2                                    Зцілює Вас на ^g35%^* від нанесеного гаком урону.
+Item_HeroWars_Jaw_shop_categories:charge2                                       	
+Item_HeroWars_Jaw_IMPACT_effect:charge2                                         Зцілює Вас на ^g35%^* від нанесеного гаком урону.
+
+Item_HeroWars_Jaw_name:charge3                                                  Викрадення життя (Рівень 3)
+Item_HeroWars_Jaw_description:charge3                                           Зцілює Вас на ^g45%^* від нанесеного гаком урону.
+Item_HeroWars_Jaw_description_simple:charge3                                    Зцілює Вас на ^g45%^* від нанесеного гаком урону.
+Item_HeroWars_Jaw_shop_categories:charge3                                       	
+Item_HeroWars_Jaw_IMPACT_effect:charge3                                         Зцілює Вас на ^g45%^* від нанесеного гаком урону.
+
+// Item_HeroWars_Paw
+Item_HeroWars_Paw_name                                                          Герой: Швидкість
+Item_HeroWars_Paw_description                                                   Збільшує ^oшвидкість пересування на 12^*.\n^rМоже бути покращено 5 разів.^*
+Item_HeroWars_Paw_description_simple                                            Збільшує ^oшвидкість пересування на 12^*.\n^rМоже бути покращено 5 разів.^*
+Item_HeroWars_Paw_shop_categories                                               	
+Item_HeroWars_Paw_IMPACT_effect                                                 Збільшує ^oшвидкість пересування на 12^*.\n^rМоже бути покращено 5 разів.^*
+
+// Item_HeroWars_HealWard
+Item_HeroWars_HealWard_name                                                     Витрата: Тотем-цілитель
+Item_HeroWars_HealWard_description                                              	
+Item_HeroWars_HealWard_description_simple                                       Встановлює тотем, який зцілює найближчих союзників.
+Item_HeroWars_HealWard_shop_categories                                          	
+Item_HeroWars_HealWard_IMPACT_effect                                            Встановлює тотем, який ^gзцілює найближчих союзників^* на ^o8% від їх максимального здоров'я в секунду^*.\n\nВороги знищують тотем з одного удару.\n\nМаксимум 3 шт. при першій покупці; ви можете зберігати 3 шт. 30-секундна перезарядка перед кожною наступною покупкою.\n\n
+
+Gadget_HeroWars_HealWard_name                                                   Тотем-цілитель
+State_HeroWars_HealWard_name                                                    Тотем-цілитель
+State_HeroWars_HealWard_description                                             Зцілює на ^g8% від Вашого максимального здоров'я^* в секунду.
+
+// Item_HeroWars_TinyArm
+Item_HeroWars_TinyArm_name                                                      Предмет: Кам'яна рука
+Item_HeroWars_TinyArm_description                                               	
+Item_HeroWars_TinyArm_description_simple                                        Кидає найближчого героя у вказане місце.
+Item_HeroWars_TinyArm_shop_categories                                           	
+Item_HeroWars_TinyArm_IMPACT_effect                                             Кидає найближчого героя у вказане місце.\n\nзавдає ^o50 урону^* всім ворогам в ^oрадіусі 300^*.\n\nМоже підкидати міни, в цьому випадку час перезарядки - 3 секунди.\n\nЯкщо ціль кинута за межі карти, вона телепортується назад в те місце, звідки була кинута.
+
+// Item_HeroWars_TomeOfPower
+Item_HeroWars_TomeOfPower_name                                                  Герой: Рівень
+Item_HeroWars_TomeOfPower_description                                           При покупці збільшує ^oрівень Вашого героя на 1^*.
+Item_HeroWars_TomeOfPower_description_simple                                    При покупці збільшує ^oрівень Вашого героя на 1^*.
+Item_HeroWars_TomeOfPower_shop_categories                                       	
+Item_HeroWars_TomeOfPower_IMPACT_effect                                         	
+
+// Item_HeroWars_Totem
+Item_HeroWars_Totem_name                                                        Предмет: Захисна стіна
+Item_HeroWars_Totem_description                                                 	
+Item_HeroWars_Totem_description_simple                                          Створює ^oнепрохідну і відштовхуючу гаки^* стіну.
+Item_HeroWars_Totem_shop_categories                                             	
+Item_HeroWars_Totem_IMPACT_effect                                               Створює ^oнепрохідну і відштовхуючу гаки^* стіну.\n\nЧас дії - 9 секунд.
+
+// Item_HeroWars_Ward
+Item_HeroWars_Ward_name                                                         Витрата: Сигнальна ракета
+Item_HeroWars_Ward_description                                                  	
+Item_HeroWars_Ward_description_simple                                           Випущена в вказане місце сигнальна ракета розчищає зону видимості.
+Item_HeroWars_Ward_shop_categories                                              	
+Item_HeroWars_Ward_IMPACT_effect                                                Випускає ракету, яка ^oозабезпечує огляд зазначеної області в радіусі 700^* на ^o30 секунд^*.\n\nМаксимум 3 шт. при першій покупці; ви можете зберігати 3 шт. 30-секундна перезарядка перед кожною наступною покупкою.
+
+
+
+
+// States
+State_HeroWars_Shop_name                                                        Магазин
+State_HeroWars_Shop_description                                                 Купити предмети
+State_HeroWars_Shop_description_simple                                          Купити предмети
+
+State_HeroWars_StartGame_name                                                   Підготовка до гри
+State_HeroWars_StartGame_description                                            15 секунд до початку гри!
+State_HeroWars_StartGame_description_simple                                     15 секунд до початку гри!
+
+State_HeroWars_Respawn_name                                                     Щит відродження
+State_HeroWars_Respawn_description                                              Повний захист
+State_HeroWars_Respawn_description_simple                                       Повний захист
+
+
+
+
+
+// Hook Upgrades
+
+// Ability_DevX_HookLevelUp_Damage
+Ability_DevX_HookLevelUp_Damage_name                                            Покращення гака (Урон)
+Ability_DevX_HookLevelUp_Damage_description                                     Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description_simple                              Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_effect_header                                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o0	
+
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_1                           Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_3                           Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_4                           Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_5                           Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_6                           Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_7                           Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_8                           Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_9                           Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_10                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_11                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_12                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_13                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_14                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_15                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_16                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_17                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_18                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_19                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_20                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_21                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_22                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_23                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_24                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_25                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_26                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_27                          Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o380
+
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_1                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_2                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_3                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_4                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_5                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_6                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_7                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_8                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_9                    Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_10                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_11                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_12                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_13                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_14                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_15                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_16                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_17                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_18                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_19                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_20                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_21                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_22                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_23                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_24                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_25                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_26                   Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o380
+
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_1                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_2                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_3                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_4                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_5                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_6                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_7                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_8                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_9                         Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_10                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_11                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_12                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_13                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_14                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_15                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_16                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_17                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_18                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_19                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_20                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_21                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_22                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_23                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_24                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_25                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_26                        Збільшення урону гака на ^g15^* за рівень.\n\nПоточний урон: ^w235^* + ^o380
+
+// Ability_DevX_HookLevelUp_Range
+Ability_DevX_HookLevelUp_Range_name                                             Покращення гака (Дальність)
+Ability_DevX_HookLevelUp_Range_description                                      Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description_simple                               Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_effect_header                                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o0
+
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_1                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_2                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_3                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_4                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_5                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_6                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_7                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_8                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_9                            Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_10                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_11                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_12                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_13                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_14                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_15                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_16                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_17                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_18                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_19                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_20                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_21                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_22                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_23                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_24                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_25                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_26                           Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o3000
+
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_1                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_2                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_3                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_4                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_5                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_6                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_7                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_8                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_9                     Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_10                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_11                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_12                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_13                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_14                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_15                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_16                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_17                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_18                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_19                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_20                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_21                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_22                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_23                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_24                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_25                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_26                    Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o3000
+
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_1                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_2                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_3                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_4                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_5                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_6                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_7                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_8                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_9                          Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_10                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_11                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_12                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_13                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_14                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_15                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_16                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_17                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_18                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_19                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_20                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_21                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_22                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_23                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_24                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_25                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_26                         Збільшення дальності польоту гака на ^g120^* за рівень.\n\nПоточна дальність: ^w1600^* + ^o3000
+
+// Ability_DevX_HookLevelUp_Speed
+Ability_DevX_HookLevelUp_Speed_name                                             Покращення гака (Швидкість)
+Ability_DevX_HookLevelUp_Speed_description                                      Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_header                                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+
+// Ability_DevX_HookLevelUp_Speed
+Ability_DevX_HookLevelUp_Speed_name                                             Покращення гака (Швидкість)
+Ability_DevX_HookLevelUp_Speed_description                                      Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_header                                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_1                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_2                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_3                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_4                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_5                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_6                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_7                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_8                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_9                            Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_10                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_11                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_12                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_13                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_14                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_15                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_16                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_17                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_18                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_19                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_20                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_21                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_22                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_23                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_24                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_25                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_26                           Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o1000
+
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_1                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_2                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_3                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_4                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_5                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_6                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_7                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_8                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_9                     Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_10                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_11                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_12                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_13                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_14                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_15                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_16                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_17                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_18                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_19                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_20                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_21                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_22                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_23                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_24                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_25                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_26                    Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o1000
+
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_1                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_2                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_3                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_4                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_5                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_6                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_7                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_8                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_9                               Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_10                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_11                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_12                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_13                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_14                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_15                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_16                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_17                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_18                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_19                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_20                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_21                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_22                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_23                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_24                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_25                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_26                              Збільшення швидкості гака на ^g40^* за рівень.\n\nПоточна швидкість: ^w1100^* + ^o1000
+
+// Ability_DevX_HookLevelUp_Width
+Ability_DevX_HookLevelUp_Width_name                                             Покращення гака (Радіус)
+Ability_DevX_HookLevelUp_Width_description                                      Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description_simple                               Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_effect_header                                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o0
+
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_1                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_2                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_3                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_4                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_5                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_6                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_7                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_8                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_9                            Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_10                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_11                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_12                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_13                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_14                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_15                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_16                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_17                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_18                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_19                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_20                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_21                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_22                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_23                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_24                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_25                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_26                           Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o125
+
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_1                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_2                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_3                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_4                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_5                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_6                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_7                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_8                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_9                     Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_10                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_11                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_12                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_13                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_14                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_15                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_16                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_17                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_18                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_19                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_20                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_21                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_22                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_23                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_24                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_25                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_26                    Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o125
+
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_1                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_2                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_3                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_4                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_5                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_6                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_7                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_8                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_9                          Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_10                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_11                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_12                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_13                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_14                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_15                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_16                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_17                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_18                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_19                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_20                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_21                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_22                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_23                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_24                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_25                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_26                         Збільшення радіусу захоплення гака на ^g5^* на рівень.\n\nПоточний радіус захоплення: ^w70^* + ^o125
+
+// END DO NOT REMOVE ETC 

@@ -1,0 +1,40 @@
+// ---------- Team Deathmatch (TDM) ----------
+
+
+// This string change is to rename the Automed Courier ability entity in Team Deathmatch only to show the channel bar that represents the pre-round timer
+Ability_AutomatedCourier_name:team_deathmatch					Tiempo de Preparación
+
+// State_Team_Deathmatch_Burn
+State_Team_Deathmatch_Burn_name									Muerte Súbita - Queimar
+State_Team_Deathmatch_Burn_FRAME_effect							Reduciendo 3% de su Vida Máxima por segundo
+
+// State_Team_Deathmatch_Reveal
+State_Team_Deathmatch_Reveal_name								Muerte Súbita - Revelado
+
+
+
+
+// Ability_Ophelia2
+Ability_Ophelia2_description:team_deathmatch					Ophelia juza una unidad enemiga.
+Ability_Ophelia2_description_simple:team_deathmatch				Selecciona una unidad enemiga para Juzgarla, inflingiendo ^o{75,150,225,300}de Daño Mágico^*.
+Ability_Ophelia2_IMPACT_effect:team_deathmatch					Selecciona una unidad enemiga para Juzgarla, inflingiendo ^o{75,150,225,300}de Daño Mágico^*.
+
+
+// Ability_Ra4_Deathmatch
+Ability_Ra4_Deathmatch_name										Pyroclasmic Rebirth
+Ability_Ra4_Deathmatch_description								Al morir, Amun-Ra gasta Maná para revivirse a sí mismo, restaurando sus Puntos de Vida basado en cuánta Maná gastó y activando Ignite. Amun-Ra inflige daño extra cuando revive.
+Ability_Ra4_Deathmatch_description_simple						Al morir, Amun-Ra gastará hasta un 50% de su Maná Máxima para revivirse a sí mismo, activando ^oIgnite^* y restaurando hasta ^o60% de su Vida Máxima^* basado en el porcentaje de Maná gastada. Infliges ^o{10,20,30}% de daño extra^* durante 10 segundos después de revivir.
+Ability_Ra4_Deathmatch_IMPACT_effect							Al morir, gastas hasta un 50% de tu Maná Máxima para revivirte a ti mismo. Después de 3 segundos, revivirás con ^o10% de Vida + 1% de Vida por cada % de Maná gastado^*, hasta un ^o60% de Vida Máxima^*, y activando Ignite. Infliges ^o{10,20,30}%^* de daño extra durante 10 segundos después de revivir.
+Ability_Ra4_Deathmatch_tooltip_flavor							Round Two, FIGHT!
+
+
+
+// Building_TDM_Legion
+Building_TDM_Legion_name										Engranajes Intemporales (Legion)
+
+// Building_TDM_Hellbourne
+Building_TDM_Hellbourne_name									Engranajes Intemporales (Hellbourne)
+
+
+
+// End - do not delete this line
