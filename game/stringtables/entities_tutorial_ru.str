@@ -1,0 +1,63 @@
+﻿// Tutorial
+
+// Ability_PyromancerTutorial1
+Ability_PyromancerTutorial1_name                                                Phoenix Wave
+Ability_PyromancerTutorial1_description                                         Pyromancer выпускает феникса, наносящего урон врагам, оказавшимся на его пути.
+Ability_PyromancerTutorial1_description_simple                                  Укажите место, чтобы выпустить в этом направлении волну огня, наносящую ^o{100,170,240,310} ед. магического урона^* врагам, оказавшимся на ее пути.
+Ability_PyromancerTutorial1_effect_header                                       Эффект(ы) статуса
+Ability_PyromancerTutorial1_IMPACT_effect                                       Наносит {100,170,240,310} ед. магического урона врагам, оказавшимся на пути.
+Ability_PyromancerTutorial1_IMPACT_effect:Alt2                                  Наносит {100,170,240,310} ед. магического урона врагам, оказавшимся на пути.
+Ability_PyromancerTutorial1_tooltip_flavor                                      Содержимое может быть горячим!
+
+// Ability_PyromancerTutorial2
+Ability_PyromancerTutorial2_name                                                Dragonfire
+Ability_PyromancerTutorial2_description                                         Pyromancer вызывает в указанной области могучего огненного дракона, наносящего урон и оглушающего находящихся в области врагов.
+Ability_PyromancerTutorial2_description_simple                                  Укажите область, чтобы нанести ^o{90,150,210,280}^* ед. магического урона и оглушить на 1.6 сек. врагов, находящихся в этой области.
+Ability_PyromancerTutorial2_effect_header                                       Эффект(ы) статуса
+Ability_PyromancerTutorial2_IMPACT_effect                                       Наносит {90,150,210,280} ед. магического урона и оглушает на 1.6 сек. каждого врага, находящегося в указанной области.
+Ability_PyromancerTutorial2_IMPACT_effect:Alt2                                  Наносит {90,150,210,280} ед. магического урона и оглушает на 1.6 сек. каждого врага, находящегося в указанной области.
+Ability_PyromancerTutorial2_tooltip_flavor                                      Мана? Есть.\nПерезарядка? Есть.\nСпособность вызывать дракона?\n\nБессценна.
+
+// Ability_PyromancerTutorial3
+Ability_PyromancerTutorial3_name                                                Fervor
+Ability_PyromancerTutorial3_description                                         Научившись контролировать огонь внутри себя, Pyromancer увеличивает свою скорость произношения заклинаний, атаки, и перемещения после применения заклинания, одновременно кратковременно поджигая врагов, пораженных заклинанием или атаками.
+Ability_PyromancerTutorial3_description_simple                                  Пассивно дает ^o{10,20,30,40} к скорости произнесения заклинаний^*. При произнесении заклинания дает суммирующийся бонус ^oв {2,3,4,5}% к скорости перемещения^* и ^o{20,30,40,50}% к скорости атаки^* на 6 секунд.\n\nКаждый атакованный враг получает заряд. Pyromancer наносит ^o{1,2,3,4} магического урона^* за каждый заряд на враге.
+Ability_PyromancerTutorial3_effect_header                                       Эффекты Fervor
+Ability_PyromancerTutorial3_effect_header2                                      Эффекты Burning!
+Ability_PyromancerTutorial3_IMPACT_effect                                       Применяет на цель Burning! на 3 сек., атаковав ее физически или с помощью заклинаний.
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect                               Применяет на себя Fervor на 6 сек. и добавляет 1 заряд. Максимум 3 заряда.
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect:Alt2                          Применяет на себя Fervor на 6 сек. и добавляет 1 заряд. Максимум 3 заряда.
+Ability_PyromancerTutorial3_tooltip_flavor                                      Гори, детка, гори!
+
+// State_PyromancerTutorial_Ability3
+State_PyromancerTutorial_Ability3_name                                          Fervor
+
+// State_PyromancerTutorial_Ability3_Burning
+State_PyromancerTutorial_Ability3_Burning_name                                  Burning!
+State_PyromancerTutorial_Ability3_Burning_FRAME_effect                          {1,2,3,4} ед. магического урона в секунду за каждый заряд
+
+// State_PyromancerTutorial_Ability3_Burning_Building
+State_PyromancerTutorial_Ability3_Burning_Building_name                         Burning!
+State_PyromancerTutorial_Ability3_Burning_Building_FRAME_effect                 {1,2,3,4} ед. магического урона в секунду за каждый заряд
+
+// Ability_PyromancerTutorial4
+Ability_PyromancerTutorial4_name                                                Blazing Strike
+Ability_PyromancerTutorial4_description                                         Используя дарованную Солом силу, Pyromancer бросает в указанного врага пылающий огненный шар, наносящий огромный урон.
+Ability_PyromancerTutorial4_description2                                        ^930Эта способность может быть ^930улучшена ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*^*\n\n^gЭффект предмета:^* Увеличивает урон с {450,675,950} до {650,875,1150} ед.
+Ability_PyromancerTutorial4_description_simple                                  Укажите вражеского воина, чтобы нанести ему ^o{450,675,950} ед. магического урона^*.\n\n^gStaff of the Master^* увеличивает наносимый урон^*.
+Ability_PyromancerTutorial4_effect_header                                       Эффект(ы) статуса
+Ability_PyromancerTutorial4_IMPACT_effect                                       Наносит цели {450,675,950} ед. магического урона.
+Ability_PyromancerTutorial4_IMPACT_effect:Alt2                                  Наносит цели {450,675,950} ед. магического урона.
+Ability_PyromancerTutorial4_IMPACT_effect:Alt3                                  Наносит цели {450,675,950} ед. магического урона.
+Ability_PyromancerTutorial4_name:ult_boost                                      Inferno Strike ^g(Улучшено)^*
+Ability_PyromancerTutorial4_description2:ult_boost                              Эта способность была улучшена Staff of the Master.
+Ability_PyromancerTutorial4_description_simple:ult_boost                        Укажите вражеского воина, чтобы нанести ему ^g{650,875,1150}^* ед. магического урона.
+Ability_PyromancerTutorial4_IMPACT_effect:ult_boost                             Наносит цели ^g{650,875,1150}^* ед. магического урона.
+Ability_PyromancerTutorial4_tooltip_flavor                                      Это вроде подачи мяча в бейсболе. Огненного.
+
+// Hero_PyromancerTutorial
+Hero_PyromancerTutorial_name                                                    Pyromancer
+Hero_PyromancerTutorial_description                                             Столетиями, Священный Орден признавал Отмеченными огнем, мужчин и женщин, наполненных пылкой, даже слегка безумной, преданностью Солу. Отмеченными огнем, служащих в Легионе, обычно называют Pyromancer за их власть над огнем, и существ, сильно приспособившихся к этому элементу.
+Hero_PyromancerTutorial_role                                                    Pyromancer - магический керри, наносящий большой урон единовременно. Он может испепелить врага в считанные секунды, используя его три заклинания. Так как оглушение от Dragonfire имеет задержку, лучшей парой ему будет еще один герой с заклинанием оглушения на расстоянии.
+
+// End - do not delete this line

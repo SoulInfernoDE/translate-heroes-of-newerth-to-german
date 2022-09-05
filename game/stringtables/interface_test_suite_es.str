@@ -1,0 +1,526 @@
+// Test Suite
+test_suite_title				Test+++
+test_suite_title_advanced		Test+++ (Avanzado)
+
+test_suite_title_items			Items
+test_suite_title_spawner		Entidades
+test_suite_more					Opc. Extra
+test_suite_evenmore 			Más
+test_server_team1				Legion
+test_server_team2				Hellbourne
+test_server_team0				Espectador
+test_server_team_passive		Pasivo
+test_server_team_neutral		Neutral
+test_server_hidden 				Oculto
+test_server_set 				Establecer
+
+test_suite_keybind				Presiona cualquier tecla para enlazar...
+test_suite_cancel_keybind		Cancelar Tecla de Enlace
+test_suite_clear_keybind		Borrar Tecla de Enlace
+
+test_client_general				General
+test_client_audit				Auditoría
+test_client_models				Vistas previas del Modelo
+test_client_audit_log			Registro de Auditoría
+test_client_audit_clear			Borrar el Registro de Auditoría
+test_client_audit_save			Guardar el Registro de Auditoría
+test_client_cancel				Cancelar
+test_client_search				Buscar...
+test_client_none 				Ninguno
+
+test_server_go_advanced			Modo Avanzado
+test_server_units				Seleccionar Unidades
+test_server_all_units			Todo
+test_server_refresh				Refrescar
+test_server_auto_refresh		Auto-Refrescar
+test_server_kill				Eliminar
+test_server_delete				Eliminar Unidad
+test_server_exp					Exp:
+test_server_level				Nivel:
+test_server_reset				Reiniciar
+test_server_clear_charges		Borrar cargas
+test_server_max_charges			Cargas Máx
+test_server_gold				Oro:
+test_server_respawn_hero		Revivir Héroe del Jugador
+test_server_respawn_heroes		Revivir Todos los Héroes
+test_server_fow					Inhabilitar Niebla de Guerra
+test_server_cam_distance		Desbloquear la Distancia de la Cámara
+test_server_creeps				Creeps
+test_server_powerups			Potenciadores
+test_server_trees				Árboles
+test_server_neutrals			Neutrales
+test_server_bosses				Jefe
+test_server_kill_neutrals		Matar Neutrales
+test_server_critters			Critters
+test_server_spawn 				Reaparecer
+test_server_remove 				Retirar
+test_server_max_hpmp			Max HP/MP
+test_server_max_attackspeed		Max Velocidad de Ataque
+test_server_max_regen			Max Regeneración
+test_server_max_movespeed		Max Velocidad de Movimiento
+test_server_items				Item Spawner
+test_server_entities			Entity Spawner
+test_server_replay_record		Grabar Repetición
+test_server_pause				Pausar Servidor
+test_server_day_freeze			Congelar Día/Noche
+test_server_day_toggle			Cambiar Día/Noche
+test_server_advanced_dawn		Anticipar Día/Noche
+test_server_max 				MAX
+test_server_game_speed			Velocidad de Juego
+test_server_time				Tiempo del Servidor
+test_server_sell_items			Vender Items del Inventario
+test_server_replace_names		Reemplazar Nombres
+test_server_spawner_hold		Orden de Espera al Reaparecer
+test_server_spawner_alts		Reaparecer todos los Alts
+test_server_refresh_entities	Refrescar Lista
+test_server_refresh_items		Refrescar Lista
+test_server_join_team			Cambiar Equipo
+test_server_team 				Equipo: 
+test_server_owner 				Propietario:
+test_server_spawner_control		Controlable
+test_server_spawner_ally_own	Aliado
+test_server_spawner_owned		Obtenido
+test_server_spawner_self_own	Sí mismo
+test_server_spawner_enemy_own	Enemigo
+test_server_spawner_unowned		No obtenido
+test_server_modifiers_states	Modificadores de Unidad/Estados
+test_server_modifiers 			Modificadores
+test_server_states 				Estados
+test_server_add_persistent		Agregar Persistente
+test_server_set_active 			Establecer Activo
+test_server_remove_modifier		Eliminar Selección
+test_server_clear_modifiers	 	Borrar Modificadores
+test_server_global_modifiers	Modificadores Globales
+test_server_add_global			Agregar Modificador
+test_server_set_hero			Establecer Héroe 
+test_server_clear_states		Borrar estado
+test_server_apply_state			Aplicar estado
+test_server_remove_state 		Eliminar Selección
+
+test_server_spawner_tip			Si una entidad es propiedad tuya, siempre será controlabe.\nSi una entitad no es propiedad tuya pero es controlable también podrá ser controlada por otro jugador en tu equipo.\nSi una entidad no es propiedad tuya y no es controlable entonces será propiedad de un jugador en el equipo opuesto.\n\nEsto es una distinción importante ya que los Hero Kills solo contarán si el héroe no es objeto tuyo e incontrolable (de lo contrario, estarías denegando el héroe de un compañero).
+
+test_server_state_avatar		Clave del Avatar:
+test_server_state_duration		Duración (ms):
+test_server_state_name			Nombre:
+test_server_state_level			Nivel: {nivel}
+test_server_state_lifetime		Tiempo de vida:
+test_server_state_expiretime	Tiempo de expiración:
+test_server_state_liferemaining	Tiempo Restante: {tiempo}
+test_server_state_charges		Cargas: {cargas}
+test_server_state_hidden		Oculto: {oculto}
+
+test_server_item_list_empty		Sin items, se han cargado las entidades?
+
+test_server_units_tip			Cosas que afectan a las unidades seleccionadas actualmente.\n\nHabilitar la casilla de 'Todo' hará que afecten a todas las unidades seleccionadas en lugar de solo a la principal.
+test_server_modifiers_tip 		Permite ver los modificadores que se encuentran actualmente en la entidad seleccionada.\n\nTambién puedes agregar/eliminar modificadores a cualquier entidad/grupo de entidades.\n\nLas letras [G,A,P] al lado de cada nombre de modificador indica si el modificador es un modificador global, activo o persistente. Si el modificador no es ninguno de los anteriores, lo más probable es que venga de otra entidad (como una habilidad/item).
+test_server_modifiers2_tip		Escribe el nombre del modificador que quieras agregar aquí.\n\nEstablecerlo activo hará que el modificador dado sea el modificador activo en la entidad (solo se puede tener un modificador activo).\n\nAl agregar Persisten añadirá el modificador a la entidad.\n\nNote: Al eliminar los modificadores solo se eliminarán los modificadores en la entidad, no se borrarán los modificadores de las otras entidades/herramientas o modificadores globales.
+test_server_states_tip			Permite ver los estados en la entidad actualmente seleccionada, así como información sobre cada estado.\n\nTambién puedes aplicar/remover un estado en cualquier entidad/grupo de entidades.
+test_server_states2_tip			Escribe el nombre del estado que quieres agregar aquí. Al aplicar un estado con una duración negativa hará que el estado nunca caduque.
+test_server_global_mods_tip		Permite ver los modificadores globales que están activos en el juego, también puedes agregar y eliminar modificadores globales.
+
+test_server_record_start		Grabación de la repetición ^gempezada!^*
+test_server_record_end			Grabación de la repetición ^rdetenida!^*
+
+test_server_products			Productos
+test_server_auto_refresh_list	Lista de actualización automática
+test_server_add_entity			Agregar Entidades
+test_server_remove_entity		Eliminar (Lista)
+test_server_entity_action_list	Lista de Acciones de la entidad
+test_server_clear_list			Eliminar Lista
+test_server_remove_selected		Remover (Juego)
+test_server_animation_viewer	Reproductor de Animación
+test_server_play_anim			Poner animación
+test_server_effect_player		Efecto Reproductor
+test_server_play_effect			Poner efecto
+test_server_refresh_effects		Actualizar lista
+test_server_effect_source		Fuente:
+test_server_effect_target		Objetivo:
+test_server_effet_lifetime		Vida:
+test_server_use_selected		Usar Entidad Seleccionada
+test_server_ignore_culling		Ignorar el Sacrificio
+
+test_server_effect_player_tip	El objetivo y la fuente del efecto se pueden establecer en el ID de una entidad. Si no se proporciona una ID, el efecto simplemente no tendrá un objetivo/origen válido (lo más probable es que necesite al menos un objetivo).\n\nSi se desea que el efecto dure para siempre, debe dejar el tiempo de vida en blanco o utilizar un tiempo de vida de 0.
+test_server_no_anims			La entidad seleccionada no tiene animaciones.
+test_server_no_effects			No se encontraron efectos...
+
+test_server_units_title			Unidades
+test_server_order_move			Orden de Movimiento
+test_server_order_attack		Orden de Ataque
+test_server_order_hold			Orden de Espera
+test_server_order_tool			Ordenar Herramienta
+test_server_damage				Daño:
+test_server_stun 				Aturdir:
+test_server_silence 			Silenciar:
+test_server_fear 				Atemorizar:
+test_server_add_lifetime		Agregar Vida:
+test_server_set_owner			Establecer dueño:
+test_server_set_position		Establecer posición
+test_server_set_team			Establecer equipo
+
+test_server_set_position_tip	Mueve instantáneamente las entidades a la posición dada. \ En \ Este botón utiliza el campo 'Pos X' y 'Pos Y'.
+test_server_order_move_tip		Ordena a las entidades moverse a la posición dada.\n\nEste botón hace uso del campo 'Pos X' y 'Pos Y', también usa la casilla de verificación 'Direct Pathing' para habilitar/deshabilitar el Direct Pathing.
+test_server_order_attack_tip	Ordena a las entidades atacar a la entidad objetivo dada.\n\nEste botón hace uso del campo 'Objetivo', también usa la casilla de verificación 'Direccionamiento directo' para habilitar / deshabilitar el enrutamiento directo
+test_server_order_hold_tip		Ordena a las entidades a esperar.\n\nEste botón no hace uso de ninguno de los campos adicionales.
+test_server_order_tool_tip		Ordena a las entidades a usar una de sus herramientas.\n\nEste botón hace uso de los campos 'Pos X' y 'Pos Y', puede usar el campo 'Objetivo' y usa el campo secundario (uso secundario). Los campos requeridos y sus efectos dependen de la herramienta utilizada.
+
+test_server_pos_x				Pos X:
+test_server_pos_y				Pos Y:
+test_server_pos_z				Pos Z:
+test_server_tool_index			Índice de herramientas:
+test_server_source_id			Fuente:
+test_server_target_id			Objetivo:
+test_server_direct				Direct Pathing
+test_server_duration 			Duración:
+test_server_secondary			Secundario
+test_server_get_pos_click		Click Pos
+
+test_server_entity_tip 			Habilitar la casilla de 'Todo' hará que cualquier funcionalidad se ejecute en todas las entidades seleccionadas, así como en todas las entidades en la lista de acciones de la entidad.\n\nSi 'Todo' está deshabilitado, solo la entidad principal seleccionada se verá afectada.\n\nLas combinaciones de teclas que se encuentran al lado sirven para actualizar y eliminar se pueden ser establecidas al hacer clic en las teclas. Puede borrar los enlaces haciendo clic derecho sobre las teclas.\nNote: Estos enlaces pueden sobrescribir los enlaces existentes a la funcionalidad del juego.
+test_server_entity_options_tip	These are additional options that are used in combination with orders that can be issued in the left area of this panel. The tooltip by each order button will tell you which of these are used by it and what they correspond to.
+
+test_server_taunts				Taunts
+test_server_wards				Wards
+test_server_announcers			Anunciadores
+test_server_couriers			Couriers
+
+test_server_do_taunt			Taunt!
+test_server_do_taunt_kill		Kill
+test_server_do_announcer		Anunciar!
+
+test_server_announcers_tip		Esta lista está llena con anunciadores en el archivo base.upgrades. Después de seleccionar un conjunto de anunciador, puedes seleccionar un par desde el lado derecho que debe sonar con ese conjunto.
+test_server_taunts_tip			Esta lista está llena con taunts en el archivo base.upgrades, si un taunt aparece en rojo significa que no hay un avatar correspondiente para el taunt.
+test_server_refresh_list_tip	Las entidades de esta lista se actualizarán cada fotograma sin importar si están seleccionadas o no.\n\nLas entidades de Héroes en esta lista reaparecerán instantáneamente.\n\nLas entidades que ya no existen serán eliminadas automáticamente.
+test_server_action_list_tip		Las entidades de esta lista tendrán acciones realizadas a entidades seleccionadas también (si la opción está seleccionada).\n\nLas entidades que ya no existen se eliminarán cuando se produzca una acción.
+
+test_server_camera_options		Opciones de cámara
+test_server_free_flight_cam		Cámara de vuelo libre
+test_server_cam_smoothing		Fluidez de la cámara
+test_server_pos_smoothing		Fluidez de posicionamiento
+test_server_angle_smoothing		Fluidez del Ángulo
+test_server_fly_speed			Velocidad de vuelo
+test_server_scroll_speed		Velocidad de Scroll
+test_server_cam_fov				Campo de visión
+test_server_entity_cull_range	Rango del sacrificio de entidad
+test_server_cam_foliage_dis		Distancia del Follaje
+test_server_cam_map_constrain	Restringir la cámara al mapa
+test_server_cinema_mode			Modo Cine
+test_server_exit_cinema_mode	Salir del Modo Cine
+test_server_toggle_replay		Alternar Controles de Reproducción
+test_server_smoothline_w 		Anchura de la SmoothLine
+test_server_smoothline_r 		Radio del Filtro de la SmoothLine 
+test_server_smoothline_e 		Extensión del Filtro de la SmoothLine 
+test_server_smoothline_enable 	Habilitar Smoothline
+test_server_smoothline_type_none 	Ninguno
+test_server_smoothline_type_v 	V
+test_server_smoothline_type_h 	H
+test_server_smoothline_type_square 	Cuadrado
+
+
+test_server_graphics			Gráficos
+test_server_debugging			Depuración / Desarrollo
+test_server_skybox1				Legion Skybox
+test_server_skybox2				Deadlock Skybox
+test_server_skybox3				Hell Skybox
+test_server_skybox4				Silver Skybox
+test_server_wireframe			Estructura metálica
+test_server_points				Puntos
+test_server_model_textures_1	Sin Difuso
+test_server_model_textures_2	No Normales
+test_server_model_textures_3	No Difusos ni Normales
+test_server_model_textures_4	Sugerencia de Tamaño
+test_server_lighting			Relámpago
+test_server_normals				Mostrar Normales
+test_server_draw_bones			Dibujar Huesos
+test_server_draw_bone_names		Nombres de Huesos
+test_server_mesh_names			Dibujar Nombres de Malla
+test_server_model_bounds		Dibujar los límites del modelo
+test_server_particle_systems	Dibujar Sistemas de Partículas
+test_server_hide_terrain		Esconder Terreno
+test_server_hide_water			Esconder Agua
+test_server_static_meshes		Siempre usa Mallas Estáticas
+test_server_terrain_cliffs		Acantilados de terreno
+test_server_terrain_layer1		Capa de Terreno 1
+test_server_terrain_layer2		Capa de Terreno 2
+test_server_terrain_normals		Normales de Terreno
+test_server_terrain_grid		Cuadrícula de Terreno
+test_server_area_affectprs		Dibujando Efectos de Área
+test_server_projectile_radius	Dibujando Radios de los Proyectiles
+test_server_unit_bounds			Dibujando Límites de Unidad
+test_server_tree_bounds			Dibujando Límites de los Árboles
+test_server_cursor_world_pos	Dibujando Cursor Pos Mundial 
+test_server_entity_type_names	Dibujando Tipos de Nombres de Entidad
+test_server_nav_grid			Dibujando Rejilla de Navegación
+test_server_selected_path		Dibujando Camino
+test_server_selected_stats		Dibujando Estadísticas Seleccionadas
+test_server_disable_popups		Deshabilitar todas las Ventanas Emergentes
+test_server_selected_inventory	Dibujando Inventario Seleccionado
+test_server_disable_alt_info	Deshabilitar Información sobre los Alts
+test_server_disable_outlines	Deshabilitar contornos
+test_server_disable_rings		Deshabilitar Aros de Selección
+test_server_disable_indicators	Deshabilitar los Indicadores de Héroes
+test_server_disable_orders		Deshabilitar los Indicadores de Orden
+test_server_fps 				Dibujando FPS's
+test_server_dynamic_reload 		Recarga Dinámica
+test_server_unlock_taunt 		Desbloquear Taunt
+test_server_reload_textures		Recargar Texturas
+test_server_reload_models		Recargar Modelos
+test_server_reload_samples		Recargar Muestras
+test_server_reload_shaders		Recargar Sombreadores
+test_server_reload_materials	Recargar Materiales
+test_server_draw_sounds			Dibujando Sonidos
+
+test_client_progress			Progreso - {título}
+test_client_progress_usage		Generando Informe de Uso
+test_client_progress_list		Lista de Productos de Auditoría
+test_client_progress_exists		Revisión de la Existencia de la Entidad
+test_client_progress_usage 		Uso de la Entidad Auditora
+test_client_progress_heroes		Revisando Héroes y Alts
+test_client_progress_couriers	Revisando Couriers
+test_client_progress_announcers	Revisando Anunciadores
+test_client_progress_wards		Revisando Wards
+test_client_progress_taunts		Revisando Taunts
+test_client_progress_cs			Revisando Símbolos de Chat
+test_client_progress_cc			Revisando Colores de Nombre
+test_client_progress_ai			Revisando Íconos de Cuenta
+test_client_progress_res		Revisando Recursos de la Entidad
+test_client_progress_audit_all	Todas las Auditorías
+
+test_client_hero				Héroe
+test_client_pet 				Mascota
+test_client_creep 				Creep
+test_client_gadget 				Artilugio
+test_client_building			Edificio
+test_client_powerup 			Potenciadores
+test_client_neutral				Neutrales
+test_client_critter				Critatura
+test_client_tool				Herramienta
+test_client_state 				Estado
+test_client_complete			Completo
+
+test_client_audit_product_list			Lista de Productos (Web)
+test_client_audit_entity_existance		Entidades Existentes
+test_client_audit_entity_usage			Uso de las Entidades
+test_client_audit_resources				Recursos de la Entidad
+test_client_audit_heroes_alts			Héroes y Alts
+test_client_audit_couriers				Couriers
+test_client_audit_account_icons			Íconos de Cuenta
+test_client_audit_name_colors			Colores de Nombre
+test_client_audit_chat_symbols			Símbolos de Chat
+test_client_audit_announcers			Anunciadores
+test_client_audit_taunts				Taunts
+test_client_audit_wards					Wards
+test_client_audit_all					Todo
+
+test_client_audit_resources_chains		Mostrar la Cadena de Recursos 
+test_client_audit_usage_resources		Mostrar Recursos
+
+test_client_audit_product_list_tip		Asegúrate que todos los productos en lista de productos de la web tengan la información correspondiente en el lado de los archivos del cliente.\n\nNota: Debes iniciar sesión una vez antes de que su cliente tenga una lista de productos.
+test_client_audit_entity_existance_tip	Analiza los archivos XML por cada entidad en el juego y asegúrate de que la entidad a la que hace referencia realmente exista.
+test_client_audit_entity_usage_tip		Analiza los archivos XML por cada entidad en el juego y asegúrate que las entidades estén realmente referenciadas en algún lugar.
+test_client_audit_resources_tip			Carga una entidad y asegúrate de que todos los recursos que intentan ser cargados existan y carguen correctamente.
+test_client_audit_heroes_alts_tip		Asegúrate de que todos los Alt avatars y héroes existentes tengan  have the appropriate models, icons, etc. set and that they exist.
+test_client_audit_couriers_tip			Asegúrate que todos los couriers que están en el archivo base de actualizaciones tengan los archivos requeridos y el Alt avatar para el courier realmente existan.
+test_client_audit_account_icons_tip		Asegúrate que todos los íconos de cuenta que están en el archivo base de actualizaciones tengan los archivos necesarios.
+test_client_audit_name_colors_tip		Asegúrate de que todos los nombres de color que están en el archivo base de actualizaciones tengan los archivos necesarios.
+test_client_audit_chat_symbols_tip		Asegúrate de que todos los símbolos de chat que están en el archivo base de actualizaciones tengan los archivos requeridos.
+test_client_audit_announcers_tip		Asegúrate de que todos los anunciadores que están en el archivo base de actualizaciones tengan los archivos de audio, modelos y efectos requeridos.
+test_client_audit_taunts_tip			Asegúrate de que todos los taunt que están en el archivo base de las actualizaciones tengan los archivos requeridos y el Alt avatar para el taunt realmente existan.
+test_client_audit_wards_tip				Asegúrate de que todos los wards que están en el archivo base de actualizaciones tengan los archivos necesarios y el Alt avatar para los artilugios Mana Eye y Flaming Eye en realidad existan.
+test_client_audit_all_tip				Ejecuta todas las revisiones anteriores.
+
+test_client_audit_load_entities		Cargando Definiciones de la Entidad
+
+test_client_audit_resource 			Revisando Recursos de la Entidad
+test_client_audit_resources 		Revisando Recursos
+test_client_audit_usage 			Medida de Uso
+
+test_client_audit_resource_tip		Comprueba que todos los recursos requeridos por la entidad dada existan y carguen con éxito.\n\nAl habilitar Mostrar la cadena de Recursos también imprimirá las cadenas de entidades/recursos que conducen a un recurso dañado. Las entidades listadas como parte de la cadenas también pueden cargar directamente un recurso, no solo la parte inferior de la entidad (por ejemplo una habilidad que aplique un estado, en donde ambas entidades usan el ícono de habilidad).\n\nNota: Si los recursos han cargado previamente y no han sido descargados (ya sea por la interfaz de usuario o entrando en un juego) los resultados de esta revisión pueden ser incorrectos! Es mejor ejecutar esta prueba en un cliente recién iniciado.
+test_client_audit_resources_tip		Comprueba que todos los recursos requeridos por las entidades existan y carguen con éxito.\n\nAl habilitar Mostrar la cadena de Recursos también imprimirá las cadenas de entidades/recursos que conducen a un recurso dañado. Las entidades listadas como parte de la cadena también pueden cargar directamente un recurso, no solo la parte inferior de la entidad (por ejemplo una habilidad que aplique un estado, en donde ambas entidades usan el ícono de habilidad).\n\nNota: Esto puede tomar un largo tiempo (10s de minutos) para ejecutar algunos informes, ya que cada entidad relevante debe estar cargada, cada recurso comprobado, y luego descargado. Al habilitar las Cadenas de Recursospuede aumentar significativamente el tiempo de ejecución, ya que el proceso para crear los gráficos de relaciones entre entidades y recursos es complicado y costoso.\n\nNota 2:Si los recursos se han cargado previamente y no se han descargado (ya sea por la interfaz de usuario o al ingresar a un juego), los resultados de esta revisión pueden ser incorrectos. Es mejor ejecutar esta prueba en un cliente recién iniciado.
+test_client_audit_usage_tip			Carga todos los recursos usados por una entidad y reporta su uso de memoria.\nAl habilitar 'Mostrar Recursos' se imprimirá la ruta y los detalles de los recursos medibles.\n\nNota: Esto reportará el uso real porque realmente solo rastreamos/medimos los usos de texturas y sonidos.\n\nNota 2: Si los recursos se han cargado previamente y no se han descargado (ya sea por la interfaz de usuario o entrando en un juego) las estadísticas de esta revisión pueden no ser precisas! Es mejor ejecutar esta prueba en un cliente recién iniciado.
+
+test_client_generate_usage_report 	Genererar Reportes de Uso
+test_client_hero_usage_report		Héroe
+test_client_pet_usage_report 		Mascota
+test_client_creep_usage_report 		Creep
+test_client_gadget_usage_report 	Artilugio
+test_client_building_usage_report	Estructura
+test_client_powerup_usage_report 	Potenciadores
+test_client_neutral_usage_report	Neutrales
+test_client_critter_usage_report	Criatura
+test_client_tool_usage_report		Herramienta
+test_client_state_usage_report 		Estado
+test_client_complete_usage_report	Completo
+test_client_usage_report_tip		Genera un informe CSV de la memoria utilizada por diferentes entidades unitarias.\n\nNota: Esto puede tomar un largo tiempo (10s de minutos) para ejecutar algunos informes, ya que cada entidad relevante debe cargarse, medirse y descargarse.\n\nNote 2: Si los recursos han cargado previamente y no se han descargado (ya sea por la interfaz de usuario o entrando en un juego) las estadísticas que figuran en estos informes pueden ser inexactas! Es mejor ejecutar esta prueba en un cliente recién iniciado.
+test_client_mount_world				Mundo Montado
+test_client_mount_world_tip			Este desplegable selecciona cuál mapa es 'montado'. Esto afectará las pruebas de recursos y uso, ya que las entidades en el mapa se utilizarán en lugar de las entidades normales (en los archivos de recursos). Si no selecciona ningún mapa, volverá a utilizar las entidades normales en los archivos de recursos. Esto es útil para probar entidades como Game_Logic.
+
+test_client_open_eap				Abrir Tienda - EAP
+test_client_open_heroes				Abrir Tienda - Héroes
+test_client_open_featured			Abrir Tienda - Destacado
+test_client_fake_plinko				Tiro de Plinko Falso
+test_client_fake_grab_bag			Bolsa Misteriosa Falsa
+test_client_time_offset				Establecer Tiempo
+test_client_product_list 			Lista de Productos
+
+test_client_time_string				Tiempo actual: 
+
+test_client_plinko_tier				Nivel: 
+test_client_plinko_product			Nombre del Producto:
+test_client_plinko_tickets			Tickets: 
+test_client_plinko_icon				Ícono del producto: 
+test_client_plinko_type				Tipo de Producto: 
+test_client_plinko_id				ID del Producto: 
+
+test_client_bag_product			Nombre:
+test_client_bag_icon			Ícono: 
+test_client_bag_type			Tipo: 
+test_client_bag_id				ID: 
+test_client_bag_theme			Tema: 
+
+test_client_list_name 			Nombre: 
+test_client_list_cname 			CNombre: 
+test_client_list_cost 			Costo: 
+test_client_list_purchasable	Comprable? 
+test_client_list_premium 		Premium? 
+test_client_list_premium_cost	Costo Premium: 
+test_client_list_product_id		ID del Producto:
+test_client_list_dynamic		Dinámico? 
+test_client_list_path			Ruta: 
+test_client_list_type			Tipo: 
+test_client_list_type_string	Tipo de Cuerda: 
+test_client_list_type_desc		Tipo de Descuento:
+
+test_client_force_product_list	Forzar la Actualización de la lista de Productos
+test_client_product_list_empty	La lista de productos está vacía... ¿Has iniciado sesión?
+
+test_client_type_bundle			Paquete
+test_client_type_cc				Color de Chat
+test_client_type_cs				Símbolo de Chat
+test_client_type_ai				Ícono de Cuenta
+test_client_type_aa				Alt Avatar
+test_client_type_av				Alt Anunciador
+test_client_type_t				Taunt
+test_client_type_c				Courier
+test_client_type_h				Hero
+test_client_type_eap			EAP
+test_client_type_s				Estado
+test_client_type_w				Ward
+test_client_type_misc			Miscelánea
+test_client_type_en				Encantamiento
+
+test_client_fake_plinko_tip			Falsifica un tiro de Plinko usando la información dada. Proporcionando un número para el campo de tickets el tiro resultará produciendo tickets, deja el valor vacío si quieres un producto.\n\nNota: Deberías rellenar los campos con información desde el panel de administración (esto es una respuesta falsa de la web).
+test_client_fake_bag_tip			Falsifica la compra de un cofre misterioso usando la información dada. Los productos que no tengan un nombre proporcionado no se incluirán en el cofre misterioso (so if the bag should only have one product, only fill out info for one product).\n\nNota: Deberías rellenar los campos con información desde el panel de administración (esto es una respuesta falsa de la web).
+test_client_time_offset_tip			Toma una única marca de tiempo para establecer la hora del servidor local. Se restarán 5 horas de este tiempo para cambiarlo de UTC a EST al realizar las comprobaciones de tiempo.
+test_client_product_list_tip 		Permite la búsqueda y visualización de información en la lista de productos que su cliente tiene actualmente. Los cuadros de información son editables para que puedan ser copiados, al cambiarlos no hará ningún impacto.\n\nNota: Mucha de esta información no es usada en el cliente, y es posible que esté desactualizada ya que la lista de productos solo se actualiza al iniciar sesión.
+
+test_client_error_log_empty					^yTu Registro de Audtoría está vacío...
+test_client_error_no_io						^rNo se puede Guardar-^* Esta versión del cliente no admite la escritura en archivos.
+test_client_error_file_io					^rNo se puede Guardar-^*Se ha producido un error al abrir el archivo de registro para sobreescribir.
+test_client_error_xml_parse					Hubo un ^rerror al analizar el archivo XML^* por '^c{filePath}^*'.
+test_client_error_entity_not_found			Una entidad en '^c{entityPath}^*' referencia a otra entidad '^c{otherEntity}^*' la cual ^rno fue encontrada^*.
+test_client_error_entity_unused 			La ^y{entityType}^* entidad '^c{entityName}^*' en '^c{entityPath}^*' es ^rno referida^* por otros guiones.
+test_client_error_entity_doesnt_exist		La entidad '^c{entityName}^*' ^rno existe^*, ^y¿Ha sido cargada?
+test_client_error_res_not_found				La entidad '^c{entityName}^*' utiliza un recurso que ^rno existe^* ('^c{resource}^*').
+test_client_error_sys_res_not_found		    La entidad '^c{entityName}^*' utiliza un recurso del sistema que ^rparece no existir^* ('^c{resource}^*').
+test_client_error_sample_res_not_found		La entidad '^c{entityName}^*' utiliza un sonido que ^rno existe^* ('^c{resource}^*').
+test_client_error_shadow_res_not_found		La entidad '^c{entityName}^*' utiliza un volumen de sombra que ^rno existe^* ('^c{resource}^*') - ('^c{subResource}^*').
+test_client_error_cube_res_not_found		La entidad '^c{entityName}^*' utiliza un cubo del mapa que ^rno existe^* ('^c{resource}^*') - ('^c{subResource}^*').
+test_client_error_res_failed				La entidad '^c{entityName}^*' utiliza un recurso que ^rfalló al cargar^* ('^c{resource}^*').
+test_client_error_empty_product_list		^rLa lista de productos está vacía, ^*¿has iniciado sesión?^y Si es así, la web parece tener problemas.
+test_client_error_cs_doesnt_exist			El Símbolo '^c{name}^*' de la lista de productos ^rno existe en el archivo base.upgrades^*!
+test_client_error_cc_doesnt_exist			El Color de Nombre '^c{name}^*' de la lista de productos ^rno existe en el archivo base.upgrades^*!
+test_client_error_ai_doesnt_exist			El Ícono de Cuenta '^c{name}^*' de la lista de productos ^rno existe en el archivo base.upgrades^*!
+test_client_error_av_doesnt_exist			El Anunciador '^c{name}^*' de la lista de productos ^rno existe en el archivo base.upgrades^*!
+test_client_error_t_doesnt_exist			El Taunt '^c{name}^*' de la lista de productos ^rno existe en el archivo base.upgrades^*!
+test_client_error_w_doesnt_exist			El Ward '^c{name}^*' de la lista de productos ^rno existe en el archivo base.upgrades^*!
+test_client_error_aa_doesnt_exist			Alt Avatar '^c{name}^*' de la lista de productos ^rparece ser una entidad que no existe realmente^*!
+test_client_error_h_doesnt_exist			El Héroe '^c{name}^*' de la lista de productos ^rparece ser una entidad que no existe realmente^*!
+test_client_error_eap_doesnt_exist			EAP '^c{name}^*' de la lista de productos ^rparece ser una entidad que no existe realmente^*!
+test_client_error_c_doesnt_exist			El Courier '^c{name}^*' de la lista de productos ^rno existe en el archivo base.upgrades^*!
+test_client_error_entity_no_icon			La entidad '^c{name}^*' está ^rfaltando de un ícono^* ('^c{icon}^*').
+test_client_error_entity_no_icon2			La entidad '^c{name}^*' es un alt avatar y está ^rfaltando de un ícono2^* ('^c{icon}^*').
+test_client_error_entity_no_portrait		La entidad '^c{name}^*' está ^rfaltando de un retrato^* ('^c{icon}^*').
+test_client_error_entity_no_preview			La entidad '^c{name}^*' está ^rfaltando de un modelo de vista previa^* ('^c{model}^*').
+test_client_error_entity_no_store			La entidad '^c{name}^*' está ^rfaltando de modelo de tienda^* ('^c{model}^*').
+test_client_error_entity_no_model			La entidad '^c{name}^*' está ^rfalntando de un modelo^* ('^c{model}^*').
+test_client_error_entity_no_passive			La entidad '^c{name}^*' está ^rfaltando de un efecto pasivo^* ('^c{effect}^*').
+test_client_error_entity_no_preview_effect	La entidad '^c{name}^*' está ^rfaltando de una previsualización del efecto pasivo^* ('^c{effect}^*').
+test_client_error_entity_no_store_effect	La entidad '^c{name}^*' está ^rfaltando de un efecto pasivo de la tienda^* ('^c{effect}^*').
+test_client_error_ai_missing_file			El Ícono de Cuenta '^c{name}^*' está ^rfaltando del archivo^* '^c{file}^*'.
+test_client_error_cc_missing_file			El Color de Nombre '^c{name}^*' está ^rfaltando del archivo^* '^c{file}'.
+test_client_error_cc_no_color				El color de Nombre '^c{name}^*' ^rno tiene color^*.
+test_client_error_cc_no_ingame_color		El color de Nombre '^c{name}^*' ^rno tiene color dentro del juego^*.
+test_client_error_cc_no_glow_color			El color de Nombre '^c{name}^*' ^rno tiene color brillante^*.
+test_client_error_cc_no_ingame_glow_color	El color de Nombre '^c{name}^*' ^rno tiene color brillante dentro del juego^*.
+test_client_error_cc_no_sort_index			El color de Nombre '^c{name}^*' ^rtiene un índice de clasificación de 0^*, ^y¿ha sido establecido?
+test_client_error_cs_missing_file			El símbolo '^c{name}^*' está ^rfaltando del archivo^* '^c{file}^*'.
+test_client_error_t_no_alt					El Taunt '^c{name}^*' ^rno tiene el alt avatar correspondiente^* ('^c{alt}^*').
+test_client_error_w_flaming_alt				El Ward '^c{name}^*' no ^rtiene el alt avatar correspondiente para Flaming Eye^* ('^c{alt}^*').
+test_client_error_w_flaming_preview			El Ward '^c{name}^*' está ^rfaltando de un modelo de vista previa para Flaming Eye^* ('^c{model}^*').
+test_client_error_w_flaming_model			El Ward '^c{name}^*' está ^rfaltando de un modelo de Flaming Eye^* ('^c{model}^*').
+test_client_error_w_flaming_effect			El Ward '^c{name}^*' está ^rfaltando de un efecto pasivo de Flaming Eye^* ('^c{effect}^*').
+test_client_error_w_mana_alt				El Ward '^c{name}^*' no ^rtiene el alt avatar correspondiente para Mana Eye^* ('^c{alt}^*').
+test_client_error_w_mana_preview			El Ward '^c{name}^*' está ^rfaltando de modelo de vista previa para Mana Eye^* ('^c{model}^*').
+test_client_error_w_mana_model				El Ward '^c{name}^*' está ^rfaltando de un modelo para Mana Eye^* ('^c{model}^*').
+test_client_error_w_mana_effect				El Ward '^c{name}^*' está ^rfalndo de un efecto pasivo de Mana Eye^* ('^c{effect}^*').
+test_client_error_c_no_alt					El Courier '^c{name}^*' no ^rtiene el alt avatar correspondiente^* ('^c{alt}^*').
+test_client_error_c_mising_icon				El Courier '^c{name}^*' está ^rfaltando de un ícono^* ('^c{icon}^*').
+test_client_error_c_mising_preview			El Courier '^c{name}^*' está ^rfaltando de un modelo de vista previa^* ('^c{model}^*').
+test_client_error_c_mising_model			El Courier '^c{name}^*' está ^rfaltando de un modelo^* ('^c{model}^*').
+test_client_error_c_mising_effect			El Courier '^c{name}^*' está ^rfaltando de un efecto pasivo^* ('^c{effect}^*').
+test_client_error_av_missing_file			El Anunciador '^c{name}^*' está ^rfaltando del archivo^* '^c{path}^*'.
+test_client_error_mount_world_ingame		No ^rpuedes cambiar el mundo montado^* mientras estás en juego!
+
+test_client_msg_saved						Registro de auditoría guardado en '^c{filePath}^*'
+test_client_msg_audit_existance				^yRevisión de la existencia de todas las entidades referenciadas en el guión de entidades...
+test_client_msg_audit_exist_done			^gAuditoría Completa: ^*{cargado} / {total} entidades analizadas sin error.
+test_client_msg_audit_usage					^yRevisión del uso de todas las entidades en el juego...
+test_client_msg_audit_usage_done			^gAuditoría Completa: ^*{passed} / {total} entidades encontradas con referencias.
+test_client_msg_all_passed					^g^:100% Cargado - UN GANADOR ERES TÚ
+test_client_msg_audit_res					^yRevisando ^*{count}^y recursos de las entidades...
+test_client_msg_audit_res_done				^gAuditoría Completa: ^*{cargado} / {total} entidades cargadas!
+test_client_msg_audit_entity_res			^yRevisando ^*{resCount}^y recursos únicos cargados por la entidad '^c{entity}^*'.
+test_client_msg_audit_entity_res_done		^gAuditoría Completa: ^*{cargado} / {total} recursos cargados!
+test_client_msg_audit_entity_res_none		^gAuditoría Completa: Sin recursos para revisar!
+test_client_msg_audit_product_list			^yRevisando ^*{products}^y productos de la lista de productos enviados por la web...
+test_client_msg_audit_products_done			^gAuditoría Completa: ^*{cargado} / {total} productos cargados!
+test_client_msg_audit_heroes_alts			^yRevisando ^*{count}^y héroes y alt avatar en todas las entidades de héroes...
+test_client_msg_audit_heroes_alts_done		^gAuditoría completa: ^*{cargado} / {total} entidades cargadas!
+test_client_msg_audit_ai					^yRevisando ^*{count}^y íconos de cuenta en el archivo base.upgrades...
+test_client_msg_audit_ai_done				^gAuditoría Completa: ^*{cargado} / {total} íconos de cuenta cargados!
+test_client_msg_audit_cc					^yRevisando ^*{count}^y colores de nombre en el archivo base.upgrades...
+test_client_msg_audit_cc_done				^gAuditoría Completa: ^*{cargado} / {total} colores de nombre cargados!
+test_client_msg_audit_cs					^yRevisando ^*{count}^y símbolos en el archivo base.upgrades...
+test_client_msg_audit_cs_done				^gAuditoría Completa: ^*{cargado} / {total} símbolos cargados!
+test_client_msg_audit_t						^yRevisando ^*{count}^y taunts en el archivo base.upgrades...
+test_client_msg_audit_t_done				^gAuditoría Completa: ^*{cargado} / {total} taunts cargados!
+test_client_msg_audit_w						^yRevisando ^*{count}^y wards en el archivo base.upgrades...
+test_client_msg_audit_w_done				^gAuditoría Completa: ^*{cargado} / {total} wards cargados!
+test_client_msg_audit_c						^yRevisando ^*{count}^y couriers en el archivo base.upgrades...
+test_client_msg_audit_c_done				^gAuditoría Completa: ^*{cargado} / {total} couriers cargados!
+test_client_msg_audit_av					^yRevisando ^*{count}^y anunciadores en el archivo base.upgrades...
+test_client_msg_audit_av_done				^gAudit Complete: ^*{passed} / {total} anunciadores cargados!
+test_client_msg_measure_usage				^yMedición del uso de recursos para la entidad ^*'^c{name}^*'^y
+test_client_msg_usage_textures				^yTexturas:
+test_client_msg_measure_usage_texture		^yUso de las Texturas: ^*{memory} ({count} textures)
+test_client_msg_usage_samples				^yMuestras:
+test_client_msg_measure_usage_sample		^yUso de la Muestra: ^*{memory} ({count} samples)
+test_client_msg_usage_models				^yModelos:
+test_client_msg_measure_usage_model			^yUso del Modelo: ^*{memory} ({count} models)
+test_client_msg_usage_clips					^yCortos:
+test_client_msg_measure_usage_clip			^yUso del Corto: ^*{memory} ({count} clips)
+test_client_msg_measure_usage_res			*'{path}' ^y({memory})
+test_client_msg_measure_usage_res_failed	*'{path}' ^r[FAILED] ^y({memory})
+test_client_msg_usage_texture 				*'{path}' ^c[{width},{height}] ^y({memory})
+test_client_msg_usage_texture_depth			*'{path}' ^c[{width},{height},{depth}] ^y({memory})
+test_client_msg_usage_sample 				*'{path}' ^c[{bits}bit, {rate}Hz, {length}sec] ^y({memory})
+test_client_msg_measure_usage_total			^yUso total: ^*{memory}
+test_client_msg_usage_report_saved			Reporte de Uso guardado en '^c{path}^*'
+test_client_msg_usage_report_console		Tu cliente ^rno puede escribir en un archivo^*, el reporte de uso ha sido dejado en la consola.\nExtrae el reporte desde la consola y guárdalo en un archivo '.csv' .
+test_client_msg_mount_world					^gMundo Montado ^*'^c{mundo}^*'!
+test_client_msg_unmount_world				^gUnmounted the current world^*, there is now no world mounted...
+test_client_msg_mount_world_loading_defs	^yVolviendo a cargar las definiciones de las entidades para asegurar que todas las definiciones hayan cargado...
+test_client_msg_loading_defs				^yCargando definiciones de las entidades...
+test_client_msg_loading_defs_complete		^gCarga de las definiciones de las entidades completa!
+test_client_msg_defs_already_loaded 		^yEntidades ya cargadas...
+
+// End - do not delete this line

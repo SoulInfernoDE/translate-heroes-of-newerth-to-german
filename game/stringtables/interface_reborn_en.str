@@ -1,0 +1,31 @@
+﻿// Test maps
+map_caldavarTest							Caldavar Lategame Testing
+map_1v1mid									1v1 Mid-Only
+map_spotlight								Spotlight
+
+// Newui
+newui_communicator_send							SEND
+
+// Graffitti
+codex_graffitti_wall							GRAFFITTI WALL
+
+
+// Golem Boss Buff Stuff
+
+custom_ui_button_BossBuff0_title				^oPermanent Buff^*
+custom_ui_button_BossBuff0_body					Your reward for killing the Kongor Boss! Select a permanent buff to apply to your hero.
+
+custom_ui_button_BossBuff1_title				^oVitality Enchantment^*
+custom_ui_button_BossBuff1_body					Grants you +100 Max Health, +50 Max Mana, +2% Healing Received, 2 Health Regeneration, and 0.6 Mana Regeneration. Stacks infinitely.
+custom_ui_button_BossBuff1_body:midwars_pbt		Grants you +100 Max Health, +50 Max Mana, +2% Healing Received, 2 Health Regeneration, and 0.6 Mana Regeneration. Stacks infinitely.
+
+custom_ui_button_BossBuff2_title				^oDamage Enchantment^*
+custom_ui_button_BossBuff2_body					Grants you +4% to All Damage Dealt.\n\nStacks infinitely.
+custom_ui_button_BossBuff2_body:midwars_pbt		Grants you +4% to All Damage Dealt.\n\nStacks infinitely.
+
+custom_ui_button_BossBuff3_title				^oSpeed Enchantment^*
+custom_ui_button_BossBuff3_body					Grants you +10 Movement Speed.\n\nStacks infinitely.
+custom_ui_button_BossBuff3_body:midwars_pbt		Grants you +10 Movement Speed.\n\nStacks infinitely.
+
+
+// End - do not delete this line

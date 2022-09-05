@@ -1,0 +1,63 @@
+﻿// Tutorial
+
+// Ability_PyromancerTutorial1
+Ability_PyromancerTutorial1_name										Phoenix Wave
+Ability_PyromancerTutorial1_description									Pyromancer เรียก Phoenix ออกมา เพื่อโจมตี ศัตรู ที่อยู่ข้างหน้า
+Ability_PyromancerTutorial1_description_simple							เลือกพื้นที่เป้าหมาย เพื่อปล่อย คลื่นแห่งไฟ โจมตีเป็น เส้นตรง ^oสร้างความ เสียหายเวทย์ {100,170,240,310}^* แก่ศัตรู ที่อยู่ในทางผ่าน
+Ability_PyromancerTutorial1_effect_header								Status Effect(s)
+Ability_PyromancerTutorial1_IMPACT_effect								สร้างความ เสียหายเวทย์ {100,170,240,310} แก่เป้าหมาย ที่อยู่ในทางผ่าน
+Ability_PyromancerTutorial1_IMPACT_effect:Alt2							สร้างความ เสียหายเวทย์ {100,170,240,310} แก่เป้าหมาย ที่อยู่ในทางผ่าน
+Ability_PyromancerTutorial1_tooltip_flavor								ระวังร้อนนะ!
+
+// Ability_PyromancerTutorial2
+Ability_PyromancerTutorial2_name										Dragonfire
+Ability_PyromancerTutorial2_description									Pyromancer เรียก มังกรไฟ ผู้ยิ่งใหญ่ ออกมาโจมตี พื้นที่เป้าหมาย และสตันศัตรู ในบริเวณนั้นด้วย
+Ability_PyromancerTutorial2_description_simple							เลือกพื้นที่เป้าหมาย เพื่อ ^oสร้างความ เสียหายเวทย์ {90,150,210,280}^* และศัตรู ที่อยู่ในรัศมี จะโดน ^oสตัน 1.6 วินาที^*
+Ability_PyromancerTutorial2_effect_header								Status Effect(s)
+Ability_PyromancerTutorial2_IMPACT_effect								สร้างความ เสียหายเวทย์ {90,150,210,280} และสตันศัตรู ที่อยู่ในรัศมี เป็นเวลา 1.6 วินาที
+Ability_PyromancerTutorial2_IMPACT_effect:Alt2								สร้างความ เสียหายเวทย์ {90,150,210,280} และสตันศัตรู ที่อยู่ในรัศมี เป็นเวลา 1.6 วินาที
+Ability_PyromancerTutorial2_tooltip_flavor								มานา? พร้อม.\nคูลดาวน์? พร้อม.\nอำนาจในการ เรียกมังกรล่ะ?\n\nงดงาม แน่นอน
+
+// Ability_PyromancerTutorial3
+Ability_PyromancerTutorial3_name										Fervor
+Ability_PyromancerTutorial3_description									Pyromancer ได้พัฒนา ความสามารถ ในการ ควบคุมไฟ ของเขา ไปอีกระดับ ทำให้เขาได้รับ ความเร็วการร่าย, ความเร็วการโจมตี, และความเร็ว การเคลื่อนที่ เพิ่มขึ้น ในช่วงระยะ เวลาหนึ่ง พร้อมทั้ง โจมตีศัตรู ต่อเนื่อง ในระยะเวลาสั้นๆ
+Ability_PyromancerTutorial3_description_simple							^rสกิลติดตัว^* ได้รับ ^oความเร็วการร่ายสกิล {10,20,30,40}^*. เมื่อร่ายสกิล จะได้รับ Stack บัฟ ^oความเร็วเคลื่อนที่ {2,3,4,5}%^* และบัฟ ^oความเร็วโจมตี {20,30,40,50}%^* เป็นเวลา 6 วินาที.\n\nทุกครั้งที่ คุณสร้าง ความเสียหาย ให้กับศัตรู เขาจะได้รับ ชาร์จ 1 อัน และได้รับ ^oความเสียหายเวทย์ {1,2,3,4} ต่อวินาที^* ต่อ 1 ชาร์จ
+Ability_PyromancerTutorial3_effect_header								Fervor Effect(s)
+Ability_PyromancerTutorial3_effect_header2								Burning! Effect(s)
+Ability_PyromancerTutorial3_IMPACT_effect								เมื่อทำการ โจมตีศัตรู ด้วยสกิล หรือ โจมตีธรรมดา จะทำให้ เป้าหมาย ติดสถานะ Burning! เป็นเวลา 3 วินาที
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect						เพิ่มสถานะ Fervor ให้กับตัวเอง เป็นเวลา 6 วินาที และเพิ่ม 1 ชาร์จ สูงสุดเก็บได้ 3 ชาร์จ
+Ability_PyromancerTutorial3_ABILITY_IMPACT_effect:Alt2					เพิ่มสถานะ Fervor ให้กับตัวเอง เป็นเวลา 6 วินาที และเพิ่ม 1 ชาร์จ สูงสุดเก็บได้ 3 ชาร์จ
+Ability_PyromancerTutorial3_tooltip_flavor								ลุกโชนขึ้นสิ ไฟของข้า!
+
+// State_PyromancerTutorial_Ability3
+State_PyromancerTutorial_Ability3_name									Fervor
+
+// State_PyromancerTutorial_Ability3_Burning
+State_PyromancerTutorial_Ability3_Burning_name							Burning!
+State_PyromancerTutorial_Ability3_Burning_FRAME_effect					สร้างความ เสียหายเวทย์ {1,2,3,4} ต่อวินาที ต่อ 1 ชาร์จ
+
+// State_PyromancerTutorial_Ability3_Burning_Building
+State_PyromancerTutorial_Ability3_Burning_Building_name					Burning!
+State_PyromancerTutorial_Ability3_Burning_Building_FRAME_effect			สร้างความ เสียหายเวทย์ {1,2,3,4} ต่อวินาที ต่อ 1 ชาร์จ
+
+// Ability_PyromancerTutorial4
+Ability_PyromancerTutorial4_name										Blazing Strike
+Ability_PyromancerTutorial4_description									ด้วยพลัง ที่ได้รับจาก Sol ทำให้ PyromancerTutorial สามารถ ยิงลูกไฟ เพื่อสร้าง ความเสียหาย อย่างรุนแรง แก่เป้าหมายได้
+Ability_PyromancerTutorial4_description2								^930สามารถเพิ่ม ความสามารถ ของทักษะนี้ด้วย ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* เพิ่มความเสียหาย ที่ทำได้จาก {450,675,950} เป็น {650,875,1150}.
+Ability_PyromancerTutorial4_description_simple							เลือกยูนิตศัตรู เพื่อ ^oสร้างความ เสียหายเวทย์ {450,675,950}^* แก่เขา\n\n^gStaff of the Master^* จะช่วย เพิ่มความเสียหาย ที่ทำได้
+Ability_PyromancerTutorial4_effect_header								Status Effect(s)
+Ability_PyromancerTutorial4_IMPACT_effect								สร้างความ เสียหายเวทย์ {450,675,950} แก่เป้าหมาย
+Ability_PyromancerTutorial4_IMPACT_effect:Alt2							สร้างความ เสียหายเวทย์ {450,675,950} แก่เป้าหมาย
+Ability_PyromancerTutorial4_IMPACT_effect:Alt3							สร้างความ เสียหายเวทย์ {450,675,950} แก่เป้าหมาย
+Ability_PyromancerTutorial4_name:ult_boost								Inferno Strike ^g(Boosted)^*
+Ability_PyromancerTutorial4_description2:ult_boost						ทักษะนี้ ถูกเสริมพลังด้วย Staff of the Master.
+Ability_PyromancerTutorial4_description_simple:ult_boost				เลือกยูนิตศัตรู เพื่อ ^oสร้างความ เสียหายเวทย์^* ^g{650,875,1150}^*  แก่เขา
+Ability_PyromancerTutorial4_IMPACT_effect:ult_boost						สร้างความ เสียหายเวทย์ ^g{650,875,1150}^* แก่เป้าหมาย
+Ability_PyromancerTutorial4_tooltip_flavor								มันก็ เหมือนเล่น Baseball น่ะล่ะ แต่เป็น ลูกบอลไฟ นะ
+
+// Hero_PyromancerTutorial
+Hero_PyromancerTutorial_name											Pyromancer
+Hero_PyromancerTutorial_description										Sacred Order ได้รับรู้ถึง การมีตัวตนอยู่ ของ "Flamed-Touched" มานับ ทศวรรษแล้ว เขาเหล่านั้น คือผู้ที่อุทิศตน ให้แก่ Sol และปลุกพลัง แห่งเปลวเพลิง ในตัวให้ตื่นขึ้นมา สำหรับ Flamed-Touched ที่รับใช้ฝั่ง Legion นั้น เราต่างเรียกเขาว่า PyromancerTutorials เพื่อยกย่อง ความสามารถ ในการควบคุม เปลวไฟ ของพวกเขา
+Hero_PyromancerTutorial_role											PyromancerTutorial เป็นฮีโร่ ที่สามารถ ทำดาเมจ แก่ศัตรู ได้รุนแรงมาก และสามารถ ปิดเกมได้ ด้วยคอมโบสกิล เพียงชุดเดียว และเพราะดีเลย์สตัน ของสกิล Dragonfire จะค่อนข้างช้า ดังนั้น เขาควรอยู่กับ ฮีโร่ที่ สามารถสตัน ศัตรู จากระยะไกลได้  
+
+// End - do not delete this line

@@ -1,0 +1,1390 @@
+﻿// General
+general_cancel								Abbrechen
+general_ok									OK
+general_go									Weiter
+general_connect								Verbinden
+general_disconnect							Trennen
+general_refresh								Aktualisieren
+general_private_game						Privates Spiel
+general_create_game							Spiel Erstellen
+general_send_message						Nachricht Senden
+general_add_friend							Freund Hinzufügen
+general_select_server						Server Wählen
+general_quick_play							Schnellspiel
+general_type								Art
+general_options								Optionen
+general_create_account						Account Erstellen
+general_local								Lokal
+general_channel_name						Name des Channels
+general_users								Benutzer
+general_server_name							Name des Servers
+general_ping								Ping
+general_game_name							Name des Spiels
+general_players								Spieler
+general_game_mode							Spielmodus
+general_game_type							Spielart
+general_game_options						Spieloptionen
+
+general_mode_all_heroes						Alle Helden
+general_mode_random							Zufälliger Held
+general_mode_easy_mode						Einfacher Modus
+general_mode_no_hero_repick					Keine Erneute Auswahl des Helden
+general_mode_no_hero_swap					Kein Wechsel des Helden
+general_mode_no_agi_heroes					Keine Helden mit Gewandtheit
+general_mode_no_intel_heroes				Keine Helden mit Intelligenz
+general_mode_no_str_heroes					Keine Helden mit Stärke
+general_mode_no_respawn_timer				Kein Respawn-Timer
+general_mode_drop_items						Items Ablegen
+general_mode_no_runes						Keine Power-Ups
+general_mode_super_creeps					Super Team Creeps
+general_mode_alt_hero_pick					Alt Helden-Auswahl
+general_mode_duplicate_heroes				Helden Duplizieren
+general_mode_reverse_hero_select			Umgekehrte Helden-Auswahl
+general_mode_no_top_lane					Kein Oberer Kartenteil
+general_mode_no_middle_lane					Kein Mittlerer Kartenteil
+general_mode_no_bottem_lane					Kein Unterer Kartenteil
+general_mode_allow_veto						Veto Gestatten
+general_mode_shuffle						Team Mischen
+general_mode_no_leavers						Kein Verlassen des Spiels
+general_mode_record_stats					Rekordstatistiken
+general_mode_official						Offiziell
+
+// main.interface
+main_label_username							Benutzername
+main_label_password							Passwort
+main_checkbox_remember_me					Benutzer Speichern
+main_checkbox_auto_login					Auto-Login
+main_label_account_type						Accountart
+main_label_account_type_desc	
+main_label_account_level					Level
+main_label_games_played						Spiele
+main_label_leaves							Verlässt das Spiel
+main_label_record							Protokoll
+main_button_upgrade							Jetzt Upgraden
+main_label_logged_in_as						Angemeldet als
+main_button_login							Anmelden
+main_button_logout							Abmelden
+main_label_login_status_waiting				Anmelden, bitte warten...
+main_label_login_status_success				Du bist jetzt eingeloggt.
+main_label_login_status_failed				Login fehlgeschlagen: {reason}
+main_button_create_account					Account Erstellen
+main_button_need_login						Login zum Online-Spiel
+main_button_play_online						Online Spielen
+main_button_local_game						Lokales Spiel
+main_button_options							Optionen
+main_button_view_replay						Replay Ansehen
+main_button_quit							Verlassen
+main_quit_confirm							Bist Du Dir sicher?
+main_button_cancel_update					Update Abbrechen
+main_label_update_calculating				HoN Update Berechnen
+main_label_update_downloading				HoN Update Herunterladen
+main_label_old_version						Von: ^w{version}
+main_label_new_version						Nach: ^w{version}
+main_label_update_files						Verbleibende Dateien: ^w{count} / {total}
+main_label_update_progress					Fortschritt: ^w{count}MB / {total}MB
+main_label_update_speed						Download-Geschwindigkeit: ^w{speed}KB/Sek
+main_label_update_time						Verbleibende Zeit: ^w{time}
+
+main_reconnect_header						Erneut verbinden?
+main_reconnect_ok							Verbinde erneut
+main_reconnect_body							Dir bleiben {time} Sekunden für eine erneute Verbindung!
+main_reconnect_text							Du hast Dich von einem laufenden Spiel getrennt und kannst dem Spiel erneut beitreten.
+
+// game_options.package
+options_disabled							Deaktiviert
+options_very_low							Sehr Niedrig
+options_low									Niedrig
+options_normal								Normal
+options_medium								Mittel
+options_high								Hoch
+options_very_high							Sehr Hoch
+options_header_game_options					Spieleinstellungen
+options_button_graphics						Grafik
+options_header_video_options				Videoeinstellungen
+options_label_resolution					Auflösung
+options_resolution_tip						Die Anzahl der horizontal und vertikal am Monitor dargestellten Pixel.
+options_label_color_depth					Farbtiefe
+options_color_depth_tip						Die Anzahl der Bits pro Pixel. Bei einer Einstellung der Farbtiefe auf 16bit erfahren einige der langsameren Systeme einen Leistungsschub.
+options_label_refresh_rate					Bildwiederholfrequenz
+options_tip_refresh_rate					Wie viele Male pro Sekunde wird der Bildschirm aktualisiert. Höhere Werte verringern ein Flackern des Bildschirms, werden aber vielleicht nicht von höheren Auflösungen unterstützt.
+options_label_anti_aliasing					Anti-Aliasing
+options_label_anti_aliasing_tip				Anti-Aliasing glättet verschiedene Spielszenen und verleiht dem Bild eine weicheres, realistischeres Aussehen an den Modellkanten. Das Spiel läuft umso langsamer, je mehr Muster verwendet werden.
+options_label_aspect_ratio					Bildformat
+options_label_aspect_ratio_tip				Die Relation der horizontalen und vertikalen Bildschirmgröße. Wähle bei der Verwendung eines LCD-Monitors die systemeigene Einstellung des Monitors, um ein knackiges Bild zu erhalten.
+options_label_texture_filtering				Filtern der Texturen
+options_label_texture_filtering_tip			Glättet die Texturen bei einem Wechsel der Distanz oder des Winkels zur Kamera. Keine der Filterarten hat beträchtliche Geschwindigkeitsvorteile. Alle ermöglichen eine Verpixelung. Die anisotrope Filterung arbeitet am genauesten, führt jedoch auf schwächeren Systemen zu Leistungseinbußen.
+options_label_brightness					Helligkeit: ^w
+options_brightness_tip_header				Helligkeit
+options_brightness_tip						Das Verschieben des Reglers nach Rechts erhöht die Helligkeit, das Verschieben des Reglers nach Links verringert die Helligkeit. Die Standardeinstellung ist 1.00
+options_checkbox_full_screen_mode			Vollbildmodus
+options_full_screen_tip						Das Spiel füllt den gesamten Bildschirm aus.
+options_checkbox_exclusive_mode				Exklusiver Modus
+options_exclusive_mode_tip					Das Spielen im Exklusiven Modus erhöht geringfügig die Leistung, erschwert jedoch das Multitasking.
+options_checkbox_frame_queuing				Frame Queuing
+options_frame_queuing_tip					Die Freigabe des Frame Queuing erhöht zugleich Leistung und Latenzzeit der Eingabe.
+options_header_rendering_options			Render-Optionen
+options_label_model_quality					Modell-Qualität
+options_model_quality_tip					Die Verwendung von Modellarten mit einfacheren Scheitelpunkten ermöglicht einen flüssigeren Spielverlauf auf weniger leistungsstarken Systemen und Grafikkarten.
+options_label_texture_size					Texturgröße
+options_texture_size_tip					Die Verwendung größerer Texturen führt zu besseren visuellen Details. Dies erfordert allerdings sowohl mehr Videospeicher als auch physikalischen Speicher.
+options_shader_quality						Shader-Qualität
+options_shader_quality_tip					Shader erfordern einen leistungsfähigen Grafikprozessor. Das Herabsetzen der Qualität vermindert das optische Erscheinungsbild, macht das Spiel jedoch auch auf weniger leistungsstarken Grafikkarten lauffähig.
+options_shadow_quality						Schatten-Qualität
+options_shadow_quality_tip					Je höher die Qualität der Schatten, desto knackiger werden die Schatten dargestellt. Dies erfordert allerdings zusätzlichen Grafikspeicher. Die Schatten werden sowohl durch den vorhandenen Grafikprozessor als auch die CPU beschränkt.
+
+options_special_effects						Spezialeffekte
+options_special_effects_tip					Die Spezialeffekte finden bei den Einheiten-Fähigkeiten und ähnlichen Animationen Anwendung. Die Einstellung einer niedrigeren Qualität vermindert die Pixelzahl und ermöglicht ein flüssigeres Spiel auf weniger leistungsstarken Systemen.
+options_reflections							Reflektionen
+options_reflections_tip						Reflektionen werden bei Objekten wie Rüstung und Wasser eingesetzt. Dies ermöglicht auf Kosten der Leistungsfähigkeit die Darstellung von Reflektionen in Echtzeit.
+options_refraction							Lichtbrechung
+options_refraction_tip						Die Lichtbrechung ermöglicht bessere Effekte sowie Spezialeffekte. Durch sie werden auf Kosten der Leistungsfähigkeit bestimmte Spielszenen verzerrt.
+options_post_processing						Bildnachbearbeitung
+options_post_processing_tip					Die Einstellung von Effekten der Bildnachbearbeitung wirkt sich auf die Leistungsfähigkeit des Systems aus.
+options_display_foliage						Belaubung Anzeigen
+options_foliage_tip_text					Das Abschalten der Belaubung erhöht die Grafikleistung.
+options_vsync								Vertikale Synchronisation
+options_vsync_tip_text						Falls die Bildfrequenz beständig über der Bildwiederholfrequenz liegt, kann die vertikale Synchronisation die Grafikqualität verbessern. Die vertikale Synchronisation kann die Bildfrequenz älterer Grafikkarten verringern.
+options_checkbox_transparency_aa_label		Transparenz-Antialiasing
+options_checkbox_transparency_aa_desc		Transparenz-Antialiasing ist eine Methode zur Darstellung flüssigerer Texturenkanten - im Gegensatz zu den Kanten der Modelle. Dies verleiht den Texturen ein weicheres Aussehen. Diese Texturenarten werden meist als Blattwerk verwendet. Das Erhöhen dieser Einstellung glättet einige Texturen auf Kosten der Leistungsfähigkeit.
+options_dynamic_lights						Dynamische Beleuchtung
+options_dynamic_lights_tip					Die dynamische Beleuchtung dient zur Effektsteigerung und für ein besseres Erscheinungsbild des Spiels. Bei einigen Grafikkarten verringert sich jedoch die Leistungsfähigkeit.
+
+options_button_reset_all					Alles Zurücksetzen
+options_button_ok							Ok
+options_button_apply						Anwenden
+
+options_button_sound						Ton
+options_button_controls						Steuerung
+options_button_awards						Auszeichnungen
+options_button_stats						Statistiken
+
+options_header_volume_options				Lautstärkeeinstellungen
+options_label_master_volume					Gesamtpegel: ^w
+options_master_volume_tip_header			Gesamtpegel
+options_master_volume_tip					Einstellung des Lautstärkeniveaus für alle Töne.
+options_label_sound_effects					Soundeffekte: ^w
+options_sound_effects_tip_header			Soundeffekte
+options_sound_effects_tip					Einstellung der Lautstärke für die Soundeffekte im Spiel.
+options_label_interface_volume				Lautstärke des Interface: ^w
+options_interface_volume_tip_header			Lautstärke des Interface
+options_interface_volume_tip				Einstellung der Tonlautstärke im Interface, beispielsweise ein Tastenklick.
+options_label_music_volume					Musiklautstärke: ^w
+options_label_music_volume_tip_header		Musiklautstärke
+options_label_music_volume_tip				Einstellung der Musiklautstärke.
+options_header_sound_options				Soundeinstellungen
+options_label_playback_driver				Wiedergabetreiber
+options_playback_driver_tip					Wählt den Wiedergabetreiber für den Sound.
+options_label_recording_driver				Aufnahmetreiber
+options_recording_drive_tip					Wählt den Aufnahmetreiber für den Sound.
+options_label_sound_quality					Soundqualität
+options_sound_quality_tip					Geringere Soundqualität führt zu geringerer Speicherauslastung.
+options_label_sound_channels				Soundkanäle: ^w
+options_sound_channels_tip_header			Soundkanäle
+options_sound_channels_tip					Die Anzahl der simultan abgespielten Sounds.
+options_checkbox_disable_all_sounds			Alle Töne Abschalten
+options_disable_all_sounds_tip				Alle Töne stumm schalten
+options_checkbox_unit_reactions				Reaktionen der Einheiten
+options_unit_reactions_tip					Bei einer Aktivierung der Reaktionen der Einheiten antworten die Einheiten bei der Auswahl oder Befehlsvergabe.
+
+options_button_voice						Stimme
+options_header_voice_chat_options			Voice-Chat Optionen
+options_label_test_mic_level				Lautstärketest des Mikrofons
+options_test_mic_level_tip					Testet das Eingabeniveau des Mikrofons.
+options_button_begin_test					Test Starten
+options_button_stop_test					Test Beenden
+options_label_voice_chat_volume				Lautstärke des Voice-Chats: ^w
+options_voice_chat_volume_tip_header		Lautstärke des Voice-Chats
+options_voice_chat_volume_tip				Einstellung der Lautstärke des eingehenden Voice-Chats andere Spieler.
+options_label_microphone_volume				Lautstärke des Mikrophons: ^w
+options_mic_volume_tip_header				Lautstärke des Mikrophons
+options_mic_volume_tip						Einstellung der Eingangslautstärke Deines Mikrofones. Je höher die Einstellung, desto lauter klingst Du für andere Spieler.
+options_label_auto_sound_dampen				Automatische Klangdämpfung: ^w
+options_auto_dampen_tip_header				Automatische Klangdämpfung
+options_auto_dampen_tip						Bei der Verwendung von VOIP lässt sich die Lautstärke anderer Spielsounds automatisch herabsetzen. Die Einstellung des Dämpfungsniveaus erfolgt mit dem Schieberegler.
+options_checkbox_mic_boost					Mikrofon-Boost
+options_mic_boost_tip						Erhöht die Lautstärke des Mikrofons auf Kosten der Tonqualität.
+options_checkbox_disable_voice_chat			Voice-Chat Deaktivieren
+options_disable_voice_chat_tip				Schaltet den Voice-Chat aus. Du hörst die Gespräche der anderen Spieler nicht mehr.
+options_checkbox_push_to_talk				Push To Talk
+options_push_to_talk_enable_tip				Bei einer Aktivierung von Push To Talk wird das Mikrofon eingeschaltet, solange der entsprechende Hotkey gedrückt wird. Wenn Du Push To Talk nicht verwendest, wird Dein Mikrofon automatisch eingeschaltet, wenn Du etwas sagst.
+
+options_header_voice_chat_talk_settings		Voice-Chat Spracheinstellungen
+options_label_push_to_talk_keybind			Push To Talk Taste
+options_push_to_talk_tip					Bei aktiviertem Voice-Chat schaltet ein Druck auf diese Taste dein Mikrofon ein.
+options_label_lane_talk_keybind				Push To Lane Talk Taste
+options_push_to_lane_talk_tip				Bei aktiviertem Voice-Chat schaltet ein Druck auf diese Taste dein Mikrofon ein. Du sprichst jedoch nur zu den Verbündeten in deiner Nähe und nicht zu Deinem gesamten Team.
+options_label_mic_off_time					Ausschaltzeit des Mikrofons
+options_mic_off_time_tip					Wenn Du nichts mehr sagst, schaltet sich Dein Mikrofon nach dieser Zeitspanne aus.
+options_label_mic_on_sensitivity			Empfindlichkeit des Mikrofons
+options_mic_on_sensitivity_tip				Einstellung der Stimmintensität, bei der sich Dein Mikrofon automatisch einschaltet. Der rote Pfeil zeigt den Spitzenpegel des Lautstärketests des Mikrofons. Die Empfindlichkeit sollte geringfügig unter dem Spitzenpegel des Lautstärketests des Mikrofons liegen.
+
+options_header_input_options				Eingabeoptionen
+options_label_scroll_speed					Scrollgeschwindigkeit: ^w
+options_camera_scroll_speed_tip_header		Die Scrollgeschwindigkeit der Kamera
+options_camera_scroll_speed_tip				Die Frequenz der vom Kameraausschnitt sekündlich angezeigten Spieleinheiten.
+options_checkbox_screen_edge_scroll			Scrollen am Bildschirmrand
+options_screen_edge_scroll_tip				Bei einer Aktivierung bewegt sich der Kameraausschnitt, wenn der Cursor den Bildrand berührt.
+options_checkbox_constrain_cursor			Eingeschränkter Cursor
+options_constrain_cursor_tip				Bei einer Aktivierung kann der Cursor nicht außerhalb des Spielfensters bewegt werden, solange das Spielfenster fokussiert ist.
+options_checkbox_display_xp_rewards			Anzeige XP Belohnungen
+options_display_xp_rewards_tip				Bei einer Aktivierung erfolgt eine Spielanzeige, sobald dein Held im Spiel Erfahrung sammelt. Dabei werden über der Erfahrungsquelle lila Zahlen eingeblendet.
+
+options_header_control_options				Steueroptionen
+options_yellow_label_action					Action
+options_yellow_label_primary				Primär
+options_yellow_label_secondary				Sekundär
+
+options_bind_instructions_button			^yDrücke^* eine Taste oder eine Maustaste, um eine neue Verbindung auszuwählen.
+options_bind_instructions_impulse			^yDrücke^* eine Tastenkombination, um eine neue Verbindung auszuwählen.
+options_bind_button_default					Standard
+options_bind_button_clear					Verbindung Löschen
+options_bind_header							Eine Neue Verbindung Wählen
+
+options_label_game_controls					Spielsteuerung
+options_label_primary_keybind				Primäre Taste
+options_label_primary_keybind_tooltip		Die primäre Taste dient der Einheitenauswahl, der Verwendung von Fähigkeiten sowie der Interaktion mit dem Spielinterface.
+options_label_secondary_keybind				Sekundäre Taste
+options_label_secondary_keybind_tooltip		Die sekundäre Taste dient der Erteilung kontextsensitiver Befehle, wie der Bewegung oder Angriffen.
+options_label_shift_keybind					Shift Modifier
+options_label_shiftmod_keybind_tooltip		Shift Modifier gestattet es dem Benutzer, Befehle aneinanderzureihen.
+options_label_ctrl_keybind					Strg Modifier
+options_label_ctrlmod_keybind_tooltip		Strg Modifier dient zur Kombination mit verschiedenen anderen Spielbefehlen.
+options_label_on-screen_info_keybind		On-Screen Info
+options_label_on-screen_info_toggle_keybind	On-Screen Info Ein-/Ausschalten
+options_label_camera_drag_keybind			Kamera Nachziehen
+options_label_minimap_ping_keybind			Minikarte Ping
+options_label_open_game_menu_keybind		Spielmenü Öffnen
+options_label_open_shop_keybind				Shop Öffnen
+options_label_chat_team_keybind				Chat (Team)
+options_label_chat_all_keybind				Chat (Alle)
+options_label_show_chat_keybind				Chat Anzeigen
+options_label_center_screen_keybind			Zentrieren
+options_label_center_screen_keybind_tooltip	Zentriert die Kamera um die primäre Auswahl. Dabei handelt es sich gewöhnlich um die derzeit gesteuerte Einheit.
+options_label_center_info_keybind			Um Informationen Zentrieren
+options_label_center_info_keybind_tooltip	Zentriert die Kamera um sekundäre Auswahlelemente, beispielsweise andere Helden oder Einheiten.
+options_label_move_forward_keybind			Bewegung Vorwärts
+options_label_move_left_keybind				Bewegung nach Links
+options_label_move_back_keybind				Bewegung Zurück
+options_label_move_right_keybind			Bewegung nach Rechts
+options_label_select_hero_keybind			Heldenauswahl
+options_label_attack_keybind				Befehl Angriff
+options_label_stop_keybind					Befehl Stop
+options_label_hold_keybind					Befehl Halten
+options_label_move_keybind					Befehl Bewegen
+options_label_patrol_keybind				Befehl Patrouillieren
+options_label_next_unit_keybind				Nächste Einheit
+options_label_previous_unit_keybind			Vorherige Einheit
+options_label_next_centered_keybind			Nächste Einheit (Zentriert)
+options_label_previous_centered_keybind		Vorherige Einheit (Zentriert)
+options_label_next_shopper_keybind			Nächster Einkäufer
+options_label_previous_shopper_keybind		Vorheriger Einkäufer
+options_label_nshopper_center_keybind		Nächster Einkäufer (Zentriert)
+options_label_pshopper_center_keybind		Vorheriger Einkäufer (Zentriert)
+options_label_acti_ab_1_keybind				Aktiviere Fähigkeit 1
+options_label_acti_ab_2_keybind				Aktiviere Fähigkeit 2
+options_label_acti_ab_3_keybind				Aktiviere Fähigkeit 3
+options_label_acti_ab_4_keybind				Aktiviere Fähigkeit 4
+options_label_acti_extra_ab_1_keybind		Aktiviere Zusatz-Fähigkeit 1
+options_label_acti_extra_ab_2_keybind		Aktiviere Zusatz-Fähigkeit 2
+options_label_acti_extra_ab_3_keybind		Aktiviere Zusatz-Fähigkeit 3
+options_label_attribute_boost_keybind		Boost Zuweisen
+options_label_acti_inven_1_keybind			Aktiviere Inventar 1
+options_label_acti_inven_2_keybind			Aktiviere Inventar 2
+options_label_acti_inven_3_keybind			Aktiviere Inventar 3
+options_label_acti_inven_4_keybind			Aktiviere Inventar 4
+options_label_acti_inven_5_keybind			Aktiviere Inventar 5
+options_label_acti_inven_6_keybind			Aktiviere Inventar 6
+options_label_taunt_keybind					Spott
+options_label_prev_attack_mod_keybind		Vorheriger Angriffswandler
+options_label_next_attack_mod_keybind		Nächster Angriffswandler
+options_label_levelup_keybind				Level-Up
+
+options_header_control_groups				Gruppen Steuern
+options_label_recall_1_keybind				Auswahl 1 Aufrufen
+options_label_recall_2_keybind				Auswahl 2 Aufrufen
+options_label_recall_3_keybind				Auswahl 3 Aufrufen
+options_label_recall_4_keybind				Auswahl 4 Aufrufen
+options_label_recall_5_keybind				Auswahl 5 Aufrufen
+options_label_recall_6_keybind				Auswahl 6 Aufrufen
+options_label_recall_7_keybind				Auswahl 7 Aufrufen
+options_label_recall_8_keybind				Auswahl 8 Aufrufen
+options_label_recall_9_keybind				Auswahl 9 Aufrufen
+options_label_recall_10_keybind				Auswahl 10 Aufrufen
+options_label_save_selection_1_keybind		Auswahl 1 Speichern
+options_label_save_selection_2_keybind		Auswahl 2 Speichern
+options_label_save_selection_3_keybind		Auswahl 3 Speichern
+options_label_save_selection_4_keybind		Auswahl 4 Speichern
+options_label_save_selection_5_keybind		Auswahl 5 Speichern
+options_label_save_selection_6_keybind		Auswahl 6 Speichern
+options_label_save_selection_7_keybind		Auswahl 7 Speichern
+options_label_save_selection_8_keybind		Auswahl 8 Speichern
+options_label_save_selection_9_keybind		Auswahl 9 Speichern
+options_label_save_selection_10_keybind		Auswahl 10 Speichern
+options_label_add_selection_1_keybind		Zur Auswahl 1 Hinzufügen
+options_label_add_selection_2_keybind		Zur Auswahl 3 Hinzufügen
+options_label_add_selection_3_keybind		Zur Auswahl 3 Hinzufügen
+options_label_add_selection_4_keybind		Zur Auswahl 4 Hinzufügen
+options_label_add_selection_5_keybind		Zur Auswahl 5 Hinzufügen
+options_label_add_selection_6_keybind		Zur Auswahl 6 Hinzufügen
+options_label_add_selection_7_keybind		Zur Auswahl 7 Hinzufügen
+options_label_add_selection_8_keybind		Zur Auswahl 8 Hinzufügen
+options_label_add_selection_9_keybind		Zur Auswahl 9 Hinzufügen
+options_label_add_selection_10_keybind		Zur Auswahl 10 Hinzufügen
+options_label_remove_select_1_keybind		Von Auswahl 1 Entfernen
+options_label_remove_select_2_keybind		Von Auswahl 2 Entfernen
+options_label_remove_select_3_keybind		Von Auswahl 3 Entfernen
+options_label_remove_select_4_keybind		Von Auswahl 4 Entfernen
+options_label_remove_select_5_keybind		Von Auswahl 5 Entfernen
+options_label_remove_select_6_keybind		Von Auswahl 6 Entfernen
+options_label_remove_select_7_keybind		Von Auswahl 7 Entfernen
+options_label_remove_select_8_keybind		Von Auswahl 8 Entfernen
+options_label_remove_select_9_keybind		Von Auswahl 9 Entfernen
+options_label_remove_select_10_keybind		Von Auswahl 10 Entfernen
+
+options_header_camera_controls				Kamerasteuerung
+options_label_zoom_out_keybind				Herauszoomen
+options_label_zoom_in_keybind				Heranzoomen
+options_label_free_look_keybind				Freie Ansicht
+options_label_reset_camera_keybind			Kamera Zurückstellen
+options_label_camera_up_keybind				Kamera auf
+options_label_camera_down_keybind			Kamera ab
+
+options_header_random_stuff					Beliebiges Zeug
+options_label_mute_sound_keybind			Ton Stumm Schalten
+options_label_mute_music_keybind			Musik Stumm Schalten
+
+options_header_shop							Shop
+options_label_slot_1_keybind				Slot 1
+options_label_slot_2_keybind				Slot 2
+options_label_slot_3_keybind				Slot 3
+options_label_slot_4_keybind				Slot 4
+options_label_slot_5_keybind				Slot 5
+options_label_slot_6_keybind				Slot 6
+options_label_slot_7_keybind				Slot 7
+options_label_slot_8_keybind				Slot 8
+options_label_slot_9_keybind				Slot 9
+options_label_slot_10_keybind				Slot 10
+options_label_slot_11_keybind				Slot 11
+options_label_slot_12_keybind				Slot 12
+options_label_close_shop_keybind			Panel Schließen
+options_label_recipe_history_back_keybind	Rezepturverlauf zurück
+options_label_recipe_history_for_keybind	Rezepturverlauf vor
+
+options_button_default_binds				Standard Bindungen
+
+options_header_login_to_view_stats			Einloggen zur Statusanzeige
+
+// create_account.package
+create_acc_nickname							Nickname:
+create_acc_first_name						Vorname:
+create_acc_last_name						Nachname:
+create_acc_email							E-Mail Adresse:
+create_acc_confirm_email					E-Mail Bestätigen:
+create_acc_password							Passwort:
+create_acc_confirm_password					Passwort Bestätigen:
+create_acc_label_outside_of_usa				Außerhalb der USA
+create_acc_lobby_create_account				Account Erstellen
+create_acc_label_select_payment_type		Auswahl der Zahlungsart und Zahlung auf der Folgenden Seite
+create_acc_label_terms_conditions			Geschäftsbedingungen | Datenschutzrichtlinie
+create_acc_label_finsh_create_account		Account Erstellen
+create_account_please_wait					Bitte Warten...
+create_acc_label_nick_name_tip		 		*Mit diesem Namen wirst Du während des Spiels bezeichnet.
+create_acc_input_address					Adresse:
+create_acc_input_province					Bundesland:
+create_acc_input_state						Staat:
+create_acc_input_country					Land:
+create_acc_input_city						Stadt:
+create_acc_input_postal_code				Postleitzahl (PLZ):
+create_acc_input_referrer					Herkunft:
+create_acc_input_year						Jahr:
+create_acc_input_month						Monat:
+create_acc_input_birth_day					Geburtstag:
+create_acc_label_account_success			Account erfolgreich erstellt!
+create_acc_success_button_okay				Okay
+
+// states
+create_acc_state_alabama					Alabama
+create_acc_state_alaska						Alaska
+create_acc_state_arizona					Arizona
+create_acc_state_arkansas					Arkansas
+create_acc_state_california					Kalifornien
+create_acc_state_colorado					Colorado
+create_acc_state_connecticut				Connecticut
+create_acc_state_delaware					Delaware
+create_acc_state_dc							DC
+create_acc_state_florida					Florida
+create_acc_state_georgia					Georgia
+create_acc_state_hawaii						Hawaii
+create_acc_state_idaho						Idaho
+create_acc_state_illinois					Illinois
+create_acc_state_indiana					Indiana
+create_acc_state_iowa						Iowa
+create_acc_state_kansas						Kansas
+create_acc_state_kentucky					Kentucky
+create_acc_state_louisiana					Louisiana
+create_acc_state_maine						Maine
+create_acc_state_maryland					Maryland
+create_acc_state_massachusetts				Massachusetts
+create_acc_state_michigan					Michigan
+create_acc_state_minnesota					Minnesota
+create_acc_state_mississippi				Mississippi
+create_acc_state_missouri					Missouri
+create_acc_state_montana					Montana
+create_acc_state_nebraska					Nebraska
+create_acc_state_nevada						Nevada
+create_acc_state_new_hampshire				New Hampshire
+create_acc_state_new_jersey					New Jersey
+create_acc_state_new_mexico					New Mexico
+create_acc_state_new_york					New York
+create_acc_state_north_carolina				North Carolina
+create_acc_state_north_dakota				North Dakota
+create_acc_state_ohio						Ohio
+create_acc_state_oklahoma					Oklahoma
+create_acc_state_oregon						Oregon
+create_acc_state_pennsylvania				Pennsylvania
+create_acc_state_rhode_island				Rhode Island
+create_acc_state_south_carolina				South Carolina
+create_acc_state_south_dakota				South Dakota
+create_acc_state_tennessee					Tennessee
+create_acc_state_texas						Texas
+create_acc_state_utah						Utah
+create_acc_state_vermont					Vermont
+create_acc_state_virginia					Virginia
+create_acc_state_washington					Washington
+create_acc_state_west_virginia				West Virginia
+create_acc_state_wisconsin					Wisconsin
+create_acc_state_wyoming					Wyoming
+
+// countries
+create_acc_country_united_states	Vereinigte Staaten
+create_acc_country_algeria			Algerien
+create_acc_country_american_samoa	Amerikanisch-Samoa
+create_acc_country_andorra			Andorra
+create_acc_country_angola			Angola
+create_acc_country_anguilla			Anguilla
+create_acc_country_antarctica		Antarktis
+create_acc_country_antigua_barbuda	Antigua und Barbuda
+create_acc_country_argentina		Argentinien
+create_acc_country_aruba			Aruba
+create_acc_country_australia		Australien
+create_acc_country_austria			Österreich
+create_acc_country_bahamas			Bahamas
+create_acc_country_bahrain			Bahrain
+create_acc_country_bangledesh		Bangladesch
+create_acc_country_barbados			Barbados
+create_acc_country_belgium			Belgien
+create_acc_country_belize			Belize
+create_acc_country_benin			Benin
+create_acc_country_bermuda			Bermuda
+create_acc_country_bhutan			Bhutan
+create_acc_country_bolivia			Bolivien
+create_acc_country_bosnia			Bosnien und Herzegowina
+create_acc_country_bouvet_island	Bouvet-Insel
+create_acc_country_brazil			Brasilien
+create_acc_country_brit_ocean		Britisches Territorium im Indischen Ozean
+create_acc_country_brunei			Brunei Darussalam
+create_acc_country_burkina			Burkina Faso
+create_acc_country_burundi			Burundi
+create_acc_country_cameroon			Kamerun
+create_acc_country_canada			Kanada
+create_acc_country_cape_verde		Kap Verde
+create_acc_country_cayman			Kaimaninseln
+create_acc_country_african_rep		Zentralafrikanische Republik
+create_acc_country_chad				Tschad
+create_acc_country_czech			Tschechische Republik
+create_acc_country_chile			Chile
+create_acc_country_china			China
+create_acc_country_christmas		Weihnachtchsinsel
+create_acc_country_cocos			Kokosinseln (Cocosinseln)
+create_acc_country_colombia			Kolumbien
+create_acc_country_comoros			Komoren
+create_acc_country_congo			Kongo
+create_acc_country_cook				Cookinseln
+create_acc_country_cote				Cote D'Ivoire (Elfenbeinküste)
+create_acc_country_croatia			Kroatien
+create_acc_country_cyprus			Zypern
+create_acc_country_denmark			Dänemark
+create_acc_country_djibouti			Dschibuti
+create_acc_country_dominica			Dominica
+create_acc_country_dominican_rep	Dominikanische Republik
+create_acc_country_east_timor		Osttimor
+create_acc_country_ecuador			Ecuador
+create_acc_country_egypt			Ägypten
+create_acc_country_elsalvador		El Salvador
+create_acc_country_equatorial_g		Äquatorialguinea
+create_acc_country_eritrea			Eritrea
+create_acc_country_estonia			Estland
+create_acc_country_ethiopia			Äthiopien
+create_acc_country_falkland_island	Falkland-Inseln (Malwinen)
+create_acc_country_faroe			Färöer-Inseln
+create_acc_country_fiji				Fidschi
+create_acc_country_finland			Finnland
+create_acc_country_france			Frankreich
+create_acc_country_france_metro		Frankreich, Hauptstadt
+create_acc_country_france_guiana	Französisch-Guayana
+create_acc_country_france_poly		Französisch-Polynesien
+create_acc_country_france_south		Französische Gebiete im südlichen Indischen Ozean
+create_acc_country_gabon			Gabun
+create_acc_country_gambia			Gambia
+create_acc_country_germany			Deutschland
+create_acc_country_ghana			Ghana
+create_acc_country_gibraltar		Gibraltar
+create_acc_country_greece			Griechenland
+create_acc_country_greenland		Grönland
+create_acc_country_grenada			Grenada
+create_acc_country_guadeloupe		Guadeloupe
+create_acc_country_guam				Guam
+create_acc_country_guatemala		Guatemala
+create_acc_country_guinea			Guinea
+create_acc_country_guinea_bissau	Guinea-Bissau
+create_acc_country_guyana			Guyana
+create_acc_country_haiti			Haiti
+create_acc_country_heard_mcdonald	Heard und McDonald-Inseln
+create_acc_country_honduras			Honduras
+create_acc_country_hungary			Ungarn
+create_acc_country_iceland			Island
+create_acc_country_india			Indien
+create_acc_country_indonesia		Indonesien
+create_acc_country_ireland			Irland
+create_acc_country_israel			Israel
+create_acc_country_italy			Italien
+create_acc_country_ivory_coast		Elfenbeinküste
+create_acc_country_jamaica			Jamaika
+create_acc_country_japan			Japan
+create_acc_country_kenya			Kenia
+create_acc_country_laos				Laos
+create_acc_country_latvia			Lettland
+create_acc_country_lesotho			Lesotho
+create_acc_country_liechtenstein	Liechtenstein
+create_acc_country_lithuania		Litauen
+create_acc_country_luxembourg		Luxemburg
+create_acc_country_macau			Macau
+create_acc_country_madagascar		Madagaskar
+create_acc_country_malawia			Malawi
+create_acc_country_malaysia			Malaysia
+create_acc_country_maldives			Malediven
+create_acc_country_mali				Mali
+create_acc_country_malta			Malta
+create_acc_country_marshall			Marshallinseln
+create_acc_country_martinique		Martinique
+create_acc_country_mauritania		Mauretanien
+create_acc_country_mauritius		Mauritius
+create_acc_country_mayotte			Mayotte
+create_acc_country_mexico			Mexiko
+create_acc_country_micronesia		Mikronesien
+create_acc_country_monaco			Monaco
+create_acc_country_mongolia			Mongolei
+create_acc_country_montenegro		Montenegro
+create_acc_country_moracco			Marokko
+create_acc_country_mozambique		Mosambik
+create_acc_country_myanmar			Myanmar
+create_acc_country_namibia			Namibia
+create_acc_country_nauru			Nauru
+create_acc_country_nepal			Nepal
+create_acc_country_netherlands		Niederlande
+create_acc_country_netherlands_ant	Niederländische Antillen
+create_acc_country_new_caledonia	Neukaledonien
+create_acc_country_new_zealand		Neuseeland
+create_acc_country_nicaragua		Nicaragua
+create_acc_country_niger			Niger
+create_acc_country_niue				Niue
+create_acc_country_norfolk_island	Norfolkinsel
+create_acc_country_norther_mariana	Nördliche Marianen
+create_acc_country_norway			Norwegen
+create_acc_country_oman				Oman
+create_acc_country_pakistan			Pakistan
+create_acc_country_palau			Palau
+create_acc_country_panama			Panama
+create_acc_country_papau_nguinea	Papua Neuguinea
+create_acc_country_paraguay			Paraguay
+create_acc_country_peru				Peru
+create_acc_country_phillipines		Philippinen
+create_acc_country_pitcairn			Pitcairn
+create_acc_country_poland			Polen
+create_acc_country_portugal			Portugal
+create_acc_country_puerto_rico		Puerto Rico
+create_acc_country_qatar			Katar
+create_acc_country_romania			Rumänien
+create_acc_country_russia			Russland
+create_acc_country_saint_kitts		St. Kitts und Nevis
+create_acc_country_saint_lucia		Saint Lucia
+create_acc_country_saint_vincent	St. Vincent und die Grenadinen
+create_acc_country_samoa			Samoa
+create_acc_country_san_marino		San Marino
+create_acc_country_sao_tome			Sao Tome und Príncipe
+create_acc_country_saudi_arabia		Saudi-Arabien
+create_acc_country_senegal			Senegal
+create_acc_country_serbia			Serbien
+create_acc_country_seychelles		Seychellen
+create_acc_country_sierra_leone		Sierra Leone
+create_acc_country_singapore		Singapur
+create_acc_country_slovakia			Slowakei
+create_acc_country_slovenia			Slowenien
+create_acc_country_solomon			Salomonen
+create_acc_country_south_africa		Südafrika
+create_acc_country_south_korea		Südkorea
+create_acc_country_spain			Spanien
+create_acc_country_sri_lanka		Sri Lanka
+create_acc_country_sthelena			St. Helena
+create_acc_country_stpierre			St. Pierre und Miquelon
+create_acc_country_sudan			Sudan
+create_acc_country_suriname			Surinam
+create_acc_country_svalbard			Svalbard und Jan Mayen Inseln
+create_acc_country_swaziland		Swasiland
+create_acc_country_sweden			Schweden
+create_acc_country_switzerland		Schweiz
+create_acc_country_syria			Syrien
+create_acc_country_tanzania			Tansania
+create_acc_country_togo				Togo
+create_acc_country_tongo			Tonga
+create_acc_country_trinidad			Trinidad und Tobago
+create_acc_country_tunisia			Tunesien
+create_acc_country_turkey			Türkei
+create_acc_country_turks_and_caicos	Turks und Caicosinseln
+create_acc_country_uganda			Uganda
+create_acc_country_ukraine			Ukraine
+create_acc_country_united_kingdom	Vereinigtes Königreich
+create_acc_country_us_minor			Kleinere amerikanische Überseeinseln
+create_acc_country_uruguay			Uruguay
+create_acc_country_vanuatu			Vanuatu
+create_acc_country_vatican			Vatikanstadt
+create_acc_country_venezuela		Venezuela
+create_acc_country_virgin_brit		Jungferninseln (Britisch)
+create_acc_country_virgin_us		Jungferninseln (US)
+create_acc_country_wallis			Wallis und Futuna Inseln
+create_acc_country_western_sahara	Westsahara
+create_acc_country_zaire			Zaire
+
+// credit_card.package
+creditcard_label_correct_error				Berichtige diesen Fehler
+creditcard_button_close_window				Fenster Schließen
+creditcard_label_first_name					Vorname
+credit_card_first_name_tip					Gib den Vornamen entsprechend Deiner Kreditkarte ein.
+creditcard_label_last_name					Nachname
+credit_card_last_name_tip					Gib den Nachnamen entsprechend Deiner Kreditkarte ein.
+creditcard_label_billing_zip				Rechnungs-Postleitzahl
+credit_card_billing_zip_tip					Gib die Postleitzahl ein, die mit der Rechnungsadresse Deiner Kreditkarte übereinstimmt.
+creditcard_label_cvv_number					Gib die CVV2-Nummer ein. Diese findest du auf der Rückseite Deiner Kreditkarte.
+creditcard_label_expiration_date			Gib das Ablaufdatum Deiner Kreditkarte ein.
+creditcard_label_upgrade_agreement			Durch einen Klick auf die Taste "Upgrade auf Premium-Account" stimmst Du den ^yNutzungsbestimmungen^* zu.
+creditcard_label_upgrade_prime				Upgrade auf Premium-Account
+creditcard_label_secure_card				Vor der Datenübertragung über das Internet werden deine Kreditkartendaten mit einer hochwertigen Chiffrierung versehen.
+creditcard_button_dont_upgrade				Nein Danke, kein Upgrade
+creditcard_label_processing_form			Daten werden verarbeitet...
+creditcard_header_upgrade_prime				Upgrade auf Premium-Account - Verrechnungseinzelheiten
+creditcard_label_prime_up_successful		Premium Upgrade Erfolgreich!
+creditcard_label_prime_up_ty				Vielen Dank für das Upgrade zum Premium-Account. Deine Unterstützung unabhängiger Spielhersteller erlaubt es uns, auch in Zukunft neue und preisgünstige Spiele zu entwickeln.
+creditcard_label_prime_benefits				Du hast jetzt Zugriff auf alle Vorteile eines Premium-Accounts! Untenstehend findest Du die Einzelheiten Deiner Transaktion.
+creditcard_label_transaction_email			Eine E-Mail mit diesen Daten wurde an die oben angegebene E-Mail-Adresse gesendet. Bei Fragen wendest Du Dich bitte an support@s2games.com oder besuche http://www.heroesofnewerth.com.
+creditcard_label_match_content				Die folgenden Felder müssen genau mit den Daten Deines Kreditkartenkontos übereinstimmen.
+creditcard_label_prime_card_number			Kreditkartennummer
+creditcard_label_prime_cvv_number			CVV2 Nummer
+creditcard_label_prime_expiration			Ablaufdatum
+creditcard_label_prime_month				Monat:
+creditcard_label_prime_year					Jahr:
+credit_card_processing						Transaktion wird verarbeitet...
+credit_card_error							Es ist ein Fehler aufgetreten: {error}
+credit_card_error_duplicate_subscription	Es gibt ein Mehrfach-Abonnement.
+credit_card_error_invalid_number			Die Kreditkartennummer ist ungültig.
+credit_card_error_invalid_code				Der Kartencode (CVV2/CVC2/CID) ist ungültig.
+credit_card_error_address					Die angegebene Adresse stimmt nicht mit der Rechnungsadresse des Kartenbesitzers überein.
+credit_card_error_duplicate_transaction		Es wurde eine mehrfache Transaktion eingeleitet.
+credit_card_error_expiration_date			Das Ablaufdatum der Kreditkarte ist ungültig.
+credit_card_error_declined					Diese Transaktion wurde zurückgewiesen.
+credit_card_result_charge					Heutige Kosten: ^w${charge}
+credit_card_result_first_name				Vorname: ^w{name}
+credit_card_result_last_name				Nachname: ^w{name}
+credit_card_result_transaction_number		Transaktions #: ^w{id}
+credit_card_result_subscription_number		Abonnements #: ^w{id}
+credit_card_result_next_bill_date			Nächstes Rechnungsdatum: ^w{date}
+credit_card_result_email					E-Mail: ^w{email}
+
+// game.interface
+game_scores_label_name						NAME
+game_scores_label_hero						HELD
+game_scores_label_lvl						Lvl
+game_scores_label_player_name				Spielername
+game_scores_label_k							K
+game_scores_label_d							D
+game_scores_label_a							A
+game_scores_label_tab_lvl					Lvl
+game_scores_label_tab_player_name			Spielername
+game_scores_label_tab_k						K
+game_scores_label_tab_d						D
+game_scores_label_tab_a						A
+game_shop_label_recipe						Rezeptur
+game_shop_label_combine						Kombinieren
+
+game_scores_header_scores					Punkte
+game_button_scores							Punkte
+game_button_menu							Menü
+game_button_open_close_shop					Shop Öffnen/Schließen
+game_shop_label_accessories					Ausrüstung
+game_shop_label_weapons						Waffen
+game_shop_label_relics						Relikte
+game_shop_label_supplies					Vorräte
+game_shop_label_secret						Geheimer Shop
+game_shop_label_recipe_one					Initiierung
+game_shop_label_recipe_two					Unterstützend
+game_shop_label_recipe_three				Schützend
+game_shop_label_recipe_four					Kampflustig
+game_shop_label_recipe_five					Morph-Attacke
+game_label_stash_tool_tip					Das Versteck dient der Aufbewahrung von Gegenständen bei vollem Inventar. Wenn Du dich von der Basis entfernt hast, werden im Shop gekaufte Gegenstände automatisch im Versteck abgelegt.\n\nEin Linksklick auf einen Gegenstand mit automatischer Zusammensetzung in Deinem Versteck baut diesen auseinander.
+game_shop_label_requires					Erfordert:
+game_shop_label_used_in						Benutzt in:
+game_shop_label_total_cost					Gesamtbetrag
+game_shop_label_total_cost_tip				Der Gesamtbetrag einer Rezeptur umfasst sowohl die Kosten für die Rezeptur als auch die Kosten der für die Rezeptur notwendigen Gegenstände.
+game_shop_label_shoptip_header				Shop-Informationen
+game_shop_label_shoptip_summary				Der Shop umfasst zwei Hauptkategorien, Gegenstände und Rezepturen. Gegenstände sind die einzelnen Komponenten, aus denen sich die Rezepturen zusammensetzen. Um manche Rezepturen zu vervollständigen, erfordern diese nach dem Kauf der einzelnen Komponenten den zusätzlichen Erwerb eines bestimmten Rezepturengegenstandes. Andere Rezepturen entstehen automatisch, sobald alle benötigten Gegenstände vorhanden sind.\n\nFalls Du aus Versehen einen nicht benötigten Gegenstand kaufst, bleibt Dir eine Gnadenfrist von 15 Sekunden, während der Du den Gegenstand zum vollen Kaufpreis zurückgeben kannst.
+game_shop_label_shoptip_featuresheader		Shop-Features und Hotkeys:
+game_shop_label_shoptip_features			Drücke ^gSHIFT^* und mache einen ^gLINKSKLICK^* auf einen bestimmten Gegenstand, um sich anzusehen, für welche Rezepturen dieser verwendet werden kann.\n\nUm einen Gegenstand aus Deinem Inventar in das Versteck zu legen, oder umgekehrt, halte die Taste ^gSTRG^* gedrückt und klicke mit ^gRECHTS^* auf den entsprechenden Gegenstand.\n\nUm einen Gegenstand zu verkaufen, wähle ihn entweder mit einem ^gRECHTSKLICK^* an und lege ihn anschließend mit einem ^gLINKSKLICK^* im Shop-Interface ab, oder halte die Tasten ^gSTRG^* und ^gSHIFT^* gedrückt und vollführe einen ^gRECHTSKLICK^* auf den entsprechenden Gegenstand.
+hans
+game_ui_label_gold							Gold
+game_attributes_label_atk_spd				Atk Geschw
+game_attributes_label_magic_armor			Magisch Rüs
+game_header_scores_team_one					Team 1
+game_header_scores_team_two					Team 2
+game_label_ally_level						L
+game_label_buy_back							Rückkauf
+game_label_hero_kd_hero						Held:
+game_label_creep_kills_creep				Creep:
+
+game_invulnerable							Unverwundbar
+
+// game_chat.package
+gamechat_button_send_message				Nachricht Senden
+gamechat_tip_hit_z_history					^y*Tipp:^* Drücke "Z", um den Chat-Verlauf anzuzeigen
+gamechat_indicate_team						[TEAM]
+gamechat_indicate_all						[ALLE]
+gamechat_header_chat						Chat
+game_chat_button_team						Team
+game_chat_button_all						Alle
+game_chat_for								^yChat Für: ^* {target}
+
+// main_local_browser.package
+local_header_local_game						Lokales Spiel
+local_header_join_local_game				Einem Lokalen Spiel Beitreten
+local_label_your_name						Dein Name
+local_button_refresh_list					Liste Aktualisieren
+local_button_connect_ip						Verbinden mit IP
+local_button_join_selected					Dem ausgewählten Spiel Beitreten
+local_create_game_header					Ein Lokales Spiel Erstellen
+local_select_server_header					Einen Server Auswählen
+local_select_server_button					Server Auswählen
+main_local_browser_filter_header			Spielliste Filtern
+main_local_browser_filter_desc				Um die Ergebnisse zu filtern, gib bitte einen Spielnamen oder einen Teil eines Spielnamens ein.
+local_need_password_header					Passwort Erforderlich
+main_local_browser_password_tip				Dieses Spiel erfordert für den Beitritt ein Passwort. Gib das Passwort ein, das vom Ersteller des Spiels festgelegt wurde.
+local_server_header							Server
+main_local_browser_ip						IP
+main_local_browser_ip_tip					Um sich mit einem Remote-Spiel zu verbinden, gib bitte eine Internet Protocol (IP) Adresse ein.
+main_local_browser_connect_to_ip			Mit einer IP verbinden
+main_local_broswer_password					Passwort
+main_local_browser_password_tip				Gib das Passwort für dieses Spiel ein.
+main_local_browser_starting					Remote-Spiel startet...
+main_local_browser_header					Spiel-Browser - ^r{players}^* Spieler auf ^r{servers}^* Servern
+
+// main_popup.interface
+popup_header								Nachricht
+
+// cc_community.package
+cc_com_header_your_friends_list				Deine Freundesliste
+cc_com_header_add_friends					Neue Freunde Hinzufügen
+cc_com_label_enter_nickname					Nickname Unten Eingeben:
+cc_com_button_add							Hinzufügen
+
+cc_com_button_find_in_game					Suche im Laufenden Spiel
+cc_com_aside_header_in_current_game			Im Laufenden Spiel
+cc_com_aside_current_button_add				Hinzufügen
+
+cc_com_button_recently_with					Kürzliche Spielpartner
+cc_com_aside_header_recently_with			Kürzliche Spielpartner
+cc_com_aside_recent_button_add				Hinzufügen
+
+cc_com_header_clan_management				Clan-Management
+cc_com_label_not_in_clan					Du bist derzeit in keinem Clan.
+cc_com_label_if_interested					Falls Du einem Clan beitreten möchtest, ändere bitte Deinen Status. Dein Status wird für die Clan-Führer sichtbar.
+cc_com_dropbox_not_interested				Nicht Interessiert
+cc_com_dropbox_looking_for_clan				Suche nach Clan
+cc_com_header_clan_inv_recent				Kürzliche Spielpartner
+cc_com_button_clan_inv_recent_add			Hinzufügen
+cc_com_header_clan_inv_current				Im Laufenden Spiel
+cc_com_button_clan_inv_current_add			Hinzufügen
+
+cc_com_rtclick_clan_invite_member			Neues Mitglied Einladen
+cc_com_label_find_nickname_below			Nickname unten Eingeben:
+cc_com_button_findoptions_invite			Einladen
+cc_com_button_findoptions_current			Suche im Laufenden Spiel
+cc_com_button_findoptions_recent			Kürzliche Spielpartner
+
+ccpanel_header_options						Einstellungen
+ccpanel_button_config_cc					C&C Panel Konfiguration
+ccpanel_label_panel_explanation				Das C&C Panel benachrichtigt Dich über die Handlungen Deiner Freunde und Clan-Verbündeten. Wähle die gewünschten Benachrichtigungen aus.
+ccpanel_checkbox_connection_note			Benachrichtigung bei Verbindungen
+ccpanel_checkbox_disconnect_note			Benachrichtigung bei Verbindungstrennung
+ccpanel_checkbox_join_note					Benachrichtigung beim Beitritt von Spielen
+ccpanel_checkbox_leave_note					Benachrichtigung beim Verlassen von Spielen
+ccpanel_checkbox_friend_adds_note			Aufnahmen in die Freundesliste
+ccpanel_checkbox_friends_remove_note		Entfernen aus der Freundesliste
+ccpanel_checkbox_clan_message_note			Clan-Nachrichten
+ccpanel_checkbox_rank_change_note			Clan-Änderungen im Rang
+ccpanel_checkbox_new_member_note			Neue Clan-Departures
+ccpanel_checkbox_depature_note				Clan-Starts
+ccpanel_checkbox_clan_invite_note			Clan-Einladungen
+ccpanel_checkbox_match_note					Benachrichtigung bei Clan-Matches
+ccpanel_button_save_settings				Einstellungen Speichern
+ccpanel_game_invite							Einladung zum Spiel
+ccpanel_label_clan_and_community			Clan & Community Panel
+
+// cc_serverlist.package
+ccserverlist_checkbox_show_full				Anzeige Voll:
+ccserverlist_checkbox_show_empty			Anzeige Leer:
+ccserverlist_checkbox_show_sandbox			Sandkästen Anzeigen:
+ccserverlist_checkbox_max_ping				Max Ping:
+ccserverlist_editbox_map					Karte:
+ccserverlist_checkbox_different				Unterschiedliche Version:
+ccserverlist_checkbox_all_level				Alle Levelniveaus:
+ccserverlist_checkbox_unresponsive			Antwortet nicht:
+ccserverlist_button_save					Speichern
+ccserverlist_combobox_races					Rassen:
+ccserverlist_button_filters					Filter
+ccserverlist_button_refresh					Aktualisieren
+ccserverlist_button_connect_ip				Verbinde mit IP
+ccserverlist_editbox_ip						IP:
+ccserverlist_editbox_pass					Pass:
+
+// cc_statistics.package
+ccstats_button_fetch						Holen
+
+// cc_message.package
+cc_message_label_enter_name_message			Nickname zur Nachricht Hinzufügen
+cc_message_label_message					Nachricht
+
+// cc_whisper.package
+ccwhisper_label_send_clan_message			Nachricht an Clan Senden.
+ccwhisper_button_send_whisper				Senden
+ccwhisper_button_send_message				Nachricht Senden
+ccwhisper_header_send_a_message				Eine Nachricht Senden
+
+// game_end_stats.interface
+endstats_label_match_id						Match ID
+endstats_label_date							Datum
+endstats_label_time							Zeit
+endstats_label_match_length					Match-Länge
+endstats_label_server						Server
+endstats_label_match_comments				Match-Anmerkungen
+endstats_button_submit_comment				Anmerkungen Senden
+endstats_header_legion_players				Legion Spieler
+endstats_header_player_name					Spielername
+endstats_label_lvl							Lvl
+endstats_label_hk							HK
+endstats_label_d							D
+endstats_label_ck							CK
+endstats_label_cd							CD
+endstats_label_xp_min						XP/Min
+endstats_label_rate							Rate
+endstats_header_player_statistics			Spieler-Statistiken
+endstats_label_xp_earned					Verdiente XP
+endstats_label_deaths						Tode
+endstats_label_gold_earned					Verdientes Gold
+endstats_label_gold_spent					Ausgegebenes Gold
+endstats_label_action_per_min				Handlungen pro Minute
+endstats_label_buy_backs					Helden Rückkäufe
+endstats_label_xp/minute					XP/Minute
+endstats_label_gold_lost					Verlorenes Gold
+endstats_label_gold/minute					Gold/Minute
+endstats_label_time_played					Spielzeit
+endstats_header_enemy_heroes				Gegnerische Helden
+endstats_label_hero_damage					Schaden
+endstats_label_hero_kills					Kills
+endstats_label_hero_assists					Unterstützung
+endstats_label_hero_gold					Gold
+endstats_header_enemy_building				Gegnerische Gebäude
+endstats_label_building_damage				Schaden
+endstats_label_building_razes				Zerstörungen
+endstats_label_building_gold				Gold
+endstats_header_team_creeps					Team Creeps
+endstats_label_creep_damage					Schaden
+endstats_label_creep_kills					Kills
+endstats_label_creep_gold					Gold
+endstats_header_neutrals					Neutrale Creeps
+endstats_label_neutral_damage				Schaden
+endstats_label_neutral_kills				Kills
+endstats_label_neutral_gold					Gold
+endstats_header_creep_denies				Creep Verweigert
+endstats_label_creep_deny_count				Zahl der Opferungen
+endstats_label_creep_xp_denied				XP Verweigert
+endstats_header_hellbourne_players			Hellbourne Spieler
+endstats_header_legion_statistics			Statistiken der Legion
+endstats_header_hellbourne_statistics		Statistiken Hellbourne
+endstats_label_attributes_player			Spielereigenschaften
+endstats_label_hero_played					Gespielter Held
+endstats_label_hero_level					Level
+endstats_label_hero_info_health				Gesundheit
+endstats_label_hero_info_mana				Mana
+endstats_label_hero_info_damage				Schaden
+endstats_label_hero_info_speed				Geschwindigkeit
+endstats_label_hero_info_atk_spd			Angriffsgeschwindigkeit
+endstats_label_hero_info_int				Intelligenz
+enstasts_label_hero_info_agi				Gewandtheit
+endstats_label_hero_info_str				Stärke
+endstats_label_hero_info_armor				Rüstung
+endstats_label_hero_info_inventory			Inventar
+gane_end_stats_victory_legion				Sieg für The Legion!
+game_end_stats_victory_hellbourne			Sieg für The Hellbourne!
+game_end_stats_detailed						Detaillierte Statistiken - {name}
+
+// cc_ircchat.package
+ircchat_main_button_join_create_new			Neuem Channel Beitreten / Erstellen
+ircchat_header_join_create_new				Neuem Channel Beitreten / Erstellen
+ircchat_button_join_create					Beitreten / Erstellen
+ircchat_button_channel_join_create			Beitreten / Erstellen
+ircchat_button_chat_text_send_message		Nachricht Senden
+ircchat_button_chat_channel_create_new		Neuem Channel Beitreten / Erstellen
+ircchat_header_chat							Chat
+
+// game_hero_select.interface
+hselect_label_hd_strength					Stärke:
+hselect_label_hd_agility					Gewandtheit:
+hselect_label_hd_intel						Intelligenz:
+hselect_button_ready						Bereit
+game_hero_select_ready_tip_me_ready			Bist Du für die Schlacht bereit!
+game_hero_select_ready_tip					Klicke auf diesen Knopf, wenn Du für den Beginn der Schlacht bereit bist. Nachdem Du dich für die Schlacht vorbereitet hast, kannst Du nicht mehr tauschen oder neu wählen. Sobald alle Spieler bereit sind, startet das Spiel.
+game_hero_select_ready_tip_no_hero			Du musst einen Helden wählen, ehe Du Dich für die Schlacht bereit machen kannst.
+game_hero_select_ready_tip_other_ready		Dieser Spieler ist für die Schlacht bereit!
+game_hero_select_ready_tip_not_ready		Dieser Spieler ist noch nicht bereit...
+game_hero_select_random_tip_already_picked	Du hast bereits einen Helden gewählt.
+game_hero_select_random_tip_free			Die Auswahl eines zufälligen Helden ist kostenlos.
+game_hero_select_random_tip					Für die Auswahl eines zufälligen Helden erhältst Du ^y{gold}^* Extra-Gold.
+hselect_header_hero_details					Einzelheiten des Helden
+hselect_label_hd_damage						Schaden
+hselect_label_hd_armor						Rüstung
+hselect_label_hd_move_speed					Bewegungsgeschwindigkeit
+hselect_label_hd_attack_type				Angriffsart
+hselect_label_hd_attack_range				Angriffsreichweite
+hselect_label_hd_attack_rate				Angriffsfrequenz
+hselect_label_hd_abilities					Fähigkeiten
+game_hero_select_mana_cost					Mana-Kosten: {value}
+game_hero_select_cooldown					Regeneration: {time}s
+hselect_header_statistics					Statistiken
+hselect_label_strength						St
+hselect_label_agility						Gew
+hselect_label_intelligence					Int
+hselect_swap_request_tip_header				Held Tauschen
+hselect_swap_request_tip_text				An diesen Spieler eine Anfrage stellen, um den Helden zu tauschen. Nach einem Tausch ist kein weiterer Tausch und keine weitere Auswahl möglich.
+hselect_swap_accept_tip_header				Held Tauschen
+hselect_swap_accept_tip_text				Dieser Spieler bietet Dir an, einen Tausch der Helden vorzunehmen. Klicke auf das Portrait, um den Tausch vorzunehmen. Nach einem Tausch ist kein weiterer Tausch und keine weitere Auswahl möglich.
+game_hero_select_repick						Held Erneut Auswählen
+game_hero_select_repick_tip_disabled		In diesem Spiel ist keine erneute Heldenauswahl möglich.
+game_hero_select_repick_tip_already_used	Du hast Deine erneute Auswahl bereits verbraucht.
+game_hero_select_repick_tip_already_swapped	Du kannst keine erneute Auswahl vornehmen, da Du bereits getauscht hast.
+game_hero_select_repick_tip_no_hero			Nachdem Du einen Helden gewählt hast, kannst Du die Auswahl mit dieser Taste rückgängig machen. Eine erneute Auswahl kostet Dich ^y{gold}^* Gold. Es ist nur eine erneute Auswahl möglich. Nach einer erneuten Auswahl ist kein Tausch mehr möglich.
+game_hero_select_repick_tip					Klicke auf diese Taste, um einen neuen Helden auszuwählen. Eine erneute Auswahl kostet Dich ^y{gold}^* Gold. Es ist nur eine erneute Auswahl möglich. Nach einer erneuten Auswahl ist kein Tausch mehr möglich.
+game_hero_select_repick_tip_free			Klicke hier, um einen neuen Helden auszuwählen. Es ist nur eine erneute Auswahl möglich. Nach einer erneuten Auswahl ist kein Tausch mehr möglich.
+game_hero_select_starting_gold				Startsumme an Gold
+game_hero_select_starting_gold_tip_me		Zu Anfang des Spiels steht Dir ^y{gold}^* Gold zur Verfügung.
+game_hero_select_starting_gold_tip_other	Diesem Spieler steht zu Anfang des Spiels ^y{gold}^* Gold zur Verfügung.
+game_hero_select_random						Wähle einen Zufälligen Helden
+game_hero_select_status_select_hero			Wähle Deinen Helden
+game_hero_select_status_waiting				Warte auf Weitere Spieler
+
+// main_lobby.interface
+mainlobby_button_main_menu					Hauptmenü
+main_lobby_ranked_play						Ranglistenkampf
+main_lobby_ranked_play_desc					Ein Ranglistenkampf gestattet es Dir, Gruppenspiele zu erstellen, bei denen Du sogar unterschiedliche Freunde in gegnerische Teams stecken kannst. Danach müssen Spieler, die nach ähnlichen Spielen suchen, entsprechend Deiner Voreinstellungen und basierend auf den Statistiken in gerechte Teams aufgeteilt werden. Diese Spiele werden anschließend dazu verwendet, die Spieler in unserer Rangliste zu platzieren.
+mainlobby_button_quick_play_config			Quick Play Konfiguration
+main_lobby_button_quick_play_config_desc	Hier kannst Du bei allen Spielmodi und Spieloptionen entweder Ausschließen, Neutral oder Bevorzugt auswählen. Dein Client wird anschließend alle verfügbaren Spiele durchsuchen und danach in Abhängigkeit von den von Dir getroffenen Voreinstellungen eines davon auswählen. Je mehr Options Du ausschließt, desto länger dauert es, ehe Du einem Spiel beitrittst.
+main_lobby_quick_play_desc					Hermit kannst du in Abhängigkeit Deiner Vorlieben und Abneigungen leicht und einfach einer Game Lobby beitreten. Wenn Du die Quick Play Configuration gleich rechts öffnest, findest Du durch die Einstellungen alle Modes und Options des für Dich geeigneten Spiels. Quick Play versucht KEIN Matchmake, das auf den Fähigkeiten der Spieler basiert. Verwende hierfür bitte das iMatch.
+mainlobby_label_qp_config_note				Um das Quick Play zu konfigurieren, kannst Du jede der untenstehenden Kategorien auf bevorzugt, neutral oder ausschließen setzen. Klicke hierfür auf die entsprechenden Schaltflächen. Durch einen Klick auf "Quick Play" nimmst Du an einem Match teil, das den von Dir gewählten Konfigurations-Optionen am nächsten kommt.
+main_lobby_qp_show_advanced_filters_label	Um sich die erweiterten Spielfilter anzeigen zu lassen, klicke bitte auf die Schaltfläche Erweitert Anzeigen. Damit werden alle zusätzlichen Optionen angezeigt.
+main_lobby_qp_hide_advanced_filters_label	Um die erweiterten Spielfilter auszublenden, klicke bitte auf die Schaltfläche Erweitert Verbergen. Damit werden alle zusätzlichen Optionen ausgeblendet.
+mainlobby_button_save_qp_config				Quick Play Konfiguration Abspeichern
+mainlobby_label_join_size					Nur Spielen mit dieser Teamgröße Beitreten
+mainlobby_header_team_size					Teamgröße
+mainlobby_header_game_type					Spielart
+mainlobby_label_normal						Normal
+mainlobby_label_random_draft				Zufällige Auswahl
+mainlobby_label_single_draft				Einmalige Auswahl
+mainlobby_label_deathmatch					Deathmatch
+mainlobby_header_game_options				Spieleinstellungen
+mainlobby_label_tier						Rang
+mainlobby_label_tier_tip					Beschränkt die Server bezüglich bestimmter Rangvorgaben.\n\n^yNoobs Only^* - Es dürfen nur Accounts mit einer allgemein niedrigen Erfahrungsstufe teilnehmen.\n^yNoobs Erlaubt^* - Jeder Spieler darf teilnehmen, unabhängig von seiner Erfahrungsstufe.\n^yPro^* - Es dürfen nur Accounts mit einer allgemein hohen Erfahrungsstufe teilnehmen.
+mainlobby_header_game_tier1					Noobs Only
+mainlobby_header_game_tier2					Noobs Erlaubt
+mainlobby_header_game_tier3					Pro
+mainlobby_header_game_official				Offiziell - Aufgezeichnete Statistiken
+mainlobby_header_game_official2				Inoffiziell
+main_lobby_public							Öffentlich
+main_lobby_private							Privat
+main_lobby_leaver_restricted				Kein Verlassen
+main_lobby_leaver_restricted_desc			Eingeschränkte Spiele schließen Spieler aus, die einen niedriges Karma haben, oder in der Vergangenheit des Öfteren Spiele vor deren Abschluss verlassen haben.
+
+mainlobby_game_types_label					Spielarten
+mainlobby_label_more						Erweiterte Optionen
+mainlobby_button_show_advanced				Erweiterte Optionen Anzeigen
+mainlobby_button_hide_advanced				Erweiterte Optionen Verbergen
+
+mainlobby_button_ranked_play				Ranglistenspiel
+
+mainlobby_button_custom_game				Spielliste
+mainlobby_button_custom_game_desc			Verwende diese Schaltfläche, wenn Du kein Quick Play verwenden möchtest und manuell durch die verfügbaren Spiele browsen willst. In der Game List lassen sich die Ergebnisse filtern. Verfügbare Filter umfassen Teamgröße, Modes, Optionen und Pings. Wenn Du schnell und auf Knopfdruck an der Action teilnehmen möchtest, solltest Du Quick Play verwenden.
+mainlobby_button_create_game				Spiel Erstellen
+mainlobby_button_create_game_desc			Möchtest Du ein Spiel hosten, das genau Deinen Erwartungen entspricht oder möchtest Du Deinen Freunden die Teilnahme erleichtern? Dann verwende dieses Feature. Bei der Erstellung eines Spiels kannst Du dieses auf Private setzen, auf die Teilnahme Deiner Freunde warten und es anschließend auf Bekanntgeben setzen, um die restlichen freien Plätze zu füllen.
+mainlobby_header_custom_join_a_game			Einem Spiel Beitreten
+mainlobby_header_custom_filter_results		Server-Ergebnisse Filtern
+main_lobby_filter_description				Durch die Verwendung der untenstehenden Filter schränkst Du die angezeigten Spiele ein. Diese beinhalten ausschließlich die von Dir gewünschten Parameter.
+mainlobby_label_custom_game_name			Spielname
+main_lobby_game_name_desc					Filtere den Spielbrowser durch die Eingabe eines ganzen Spielnamens oder durch die Eingabe von Teilen eines Spielnamens in die Suchmaske.
+mainlobby_label_custom_game_type			Spielart
+mainlobby_label_custom_game_type_desc		Spielarten beeinflussen die Heldenauswahl.\n\n^yNormal^* - Gewöhnliche Heldenauswahl.\n^Zufällige Auswahl^* - Begrenzt die Heldenauswahl auf 20 Helden. Die Spieler wählen abwechselnd.\n^yEinmalige Auswahl^* - Jeder Spieler erhält eine Heldenauswahl aus einem gewandten, einem intelligenten und einem starken Helden.\n^yDeathmatch^* - Gewöhnliche Heldenauswahl. Nach dem Ableben muss der Spieler einen neuen Helden wählen. Das Spiel ist zu Ende, wenn einem der Teams keine Helden mehr zur Verfügung stehen.
+mainlobby_label_custom_team_size			Teamgröße
+mainlobby_label_custom_team_size_desc		Beschränkt die Spiele auf eine bestimmte Teamgröße.
+main_lobby_filter_team_size_none			Keine Einschränkung der Teamgröße
+main_lobby_filter_any						Alle
+main_lobby_filter_team_size_one_v_one		Einer gegen Einen
+main_lobby_filter_team_size_two_v_two		Zwei gegen Zwei
+main_lobby_filter_team_size_three_v_three	Drei gegen Drei
+main_lobby_filter_team_size_four_v_four		Vier gegen Vier
+main_lobby_filter_team_size_five_v_five		Fünf gegen Fünf
+mainlobby_label_custom_map					Karte
+mainlobby_label_custom_map_desc				Beschränkt die Spiele auf eine bestimmte Karte.
+mainlobby_label_custom_server_type			Serverart
+mainlobby_label_custom_server_type_desc		Beschränkt die Spiele auf eine bestimmte Serverart. Offizielle Server sind die von S2 gehosteten Server. Diese garantieren einen offiziellen Spielverlauf, unmodifizierte Spieloptionen und Karten. Inoffizielle Server werden von der Gemeinschaft betrieben. Hierbei kann es sich möglicherweise um modifizierte Karten und Spieloptionen handeln.
+main_lobby_server_official					Offiziell
+main_lobby_server_unofficial				Inoffiziell
+msin_lobby_game_access						Spielzugang
+main_lobby_view_advanced_filters			Klicke unten auf ^yErweiterte Optionen Anzeigen^*, um alle zusätzlichen Optionen anzuzeigen.
+mainlobby_show_advanced_filters_button		Erweiterte Optionen Anzeigen
+mainlobby_hide_advanced_filters_button		Erweiterte Optionen Verbergen
+
+mainlobby_header_custom_name				Name
+mainlobby_header_custom_slots				Slots
+mainlobby_header_custom_ping				Ping
+mainlobby_header_custom_size				Größe
+mainlobby_header_custom_type				Art
+mainlobby_header_custom_options				Optionen
+mainlobby_button_custom_refresh				Liste Aktualisieren
+mainlobby_button_custom_join_selected		Ausgewähltem Spiel Beitreten
+mainlobby_header_custom_karma				Eingeschränkte Spiele Verlassen/Karma Restricted Games
+mainlobby_button_custom_instant_upgrade		Sofortiger Upgrade auf Premium-Account
+mainlobby_button_custom_return				Zurück zum Spielbrowser...
+mainlobby_header_custom_prime_req			Premium-Account Erforderlich
+mainlobby_header_create_create_game			Ein Spiel Erstellen
+mainlobby_header_create_public_game			Ein Öffentliches Spiel Erstellen
+mainlobby_label_custom_searching			Suche...
+mainlobby_label_cc_friends					Freunde
+mainlobby_label_cc_clan						Clan
+mainlobby_cc_rtclick_friends_filter			Filter
+mainlobby_cc_rtclick_clan_filter			Filter
+mainlobby_label_custom_game_access			Spielzutritt
+mainlobby_tip_custom_game_access			Öffentliche Matches sind für alle Spieler zugänglich. Private Matches erfordern ein Password.
+mainlobby_label_custom_retrieving_list		Liste wird Erstellt...
+mainlobby_label_filter_server_name			Servername Filtern
+mainlobby_tip_filter_server_name			Um die Ergebnisse zu filtern, gib bitte einen Servernamen oder einen Teil eines Servernamen ein.
+mainlobby_create_game_remote				Starte Remote-Spiel...
+
+mainlobby_label_icon_key					Symbolschlüssel Ansehen
+mainlobby_icon_key_options_header			Spiel-Setup und Optionen
+
+mainlobby_new_channel_header				Channel Beitreten / Erstellen
+mainlobby_server_browser_header				Einen Server Auswählen
+mainlobby_friends_header					Deine Freundesliste
+mainlobby_server_header						Server
+mainlobby_quick_play_options_header			Quick Play Optionen
+
+main_lobby_add_new_friend					Neuen Freund Hinzufügen
+main_lobby_join_create						Beitreten / Erstellen
+main_lobby_join_new_channel					Neuem Channel Beitreten 
+main_lobby_searching						Suche...
+main_lobby_no_games_found					Keine Spiele Gefunden! Eines Erstellen?
+main_lobby_response							{count} Antwort
+main_lobby_responses						{count} Antworten
+
+// replay_viewer.interface
+replayv_header_replay_viewer				Replay-Anzeige
+replayv_button_local_replays				Lokale Replays
+replayv_button_online_replays				Online Replays
+replayv_header_replay_list					Replay-Liste
+replayv_header_replay_details				Replay-Einzelheiten
+replayv_button_view_replay					Replay Ansehen
+replayv_button_close_window					Fenster Schließen
+replayv_label_replay_detail_info			Um sich die Replay-Einzelheiten Anzusehen, wähle eine Replay Datei aus der Liste auf der linken Seite.
+replay_viewer_game_options					^ySpieloptionen:^* {options}
+replay_view_tip_online						Durchsuche die Online-Datenbank der Replays.
+replayv_label_match_id						Match ID: 
+replayv_label_date_played					Gespieltes Datum: 
+replayv_label_match_length					Matchdauer: 
+replayv_label_map							Karte: 
+replayv_label_game_mode						Spielmodus: 
+replayv_button_view_match_winner			Gewinner Ansehen
+
+// game_replay_control.interface
+game_replay_control_speed					Geschwindigkeit 
+game_replay_control_viewing					^yAnsehen:^* 
+
+// game_loading.interface
+game_loading_button_cancel					Laden Abbrechen
+
+// game_lobby.interface
+gamelobby_add_friend_tip					Zur Freundesliste Hinzufügen
+gamelobby_take_slot_button					Diesen Spielerslot Auswählen
+game_lobby_take_slot_color					{color} Slot Auswählen
+gamelobby_player_level_tip					Spieler-Level
+gamelobby_referee_tip						Schiedsrichter werden vom Host des Spiels bestimmt. Gewöhnlich werden die Schiedsrichter bei Konkurrenzwettkämpfen verwendet, um die Regeln des jeweiligen Spiels durchzusetzen.
+gamelobby_kick_tip							Kick {name}
+game_lobby_mute								Stumm schalten/Laut schalten {name}
+gamelobby_make_referee_tip					{name} zum Schiedsrichter Erklären
+game_lobby_demote_referee					Zum Schiedsrichter Erklären {name}
+game_lobby_no_referee						Kein Schiedsrichter
+gamelobby_spectators_header					Zuschauer
+gamelobby_spectate_button					Zuschauer Werden
+gamelobby_disconnect_button					Trennen
+gamelobby_disband_game_button				Spiel Auflösen
+gamelobby_start_game_button					Spiel Starten
+gamelobby_private_button					Privates Spiel
+gamelobby_private_tip_header				Privates Spiel
+gamelobby_private_tip_text					Wenn Du dieses Feature anwählst, wird Dein Spiel nicht in der Spielliste angezeigt und kann nicht für ein Quick Match angewählt werden. Uneingeladene Spieler können nicht an diesem Spiel teilnehmen.
+game_lobby_match_name						^ySpielname:^* {name}
+game_lobby_server_name						^yServer:^* {name}
+game_lobby_ping								^yPing:^* {value}ms
+game_lobby_map								^yKarte:^* {name}
+game_lobby_match_id_none					^yMatch ID:^444 <none>
+game_lobby_match_id							^yMatch ID:^* {value}
+game_lobby_host								^yHost:^* {host}
+game_lobby_num_players						^Spieler:^* {count}/{max}
+game_lobby_mode								^ySpielmodus:^* {mode}
+game_lobby_options							^ySpieloptionen:^* {options}
+globby_quick_stats							Wins\nLosses\nK:D\nA:D\nK+A:D\nWards\nXPM\nGPM
+_first_game									's ^wFirst Game!
+
+// game_menu.interface
+game_menu_header							Spielmenü
+game_menu_client_functions_header			Client-Funktionen
+game_menu_share_control_header				Geteilte Optionen der Einheitenkontrolle
+game_menu_share_full						Voll
+game_menu_share_courier						Kurier
+game_menu_add_friend_tip					Zur Freundesliste Hinzufügen
+game_menu_return_button						Zurück zum Spiel
+game_menu_options_button					Optionen
+game_menu_disconnect_button					Trennen
+game_menu_quit_button						HoN Verlassen
+game_menu_leaver_warning					^yAchtung:^* Das Verlassen eines laufenden Spiels vergrößert den Prozentsatz der Verlassenen Spiele!
+game_menu_share_control_text				Du kannst die Steuerung deiner Einheiten mit Deinen Teamkameraden teilen. Die Aufteilung der Kontrolle unter deinen Teamkameraden kann sehr nützlich sein, wenn Du Ihnen die Steuerung Deiner Haustiere überlässt.
+game_menu_disconnect_header					Trennen Bestätigen
+game_menu_disconnect_confirm				Bist Du Dir sicher, dass Du das Spiel verlassen möchtest?
+game_menu_disconnect_hide_checkbox			Diese Nachricht nicht wieder anzeigen
+game_menu_leave_percentage_text				Dein ^yProzentsatz der Verlassenen Spiele^* ist der yProzentsatz der Spiele, die Du vor dem Spielende verlassen hast. Viele Spieler erstellen Spiele, die einen gewissen Prozentsatz der Verlassenen Spiele erfordern. Durch das vorzeitige Verlassen von zu vielen Spielen (ein hoher Prozentsatz) verringerst Du die Möglichkeit, an diesen eingeschränkten Spielen teilzunehmen.
+game_menu_quit_header						Verlassen Bestätigen
+game_menu_quit_confirm						Willst Du wirklich zum Desktop zurückkehren?
+game_menu_leave_rate_text					Prozentsatz der Verlassenen Spiele:
+game_menu_empty_slot						-Slot für Weiteren Spieler-
+game_menu_leave_rate_label					Prozentsatz der Verlassenen Spiele:
+game_menu_dont_show_again					Diese Nachricht nicht wieder anzeigen
+
+// alt_info_hero.interface
+alt_info_hero_level							Level {level}
+
+// cc_panel.interface
+cc_panel_unread_im							Du hast 1 ungelesene IM.
+cc_panel_unread_ims							Du hast {count} ungelesene IMs.
+cc_panel_invited							Du wurdest von {player} zum Spiel '{game}' eingeladen
+cc_panel_resize								Größenänderung
+
+// tos.package
+tos_header									Servicebedingungen
+tos_close_window							Fenster Schließen
+
+// game_upgrade.interface
+game_upgrade_header							Upgrade auf einen Premium-Account
+game_upgrade_benefits_header				Vorteile des Upgrading
+
+// main_create_account.package
+main_create_account_header					Account Erstellen
+main_create_account_details_header			Einzelheiten zum Account
+main_create_account_referral_header			Empfehlungs-Account
+main_create_account_tos_header				Bedingungen der Account-Erstellung
+main_create_account_nickname_check			Nickname Überprüfen...
+main_create_account_nickname_available		Nickname verfügbar
+main_create_account_processing_header		Formular wird Verarbeitet...
+main_create_account_creating_account		Account wird erstellt...
+main_create_account_upgrade_header			Upgrade auf Premium Account
+main_create_account_success_header			Account Erstellt
+main_create_account_first_name				Vorname
+main_create_account_first_name_tip			Gib Deinen Vornamen ein.
+main_create_account_last_name				Nachname
+main_create_account_last_name_tip			Gib Deinen Nachnamen ein.
+main_create_account_email					E-Mail Adresse
+main_create_account_email_tip				Gib Deine E-Mail Adresse ein.
+main_create_account_confirm_email			E-Mail Bestätigen
+main_create_account_confirm_email_tip		E-Mail Adresse Erneut Eingeben.
+main_create_account_password				Passwort
+main_create_account_password_tip			Bestimme ein Passwort.
+main_create_account_confirm_password		Passwort Bestätigen
+main_create_account_confirm_password_tip	Passwort Erneut Eingeben.
+main_create_account_referer					Vermittelnder Account
+main_create_account_referer_tip				Verm Acct Tooltip
+main_create_account_result_email			E-Mail: {email}
+main_create_account_result_password			Passwort: {password}
+main_create_account_welcome					Willkommen {name}!
+
+// player_stats.package
+player_stats_lifetime_header				Lebenszeit-Statistiken
+player_stats_wins							Siege
+player_stats_losses							Niederlagen
+player_stats_disconnects					Unterbr.
+player_stats_win_percent					Siege: {percent}
+player_stats_matches						Spiele
+player_stats_karma							Karma
+player_stats_last_match						Letztes Match
+player_stats_account_age					Acct-Alter
+player_stats_header							Spieler-Statistiken
+player_stats_experience_earned				Verdiente XP
+player_stats_experience_per_minute			XP/Minute
+player_stats_deaths							Tode
+player_stats_gold_earned					Verdientes Gold
+player_stats_gold_spent						Ausgegebenes Gold
+player_stats_actions_per_minute				Aktionen/Minute
+player_stats_gold_lost						Verlorenes Gold
+player_stats_gold_per_minute				Gold/Minute
+player_stats_time_played					Spielzeit
+player_stats_enemy_heroes					Gegnerische Helden
+player_stats_enemy_buildings				Gegnerische Gebäude
+player_stats_team_creeps					Team Creeps
+player_stats_neutral_creeps					Neutrale Creeps
+player_stats_denies_header					Geopferte Creeps
+player_stats_damage							Schaden
+player_stats_razes							Zerstörungen
+player_stats_kills							Kills
+player_stats_assists						Unterstützungen
+player_stats_gold							Gold
+player_stats_deny_count						Zahl der Verweigerungen
+player_stats_deny_xp						XP Verweigert
+player_stats_clan_name						Clanname
+player_stats_level							Spielerlevel
+
+// game_setup.package
+game_setup_spcectators_label				Zuschauer
+game_setup_spectators_tip					Bestimmt die Anzahl der Zuschauerslots. Die Zuschauer dürfen einem Spiel beitreten und dieses ohne jede Interaktion mit anderen Spielern betrachten.
+game_setup_referees_label					Schiedsrichter
+game_setup_referees_tip						Bestimmt die Anzahl der Schiedsrichterslots. Schiedsrichter können Spieler aus dem Spiel kicken, das Spiel pausieren sowie festgefahrene Spieler wieder ins Spiel bringen.
+game_setup_team_size_label					Teamgröße
+game_setup_team_size_tip					Die Anzahl der Spieler in jedem Team.
+game_setup_tier_label						Rang
+game_setup_tier_tip							Beschränkt die Server bezüglich bestimmter Rangvorgaben.\n\n^yNoobs Only^* - Es dürfen nur Accounts mit einer allgemein niedrigen Erfahrungsstufe teilnehmen.\n^yNoobs Erlaubt^* - Jeder Spieler darf teilnehmen, unabhängig von seiner Erfahrungsstufe.\n^yPro^* - Es dürfen nur Accounts mit einer allgemein hohen Erfahrungsstufe teilnehmen. 
+game_setup_map_label						Karte
+game_setup_map_tip							Wählt die Karte für das Spiel.
+game_setup_type_label						Spielart
+game_setup_type_tip							Spielarten beeinflussen die Heldenauswahl.\n\n^yNormal^* - Gewöhnliche Heldenauswahl.\n^yZufällige Auswahl^* - Begrenzt die Heldenauswahl auf 20 Helden. Die Spieler wählen abwechselnd.\n^yEinmalige Auswahl^* - Jeder Spieler erhält eine Heldenauswahl aus einem gewandten, einem intelligenten und einem starken Helden.\n^yDeathmatch^* - Gewöhnliche Heldenauswahl. Nach dem Ableben muss der Spieler einen neuen Helden wählen. Das Spiel ist zu Ende, wenn einem der Teams keine Helden mehr zur Verfügung stehen.
+game_setup_select_server_label				Server Auswählen
+game_setup_select_server_tip				Die Auswahl von Auto-Select erstellt automatisch ein Spiel auf dem Server mit der kürzesten Latenzzeit. Anderenfalls kannst Du manuell einen Server aus der Liste wählen.
+game_setup_name_label						Spielname
+game_setup_private							Privates Spiel
+game_setup_private_tip						Die Auswahl dieses Features lässt Dein Spiel nicht in der Spielliste erscheinen und es ist nicht für ein Quick Match verfügbar. Diese Option ist dafür gedacht, ein Spiel für Deine Freunde zu erstellen. Diese Option kann in der Spiellobby geändert werden.
+game_setup_no_leavers						Kein Verlassen
+game_setup_no_leavers_tip					Spieler mit einem hohen Prozentsatz der Verlassenen Spiele können an diesem Spiel nicht teilnehmen.
+game_setup_record_stats						Rekordstatistiken
+game_setup_record_stats_tip					Rekordstatistiken dieses Spiels.
+game_setup_local							Lokal
+game_setup_automatic						Automatisch
+game_setup_browse							Durchsuchen...
+game_setup_one_v_one						Einer gegen Einen
+game_setup_two_v_two						Zwei gegen Zwei
+game_setup_three_v_three					Drei gegen Drei
+game_setup_four_v_four						Vier gegen Vier
+game_setup_five_v_five						Fünf gegen Fünf
+game_setup_normal							Normal
+game_setup_random_draft						Zufälliger Wechsel
+game_setup_single_draft						Einmaliger Wechsel
+game_setup_deathmatch						Deathmatch
+game_setup_advanced_options					Erweiterte Spieloptionen Anzeigen
+
+
+// tooltips
+tooltip_passive_bonuses						Passive Boni
+tooltip_aura								Aura
+tooltip_aura_effects						Aura-Effekte
+tooltip_activation							Aktivierung
+tooltip_activation1							Aktivierung  [^y{key1}^*]
+tooltip_activation2							Aktivierung  [^y{key1}^*, ^y{key2}^*]
+tooltip_ally_abilities						Fähigkeiten
+tooltip_ally_attributes						Attribute
+tooltip_attack_info							Angriffsdaten
+tooltip_attribute_info						Attributsdaten
+tooltip_defense_info						Verteidigungsdaten
+tooltip_experience_info						Erfahrungsdaten
+tooltip_strength_info						Boni der Stärkepunkte
+tooltip_agility_info						Boni der Gewandtheitspunkte 
+tooltip_intelligence_info					Boni der Intelligenzpunkte
+tooltip_level								Level {level}
+tooltip_unleveled							Kein Level
+tooltip_move_speed							Bewegungsgeschwindigkeit: 
+tooltip_mana								Mana: 
+tooltip_mana_regen							Mana-Regeneration: 
+tooltip_value								Wert: 
+tooltip_type								Art: 
+tooltip_range								Bereich: 
+tooltip_radius								Radius: 
+tooltip_channeling_time						Channeling-Zeit: {time} seconds
+tooltip_mana_cost							Mana-Kosten: 
+tooltip_mana_upkeep							Aufrechterhaltung des Mana: {value} pro Sekunde
+tooltip_cooldown							Regeneration: {time} Sekunden
+tooltip_health								Gesundheit: 
+tooltip_health_regen						Gesundheits-Regeneration: 
+tooltip_total_experience					Gesamterfahrung: 
+tooltip_next_level							Nächster Level: 
+tooltip_armor								Rüstung: 
+tooltip_damage_reduction					Schadenminderung: ^y
+tooltip_magic_armor							Magische Rüstung: 
+tooltip_magic_damage_reduction				Magische Schadenminderung: ^y
+tooltip_combat_type							Kampftyp: 
+tooltip_primary_attribute					Primäre Attribute: 
+tooltip_strength_per_level					Stärke pro Level: 
+tooltip_agility_per_level					Gewandtheit pro Level: 
+tooltip_intelligence_per_level				Intelligenz pro Level: 
+tooltip_strength							Stärke: 
+tooltip_agility								Gewandtheit: 
+tooltip_intelligence						Intelligenz: 
+tooltip_damage								Schaden: 
+tooltip_attack_speed						Angriffsgeschwindigkeit: 
+tooltip_cast_speed							Zaubergeschwindigkeit: 
+tooltip_attack_type							Angriffsart: 
+tooltip_base_attack_cooldown				Regeneration des Primären Angriffs: {time} Sekunden
+tooltip_attack_cooldown						Regeneration des Angriffs: ^y{time} Sekunden
+tooltip_attacks_per_second					^y{value}^* Angriffe pro Sekunde
+tooltip_gold								Gold: 
+
+// ui_items.package
+ui_items_friend_clan_label					Clan
+ui_items_friend_no_clan_label				Kein
+ui_items_friend_server_label				^yServer: ^*
+ui_items_friend_game_time_label				^ySpielzeit: ^*
+ui_items_friend_right_click_label			Rechtsklick für Optionen
+ui_items_slider_low							Niedrig
+ui_items_slider_high						Hoch
+ui_items_cc_right_click_send_message		Nachricht Senden
+ui_items_cc_right_click_joing_game			Spiel Beitreten
+ui_items_cc_right_click_message_clan		Nachricht an Gesamten Clan
+ui_items_cc_right_click_view_stats			Statistiken Einsehen
+ui_items_cc_right_click_add_buddy			Freund Hinzufügen
+ui_items_cc_right_click_remove_buddy		Freund Entfernen
+ui_items_cc_right_click_invite_to_game		Zum Spiel Einladen
+ui_items_cc_right_click_user_info			Benutzerdaten
+ui_items_cc_friends_online					Online-Freunde
+ui_items_cc_friends_in_game					Freunde Im Spiel
+ui_items_cc_friends_offline					Offline-Freunde
+
+// player_statistics.package
+player_statistics_name						Statistiken: ^w{name}
+player_statistics_skill_factor				SF: ^w{value}
+
+online_games_in_progress					Aktive Spiele {region}
+online_servers_available					Freie Server {region}
+online_queued								Spieler in Warteschlange für {map} {region}
+region_AU									in Australien
+region_BR									in Brasilien
+region_EU									in Europa
+region_RU									in Russland
+region_SEA									in SEA
+region_USE									in Ostküste USA
+region_USW									in Westküste USA
+region_ALL									gesamt

@@ -1,0 +1,473 @@
+﻿deny                                                                            {killer_color}{killer}^* menafikan {victim_color}{victim}^*!
+kill0                                                                           {killer_color}{killer}^* memenggal kepala {victim_color}{victim}^* untuk ^y{gold}^* emas!!
+kill1                                                                           {killer_color}{killer}^* memenggal kepala {victim_color}{victim}^* untuk ^y{gold}^* emas!! Dibantu: {assist0_color}{assist0}
+kill2                                                                           {killer_color}{killer}^* memenggal kepala {victim_color}{victim}^* untuk ^y{gold}^* emas!! Dibantu: {assist0_color}{assist0}^*, {assist1_color}{assist1}
+kill3                                                                           {killer_color}{killer}^* memenggal kepala {victim_color}{victim}^* untuk ^y{gold}^* emas!! Dibantu: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
+kill4                                                                           {killer_color}{killer}^* memenggal kepala {victim_color}{victim}^* untuk ^y{gold}^* emas!! Dibantu: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
+first_kill                                                                      {killer_color}{killer}^* telah melakukan ^rbloodlust^*! (^y+{gold}^* emas!)
+first_kill_team                                                                 {killer_color}{killer}^* telah melakukan ^rbloodlust^*! (^y+{gold}^* emas telah dibahagi!)
+killstreak0                                                                     {killer_color}{killer}^* adalah seorang ^082serial killer^*!
+killstreak1                                                                     {killer_color}{killer}^* adalah seorang ^204ultimate warrior^*!
+killstreak2                                                                     {killer_color}{killer}^* menjadi ^808legendary^*!
+killstreak3                                                                     {killer_color}{killer}^* sedang ^840onslaught^*!
+killstreak4                                                                     {killer_color}{killer}^* seorang ^440savage sick^*!!
+killstreak5                                                                     {killer_color}{killer}^* sedang ^848dominating^*!!
+killstreak6                                                                     {killer_color}{killer}^* adalah seorang ^800CHAMPION OF NEWERTH^*!!!
+killstreak7                                                                     {killer_color}{killer}^* sedang ^840BLOODBATH^*! Seseorang BUNUH DIA!
+killstreak8                                                                     {killer_color}{killer}^* seorang ^860IMMORTAL^*!!
+
+streakend0                                                                      {killer} telah mengakhiri ^082serial killer^* berturut {victim} untuk ^y{gold}^* emas!!
+streakend1                                                                      {killer} telah mengakhiri ^204ultimate warrior^* berturut {victim} untuk ^y{gold}^* emas!!
+streakend2                                                                      {killer} telah mengakhiri ^808legendary^* berturut {victim} untuk ^y{gold}^* emas!!
+streakend3                                                                      {killer} telah mengakhiri ^840onslaught^* berturut {victim} untuk ^y{gold}^* emas!!
+streakend4                                                                      {killer} telah mengakhiri ^440savage sick^* berturut {victim} untuk ^y{gold}^* emas!!
+streakend5                                                                      {killer} telah mengakhiri ^848domination^* berturut {victim} untuk ^y{gold}^* emas!!
+streakend6                                                                      {killer} telah mengakhiri ^800CHAMPION OF NEWERTH^* berturut {victim} untuk ^y{gold}^* emas!!
+streakend7                                                                      {killer} telah mengakhiri ^840BLOODBATH^* berturut {victim} untuk ^y{gold}^* emas!!
+streakend8                                                                      {killer} telah mengakhiri ^860IMMORTAL^* berturut {victim} untuk ^y{gold}^* emas!!
+
+multikill0                                                                      {killer} baru saja mendapat ^008Double Tap^*!
+multikill1                                                                      {killer} baru saja mendapat ^084Hat-trick^*!!!
+multikill2                                                                      {killer} baru saja mendapat ^084Quad Kill^*!!!
+multikill3                                                                      {killer} telah melakukan ^084ANNIHILATED^* kepada musuh-musuhnya!!!
+
+killtower                                                                       {killer} telah menghancurkan sebuah menara. {reward} mendapat ^y{gold}^* bonus emas!
+denytower                                                                       {player} telah ^444denied^* sebuah menara!
+killmeleerax                                                                    Berek ^724Melee^* {victim} telah dihancurkan, unit ^724Melee^* {killer} di lane tersebut sekarang bertambah kuat.
+killrangedrax                                                                   Berek ^266Ranged^* {victim} telah dihancurkan, unit ^266Ranged^* {killer} di lane tersebut sekarang bertambah kuat.
+killcourier                                                                     Utusan {victim} telah dibunuh oleh {killer}!
+boughtwalkingcourier                                                            {player_color}{player}^* telah membeli satu utusan berjalan.
+boughtflyingcourier                                                             {player_color}{player}^* telah membeli satu utusan terbang.
+ping_target                                                                     {player_color}{player_name} ({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* sekarang!
+
+ping_ext_building_attack			{player_color}{player_name} ({player_hero_name})^*: Menyerang {unit_team_color}{unit_name}^* di {ping_tile}!
+ping_ext_building_defend			{player_color}{player_name} ({player_hero_name})^*: Mempertahankan {unit_team_color}{unit_name}^* di {ping_tile}!
+ping_ext_hero_attack				{player_color}{player_name} ({player_hero_name})^*: Menyerang {unit_team_color}{unit_name}^* di {ping_tile}!
+ping_ext_hero_get_back				{player_color}{player_name} ({player_hero_name})^*: Balik dari {unit_team_color}{unit_name}^* di {ping_tile}!
+ping_ext_hero_missing				{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari lane dan berada di {ping_tile}!
+ping_ext_hero_missing_going_top		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari lane dan berada di {ping_tile}. Menuju top!
+ping_ext_hero_missing_going_mid		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari lane dan berada di {ping_tile}. Menuju middle!
+ping_ext_hero_missing_going_bot		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari lane dan berada di {ping_tile}. Menuju bottom!
+ping_ext_hero_coming_to_gank		{player_color}{player_name} ({player_hero_name})^*: Datang gank {unit_team_color}{unit_name}^* di {ping_tile}!
+ping_ext_ground_ping					{player_color}{player_name} ({player_hero_name})^*: Awas! {ping_tile}!
+ping_ext_ground_get_back				{player_color}{player_name} ({player_hero_name})^*: Balik dari {ping_tile}!
+ping_ext_ground_danger_here				{player_color}{player_name} ({player_hero_name})^*: Bahaya di {ping_tile}!
+ping_ext_ground_need_help_here				{player_color}{player_name} ({player_hero_name})^*: Perlu bantuan di {ping_tile}!
+ping_ext_ground_hero_missing				{player_color}{player_name} ({player_hero_name})^*: Hero hilang dari {ping_tile}!
+ping_ext_ground_hero_missing_going_top		{player_color}{player_name} ({player_hero_name})^*: Hero hilang dari {ping_tile}. Menuju top!
+ping_ext_ground_hero_missing_going_mid		{player_color}{player_name} ({player_hero_name})^*: Hero hilang dari {ping_tile}. Menuju middle!
+ping_ext_ground_hero_missing_going_bot		{player_color}{player_name} ({player_hero_name})^*: Hero hilang dari {ping_tile}. Menuju bottom!
+ping_ext_ground_fight_here				{player_color}{player_name} ({player_hero_name})^*: Menyerang di {ping_tile}!
+ping_ext_ground_coming_to_help		{player_color}{player_name} ({player_hero_name})^*: Datang membantu di {ping_tile}!
+
+ping_ext_building_attack_lanes				{player_color}{player_name} ({player_hero_name})^*: Menyerang {unit_team_color}{unit_name}^* di {ping_tile}! 
+ping_ext_building_defend_lanes				{player_color}{player_name} ({player_hero_name})^*: Mempertahan {unit_team_color}{unit_name}^* di {ping_tile}! 
+ping_ext_hero_attack_lanes					{player_color}{player_name} ({player_hero_name})^*: Menyerang {unit_team_color}{unit_name}^* di {ping_tile}!
+ping_ext_hero_get_back_lanes				{player_color}{player_name} ({player_hero_name})^*: Balik dari {unit_team_color}{unit_name}^* di {ping_tile}!
+ping_ext_hero_missing_lanes					{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari {unit_from_lane} dan berada di {ping_tile}! 
+ping_ext_hero_missing_going_top_lanes		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari {unit_from_lane} dan berada di {ping_tile}. Menuju top! 
+ping_ext_hero_missing_going_mid_lanes		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari {unit_from_lane} dan berada di {ping_tile}. Menuju middle! 
+ping_ext_hero_missing_going_bot_lanes		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari {unit_from_lane} dan berada di {ping_tile}. Menuju bottom! 
+ping_ext_hero_coming_to_gank_lanes			{player_color}{player_name} ({player_hero_name})^*: Datang gank {unit_team_color}{unit_name}^* di {ping_tile}! Hilang dari {unit_from_lane}!
+ping_ext_ground_ping_lanes				tidak diguna.
+ping_ext_ground_get_back_lanes				tidak diguna.
+ping_ext_ground_danger_here_lanes			tidak diguna.
+ping_ext_ground_need_help_here_lanes			tidak diguna.
+ping_ext_ground_hero_missing_lanes				tidak diguna.
+ping_ext_ground_hero_missing_going_top_lanes		tidak diguna.
+ping_ext_ground_hero_missing_going_mid_lanes		tidak diguna.
+ping_ext_ground_hero_missing_going_bot_lanes		tidak diguna.
+ping_ext_ground_fight_here_lanes				tidak diguna.
+ping_ext_ground_coming_to_help_lanes			tidak diguna.
+
+ping_ext_building_attack_generic			{player_color}{player_name} ({player_hero_name})^*: Menyerang {unit_team_color}{unit_name}^*!
+ping_ext_building_defend_generic			{player_color}{player_name} ({player_hero_name})^*: Mempertahankan {unit_team_color}{unit_name}^*!
+ping_ext_hero_attack_generic				{player_color}{player_name} ({player_hero_name})^*: Menyerang {unit_team_color}{unit_name}^*!
+ping_ext_hero_get_back_generic				{player_color}{player_name} ({player_hero_name})^*: Balik dari {unit_team_color}{unit_name}^*!
+ping_ext_hero_missing_generic				{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari lane!
+ping_ext_hero_missing_going_top_generic		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari lane. Menuju top!
+ping_ext_hero_missing_going_mid_generic		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari lane. Menuju middle!
+ping_ext_hero_missing_going_bot_generic		{player_color}{player_name} ({player_hero_name})^*: {unit_team_color}{unit_name}^* hilang dari lane. Menuju bottom!
+ping_ext_hero_coming_to_gank_generic		{player_color}{player_name} ({player_hero_name})^*: Datang gank {unit_team_color}{unit_name}^*!
+ping_ext_ground_ping_generic					{player_color}{player_name} ({player_hero_name})^*: Awas!
+ping_ext_ground_get_back_generic				{player_color}{player_name} ({player_hero_name})^*: Balik!
+ping_ext_ground_danger_here_generic				{player_color}{player_name} ({player_hero_name})^*: Bahaya!
+ping_ext_ground_need_help_here_generic				{player_color}{player_name} ({player_hero_name})^*: Perlu bantuan!
+ping_ext_ground_hero_missing_generic				{player_color}{player_name} ({player_hero_name})^*: Hero hilang!
+ping_ext_ground_hero_missing_going_top_generic		{player_color}{player_name} ({player_hero_name})^*: Hero hilang. Menuju top!
+ping_ext_ground_hero_missing_going_mid_generic		{player_color}{player_name} ({player_hero_name})^*: Hero hilang. Menuju middle!
+ping_ext_ground_hero_missing_going_bot_generic		{player_color}{player_name} ({player_hero_name})^*: Hero hilang. Menuju bottom!
+ping_ext_ground_fight_here_generic				{player_color}{player_name} ({player_hero_name})^*: Serang!
+ping_ext_ground_coming_to_help_generic		{player_color}{player_name} ({player_hero_name})^*: Datang untuk membantu!
+area_legion_base			Base Legion
+area_legion_well			Telaga Legion
+area_hellborne_top_lane		Lane atas Hellborn
+area_hellborne_middle_lane	Lane tengah Hellborn
+area_hellborne_bottom_lane	Lane bawah Hellborn
+area_hellborne_base			Base Hellborn
+area_hellborne_well			Telaga Hellborn
+area_hellborne_jungle		Hutan Hellborn
+area_legion_jungle			Hutan Legion
+area_kongors_pit				Pit Kongor
+area_legion_anceints_spawn		Kem Legion Ancient
+area_hellborne_anceints_spawn	Kem Hellborn Ancient
+area_hellborne_neutrial_spawn1	Kem susah hutan Legion
+area_hellborne_neutrial_spawn2	Kem mudah hutan Legion
+area_hellborne_neutrial_spawn3	Kem biasa hutan Legion
+area_hellborne_neutrial_spawn4	Kem biasa hutan Legion
+area_hellborne_neutrial_spawn5	Kem biasa hutan Legion
+area_legion_neutrial_spawn1		Kem susah hutan Hellborn
+area_legion_neutrial_spawn2		Kem mudah hutan Hellborn
+area_legion_neutrial_spawn3		Kem biasa hutan Hellborn
+area_legion_neutrial_spawn4		Kem biasa hutan Hellborn
+area_legion_neutrial_spawn5		Kem biasa hutan Hellborn
+area_legion_outpost			Outpost Legion
+area_hellborne_outpost		Outpost Hellborn
+area_ruin_top				Top rune
+area_ruin_bottom			Bottom rune
+area_river					Sungai
+area_legion					Kawasan Legion
+area_hellborne				Kawasan Hellborn
+area_legion_top_lane		Lane atas Legion
+area_legion_middle_lane		Lane tengah Legion
+area_legion_bottom_lane		Lane bawah Legion
+area_river_top				Hulu sungai
+area_river_bottom			Hilir sungai
+area_legion_top_middle_pass		Laluan atas Legion
+area_legion_middle_bottom_pass		Laluan bawah Legion
+area_hellbourne_top_middle_pass			Laluan atas Hellbourne
+area_hellbourne_middle_bottom_pass		Laluan bawah Hellbourne
+area_hellbourne_observatory				Pemantauan Hellbourne
+area_legion_observatory					Pemantauan Legion
+area_river_middle						Tengah sungai
+
+teamkillstreak0                                                                 Seseorang sedang OWNING!!!
+teamkillstreak1                                                                 ^rLegion^* sedang ^rOWNING!!!^*
+teamkillstreak2                                                                 ^170Hellbourne^* sedang ^170OWNING!!!^*
+
+teamwipe                                                                        {team} telah dihapus semuanya!!! 
+
+teamkill                                                                        {killer} memenggal kepala {victim}!! ^y{gold}^* emas telah dibahagi.
+
+neutralkill                                                                     {victim} telah dibunuh oleh Neutral Creeps.
+kongorkill                                                                      {victim} telah dibunuh oleh Kongor.
+bosskill                                                                        {victim} telah dibunuh oleh {boss}.
+
+suicide                                                                         {victim} telah membunuh diri sendiri!
+
+kill                                                                            {victim} telah mati.
+
+teamkilltower                                                                   {killer} telah menghancurkan sebuah menara. {killer} mendapat ^y{gold}^* bonus emas!
+teamdenytower                                                                   {denier} telah ^444denied^* sebuah menara!
+
+killkongor                                                                      {killer} telah membunuh Kongor. {reward} mendapat ^y{gold}^* bonus emas!
+teamkillkongor                                                                  {killer} telah membunuh Kongor. {killer} mendapat ^y{gold}^* bonus emas!
+killboss                                                                        {killer} telah membunuh {boss}. {reward} mendapat ^y{gold}^* bonus emas!
+teamkillboss                                                                    {killer} telah membunuh {boss}. {killer} mendapat ^y{gold}^* bonus emas!
+
+share0                                                                          {player} tidak lagi berkongsi pengawalan unit mereka dengan anda.
+share1                                                                          {player} telah berkongsi pengawalan unit mereka dengan anda.
+share2                                                                          {player} telah berkongsi pengawalan utusan mereka dengan anda.
+share3                                                                          {player} telah berkongsi pengawalan unit unit mereka dengan anda.
+
+powerup                                                                         {player} telah mengambil ^r{powerup}^*
+powerup_bottle						{player} telah guna botol ^r{powerup}^*
+powerup_bottle_use					{player} telah guna ^r{powerup}^*
+
+creepupgrade                                                                    Creep telah bertambah kuat...
+megacreeps                                                                      {killer} telah menghancurkan semua struktur menghasil unit {victim}. {killer} sekarang memiliki Mega Creep.
+
+smackdown                                                                       {victim} telah di-SMACKED DOWN oleh {killer}!
+humiliation                                                                     {killer} baru melakukan HUMILIATED terhadap {victim}!
+rival                                                                           {killer} benar-benar ^rOWNING^* {victim}!
+payback                                                                         {killer} telah melakukan ^rPAYBACK^* terhadap {victim}!
+
+client_connected                                                                {player_color}{player}^* telah menyambung.
+client_reconnected                                                              {player_color}{player}^* telah menyambung kembali. (Baki masa terputus: {time})
+client_disconnected                                                             {player_color}{player}^* terputus .
+client_timedout                                                                 {player_color}{player}^* telah habis masa.
+client_terminated                                                               {player_color}{player}^* telah ditamat. Heronya telah dipadam dan asetnya telah dibahagi kepada pasukannya.
+client_connected_mentor                                                         {player_color}{player}^* telah menyambung untuk membimbing anda.
+client_connected_spec                                                           {player_color}{player}^* telah menyambung untuk menonton {spec_color}{spec_player}^*.
+
+hero_pick                                                                       {player_color}{player}^* telah memilih ^885{hero_name}^*.
+hero_pick_blind                                                                 {player_color}{player}^* telah memilih seorang hero.
+hero_random                                                                     {player_color}{player}^* telah memilih ^885{hero_name}^* secara rawak.
+hero_random_blind                                                               {player_color}{player}^* telah memilih seorang hero secara rawak.
+hero_repick                                                                     {player_color}{player}^* sedang memilih lagi. ^885{hero_name}^* kini tersedia.
+hero_repick_blind                                                               {player_color}{player}^* sedang memilih lagi.
+hero_swap                                                                       {player_color}{player}^* betukar hero dengan {player2_color}{player2}^*.
+hero_swap_request                                                               {player_color}{player}^* menawarkan untuk menukar hero dengan anda.
+hero_ban                                                                        {player_color}{player}^* telah ^rban^* ^885{hero_name}^*.
+hero_ban_random                                                                 Takdir telah ^rmem-ban^* ^885{hero_name}^*.
+hero_lock                                                                       {player_color}{player}^* telah ^ymengunci^* ^885{hero_name}^*.
+hero_shuffle_pick					{player_color}{player}^* telah ^pshuffle picked^* ^885{hero_name}^*.
+hero_lock_random                                                                Takdir telah ^ymengunci^* ^885{hero_name}^*.
+hero_hidden_ban                                                                 {team_color}{team} ^*telah ^rmban^*: ^885{hero}^*.
+
+random_filter_message				{player_color}{player}^* telah memilih{filters}{favorites} daripada {num_of_heroes} hero secara rawak.
+using_favorites						^* using a ^558favorites list^*
+using_filters						^* with filters ^558{filters}^*
+filter_solo							Solo
+filter_jungle						Jungle
+filter_carry						Carry
+filter_support						Pembantu
+filter_initiator					Initiator
+filter_ganker						Ganker
+filter_ranged						Jarak Jauh
+filter_melee						Jarak Dekat
+filter_pusher						Pusher
+game_phase_banning                                                              Memulai ^rFase Banning^*.
+game_phase_picking                                                              Memulai ^rFase Picking^*.
+game_phase_lock                                                                 Memulai ^rFase Locking^*.
+game_phase_lock_pick                                                            Memulai ^rFase Lock Pick^*.
+game_phase_hero_hidden_ban                                                      Memulai ^rFase Hidden Banning^*.
+game_turn_ban                                                                   Sekarang giliran {player_color}{player}^*untuk ^rban^*.
+game_turn_picking                                                               Sekarang giliran {player_color}{player}^*untuk ^rpilih^*.
+
+player_ready                                                                    {player_color}{player}^* telah ^gsedia^*.
+player_unready                                                                  {player_color}{player}^* ^rtidak lagi sedia^*.
+
+player_boughtback                                                               {player_color}{player}^* telah dibeli kembali dan bangkit semula di perigi.
+player_boughtback2                                                              {player_color}{player}^* telah dibeli kembali dan bangkit semula di perigi. {buybacks_used}/{buybacks_remaining} pembelian kembali telah diguna.
+
+error_all_buybacks_used                                                         Anda tidak memiliki baki pembelian kembali lagi.
+
+error_target_invulnerable                                                       Sasaran kebal.
+error_not_ready                                                                 {tool} belum sedia lagi.
+error_low_mana                                                                  Tidak cukup mana untuk guna {tool}.
+error_no_proxy                                                                  Tidak ada proksi untuk {tool}.
+error_not_unit_ability                                                          Mesti mengarahkan ke suatu unit dengan kemampuan ini.
+error_not_unit_item                                                             Mesti mengarahkan ke suatu unit dengan item ini.
+error_not_unit                                                                  Mesti mengarahkan ke suatu unit .
+error_invalid_target                                                            Ini bukan sasaran yang sah.
+courier_actions_queued				Menghantar barang anda.
+
+chat_all                                                                        ^269[ALL] {color}{player} ({hero}): ^*{message}
+chat_roll                                                                       ^190[ROLL]^* {color}{message}
+chat_emote                                                                      ^839[EMOTE]^* {color}{message}
+chat_team                                                                       ^y[TEAM] {color}{player} ({hero}): ^*{message}
+chat_all_lobby                                                                  ^269[ALL] {color}{player}: ^*{message}
+chat_roll_lobby                                                                 ^190[ROLL]^* {color}{message}
+chat_emote_lobby                                                                ^839[EMOTE]^* {color}{message}
+chat_team_lobby                                                                 ^y[TEAM] {color}{player}: ^*{message}
+server_message                                                                  ^188[SERVER] ^yMesej Server: {message}
+staff_message                                                                   ^188[SERVER] ^yMesej Pekerja: {message}
+chat_mentor                                                                     ^527[MENTOR] {color}{player} ({hero}): ^*{message}
+
+error_item_unavailable                                                          {item} tidak ada di lokasi ini.
+error_low_gold_item                                                             Anda tidak mampu membeli {item}.
+error_low_gold_recipe                                                           Anda tidak mampu membeli {item}.
+error_low_gold_buy_all                                                          Anda tidak mampu membeli semua komponen untuk {item}.
+error_not_owned_to_stash_xfer                                                   Anda tidak memiliki item ini.
+
+str_bonus                                                                       {value} Strength
+str_bonus_per_level                                                             {value_per_level} Strength setiap level
+str_bonus_per_charge                                                            {value_per_charge} Strength setiap charge
+agi_bonus                                                                       {value} Agility
+agi_bonus_per_level                                                             {value_per_level} Agility setiap level
+agi_bonus_per_charge                                                            {value_per_charge} Agility setiap charge
+agi_bonus_percharge                                                             {value_per_charge} Agility setiap charge
+int_bonus                                                                       {value} Intelligence
+int_bonus_per_level                                                             {value_per_level} Intelligence setiap level
+int_bonus_per_charge                                                            {value_per_charge} Intelligence setiap charge
+int_bonus_percharge                                                             {value_per_charge} Intelligence setiap charge
+max_health_bonus                                                                {value} Kesihatan Maks
+max_health_mult_bonus                                                           {value}% Kesihatan Maks
+max_mana_bonus                                                                  {value} Mana Maks
+max_mana_mult_bonus                                                             {value}% Mana Maks
+base_damage_mult_bonus                                                          {value}% Kerosakan Dasar
+damage_mult_bonus                                                               {value}% Kerosakan Serangan
+damage_bonus                                                                    {value} Kerosakan
+damage_bonus_per_charge                                                         {value} Kerosakan setiap charge
+move_speed_bonus                                                                {value} Kelajuan Gerak
+move_speed_mult_bonus                                                           {value}% Kelajuan Gerak
+move_speed_mult_bonus_per_charge                                                {value}% Kelajuan Gerak setiap charge
+slow_resistance_bonus                                                           {value}% Ketahanan Kelambatan
+move_speed_slow_bonus                                                           {value}% Kelambatan Gerak
+move_speed_slow_bonus_per_charge                                                {value}% Kelambatan Gerak setiap charge
+attack_speed_bonus                                                              {value} Kelajuan Serang
+attack_speed_bonus_per_charge                                                   {value} Kelajuan Serang setiap charge
+attack_speed_mult_bonus                                                         {value}% Kelajuan Serang
+attack_speed_slow_bonus                                                         {value}% Kelambatan Serang
+cast_speed_bonus                                                                {value} Kelajuan Cast
+cooldown_speed_bonus                                                            {value} Kelajuan Cooldown
+reduced_cooldowns_bonus                                                         {value}% Pengurangan Cooldown
+increased_cooldowns_bonus                                                       {value}% Penambahan Cooldown
+armor_bonus                                                                     {value} Armor
+armor_bonus_per_charge                                                          {value} Armor setiap charge
+magic_armor_bonus                                                               {value} Armor Sihir
+magic_armor_bonus_per_charge                                                    {value} Armor Sihir setiap charge
+health_regen_percent_bonus                                                      {value}% Kesihatan setiap saat
+health_regen_bonus                                                              {value} Regenerasi Kesihatan
+health_regen_mult_bonus                                                         {value}% Regenerasi Kesihatan
+mana_regen_percent_bonus                                                        {value}% Mana setiap saat
+mana_regen_bonus                                                                {value} Regenerasi Mana
+mana_regen_mult_bonus                                                           {value}% Regenerasi Mana
+deflection_bonus                                                                {value1}% peluang untuk blok {value2} kerosakan serangan
+evasion_bonus                                                                   {value}% Pengelakan
+ranged_evasion_bonus                                                            {value}% Pengelakan Ranged
+melee_evasion_bonus                                                             {value}% Pengelakan Melee
+miss_chance_bonus                                                               {value}% Peluang Miss
+lifesteal_bonus                                                                 {value}% Lifesteal
+critical_bonus                                                                  {value1}% peluang untuk {value2}x Pukulan Critical
+incoming_damage_mult_bonus                                                      {value}% Kerosakan diterima
+debuff_duration_mult_bonus                                                      {value}% Tempoh Debuff
+stunned_duration_mult_bonus                                                     {value}% Tempoh Stun
+incoming_heal_mult_bonus                                                        {value}% Penyembuhan diterima
+stunned_bonus                                                                   Stun
+stunned_immunity_bonus                                                          Keimunan Stun
+silenced_bonus                                                                  Silence
+silenced_immunity_bonus                                                         Keimunan Silence
+perplexed_bonus                                                                 Perplex
+perplexed_immunity_bonus                                                        Kekebatan Perplex
+disarmed_bonus                                                                  Disarm
+disarmed_immunity_bonus                                                         Keimunan Disarm
+immobilized_bonus                                                               Immobilize
+immobilized_immunity_bonus                                                      Keimunan Immobilize
+restrained_bonus                                                                Restrain
+restrained_immunity_bonus                                                       Keimunan Restrain
+revealed_bonus                                                                  Pendedahan
+reveal_bonus                                                                    {value} Jarak Pendedahan
+stealth_bonus                                                                   Stealth dengan {value} saat masa pemudaran
+unitwalking_bonus                                                               Unitwalking
+treewalking_bonus                                                               Treewalking
+cliffwalking_bonus                                                              Cliffwalking
+buildingwalking_bonus                                                           Buildingwalking
+immunity_bonus                                                                  Keimunan {type}
+invulnerable_bonus                                                              Kebal
+dispel_on_damage_bonus                                                          Hilang semasa dilukai
+dispel_on_action_bonus                                                          Hilang semasa beraksi
+truestrike_bonus                                                                True Strike
+health_regen_reduction_bonus                                                    {value}% Pengurangan Regenerasi Kesihatan
+mana_regen_reduction_bonus                                                      {value}% Pengurangan Regenerasi Mana
+sighted_bonus                                                                   Penglihatan
+
+script_on_attack                                                                Semasa Serangan
+script_on_attack_impact                                                         Semasa Pengaruh Serangan
+script_on_attacked_pre_impact                                                   Semasa Diserang
+script_on_attacked_post_impact                                                  Semasa Diserang
+script_on_activate_pre_impact                                                   Semasa Aktivasi
+script_on_activate_impact                                                       Semasa Aktivasi
+script_on_ability_impact                                                        Semasa Aktivasi Kemampuan
+script_on_damage                                                                Semasa Memberi Kerosakan
+script_on_damaged                                                               Semasa Dilukai
+script_on_kill                                                                  Semasa Membunuh
+script_on_killed                                                                Semasa Dibunuh
+
+action_toggle                                                                   Togol
+action_no_target                                                                Tidak ada Sasaran
+action_target_position                                                          Posisi Sasaran
+action_target_unit                                                              Unit Sasaran
+action_target_global                                                            Global
+action_target_self                                                              Sendiri
+action_facing                                                                   Menghadap
+action_self_position                                                            Posisi Sendiri
+action_attack                                                                   Serangan
+action_attack_toggle                                                            Togol Serangan
+action_target_dual                                                              Sasaran Ganda
+action_target_dual_position                                                     Sasaran Ganda
+action_target_vector                                                            Sasaran Vektor
+action_target_cursor                                                            Sasaran Kursor
+action_target_entity_vector                                                     Entiti Vektor
+
+ability_levelup_max                                                             ^gLevel Maksimum^*
+ability_levelup_available                                                       ^yKlik untuk menaik level kemampuan ini^*
+ability_levelup_unavailable                                                     ^rKeperluan tidak dipenuhi^*
+
+aura_range_global                                                               Global
+
+item_recipe                                                                     {name} Resipi
+
+activate_ability                                                                Klik untuk mengaktifkan kemampuan ini
+activate_item                                                                   Klik untuk mengaktifkan item ini
+activate_item_no_share                                                          ^rTidak boleh diguna - Dimiliki oleh {name}
+activate_item_no_share_ownerless                                                ^rTidak boleh diguna
+activate_item_borrowed                                                          ^gPinjam dari {name}
+activate_passive                                                                ^gKemampuan ini sifatnya pasif
+
+attribute_strength                                                              Strength
+attribute_agility                                                               Agility
+attribute_intelligence                                                          Intelligence
+
+attribute_damage_bonus                                                          {value} Kerosakan
+attribute_health_bonus                                                          {value} Kesihatan Maksimum
+attribute_health_regen_bonus                                                    {value} Regenerasi Kesihatan
+attribute_attack_speed_bonus                                                    {value} Kelajuan Serang
+attribute_armor_bonus                                                           {value} Armor
+attribute_mana_bonus                                                            {value} Mana Maksimum
+attribute_mana_regen_bonus                                                      {value} Regenerasi Mana
+
+auto_assemble                                                                   Automatik
+
+shop_action_view_recipe                                                         ^yKlik untuk ^195MELIHAT^* resipi ini
+shop_action_view_item                                                           ^yKlik untuk ^195MELIHAT^* item ini
+shop_action_auto_assemble                                                       ^yItem ini pasang automatik
+shop_action_already_purchased                                                   ^gItem ini telah dimiliki
+shop_action_cannot_shop                                                         ^rUnit ini tidak dapat membawa item
+shop_action_cannot_afford_item                                                  ^rTidak mampu membeli item ini
+shop_action_cannot_afford_recipe                                                ^rTidak mampu membeli resipi ini
+shop_action_purchase_item                                                       ^yKlik untuk ^195MEMBELI^* item ini
+shop_action_purchase_item_stash                                                 ^yKlik untuk ^195MENYIMPAN^* item ini
+shop_action_purchase_recipe                                                     ^yKlik untuk ^195MEMBELI^* resipi ini
+shop_action_unavailable                                                         ^rTidak ada untuk lokasi ini
+
+vote_called                                                                     {color}{player}^* telah bercadang: {vote}
+vote_called_concede                                                             {color}{player}^* telah bercadang {team_color}{team}^* untuk menyerah.
+vote_called_remake                                                              {color}{player}^* telah bercadang untuk mengulang permainan.
+vote_called_kick                                                                {color}{player}^* telah bercadang untuk menendang {target_color}{target}^*.
+vote_called_kick_afk                                                            {color}{player}^* telah bercadang untuk menendang {target_color}{target}^* kerana telah AFK.
+vote_called_pause                                                               {color}{player}^* telah bercadang untuk jeda permainan.
+vote_passed                                                                     Cadangan diterima.
+vote_failed                                                                     Cadangan ditolak.
+
+team_concede                                                                    {color}{team}^* telah menyerah. Statistik untuk permainan tidak akan disimpan dan semua orang bebas untuk meninggalkan permainan tanpa hukuman.
+game_abandoned                                                                  Rakan pasukan anda telah meninggalkan anda. Permainan tetap dijalankan, tetapi anda bebas meninggalkan permainan tanpa menambah % Leaver.
+afk_warning                                                                     Anda dalam bahaya untuk ditandai sebagai idle. Segera keluar dan bertarunglah!
+afk_message                                                                     Anda sekarang telah ditandai sebagai AFK dan boleh ditendang.
+
+lobby_connect                                                                   {color}{player}^* sedang sambung.
+lobby_connect_mentor                                                            {color}{player}^* sedang sambung untuk membimbing anda.
+lobby_connect_spec                                                              {player_color}{player}^* sedang sambung untuk menonton {spec_player}.
+lobby_kick                                                                      {color}{player}^* telah ditendang oleh perumah.
+lobby_kick_spec                                                                 Anda menendang {color}{player}^*.
+lobby_disconnect                                                                {color}{player}^* telah terputus.
+lobby_balance                                                                   Perumah telah menyeimbangkan kedua pasukan.
+lobby_force_swap                                                                Perumah telah menukar {slot1_color}{slot1}^* dan {slot2_color}{slot2}^*.
+lobby_countdown_cancel                                                          Kira detik permainan telah dibatalkan.
+lobby_lock                                                                      Perumah telah mengunci slot {slot_color}{slot}^*.
+lobby_unlock                                                                    Perumah telah membuka slot {slot_color}{slot}^*.
+lobby_assign_host                                                               {slot_color}{player}^* telah dilantik sebagai perumah baru.
+lobby_assign_spectator                                                          Perumah telah melantik {slot_color}{player}^* sebagai penonton.
+lobby_assign_referee                                                            Perumah telah melantik {slot_color}{player}^* sebagai pengadil.
+lobby_assign_first_ban                                                          Perumah telah melantik {team_color}{team}^* untuk ban pertama.
+
+game_info_practice                                                              Latihan
+nosolo                                                                          Anda harus mempunyai lawan untuk memulai permainan. Mainkan permainan ^yLatihan^* jika anda ingin bermain sendirian.
+warn_nomods                                                                     {slot_color}{player}^* mengunakan file yang telah dimodifikasi dan hanya dibenarkan untuk menonton permainan.
+nomods                                                                          Tidak dapat memulai permainan.  {slot_color}{player}^* menggunakan file yang telah dimodifikasi dan harus menonton atau mematikan semua modifikasi (antara muka, tekstur, dll) sebelum diizinkan untuk bermain di permainan Tournament Rules ini.
+game_unpause                                                                    {name} telah menyambung semula permainan. Permainan akan disambung dalam 5 saat.
+player_ping                                                                     {slot_color}{player}^* ping: {ping} ms
+player_ping_no_players				Tidak ada pemain untuk diping.
+team_ping					{team_color}{team_name}^* purata ping: {ping} ms
+
+
+//-----------------------------------------------------------------------------
+// Weather
+//----------------------------------------------------------------------------- 
+game_weather_					Tidak ada
+
+// "rain.effect" => "game_weather_rain"
+game_weather_rain				Hujan
+
+// "snow.effect" => "game_weather_snow"
+game_weather_snow				Salji
+
+// "snow_storm.effect" => "game_weather_snow_storm"
+game_weather_snow_storm				Ribut Salji
+
+// Add new weather effects here
+//----------------------------------------------------------------------------- 
+
+
+// END

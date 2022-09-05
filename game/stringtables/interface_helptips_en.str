@@ -1,0 +1,170 @@
+﻿//-----------------------------------------------------------------------------
+// Capture The Flag
+//-----------------------------------------------------------------------------
+
+ctf_tip_one														CTF Info
+
+ctf_help_one_title												Welcome to Capture the Flag!
+
+ctf_help_one													^995Additional Information^*:\n- Healing Wells are in the corners, but you take more damage if you are in them.\n- Towers deal lots of damage, attack slowly, but cannot kill you.\n- ^090Portal Key^* is ^rdisabled^* if you are holding a Flag.\n- ^079Parasite^*, ^079Empath^*, and ^079Gemini^* drop the Flag if they go inside of something or split.\n- Holding a Flag causes you to take increased damage.\n- You can drop a Flag using the Drop Flag Ability.\n- Teleporting with any ability over 2000 units will drop the Flag.
+
+//-----------------------------------------------------------------------------
+// Caldavar
+//-----------------------------------------------------------------------------
+
+caldavar_map_tip_one											Caldavar Help
+
+caldavar_map_help_one_title										Caldavar Rules
+
+caldavar_map_help_one											Welcome to Caldavar!\n\nOn this map, your goal is to destroy the enemy's main base structure.\n\n^995Some additional information^*:\n- ^090Runes^* spawn every 2 minutes in the upper and lower parts of the river.\n- ^yNeutrals^* respawn every 60 seconds as long as there are no other units in their camp.\n- The 2 Bosses, ^rKongor & Hell Kongor^*, respawn 8 minutes after they die.\n- Two ^079Observatories^* on the map hold consumables for you to purchase.
+
+
+
+
+
+
+//-----------------------------------------------------------------------------
+// Caldavar (PBT)
+//-----------------------------------------------------------------------------
+
+caldavar_reborn_map_tip_one										Caldavar Help
+
+caldavar_reborn_map_help_one_title								Caldavar Rules
+
+caldavar_reborn_map_help_one									Welcome to Caldavar!\n\nOn this map, your goal is to destroy the enemy's main base structure.\n\n^995Some additional information^*:\n- ^090Runes^* spawn every 2 minutes in the upper and lower parts of the river.\n- ^yNeutrals^* respawn every 60 seconds as long as there are no other units in their camp.\n- The 2 Bosses, ^rKongor & Hell Kongor^*, respawn 8 minutes after they die.\n- Two ^079Observatories^* on the map hold consumables for you to purchase.
+
+
+
+
+//-----------------------------------------------------------------------------
+// Darkwood Vale
+//-----------------------------------------------------------------------------
+
+darkwood_vale_tip_one											Darkwood Vale Help
+
+darkwood_vale_help_one_title									Darkwood Vale Rules
+
+darkwood_vale_help_one											Welcome to Darkwood Vale!\n\nOn this map, your goal is to destroy the enemy's main base structure.\n\n^995Some additional information^*:\n- ^090Runes^* spawn every 2 minutes near the center of the map.\n- ^yNeutrals^* respawn every 60 seconds as long as there are no other units or corpses in their camp.\n- ^rKongor^*, the boss of the map, respawns 10 minutes after he dies.\n- Two ^079Observatories^* on the map hold consumables for you to purchase.
+
+//-----------------------------------------------------------------------------
+// Grimms Crossing
+//-----------------------------------------------------------------------------
+
+grimms_crossing_tip_one											Grimms Help
+
+grimms_crossing_help_one_title									Grimms' Crossing Rules
+
+grimms_crossing_help_one										Welcome to Grimms' Crossing!\n\nOn this map, your goal is to destroy the enemy's main base structure.\n\n^995Some additional information^*:\n- One ^090Rune^* spawns every 2 minutes in the center of the map.\n- ^yNeutrals^* respawn every 60 seconds as long as there are no other units or corpses in their camp.\n- ^rGeneral Atrox^*, the boss of the map, respawns 10 minutes after he dies.\n- Killing enemy heroes lowers the armor of enemy Towers while they are dead.
+
+//-----------------------------------------------------------------------------
+// Mid Wars
+//-----------------------------------------------------------------------------
+
+
+midwars_tip_one													Midwars Help
+
+midwars_help_one_title											Midwars Rules
+
+midwars_help_one												Welcome to Midwars!\n\nOn this map, your goal is to destroy the enemy's main base structure.\n\n^995Some additional information^*:\n- A ^090Rune^* spawns every minute near the middle of the map.\n- There is one ^yNeutral^* camp in the upper river.\n- There is a ^rBoss^* in the lower river that respawns 4 minutes after dying.\n- Hero respawn time is lowered significantly.\n- You passively gain experience over time.
+
+
+//-----------------------------------------------------------------------------
+// Mid Wars Beta
+//-----------------------------------------------------------------------------
+
+
+midwars_beta_tip_one											Midwars Beta Help
+
+midwars_beta_help_one_title										Midwars Beta Rules
+
+midwars_beta_help_one											Welcome to Midwars Beta! This mode is an exciting spinoff from the Mid Wars map!\n\n- Blitz Mode is enabled! Cooldowns are greatly reduced, and Attack Damage is doubled!\n- The ^yPassive Gold per minute (GPM)^* is increased by 50%!\n- Health & Mana Regeneration are greatly increased.\n- All other rules of Mid Wars remain the same (low respawn timers, no gold lost on death, etc.)
+
+
+
+//-----------------------------------------------------------------------------
+// Mid Wars (PBT)
+//-----------------------------------------------------------------------------
+
+
+midwars_reborn_tip_one											Midwars Help
+
+midwars_reborn_help_one_title									Midwars Rules
+
+midwars_reborn_help_one											Welcome to Midwars! \n\nOn this map, your goal is to destroy the enemy's main base structure.\n\n^995Some additional information^*:\n- A ^090Rune^* spawns every minute near the middle of the map.\n- There are a few ^yNeutral^* camps on each side of the map.\n- There is a ^rBoss^* in the lower river that respawns 3 minutes after dying.\n- Hero respawn time is lowered significantly.\n- You passively gain experience over time.
+
+
+
+
+
+//-----------------------------------------------------------------------------
+// Rift Wars
+//-----------------------------------------------------------------------------
+
+riftwars_tip_one												Riftwars Help
+
+riftwars_help_one_title											Riftwars Rules
+
+riftwars_help_one												Welcome to Riftwars!\n\nOn this map, your goal is to destroy the enemy's main base structure or stop the entire enemy team from respawning by getting 5000 points.\n\n^995Some additional rules^*:\n- Your abilities are randomized every time you die\n- When you kill an enemy hero or tower, your team gets points.\n- Respawn times are greatly reduced.\n- You do not lose gold on death.\n- If your team is behind in points, your whole team will passively gain experience.
+
+//-----------------------------------------------------------------------------
+// The Grimm Hunt
+//-----------------------------------------------------------------------------
+
+the_grimm_hunt_tip_one											Hunt Help
+
+the_grimm_hunt_help_one_title									The Grimm Hunt Rules
+
+the_grimm_hunt_help_one											Welcome to The Grimm Hunt!\n\nOn this map, your goal is to kill the enemy heroes and small Constructs that spawn randomly. The first to 5000 points can win the game!\n\n^995Some additional rules^*:\n- Bases start invulnerable\n- Killing a Construct gives you the item it is carrying\n- Killing Heroes or Constructs gives your team points. The first to 5000 points removes the invulnerability from the enemy's base\n- To win, you still must kill their base after you get 5000 points!\n- Respawn times are significantly lowered\n- Gold and Experience are gained passively over time
+
+//-----------------------------------------------------------------------------
+// Watch Tower
+//-----------------------------------------------------------------------------
+
+watch_tower_tip_one												Watchtower Help
+
+watch_tower_help_one_title										Watchtower Rules
+
+watch_tower_help_one											Welcome to Watchtower!\n\nOn this map, your goal is to destroy the enemy's main base structure.\n\n^995Some additional information^*:\n- ^090Runes^* spawn every 2 minutes in the left or right side of the river.\n- ^yNeutrals^* respawn every 60 seconds as long as there are no other units or corpses in their camp.\n- The ^rBosses^* of the map, respawn 10 minutes after they die.\n- Two ^079Observatories^* on the map hold consumables for you to purchase.
+
+//-----------------------------------------------------------------------------
+// Hero Wars
+//-----------------------------------------------------------------------------
+
+hero_wars_tip_one												Devo Wars Help
+
+hero_wars_help_one_title										Devo Wars Rules
+
+hero_wars_help_one												Welcome to ^oDevo Wars!^*\n\n^gChain Hook^* curves with the hero and bounces off collision. You can use Chain Hook while hooked by another Devourer.\n\nRunes spawn every 20 seconds and travel along the river, and can only be picked up with a Hook.\n\n^rHook Upgrades^* and other items are purchasable from the store. These cannot be dropped to the ground or moved into your stash. Couriers and items from other game modes are not available.\n\nHooking an enemy that is currently hooked will be an ^rINSTANT KILL^*; hooking an ally who has been hooked will ^oDENY^* him. Kills grant ^y50 gold^*.\n\nFirst team to achieve ^o60 kills^* or having the most kills at the ^o20-minute mark^* wins the game!
+
+//-----------------------------------------------------------------------------
+// Team Deathmatch
+//-----------------------------------------------------------------------------
+
+team_deathmatch_tip_one											Deathmatch Help
+
+team_deathmatch_help_one_title									Team Deathmatch Rules
+
+team_deathmatch_help_one										Welcome to ^oTeam Deathmatch^*!\n\nOn this map, you will be fighting the enemy team in a series of 5v5 battles.\n\n^995Some additional information^*:\n- You automatically gain levels and get gold as the game progresses.\n- There are 7 rounds of combat with a break between each. Don't stall too long, or you'll get Revealed & Burned!\n- When you win, your team gains points equal to how many people are still alive.\n- First to 18 points or the team with the most points after 7 rounds wins.
+
+//-----------------------------------------------------------------------------
+// Soccer
+//-----------------------------------------------------------------------------
+
+soccer_tip_one													Strikers Of Newerth
+
+soccer_help_one_title											Strikers Of Newerth
+
+soccer_help_one													Welcome to Strikers of Newerth!\n\nYou win by scoring ^g10 points^* or having the highest score after ^g20 minutes^*. The last goal scored wins in a tie game.\n\nMana is replaced with ^yEnergy^*, all heroes have ^y100 Energy^*, regenerating ^y5 per second^*.\n\nAn ^269Energy Regeneration Rune^* spawns every 20 seconds at one of 4 random points on the map.\n\nHave Fun!
+
+//-----------------------------------------------------------------------------
+// 1v1 Mid Only Caldavar
+//-----------------------------------------------------------------------------
+
+Onev1_map_tip_one												1v1 Help
+
+Onev1_map_help_one_title										1v1 Rules
+
+Onev1_map_help_one												Welcome to ^o1v1 Mid Only Caldavar^*!\n\nOn this map, you will be fighting one enemy hero in the middle lane only.\n\n- Neutrals, Runes, and the other lanes have been disabled.\n- First to kill the enemy hero or tower wins.\n- If no one dies before the 15 minute mark, the hero with the most creep kills wins.
+
+
+// End

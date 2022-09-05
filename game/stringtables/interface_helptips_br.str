@@ -1,0 +1,127 @@
+//-----------------------------------------------------------------------------
+// Capture The Flag
+//-----------------------------------------------------------------------------
+
+ctf_tip_one														CTF Info
+
+ctf_help_one_title												Bem vindo ao Capture the Flag!
+
+ctf_help_one													^995Informação Adicional^*:\n- As Fontes de Cura ficam nos cantos, mas você recebe mais dano quando está nelas.\n- As Torres causam muito dano, atacam lentamente, mas não podem te matar.\n- ^090Portal Key^* é ^rdesativada^* se você portar a Bandeira.\n- ^079Parasite^*, ^079Empath^*, e ^079Gemini^* derrubam a Bandeira se entrarem em algo ou se dividirem.\n- Segurar a Bandeira faz com que você receba mais dano.\n- Você pode derrubar a Bandeira usando a Habilidade Drop Flag .\n- Se teleportar mais do que 2000 unidades com qualquer habilidade irá derrubar a Bandeira.
+
+//-----------------------------------------------------------------------------
+// Caldavar
+//-----------------------------------------------------------------------------
+
+caldavar_map_tip_one											Caldavar
+
+caldavar_map_help_one_title										Regras
+
+caldavar_map_help_one											Bem vindo ao Caldavar!\n\nNeste mapa, seu objetivo é destruir a estrutura base principal do inimigo.\n\n^995Informações adicionais^*:\n- ^090Runas^* nascem a cada 2 minutos na parte superior e inferior do rio.\n- ^yNeutros^* nascem a cada 60 segundos contanto que não tinha unidades em seus campos.\n- ^rKongor^*, o chefão do mapa, renasce 10 minutos após morrer.\n- Dois ^079Postos Avançados^* no mapa para você comprar itens consumíveis.
+
+//-----------------------------------------------------------------------------
+// Darkwood Vale
+//-----------------------------------------------------------------------------
+
+darkwood_vale_tip_one											Darkwood Vale
+
+darkwood_vale_help_one_title									Regras
+
+darkwood_vale_help_one											Bem vindo ao Darkwood Vale!\n\nNeste mapa, seu objetivo é destruir a estrutura base principal do inimigo.\n\n^995Informações adicionais^*:\n- ^090Runas^* nascem a cada 2 minutos próximo ao centro do rio.\n- ^yNeutros^* nascem a cada 60 segundos contanto que não tinha unidades em seus campos.\n- ^rKongor^*, o chefão do mapa, renasce 10 minutos após morrer.\n- Dois ^079Postos Avançados^* no mapa para você comprar itens consumíveis.
+
+//-----------------------------------------------------------------------------
+// Grimms Crossing
+//-----------------------------------------------------------------------------
+
+grimms_crossing_tip_one											Grimms' Crossing
+
+grimms_crossing_help_one_title									Regras
+
+grimms_crossing_help_one										Bem vindo ao Grimms' Crossing!\n\nNeste mapa, seu objetivo é destruir a estrutura base principal do inimigo.\n\n^995Informações adicionais^*:\n- Uma ^090Runa^* nasce a cada 2 minutos no centro do mapa.\n- ^yNeutros^* nascem a cada 60 segundos contanto que não tinha unidades em seus campos.\n- ^rGeneral Atrox^*, o chefão do mapa, renasce 10 minutos após morrer.\n- Matar heróis inimigos diminui a armadura das Torres enquanto eles estiverem mortos.
+
+//-----------------------------------------------------------------------------
+// Mid Wars
+//-----------------------------------------------------------------------------
+
+
+midwars_tip_one													Midwars
+
+midwars_help_one_title											Regras
+
+midwars_help_one												Bem vindo ao Midwars!\n\nNeste mapa, seu objetivo é destruir a estrutura base principal do inimigo.\n\n^995Informações adicionais^*:\n- Uma ^090Runa^* nasce a cada 2 minutos próximo ao meio do mapa.\n- Existe apenas um campo ^yNeutro^* acíma do rio.\n- Existe um ^rChefão^* na parte de baixo do rio que renasce em 10 minutos após sua morte.\n- O tempo de reaparecimento é significamente diminuído.\n- Você passivamente ganha XP do decorrer do tempo.
+
+
+//-----------------------------------------------------------------------------
+// Mid Wars Beta
+//-----------------------------------------------------------------------------
+
+
+midwars_beta_tip_one											Midwars Beta
+
+midwars_beta_help_one_title										Regras
+
+midwars_beta_help_one											Bem vindo ao Midwars Beta! Este modo é um exitante spinoff do mapa Mid Wars!\n\n- O Modo Blitz é ativado! Interválos são drasticamente reduzidos, e o Dano de Ataque é dobrado!\n- O ^yOuro passivo por minuto (OPM)^* é aumentado em 50%!\n- Regeneração de Vida e Mana são drasticamente aumentados.\n- Todas as outras regras do Mid Wars continuam as mesmas (tempo de reaparecimento pequeno, sem perda de ouro ao morrer, etc.)
+
+
+
+//-----------------------------------------------------------------------------
+// Rift Wars
+//-----------------------------------------------------------------------------
+
+riftwars_tip_one												Riftwars
+
+riftwars_help_one_title											Regras
+
+riftwars_help_one												Bem vindo ao Riftwars!\n\nNeste mapa, seu objetivo é destruir a estrutura base principal do inimigo ou parar impedir o time inimigo inteiro de reviver recebendo 5000 pontos.\n\n^995Regras Adicionais^*:\n- Suas habilidades são randomizadas toda vez que você morre\n- Quando você mata um héroi inimigo ou torre, seu time recebe pontos.\n- Tempo de reaparecimento são drasticamente reduzidos.\n- Sem perda de ouro ao morrer.\n- Se o seu time está atrás em pontos, seu time inteiro irá passivamente ganhar XP.
+
+//-----------------------------------------------------------------------------
+// The Grimm Hunt
+//-----------------------------------------------------------------------------
+
+the_grimm_hunt_tip_one											The Grimm Hunt
+
+the_grimm_hunt_help_one_title									Regras
+
+the_grimm_hunt_help_one											Bem vindo ao Grimm Hunt!\n\nNeste mapa, seu objetivo é matar os heróis inimigos e pequenas Construções que nascem aleatóriamente. Os primeiros 5000 pontos ganham o jogo!\n\n^995Regras Adicionais^*:\n- Bases começam invulneráveis\n- Destruir uma Construção fornece a você o item que ela carrega\n- Matar Heróis ou Construções fornece pontos para seu time. O primeiro que alcançar 5000 pontos remove a invulnerabilidade da base inimiga\n- Para ganhar, você ainda precisa matar a base deles após ganhar os 5000 pontos!\n- Tempo de reaparecimento é desticamente baixo\n- Ouro e XP são ganhos passivamente no decorrer do tempo.
+
+//-----------------------------------------------------------------------------
+// Watch Tower
+//-----------------------------------------------------------------------------
+
+watch_tower_tip_one												Watchtower
+
+watch_tower_help_one_title										Regras
+
+watch_tower_help_one											Neste mapa, seu objetivo é destruir a estrutura base principal do inimigo.\n\n^995Informações adicionais^*:\n- ^090Runas^* nascem a cada 2 minutos na parte direita e esquerda do rio.\n- ^yNeutros^* nascem a cada 60 segundos contanto que não tinha unidades em seus campos.\n- Os ^rChefões^* do mapa, renasceem 10 minutos após morrerem.\n- Dois ^079Postos Avançados^* no mapa para você comprar itens consumíveis.
+
+//-----------------------------------------------------------------------------
+// Hero Wars
+//-----------------------------------------------------------------------------
+
+hero_wars_tip_one												Devo Wars
+
+hero_wars_help_one_title										Regras
+
+hero_wars_help_one												Bem vindo ao ^oDevo Wars!^*\n\n^gChain Hook^* se curva com o herói e ricocheteia ao colidir. Você pode usar o Chain Hook enquanto estiver sendo puxado por outro Devourer.\n\nRunas nascem a cada 20 segundos e viajam pelo rio, e só podem ser pegas com um Hook.\n\n^rMelhorias no Hook^* e outros itens podem ser comprados na loja. Estes não podem ser derrubados no chão ou movidos para seu armário. Couriers e itens de outros modos de jogo não estão disponíveis.\n\nPuxar um inimigo que ja está sendo puxado causará ^rMORTE INSTANTÂNEA^*; puxar um aliado que ja está sendo puxado irá o ^oNEGAR^*. Matar fornece ^y50 de ouro^*.\n\nO time que alcançar ^o60 assassinatos^* primeiro ou tiver o maior número de assassinatos na ^omarca dos 20 mins^* ganha a partida!
+
+//-----------------------------------------------------------------------------
+// Soccer
+//-----------------------------------------------------------------------------
+
+soccer_tip_one													Strikers Of Newerth
+
+soccer_help_one_title											Strikers Of Newerth
+
+soccer_help_one													Bem vindo ao Strikers of Newerth!\n\nVocê ganha ao marcar ^g10 pontos^* ou ter a maior pontuação depois dos ^g20 minutos^*.\n\nMana é trocada por ^yEnergia^*, todos heróis possuem ^y100 de Energia^*, regenerando ^y5 por segundo^*.\n\nUma ^269Runa de Regeneração de Energia^* nasce a cada 20 segundos em um dos 4 pontos aleatórios do mapa.\n\nDivirta-se!
+
+//-----------------------------------------------------------------------------
+// 1v1 Mid Only Caldavar
+//-----------------------------------------------------------------------------
+
+Onev1_map_tip_one												1v1
+
+Onev1_map_help_one_title										Regras
+
+Onev1_map_help_one												Bem vindo ao ^o1v1 Mid Only Caldavar^*!\n\nNeste mapa, você lutará um herói inimigo na linha do meio apenas.\n\n- Neutros, Runas e as outras linhas estão desativadas.\n- O primeiro que matar o herói inimigo ou torre ganha.\n- Se ninguém morrer antes da marca dos 15 minutos, o herói com mais monstros assassinados ganhará.
+
+
+// End

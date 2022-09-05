@@ -1,0 +1,353 @@
+﻿deny								{killer_color}{killer}^* 님이 {victim_color}{victim}^* 님에게 고별을 고했습니다!
+kill0								{killer_color}{killer}^* 님이 {victim_color}{victim}^* 님을 처치했습니다! ^y{gold}^*골드 획득!!
+kill1								{killer_color}{killer}^* 님이 {victim_color}{victim}^* 님을 처치했습니다! ^y{gold}^*골드 획득!! 어시스트: {assist0_color}{assist0}
+kill2								{killer_color}{killer}^* 님이 {victim_color}{victim}^* 님을 처치했습니다! ^y{gold}^*골드 획득!! 어시스트: {assist0_color}{assist0}*, {assist1_color}{assist1}
+kill3								{killer_color}{killer}^* 님이 {victim_color}{victim}^* 님을 처치했습니다! ^y{gold}^*골드 획득!! 어시스트: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
+kill4								{killer_color}{killer}^* 님이 {victim_color}{victim}^* 님을 처치했습니다! ^y{gold}^*골드 획득!! 어시스트: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
+first_kill							{killer_color}{killer}^* 님이 ^r피의 욕망^*을 채웠습니다! (^y+{gold}^*골드!)
+first_kill_team						{killer_color}{killer}^* 진영이 ^r피의 욕망^*을 채웠습니다! (^y+{gold}^*골드 분배!)
+killstreak0							{killer_color}{killer}^* 님은 ^082숙련된 킬러^*입니다!
+killstreak1							{killer_color}{killer}^* 님은 ^204위대한 전사^*입니다!
+killstreak2							{killer_color}{killer}^* 님은 ^808전설의 파괴자^*입니다!
+killstreak3							{killer_color}{killer}^* 님이 ^808폭주^*하고 있습니다!
+killstreak4							{killer_color}{killer}^* 님은 ^840잔혹한 폭군^*입니다!
+killstreak5							{killer_color}{killer}^* 님이 ^848전장을 지배^*합니다!!
+killstreak6							{killer_color}{killer}^* 님은 ^800뉴어스의 챔피언^*입니다!!!
+killstreak7							{killer_color}{killer}^* 님이 ^840피바다^*를 일으키고 있습니다! 빨리 막으십시오!
+killstreak8							{killer_color}{killer}^* 님은 ^860불멸의 화신^*입니다!!
+
+streakend0							{killer} 님이 ^082숙련된 킬러^* {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+streakend1							{killer} 님이 ^204위대한 전사^* {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+streakend2							{killer} 님이 ^808전설의 파괴자^* {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+streakend3							{killer} 님이 ^840폭주^*하던 {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+streakend4							{killer} 님이 ^440잔혹한 폭군^* {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+streakend5							{killer} 님이 ^848전장을 지배^*하던 {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+streakend6							{killer} 님이 ^800뉴어스의 챔피언^* {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+streakend7							{killer} 님이 ^840피바다^*를 일으키던 {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+streakend8							{killer} 님이 ^860불멸의 화신^* {victim} 님의 연승을 저지했습니다. ^y{gold}^*골드 획득!!
+
+multikill0							{killer} 님이 한 번에^008 2명을 처치^*했습니다!
+multikill1							{killer} 님이 한 번에^084 3명을^* 처치했습니다!
+multikill2							{killer} 님이 한 번에^084 4명을^* 처치했습니다!
+multikill3							{killer} 님이 적을 ^084전멸^*시켰습니다!!!
+
+killtower							{killer} 님이 탑을 파괴했습니다. {reward} 진영이 보너스 ^y{gold}^*골드 획득!
+denytower							{player} 님이 타워에게 ^444고별^*을 고했습니다!
+killmeleerax						{victim}의 ^724근거리^* 병영이 파괴되었습니다. 해당 라인의 {killer} ^724근거리^* 유닛이 더욱 강력해집니다.
+killrangedrax						{victim}의 ^266원거리^* 병영이 파괴되었습니다. 해당 라인의 {killer} ^266원거리^* 유닛이 더욱 강력해집니다.
+killcourier							{killer} 님이 {victim}의 배달부를 처치했습니다!
+boughtwalkingcourier				{player_color}{player}^* 님이 지상 배달부를 구입했습니다.
+boughtflyingcourier					{player_color}{player}^* 님이 공중 배달부를 구입했습니다.
+ping_target							{player_color}{player_name}({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* 지목!
+
+teamkillstreak0						한쪽이 압도하고 있습니다!!!
+teamkillstreak1						^r리전^*이 ^r압도^*하고 있습니다!!!
+teamkillstreak2						^170헬본^*이 ^170압도^*하고 있습니다!!!
+
+teamwipe							{team} 진영이 완전히 전멸했습니다!
+
+teamkill							{killer} 진영이 {victim} 님을 처치했습니다!! ^y{gold}^* 골드 분배!
+
+neutralkill							중립 크립이 {victim} 님을 처치했습니다.
+kongorkill							콩고르가 {victim} 님을 처치했습니다.
+bosskill						{boss}이(가) {victim} 님을 처치했습니다.
+
+suicide								{victim} 님이 자살했습니다!
+
+kill								{victim} 님이 죽었습니다.
+
+teamkilltower						{killer} 진영이 타워를 파괴했습니다. {killer} 진영이 보너스 ^y{gold}^*골드 획득!
+teamdenytower						{denier} 진영이 타워에게 ^444고별^*을 고했습니다!
+
+killkongor							{killer} 님이 콩고르를 처치했습니다. {reward} 진영이 보너스 ^y{gold}^*골드 획득!
+teamkillkongor						{killer} 진영이 콩고르를 처치했습니다. {killer} 진영이 보너스 ^y{gold}^*골드 획득!
+killboss							{killer} 님이 {boss}을(를) 처치했습니다. {reward} 진영이 보너스 ^y{gold}^*골드 획득!
+teamkillboss						{killer} 진영이 {boss}을(를) 처치했습니다. {killer} 진영이 보너스 ^y{gold}^*골드 획득!
+
+share0								{player} 님은 더 이상 유닛 제어 권한을 공유하지 않습니다.
+share1								{player} 님은 이제 유닛 제어 권한을 공유합니다.
+share2								{player} 님은 이제 배달부 제어 권한을 공유합니다.
+share3								{player} 님은 이제 유닛 제어 권한을 공유합니다.
+
+powerup								{player} 님이 ^r{powerup}^* 획득
+
+creepupgrade						크립이 더 강해졌습니다.
+megacreeps							{killer} 진영이 {victim}의 모든 유닛 생산 건물을 파괴했습니다. {killer} 진영에서 메가 크립을 생산합니다.
+
+smackdown							{killer} 님이 {victim} 님을 농락했습니다!
+humiliation							{killer} 님이 {victim} 님에게 망신을 주었습니다!
+rival								{killer} 님이 {victim} 님을 ^r압도^*하고 있습니다!
+payback								{killer} 님이 {victim} 님에게 ^r복수^*했습니다!
+
+client_connected					{player_color}{player}^* 님이 연결되었습니다.
+client_reconnected					{player_color}{player}^* 님이 다시 연결되었습니다(연결 끊김 남은 시간: {time})
+client_disconnected					{player_color}{player}^* 님의 연결이 끊어졌습니다.
+client_timedout						{player_color}{player}^* 님은 시간을 초과했습니다.
+client_terminated					{player_color}{player}^* 님이 게임을 종료했습니다. 영웅은 삭제되고, 자산은 해당 팀에 분배됩니다.
+client_connected_mentor				{player_color}{player}^* 님이 플레이어에게 조언하려고 연결했습니다.
+client_connected_spec				{player_color}{player}^* 님이 {spec_color}{spec_player}^* 님을 관전하려고 연결했습니다.
+
+hero_pick							{player_color}{player}^* 님이 ^885{hero_name}^* 영웅을 선택했습니다.
+hero_pick_blind						{player_color}{player}^* 님이 영웅을 선택했습니다.
+hero_random							{player_color}{player}^* 님이 무작위로 ^885{hero_name}^* 영웅을 선택했습니다.
+hero_random_blind					{player_color}{player}^* 님이 무작위로 영웅을 선택했습니다.
+hero_repick							{player_color}{player}^* 님이 다시 선택 중입니다. 이제 ^885{hero_name}^* 영웅을 사용할 수 있습니다.
+hero_repick_blind					{player_color}{player}^* 님이 다시 선택 중입니다.
+hero_swap							{player_color}{player}^* 님이 {player2_color}{player2}^* 님과 영웅을 교환했습니다.
+hero_swap_request					{player_color}{player}^* 님이 당신에게 영웅을 교환하자고 제안했습니다.
+hero_ban							{player_color}{player}^* 님이 ^885{hero_name}^* 영웅을 ^r금지했습니다^* .
+hero_ban_random						운명에 따라 ^885{hero_name}^* 영웅이 ^r금지되었습니다^*.
+hero_lock							{player_color}{player}^* 님이  ^885{hero_name}^* 영웅을 ^y잠갔습니다.^*
+hero_lock_random					운명에 따라 ^885{hero_name}^* 영웅이 ^r잠겼습니다.^*
+hero_hidden_ban						{team_color}{team}^* 팀이 ^885{hero}^*을(를) ^y금지^*하였습니다.
+
+game_phase_banning					^r금지 절차^*를 시작합니다.
+game_phase_picking					^r선택 절차^*를 시작합니다.
+game_phase_lock						^r잠금 절차^*를 시작합니다.
+game_phase_lock_pick			^r잠금 선택 절차^*를 시작합니다.
+game_phase_hero_hidden_ban		^r잠금 절차^*를 시작합니다.
+game_turn_ban						이제 {player_color}{player}^* 님의 ^r금지^* 차례입니다.
+game_turn_picking					이제 {player_color}{player}^* 님의 ^r선택^* 차례입니다.
+
+player_ready						{player_color}{player}^* 님, ^g준비 완료^*.
+player_unready						{player_color}{player}^* 님, ^r준비 완료 해제^*.
+
+player_boughtback					{player_color}{player}^* 님이 골드 부활을 사용해 부활했습니다.
+player_boughtback2					{player_color}{player}^* 님이 골드 부활을 사용해 부활했습니다. 골드 부활 사용 횟수: {buybacks_used}/{buybacks_remaining}
+
+error_all_buybacks_used				더 이상 골드 부활을 할 수 없습니다.
+
+error_target_invulnerable			공격할 수 없는 대상입니다.
+error_not_ready						{tool}은(는) 준비되지 않았습니다.
+error_low_mana						마나가 부족해서 {tool}을(를) 사용할 수 없습니다.
+error_no_proxy						{tool}을(를) 대신 사용할 수 없습니다.
+error_not_unit_ability				이 스킬을 사용할 대상을 지정해야 합니다.
+error_not_unit_item					이 아이템을 사용할 대상을 지정해야 합니다.
+error_not_unit						대상을 지정해야 합니다.
+error_invalid_target				올바른 대상이 아닙니다.
+
+chat_all							^269[전체] {color}{player} ({hero}): ^*{message}
+chat_roll							^190[굴리기]^* {color}{message}
+chat_emote							^839[이모티콘]^* {color}{message}
+chat_team							^y[팀] {color}{player} ({hero}): ^*{message}
+chat_all_lobby						^269[전체] {color}{player}: ^*{message}
+chat_roll_lobby						^190[굴리기]^* {color}{message}
+chat_emote_lobby					^839[이모티콘]^* {color}{message}
+chat_team_lobby						^y[팀] {color}{player}: ^*{message}
+server_message						^188[서버] ^yServer Message: {message}
+chat_mentor							^527[멘토] {color}{player} ({hero}): ^*{message}
+
+error_item_unavailable				여기서는 {item}을(를) 사용할 수 없습니다.
+error_low_gold_item					{item}을(를) 구입할 수 없습니다.
+error_low_gold_recipe				{item}을(를) 구입할 수 없습니다.
+error_low_gold_buy_all				{item}에 필요한 아이템을 모두 구입할 수 없습니다.
+error_not_owned_to_stash_xfer		이 아이템을 가지고 있지 않습니다.
+
+str_bonus							힘 {value}
+str_bonus_per_level					레벨당 힘 {value_per_level}
+str_bonus_per_charge				중첩당 힘 {value_per_charge}
+agi_bonus							민첩 {value}
+agi_bonus_per_level					레벨당 민첩 {value_per_level}
+agi_bonus_per_charge				중첩당 민첩 {value_per_charge}
+agi_bonus_percharge					중첩당 민첩 {value_per_charge}
+int_bonus							지능 {value}
+int_bonus_per_level					레벨당 지능 {value_per_level}
+int_bonus_per_charge				중첩당 지능 {value_per_charge}
+int_bonus_percharge				중첩당 지능 {value_per_charge}
+max_health_bonus					최대 체력 {value}
+max_health_mult_bonus				최대 체력 {value}%
+max_mana_bonus						최대 마나 {value}
+max_mana_mult_bonus					최대 마나 {value}%
+base_damage_mult_bonus				기본 데미지 {value}%
+damage_mult_bonus					공격 데미지 {value}%
+damage_bonus						데미지 {value}
+damage_bonus_per_charge				중첩당 데미지 {value}
+move_speed_bonus					이동 속도 {value}
+move_speed_mult_bonus				이동 속도 {value}%
+move_speed_mult_bonus_per_charge	중첩당 이동 속도 {value}%
+slow_resistance_bonus				느려짐 저항 {value}%
+move_speed_slow_bonus				이동 속도 {value}% 느려짐
+move_speed_slow_bonus_per_charge	중첩당 이동 속도 {value}% 느려짐
+attack_speed_bonus					공격 속도 {value}
+attack_speed_bonus_per_charge		중첩당 공격 속도 {value}
+attack_speed_mult_bonus				공격 속도 {value}%
+attack_speed_slow_bonus				공격 {value}% 느려짐
+cast_speed_bonus					시전 시간 {value}
+cooldown_speed_bonus				재사용 대기 시간 속도 {value}
+reduced_cooldowns_bonus				재사용 대기 시간 {value}% 감소
+increased_cooldowns_bonus			재사용 대기 시간 {value}% 증가
+armor_bonus							방어 {value}
+armor_bonus_per_charge				중첩당 방어 {value}
+magic_armor_bonus					마법 방어 {value}
+magic_armor_bonus_per_charge		중첩당 마법 방어 {value}
+health_regen_percent_bonus			초당 체력 {value}% 회복
+health_regen_bonus					체력 {value} 회복
+health_regen_mult_bonus				체력 {value}% 회복
+mana_regen_percent_bonus			초당 마나 {value}% 회복
+mana_regen_bonus					마나 {value} 회복
+mana_regen_mult_bonus				마나 {value}% 회복
+deflection_bonus					{value1}% 확률로 공격 데미지 {value2} 방어
+evasion_bonus						{value}% 회피
+ranged_evasion_bonus				원거리 공격 {value}% 회피
+melee_evasion_bonus					근거리 공격 {value}% 회피
+miss_chance_bonus					빗나감 확률 {value}% 
+lifesteal_bonus						체력 {value}% 흡수
+critical_bonus						{value1}% 확률로 {value2}배의 치명타 공격
+incoming_damage_mult_bonus			받는 데미지 {value}%
+debuff_duration_mult_bonus 			디버프 시간 {value}%
+stunned_duration_mult_bonus 		기절 시간 {value}%
+incoming_heal_mult_bonus			{value}% 치료 받음
+stunned_bonus						기절
+stunned_immunity_bonus				기절 면역
+silenced_bonus						침묵
+silenced_immunity_bonus				침묵 면역
+perplexed_bonus						당황
+perplexed_immunity_bonus			당황 면역
+disarmed_bonus						무장 해제
+disarmed_immunity_bonus				무장 해제 면역
+immobilized_bonus					이동 불가
+immobilized_immunity_bonus			이동 불가 면역
+restrained_bonus					구속
+restrained_immunity_bonus			구속 면역
+revealed_bonus						발각
+reveal_bonus						감지 범위 {value}
+stealth_bonus						{value}초 후에 은신
+unitwalking_bonus					유닛 통과
+treewalking_bonus					나무 통과
+cliffwalking_bonus					절벽 통과
+buildingwalking_bonus				건물 통과
+immunity_bonus						{type} 면역
+invulnerable_bonus					무적
+dispel_on_damage_bonus				데미지 받을 때 무효화
+dispel_on_action_bonus				행동 할 때 무효화
+truestrike_bonus					진실의 일격
+health_regen_reduction_bonus		체력 회복 {value}% 감소
+mana_regen_reduction_bonus			마나 회복 {value}% 감소
+sighted_bonus						감시
+
+script_on_attack					공격하면
+script_on_attack_impact				공격이 명중하면
+script_on_attacked_pre_impact		공격을 받으면
+script_on_attacked_post_impact		공격을 받으면
+script_on_activate_pre_impact		사용하면
+script_on_activate_impact			사용하면
+script_on_ability_impact			스킬을 사용하면
+script_on_damage					데미지를 주면
+script_on_damaged					데미지를 받으면
+script_on_kill						킬을 달성하면
+script_on_killed					킬을 당하면
+
+action_toggle						활성화/비활성화
+action_no_target					대상 없음
+action_target_position				위치 지정
+action_target_unit					대상 유닛
+action_target_global				광역
+action_target_self					자신
+action_facing						정면
+action_self_position				내 위치
+action_attack						공격
+action_attack_toggle				공격 활성화/비활성화
+action_target_dual					이중 목표 지정
+action_target_dual_position			이중 목표 지정
+action_target_vector				매개체 지정
+
+ability_levelup_max					^g최대 레벨^*
+ability_levelup_available			^y클릭하면 이 스킬 레벨업^*
+ability_levelup_unavailable			^r필요 조건 달성 필요^*
+
+aura_range_global					광역
+
+item_recipe							{name} 제조법
+
+activate_ability					클릭하면 이 스킬 사용
+activate_item						클릭하면 이 아이템 사용
+activate_item_no_share				^r사용 불가 - {name} 귀속
+activate_item_no_share_ownerless	^r사용 불가
+activate_item_borrowed				^g{name}에게 빌림
+activate_passive					^g지속 효과 스킬임
+
+attribute_strength					힘
+attribute_agility					민첩
+attribute_intelligence				지능
+
+attribute_damage_bonus				데미지 {value}
+attribute_health_bonus				최대 체력 {value}
+attribute_health_regen_bonus		체력 {value} 회복
+attribute_attack_speed_bonus		공격 속도 {value}
+attribute_armor_bonus				방어 {value}
+attribute_mana_bonus				최대 마나 {value}
+attribute_mana_regen_bonus			마나 {value} 회복
+
+auto_assemble						자동
+
+shop_action_view_recipe				^y클릭해서 이 제조법 ^195보기^*
+shop_action_view_item				^y클릭해서 이 아이템 ^195보기^*
+shop_action_auto_assemble			^y자동 조합 아이템
+shop_action_already_purchased		^g이미 보유 중인 아이템
+shop_action_cannot_shop				^r이 유닛은 아이템 수송 불가
+shop_action_cannot_afford_item		^r이 아이템을 구입할 수 없음
+shop_action_cannot_afford_recipe	^r이 제조접을 구입할 수 없음
+shop_action_purchase_item			^y클릭해서 이 아이템 ^195구입^*
+shop_action_purchase_item_stash		^y클릭해서 이 아이템을 ^195보관함^*으로 이동
+shop_action_purchase_recipe			^y클릭해서 이 제조법 ^195구입^*
+shop_action_unavailable				^r여기에서는 사용할 수 없음
+
+vote_called						{color}{player}^* 님이 투표 요청: {vote}
+vote_called_concede				{color}{player}^* 님이 {team_color}{team}^*에게 항복 투표를 요청했습니다.
+vote_called_remake				{color}{player}^* 님이 게임 취소 투표를 요청했습니다.
+vote_called_kick				{color}{player}^* 님이 {target_color}{target}^* 님의 추방 투표를 요청했습니다.
+vote_called_kick_afk			{color}{player}^* 님이 자리 비움 상태인 {target_color}{target}^* 님의 추방 투표를 요청했습니다.
+vote_called_pause				{color}{player}^* 님이 게임 일시 중지 투표를 요청했습니다.
+vote_passed						투표가 시작됩니다.
+vote_failed						투표가 취소되었습니다.
+
+team_concede					{color}{team}^* 팀이 항복했습니다. 게임의 나머지 통계는 기록되지 않으며 모든 참가자는 불이익을 받지 않고 게임에서 나갈 수 있습니다.
+game_abandoned					플레이어를 제외한 팀 동료들이 모두 떠났습니다. 게임은 계속되지만, 연결을 해제하고 나가도 플레이어의 이탈 비율은 증가하지 않습니다.
+afk_warning						너무 오랫동안 입력이 없었습니다. 나가서 싸우십시오!
+afk_message						자리 비움으로 표시되었으며 추방될 수도 있습니다.
+
+lobby_connect					{color}{player}^* 님이 접속하는 중입니다.
+lobby_connect_mentor			{color}{player}^* 님이 플레이어의 멘토로 접속하는 중입니다.
+lobby_connect_spec				{player_color}{player}^* 님이 {spec_player} 님의 관전자로 접속하는 중입니다.
+lobby_kick						호스트가 {color}{player}^* 님을 추방했습니다.
+lobby_kick_spec					{color}{player}^* 님을 추방했습니다.
+lobby_disconnect				{color}{player}^* 님과의 연결이 끊어졌습니다.
+lobby_balance					호스트가 팀 균형을 조정했습니다.
+lobby_force_swap				호스트가 {slot1_color}{slot1}^*, {slot2_color}{slot2}^*를 서로 교체했습니다.
+lobby_countdown_cancel			게임 카운트다운이 취소되었습니다.
+lobby_lock						호스트가 {slot_color}{slot}^* 슬롯을 잠갔습니다.
+lobby_unlock					호스트가 {slot_color}{slot}^* 슬롯의 잠금을 해제했습니다.
+lobby_assign_host				{slot_color}{player}^* 님이 새로운 호스트가 되었습니다.
+lobby_assign_spectator			호스트가 {slot_color}{player}^* 님을 관전자로 지정했습니다.
+lobby_assign_referee			호스트가 {slot_color}{player}^* 님을 심판으로 지정했습니다.
+lobby_assign_first_ban				호스트가 {team_color}{team}^*에게 먼저 금지 기회를 주었습니다.
+
+game_info_practice				연습
+nosolo							게임을 시작하려면 상대가 있어야 합니다. 혼자서 연습하려면 ^y연습^* 게임을 플레이해 보십시오.
+warn_nomods					{slot_color}{player}^* 님은 개량된 파일을 사용하고 있으며 관전만 허용됩니다.
+nomods						게임을 시작할 수 없습니다. {slot_color}{player}^* 님은 개량된 파일을 사용하고 있기 때문에 관전만 가능합니다. 이 토너먼트 규칙 게임을 플레이하려면 인터페이스, 텍스처 및 기타 모든 개량된 파일을 사용하지 마십시오.
+game_unpause					{name} 님이 게임 일시 중지를 해제했습니다. 5초 후에 게임이 계속됩니다.
+player_ping					{slot_color}{player}^* 핑: {ping}ms
+player_ping_no_players				핑을 확인할 플레이어를 지정하십시오.
+team_ping					{team_color}{team_name}^* 평균 핑: {ping}ms
+
+
+//-----------------------------------------------------------------------------
+// Weather
+//-----------------------------------------------------------------------------
+game_weather_					지정 안 함
+
+// "rain.effect" => "game_weather_rain"
+game_weather_rain				비
+
+// "snow.effect" => "game_weather_snow"
+game_weather_snow				눈
+
+// "snow_storm.effect" => "game_weather_snow_storm"
+game_weather_snow_storm				눈보라
+
+// Add new weather effects here
+//-----------------------------------------------------------------------------
+
+
+// END

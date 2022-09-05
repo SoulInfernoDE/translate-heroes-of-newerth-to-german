@@ -1,0 +1,25 @@
+﻿// Prophets	
+
+prophets_dialog_title_one										Prophets
+prophets_dialog_one												Prophets'a Hoşgeldiniz! Herkesin tekil olarak oynadığı bu oyun modundaki asıl amaç hayatta kalan son oyuncu olabilmektir. Bu arada Arena için kalmayı unutmayın... Yoksa canınız biraz fazla yanabilir!
+
+prophets_dialog_title_two										Yetenek Alımı
+prophets_dialog_two												Oyun başında sadece bir yetenek alabilme hakkınız var. Dükkan'ı açtığınızda sahip olduğunuz yeteneğin gücünü arttırabilir ya da yeni bir yetenek satın alabilirsin. Her bir raunt sonunda altın kazanacaksın. Altınları akıllıca harca!
+
+prophets_dialog_title_three										Kim Kazanıyor?
+prophets_dialog_three											Oyuncuların seviyelerine dikkat et, oyuncu raund'u kazandığında seviyesini 1 arttırıyor. Eğer oyuncu seviye 4'e ulaşıyorsa, galibiyete ulaşıyor! Eğer bir oyuncu seviye 3 ise, ilk önce onu öldürmeye çalışın!
+
+prophets_dialog_title_four										Raund Bitti!
+prophets_dialog_four											İlk raund son erdi! Dükkandan yeni bir yetenek almayı unutmayın! İyi Şanslar!
+
+prophets_dialog_title_five										Son Raund!
+prophets_dialog_five											Bir oyuncu seviye 3'e ulaştı ve kazanmaya sadece 1 raund uzaklıkta! Seviye 3 oyuncuyu bul ve ilk önce onu öldür!
+
+prophets_dialog_title_six										Oyun Sona Erdi!
+prophets_dialog_six												Oyuncu savaşı kazandı! Tebrikler!
+
+prophets_help_one_title											Prophets Yardım
+prophets_help_one												Bu oyunda herkese karşı tek başınasın! Takım yok, limit yok, arkadaş yok! Tek hedefin, yaşayan son oyuncu olmak! \n\n Her raund sonunda kazanan oyuncu 1 seviye kazanmaktadır. 4 seviyeye ilk ulaşan oyuncu, oyunu kazanır!
+prophets_help_one_bottom										Her raund Arenanın bir yere ışınlanacaksın ve savaşa başlayacaksın! \n\n Sen savaşırken Arena küçülmeye başlayacak. Eğer Arenanın dışında kalırsan sürekli olarak hasar alacaksın, bu yüzden rakiplerini Arenanın dışına iterek onları daha hızlı bir şekilde öldürmeyi başarabilirsin!
+
+// Son

@@ -1,0 +1,358 @@
+﻿deny								{victim_color}{victim}^*!, {killer_color}{killer}^* tarafından  esirgendi.
+kill0								{victim_color}{victim}^*!, {killer_color}{killer}^* tarafından yok edildi. Ödül: ^y{gold}^* altın!!
+kill1								{{victim_color}{victim}^*!, {killer_color}{killer}^* tarafından yok edildi. Ödül: ^y{gold}^* altın!! Asist: {assist0_color}{assist0}
+kill2								{victim_color}{victim}^*!, {killer_color}{killer}^* tarafından yok edildi. Ödül: ^y{gold}^* altın!! Asistler: {assist0_color}{assist0}^*, {assist1_color}{assist1}
+kill3								{victim_color}{victim}^*!, {killer_color}{killer}^* tarafından yok edildi. Ödül: ^y{gold}^* altın!! Asistler: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
+kill4								{victim_color}{victim}^*!, {killer_color}{killer}^* tarafından yok edildi. Ödül: ^y{gold}^* altın!! Asistler: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
+first_kill							{killer_color}{killer}^* ^rilk kan^*ı döktü! (^y+{gold}^* altın!)
+first_kill_team						{killer_color}{killer}^* ^rilk kan^*ı döktü! (^y+{gold}^* altın dağıtıldı!)
+killstreak0							{killer_color}{killer}^* bir ^082Seri Katil^*!
+killstreak1							{killer_color}{killer}^* ^204Büyük Savaşçı^*!
+killstreak2							{killer_color}{killer}^* bir ^808Efsane^*!
+killstreak3							{killer_color}{killer}^* ^840Acımasız^*!
+killstreak4							{killer_color}{killer}^* ^440Vahşi Savaşçı^*!!
+killstreak5							{killer_color}{killer}^* ^848Hükmediyor^*!!
+killstreak6							{killer_color}{killer}^* ^800NEWERTH ŞAMPİYONU^*!!!
+killstreak7							{killer_color}{killer}^* ^840KAN BANYOSUNDA^*! Biri ONU DURDURSUN!
+killstreak8							{killer_color}{killer}^* ^860ÖLÜMSÜZ^*!!
+
+streakend0							{killer} tarafından ^082Seri Katil^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+streakend1							{killer} tarafından ^204Büyük Savaşçı^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+streakend2							{killer} tarafından ^808Efsane^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+streakend3							{killer} tarafından ^840Acımasız^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+streakend4							{killer} tarafından ^440Vahşi Savaşçı^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+streakend5							{killer} tarafından ^848hükmediyor^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+streakend6							{killer} tarafından ^800NEWERTH ŞAMPİYONU^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+streakend7							{killer} tarafından ^840KAN BANYOSUNDA^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+streakend8							{killer} tarafından ^860ÖLÜMSÜZ^* serisi durduruldu:{victim} ^y{gold}^* altın kazanıldı!!
+
+multikill0							{killer} ^008İkili Kombo^* yaptı!
+multikill1							{killer} ^084Hat-trick^* yaptı!!!
+multikill2							{killer} ^084Dörtlü Kombo^* yaptı!!!
+multikill3							{killer} ^084Beşi Bir Yerde^* yaptı!!!
+
+killtower							{killer} kuleyi yok etti. {reward} ile ödüllendirilerek ^y{gold}^* bonus altın kazandı!
+denytower							{player} bir kuleyi ^444feda^* etti!
+killmeleerax						{victim}: ^724Kısa Menzil^* barakaları yok edildi, {killer}: koridordaki ^724kısa menzil^* üniteleri daha güçlü yapılandırılacak.
+killrangedrax						{victim}: ^266Uzun Menzil^* barakaları yok edildi, {killer}: koridordaki ^266uzun menzil^* üniteleri daha güçlü yapılandırılacak.
+killcourier							{victim} kuryesi {killer} tarafından katledildi!
+boughtwalkingcourier				{player_color}{player}^* kurye satın aldı.
+boughtflyingcourier					{player_color}{player}^* uçan kurye satın aldı.
+ping_target							{player_color}{player_name} ({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* şimdi!
+
+teamkillstreak0						Birileri katliam başlattı!!!
+teamkillstreak1						^rLejyon^* oyuna ^rHÜKMEDİYOR!!!^*
+teamkillstreak2						^170Hellbourne^* oyuna ^170HÜKMEDİYOR!!!^*
+
+teamwipe							{team} tamamen haritadan silindi!!! 
+
+teamkill							{killer} kafasını uçurdu: {victim} !! ^y{gold}^* altın paylaştırıldı.
+
+neutralkill							{victim} Orman Birlikleri tarafından öldürüldü.
+kongorkill							{victim} Kongor tarafından öldürüldü.
+bosskill							{victim} {boss} tarafından öldürüldü.
+
+suicide								{victim} intihar etti!
+
+kill								{victim} öldü.
+
+teamkilltower						{killer} bir kuleyi yok etti. {killer} ^y{gold}^* bonus altın ile ödüllendirildi!
+teamdenytower						{denier} bir kuleyi ^444feda^* etti!
+
+killkongor							{killer} Kongor'u kesti. {reward} ile ödüllendirilerek ^y{gold}^* bonus altın kazandı!
+teamkillkongor						{killer} Kongor'u kesti. {killer} ödüllendirilerek ^y{gold}^* bonus altın kazandı!
+killboss							{boss} {killer} tarafından kesildi. {reward} ile ödüllendirilerek ^y{gold}^* bonus altın kazandı!
+teamkillboss						{boss} {killer} tarafından kesildi. {killer} ödüllendirilerek ^y{gold}^* bonus altın kazandı!
+
+share0								{player} ünite kontrollerini artık seninle paylaşmıyor.
+share1								{player} ünite kontrollerini seninle paylaşıyor.
+share2								{player} kuryelerini seninle paylaşıyor.
+share3								{player} ünite kontrollerini seninle paylaşıyor.
+
+powerup								{player} ^r{powerup}^* topladı.
+powerup_bottle						{player} bir ^r{powerup}^* kafaya dikti.
+powerup_bottle_use					{player} bir ^r{powerup}^* kullandı.
+
+creepupgrade						Creepler güçlendi...
+megacreeps							{killer}, {victim} tarafından sahip olunan tüm üretim yapılarını imha etti . {killer} artık Mega Creeplere sahip.
+
+smackdown							{victim}, {killer} tarafından İNDİRİLDİ!
+humiliation							{victim}{killer} tarafından YERİN DİBİNE SOKULDU!
+rival								{victim}{killer} tarafından ^rHÜKMEDİLİYOR^*!
+payback								{victim}{killer}a karşı ^rRÖVANŞI ALDI^*!
+
+client_connected					{player_color}{player}^* oyuna bağlandı.
+client_reconnected					{player_color}{player}^* oyuna tekrar bağlandı. (Kalan Süre: {time})
+client_disconnected					{player_color}{player}^* oyunla bağlantısı kesildi.
+client_timedout						{player_color}{player}^* zaman aşımına uğradı.
+client_terminated					{player_color}{player}^* ile bağlantı sonlandırıldı. Kahramanı maçtan çıkarıldı ve eşyaları takım üyeleri arasında paylaştırıldı.
+client_connected_mentor				{player_color}{player}^* sana yol göstermek için bağlandı.
+client_connected_spec				{player_color}{player}^* izleyici olarak oyuna bağlandı {spec_color}{spec_player}^*.
+
+hero_pick							{player_color}{player}^* ^885{hero_name}^* isimli kahramanı seçti.
+hero_pick_blind						{player_color}{player}^* bir kahramanı seçti.
+hero_random							{player_color}{player}^* ^885{hero_name}^* isimli kahramanı rasgele seçti.
+hero_random_blind					{player_color}{player}^* bir kahramanı rasgele seçti.
+hero_repick							{player_color}{player}^* tekrar seçiyor. ^885{hero_name}^* isimli kahraman şimdi kullanılabilir.
+hero_repick_blind					{player_color}{player}^* tekrar seçiyor.
+hero_swap							{player_color}{player}^* {player2_color}{player2}^* ile kahramanını takas etti.
+hero_swap_request					{player_color}{player}^* kahramanını seninle takas etmeyi teklif etti.
+hero_ban							{player_color}{player}^* ^885{hero_name}^* isimli kahramanı ^ryasakladı^*.
+hero_ban_random						^885{hero_name}^* isimli kahraman rasgele ^ryasaklandı^* .
+hero_lock							{player_color}{player}^* ^885{hero_name}^* isimli kahramanı ^ykilitledi^*.
+hero_lock_random					^885{hero_name}^* isimli kahraman rasgele ^ykilitlendi^* .
+hero_hidden_ban						{team_color}{team}^* ^885{hero}^* isimli kahramanı ^ryasakladı^*.
+
+game_phase_banning					^rYasaklama Süreci^*'ne Başla.
+game_phase_picking					^rSeçme Süreci^*'ne Başla.
+game_phase_lock						^rKilitleme Süreci^*'ne Başla.
+game_phase_lock_pick				^rKilit Açma Süreci^*'ne Başla.
+game_phase_hero_hidden_ban			^rGizli Yasaklama Süreci^*'ne Başla.
+game_turn_ban						Şimdi {player_color}{player}^* isimli oyuncunun ^ryasaklama^* sırası.
+game_turn_picking					Şimdi {player_color}{player}^* isimli oyuncunun ^rseçme^* sırası.
+
+player_ready						{player_color}{player}^* ^ghazır^*.
+player_unready						{player_color}{player}^* ^rhazır değil^*.
+
+player_boughtback					{player_color}{player}^* canlanma hakkı satın alarak başlama noktasında canlandı.
+player_boughtback2					{player_color}{player}^* canlanma hakkı satın alarak başlama noktasında canlandı. {buybacks_used}/{buybacks_remaining} canlanma hakkı kullanıldı.
+
+error_all_buybacks_used				Kullanılabilir canlanma hakkın kalmadı.
+
+error_target_invulnerable			Bu hedefe zarar verilemez.
+error_not_ready						{tool} henüz hazır değil.
+error_low_mana						{tool} kullanmak için yeterli mana yok.
+error_no_proxy						Bunun için kullanılabilir bir Proxy yok : {tool}.
+error_not_unit_ability				Bu özellik için bir hedef seçmelisin.
+error_not_unit_item					Bu ürünü kullanabilmek için bir hedef seçmelisin.
+error_not_unit						Bir hedef seçmelisin.
+error_invalid_target				Bu geçerli bir hedef değil.
+
+chat_all							^269[GENEL] {color}{player} ({hero}): ^*{message}
+chat_roll							^190[SEÇİM]^* {color}{message}
+chat_emote							^839[SİMGE]^* {color}{message}
+chat_team							^y[TAKIM] {color}{player} ({hero}): ^*{message}
+chat_all_lobby						^269[GENEL] {color}{player}: ^*{message}
+chat_roll_lobby						^190[SEÇİM]^* {color}{message}
+chat_emote_lobby					^839[SİMGE]^* {color}{message}
+chat_team_lobby						^y[TAKIM] {color}{player}: ^*{message}
+server_message						^188[SUNUCU] ^ySunucu Mesajı: {message}
+staff_message						^188[SUNUCU] ^yYönetici Mesajı: {message}
+chat_mentor							^527[YOL GÖSTERİCİ] {color}{player} ({hero}): ^*{message}
+
+error_item_unavailable				{item} bu alanda kullanılamaz.
+error_low_gold_item					{item} için yeterli altının yok.
+error_low_gold_recipe				{item} için yeterli altının yok.
+error_low_gold_buy_all				{item} malzemeleri için yeterli altının yok.
+error_not_owned_to_stash_xfer		Bu eşya senin değil.
+
+str_bonus							{value} Güç
+str_bonus_per_level					{value_per_level} Seviye başına güç
+str_bonus_per_charge				{value_per_charge} Şarj başına güç
+agi_bonus							{value} Çeviklik
+agi_bonus_per_level					{value_per_level} Seviye başına çeviklik
+agi_bonus_per_charge				{value_per_charge} Şarj başına çeviklik
+agi_bonus_percharge					{value_per_charge} Şarj başına çeviklik
+int_bonus							{value} Zeka
+int_bonus_per_level					{value_per_level} Seviye başına zeka
+int_bonus_per_charge				{value_per_charge} Şarj başına zeka
+int_bonus_percharge				    {value_per_charge} Şarj başına zeka
+max_health_bonus					{value} Maksimum Can
+max_health_mult_bonus				%{value} Maksimum Can
+max_mana_bonus						{value} Maksimum Mana
+max_mana_mult_bonus					%{value} Maksimum Mana
+base_damage_mult_bonus				%{value} Temel Hasar
+damage_mult_bonus					%{value} Saldırı Hasarı
+damage_bonus						{value} Hasar
+damage_bonus_per_charge				{value} Şarj Başına Hasar
+move_speed_bonus					{value} Hareket Hızı
+move_speed_mult_bonus				%{value} Hareket Hızı
+move_speed_mult_bonus_per_charge	%{value} Şarj Başına Hareket Hızı
+slow_resistance_bonus				%{value} Yavaşlatma Direnci
+move_speed_slow_bonus				%{value} Hareket Hızı Yavaşlatma
+move_speed_slow_bonus_per_charge	%{value} Şarj Başına Hareket Hızı Yavaşlatma
+attack_speed_bonus					{value} Saldırı Hızı
+attack_speed_bonus_per_charge		{value} Şarj Başına Saldırı Hızı
+attack_speed_mult_bonus				%{value} Saldırı Hızı
+attack_speed_slow_bonus				%{value} Saldırı Hızı Yavaşlatma
+cast_speed_bonus					{value} Büyü Yapma Hızı
+cooldown_speed_bonus				{value} Soğuma Süresi Hızı
+reduced_cooldowns_bonus				%{value} Azaltılmış Soğuma Süresi
+increased_cooldowns_bonus			%{value} Arttırılmış Soğuma Süresi
+armor_bonus							{value} Zırh
+armor_bonus_per_charge				{value} Şarj başına Zırh
+magic_armor_bonus					{value} Büyü Zırhı
+magic_armor_bonus_per_charge		{value} Şarj başına Büyü Zırhı
+health_regen_percent_bonus			%{value} Saniye başına Can
+health_regen_bonus					{value} Can Yenilenme Hızı
+health_regen_mult_bonus				%{value} Can Yenilenme Hızı
+mana_regen_percent_bonus			%{value} Saniye başına Mana
+mana_regen_bonus					{value} Mana Yenilenme Hızı
+mana_regen_mult_bonus				%{value} Mana Yenilenme Hızı
+deflection_bonus					{value2} Saldırı hasarına karşılık %{value1} engelleme şansı
+evasion_bonus						%{value} Sakınma
+ranged_evasion_bonus				%{value} Uzak mesafe saldırısından sakınma
+melee_evasion_bonus					%{value} Yakın mesafe saldırısından sakınma
+miss_chance_bonus					%{value} Iskalama Şansı
+lifesteal_bonus						%{value} Can Çalma
+critical_bonus						%{value1} Şansla {value2}x Kritik Vuruş 
+incoming_damage_mult_bonus			%{value} Alınan Hasar
+debuff_duration_mult_bonus 			%{value} Debuff süreleri
+stunned_duration_mult_bonus 		%{value} Bayıltma Süresi
+incoming_heal_mult_bonus			%{value} Can Kazanıldı
+stunned_bonus						Bayıltıldı
+stunned_immunity_bonus				Bayıltma Bağışıklığı
+silenced_bonus						Sessizleştirildi
+silenced_immunity_bonus				Sessizleştirilme Bağışıklığı
+perplexed_bonus						Kafa Karıştırıldı
+perplexed_immunity_bonus			Kafa Karışıklığı Bağışıklığı
+disarmed_bonus						Silahsızlaştırıldı
+disarmed_immunity_bonus				Silahsızlaştırma Bağışıklığı
+immobilized_bonus					Hareketsizleştirildi
+immobilized_immunity_bonus			Hareketsizleştirme Bağışıklığı
+restrained_bonus					Kısıtlandırıldı
+restrained_immunity_bonus			Kısıtlandırılma Bağışıklığı
+revealed_bonus						Ortaya Çıkarıldı
+reveal_bonus						{value} Ortaya Çıkarma Menzili
+stealth_bonus						{value} Saniye geçici Görünmezlik
+unitwalking_bonus					Unitwalking
+treewalking_bonus					Treewalking
+cliffwalking_bonus					Cliffwalking
+buildingwalking_bonus				Buildingwalking
+immunity_bonus						{type} Bağışıklık
+invulnerable_bonus					Hasar Verilemez
+dispel_on_damage_bonus				Hasar alındığında büyü kalkar
+dispel_on_action_bonus				Hareket anında büyü kalkar
+truestrike_bonus					Gerçek Vuruş
+health_regen_reduction_bonus		{value}% Azaltılmış Can Yenilenme Hızı
+mana_regen_reduction_bonus			{value}% Azaltılmış Mana Yenilenme Hızı
+sighted_bonus						Görüldü
+
+script_on_attack					Saldırı sırasında
+script_on_attack_impact				Saldırı etkisi sırasında
+script_on_attacked_pre_impact		Saldırı altında
+script_on_attacked_post_impact		Saldırı altında
+script_on_activate_pre_impact		Aktifleştirme anında
+script_on_activate_impact			Aktifleştirme anında
+script_on_ability_impact			Yeteneğin Aktifleştirilmesi anında
+script_on_damage					Hasar verme sırasında
+script_on_damaged					Hasar alma sırasında
+script_on_kill						Öldürme anında
+script_on_killed					Öldürülme anında
+
+action_toggle						Toggle
+action_no_target					Hedef Yok
+action_target_position				Hedef Pozisyonu
+action_target_unit					Hedef Seç
+action_target_global				Global
+action_target_self					Kişisel
+action_facing						Yüzleşme
+action_self_position				Kişisel Pozisyon
+action_attack						Saldırı
+action_attack_toggle				Attack Toggle
+action_target_dual					İkili Hedef
+action_target_dual_position			İkili Hedef
+action_target_vector				Vektör Hedef
+action_target_cursor				Hedef İmleci
+action_target_entity_vector			Vector Entity
+
+ability_levelup_max					^gMaksimum Seviye^*
+ability_levelup_available			^yBu yeteneğin seviyesini arttırmak için tıklayın^*
+ability_levelup_unavailable			^rİstenen koşullar sağlanamadı^*
+
+aura_range_global					Global
+
+item_recipe							{name} Tarif
+
+activate_ability					Bu yeteneği aktifleştirmek için tıklayın
+activate_item						Bu eşyayı aktifleştirmek için tıklayın
+activate_item_no_share				^rEtkisizleştirildi - Sahibi {name}
+activate_item_no_share_ownerless	^rEtkisizleştirildi
+activate_item_borrowed				{name} ^gödünç verdi
+activate_passive					^gBu yetenek pasif
+
+attribute_strength					Güç
+attribute_agility					Çeviklik
+attribute_intelligence				Zeka
+
+attribute_damage_bonus				{value} Hasar
+attribute_health_bonus				{value} Maksimum Can
+attribute_health_regen_bonus		{value} Can Yenilenme Hızı
+attribute_attack_speed_bonus		{value} Saldırı Hızı
+attribute_armor_bonus				{value} Zırh
+attribute_mana_bonus				{value} Maksimum Mana
+attribute_mana_regen_bonus			{value} Mana Yenilenme Hızı
+
+auto_assemble						Otomatik
+
+shop_action_view_recipe				Bu tarifi ^195GÖRMEK^* için ^ytıklayın
+shop_action_view_item				Bu eşyayı ^195GÖRMEK^* için ^ytıklayın
+shop_action_auto_assemble			^yBu eşya otomatik olarak bir araya gelir
+shop_action_already_purchased		^gBu eşyaya zaten sahipsin
+shop_action_cannot_shop				^rBu hedef eşya taşıyamaz
+shop_action_cannot_afford_item		^rBu eşyayı almak için yeterli altının yok
+shop_action_cannot_afford_recipe	^rBu tarifi almak için yeterli altının yok
+shop_action_purchase_item			Bu eşyayı ^195SATIN ALMAK^* için ^ytıklayın
+shop_action_purchase_item_stash		Bu eşyayı ^195SAKLAMAK^* için ^ytıklayın
+shop_action_purchase_recipe			Bu tarifi ^195SATIN ALMAK^* için ^ytıklayın
+shop_action_unavailable				^rBu konumda geçerli değil
+
+vote_called						{team_color}{team}^* oylama açtı: {vote}
+vote_called_concede				{team_color}{team}^* pes etmek için oylama açtı.
+vote_called_remake				{team_color}{team}^* maçı tekrarlamak için oylama açtı.
+vote_called_kick				{team_color}{team}^* {target_color}{target}^* isimli oyuncuyu atmak için oylama açtı.
+vote_called_kick_afk			{team_color}{team}^* {target_color}{target}^* isimli aktif olmayan oyuncuyu atmak için oylama açtı.
+vote_called_pause				{team_color}{team}^* oyunu durdurmak için oylama açtı.
+vote_passed						Oylama geçerli.
+vote_failed						Oylama geçersiz.
+
+team_concede					{color}{team}^* pes etti. Maçın geri kalan bölümünün istatistikleri kaydedilmeyecek ve herkes ceza almadan ayrılabilecek.
+game_abandoned					Takım arkadaşların seni tek başına bıraktı. Maç devam edecek ama Terketme oranını arttırmadan maçtan ayrılma hakkına sahipsin.
+afk_warning						Etkisiz eleman olarak bilinmek üzeresin. Git ve Savaş!
+afk_message						Aktif olmayan oyuncu olarak işaretlendin, oyundan atılabilirsin.
+
+lobby_connect					{color}{player}^* bağlanıyor.
+lobby_connect_mentor			{color}{player}^* sana yol göstermek için bağlanıyor.
+lobby_connect_spec				{player_color}{player}^*, {spec_player} isimli oyuncuyu izlemek için izleyici olarak bağlanıyor.
+lobby_kick						{color}{player}^* oyun kurucu tarafından atıldı.
+lobby_kick_spec					{color}{player}^* isimli oyuncuyu attın.
+lobby_disconnect				{color}{player}^* isimli oyuncunun bağlantısı kesildi.
+lobby_balance					Oyun kurusu takımları dengeledi.
+lobby_force_swap				Oyun kurucu {slot1_color}{slot1}^* ile {slot2_color}{slot2}^* slotlarının yerlerini değiştirildi.
+lobby_countdown_cancel			Maç geri sayımı iptal edildi.
+lobby_lock						Oyun kurucu {slot_color}{slot}^* slotunu kilitledi.
+lobby_unlock					Oyun kurucu {slot_color}{slot}^* slotunun kilidini kaldırdı.
+lobby_assign_host				{slot_color}{player}^* yeni oyun kurucu olarak atandı.
+lobby_assign_spectator			Oyun kurucu {slot_color}{player}^* isimli oyuncuyu izleyici olarak atadı.
+lobby_assign_referee			Oyun kurucu {slot_color}{player}^* isimli oyuncuyu hakem olarak atadı.
+lobby_assign_first_ban			Oyun kurucu {team_color}{team}^* takımına ilk yasaklama hakkını tanıdı.
+
+game_info_practice				Egzersiz
+nosolo							Oyun başlamak için bir rakibin olmalıdır. Tek başına oynamak istiyorsan ^yEgzersiz^* maçına başla.
+warn_nomods					    {slot_color}{player}^* isimli oyuncu değiştirilmiş dosyalar kullandığı için maçı sadece izlemesine izin verilecek.
+nomods						    Maç başlatılamıyor. Bu maçta Turnuva Kuralları geçerlidir. {slot_color}{player}^* isimli oyuncu değiştirilmiş dosyalar kullanıyor. Bu oyuncunun oyuna katılabilmesi için değiştirilmiş dosyalarınının TÜMÜNÜ (arayüz, doku vb.) etkisizleştirmelidir, aksi halde sadece izleyici olarak katılabilir.
+game_unpause					{name} oyunu devam ettirdi, maç 5 saniye içerisinde devam edecek.
+player_ping			            {slot_color}{player}^* ping: {ping}ms
+player_ping_no_players		    Ping kontrolü için oyuncu yok.
+team_ping				        {team_color}{team_name}^* ortalama ping: {ping}ms
+
+
+//-----------------------------------------------------------------------------
+// Weather
+//-----------------------------------------------------------------------------
+game_weather_					Hiçbiri
+
+// "rain.effect" => "game_weather_rain"
+game_weather_rain				Yağmur
+
+// "snow.effect" => "game_weather_snow"
+game_weather_snow				Kar
+
+// "snow_storm.effect" => "game_weather_snow_storm"
+game_weather_snow_storm				Kar Fırtınası
+
+// Add new weather effects here
+//-----------------------------------------------------------------------------
+
+
+// END

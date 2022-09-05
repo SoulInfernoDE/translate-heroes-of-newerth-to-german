@@ -1,0 +1,25 @@
+// Prophets                 
+						 
+prophets_dialog_title_one   Prophets
+prophets_dialog_one         Selamat datang di Prohpehts! Ini adalah mode game Free-For-All, di mana tujuan utamanya adalah menjadi orang terakhir yang tersisa. Oh, dan pastikan selalu berada di dalam Arena... Akan sangat sakit jika Anda berada di luar!
+						 
+prophets_dialog_title_two   Membeli Skill
+prophets_dialog_two         Anda hanya memiliki 1 skill pada awalnya. Jika Anda membuka Shop (B), Anda dapat mengupgrade skill sekarang atau membeli yang baru. Anda akan mendapatkan gold setiap ronde. Pilihlah Dengan Bijaksana!
+						 
+prophets_dialog_title_three Siapa yang Menang?
+prophets_dialog_three       Perhatikan level setiap orang, karena setiap kali seseorang menang 1 ronde, level mereka bertambah 1. Ketika mencapai level 4, mereka menang! Jika kamu lihat seseorang di level 3, fokus kepada mereka terlebih dahulu!
+						 
+prophets_dialog_title_four  Ronde Berakhir!
+prophets_dialog_four        Ronde pertama telah berakhir! Ingat membuka Shop (B) untuk memilih senjata Anda. Semoga Sukses!
+						 
+prophets_dialog_title_five  Menuju Kemenangan!
+prophets_dialog_five        Seseorang telah mencapai level 3 dan tinggal 1 ronde lagi untuk menang!
+						 
+prophets_dialog_title_six   Game Over!
+prophets_dialog_six         Game telah berakhir!\n\nTerima kasih telah bermain. Mode game dibuat oleh Jonathan. Kontributor utama dari Kawaiiiii, Zaars, dan HyperXewl.
+						 
+prophets_help_one_title     Bantuan Prophets
+prophets_help_one           Di game ini, Anda haruskan melawan SETIAP ORANG! Tidak ada team, tidak ada batasan, dan tidak ada teman. Tujuan utamanya sederhana -- menjadi orang terakhir yang tersisa melalui beberapa ronde pertarungan.\n\nSetiap kali seseorang memenangkan 1 ronde, mereka bertambah 1 level. Pemain pertama yang mencapai level 4 memenangkan permainan ini.
+prophets_help_one_bottom    Setiap ronde, Anda akan diteleport ke suatu tempat secara acak di dalam Arena untuk bertarung.\n\nSaat Anda bertarung, Arena akan semakin mengecil. Jika Anda berada di luar perbatasan yang bersinar, Anda akan menerima damage yang berkelanjutan. Jadi, usahakan selalu berada di dalam Arena setiap saat sambil mendorong musuh Anda keluar menuju kematian mereka! HAJAAAAAAAAAAR!
+		
+// End  

@@ -1,0 +1,36 @@
+// Test maps
+map_caldavarTest							Caldavar Lategame Testing
+map_1v1mid									1v1 Mid-Only
+map_spotlight								Spotlight
+
+// Newui
+
+newui_communicator_send							Enviar
+
+// Graffitti
+codex_graffitti_wall							MURO DE GRAFFITTI
+
+// Golem Boss Buff Stuff
+
+custom_ui_button_BossBuff0_title				^oBuff Permanente^*
+custom_ui_button_BossBuff0_body					Tu recompensa por matar a Kongor, selecciona un buff permanente para aplicarlo sobre tu héroe.
+
+custom_ui_button_BossBuff1_title				^oEncantamiento de Atributo^*
+custom_ui_button_BossBuff1_body					Te otorga +4 de Fuerza, +2 de Agilidad y +6 de Inteligencia.\n\nSe acumula infinitamente.
+
+custom_ui_button_BossBuff2_title				^oEncantamiento de Daño^*
+custom_ui_button_BossBuff2_body					Te otorga +4% a Todo el Daño Infligido.\n\nSe acumula infinitamente.
+
+custom_ui_button_BossBuff3_title				^oEncantamiento de Velocidad^*
+custom_ui_button_BossBuff3_body					Te otorga +15 de Velocidad de Movimiento.\n\nSe acumula infinitamente.
+
+// Custom Buttons
+
+custom_ui_button_Rally_title					^oTeletransportate hacia la bandera de Rally^*
+custom_ui_button_Rally_body						Teletransporta tu héroe hacia la bandera de Rally después de 3 segundos de canalización. Este efecto tiene un tiempo de recarga de 10 segundos.
+
+custom_ui_button_Shellshock_title				^oSalta dentro de Armadon^*
+custom_ui_button_Shellshock_body				Envia a tu héroe para saltar al interior del caparazón de Armadon. Mientras este dentro del caparazón, tu héroe es invulnerable, desarmado e inmovilizado hasta que el efecto termine//
+
+// End - do not delete this line
+

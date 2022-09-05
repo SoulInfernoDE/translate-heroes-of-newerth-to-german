@@ -1,0 +1,299 @@
+﻿deny								{killer_color}{killer}^* a sacrifié {victim_color}{victim}^*!
+kill0								{killer_color}{killer}^* a explosé la tête de {victim_color}{victim}^* ! pour ^y{gold}^* pièces d'or !!
+kill1								{killer_color}{killer}^* a explosé la tête de {victim_color}{victim}^* ! pour ^y{gold}^* pièces d'or !! Assistance : {assist0_color}{assist0}
+kill2								{killer_color}{killer}^* a explosé la tête de {victim_color}{victim}^* ! pour ^y{gold}^* pièces d'or !! Assistances : {assist0_color}{assist0}^*, {assist1_color}{assist1}
+kill3								{killer_color}{killer}^* a explosé la tête de {victim_color}{victim}^* ! pour ^y{gold}^* pièces d'or !! Assistances : {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
+kill4								{killer_color}{killer}^* a explosé la tête de {victim_color}{victim}^* ! pour ^y{gold}^* pièces d'or !! Assistances : {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
+first_kill							{killer_color}{killer}^* est ^rassoiffé de sang^*! (^y+{gold}^* pièces d'or !)
+killstreak0							{killer_color}{killer}^* est un ^082tueur en série^* !
+killstreak1							{killer_color}{killer}^* est le ^204guerrier suprême^* !
+killstreak2							{killer_color}{killer}^* est ^808légendaire^* !
+killstreak3							{killer_color}{killer}^* fait un ^840massacre^* !
+killstreak4							{killer_color}{killer}^* est ^440un vrai sauvage^* !!
+killstreak5							{killer_color}{killer}^* établit sa ^848domination^* !!
+killstreak6							{killer_color}{killer}^* est un ^800CHAMPION DE NEWERTH^* !!!
+killstreak7							{killer_color}{killer}^* fait un ^840BAIN DE SANG^* !! Que quelqu'un LE TUE !
+
+streakend0							{killer} vient de mettre fin aux attaques du ^082tueur en série^* {victim} pour ^y{gold}^* pièces d'or !!
+streakend1							{killer} vient de mettre fin aux attaques du ^204guerrier suprême^* {victim} pour ^y{gold}^* pièces d'or !!
+streakend2							{killer} vient de mettre fin aux attaques du ^808légendaire^* {victim} pour ^y{gold}^* pièces d'or !!
+streakend3							{killer} vient de mettre fin aux ^840massacres^* de {victim} pour ^y{gold}^* pièces d'or !!
+streakend4							{killer} vient de mettre fin aux attaques de {victim} le ^440sauvage^* pour ^y{gold}^* pièces d'or !!
+streakend5							{killer} vient de mettre fin à la ^848domination^* de {victim} pour ^y{gold}^* pièces d'or !!
+streakend6							{killer} vient de mettre fin aux attaques du ^800CHAMPION DE NEWERTH^* {victim} pour ^y{gold}^* pièces d'or !!
+streakend7							{killer} vient de mettre fin au ^840BAIN DE SANG^* de {victim} pour ^y{gold}^* pièces d'or !!
+
+multikill0							{killer} vient de bénéficier d'un ^008coup double^* !
+multikill1							{killer} vient de recevoir un ^084coup de chapeau^* !!!
+multikill2							{killer} vient de bénéficier d'un ^084Quad Kill^*!!!
+multikill3							{killer} a ^084ANNIHILÉ^* ses opposants!!!
+
+killtower							{killer} a détruit une tour. {reward} reçoit ^y{gold}^* pièces d'or bonus !
+denytower							{player} a ^444sacrifié^* une tour !
+killmeleerax						Une caserne de mêlée de {victim} a été détruite, les unités de mêlée {killer} seront maintenant plus puissants sur l'une des routes.
+killrangedrax						Une caserne d'attaque à distance de {victim} a été détruite, les unités d'attaque à distance {killer} seront maintenant plus puissantes sur l'une des routes.
+killcourier							Le coursier de {victim} a été tué par {killer} !
+boughtwalkingcourier				{player_color}{player}^* a acheté un singe coursier.
+boughtflyingcourier					{player_color}{player}^* a acheté un coursier volant.
+
+teamkillstreak0						Ils DOMINENT !!!
+teamkillstreak1						La ^rLegion^* ^rDOMINE !!!^*
+teamkillstreak2						Les ^170Hellbourne^* ^170DOMINENT !!!^*
+
+teamwipe							{team} a été complètement éliminé !!! 
+
+teamkill							{killer} a explosé la tête de {victim} !! ^y{gold}^* pièces d'or sont dispersées.
+
+neutralkill							{victim} a été tué par un Creep neutres.
+kongorkill							{victim} a été tué par Kongor.
+
+suicide								{victim} s'est suicidé !
+
+kill								{victim} est mort.
+
+teamkilltower						{killer} a détruit une tour. {killer} reçoit ^y{gold}^* pièces d'or bonus !
+teamdenytower						{denier} a ^444sacrifié^* une tour !
+
+killkongor							{killer} a tué Kongor. {reward} reçoit ^y{gold}^* pièces d'or bonus !
+teamkillkongor						{killer} a tué Kongor. {killer} reçoit ^y{gold}^* pièces d'or bonus !
+
+share0								{player} ne partage plus le contrôle de ses unités avec vous.
+share1								{player} partage maintenant le contrôle de ses unités avec vous.
+share2								{player} partage maintenant le contrôle de son coursier avec vous.
+share3								{player} partage maintenant le contrôle de ses unités avec vous.
+
+powerup								{player} a ramassé ^r{powerup}^*.
+
+creepupgrade						Les Creeps sont devenus plus forts...
+megacreeps							{killer} a détruit toutes les structures de production d'unités de {victim}. {killer} possède maintenant les Méga-Creeps.
+
+smackdown							{victim} s'est fait ECRASER par {killer} !
+humiliation							{killer} a HUMILIÉ {victim} !
+nemesis								{killer} DOMINE totalement {victim} !
+retribution							{killer} s'est VENGÉ de {victim} !
+
+client_connected					{player_color}{player}^* s'est connecté.
+client_reconnected					{player_color}{player}^* s'est reconnecté (temps de déconnexion restant : {time}).
+client_disconnected					{player_color}{player}^* s'est déconnecté.
+client_timedout						{player_color}{player}^* ne répond pas.
+client_terminated					{player_color}{player}^* a été déconnecté. Son héros a été éliminé et ses items distribués à son équipe.
+
+hero_pick							{player_color}{player}^* a choisi ^885{hero_name}^*.
+hero_random							{player_color}{player}^* a choisi au hasard ^885{hero_name}^*.
+hero_repick							{player_color}{player}^* fait une reprise. ^885{hero_name}^* est maintenant disponible.
+hero_swap							{player_color}{player}^* a échangé de héros avec {player2_color}{player2}^*.
+hero_swap_request					{player_color}{player}^* vous propose d'échanger son héros avec vous.
+hero_ban							{player_color}{player}^* a été ^rbanni^* ^885{hero_name}^*.
+hero_ban_random						Le destin a ^rbanni^* ^885{hero_name}^*.
+
+game_phase_banning					Commencez la ^rPhase de Ban^*.
+game_phase_picking					Commencez la ^rPhase de Sélection^*.
+game_turn_ban						C'est maintenant le tour de {player_color}{player}^* de ^rbannir^*.
+game_turn_picking					C'est maintenant le tour de {player_color}{player}^* de ^rsélectionner^*.
+
+player_ready						{player_color}{player}^* est ^gprêt^*.
+player_unready						{player_color}{player}^* n'est ^rplus prêt^*.
+
+player_boughtback					{player_color}{player}^* a payé et a ressucité au puit.
+
+error_target_invulnerable			La cible est invulnérable.
+error_not_ready						{tool} n'est pas encore prêt.
+error_low_mana						Pas assez de mana pour utiliser {tool}
+error_no_proxy						Pas d'objet à proximité disponible pour {tool}
+error_not_unit_ability				Vous devez viser une unité avec cette aptitude.
+error_not_unit_item					Vous devez viser une unité avec cet objet.
+error_not_unit						Vous devez viser une unité.
+error_invalid_target				Ce n'est pas une cible valide.
+
+chat_all							^269[TOUS] {color}{player} ^r({hero}): ^*{message}
+chat_roll							^190[ROLL]^* {color}{message}
+chat_emote							^839[EMOTE]^* {color}{message}
+chat_team							^y[EQUIPE] {color}{player} ^r({hero}): ^*{message}
+chat_all_lobby						^269[TOUS] {color}{player}: ^*{message}
+chat_roll_lobby						^190[ROLL]^* {color}{message}
+chat_emote_lobby					^839[EMOTE]^* {color}{message}
+chat_team_lobby						^y[EQUIPE] {color}{player}: ^*{message}
+server_message						^188[SERVEUR] ^yMessage du serveur : {message}
+
+error_item_unavailable				{item} n'est pas disponible à cet endroit.
+error_low_gold_item					Impossible d'acheter {item}
+error_low_gold_recipe				Impossible d'acheter {item}
+error_low_gold_buy_all				Vous ne pouvez pas vous payer tout les composants pour (item}.
+
+str_bonus							{value} Force
+str_bonus_per_level					{value_per_level} Force par niveau
+str_bonus_per_charge				{value_per_charge} Force par charge
+agi_bonus							{value} Agilité
+agi_bonus_per_level					{value_per_level} Agilité par niveau
+agi_bonus_per_charge				{value_per_charge} Agilité par charge
+agi_bonus_percharge					{value_per_charge} Agilité par charge
+int_bonus							{value} Intelligence
+int_bonus_per_level					{value_per_level} Intelligence par niveau
+int_bonus_per_charge				{value_per_charge} Intelligence par charge
+max_health_bonus					{value} Points de vie max
+max_health_mult_bonus				{value}% Points de vie max
+max_mana_bonus						{value} Mana max
+max_mana_mult_bonus					{value}% Mana max
+base_damage_mult_bonus				{value}% Dommages de base
+damage_mult_bonus					{value}% Dommage d'attaque
+damage_bonus						{value} Dommages
+damage_bonus_per_charge				{value} Dommage par charge
+move_speed_bonus					{value} Vitesse de déplacement
+move_speed_mult_bonus				{value}% Vitesse de déplacement
+move_speed_mult_bonus_per_charge	{value}% Vitesse de déplacement par charge
+slow_resistance_bonus				{value}% Résistance au Ralentissement
+move_speed_slow_bonus				{value}% Ralent. déplac. 
+move_speed_slow_bonus_per_charge	{value}% Ralent. déplac. par charge
+attack_speed_bonus					{value} Vitesse d'attaque
+attack_speed_bonus_per_charge		{value} Vitesse d'attaque par charge
+attack_speed_mult_bonus				{value}% Vitesse d'Attaque
+attack_speed_slow_bonus				{value}% Ralentissement d'Attaque
+cast_speed_bonus					{value} Vitesse des sorts
+cooldown_speed_bonus				{value} Temps de recharge
+reduced_cooldowns_bonus				{value}% Recharge réduite
+increased_cooldowns_bonus			{value}% Recharge augmentée
+armor_bonus							{value} Armure
+armor_bonus_per_charge				{value} Armure par charge
+magic_armor_bonus					{value} Armure magique
+magic_armor_bonus_per_charge		{value} Armure magique par charge
+health_regen_percent_bonus			{value}% Points de vie par seconde
+health_regen_bonus					{value} Régénération des points de vie
+health_regen_mult_bonus				{value}% Régénération des points de vie
+mana_regen_percent_bonus			{value}% Mana par seconde
+mana_regen_bonus					{value} Régénération de la Mana
+mana_regen_mult_bonus				{value}% Régénération de la Mana
+deflection_bonus					{value1}% de chances de bloquer {value2} dommages d'attaque
+evasion_bonus						{value}% Evasion
+ranged_evasion_bonus				{value}% Evasion d'attaque à distance
+melee_evasion_bonus					{value}% Evasion d'attaque à proximité
+miss_chance_bonus					{value}% de chances d'échouer
+lifesteal_bonus						{value}% vol vital
+critical_bonus						{value1}% de chances pour {value2}x attaque critique
+incoming_damage_mult_bonus			{value}% Dommages subis
+debuff_duration_mult_bonus			{value}% Durées des debuff
+incoming_heal_mult_bonus			{value}% soins reçus
+stunned_bonus						Assommé
+silenced_bonus						Sorts désactivés
+perplexed_bonus						Perplexe
+disarmed_bonus						Désarmé
+immobilized_bonus					Immobilisé
+restrained_bonus					Restreint
+revealed_bonus						Révélé
+reveal_bonus						{value} portée de révélation
+stealth_bonus						Invisible avec {value} secondes de temps de disparition
+unitwalking_bonus					Traverse les unités
+treewalking_bonus					Traverse les arbres
+cliffwalking_bonus					Traverse les falaises
+buildingwalking_bonus				Traverse les bâtiments
+immunity_bonus						Immunité {type}
+invulnerable_bonus					Invulnérable
+dispel_on_damage_bonus				Disperser si dommages
+dispel_on_action_bonus				Disperser si action
+truestrike_bonus					Frappe Précise
+health_regen_reduction_bonus		{value}% Régénération de vie réduite
+mana_regen_reduction_bonus			{value}% Régénération de mana réduite
+sighted_bonus						Vue perçante
+
+script_on_attack					Si attaque
+script_on_attack_impact				Si impact d'attaque
+script_on_attacked_pre_impact		Si attaqué
+script_on_attacked_post_impact		Si attaqué
+script_on_activate_pre_impact		Si activation
+script_on_activate_impact			Si activation
+script_on_ability_impact			Si activation aptitude
+script_on_damage					Si dommages infligés
+script_on_damaged					Si touché
+script_on_kill						Si tué
+script_on_killed					Si tué
+
+action_toggle						Basculer
+action_no_target					Pas de cible
+action_target_position				Ciblez la position
+action_target_unit					Ciblez l'unité
+action_target_global				Global
+action_target_self					Auto.
+action_facing						Face à face
+action_self_position				Position auto
+action_attack						Attaque
+action_attack_toggle				Bouton d'attaque
+action_target_dual					Ciblez pos/unité
+action_target_dual_position			Ciblez pos/unité
+action_target_vector				Ciblez vecteur
+
+ability_levelup_max					^gNiveau maximum^*
+ability_levelup_available			^yCliquez pour développer cette comp.^*
+ability_levelup_unavailable			^rConditions non remplies^*
+
+aura_range_global					Global
+
+item_recipe							{name} Recette
+
+activate_ability					Cliquez pour activer cette aptitude.
+activate_item						Cliquez pour activer cet objet.
+activate_item_no_share				^rDésactivé - appartient à {name}
+activate_item_borrowed				^gEmprunté à 
+activate_passive					^gCette aptitude est passive.
+
+attribute_strength					Strength
+attribute_agility					Agility
+attribute_intelligence				Intelligence
+
+attribute_damage_bonus				{value} dommages
+attribute_health_bonus				{value} points de vie max.
+attribute_health_regen_bonus		{value} régénération des points de vie
+attribute_attack_speed_bonus		{value} vitesse d'attaque
+attribute_armor_bonus				{value} armure
+attribute_mana_bonus				{value} Mana max.
+attribute_mana_regen_bonus			{value} régénération de Mana
+
+auto_assemble						Auto
+
+shop_action_view_recipe				^yCliquez pour voir cette recette.
+shop_action_view_item				^yCliquez pour voir cet objet.
+shop_action_auto_assemble			^yCet objet s'assemble automatiquement.
+shop_action_already_purchased		^gCet objet est déjà acheté.
+shop_action_cannot_shop				^rCette unité ne peut pas porter des objets.
+shop_action_cannot_afford_item		^rImpossible d'acheter cet objet
+shop_action_cannot_afford_recipe	^rCImpossible d'acheter cette recette
+shop_action_purchase_item			^yCliquez pour acheter cet objet.
+shop_action_purchase_item_stash		^yCliquez pour ^195STOCKER^* cet objet.
+shop_action_purchase_recipe			^yCliquez pour acheter cette recette.
+shop_action_unavailable				^rNon disponible à cet endroit
+
+vote_called						{color}{player}^* a demandé un vote: {vote}
+vote_called_concede				{color}{player}^* a demandé un vote pour que {team_color}{team}^* abandonne la partie.
+vote_called_remake				{color}{player}^* a demandé un vote pour refaire la partie.
+vote_called_kick				{color}{player}^* a demandé un vote pour éjecter {target_color}{target}^*.
+vote_called_pause				{color}{player}^* a demandé un vote pour mettre le jeu en pause.
+vote_passed						Vote réussi.
+vote_failed						Vote échoué.
+
+team_concede					{color}{team}^* ont abandonné la partie, les statistiques ne sont plus enregistrées et vous pouvez quitter la partie.
+game_abandoned					Vos alliés vous ont abandonné, vous pouvez rester, mais les statistiques ne sont plus enregistrées.
+afk_warning						^rVous êtes sur le point d'être éjecté à cause de votre inactivé. Sortez de la base et allez vous battre !
+afk_message						Vous êtes maintenant considéré comme AFK et vous pouvez être éjecté.
+
+lobby_connect					{player} s'est connecté.
+lobby_kick						{color}{player} a été éjecté par l'hôte.
+lobby_disconnect				{player} s'est déconnecté.
+lobby_balance					L'hôte a équilibré les équipes.
+lobby_force_swap				L'hôte a échangé {slot1_color}{slot1}^* et {slot2_color}{slot2}^*.
+lobby_countdown_cancel			Le décompte du match a été annulé.
+lobby_lock						L'hôte a bloqué l'emplacement {slot_color}{slot}^*.
+lobby_unlock					L'hôte a débloqué l'emplacement {slot_color}{slot}^* slot.
+lobby_assign_host				{slot_color}{player}^* a été assigné en tant que nouvel hôte.
+lobby_assign_spectator			L'hôte a assigné {slot_color}{player}^* en tant que spectateur.
+lobby_assign_referee			L'hôte a assigné {slot_color}{player}^* en tant qu'arbitre.
+lobby_assign_first_ban				L'hôte a assigné {team_color}{team}^* en tant que première équipe à bannir.
+
+game_info_practice				Entraînement
+nosolo							Vous devez avoir un adversaire pour commencer la partie.  Créez une partie d'^yentraînement^* si vous voulez jouer seul.
+warn_nomods					{slot_color}{player}^* utilise des fichiers Mods est ne sera autorisé qu'à être spectateur de la partie.
+nomods						La partie ne peut pas démarrer. {slot_color}{player}^* utilise des fichiers Mods et ne peut qu'être spectateur ou doit désactiver TOUS ses Mods (interface, texture, etc) avant de pouvoir jouer cette partie de tournoi.
+game_unpause					{name} a enlevé la pause, le jeu reprendra dans 5 secondes.
+player_ping					{slot_color}{player}^* ping: {ping}ms
+player_ping_no_players				Il n'y a pas de joueurs, vous ne pouvez pas tester le ping.
+
+
+
+// END

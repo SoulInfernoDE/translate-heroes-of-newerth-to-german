@@ -1,0 +1,298 @@
+﻿deny						{killer_color}{killer}^* 對 {victim_color}{victim}^* 補刀！
+kill0						{killer_color}{killer}^* 痛宰 {victim_color}{victim}^*！獲得 ^y{gold}^* 枚金幣！！
+kill1						{killer_color}{killer}^* 痛宰 {victim_color}{victim}^*！獲得 ^y{gold}^* 枚金幣！！ 援助：{assist0_color}{assist0}
+kill2						{killer_color}{killer}^* 痛宰 {victim_color}{victim}^*！獲得 ^y{gold}^* 枚金幣！！ 援助：{assist0_color}{assist0}^*, {assist1_color}{assist1}
+kill3						{killer_color}{killer}^* 痛宰 {victim_color}{victim}^*！獲得 ^y{gold}^* 枚金幣！！ 援助：{assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
+kill4						{killer_color}{killer}^* 痛宰 {victim_color}{victim}^*！獲得 ^y{gold}^* 枚金幣！！ 援助：{assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
+first_kill					{killer_color}{killer}^* ^r嗜血如命^*！ (^y+{gold}^* 枚金幣！)
+killstreak0					{killer_color}{killer}^* 是個^082連環殺手^*！
+killstreak1					{killer_color}{killer}^* 是個^204終極戰士^*！
+killstreak2					{killer_color}{killer}^* 是個^808傳奇人物^*！
+killstreak3					{killer_color}{killer}^* 正在進行^840突擊^*！
+killstreak4					{killer_color}{killer}^* 是個^440殘暴者^*！！
+killstreak5					{killer_color}{killer}^* ^848佔上風^*！！
+killstreak6					{killer_color}{killer}^* 是個^800紐沃斯鬥士^*！！！
+killstreak7					{killer_color}{killer}^* 正在進行^840大屠殺^*！！快去幹掉他！
+
+streakend0					{killer} 已終結 {victim} 的^082連環殺手^*一連串的殺戮，獲得 ^y{gold}^* 枚金幣！！
+streakend1					{killer} 已終結 {victim} 的^204終極戰士^*一連串的殺戮，獲得 ^y{gold}^* 枚金幣！！
+streakend2					{killer} 已終結 {victim} 的^808傳奇人物^*一連串的殺戮，獲得 ^y{gold}^* 枚金幣！！
+streakend3					{killer} 已終結 {victim} 的^840突擊^*一連串的殺戮，獲得 ^y{gold}^* 枚金幣！！
+streakend4					{killer} 已終結 {victim} 的^440殘暴者^*一連串的殺戮，獲得 ^y{gold}^* 枚金幣！！
+streakend5					{killer} 已終結 {victim} 的^848佔上風^*一連串的殺戮，獲得 ^y{gold}^* 枚金幣！！
+streakend6					{killer} 已終結 {victim} 的^800紐沃斯鬥士^*一連串的殺戮，獲得 ^y{gold}^* 枚金幣！！
+streakend7					{killer} 已終結 {victim} 的^840大屠殺^*一連串的殺戮，獲得 ^y{gold}^* 枚金幣！！
+
+multikill0					{killer} 完成^008雙殺^*！
+multikill1					{killer} ^084連中三元^*！！！
+multikill2					{killer} 一次^084擊殺四人^*！！！
+multikill3					{killer} 已^084殲滅^*對手！！！
+
+killtower					{killer} 已摧毀一座塔。{reward} 獲得 ^y{gold}^* 枚紅利金幣！
+denytower					{player} 已^444補刀^*一座塔！
+killmeleerax					{victim} 的^724近戰^*兵營已被摧毀，{killer} 的^724近戰^*單位在該產生通道將變得更強。
+Killrangedrax				{victim} 的^266遠距^*兵營已被摧毀，{killer} 的^266遠距^*單位在該產生通道將變得更強。
+killcourier					{victim} 的信使已被 {killer} 殺死！
+boughtwalkingcourier			{player_color}{player}^* 已買下步行信使。
+boughtflyingcourier			{player_color}{player}^* 已買下飛行信使。
+
+teamkillstreak0				有人連殺了 5 個英雄！！
+teamkillstreak1				^r聯盟軍團^*^r連殺了 5 個英雄！！！^*
+teamkillstreak2				^170地獄族^*^170連殺了 5 個英雄！！！^*
+
+teamwipe					{team} 已被完全消滅！！！
+
+teamkill					{killer} 痛宰 {victim}！！分得 ^y{gold}^* 枚金幣。
+
+neutralkill					{victim} 已被中立的怪物部隊殺死。
+kongorkill					{victim} 已被金剛王殺死。
+
+suicide					{victim} 已自殺！
+
+kill						{victim} 已死。
+
+teamkilltower				The {killer} 已摧毀一座塔。{killer} 獲得 ^y{gold}^* 枚紅利金幣！
+teamdenytower				{denier} 已^444補刀^*一座塔！
+
+killkongor					{killer} 已殺死金剛王。{reward} 獲得 ^y{gold}^* 枚紅利金幣！
+teamkillkongor				{killer} 已殺死金剛王。{killer} 獲得 ^y{gold}^* 枚紅利金幣！
+
+share0					{player} 不再與您共享該單位的控制權。
+share1					{player} 現在正與您共享該單位的控制權。
+share2					{player} 現在正與您共享該信使的控制權。
+share3					{player} 現在正與您共享該單位的控制權。
+
+powerup					{player} 已獲得 ^r{powerup}^*
+
+creepupgrade				怪物部隊已變得更強大了...
+megacreeps					{killer} 已摧毀 {victim} 所有單位的生產建築物。{killer} 現在擁有超級怪物部隊。
+
+smackdown					{victim} 已被 {killer} 擊潰！
+humiliation					{killer} 使 {victim} 蒙羞！
+nemesis					{killer} 徹底打敗 {victim}！
+retribution					{killer} 遭到 {victim} 報復！
+
+client_connected				{player_color}{player}^* 已連線。
+client_reconnected				{player_color}{player}^* 已重新連線。(中斷連線剩餘時間：{time})
+client_disconnected			{player_color}{player}^* 中斷連線。
+client_timedout				{player_color}{player}^* 已逾時。
+client_terminated				{player_color}{player}^* 已被終止。他們的英雄已被移除，財產將分配給其隊伍。
+
+hero_pick					{player_color}{player}^* 已選擇 ^885{hero_name}^*。
+hero_random				{player_color}{player}^* 已隨機選擇 ^885{hero_name}^*。
+hero_repick					{player_color}{player}^* 正在進行重新選擇。^885{hero_name}^* 現在可用。
+hero_swap					{player_color}{player}^* 與 {player2_color}{player2}^* 交換英雄。
+hero_swap_request			{player_color}{player}^* 已提議與您交換英雄。
+hero_ban					{player_color}{player}^* 已^r禁用^* ^885{hero_name}^*。
+hero_ban_random				命運已^r禁用^* ^885{hero_name}^*。
+
+game_phase_banning			開始^r禁用英雄階段^*。
+game_phase_picking			開始^r選擇英雄階段^*。
+game_turn_ban				現在輪到 {player_color}{player}^* ^r禁用^*英雄。
+game_turn_picking			現在輪到 {player_color}{player}^* ^r選擇^*英雄。
+
+player_ready				{player_color}{player}^* 已^g就緒^*。
+player_unready				{player_color}{player}^* ^r尚未就緒^*。
+
+player_boughtback			{player_color}{player}^* 已買回英雄，並在生命之泉獲得重生。
+
+error_target_invulnerable			目標無人能敵。
+error_not_ready				{tool} 尚未就緒。
+error_low_mana				神力不足，無法使用 {tool}。
+error_no_proxy				{tool} 無可用的替代物品。
+error_not_unit_ability			必須以具有此能力的單位為目標。
+error_not_unit_item			必須以具有此物品的單位為目標。
+error_not_unit				必須以單位為目標。
+error_invalid_target			這不是有效目標。
+
+chat_all					^269[ALL] {color}{player} ({hero})：^*{message}
+chat_roll					^190[ROLL]^* {color}{message}
+chat_emote					^839[EMOTE]^* {color}{message}
+chat_team					^y[TEAM] {color}{player} ({hero})：^*{message}
+chat_all_lobby				^269[ALL] {color}{player}：^*{message}
+chat_roll_lobby				^190[ROLL]^* {color}{message}
+chat_emote_lobby				^839[EMOTE]^* {color}{message}
+chat_team_lobby				^y[TEAM] {color}{player}：^*{message}
+server_message				^188[SERVER] ^y伺服器訊息：{message}
+
+error_item_unavailable			此處無法取得 {item}。
+error_low_gold_item			您買不起 {item}。
+error_low_gold_recipe			您買不起 {item}。
+error_low_gold_buy_all			您買不起 {item} 的所有組件。
+
+str_bonus					{value} 力量
+str_bonus_per_level			{value_per_level} 每個等級的力量
+str_bonus_per_charge			{value_per_charge} 每次攻擊的力量
+agi_bonus					{value} 敏捷度
+agi_bonus_per_level			{value_per_level} 每個等級的敏捷度
+agi_bonus_per_charge			{value_per_charge} 每次攻擊的敏捷度
+agi_bonus_percharge			{value_per_charge} 每次攻擊的敏捷度
+int_bonus					{value} 智力
+int_bonus_per_level			{value_per_level} 每個等級的智力
+int_bonus_per_charge			{value_per_charge} 每次攻擊的智力
+max_health_bonus			{value} 最佳生命值
+max_health_mult_bonus			{value}%% 最佳生命值
+max_mana_bonus				{value} 最大神力值
+max_mana_mult_bonus					{value}%% 最大神力值
+base_damage_mult_bonus				{value}%% 基本損害值
+damage_mult_bonus					{value}%% 攻擊損害值
+damage_bonus						{value} 損害值
+damage_bonus_per_charge				{value} 每次攻擊的損害值
+move_speed_bonus					{value} 移動速度
+move_speed_mult_bonus				{value}%% 移動速度
+move_speed_mult_bonus_per_charge		{value}%% 每次攻擊的移動速度
+slow_resistance_bonus					{value}%% 緩慢反抗值
+move_speed_slow_bonus				{value}%% 移動速度減緩值
+move_speed_slow_bonus_per_charge		{value}%% 每次攻擊的移動速度減緩值
+attack_speed_bonus					{value} 攻擊速度
+attack_speed_bonus_per_charge			{value} 每次攻擊的攻擊速度
+attack_speed_mult_bonus				{value}%% 攻擊速度
+attack_speed_slow_bonus				{value}%% 攻擊速度減緩值
+cast_speed_bonus						{value} 施法速度
+cooldown_speed_bonus					{value} 魔法回復速度
+reduced_cooldowns_bonus				{value}%% 降低魔法回復速度
+increased_cooldowns_bonus				{value}%% 增加魔法回復速度
+armor_bonus						{value} 防禦值
+armor_bonus_per_charge				{value} 每次攻擊的防禦值
+magic_armor_bonus					{value} 魔法防禦值
+magic_armor_bonus_per_charge			{value} 每次攻擊的魔法防禦值
+health_regen_percent_bonus				{value}%% 每秒生命值
+health_regen_bonus					{value} 生命回復值
+health_regen_mult_bonus				{value}%% 生命回復值
+mana_regen_percent_bonus				{value}%% 每秒神力值
+mana_regen_bonus					{value} 神力回復值
+mana_regen_mult_bonus				{value}%% 神力回復值
+deflection_bonus						{value1}%% 抵擋 {value2} 攻擊損害的機率
+evasion_bonus						{value}%% 閃避值
+ranged_evasion_bonus					{value}%% 遠距閃避值
+melee_evasion_bonus					{value}%% 近戰閃避值
+miss_chance_bonus					{value}%% 未命中率
+lifesteal_bonus						{value}%% 生命竊取值
+critical_bonus						{value1}%% {value2}x 致命一擊的機率
+incoming_damage_mult_bonus				{value}%% 損害承受力
+debuff_duration_mult_bonus				{value}%% 魔法降低持續時間
+heal_mult_bonus						{value}%% 收到的治癒值
+stunned_bonus						昏迷
+silenced_bonus						消音
+perplexed_bonus						迷惑
+disarmed_bonus						解除武裝
+immobilized_bonus					無法行動
+restrained_bonus						受到限制
+revealed_bonus						顯現
+reveal_bonus						{value} 顯現範圍
+stealth_bonus						遞減時間 {value} 秒的秘密行動
+unitwalking_bonus						單位移動力
+treewalking_bonus						無視障礙物的移動力
+cliffwalking_bonus						無視懸崖的移動力
+buildingwalking_bonus					無視建築物的移動力
+immunity_bonus						{type} 免疫力
+invulnerable_bonus					無人能敵
+dispel_on_damage_bonus				損害時驅散
+dispel_on_action_bonus					行動時驅散
+truestrike_bonus						先制攻擊
+health_regen_reduction_bonus				{value}%% 減少生命回復值
+mana_regen_reduction_bonus				{value}%% 減少神力回復值
+sighted_bonus						發現
+
+script_on_attack						攻擊中
+script_on_attack_impact					攻擊中的影響
+script_on_attacked_pre_impact				受到攻擊中
+script_on_attacked_post_impact			受到攻擊中
+script_on_activate_pre_impact				啟用中
+script_on_activate_impact				啟用中
+script_on_ability_impact					能力啟用中
+script_on_damage						造成損害中
+script_on_damaged					受到損害中
+script_on_kill						殺戮中
+script_on_killed						受到殺戮中
+
+action_toggle						切換
+action_no_target						無目標
+action_target_position					目標方位
+action_target_unit						目標單位
+action_target_global					全域
+action_target_self						自身
+action_facing						面向
+action_self_position					自身方位
+action_attack						攻擊
+action_attack_toggle					攻擊切換
+action_target_dual						雙重目標
+action_target_vector					目標向量
+
+ability_levelup_max					^g最高等級^*
+ability_levelup_available					^y按一下以升級此能力^*
+ability_levelup_unavailable				^r未達要求^*
+
+aura_range_global						全域
+
+item_recipe							{name} 處方
+
+activate_ability						按一下以啟用此能力
+activate_item						按一下以啟用此物品
+activate_item_no_share					^r已停用 - {name} 所擁有
+activate_item_borrowed					^g借用自 {name}
+activate_passive						^g此能力是被動的
+
+attribute_strength						力量
+attribute_agility						敏捷度
+attribute_intelligence					智力
+
+attribute_damage_bonus					{value} 損害值
+attribute_health_bonus					{value} 最佳生命值
+attribute_health_regen_bonus				{value} 生命回復值
+attribute_attack_speed_bonus				{value} 攻擊速度
+attribute_armor_bonus					{value} 防禦值
+attribute_mana_bonus					{value} 最大神力值
+attribute_mana_regen_bonus				{value} 神力回復值
+
+auto_assemble						自動
+
+shop_action_view_recipe				^y按一下以^195檢視^*此處方
+shop_action_view_item					^y按一下以^195檢視^*此物品
+shop_action_auto_assemble				^y此為自動裝配物品
+shop_action_already_purchased			^g已擁有此物品
+shop_action_cannot_shop				^r此單位無法攜帶物品
+shop_action_cannot_afford_item			^r買不起此物品
+shop_action_cannot_afford_recipe			^r買不起此處方
+shop_action_purchase_item				^y按一下以^195購買^*此物品
+shop_action_purchase_item_stash			^y按一下以^195貯藏^*此物品
+shop_action_purchase_recipe				^y按一下以^195購買^*此處方
+shop_action_unavailable					^r此處無法取得
+
+vote_called							{color}{player}^* 已發起投票：{vote}
+vote_called_concede					{color}{player}^* 已發起投票，使 {team_color}{team}^* 認輸。
+vote_called_remake					{color}{player}^* 已發起重新進行比賽的投票。
+vote_called_kick						{color}{player}^* 已發起踢出 {target_color}{target}^* 的投票。
+vote_called_pause						{color}{player}^* 已發起暫停遊戲的投票。
+vote_passed						投票通過。
+vote_failed							投票失敗。
+
+team_concede					{color}{team}^* 已認輸。這場比賽其餘的統計資料將不予記錄，每個人均可自由離開而不受罰。
+game_abandoned					您的隊友已放棄您。這場比賽將繼續，但您可自由離開而不受罰。
+afk_warning						因您閒置過久，恐有中斷連線之虞。快出來應戰吧！
+
+lobby_connect					{color}{player}^* 連線中。
+lobby_kick						{color}{player}^* 已被主機踢出。
+lobby_disconnect					{color}{player}^* 已中斷連線。
+lobby_balance					主持人已使參賽隊伍保持平衡。
+lobby_force_swap					主持人已交換了 {slot1_color}{slot1}^* 與 {slot2_color}{slot2}^*。
+lobby_countdown_cancel			已取消比賽倒數計時。
+lobby_lock						主持人已鎖定 {slot_color}{slot}^* 的位置。
+lobby_unlock					主持人已解除鎖定 {slot_color}{slot}^* 的位置。
+lobby_assign_host					{slot_color}{player}^* 已被指定為新主持人。
+lobby_assign_spectator				主持人已指定 {slot_color}{player}^* 為觀眾。
+lobby_assign_referee				主持人已指定 {slot_color}{player}^* 為裁判。
+lobby_assign_first_ban				主持人已指定 {team_color}{team}^* 隊先指定禁用的英雄。
+
+game_info_practice				練習
+
+nosolo						您必須找一位對手才能開始進行遊戲。如果您想一個人玩，請從^y練習^*開始遊戲。
+
+warn_nomods					{slot_color}{player}^* 正在使用修改檔案，僅可觀看遊戲。
+Nomods      						無法開始遊戲。  {slot_color}{player}^* 正在使用修改檔案，僅可觀看遊戲或停用所有模組 (介面、材質等)，才能在這場有賽場規則的遊戲中開打。
+
+game_unpause					{name} 已取消暫停比賽，比賽將會在 5 秒內繼續。
+
+
+
+// END

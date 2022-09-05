@@ -1,0 +1,2 @@
+﻿deny								{killer_color}{killer}^* 抢先杀死 {victim_color}{victim}^*!kill0								{killer_color}{killer}^* 杀死了 {victim_color}{victim}^*！ 赢得 ^y{gold}^* 金币！！਍ഀ
+kill1								{killer_color}{killer}^* 杀死了 {victim_color}{victim}^*！ 赢得 ^y{gold}^* 金币！！ 援助

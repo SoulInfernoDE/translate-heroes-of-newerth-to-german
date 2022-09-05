@@ -1,0 +1,335 @@
+﻿deny								{killer_color}{killer}^* ได้สังหาร {victim_color}{victim}^*!
+kill0								{killer_color}{killer}^* ได้สังหาร {victim_color}{victim}^*ได้รับรางวัล ^y{gold}^* gold!!
+kill1								{killer_color}{killer}^* ได้สังหาร {victim_color}{victim}^*ได้รับรางวัล ^y{gold}^* gold!! โดยมี : {assist0_color}{assist0} ให้การช่วยเหลือ
+kill2								{killer_color}{killer}^* ได้สังหาร {victim_color}{victim}^*ได้รับรางวัล ^y{gold}^* gold!! โดยมี : {assist0_color}{assist0}^*, {assist1_color}{assist1} ให้การช่วยเหลือ
+kill3								{killer_color}{killer}^* ได้สังหาร {victim_color}{victim}^*ได้รับรางวัล ^y{gold}^* gold!! โดยมี : {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2} ให้การช่วยเหลือ
+kill4								{killer_color}{killer}^* ได้สังหาร {victim_color}{victim}^*ได้รับรางวัล ^y{gold}^* gold!! โดยมี : {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3} ให้การช่วยเหลือ
+first_kill							{killer_color}{killer}^* ได้รับค่า^rเปิดซิง^*! (^y+{gold}^* gold!)
+first_kill_team						{killer_color}{killer}^* ได้รับค่า^rเปิดซิง^*! (^y+{gold}^* gold ได้ถูกแบ่งปัน)
+killstreak0							{killer_color}{killer}^* ได้รับฉายา ^082นักฆ่า^*!
+killstreak1							{killer_color}{killer}^* ได้รับฉายา ^204เจ้าแห่งนักฆ่า^*!
+killstreak2							{killer_color}{killer}^* ได้รับฉายา ^808นักฆ่าในตำนาน^*!
+killstreak3							{killer_color}{killer}^* ได้รับฉายา ^840เทพนักฆ่า^*!
+killstreak4							{killer_color}{killer}^* ได้รับฉายา ^440เทพอำมหิต^*!!
+killstreak5							{killer_color}{killer}^* ได้รับฉายา ^848เทวทูติแห่งนรก^*!!
+killstreak6							{killer_color}{killer}^* ได้รับฉายา ^800เจ้าแห่งเทวทูติ^*!!!
+killstreak7							{killer_color}{killer}^* ได้รับฉายา ^840ซาตานผู้นองเลือด^*! ใครก็ได้ ฆ่ามันที!
+killstreak8							{killer_color}{killer}^* ได้รับฉายา ^860เทพเจ้าผู้เป็นอมตะ^*!!
+
+streakend0							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^082นักฆ่า^* ได้รับรางวัล ^y{gold}^* gold!!
+streakend1							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^204เจ้าแห่งนักฆ่า^* ได้รับรางวัล ^y{gold}^* gold!!
+streakend2							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^808นักฆ่าในตำนาน^* ได้รับรางวัล ^y{gold}^* gold!!
+streakend3							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^840เทพนักฆ่า^* ได้รับรางวัล ^y{gold}^* gold!!
+streakend4							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^440เทพอำมหิต^* ได้รับรางวัล ^y{gold}^* gold!!
+streakend5							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^848เทวทูติแห่งนรก^* ได้รับรางวัล ^y{gold}^* gold!!
+streakend6							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^800เจ้าแห่งเทวทูติ^* ได้รับรางวัล ^y{gold}^* gold!!
+streakend7							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^840ซาตานผู้นองเลือด^* ได้รับรางวัล ^y{gold}^* gold!!
+streakend8							{killer} ได้ปิดตำนาน {victim} ผู้เป็น ^860เทพเจ้าผู้เป็นอมตะ^*  ได้รับรางวัล ^y{gold}^* gold!!
+
+multikill0							{killer} ได้กำจัดศัตรู ^008ต่อเนื่อง^*!
+multikill1							{killer} ได้เปิดฉาก ^084ฆ่าไม่ยั้ง^*!!!
+multikill2							{killer} ได้เปิดฉาก ^084ละเลงเลือด^*!!!
+multikill3							{killer} ได้ ^084กวาดล้าง^* เหล่าศัตรูทั้งหมด!!!
+
+killtower							{killer} ได้ทำลายหอคอย. {reward} ได้รับ ^y{gold}^* โบนัส gold!
+denytower							{player} ได้^444ลบล้าง^* หอคอยฝั่งตนเอง!
+killmeleerax						ฝั่ง {victim} ได้ถูกทำลายค่ายทหาร^724ประชิดตัว^*, ฝั่ง {killer} ค่ายทหาร^724ประชิดตัว^* ในช่องทางนั้น ได้รับสมุนที่แข็งแกร่งขึ้น .
+killrangedrax						ฝั่ง {victim} ได้ถูกทำลายค่ายทหาร^266ยิงสนับสนุน^*,ฝั่ง the {killer} ค่ายทหาร^266ยิงสนับสนุน^* ในช่องทางนั้น ได้รับสมุนที่แข็งแกร่งขึ้น.
+killcourier							ตัวขนส่งของ {victim}ได้ถูกจำกัดโดย {killer}!
+boughtwalkingcourier				{player_color}{player}^* ได้ทำการซื้อตัวขนส่งทางพื้นดิน.
+boughtflyingcourier					{player_color}{player}^* ได้ทำการซื้อตัวขนส่งทางอากาศ
+ping_target							{player_color}{player_name} ({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* ในขณะนี้!
+
+teamkillstreak0						ใครซักคน กำลังตกอยู่ในอันตราย!!!
+teamkillstreak1						^rThe Legion^* กำลังตกอยู่ใน ^rอันตราย!!!^*
+teamkillstreak2						^170The Hellbourne^* are ^170อันตราย!!!^*
+
+teamwipe							{team} ได้ทำการลบล้างแล้ว!!! 
+
+teamkill							{killer} ได้สังหาร {victim} และช่วงชิง ^y{gold}^* gold ไป.
+
+neutralkill							{victim} ได้ถูกกำจัดโดย สัตว์ป่า.
+kongorkill							{victim} ได้ถูกกำจัดโดย Kongor.
+
+suicide								{victim} ได้ทำการฆ่าตัวตาย!
+
+kill								{victim} ได้ตายลง.
+
+teamkilltower						{killer} ได้ทำลายหอคอย. The {killer} ได้รับ ^y{gold}^*gold! เป็นรางวัล
+teamdenytower						{denier} ได้ทำการ^444ลบล้าง * หอคอย!
+
+killkongor							{killer} ได้สังหาร Kongor. {reward} ได้รับ ^y{gold}^*gold! เป็นรางวัล
+teamkillkongor						{killer} ได้สังหาร Kongor. {killer} ได้รับ ^y{gold}^*gold! เป็นรางวัล
+
+share0								{player} ได้ยุติการร่วม ควบคุุมเหล่าตัวละครกับคุณ.
+share1								{player} ได้แบ่งปันสิทธิ ควบคุมเหล่าตัวละครกับคุณ.
+share2								{player} ได้แบ่งปันสิทธิ ควบคุมตัวขนส่งของกับคุณ.
+share3								{player} ได้แบ่งปันสิทธิ ควบคุมเหล่าตัวละครกับคุณ.
+
+powerup								{player} ได้เลือกรับ ^r{powerup}^*
+
+creepupgrade						เหล่าลูกสมุนได้เติบโตแข็งแกร่งยิ่งขึ้น...
+megacreeps							 {killer} ได้ทำลายสิ่งก่อสร้างหลักของ {victim} ทั้งหมด. ส่งผลให้ {killer} ได้รับลูกสมุนขั้นสุดยอด .
+
+smackdown							{victim} ได้ถูกโค่นลงโดย {killer}!
+humiliation							{killer} ได้สร้างความอับอายให้แก่ {victim}!
+rival								{killer} ได้ทำการ ^rรวบหาง^* {victim}!
+payback								{killer} ทำการ^rล้างแค้น* ต่อ{victim}!
+
+client_connected					{player_color}{player}^* ได้ทำการเชื่อมต่อเข้ามา.
+client_reconnected					{player_color}{player}^* ได้ทำการเชื่อมต่อเข้ามาอีกครั้ง . (ช่วงเวลาคงเหลือก่อนถูกตัดออก : {time})
+client_disconnected					{player_color}{player}^* ได้ถูกตัดการเชื่อมต่อ.
+client_timedout						{player_color}{player}^* เวลาได้หมดลง.
+client_terminated					{player_color}{player}^* ได้ถูกยกเลิกและนำออกจากเกม.ทรัพย์สินของเขาจะถูกแบ่งปันสู่เพื่อนร่วมทีม
+
+hero_pick							{player_color}{player}^* ได้เลือกตัวละคร ^885{hero_name}^*.
+hero_pick_blind						{player_color}{player}^* ได้ทำการเลือกตัวละครแล้ว.
+hero_random							{player_color}{player}^* ได้ทำการสุ่มตัวละคร ^885{hero_name}^*.
+hero_random_blind					{player_color}{player}^* ได้ทำการสุ่มตัวละครแล้ว.
+hero_repick							{player_color}{player}^* ได้ทำการเปลี่ยนตัวละคร. ตัวละคร ^885{hero_name}^* สามารถเลือกใช้ได้แล้ว.
+hero_repick_blind					{player_color}{player}^* ได้ทำการเปลี่ยนตัวละคร.
+hero_swap							{player_color}{player}^* ได้ทำการสลับตัวละครกับ {player2_color}{player2}^*.
+hero_swap_request					{player_color}{player}^* ได้ยื่นข้อเสนอสลับตัวละครกับคุณ.
+hero_ban							{player_color}{player}^* ได้กำหนด ^rห้ามใช้^* ^885{hero_name}^*.
+hero_ban_random		ข				โชคชตาได้กำหนดให้ ^rห้ามใช้^* ^885{hero_name}^* ในเกมครั้งนี้.
+
+game_phase_banning					เข้าสู่ช่วง ^rกำหนดสิทธิห้ามใช้^*.
+game_phase_picking					เข้าสู่ช่วง ^rเลือกตัวละคร^*.
+game_turn_ban						มันได้ถูก {player_color}{player}^*กำหนดให้ ^rห้ามใช้^*.
+game_turn_picking					มันได้ถูก {player_color}{player}^*กำหนดให้ ^rเลือกใช้^*.
+
+player_ready						{player_color}{player}^* ได้ ^gเข้าสู่สถานะพร้อม^*.
+player_unready						{player_color}{player}^* ได้^rยกเลิกสถานะพร้อม^*.
+
+player_boughtback					{player_color}{player}^* ซื้อเกิดใหม่และเกิดที่บ่อน้ำแล้ว
+player_boughtback2					{player_color}{player}^* ซื้อเกิดใหม่และเกิดที่บ่อน้ำแล้ว{buybacks_used}/{buybacks_remaining} ได้ซื้อเกิดใหม่แล้ว.
+
+error_all_buybacks_used				คุณไม่เหลือการซื้อเกิดใหม่แล้ว
+
+error_target_invulnerable			ไม่สามารถใช้กับเป้าหมายได้.
+error_not_ready						{tool} ยังไม่พร้อมใช้งาน.
+error_low_mana						Mana ไม่เพียงพอต่อ {tool}.
+error_no_proxy						ไม่มี Proxy ว่างสำหรับ {tool}.
+error_not_unit_ability				ต้องทำการเลือกเป้าหมายสำหรับ Ability นี้.
+error_not_unit_item					ต้องทำการเลือกเป้าหมายสำหรับ item นี้.
+error_not_unit						ต้องทำการเลือกเป้าหมาย.
+error_invalid_target				เป้าหมายไม่ถูกต้อง
+
+chat_all							^269[ทั้งหมด] {color}{player} ({hero}): ^*{message}
+chat_roll							^190[ทอย]^* {color}{message}
+chat_emote							^839[อารมณ์]^* {color}{message}
+chat_team							^y[ทีม] {color}{player} ({hero}): ^*{message}
+chat_all_lobby						^269[ทั้งหมด] {color}{player}: ^*{message}
+chat_roll_lobby						^190[ทอย]^* {color}{message}
+chat_emote_lobby					^839[อารมณ์]^* {color}{message}
+chat_team_lobby						^y[ทีม] {color}{player}: ^*{message}
+server_message						^188[เซิร์ฟเวอร์] ^yข้อความจากเซิร์ฟเวอร์: {message}
+
+error_item_unavailable				{item} พื้นที่ไม่เพียงพอ.
+error_low_gold_item					Gold ของคุณไม่พอซื้อ {item}.
+error_low_gold_recipe				Gold ของคุณไม่พอซื้อ {item}.
+error_low_gold_buy_all				Gold ของคุณไม่เพียงพอ ที่จะสั่งซื้อสินค้าทั้งหมดได้ {item}.
+
+str_bonus							{value} Strength
+str_bonus_per_level					{value_per_level} Strength ต่อเลเวล
+str_bonus_per_charge				{value_per_charge} Strength ต่อระดับ
+agi_bonus							{value} Agility
+agi_bonus_per_level					{value_per_level} Agility ต่อเลเวล
+agi_bonus_per_charge				{value_per_charge} Agility  ต่อระดับ
+agi_bonus_percharge					{value_per_charge} Agility  ต่อระดับ
+int_bonus							{value} Intelligence
+int_bonus_per_level					{value_per_level} Intelligence ต่อ เลเวล
+int_bonus_per_charge				{value_per_charge} Intelligence   ต่อระดับ
+int_bonus_percharge				{value_per_charge} Intelligence   ต่อระดับ
+max_health_bonus					{value} Max Health
+max_health_mult_bonus				{value}% Max Health
+max_mana_bonus						{value} Max Mana
+max_mana_mult_bonus					{value}% Max Mana
+base_damage_mult_bonus				{value}% Base Damage
+damage_mult_bonus					{value}% Attack Damage
+damage_bonus						{value} Damage
+damage_bonus_per_charge				{value} Damage ต่อระดับ
+move_speed_bonus					ความไวการเคลื่อนที่ {value}
+move_speed_mult_bonus				 ความไวการเคลื่อนที่ {value}%
+move_speed_mult_bonus_per_charge	ความไวการเคลื่อนที่ {value}% ต่อระดับ
+slow_resistance_bonus				ทนต่อสถานะช้า {value}%
+move_speed_slow_bonus				เคลื่อนไหวช้าชง {value}% 
+move_speed_slow_bonus_per_charge	เคลื่อนไหวช้าลง {value}% ต่อระดับ
+attack_speed_bonus					โจมตีเร็วขึ้น {value}
+attack_speed_bonus_per_charge		โจมตีเร็วขึ้น {value} ต่อระดับ
+attack_speed_mult_bonus				โจมตีเร็วขึ้น {value}%
+attack_speed_slow_bonus				โจมตีช้าลง {value}%
+cast_speed_bonus					ระยะเวลาร่าย {value}
+cooldown_speed_bonus				ระยะเวลาการรอคอย {value}
+reduced_cooldowns_bonus				ลดเวลารอคอย {value}%
+increased_cooldowns_bonus			เพิ่มเวลารอคอย {value}%
+armor_bonus							{value} Armor
+armor_bonus_per_charge				{value} Armor ต่อระดับ
+magic_armor_bonus					{value} Magic Armor
+magic_armor_bonus_per_charge		{value} Magic Armor ต่อระดับ
+health_regen_percent_bonus			ฟื้นฟู Health {value}% ต่อวินาที
+health_regen_bonus					ฟื้นฟู Health {value}
+health_regen_mult_bonus				ฟื้นฟู Health {value}%
+mana_regen_percent_bonus			ฟื้นฟู Mana {value}% ต่อวินาที
+mana_regen_bonus					ฟื้นฟู Mana {value}
+mana_regen_mult_bonus				พื้นฟู Mana {value}%
+deflection_bonus					มีโอกาส {value1}% ป้องกันความเสียหายจากการโจมตี {value2} หน่วย
+evasion_bonus						หลบหลีก {value}%
+ranged_evasion_bonus				หลบหลีกการโจมตีระยะไกล {value}%
+melee_evasion_bonus					หลบหลีกการโจมตีระยะใกล้ {value}%
+miss_chance_bonus					มีโอกาสพลาด {value}%
+lifesteal_bonus						ดูดกลืนพลังชีวิต {value}%
+critical_bonus						มีโอกาส {value1}% ที่จะ Critical Strike ความเสียหาย {value2}เท่า
+incoming_damage_mult_bonus			ได้รับความเสียหาย {value}%
+debuff_duration_mult_bonus			ผลสถานะด้านลบ {value}%
+incoming_heal_mult_bonus			{value}% Healing received
+stunned_bonus						สถานะมึน
+stunned_immunity_bonus				ทนต่อสถานะมึน
+silenced_bonus						สถานะไบ้
+silenced_immunity_bonus				ทนต่อสถานะไบ้
+perplexed_bonus						สถานะสับสน
+perplexed_immunity_bonus			ทนต่อสถานะสับสน
+disarmed_bonus						สถานะปลดอวุธ 
+disarmed_immunity_bonus				ทนต่อสถานะสถานะปลดอวุธ
+immobilized_bonus					สถานะตรึง
+immobilized_immunity_bonus			ทนต่อสถานะตรึง
+restrained_bonus					สถานะผูกมัด
+restrained_immunity_bonus			ทนต่อสถานะผูกมัด
+revealed_bonus						เผยตัวตน
+reveal_bonus						ระยะเผยตัวตน {value} 
+stealth_bonus						เวลาช่วงชิง คงเหลือ {value} วินาที
+unitwalking_bonus					Unitwalking
+treewalking_bonus					Treewalking
+cliffwalking_bonus					Cliffwalking
+buildingwalking_bonus				Buildingwalking
+immunity_bonus						ทนต่อ{type}
+invulnerable_bonus					คงกระพัน
+dispel_on_damage_bonus				ลดความเสียหาย
+dispel_on_action_bonus				ลดผลลัพธ์
+truestrike_bonus					True Strike
+health_regen_reduction_bonus		การฟื้นฟู Health ลดลง {value}%
+mana_regen_reduction_bonus			การฟื้นฟู Mana ลดลง {value}%
+sighted_bonus						การมองเห็น
+
+script_on_attack					On Attack
+script_on_attack_impact				On Attack Impact
+script_on_attacked_pre_impact		On Attacked
+script_on_attacked_post_impact		On Attacked
+script_on_activate_pre_impact		On Activation
+script_on_activate_impact			On Activation
+script_on_ability_impact			On Ability Activation
+script_on_damage					On Deal Damage
+script_on_damaged					On Damaged
+script_on_kill						On Kill
+script_on_killed					On Killed
+
+action_toggle						Toggle
+action_no_target					No Target
+action_target_position				Target Position
+action_target_unit					Target Unit
+action_target_global				Global
+action_target_self					Self
+action_facing						Facing
+action_self_position				Self Position
+action_attack						Attack
+action_attack_toggle				Attack Toggle
+action_target_dual					Target Dual
+action_target_dual_position			Target Dual
+action_target_vector				Target Vector
+
+ability_levelup_max					^gMaximum level^*
+ability_levelup_available			^yกดเพิ่ม ระดับความสามารถนี้^*
+ability_levelup_unavailable			^rRequirements not met^*
+
+aura_range_global					ทั้งหมด
+
+item_recipe							รายการผสม {name} 
+
+activate_ability					กดเพื่อ เรียกใช้ความสามารถนี้
+activate_item						กดเพื่อเรียกใช้สิ่งของนี้
+activate_item_no_share				^rไม่มีผล - {name} เป็นเจ้าของ
+activate_item_no_share_ownerless	^rไม่มีผล
+activate_item_borrowed				^gได้ยืมมาจาก {name}
+activate_passive					^gเป็นความสามารถติดตัว
+
+attribute_strength					Strength
+attribute_agility					Agility
+attribute_intelligence				Intelligence
+
+attribute_damage_bonus				{value} Damage
+attribute_health_bonus				{value} Max Health
+attribute_health_regen_bonus		{value} Health Regeneration
+attribute_attack_speed_bonus		{value} Attack Speed
+attribute_armor_bonus				{value} Armor
+attribute_mana_bonus				{value} Max Mana
+attribute_mana_regen_bonus			{value} Mana Regeneration
+
+auto_assemble						Auto
+
+shop_action_view_recipe				^yกดเพื่อ ^195ตรวจสอบ^* รายการผสม
+shop_action_view_item				^yกดเพื่อ ^195ตรวจสอบ^* สิ่งของ
+shop_action_auto_assemble			^yสิ่งของนี้รวมโดยอัตโนมัติ
+shop_action_already_purchased		^gคุณได้เป็นเจ้าของสิ่งของนี้อยู่แล้ว
+shop_action_cannot_shop				^rThis unit cannot carry items
+shop_action_cannot_afford_item		^rไม่สามารถซื้อ สิ่งของนี้ได้
+shop_action_cannot_afford_recipe	^rCannot afford this recipe
+shop_action_purchase_item			^yClick to ^195ซื้อ^* สิ่งของนี้
+shop_action_purchase_item_stash		^yClick to ^195จัดเก็บ^* สิ่งของนี้
+shop_action_purchase_recipe			^yClick to ^195ซื้อ^* รายการผสมนี้
+shop_action_unavailable				^rไม่มีจำหน่ายในที่นี้
+
+vote_called						{color}{player}^* ได้ทำการเปิดโหวต : {vote}
+vote_called_concede				{color}{player}^* เปิดโหวตเพื่อยอมแพ้ ต่อทีม {team_color}{team}^*.
+vote_called_remake				{color}{player}^* ได้เปิดโหวต ให้ผลการแข่งรอบนี้เป็นโมฆะ ไม่นับลงสถิติ
+vote_called_kick				{color}{player}^* ได้เปิดโหวตเพื่อขับไล่ {target_color}{target}^*.
+vote_called_kick_afk			{color}{player}^* ได้เปิดโหวตเพื่อขับไล่ {target_color}{target}^* เนื่องจากอู้หนัก.
+vote_called_pause				{color}{player}^* ได้เปิดโหวต ร้องขอให้มีการพักเกมชั่วคราว.
+vote_passed						ยอมรับการโหวต.
+vote_failed						ปฎิเสธการโหวต
+
+team_concede					{color}{team}^* ได้ประการยอมแพ้แล้ว. การต่อสู้จะดำเนินต่อไป แต่คุณสามารถออกจากห้องได้อย่างอิสระ.
+game_abandoned					ทีมของคุณ ได้ทำการทอดทิ้งเกมนี้แล้ว. การต่อสู้จะดำเนินต่อไป แต่คุณสามารถออกจากห้องได้อย่างอิสระ.
+afk_warning						คุณอยู่ในสถานะเสียง ต่อการถูกขับไล่ เนื่องจากอู้ รีบออกไปสู้เร็ว
+afk_message						คุณได้รับตราหน้าว่า ไม่อยู่ที่หน้าจอ และอาจถูกเตะออกได้.
+
+lobby_connect					{color}{player}^* กำหลังทำการเชื่อมต่อ.
+lobby_kick						{color}{player}^* ได้ถูกขับไล่โดยเจ้าห้อง.
+lobby_disconnect				{color}{player}^* การเชื่อมต่อถูกตัดขาด.
+lobby_balance					เจ้าห้องได้ปรับสมดุลทีม.
+lobby_force_swap				เจ้าห้องได้ทำการสลับ {slot1_color}{slot1}^* กับ {slot2_color}{slot2}^*.
+lobby_countdown_cancel			ยุติการนับถอยหลังเพื่อเข้าสู่การต่อสู้.
+lobby_lock						เจ้าห้องได้ทำการล๊อคตำแหน่ง {slot_color}{slot}^*.
+lobby_unlock					เจ้าห้องได้ทำการ ยกเลิกล๊อคตำแหน่ง {slot_color}{slot}^*.
+lobby_assign_host				{slot_color}{player}^* ได้ถูกมอบหมายให้รับ ตำแหน่งเจ้าห้อง.
+lobby_assign_spectator			เจ้าห้องได้กำหนด {slot_color}{player}^* ให้เป็นผู้ชม.
+lobby_assign_referee			เจ้าห้องได้กำหนด {slot_color}{player}^* ให้เป็นกรรมการ.
+lobby_assign_first_ban				เจ้าห้องได้กำหนด {team_color}{team}^* เป็นฝ่ายเลือกแบนก่อน.
+
+game_info_practice				ข้อปฎิบัติ
+nosolo							คุณต้องมี คู่แข่งคนอื่นก่อนทำการเริ่มเกม. ให้ทำการเล่น  ^yPractice^* game หากคุณต้องการฉายเดี่ยว.
+warn_nomods					{slot_color}{player}^* ได้มีการเปิดใช้งานไฟล์ร่วม and will only be allowed to spectate the game.
+nomods						ไม่สามารถทำการเริ่มเกมได้.  {slot_color}{player}^*ได้มีการเปิดใช้งานไฟล์ร่วม (interface, texture, etc)  โปรดตรวจสอบ และต้องยุติไฟล์ร่วมทั้งหมดก่อน จึงสามารถเข้าร่วมเล่นตามกฎ Tournament ได้.
+game_unpause					{name} ได้ยกเลิกการพักเกม, ซึ่งจะเริ่มเล่นต่อได้ในอีก 5 วินาที.
+player_ping					{slot_color}{player}^* ping: {ping}ms
+player_ping_no_players				ไม่มีผู้เล่นให้ตรวจสอบ Ping. 
+
+
+//-----------------------------------------------------------------------------
+// Weather
+//-----------------------------------------------------------------------------
+game_weather_					ไม่มี
+
+// "rain.effect" => "game_weather_rain"
+game_weather_rain				ฝน
+
+// "snow.effect" => "game_weather_snow"
+game_weather_snow				หิมะ
+
+// "snow_storm.effect" => "game_weather_snow_storm"
+game_weather_snow_storm				พายุฝน
+
+// Add new weather effects here
+//-----------------------------------------------------------------------------
+
+
+// END
