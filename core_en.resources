@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourcelist>
+	<fontface file="/core/fonts/game.ttf">
+		<fontmap name="dyn_6" size="6" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_7" size="7" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />		
+		<fontmap name="dyn_8" size="8" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_9" size="9" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_10" size="10" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_11" size="11" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_12" size="12" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_14" size="14" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_16" size="16" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_18" size="18" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="dyn_24" size="24" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+       
+    	<fontmap name="dyn_60_numeric" size="60" dynamic_fontsize="true" baseresolution="768" axis="y" language="numeric" gamma="1.5" />
+		<fontmap name="dyn_72_numeric" size="72" dynamic_fontsize="true" baseresolution="768" axis="y" language="numeric" gamma="1.5" />
+	</fontface>
+	
+	<fontface file="/core/fonts/verdana.ttf">
+		<fontmap name="verdana_8" size="8" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin" gamma="1.5" outline="0.16h" />
+		<fontmap name="verdana_9" size="9" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin" gamma="1.5" outline="0.16h" />
+		<fontmap name="verdana_10" size="10" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin" gamma="1.5" outline="0.16h" />
+		<fontmap name="verdana_11" size="11" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin" gamma="1.5" outline="0.16h" />
+		<fontmap name="verdana_12" size="12" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin" gamma="1.5" outline="0.16h" />
+	</fontface>
+
+	<fontface file="/core/fonts/digital_numeric.ttf">
+		<fontmap name="digital_numeric" size="72" dynamic_fontsize="true" baseresolution="768" axis="y" language="numeric" gamma="1.5" />
+	</fontface>
+
+	<fontface file="/core/fonts/8bit.ttf"><!--add more if needed-->
+		<fontmap name="8bit_9"  size="9"  dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,thai" gamma="1.5" outline="1.5i" />
+		<fontmap name="8bit_10" size="10" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,thai" gamma="1.5" outline="1.5i" />
+		<fontmap name="8bit_11" size="11" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,thai" gamma="1.5" outline="1.5i" />
+		<fontmap name="8bit_14" size="14" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,thai" gamma="1.5" outline="1.5i" />
+		<fontmap name="8bit_16" size="16" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,thai" gamma="1.5" outline="1.5i" />
+		<fontmap name="8bit_72" size="72" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,thai" gamma="1.5" />
+	</fontface>
+
+	<fontface file="/core/fonts/system.ttf">
+		<fontmap name="system_small" size="10" language="latin,turkish,latin5,cyrillic" gamma="1.5" outline="2.0" />
+		<fontmap name="system_medium" size="12" language="latin,turkish,latin5,cyrillic" gamma="1.5" outline="2.0" />
+		<fontmap name="system_large" size="22" language="latin,turkish,latin5,cyrillic" gamma="1.5" outline="2.0" />
+	</fontface>
+
+	<fontface file="/core/fonts/game.ttf">
+		<fontmap name="littletextpopup" size="16" dynamic_fontsize="true" baseresolution="768" axis="y" language="latin,turkish,latin5,cyrillic,thai" gamma="1.5" outline="0.16h" />
+	</fontface>
+
+	<fontface file="/core/fonts/kenycbi.ttf">
+		<fontmap name="keny_26" size="26" dynamic_fontsize="true" baseresolution="1080" axis="y" language="latin,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="keny_36" size="36" dynamic_fontsize="true" baseresolution="1080" axis="y" language="latin,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="keny_52" size="52" dynamic_fontsize="true" baseresolution="1080" axis="y" language="latin,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="keny_58" size="58" dynamic_fontsize="true" baseresolution="1080" axis="y" language="latin,thai" gamma="1.5" outline="0.16h" />
+	</fontface>
+
+	<fontface file="/core/fonts/square.ttf">
+		<fontmap name="square_16" size="16" dynamic_fontsize="true" baseresolution="1080" axis="y" language="latin,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="square_18" size="18" dynamic_fontsize="true" baseresolution="1080" axis="y" language="latin,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="square_20" size="20" dynamic_fontsize="true" baseresolution="1080" axis="y" language="latin,thai" gamma="1.5" outline="0.16h" />
+		<fontmap name="square_22" size="22" dynamic_fontsize="true" baseresolution="1080" axis="y" language="latin,thai" gamma="1.5" outline="0.16h" />
+	</fontface>
+
+	<cursor name="cursor" file="/core/cursors/arrow.cursor" />
+
+	<texture name="alphagrad" file="$alphagrad" />
+	<texture name="logo" file="/textures/logo.tga" />
+	<texture name="console_background" file="/core/textures/console_blank.tga" />
+</resourcelist>
