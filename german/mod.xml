@@ -3,19 +3,10 @@
     application="Heroes of Newerth"
     appversion="*"
     mmversion="*"
-    name="German Translation"
-    version="0.1a"
-    description="Let's play HoN in German!
-Dieser MOD erlaubt es dir HoN in Deutsch zu spielen (Und in Zukunft vollständig in Deutsch -Bereits in Arbeit!).
-
-*ALPHA* Bitte helft uns beim testen! Die Übersetzung erfolgt nach und nach mit Hilfe der Community. Unterstützt uns!
-Einfach meine Github Webseite besuchen und Dateien übersetzten und Änderungen vorschlagen! So bekommen wir HoN endlich in sauberem
-und spielbarem Deutsch!
-
-Credits:
-- Soul Inferno
-- Anakonda for the conversion script
-- All contributors on github
+    name="GermanTranslation"
+    version="0.2a"
+	date="06/09/2022"
+    description="Let's play HoN in real german language!"
     author="SoulInfernoDE"
     weblink="https://github.com/SoulInfernoDE/translate-heroes-of-newerth-to-german"   
     updatecheckurl="https://raw.githubusercontent.com/SoulInfernoDE/translate-heroes-of-newerth-to-german/honmod/german/updatecheck/version.txt"
