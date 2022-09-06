@@ -352,7 +352,7 @@ main_login_auto_auth						Automatisch anmelden
 main_login_auto_auth_tip					Wenn markiert, wird dein Passwort gespeichert und du wirst automatisch ins Spiel eingeloggt wenn du das Spiel startest.
 main_login_invis_mode						Unsichtbarer Login
 main_login_invis_mode_tip					Wenn markiert, können dich deine Freunde und Clanmitglieder nicht Online sehen, aber du kannst trotzdem ihre Nachrichten empfangen.
-main_login_lost_pass						Login Information verloren?
+main_login_lost_pass						Login vergessen?
 main_login_password_saved					<gespeichert>
 main_graphicsdriverold_confirm				Warnung
 main_graphicsdriverold_confirm2				Dein Grafikkartentreiber ist zu alt! Bitte mache ein Update.  
@@ -688,7 +688,7 @@ options_button_controls						Steuerung
 options_button_awards						Awards
 options_button_stats						Stats
 options_button_interface					Interface
-options_button_graphics						Graphik
+options_button_graphics						Grafik
 options_button_voice						Sprache
 options_button_mods							Mods
 options_troubleshooting						Troubleshooting
