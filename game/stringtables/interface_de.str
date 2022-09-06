@@ -1016,11 +1016,11 @@ options_label_reset_camera_keybind			Reset Camera
 options_label_camera_up_keybind				Camera Up
 options_label_camera_down_keybind			Camera Down
 
-options_header_specui						Spectator Options
-options_header_random_stuff					Muting Options
+options_header_specui						Spectator Optionen
+options_header_random_stuff					Muting Optionen
 options_label_mute_sound_keybind			Sound deaktivieren
 options_label_mute_music_keybind			Musik deaktivieren
-options_header_selection					Group Selection Options
+options_header_selection					Group Selection Optionen
 options_header_shopkeys						Shop Hotkeys
 
 options_header_misc_controls				Additional Controls
@@ -10993,7 +10993,7 @@ cc_com_newclan_success						Clan has been created success message
 cc_com_newclan_failure						Clan has been created failure message
 cc_com_newclan_finished_button				Close Window
 
-ccpanel_header_options						Options
+ccpanel_header_options						Optionen
 ccpanel_button_config_cc					Configure C&C Panel
 ccpanel_label_panel_explanation				The C&C Panel notifies you when your friends and clan members perform an action. Select which notifications you would like to view.
 ccpanel_checkbox_connection_note			Connection Notices
@@ -11565,8 +11565,8 @@ main_lobby_replay_view_desc					Use the Match Stats viewer to review the match s
 main_lobby_ranked_play						Ranked Play
 main_lobby_ranked_play_desc					Ranked Play allows you to create games with groups and even place different friends on opposing teams.  It will then take players looking for similar games based upon your preferences and attempt to create fair teams based upon statistics.  These matches are then used to rank players in our ladder.
 mainlobby_button_quick_play_config			Quick Play Configuration
-main_lobby_button_quick_play_config_desc	Here you can select Bar, Neutral, or Preferred for all Game Modes and Game Options. Your client will then look through all the available games and join one based upon the preferences you select. The more options you bar, the longer it may take to join a game.
-main_lobby_quick_play_desc					Use this to quickly and easily get into a Game Lobby based on your likes and dislikes. If you open the Quick Play Configuration just to the left you set all Modes and Options to help find a game you are looking for. Quick Play does NOT attempt to Matchmake based upon the skill of players looking for a game. Use iMatch for that feature.
+main_lobby_button_quick_play_config_desc	Here you can select Bar, Neutral, or Preferred for all Game Modes and Game Optionen. Your client will then look through all the available games and join one based upon the preferences you select. The more options you bar, the longer it may take to join a game.
+main_lobby_quick_play_desc					Use this to quickly and easily get into a Game Lobby based on your likes and dislikes. If you open the Quick Play Configuration just to the left you set all Modes and Optionen to help find a game you are looking for. Quick Play does NOT attempt to Matchmake based upon the skill of players looking for a game. Use iMatch for that feature.
 mainlobby_label_qp_config_note				To configure Quick Play, you can set each of the categories below to preferred, neutral, or barred by clicking buttons below. When you click "Quick Play" you will be placed in a match that closest matches your configuration options.
 main_lobby_qp_show_advanced_filters_label	For advanced game filters, click the Show Advanced button to display all additional options.
 main_lobby_qp_hide_advanced_filters_label	To hide advanced game filters, click the Hide Advanced button to display all additional options.
@@ -11603,7 +11603,7 @@ mainlobby_label_solo_diff_playerhosted		Solo Different Heroes
 mainlobby_label_heroban						Hero Ban
 mainlobby_label_counter_pick				Counter Pick
 mainlobby_label_reborn_playerhosted			Ranked Pick
-mainlobby_header_game_options				Game Options
+mainlobby_header_game_options				Game Optionen
 mainlobby_label_tier						Tier
 mainlobby_label_tier_tip					Restrict servers based on specified tier.\n\n^yNoobs Only^* - Only accounts with low overall account experience may play.\n^yNoobs Allowed^* - Any player of any experience level may play.\n^yPro^* - Only accounts that have achieved a high overall experience level may play.
 mainlobby_header_game_tier1					Noobs Only
@@ -11619,7 +11619,7 @@ main_lobby_leaver_restricted				Leaver Restricted
 main_lobby_leaver_restricted_desc			Restricted games are not available to players who have a history of leaving games before it is over.
 
 mainlobby_game_types_label					Game Types
-mainlobby_label_more						Advanced Options
+mainlobby_label_more						Advanced Optionen
 mainlobby_button_show_advanced				Show Advanced
 mainlobby_button_hide_advanced				Hide Advanced
 mainlobby_label_more_modes					Advanced Modes
@@ -11627,7 +11627,7 @@ mainlobby_label_more_modes					Advanced Modes
 mainlobby_button_ranked_play				Ranked Play
 
 mainlobby_button_custom_game				Game List
-mainlobby_button_custom_game_desc			If you don't want to use Quick Play and would like to manually look through the available games to join use this button. In the Game List you can filter the results for Team Size, Modes, Options, and Pings. If you want to quickly get in the action at the push of a button we suggest using Quick Play.
+mainlobby_button_custom_game_desc			If you don't want to use Quick Play and would like to manually look through the available games to join use this button. In the Game List you can filter the results for Team Size, Modes, Optionen, and Pings. If you want to quickly get in the action at the push of a button we suggest using Quick Play.
 mainlobby_button_create_game				Create Game
 mainlobby_button_create_game_desc			Want to host a game that is set up exactly as you want it or make it easy for your friends to join? Use this feature! When creating a game you can set it to Private, wait for your friends to join, and then Announce it to fill the remaining spots.
 mainlobby_header_custom_join_a_game			Join a Game
@@ -11645,8 +11645,8 @@ mainlobby_label_custom_game_USC				USA - Central
 mainlobby_label_custom_game_USE				USA - East
 mainlobby_label_custom_game_USS				USA - South
 mainlobby_label_custom_game_USW				USA - West
-mainlobby_label_custom_game_EU				Europe - All
-mainlobby_label_custom_game_DE				Germany
+mainlobby_label_custom_game_EU				Europa - Alle
+mainlobby_label_custom_game_DE				Deutschland
 mainlobby_label_custom_game_UK				United Kingdom
 mainlobby_label_custom_game_NL				Netherlands
 mainlobby_label_custom_game_JPN				Japan
@@ -11706,7 +11706,7 @@ mainlobby_header_custom_size				Size
 mainlobby_header_custom_type				Type
 mainlobby_header_custom_minpsr				PSR >
 mainlobby_header_custom_maxpsr				PSR <
-mainlobby_header_custom_options				Options
+mainlobby_header_custom_options				Optionen
 mainlobby_button_custom_refresh				Refresh List
 mainlobby_button_custom_join_selected		Join Selected Game
 mainlobby_header_custom_karma				Leaver/Karma Restricted Games
@@ -11716,7 +11716,7 @@ mainlobby_header_custom_prime_req			Prime Account Required
 mainlobby_header_create_create_game			Create a Game
 mainlobby_header_create_public_game			Create a Public Game
 mainlobby_label_custom_searching			Searching...
-mainlobby_label_cc_friends					Friends
+mainlobby_label_cc_friends					Freunde
 mainlobby_label_cc_clan						Clan
 mainlobby_cc_rtclick_friends_filter			Filter
 mainlobby_cc_rtclick_clan_filter			Filter
@@ -11730,7 +11730,7 @@ mainlobby_create_game_remote				Remote game starting...
 mainlobby_label_icon_key					View Icon Key
 mainlobby_filter_prequery					Filter Pre-Query
 mainlobby_filter_hide_restricted			Hide Restricted Games
-mainlobby_icon_key_options_header			Game Setup and Options
+mainlobby_icon_key_options_header			Game Setup and Optionen
 mainlobby_icon_key_maps_header				Maps
 mainlobby_icon_key_checkboxes				Option Checkboxes
 mainlobby_icon_key_chat_header				Chat Icons
@@ -11750,7 +11750,7 @@ mainlobby_new_channel_header				Join / Create Channel
 mainlobby_server_browser_header				Select a Server
 mainlobby_friends_header					Your Friends List
 mainlobby_server_header						Server
-mainlobby_quick_play_options_header			Quick Play Options
+mainlobby_quick_play_options_header			Quick Play Optionen
 
 main_lobby_add_new_friend					Add New Friend
 main_lobby_join_create						Join / Create
@@ -11759,7 +11759,7 @@ main_lobby_searching						Searching...
 main_lobby_no_games_found					No games found! Why not create one?
 main_lobby_response							{visible} of {count} response
 main_lobby_responses						{visible} of {count} responses
-main_lobby_no_servers_found					No servers found!
+main_lobby_no_servers_found					Keine Server gefunden!
 
 main_lobby_did_you_know						Did you know?
 main_lobby_avatar_tip_1						You can double-click to quickly select an avatar or right-click to close this screen.
@@ -11876,7 +11876,7 @@ mainlobby_gamelist_shuffleteams_title		Shuffle Teams
 mainlobby_gamelist_shuffleteams_desc		Players are randomly assigned to teams once the game starts.
 mainlobby_gamelist_autobalance_title		Auto Balanced
 mainlobby_gamelist_autobalance_desc			Once the game starts the teams will be auto balanced according to their PSR. After the hero select screen is loaded, players will be shown their teams for the first time. Locking slots is disabled when this game option is selected.
-mainlobby_gamelist_more_title				Advanced Options
+mainlobby_gamelist_more_title				Advanced Optionen
 mainlobby_gamelist_more_desc				The host has enabled at least one of several advanced game options.
 mainlobby_gamelist_devheroes_title			Dev Heroes
 mainlobby_gamelist_devheroes_desc			Heroes currently unfinished and in development can be picked in this mode.
@@ -11904,7 +11904,7 @@ replayv_button_view_replay					View Replay
 replayv_button_download_compat				Compatize
 replayv_button_close_window					Close Window
 replayv_label_replay_detail_info			To view replay details, select a replay file from the list at the left.
-replay_viewer_game_options					^yGame Options:^* {options}
+replay_viewer_game_options					^yGame Optionen:^* {options}
 replay_view_tip_online						Browse the online database of replays.
 replayv_label_match_id						Match ID:
 replayv_label_version						Version:
@@ -12079,7 +12079,7 @@ game_lobby_host								^yHost:^* {host}
 game_lobby_num_players						^yPlayers:^* {count}/{max}
 game_lobby_version							^yVersion:^* {version}
 game_lobby_mode								^yGame Mode:^* {mode}
-game_lobby_options							^yGame Options:^* {options}
+game_lobby_options							^yGame Optionen:^* {options}
 glb_options_bot_difficulty_1 				Easy Bots
 glb_options_bot_difficulty_2 				Medium Bots
 glb_options_bot_difficulty_3 				Hard Bots
@@ -12179,12 +12179,12 @@ filters_tip_body 							Filter heroes by categories. Heroes that match your sele
 // game_menu.interface
 game_menu_header							Game Menu
 game_menu_client_functions_header			Client Functions
-game_menu_share_control_header				Unit Control Sharing Options and Player Voting
+game_menu_share_control_header				Unit Control Sharing Optionen and Player Voting
 game_menu_share_full						Full
 game_menu_share_courier						Courier
 game_menu_add_friend_tip					Add {player}^* to Friends List
 game_menu_return_button						Return To Game
-game_menu_options_button					Options
+game_menu_options_button					Optionen
 game_menu_disconnect_button					Disconnect
 game_menu_concede_button					Concede
 game_menu_remake_button						Remake
@@ -12212,9 +12212,9 @@ game_menu_concede_tooltip					Pressing this button will initiate a vote to conce
 game_menu_currentleavepercent				Current Leave Percentage:
 game_menu_newleavepercent					New Leave Percentage:
 game_menu_newleavethreshold					New Leave Threshold:
-game_menu_endmatch							End Match Options
+game_menu_endmatch							End Match Optionen
 game_menu_endmatch_description				If the correct criteria is met, you may end the current game. A vote may be required to remake or concede.
-game_menu_flow								Pause Options
+game_menu_flow								Pause Optionen
 game_menu_flow_description					You may pause at any time, but a team vote is required.
 game_menu_pause_button						Pause
 game_menu_pause_tooltip						Pressing this button will initiate a vote to pause the match. Your team must vote unanimously in favor for the vote to pass. Pausing will happen 5 seconds after the vote passes.
@@ -12520,7 +12520,7 @@ game_setup_deathmatch						Deathmatch
 game_setup_blindban							Blind Ban
 game_setup_heroban							Hero Ban
 game_setup_midwarsbeta						MidWars Beta
-game_setup_advanced_options					Display Advanced Game Options
+game_setup_advanced_options					Display Advanced Game Optionen
 game_setup_custom_post						Secondary Stats Submission
 game_setup_custom_post_tip					The game will send game stats to an additional server. (Advanced Users)
 game_setup_custom_post_URL					URL to Script
@@ -12610,7 +12610,7 @@ tooltip_viewgca								View GCA
 tooltip_purchase							Purchase HoN
 tooltip_logout								Log Out
 tooltip_rap                                 RAP Conduct Summary
-tooltip_options								Options
+tooltip_options								Optionen
 tooltip_offlinereplays						Local Replays
 tooltip_changelog							Change Log
 tooltip_twitchtv 							TwitchTV Streaming
@@ -12950,7 +12950,7 @@ loading_tip40					Typing /gameinfo or /gi in-game will print a list of the curre
 loading_tip41					Clicking on this hint box will display a new hint.
 loading_tip42					Selecting a ^!yRegion^* and enabling the "Filter Pre-Query" checkbox on game browser interface will allow you to browse and refresh games faster.
 loading_tip43					When a notification pops up in-game, you can ^gRIGHT ^gCLICK^* anywhere on it to close it rather than clicking the 'X' button.
-loading_tip44					You can turn specific notifications on or off, or disable notifications in-game by clicking "Options" and then navigating to the "Interface" tab.
+loading_tip44					You can turn specific notifications on or off, or disable notifications in-game by clicking "Optionen" and then navigating to the "Interface" tab.
 loading_tip45					Each team can only pause up to 3 times per game. Use them wisely!
 loading_tip46					You can use the command /friendlychat or /fc to only accept messages from players in your clan or on your friend list.
 loading_tip47					A positive attitude is more likely to result in a positive outcome. Use constructive criticism to help your teammates improve!
@@ -12998,10 +12998,10 @@ mm3_coop_localgamepanel			Region selection is not required. \n\nYour match will 
 mm3_bots_mode					Co-Op vs AI
 
 mm3_pvp_map 					3. Choose Your Map
-mm3_pvp_gameoptions 			4. Select Your Game Options
+mm3_pvp_gameoptions 			4. Select Your Game Optionen
 mm3_pvp_gamemodes 				5. Select Your Game Modes
 mm3_pvp_simplemode				Simple Mode...
-mm3_pvp_advancedmode			Advanced Options...
+mm3_pvp_advancedmode			Advanced Optionen...
 mm3_pvp_simplemaps 				Maps
 mm3_pvp_simplemaps_desc 		Caldavar is the standard 5v5 map.\nMidwars is an action packed single lane.
 mm3_pvp_simplemodes_ap 			All Pick
@@ -13902,7 +13902,7 @@ garenaVIP_goldstatus						Gold Status
 garenaVIP_goldstatus_txt					Let your fellow HoN players know that you are VIP with our custom gold icon.
 garenaVIP_taunt								Taunt Ability
 garenaVIP_taunt_txt							Rub your skills in the face of your opponents by laying the Smackdown on them!
-garenaVIP_MMoptions							Matchmaking Options
+garenaVIP_MMoptions							Matchmaking Optionen
 garenaVIP_MMoptions_txt						Customize your matchmaking experience for the ultimate matchup!
 garenaVIP_url1								To Purchase a VIP Account, Please Visit
 garenaVIP_url2								http://shop.garena.com/hon/
@@ -14043,9 +14043,9 @@ specui_help_jumpToCombat 			Jump To Combat
 specui_help_teamInfo 				Show Team Info
 specui_help_teamCrests				on Team Crests
 specui_help_transparentInfo 		Transparent Information
-specui_help_minimalist 				Enable 'Minimalist' Options
+specui_help_minimalist 				Enable 'Minimalist' Optionen
 
-specui_options_header				Spectator Interface Options
+specui_options_header				Spectator Interface Optionen
 specui_options_showTips				Show Tooltips
 specui_options_showTips_txt			Uncheck to hide tooltips when hovering over team and player info.
 specui_options_showItemPurch		Item Purchases
@@ -14706,7 +14706,7 @@ main_vid_confirm					Video Driver
 main_vid_confirm_info				You need to restart the game for some changes to take effect, restart now?
 button_restart_later				Restart Later
 button_restart_now					Restart Now
-options_label_vid                   Video Options
+options_label_vid                   Video Optionen
 
 // CCU Region Labels
 ccu_region_NA	North America & Europe
@@ -14756,8 +14756,8 @@ tpp_instant_pause			Instant Pause (toggle)
 tpp_disc					Disconnect
 tpp_quit					Quit
 tpp_restart					Restart
-tpp_extraoptions			Extra Options
-tpp_cameraoptions			Camera Options
+tpp_extraoptions			Extra Optionen
+tpp_cameraoptions			Camera Optionen
 tpp_spawner					Spawner
 tpp_items					Items
 tpp_help					Help
@@ -14779,7 +14779,7 @@ tpp_daynight				Day/Night
 tpp_drawpath				DrawPath
 tpp_unlocktaunt				Unlock Taunt
 tpp_fow						Remove Fog of War
-tpp_cam						Cam Options (toggle)
+tpp_cam						Cam Optionen (toggle)
 tpp_fcamsmoothing			Position Smoothing
 tpp_anglesmoothing			Angle Smoothing
 tpp_camdist					Camera Distance
@@ -14793,7 +14793,7 @@ tpp_hellbourne_sky_box		Hellbourne Sky Box
 tpp_start_recording			Start Recording
 tpp_stop_recording			Stop Recording
 tpp_dynamic_reload			Dynamic Reload
-tpp_timeoptions				Time Options
+tpp_timeoptions				Time Optionen
 tpp_timeofday				Time of Day
 tpp_timeofdawn				Time of Dawn
 tpp_freezetime				Freeze Time of Day
@@ -14833,11 +14833,11 @@ sp_main_dyn_btn_1b					Remove Friend
 sp_main_dyn_btn_2b					Remove from Clan
 sp_remove_group 					Remove Current Group
 sp_main_dyn_btn_3					-
-sp_options_tt_title					Friend List Options
+sp_options_tt_title					Friend List Optionen
 sp_options_tt_desc					Create and leave clans, modify display settings etc
 sp_options_display					Friends List
 sp_options_notifications			Notifications
-sp_options_open_options				Open Options
+sp_options_open_options				Open Optionen
 sp_options_btn_1					Custom Name Colors
 sp_options_btn_2					Sort By Ingame Status
 sp_options_btn_3					Merge Friends/Clan
@@ -14881,7 +14881,7 @@ chat_opt_team						Team
 chat_opt_all						All
 chat_opt_whisper					Whisper
 
-chat_opt_tab_header_1				Chat Options
+chat_opt_tab_header_1				Chat Optionen
 chat_opt_tab_1						Short Format
 chat_opt_tab_1_desc 				Abbreviate chat type indicator
 chat_opt_tab_2						Hero Icons
@@ -17184,7 +17184,7 @@ newui_mapselection_losses						Losses
 newui_mapselection_winstreaks 					Win Streaks
 newui_mapselection_region						Regions
 newui_mapselection_region2						Regions:
-newui_mapselection_gameoptions					Options
+newui_mapselection_gameoptions					Optionen
 newui_mapselection_gamemode 					Modes
 newui_mapselection_botdifficulty 				Bot Difficulty
 newui_mapselection_botdifficulty_easy 			Easy
