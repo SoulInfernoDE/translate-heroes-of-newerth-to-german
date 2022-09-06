@@ -1,0 +1,606 @@
+// Ability_DevX1_Chain
+Ability_DevX1_Chain_name									Chain Hook
+Ability_DevX1_Chain_description								The Devourer launches his Hook at a target unit or location.
+Ability_DevX1_Chain_description_simple						The Devourer launches his Hook at a target unit or location.
+Ability_DevX1_Chain_name:superhook_elec						Super Hook: ^yElectric^*
+Ability_DevX1_Chain_description:superhook_elec				The Devourer launches his Hook at a target unit or location.\n\n^ySuper Hook Effects^*: If landed on an Enemy, instantly kills Target.\n\nExpires on Use or Death.
+Ability_DevX1_Chain_description_simple:superhook_elec		The Devourer launches his Hook at a target unit or location.\n\n^ySuper Hook Effects^*: If landed on an Enemy, instantly kills Target.\n\nExpires on Use or Death.
+Ability_DevX1_Chain_tooltip_flavor							Get over here!
+Ability_DevX1_Chain_name:superhook_split					Super Hook: ^oSplit Hook^*
+Ability_DevX1_Chain_description:superhook_split				The Devourer launches his Hook at a target unit or location.\n\n^oSuper Hook Effects^*: Fires 2 Additional Hooks in separate directions.\n\nExpires on Use or Death.
+Ability_DevX1_Chain_description_simple:superhook_split		The Devourer launches his Hook at a target unit or location.\n\n^oSuper Hook Effects^*: Fires 2 Additional Hooks in separate directions.\n\nExpires on Use or Death.
+Ability_DevX1_Chain_tooltip_flavor							Get over here!
+
+// Shop
+
+Building_HeroWars_Shop_name									Shop
+
+// Runes
+
+// Rune Names
+
+// Gadget_HeroWars_GoldRune
+Gadget_HeroWars_GoldRune_name								Gold Rune
+
+// Gadget_HeroWars_BoomRune
+Gadget_HeroWars_BoomRune_name								Bomb Rune
+
+State_HeroWars_Boom_name									Da Bomb!
+State_HeroWars_Boom_description								Upon expiration, deals ^o600 Damage^* and ^*Stuns enemies for 2.5 seconds^* in a ^o570 radius^*.\n\nBomb goes off as expected even if player is killed.
+
+State_HeroWars_BoomStun_name 								Bomb Impact!
+State_HeroWars_BoomStun_description 						Stunned for ^o2.5 seconds^* 
+
+State_HeroWars_KillState_name								Out Of Bounds!
+State_HeroWars_KillState_description						Return to the play field, or face the consequence.
+
+// Gadget_HeroWars_ElecRune
+Gadget_HeroWars_ElecRune_name								Electric Hook Rune
+
+State_HeroWars_ElectricHook_name							Super Hook: Electric
+State_HeroWars_ElectricHook_description						Instantly Kills Enemy on Hook Impact.\n\nExpires on Death or on Use.
+State_HeroWars_ElectricHook_description_simple				Instantly Kills Enemy on Hook Impact.\n\nExpires on Death or on Use.
+
+// Gadget_HeroWars_SplitHookRune
+Gadget_HeroWars_SplitHookRune_name							Split Hook Rune
+
+State_HeroWars_SplitHook_name								Super Hook: Split Hook
+State_HeroWars_SplitHook_description						Fires 3 Hooks in separate directions.\n\nExpires on Death or Use.
+State_HeroWars_SplitHook_description_simple					Fires 3 Hooks in separate directions.\n\nExpires on Death or Use.
+
+// Gadget_HeroWars_TimeRune
+Gadget_HeroWars_TimeRune_name								Time Rune
+
+State_HeroWars_Time_Ally_name								Time Rune
+State_HeroWars_Time_Ally_description						An ally has hooked a ^gTime Rune!^*
+
+State_HeroWars_HemoState_name								Bleeding!
+State_HeroWars_HemoState_description						You are taking damage while on route.
+
+
+// Items
+
+// Item_HeroWars_HookMult
+Item_HeroWars_HookMult_name									Hook Upgrade: Bounce Boost
+Item_HeroWars_HookMult_description							Every hook bounce increases the range by ^o750^* to a maximum of ^o2000^*.
+Item_HeroWars_HookMult_description_simple					Every hook bounce increases the range by ^o750^* to a maximum of ^o2000^*.
+Item_HeroWars_HookMult_shop_categories
+Item_HeroWars_HookMult_IMPACT_effect						Every hook bounce increases the range by ^o750^* to a maximum of ^o2000^*.
+
+// Item_HeroWars_FireBrand
+Item_HeroWars_FireBrand_name								Hook Upgrade: Firehook
+Item_HeroWars_FireBrand_description							On Hook Impact, all other enemies within ^o250 radius^* are inflicted with an expanding zone at their current position.\n\nThe zone expands to 250 radius over 2 seconds and explodes.
+Item_HeroWars_FireBrand_description_simple					Creates a zone underneath nearby enemies on hook that explodes, fearing & damaging.
+Item_HeroWars_FireBrand_search_terms						firehook
+Item_HeroWars_FireBrand_shop_flavor							
+Item_HeroWars_FireBrand_shop_categories						
+Item_HeroWars_FireBrand_FRAME_effect						On Explosion Impact: Other enemies standing in blast radius are ^oFeared for 2.5 seconds^* and ^oBurn for 30% of Maximum Health^*.
+
+State_HeroWars_FireBrand_Debuff_name						Firehook Burn
+State_HeroWars_FireBrand_Debuff_description					Feared\nBurning ^o30% of your Maximum Health^* over 2.5 seconds.
+
+// Item_HeroWars_FrostBrand
+Item_HeroWars_FrostBrand_name								Hook Upgrade: Frosthook
+Item_HeroWars_FrostBrand_description						On Hook Impact, creates a circle of frost around the target in a ^o450 radius^*.
+Item_HeroWars_FrostBrand_description_simple					Slows and damages all nearby enemies on hook impact.
+Item_HeroWars_FrostBrand_search_terms						icehook,frosthook
+Item_HeroWars_FrostBrand_shop_flavor						
+Item_HeroWars_FrostBrand_shop_categories					
+Item_HeroWars_FrostBrand_FRAME_effect						Circle of Frost Impact: Deals ^o50 Damage^* and applies a ^o45% Movement Speed Slow^* to enemies within ^o450 radius for 6 seconds.
+
+State_HeroWars_FrostBrand_Freeze_name						Frosthook
+State_HeroWars_FrostBrand_Freeze_description				
+
+// Item_HeroWars_LightBrand
+Item_HeroWars_LightBrand_name								Hook Upgrade: Lighthook
+Item_HeroWars_LightBrand_description						Passive bonus: Increases vision around hook to 600 units.\n\n^oToggle on^* to allow your hook to ^ophase through allies^*.\n\nCannot be toggled while hook is on route.
+Item_HeroWars_LightBrand_description:enabled_lighthook		Passive bonuses: Your hook ^gphases through allies^*. Increases vision around hook to 600 units.\n\n^oToggle off^* to allow your ^ohook to hit allies again^*.\n\nCannot be toggled while hook is on route. Cannot be sold while toggled on.
+Item_HeroWars_LightBrand_description_simple					When toggled, your hook will ^ophase through allies^*.\nIncreases vision on hook.
+Item_HeroWars_LightBrand_search_terms						lighthook
+Item_HeroWars_LightBrand_shop_flavor						
+Item_HeroWars_LightBrand_shop_categories					
+Item_HeroWars_LightBrand_FRAME_effect						
+
+// Item_HeroWars_BlindGrenade
+Item_HeroWars_BlindGrenade_name								Consumable: Blind Grenade
+Item_HeroWars_BlindGrenade_description						
+Item_HeroWars_BlindGrenade_description_simple				Throws a grenade to ^oreducing enemy vision^* and ^ounlink their vision from their team^*.
+Item_HeroWars_BlindGrenade_shop_categories						
+Item_HeroWars_BlindGrenade_IMPACT_effect					Throws a grenade that blinds enemies in a radius, greatly ^oreducing their vision^* and ^ounlinking the target's vision from their team^* for ^o8 seconds^*.\n\n3 second travel time.\n\nInitial stock of 3 and a maximum stock of 3. A stock is refreshed every 30 seconds.
+
+State_HeroWars_BlindGrenade_name							Blinded.
+State_HeroWars_BlindGrenade_description						Recently hit by a Blind Grenade.\n\nSight reduced to ^o300^* units.
+State_HeroWars_BlindGrenade_description_simple				Recently hit by a Blind Grenade.\n\nSight reduced to ^o300^* units.
+
+// Item_HeroWars_Mine
+Item_HeroWars_Mine_name										Consumable: Land Mine
+Item_HeroWars_Mine_description								Place an unattackable mine in front of you that activates after 5 seconds. Any enemy who steps within ^o250 radius^* of the mine triggers it. The mine expires after 30 seconds if not triggered.\n\nDisabled if more then 3 mines exist on the map by the player owner.\n\nMines can be chucked by Pebbles Arm.\n\nInitial stock of 3 and a maximum stock of 3. A stock is refreshed every 30 seconds.
+Item_HeroWars_Mine_description_simple						Places a land mine that explodes on enemy contact.
+Item_HeroWars_Mine_search_terms								mine
+Item_HeroWars_Mine_shop_flavor								
+Item_HeroWars_Mine_shop_categories					
+Item_HeroWars_Mine_FRAME_effect								Mine Trigger Impact: Deals ^o12% of an enemy's Maximum Health^* to all enemy units in ^o250 radius^*.
+
+Gadget_HeroWars_Mine_name									Land Mine
+	
+// Item_HeroWars_BackHook
+Item_HeroWars_BackHook_name									Hook Upgrade: Back Hook
+Item_HeroWars_BackHook_description							Permanently grants ^oBack Hook^* to Devourer, allowing the hook to hit a target on its way back to him.
+Item_HeroWars_BackHook_description_simple					Allows the hook to hit a target on its way back to Devourer.
+Item_HeroWars_BackHook_shop_categories						
+Item_HeroWars_BackHook_IMPACT_effect						Permanently grants ^oBack Hook^* to Devourer, allowing the hook to hit a target on its way back to him.
+
+// Item_HeroWars_Claw
+Item_HeroWars_Claw_name										Hook Upgrade: Hemorrhage
+Item_HeroWars_Claw_description								Bleeds enemy while hooked.\n^rUpgradeable 3 Times.^*\n11%/15%/19% of travel distance.
+Item_HeroWars_Claw_description_simple						Bleeds enemy while hooked.\n^rUpgradeable 3 Times.^*\n11%/15%/19% of travel distance.
+Item_HeroWars_Claw_shop_categories								
+Item_HeroWars_Claw_IMPACT_effect							Bleeds enemy while hooked.\n^rUpgradeable 3 Times.^*\n11%/15%/19% of travel distance.
+
+Item_HeroWars_Claw_name:charge1								Hemorrhage (Level 1)
+Item_HeroWars_Claw_description:charge1						Enemy Bleeds for ^o11% of the distance travelled^* During Hook.
+Item_HeroWars_Claw_description_simple:charge1				Enemy Bleeds for ^o11% of the distance travelled^* During Hook.
+Item_HeroWars_Claw_shop_categories:charge1								
+Item_HeroWars_Claw_IMPACT_effect:charge1					Enemy Bleeds for ^o11% of the distance travelled^* During Hook.
+
+Item_HeroWars_Claw_name:charge2								Hemorrhage (Level 2)
+Item_HeroWars_Claw_description:charge2						Enemy Bleeds for ^o15% of the distance travelled^* During Hook.
+Item_HeroWars_Claw_description_simple:charge2				Enemy Bleeds for ^o15% of the distance travelled^* During Hook.
+Item_HeroWars_Claw_shop_categories:charge2								
+Item_HeroWars_Claw_IMPACT_effect:charge2					Enemy Bleeds for ^o15% of the distance travelled^* During Hook.
+
+Item_HeroWars_Claw_name:charge3								Hemorrhage (Level 3)
+Item_HeroWars_Claw_description:charge3						Enemy Bleeds for ^o19% of the distance travelled^* During Hook.
+Item_HeroWars_Claw_description_simple:charge3				Enemy Bleeds for ^o19% of the distance travelled^* During Hook.
+Item_HeroWars_Claw_shop_categories:charge3								
+Item_HeroWars_Claw_IMPACT_effect:charge3					Enemy Bleeds for ^o19% of the distance travelled^* During Hook.
+
+// Item_HeroWars_Grapple
+Item_HeroWars_Grapple_name									Item: Grapple
+Item_HeroWars_Grapple_description							
+Item_HeroWars_Grapple_description_simple					Shoots out a Grappling Line that pulls you to the Target or Pillar.
+Item_HeroWars_Grapple_shop_categories						
+Item_HeroWars_Grapple_IMPACT_effect							Activate to shoot out a Grappling Line that ^opulls you to the Target or Pillar^*.\n\nWill unbind user if been hooked or chucked.
+
+// Item_HeroWars_Jaw
+Item_HeroWars_Jaw_name										Hook Upgrade: Life Steal
+Item_HeroWars_Jaw_description								Heals on Hook Impact.\n^rUpgradeable 3 Times.^*\nHeals for 25%/35%/45% Life.
+Item_HeroWars_Jaw_description_simple						Heals on Hook Impact.\n^rUpgradeable 3 Times.^*\nHeals for 25%/35%/45% Life.
+Item_HeroWars_Jaw_shop_categories								
+Item_HeroWars_Jaw_IMPACT_effect								Heals on Hook Impact.\n^rUpgradeable 3 Times.^*\nHeals for 25%/35%/45% Life.
+
+Item_HeroWars_Jaw_name:charge1								Life Steal (Level 1)
+Item_HeroWars_Jaw_description:charge1						Heals you for ^g25%^* Of Hook Damage Dealt.
+Item_HeroWars_Jaw_description_simple:charge1				Heals you for ^g25%^* Of Hook Damage Dealt.
+Item_HeroWars_Jaw_shop_categories:charge1								
+Item_HeroWars_Jaw_IMPACT_effect:charge1						Heals you for ^g25%^* Of Hook Damage Dealt.
+
+Item_HeroWars_Jaw_name:charge2								Life Steal (Level 2)
+Item_HeroWars_Jaw_description:charge2						Heals you for ^g35%^* Of Hook Damage Dealt.
+Item_HeroWars_Jaw_description_simple:charge2				Heals you for ^g35%^* Of Hook Damage Dealt.
+Item_HeroWars_Jaw_shop_categories:charge2								
+Item_HeroWars_Jaw_IMPACT_effect:charge2						Heals you for ^g35%^* Of Hook Damage Dealt.
+
+Item_HeroWars_Jaw_name:charge3								Life Steal (Level 3)
+Item_HeroWars_Jaw_description:charge3						Heals you for ^g45%^* Of Hook Damage Dealt.
+Item_HeroWars_Jaw_description_simple:charge3				Heals you for ^g45%^* Of Hook Damage Dealt.
+Item_HeroWars_Jaw_shop_categories:charge3								
+Item_HeroWars_Jaw_IMPACT_effect:charge3						Heals you for ^g45%^* Of Hook Damage Dealt.
+
+// Item_HeroWars_Paw
+Item_HeroWars_Paw_name										Hero Upgrade: Speed
+Item_HeroWars_Paw_description								Increases ^oMovespeed by 12^*.\n^rUpgradeable 5 Times.^*
+Item_HeroWars_Paw_description_simple						Increases ^oMovespeed by 12^*.\n^rUpgradeable 5 Times.^*
+Item_HeroWars_Paw_shop_categories						
+Item_HeroWars_Paw_IMPACT_effect								Increases ^oMovespeed by 12^*.\n^rUpgradeable 5 Times.^*
+
+// Item_HeroWars_HealWard
+Item_HeroWars_HealWard_name									Consumable: Healing Ward
+Item_HeroWars_HealWard_description							
+Item_HeroWars_HealWard_description_simple					Places a Healing Ward that heals nearby allies.
+Item_HeroWars_HealWard_shop_categories						
+Item_HeroWars_HealWard_IMPACT_effect						Places a Healing Ward that ^gheals nearby allies^* for ^o8% of their Maximum Health per second^*.\n\nDestroyed if attacked.\n\nInitial stock of 3 and a maximum stock of 3. A stock is refreshed every 30 seconds.
+
+Gadget_HeroWars_HealWard_name								Healing Ward
+State_HeroWars_HealWard_name								Healing Ward
+State_HeroWars_HealWard_description							Healing for ^g8% of your Maximum Health^* per second.
+
+// Item_HeroWars_TinyArm
+Item_HeroWars_TinyArm_name									Item: Pebbles Arm
+Item_HeroWars_TinyArm_description							
+Item_HeroWars_TinyArm_description_simple					Throws nearby Hero to Target Position.
+Item_HeroWars_TinyArm_shop_categories						
+Item_HeroWars_TinyArm_IMPACT_effect							Throws nearby Hero to Target Position.\n\nDeals ^o50 Damage^* to all enemies in a ^o300 radius^*.\n\nCan also throw mines, but only incurs a 3 second cooldown if used on one.\n\nIf a target is thrown outside of the play area, they are teleported back to the location they were thrown.
+
+// Item_HeroWars_TomeOfPower
+Item_HeroWars_TomeOfPower_name								Hero Upgrade: Level Tome
+Item_HeroWars_TomeOfPower_description						Increases your ^ohero's level by 1^* upon purchase.
+Item_HeroWars_TomeOfPower_description_simple				Increases your ^ohero's level by 1^* upon purchase.
+Item_HeroWars_TomeOfPower_shop_categories						
+Item_HeroWars_TomeOfPower_IMPACT_effect						
+
+// Item_HeroWars_Totem
+Item_HeroWars_Totem_name									Item: Shield Wall
+Item_HeroWars_Totem_description								
+Item_HeroWars_Totem_description_simple						Creates a Collision Surface that ^oBlocks Movement and Reflects Hooks^*.
+Item_HeroWars_Totem_shop_categories						
+Item_HeroWars_Totem_IMPACT_effect							Creates a Collision Surface that ^oBlocks Movement and Reflects Hooks^*.\n\nWall lasts 9 seconds.
+
+// Item_HeroWars_Ward
+Item_HeroWars_Ward_name										Consumable: Flare
+Item_HeroWars_Ward_description								
+Item_HeroWars_Ward_description_simple						Shoots a flare that grants vision at the target location.
+Item_HeroWars_Ward_shop_categories						
+Item_HeroWars_Ward_IMPACT_effect							Shoots a flare that ^ogrants vision within 700 radius of the target location^* for ^o30 seconds^*.\n\nInitial stock of 3 and a maximum stock of 3. A stock is refreshed every 30 seconds.
+
+
+
+
+// States
+State_HeroWars_Shop_name									Shop
+State_HeroWars_Shop_description								Buy items
+State_HeroWars_Shop_description_simple						Buy items
+
+State_HeroWars_StartGame_name								Pre-Round
+State_HeroWars_StartGame_description						15 seconds until game starts!
+State_HeroWars_StartGame_description_simple					15 seconds until game starts!
+
+State_HeroWars_Respawn_name									Respawn Shield
+State_HeroWars_Respawn_description							Immune
+State_HeroWars_Respawn_description_simple					Immune
+
+
+
+
+
+// Hook Upgrades
+
+// Ability_DevX_HookLevelUp_Damage
+Ability_DevX_HookLevelUp_Damage_name										Upgrade Hook: Damage
+Ability_DevX_HookLevelUp_Damage_description									Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description_simple							Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_effect_header								Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o0	
+
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_1						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_2						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_3						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_4						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_5						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_6						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_7						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_8						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_9						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_10						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_11						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_12						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_13						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_14						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_15						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_16						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_17						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_18						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_19						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_20						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_21						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_22						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_23						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_24						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_25						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_description:dmg_lvl_26						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o380
+
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_1				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_2				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_3				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_4				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_5				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_6				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_7				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_8				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_9				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_10				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_11				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_12				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_13				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_14				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_15				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_16				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_17				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_18				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_19				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_20				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_21				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_22				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_23				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_24				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_25				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_description_simple:dmg_lvl_26				Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o380
+
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_1						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o0
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_2						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o15
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_3						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o30
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_4						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o45
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_5						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o60
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_6						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o75
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_7						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o80
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_8						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o95
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_9						Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o105
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_10					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o120
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_11					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o135
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_12					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o160
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_13					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o175
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_14					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o190
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_15					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o205
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_16					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o220
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_17					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o235
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_18					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o260
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_19					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o275
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_20					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o290
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_21					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o305
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_22					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o320
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_23					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o335
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_24					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o350
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_25					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o365
+Ability_DevX_HookLevelUp_Damage_effect_header:dmg_lvl_26					Permanently Increases Damage on Hook by ^g15^* Per Level.\n\nCurrent Damage: ^w235^* + ^o380
+
+// Ability_DevX_HookLevelUp_Range
+Ability_DevX_HookLevelUp_Range_name											Upgrade Hook: Range
+Ability_DevX_HookLevelUp_Range_description									Permanently Increases Range on Hook by ^g80^* Per Level.\n\nCurrent Range: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description_simple							Permanently Increases Range on Hook by ^g80^* Per Level.\n\nCurrent Range: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_effect_header								Permanently Increases Range on Hook by ^g80^* Per Level.\n\nCurrent Range: ^w1600^* + ^o0
+
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_1						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_2						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_3						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_4						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_5						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_6						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_7						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_8						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_9						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_10						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_11						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_12						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_13						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_14						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_15						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_16						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_17						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_18						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_19						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_20						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_21						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_22						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_23						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_24						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_25						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_description:rge_lvl_26						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o3000
+
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_1					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_2					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_3					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_4					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_5					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_6					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_7					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_8					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_9					Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_10				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_11				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_12				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_13				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_14				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_15				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_16				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_17				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_18				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_19				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_20				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_21				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_22				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_23				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_24				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_25				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_description_simple:rge_lvl_26				Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o3000
+
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_1						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o0
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_2						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o120
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_3						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o240
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_4						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o360
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_5						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o480
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_6						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o600
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_7						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o720
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_8						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o840
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_9						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o960
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_10						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1080
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_11						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1200
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_12						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1320
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_13						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1440
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_14						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1560
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_15						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1680
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_16						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1800
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_17						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o1920
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_18						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2040
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_19						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2160
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_20						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2280
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_21						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2400
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_22						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2520
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_23						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2640
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_24						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2760
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_25						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o2880
+Ability_DevX_HookLevelUp_Range_effect_header:rge_lvl_26						Permanently Increases Range on Hook by ^g120^* Per Level.\n\nCurrent Range: ^w1600^* + ^o3000
+
+// Ability_DevX_HookLevelUp_Speed
+Ability_DevX_HookLevelUp_Speed_name											Upgrade Hook: Speed
+Ability_DevX_HookLevelUp_Speed_description									Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_header								Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o0
+
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_1						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_2						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_3						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_4						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_5						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_6						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_7						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_8						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_9						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_10						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_11						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_12						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_13						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_14						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_15						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_16						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_17						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_18						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_19						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_20						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_21						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_22						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_23						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_24						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_25						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_description:spd_lvl_26						Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o1000
+
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_1					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_2					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_3					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_4					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_5					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_6					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_7					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_8					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_9					Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_10				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_11				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_12				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_13				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_14				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_15				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_16				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_17				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_18				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_19				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_20				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_21				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_22				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_23				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_24				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_25				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_description_simple:spd_lvl_26				Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o1000
+
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_1							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o0
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_2							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o40
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_3							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o80
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_4							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o120
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_5							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o160
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_6							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o200
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_7							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o240
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_8							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o280
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_9							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o320
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_10							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o360
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_11							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o400
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_12							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o440
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_13							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o480
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_14							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o520
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_15							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o560
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_16							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o600
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_17							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o640
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_18							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o680
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_19							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o720
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_20							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o760
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_21							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o800
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_22							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o840
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_23							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o880
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_24							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o920
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_25							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o960
+Ability_DevX_HookLevelUp_Speed_effect_headerlvl_26							Permanently Increases Speed on Hook by ^g40^* Per Level.\n\nCurrent Speed: ^w1100^* + ^o1000
+
+// Ability_DevX_HookLevelUp_Width
+Ability_DevX_HookLevelUp_Width_name											Upgrade Hook: Radius
+Ability_DevX_HookLevelUp_Width_description									Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description_simple							Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_effect_header								Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o0
+
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_1						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_2						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_3						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_4						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_5						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_6						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_7						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_8						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_9						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_10						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_11						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_12						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_13						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_14						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_15						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_16						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_17						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_18						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_19						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_20						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_21						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_22						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_23						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_24						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_25						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_description:rds_lvl_26						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o125
+
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_1					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_2					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_3					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_4					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_5					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_6					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_7					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_8					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_9					Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_10				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_11				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_12				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_13				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_14				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_15				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_16				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_17				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_18				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_19				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_20				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_21				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_22				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_23				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_24				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_25				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_description_simple:rds_lvl_26				Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o125
+
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_1						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o0
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_2						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o5
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_3						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o10
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_4						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o15
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_5						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o20
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_6						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o25
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_7						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o30
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_8						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o35
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_9						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o40
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_10						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o45
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_11						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o50
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_12						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o55
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_13						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o60
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_14						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o65
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_15						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o70
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_16						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o75
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_17						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o80
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_18						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o85
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_19						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o90
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_20						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o95
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_21						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o100
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_22						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o105
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_23						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o110
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_24						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o115
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_25						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o120
+Ability_DevX_HookLevelUp_Width_effect_header:rds_lvl_26						Permanently Increases Radius on Hook by ^g5^* Per Level.\n\nCurrent Radius: ^w70^* + ^o125
+
+// END DO NOT REMOVE ETC 

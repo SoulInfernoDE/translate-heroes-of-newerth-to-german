@@ -1,0 +1,245 @@
+﻿wl_Powerup_Damage_name 								Double Damage Rune
+wl_State_Damage_name 								Double Damage
+wl_State_Damage_FRAME_effect 						Jeglicher Schaden wird verdoppelt.
+
+wl_Powerup_Speed_name 								Haste Rune
+wl_State_Speed_name 								Haste
+
+wl_Powerup_Regen_name 								Regenerations-Rune
+wl_State_Regen_name 								Regeneration
+
+wl_Powerup_Slow_name 								Zeitmanipulations-Rune
+wl_State_Slow_name 									Zeit Manipulation
+wl_State_Slow_FRAME_effect 							Alle Gegner werden um 50% verlangsamt.
+wl_State_SlowAura_name 								Zeit verlangsamt
+wl_State_SlowAura_FRAME_effect 						Alles ist um 50% verlangsamt.
+
+
+wl_Obelisk_name 									Obelisk
+
+wl_Warlock_name 									Prophet
+
+wl_State_Hero2_name 								Shop Zugriff
+wl_State_Hero2_FRAME_effect 						Shopping time! Der Standard hotkey fuer den Shop ist "B".
+
+wl_Outside_name 									Ausserhalb der Arena
+wl_Outside_FRAME_effect 							DU bekommst 50 Damage pro Sekunde. Geh sofort zuerueck in die Arena!
+
+
+
+// Ability 0
+wl_Ability0_name 									Vortex
+wl_Ability0_description 							Creates a Vortex that pulls in all players in the area.
+wl_Ability0_description_simple 						Target an area to create a Vortex there pulls players in ^o400^* range towards the center with up to ^o40^* force for {2,3,4,5,6}s.
+wl_Ability0_IMPACT_effect							Pulls players in ^o400^* range towards the center with up to ^o40^* force for {2,3,4,5,6}s.\n\nVortex takes ^o0.8s^* to cast.
+
+wl_Item_Ability0_name 								Vortex
+wl_Item_Ability0_description 						Creates a Vortex that pulls in all players in the area.
+wl_Item_Ability0_description_simple 				Target an area that pulls in players towards the center.
+wl_Item_Ability0_IMPACT_effect						Pulls players in ^o400^* range towards the center with up to ^o40^* force for ^o2/3/4/5/6^*s.\n\nVortex takes ^o0.8s^* to cast.
+wl_Item_Ability0_shop_flavor 						Four hundred years ago the great prophet Sir Asaac Rewton mastered the three laws of gravity.\nUsing this knowledge he granted all prophets the possibility to apply his laws for a new ability ^oVortex^* which applies the known laws to create a gravity field which noone can escape.
+
+
+// Ability 1
+wl_Ability1_name 									Fireball
+wl_Ability1_description 							Shoot fireball in target direction.\nHit any enemies to push them out!
+wl_Ability1_description_simple 						Target a direction to shoot a fireball.\n\nFireball deals ^o50^* Damage and ^o700^* push.\n\nFireballs may hit each other.
+wl_Ability1_IMPACT_effect 							Shoots a fireball in target direction at ^o{800,850,900,950,1000}^* speed.\n\nFireball has a touch radius of ^o50^* and dies upon impact dealing ^o50^* Damage and ^o700^* push.\n\nFireballs may hit each other creating a small explosion.\n\nFireball has ^o{0.25,0.20,0.15,0.10,0.05}s^* cast time and ^o{6,5.5,5,4.5,4}s^* cooldown.
+
+wl_Item_Ability1_name 								Fireball
+wl_Item_Ability1_description 						Shoot fireball in target direction.\nHit any enemies to push them out!
+wl_Item_Ability1_description_simple 				Shoots a fireball in target direction. Fireballs Damage and knock back enemies.
+wl_Item_Ability1_IMPACT_effect 						Shoots a fireball in target direction at ^o800/850/900/950/1000^* speed.\n\nFireball has a touch radius of ^o50^* and dies upon impact dealing ^o50^* Damage and ^o700^* push.\n\nFireballs may hit each other creating a small explosion.\n\nFireball has ^o0.25/0.20/0.15/0.10/0.05s^* cast time and ^o6/5.5/5/4.5/4s^* cooldown.\n\n^rCan be upgraded 5 times.^*
+wl_Item_Ability1_shop_flavor 						Long ago the prophets learned how to use their inner magic to produce fire. The fireball focuses a lot of fire around a magma ball which explodes on impact. The explosion has since evolved to cause a great knock back effect sliding some people far away from the impact location.
+
+
+// Ability 2
+wl_Ability2_name 									Explosive Port
+wl_Ability2_description								Teleport forward shooting any enemies away!
+wl_Ability2_description_simple 						Teleport 700 units in the direction you are facing, dealing ^o{5,10,15,20,25}^* Damage and ^o{500,525,550,575,600}^* push in a ^o150^* radius where you land.
+wl_Ability2_IMPACT_effect 							Teleport 700 units in the direction you are facing, dealing ^o{5,10,15,20,25}^* Damage and ^o{500,525,550,575,600}^* push in a ^o150^* radius where you land.\n\nExplosive port has ^o0.4s^* cast time.
+
+wl_Item_Ability2_name 								Explosive Port
+wl_Item_Ability2_description 						Teleport forward shooting any enemies away!
+wl_Item_Ability2_description_simple 				Teleports you forward, damaging and knocking back any foes where you land.
+wl_Item_Ability2_IMPACT_effect 						Teleport 700 units in the direction you are facing, dealing ^o5/10/15/20/25^* Damage and ^o500/525/550/575/600^* push in a ^o150^* radius where you land.\n\nExplosive port has ^o0.4s^* cast time.\n\n^rCan be upgraded 5 times.^*
+wl_Item_Ability2_shop_flavor 						The prophets have always been magicians mastering unknown magic.\nExplosive port is no exception as it utilizes a whole new realm to transport the prophet to the location seemingly instant causing a great disaster to everyone except himself.
+
+
+// Ability 3
+wl_Ability3_name 									Thunderbolt
+wl_Ability3_description 							Fires a Thunderbolt to the target location.
+wl_Ability3_description_simple 						Target a location to fire a Thunderbolt there.\n\nThe Thunderbolt deals ^o{40,45,50,55,60}^* Damage and ^o{700,725,750,775,800}^* push in the radius.
+wl_Ability3_IMPACT_effect 							Target a location to fire a Thunderbolt there.\n\nThe Thunderbolt deals ^o{40,45,50,55,60}^* Damage and ^o{700,725,750,775,800}^* push in ^o100^* radius upon impact.\n\nThunderbolt has ^o0.5s^* cast time.\n\nIf you target a Thunderbolt near an Obelisk, it will charge that Obelisk with energy. The next time a Thunderbolt lands near a charged Obelisk, it explodes with powerful energy!
+
+wl_Item_Ability3_name 								Thunderbolt
+wl_Item_Ability3_description 						Fires a Thunderbolt to the target location.
+wl_Item_Ability3_description_simple 				Fires a Thunderbolt to target location damaging and pushing enemies back.
+wl_Item_Ability3_IMPACT_effect 						Target a location to fire a Thunderbolt there.\n\nThe Thunderbolt deals ^o40/45/50/55/60^* Damage and ^o700/725/750/775/800^* push in a ^o100^* radius upon impact.\n\nThunderbolt has ^o0.5s^* cast time.\n\nIf you target a Thunderbolt near an Obelisk, it will charge that Obelisk with energy. The next time a Thunderbolt lands near a charged Obelisk, it explodes with powerful energy!\n\n^rCan be upgraded 5 times.^*
+wl_Item_Ability3_shop_flavor 						Out of all the 64 elements the only one the prophets have yet to master is lightning.\nThunderbolt is a lightning based spell which causes a GREAT knock back but because there was lack in research funds they never managed to maximize the Damage.\nBlame the president!
+
+
+// Ability 4
+wl_Ability4_name 									Meteor
+wl_Ability4_description 							Launches everyone in 300 radius of the Meteor away!
+wl_Ability4_description_simple 						Target a location to launch a Meteor.\n\nExplosion deals Damage based on how close the person is to the center; up to ^o{60,70,80,90,100}^* Damage and up to ^o{600,700,800,900,1000}^* push.
+wl_Ability4_IMPACT_effect 							Fires a Meteor at target location.\n\nThe Meteor explodes at the location in a ^o300^* radius after ^o1.3s^*.\n\nThe Meteor can travel up to a maximum of ^o800^* range.\n\nExplosion deals Damage based on how close the person is to the center but a maximum of ^o{60,70,80,90,100}^* Damage and up to ^o{600,700,800,900,1000}^* push.
+
+wl_Item_Ability4_name 								Meteor
+wl_Item_Ability4_description 						Launches everyone in 300 radius of the Meteor away!
+wl_Item_Ability4_description_simple 				Fires a Meteor at target location which explodes dealing Damage and knockback.
+wl_Item_Ability4_IMPACT_effect 						Fires a Meteor at target location.\n\nThe Meteor explodes at the location in ^o300^* radius after ^o1.3s^*.\n\nThe Meteor can travel up to a maximum of ^o800^* range.\n\nExplosion deals Damage based on how close the person is to the center but a maximum of ^o60/70/80/90/100^* Damage and up to ^o600/700/800/900/1000^* push.\n\n^rCan be upgraded 5 times.^*
+wl_Item_Ability4_shop_flavor 						Another fire spell you say?\nThis one will be no different you say?\nThe prophets strike with great power from the sky!\nThe Meteor is a spell granted by god himself capable of disrupting earth itself, but as we all know the prophets weren't earthlings to start with...\nFeel free to shoot some Meteors, but make sure you're out of the blast radius!\nThis is not just another fire spell.
+
+
+// Ability 5
+wl_Ability5_name 									Arcane Missile
+wl_Ability5_description								Launch a small Arcane Missile that bounces off everyone it hits.
+wl_Ability5_description_simple 						Target a direction to shoot a small Arcane Missile. For ^o{3,3.5,4,5.5,6}s^* the Missile will bounce off Heroes it hits, dealing Damage and Pushing them.\n\nMissiles can bounce off your own Hero.
+wl_Ability5_IMPACT_effect							Target a direction to shoot a small Arcane Missile with a 100 unit hitbox.\n\nFor ^o{3,3.5,4,5.5,6}s^* the Missile will bounce off Heroes it hits and retarget towards the next nearest Hero. Deals ^o{10,12,14,16,18} Damage and {400} Push^* to everyone it hits.\n\nMissile can bounce off your own Hero, but its deals no damage and does not push you.
+
+wl_Item_Ability5_name 								Arcane Missile
+wl_Item_Ability5_description 						Launch a small Arcane Missile that bounces off everyone it hits.
+wl_Item_Ability5_description_simple 				Launches a small arcane missile in target direction which bounces for a duration.
+wl_Item_Ability5_IMPACT_effect 						Target a location to shoot a small Arcane Missile with a 100 unit hitbox.\n\nFor ^o3/3.5/4/5.5/6s^* the Missile will bounce off Heroes it hits and retarget towards the next nearest Hero. Deals ^o10/12/14/16/18 Damage and {400} Push^* to everyone it hits.\n\nMissiles can bounce off your own Hero, but its deals no damage and does not push you.\n\n^rCan be upgraded 5 times.^*
+wl_Item_Ability5_shop_flavor 						Too bad, it's me ^rBlacksmith!^*
+
+
+// Ability 6
+wl_Ability6_name 									Alter Time
+wl_Ability6_description								Use to save your current health and positiion, and then go back in time seconds later!
+wl_Ability6_description_simple 						On use, saves your current health and position.\n\nFor the next ^o{2,2.25,2.5,2.75,3} seconds^*, if you take lethal Damage or press the button again one of two things will happen: If there is an Enemy Hero next to you, they will be ported back to where you casted this ability and you are healed for any damage you took during the duration.\n\nIf there are no nearby heroes, you will return to the cast position and healed back any damage you took.
+wl_Ability6_IMPACT_effect							On use, saves your current health and position.\n\nFor the next ^o{2,2.25,2.5,2.75,3} seconds^*, if you take lethal Damage or press the button again one of two things will happen: If there is an Enemy Hero next to you, they will be ported back to where you casted this ability and you are healed for any damage you took during the duration.\n\nIf there are no nearby heroes, you will return to the cast position and healed for any damage you took.
+
+wl_State_Ability6_name								Alter Time
+
+wl_Item_Ability6_name 								Alter Time
+wl_Item_Ability6_description 						Use to save your current health, and then go back in time seconds later!
+wl_Item_Ability6_description_simple 				Use to save your current health, and then go back in time seconds later!
+wl_Item_Ability6_IMPACT_effect 						On use, saves your current health and position.\n\nFor the next ^o2/2.25/2.5/2.75/3 seconds^*, if you take lethal Damage or press the button again one of two things will happen:\nIf there is an Enemy Hero next to you, they will be ported back to where you cast this ability and you are healed for any damage you took during the duration.\n\nIf there are no nearby heroes, you will return to the cast position and healed back any damage you took.
+wl_Item_Ability6_shop_flavor 						Aaah time... Long ago the prophets captured Chronos, Newerth's time lord and manipulator.\nThey shackled him up and managed to attach a device which allows to drain his power for a short about of time.\nThis allows the prophets to reverse time from a moment to another.
+
+
+// Ability 7
+wl_Ability7_name 									Sword Throw
+wl_Ability7_description								Throws a sword you can retarget for the duration.
+wl_Ability7_description_simple 						Target a location to throw a Sword there for ^o{4,4.5,5,5.5,6}s^*, dealing ^020 Damage^* and ^o1000 Push^* to anyone hit.\n\nYou can use this ability again to retarget the Sword to a new location.
+wl_Ability7_IMPACT_effect							Target a location to throw a Sword there for ^o{4,4.5,5,5.5,6}s^*, dealing ^020 Damage^* and ^o1000 Push^* to anyone hit.\n\nYou can use this ability again to retarget the Sword to a new location.
+
+wl_Item_Ability7_name 								Sword Throw
+wl_Item_Ability7_description 						Throws a sword you can retarget for the duration.
+wl_Item_Ability7_description_simple 				Throw a sword at the target location, dealing damage and knocking back those you hit.
+wl_Item_Ability7_IMPACT_effect 						Target a location to throw a Sword there for ^o4/4.5/5/5.5/6s^*, dealing ^020 Damage^* and ^o1000 Push^* to anyone hit.\n\nYou can use this ability again to retarget the Sword to a new location.\n\n^rCan be upgraded 5 times.^*
+wl_Item_Ability7_shop_flavor 						
+
+
+// Ability 8
+wl_Ability8_name 									Smash
+wl_Ability8_description								Stomps the ground, teleporting everyone to the other side of you and pushing them around you away in that direction!
+wl_Ability8_description_simple 						Activate to deal ^o50^* Damage and up to ^o800^* Push to enemies within the radius depending on how far they are from you.\n\nDeals ^o{10,13,16,19,22}^* ^gnon-lethal^* Damage to yourself and pushes you away from the enemies you hit.
+w1_Ability8_IMPACT_effect							Activate to deal ^o50^* Damage and up to ^o800^* Push to enemies within the radius depending on how far they are from you.\n\nDeals ^o{10,13,16,19,22}^* ^gnon-lethal^* Damage to yourself and pushes you away from the enemies you hit.\n\nHas a ^o{1.0,0.85,0.7,0.55,0.4}s^* cast time.
+
+wl_Item_Ability8_name 								Smash
+wl_Item_Ability8_description 						Stomps the ground, teleporting everyone to the other side of you and pushing them away in that direction!
+wl_Item_Ability8_description_simple 				Stomps the ground, pushing everyone around you away in all directions!
+wl_Item_Ability8_IMPACT_effect 						Activate to deals ^o50^* Damage and up to ^o800^* Push to enemies within the radius depending on how far they are from you.\n\nDeals ^o10/13/16/19/22^* ^gnon-lethal^* Damage to yourself and pushes you away from the enemies you hit.\n\nHas a ^o1.0/0.85/0.7/0.55/0.4s^* cast time.\n\n^rCan be upgraded 5 times.^*
+wl_Item_Ability8_shop_flavor 						Is there something the prophets can't do?\nFor long it was thought they couldn't do martial arts.\nFor over 2000 years they practiced their strength and accuracy and they managed to master a kung fu smash which launches everything around them in all directions, however it does indeed hurt to smash the ground that hard.
+
+
+// Ability 9
+wl_Ability9_name 									Pullbomb
+wl_Ability9_description 							Fires a bomb that you can detonate at any time, pulling people towards the explosion.
+wl_Ability9_description_simple						Target a direction to fire a bomb.\n\nActivate this spell again to detonate the bomb, dealing ^o{10,15,20,25,30}^* Damage and ^o{700,725,750,775,800}^* Pull to enemies in the radius.
+wl_Ability9_IMPACT_effect							Target a direction to fire a bomb.\n\nThe bomb travels at a speed of ^o750^*, up to a range of ^o1500^* units.\n\nThe spell can then be activated again to detonate the bomb, dealing ^o{10,15,20,25,30}^* Damage and ^o{700,725,750,775,800}^* Pull to enemies within the radius.
+
+wl_Item_Ability9_name 								Pullbomb
+wl_Item_Ability9_description 						Fires a bomb that you can detonate at any time, pulling people towards the explosion.
+wl_Item_Ability9_description_simple 				Fires a bomb that you can detonate at any time, pulling people towards the explosion.
+wl_Item_Ability9_IMPACT_effect 						Target a direction to fire a bomb.\n\nThe bomb travels at a speed of ^o750^*, up to a range of ^o1500^* units.\n\nThe spell can then be activated again to detonate the bomb, dealing ^o10/15/20/25/30^* Damage and ^o700/725/750/775/800^* Pull to enemies within the radius.\n\n^rCan be upgraded 5 times.^*
+
+
+// Ability 10
+wl_Ability10_name 									Ghost
+wl_Ability10_description 							Become a Ghost, letting projectiles pass through you and exploding afterwards.
+wl_Ability10_description_simple						Activate to become a Ghost for ^o{1.6,1.7,1.8,1.9,2}s^*, dodging most projectiles.\n\nUsing an ability while Ghosted ends the ability early.\n\nIf Ghosted lasts the full duration, all enemies within ^o175^* range are dealt ^o{30,35,40,45,50}^* Damage and ^o{500,525,550,575,600}^* Push.
+wl_Ability10_IMPACT_effect							Activate to become a Ghost for ^o{1.6,1.7,1.8,1.9,2}s^*, dodging most projectiles.\n\nUsing an ability while Ghosted ends the ability early.\n\nIf Ghosted lasts the full duration, all enemies within ^o175^* range are dealt ^o{30,35,40,45,50}^* Damage and ^o{500,525,550,575,600}^* Push.
+wl_Ability10_effect_header	Ghosted Effect(s)
+
+wl_State_Ability10_name 							Ghosted
+wl_State_Ability10_FRAME_effect						After the full duration, deals ^o{30,35,40,45,50}^* Damage and ^o{600,625,650,675,700}^* Push to all enemies in range.
+
+wl_Item_Ability10_name 								Ghost
+wl_Item_Ability10_description 						Become a Ghost, letting projectiles pass through you and exploding afterwards.
+wl_Item_Ability10_description_simple 				Become a Ghost, letting projectiles pass through you and exploding at the end.
+wl_Item_Ability10_IMPACT_effect						On use, becomes a Ghost for ^o1.6/1.7/1.8/1.9/2s^*, dodging most projectiles.\n\nUsing an ability while Ghosted ends the ability early.\n\nIf Ghosted lasts the full duration, all enemies within ^o175^* range are dealt ^o30/35/40/45/50^* Damage and ^o500/525/550/575/600^* Push.
+
+
+// Ability 11
+wl_Ability11_name 									Essence Link
+wl_Ability11_description 							Attempt to link yourself to an Obelisk or Enemy, pulling you both towards the other.
+wl_Ability11_description_simple						Target a direction to fire a Link Bolt.\n\nOn impact with an enemy or Obelisk, binds both the target and yourself together. For the next 2s you both will be pulled towards the unit you are linked to.\n\nActivate this ability again to cancel the effect early.
+wl_Ability11_IMPACT_effect							Fires a Link Bolt in target direction. The Link travels at a speed of ^o1000^*, up to a range of ^o1200^*, and has a touch radius of ^o70^.\n\nOn impact with an enemy or Obelisk, binds both the target and yourself together. For the next 2s you both will be pulled towards the unit you are linked to at ^o{900,1000,1100,1200,1300}^* Push force.\n\nActivate this ability again to cancel the effect early.
+wl_Ability11_effect_header	Linked Effect(s)
+
+wl_State_Ability11_name 							Linked
+wl_State_Ability11_FRAME_effect 					Pullled towards the unit linked to you.
+wl_State_Ability11_self_name 						Linked
+wl_State_Ability11_self_FRAME_effect 				Pullled towards the unit linked to you.
+wl_State_Ability11_obelisk_name						Linked
+
+wl_Item_Ability11_name 								Essence Link
+wl_Item_Ability11_description 						Attempt to link yourself to an Obelisk or Enemy, pulling you both towards the other.
+wl_Item_Ability11_description_simple 				Attempt to link yourself to an Obelisk or Enemy, pulling you both towards the other.
+wl_Item_Ability11_IMPACT_effect						Fires a Link in target direction. The Link travels at a speed of ^o1000^*, up to a range of ^o1200^*, and has a touch radius of ^o70^*.\n\nOn impact with an enemy or Obelisk, binds both the target and yourself together. For the next 2s you both will be pulled towards the unit you are linked to at ^o900/1000/1100/1200/1300^* Push force.\n\nActivate this ability again to cancel the effect early.\n\n^rCan be upgraded 5 times.^*
+
+
+// Ability 12
+wl_Ability12_name 									Slide
+wl_Ability12_description 							Instantly push yourself in any direction you wish.
+wl_Ability12_description_simple						Target a direction to instantly apply a {800,850,900,950,1000} Push to yourself.\n\nAs long as your speed stays above 300, the first enemy to come near you is dealt ^o{20,25,30,35,40}^* Damage and ^o{560,570,580,590,600}^* Push.
+wl_Ability12_IMPACT_effect							Target a direction to instantly apply a {800,850,900,950,1000} Push to yourself.\n\nAs long as your speed stays above 300, the first enemy to come near you is dealt ^o{20,25,30,35,40}^* Damage and ^o{560,570,580,590,600}^* Push.\n\nCasting a spell reduces your speed by 300.
+wl_Ability12_effect_header							Sliding Effect(s)
+wl_State_Ability12_name 							Sliding
+
+wl_Item_Ability12_name 								Slide
+wl_Item_Ability12_description 						Instantly push yourself in any direction you wish.
+wl_Item_Ability12_description_simple 				Instantly push yourself in any direction you wish.
+wl_Item_Ability12_IMPACT_effect						Target a direction to instantly apply a {800,850,900,950,1000} Push to yourself.\n\nAs long as your speed stays above 300, the first enemy to come near you is dealt ^o20/25/30/35/40^* Damage and ^o560/570/580/590/600^* Push.\n\nCasting a spell reduces your speed by 300.\n\n^rCan be upgraded 5 times.^*
+
+
+// Ability 13
+wl_Ability13_name 									Deflection
+wl_Ability13_description 							For a few seconds, Deflect most spells and take no damage from the Arena!
+wl_Ability13_description_simple						Activate to Deflect most spells for ^o{2,2.25,2.5,2.75,3}s^*.\n\nWhile Deflection is on, you do NOT take damage from being outside of the Arena!\n\nUsing an ability ends Deflection early.
+wl_Ability13_IMPACT_effect							Activate to Deflect most spells for ^o{2,2.25,2.5,2.75,3}s^*.\n\nWhile Deflection is on, you do NOT take damage from being outside of the Arena!\n\nUsing an ability ends Deflection early.
+wl_Ability13_effect_header							Deflecting Effect(s)
+
+wl_State_Ability13_name 							Deflecting
+wl_State_Ability13_FRAME_effect						Most spells are Deflected.
+
+wl_Item_Ability13_name 								Deflection
+wl_Item_Ability13_description 						For a few seconds, Deflect most spells and take no damage from the Arena!
+wl_Item_Ability13_description_simple 				For a few seconds, Deflect most spells and take no damage from the Arena!
+wl_Item_Ability13_IMPACT_effect						On use, Deflects most spells for ^o2/2.25/2.5/2.75/3s^*.\n\nWhile Deflection is on, you do NOT take damage from being outside of the Arena!\n\nUsing an ability ends Deflection early.\n\n^rCan be upgraded 5 times.^*
+
+
+// Ability ? (May get reworked? - Haven't written stuff for this)
+wl_Item_Upgrade0_name 								Lifesteal
+wl_Item_Upgrade0_description 						Heals yourself for part of the damage you deal.
+wl_Item_Upgrade0_description_simple 				Heals yourself for part of the damage you deal.
+wl_Item_Upgrade0_IMPACT_effect 						Heals self for ^o8/13/18/23/28%^* of all Damage dealt.\n\n^rCan be upgraded 5 times.^*
+wl_Item_Upgrade0_shop_flavor 						Life is another one of those elements the prophets have mastered.\nThey managed to figure out a way to drain life while dealing Damage at the same time.\nA very useful feature for an experienced prophet.
+
+wl_Upgrade0_name									Lifesteal
+wl_Upgrade0_FRAME_effect							Heals self for ^o8/13/18/23/28%^* of all Damage dealt
+
+// wl_AbilityChannelbar
+wl_AbilityChannelbar_name							Shop Available
+
+// wl_AbilityTooltip
+wl_AbilityTooltip_name								Help
+wl_AbilityTooltip_description						If you need more help, click here!
+wl_AbilityTooltip_description_simple				In this game, you want to be the last man standing as the Arena slowly shrinks. If you step outside of it, you will take Damage over time. Buy new abilitie or upgrade your current ones between rounds.\n\nClick for more Information.
+wl_AbilityTooltip_IMPACT_effect						In this game, you want to be the last man standing as the Arena slowly shrinks. If you step outside of it, you will take Damage over time. Buy new abilitie or upgrade your current ones between rounds.\n\nClick for more Information.
+
+// End - do not delete this line
