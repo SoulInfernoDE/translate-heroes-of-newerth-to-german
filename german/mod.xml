@@ -20,8 +20,16 @@ Credits:
     weblink="https://github.com/SoulInfernoDE/translate-heroes-of-newerth-to-german"   
     updatecheckurl="https://raw.githubusercontent.com/SoulInfernoDE/translate-heroes-of-newerth-to-german/honmod/german/updatecheck/version.txt"
     updatedownloadurl="https://raw.githubusercontent.com/SoulInfernoDE/translate-heroes-of-newerth-to-german/honmod/german/Deutsch.honmod">
-	  <copyfile name="stringtables/client_messages_de.str" overwrite="yes" />	
-	  <copyfile name="stringtables/game_messages_de.str" overwrite="yes" />	
+	  <copyfile name="stringtables/interface_tutorial_de.str" overwrite="yes" />	
+	  <copyfile name="stringtables/interface_test_suite_de.str" overwrite="yes" />	
 	  <copyfile name="stringtables/interface_de.str" overwrite="yes" />
+	  <copyfile name="stringtables/game_messages_de.str" overwrite="yes" />
+	  <copyfile name="stringtables/entities_tutorial_de.str" overwrite="yes" />
+	  <copyfile name="stringtables/entities_reborn_de.str" overwrite="yes" />
+	  <copyfile name="stringtables/entities_prophets_de.str" overwrite="yes" />
+	  <copyfile name="stringtables/entities_herowars_de.str" overwrite="yes" />
 	  <copyfile name="stringtables/entities_de.str" overwrite="yes" />
+	  <copyfile name="stringtables/client_sounds_de.str" overwrite="yes" />
+	  <copyfile name="stringtables/client_messages_de.str" overwrite="yes" />
+	  <copyfile name="stringtables/bot_messages_de.str" overwrite="yes" />
 </modification>
