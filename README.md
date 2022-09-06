@@ -7,6 +7,7 @@ If you want to help with this translation:
 - please download git if you dont have it already
 - login to git on your cli and set the global login with:
 git config --global user.email my@email.here
+
 git config --global user.name mygitusername
 
 - Clone this repository
