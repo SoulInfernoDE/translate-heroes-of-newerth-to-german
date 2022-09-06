@@ -172,12 +172,12 @@ general_mode_banningdraft_desc				Players begin with a pool of 24 heroes. The Bl
 general_mode_counterpick					Counter Pick
 general_mode_counterpick_desc				Teams alternate between selecting heroes one at a time.
 general_mode_random							Random Hero
-general_mode_verified						Verified Only
+general_mode_verified						Nur Verified
 general_mode_ranked 						Ranked
 general_mode_unranked 						Unranked
 general_mode_bots							Bot Match
-general_mode_allPlayers						Basic and Verified
-general_mode_easy_mode						Easy Mode
+general_mode_allPlayers						Basic und Verified
+general_mode_easy_mode						Leichter Modus
 general_mode_no_hero_repick					No Hero Repick
 general_mode_no_hero_swap					No Hero Swap
 general_mode_no_agi_heroes					No Agi Heroes
@@ -185,54 +185,54 @@ general_mode_no_intel_heroes				No Intel Heroes
 general_mode_no_str_heroes					No Str Heroes
 general_mode_no_respawn_timer				No Respawn Timer
 general_mode_drop_items						Drop Items
-general_mode_no_runes						No Power-Ups
+general_mode_no_runes						Keine Power-Ups
 general_mode_super_creeps					Super Team Creeps
 general_mode_alt_hero_pick					Alt Hero Picking
 general_mode_duplicate_heroes				Duplicate Heroes
 general_mode_reverse_hero_select			Reverse Hero Select
-general_mode_no_top_lane					No Top Lane
-general_mode_no_middle_lane					No Middle Lane
-general_mode_no_bottem_lane					No Bottom Lane
-general_mode_allow_veto						Allow Veto
+general_mode_no_top_lane					Keine obere Lane
+general_mode_no_middle_lane					Keine mittlere Lane
+general_mode_no_bottem_lane					Keine untere Lane
+general_mode_allow_veto						Erlaube Veto
 general_mode_shuffle						Shuffle Team
 general_mode_autobalance					Auto Balanced
-general_mode_no_leavers						No Leavers
-general_mode_no_stats						No Stats
+general_mode_no_leavers						Keine Leaver
+general_mode_no_stats						Keine Stats
 general_mode_balaned_random					Balanced Random
-general_mode_official						Official
-general_mode_tournament_rules				Tournament Rules
+general_mode_official						Offiziell
+general_mode_tournament_rules				Tournament Regeln
 general_mode_hardcore						Hardcore
 general_mode_dev_heroes						Dev Heroes
 general_mode_casual_mode					Casual Mode
 general_mode_blitz							Blitz Mode
 general_mode_reborn 						Ranked Pick
 general_mode_reborn_desc					Each team votes for bans. Afterwards, teams share turns picking heroes; any player on the team can pick a hero.
-general_one_week							One Week
-general_one_day								One Day
-general_one_hour							One Hour
-general_one_minute							One Minute
-general_one_second							One Second
-general_weeks_amount						{amount} Weeks
-general_days_amount							{amount} Days
-general_hours_amount						{amount} Hours
-general_minutes_amount						{amount} Minutes
-general_seconds_amount						{amount} Seconds
+general_one_week							Eine Woche
+general_one_day								Ein Tag
+general_one_hour							Eine Stunde
+general_one_minute							Eine Minute
+general_one_second							Eine Sekunde
+general_weeks_amount						{amount} Wochen
+general_days_amount							{amount} Tage
+general_hours_amount						{amount} Stunden
+general_minutes_amount						{amount} Minuten
+general_seconds_amount						{amount} Sekunden
 general_permanent							Permanent
-general_help								Help
-general_hero_agi							Agility Heroes
-general_hero_int							Intelligence Heroes
-general_hero_str							Strength Heroes
+general_help								Hilfe
+general_hero_agi							Beweglichkeit Helden
+general_hero_int							Intelligenz Helden
+general_hero_str							Stärke Helden
 general_afk									AFK
-general_days								Days
-general_hours								Hours
+general_days								Tage
+general_hours								Stunden
 general_min									Min
-general_sec									Sec
+general_sec									Sek
 general_usd									USD
 general_shells								Shells
 general_treecash							Treecash
 general_axsocash 							AxesoCash
-general_submitting_stats					Submitting Stats...
-general_submission_success					Stat submission successful!
+general_submitting_stats					Übermittle Stats...
+general_submission_success					Stat Übermittlung erfolgreich!
 general_tournament							Tournament
 general_competitive							Competitive
 general_normal_mode							Normal Mode
@@ -243,38 +243,38 @@ general_con_casual_mode						CoN Casual Mode
 general_any									Any
 general_current_passes						You currently have passes for:
 general_ultimate							Ultimate
-general_used								Used
+general_used								Benutzt
 general_goback 								Go Back
 general_how_it_works						How it Works
-general_easy 								Easy
-general_medium 								Medium
-general_hard 								Hard
-general_or 									or
+general_easy 								Leicht
+general_medium 								Mittel
+general_hard 								Schwer
+general_or 									oder
 general_pass 								Pass
-general_fail 								Fail
-general_loading 							Loading...
+general_fail 								Fehlgeschlagen
+general_loading 							Laden...
 general_courier 							Courier
 general_leave 								Leave
 general_tickets 							Tickets
 general_how_many 							How Many?
-general_confirm 							Confirm
+general_confirm 							Bestätigen
 general_bundle 								Bundle
 general_okay 								Okay
-general_dontPrompt 							Don't Prompt Again
+general_dontPrompt 							Nicht nochmal fragen
 general_legion								Legion
 general_hellbourne							Hellbourne
 
-general_product_type_c 						Courier
-general_product_type_cc 					Chat Color
-general_product_type_cs						Chat Symbol
-general_product_type_ai						Account Icon
+general_product_type_c 						Kurier
+general_product_type_cc 					Chatfarbe
+general_product_type_cs						Chatsymbol
+general_product_type_ai						Accountsymbol
 general_product_type_aa						Alt Avatar
 general_product_type_av 					Announcer
 general_product_type_t						Taunt
-general_product_type_h 						Hero
+general_product_type_h 						Held
 general_product_type_eap 					Early Access
 general_product_type_s 						Status
-general_product_type_m 						Miscellaneous
+general_product_type_m 						Anderes
 general_product_type_w						Ward
 general_product_type_en					    Upgrade
 general_product_type_cr 					Creep
@@ -283,10 +283,10 @@ general_product_type_te						TP Effect
 general_product_type_sc				   		Selection Circle
 
 general_eula								EULA
-general_disabletip							Disable This Tip
+general_disabletip							Deaktiviere diesen Hinweis
 
 genera_date_format							{month} {day} {year}
-genera_date_format_months					Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sept,Oct,Nov,Dec
+genera_date_format_months					Jan,Feb,Mar,Apr,Mai,Jun,Jul,Aug,Sept,Okt,Nov,Dez
 genera_date_format_days						1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th,11st,12nd,13rd,14th,15th,16th,17th,18th,19th,20th,21st,22nd,23rd,24th,25th,26th,27th,28th,29th,30th,31st
 
 general_login_animation						Login Animation
@@ -296,141 +296,141 @@ general_login_animation						Login Animation
 main_hon_eula								HoN EULA
 main_hon_eula_notice						By Logging in and accessing our product, you agree to the
 
-main_button_change_settings_revert			Revert
-main_button_change_settings_keep			Keep Changes
-main_optimal_settings_prompt				Optimal Settings
+main_button_change_settings_revert			Rückgängig
+main_button_change_settings_keep			Übernehmen
+main_optimal_settings_prompt				Optimale Einstellungen
 main_optimal_settings_prompt_body			We've detected that you may have better performance with lower settings, and have automatically changed your settings.  Would you like to keep these settings, or revert to previous settings?
 
 main_peel_tip								--
 main_peel_tip_body							--
-main_peel_2_tip								View Referrals
+main_peel_2_tip								Referrals ansehen
 main_peel_2_tip_body						View the status of players you have referred and earn the exclusive Professor Repulsor avatar!
-main_label_username							Username
-main_label_password							Password
-main_checkbox_remember_me					Remember Me
+main_label_username							Benutzername
+main_label_password							Passwort
+main_checkbox_remember_me					Merken
 main_checkbox_auto_login					Auto Login
-main_label_account_type						Account Type
+main_label_account_type						Account-Typ
 main_label_account_type_desc
 main_label_account_level					Level:
-main_label_games_played						Games:
+main_label_games_played						Gespielt:
 main_label_leaves							Leaves:
-main_label_record							Record
-main_button_upgrade							Upgrade Now
-main_label_logged_in_as						Logged In As:
-main_button_login							Log In
-main_button_logout							Log Out
-main_label_login_status_waiting				Logging in, please wait...
-main_label_login_status_prewaiting			Loading, please wait...
-main_label_login_status_success				You are now logged in.
-main_label_login_status_failed				Login failed: {reason}
+main_label_record							Aufnahme
+main_button_upgrade							Jetzt Upgraden
+main_label_logged_in_as						Eingeloggt als:
+main_button_login							Einloggen
+main_button_logout							Ausloggen
+main_label_login_status_waiting				Einloggen, Bitte warten...
+main_label_login_status_prewaiting			Laden, Bitte warten...
+main_label_login_status_success				Du bist eingeloggt.
+main_label_login_status_failed				Login fehlgeschlagen: {reason}
 main_label_login_garena						You must launch Heroes of Newerth through the Garena Messenger.
 main_label_login_ntreev						You must launch Heroes of Newerth through Ntreev.
 main_label_login_axeso5						You must launch Heroes of Newerth through Axeso5.
-main_button_create_account					Create Account
-main_button_need_login						Login To Play Online
-main_button_play_online						Play Online
-main_button_local_game						Local Game
-main_button_options							Options
+main_button_create_account					Account erstellen
+main_button_need_login						Einloggen um Online zu spielen
+main_button_play_online						Spiele Online
+main_button_local_game						Lokales Spiel
+main_button_options							Optionen
 main_button_view_replay						View Replay
-main_button_quit							Exit
-main_quit_confirm							Really Exit?
-main_quit_confirm2							Are you sure you want to exit HoN?
-main_label_update_avail						A newer version of HoN is available for download! Would you like to download this version now?
-main_button_cancel_update					Cancel Update
-main_label_update_calculating				Calculating Update
-main_label_update_downloading				Update Downloading
-main_label_old_version						From: ^w{version}
-main_label_new_version						To: ^w{version}
-main_label_update_files						Files Remaining: ^w{count} / {total}
-main_label_update_progress					Progress: ^w{count}MB / {total}MB
-main_label_update_speed						Download Speed: ^w{speed}KB/sec
-main_label_update_time						Time Left: ^w{time}
-main_label_update_error						HoN Update Error
-main_login_save_username					Save Username
-main_login_save_username_tip				When selected, your username will be saved and automatically entered when you start the game.
-main_login_auto_auth						Auto Auth
-main_login_auto_auth_tip					When selected, your password will be saved and you will be automatically logged in when you start the game.
-main_login_invis_mode						Invisible Mode
-main_login_invis_mode_tip					When selected, your friends and clan mates will not be notified when you sign on/off or join/leave games, but you will still receive their notifications.
-main_login_lost_pass						Lost Login Info?
-main_login_password_saved					<saved>
-main_graphicsdriverold_confirm				Warning
-main_graphicsdriverold_confirm2				The driver of your graphics card is too old! Please Update it.  
+main_button_quit							Beenden
+main_quit_confirm							Wirklich beenden?
+main_quit_confirm2							Bist du sicher dass du HoN beenden möchtest?
+main_label_update_avail						Eine neuere Version von HoN ist verfügbar! Willst du updaten?
+main_button_cancel_update					Update abbrechen
+main_label_update_calculating				Berechne Update
+main_label_update_downloading				Update herunterladen
+main_label_old_version						Von: ^w{version}
+main_label_new_version						An: ^w{version}
+main_label_update_files						Dateifortschritt: ^w{count} / {total}
+main_label_update_progress					Fortschritt: ^w{count}MB / {total}MB
+main_label_update_speed						Download Geschwindigkeit: ^w{speed}KB/Sek
+main_label_update_time						Zeit benötigt: ^w{time}
+main_label_update_error						HoN Update Fehler
+main_login_save_username					Benutzername speichern
+main_login_save_username_tip				Wenn markiert, wird dein Benutzername gespeichert und automatisch eingegeben wenn du das Spiel startest.
+main_login_auto_auth						Automatisch anmelden
+main_login_auto_auth_tip					Wenn markiert, wird dein Passwort gespeichert und du wirst automatisch ins Spiel eingeloggt wenn du das Spiel startest.
+main_login_invis_mode						Unsichtbarer Login
+main_login_invis_mode_tip					Wenn markiert, können dich deine Freunde und Clanmitglieder nicht Online sehen, aber du kannst trotzdem ihre Nachrichten empfangen.
+main_login_lost_pass						Login Information verloren?
+main_login_password_saved					<gespeichert>
+main_graphicsdriverold_confirm				Warnung
+main_graphicsdriverold_confirm2				Dein Grafikkartentreiber ist zu alt! Bitte mache ein Update.  
 
 main_login_holiday_sale						Holiday Sale!
 main_login_holiday_sale_body				Make sure to head to Merrick's shop and claim your FREE holiday presents (Christmas Tree and Manora Ward Skins along with Jollywood and Christmas Keeper) from the HoN Team. Act quickly though, they are only available from Dec.17th until Jan. 2nd!
 
-main_login_queue_title						Queued for Login
+main_login_queue_title						In der Loginwarteschlange
 main_login_queue_body						You've been placed into a login queue.  You'll need to wait for others to login first.
-main_login_queue_place						Place in Queue:
+main_login_queue_place						Warteplatz:
 
 //confirmations.package
-confirm_lang_header							Language Changed
-confirm_lang_title							Restart HoN
-confirm_lang_desc							You must restart HoN for your language changes to properly take effect.
-confirm_lang_restart						Restart Now
-confirm_lang_later							Restart Later
+confirm_lang_header							Sprache gewechselt
+confirm_lang_title							HoN neu Starten
+confirm_lang_desc							Du musst HoN neu starten, damit die Sprachänderungen angewendet werden.
+confirm_lang_restart						Jetzt neu Starten
+confirm_lang_later							Später neu Starten
 
-confirm_lang_header_new 					Change Langauge?
-confirm_lang_title_new 						Restart HoN
-confirm_lang_desc_new 						In order to change your language, you must restart HoN.
-confirm_lang_restart_new 					Restart Now
-confirm_lang_later_new 						Cancel
+confirm_lang_header_new 					Sprache ändern?
+confirm_lang_title_new 						HoN neu Starten
+confirm_lang_desc_new 						Du musst HoN neu starten, damit die Sprachänderungen angewendet werden.
+confirm_lang_restart_new 					HoN neu Starten
+confirm_lang_later_new 						Abbrechen
 
-confirm_disconnect_title					Disconnect from the game?
-confirm_disconnect_msg						Are you sure you want to disconnect from this game?
+confirm_disconnect_title					Verbindung zum Spiel trennen?
+confirm_disconnect_msg						Bist du sicher, dass du die Verbindung zum Spiel trennen möchtest?
 confirm_leaver_result_nowleaver				You will NOT be able to join leaver protected games if you disconnect from this game.
 confirm_leaver_result_notleaver				You will NOT become a leaver if you disconnect from this game.
 
-confirm_switchsub_title						Switch Accounts?
-confirm_switchsub_msg						Are you sure you want to switch accounts?
-confirm_switchsub_da						Don\'t ask me again
+confirm_switchsub_title						Account wechseln?
+confirm_switchsub_msg						Bist du sicher, dass du den Account wechseln möchtest?
+confirm_switchsub_da						Nicht nochmal fragen
 
-confirm_verify_congrats						Congratulations!
-confirm_verify_complete						This Account Has Been Verified!
+confirm_verify_congrats						Gratulation!
+confirm_verify_complete						Dieser Account wurde verifiziert!
 confirm_verify_text1						Your Verified account allows you to exclude Basic accounts when you play matchmaking games.
 confirm_verify_text2						Excluding Basic accounts will increase your chances of finding a game free of griefers and smurf accounts.
 confirm_verify_text3						As a reward for becoming verified, you have received 5 free Tokens. Tokens can be used to play special game modes and play heroes that you do not own.
 
-confirm_verify_bene_not						This account is not Verified!
+confirm_verify_bene_not						Dieser Account ist nicht verifiziert!
 confirm_verify_bene_what					What are the benefits of a Verified Account?
 confirm_verify_bene_txt1					You are currently logged in with a Basic account. You are able to play unlimited games with a Basic account, but there are some perks to being Verified:
 confirm_verify_bene_txt2					You will be able to choose to play with only other Verified Users, you can buy tokens and passes to play other game modes, and you can use the Report a Player feature.
 confirm_verify_bene_txt3					Converting your Basic account into a Verified account is simple. Simply perform ONE of the following tasks:
-confirm_verify_bene_opt1					Play More Games
+confirm_verify_bene_opt1					Mehr Spiele spielen
 confirm_verify_bene_opt1_txt1				You can earn a Verified account for free by simply playing more Matchmaking games! Once you reach the target level, your account will automatically become Verified.
-confirm_verify_bene_opt1_current			Your Current Level:
-confirm_verify_bene_opt1_target				Level Needed:
-confirm_verify_bene_opt2					Purchase Goblin Coins
+confirm_verify_bene_opt1_current			Dein aktuelles Level:
+confirm_verify_bene_opt1_target				Level benötigt:
+confirm_verify_bene_opt2					Goblin Coins kaufen
 confirm_verify_bene_opt2_txt1				To instantly convert to a Verified account, you can make a purchase of any Goblin Coin package.
-confirm_verify_bene_buycoinsnow				Buy Coins Now
-confirm_verify_bene_closeWindow				Close Window
+confirm_verify_bene_buycoinsnow				Coins kaufen
+confirm_verify_bene_closeWindow				Fenster schliessen
 
 //account.package
-account_retrieve_header						Retrieve Username or Password
-account_lost_username						Lost Username
+account_retrieve_header						Benutzername oder Passwort wieder herstellen
+account_lost_username						Benutzername verloren
 account_lost_username_msg					Enter the email address attached to your account below to have your username sent to you.
 account_lost_username_processing			Processing Request, Please Wait...
 account_lost_username_success				An email containing your username has been sent to the email address attached to your account.
 account_lost_username_error1				I'm an error. Look at me. Justin will be making real errors some day!  No I won't!  I don't need your steenking errors!
-account_lost_password						Lost Password
+account_lost_password						Passwort verloren
 account_lost_password_msg					Enter either your username or email address to have your password sent to the email address attached to your account.
-account_lost_pass_sep						-or-
+account_lost_pass_sep						-oder-
 account_lost_password_success				An email containing your password has been sent to the email address attached to your account.
 
 // expire pw
-cp_string_1				Password Update Required
+cp_string_1				Password Update benötigt
 cp_string_2				Your password has expired or is set to expire soon!
 cp_string_3				Once your password has expired you will no longer be able to play Heroes of Newerth until you change it. Please choose a new password now to avoid any gameplay interruptions.
 cp_string_4				^yNote:^* You cannot reuse your old password, and your new password must be at least six characters long.
-cp_string_5				Set New Password
-cp_string_6				Cancel, Not Now
-cp_string_7				New Password
-cp_string_8				Confirm Password
+cp_string_5				Neues Passwort
+cp_string_6				Abbrechen, Nicht jetzt
+cp_string_7				Neues Passwors
+cp_string_8				Passwort bestätigen
 
 main_menu_hontour							Codex
 main_menu_watchsystem						HoN Live
-main_menu_creategame						Create Game
+main_menu_creategame						Spiel erstellen
 main_menu_publicgame						Public Games
 main_menu_playerhosted						Hosted Games
 main_menu_amm								Match Making
@@ -439,19 +439,19 @@ main_menu_playerstats						Ladder
 main_menu_matchstats						Match Stats
 main_menu_compendium						Herodex
 main_menu_leanatorium						Learnatorium
-main_menu_options							Options
+main_menu_options							Optionen
 main_menu_tutorial							Walkthrough
 main_menu_store								HoN Store
 main_menu_playnow							PLAY NOW!
-main_menu_cancel_update						Cancel Update
+main_menu_cancel_update						Update abbrechen
 
-main_reconnect_header						Reconnect?
-main_reconnect_ok							Reconnect
-main_reconnect_body							You have {time} seconds to reconnect!
+main_reconnect_header						Neu verbinden?
+main_reconnect_ok							Wiederverbinden
+main_reconnect_body							Du hast {time} Sekunden um dich neu zu verbinden!
 main_reconnect_text							You have disconnected from a game in progress, and may re-join that game.
 main_reconnect_playing_in					You are playing in a game under progress:
 
-main_leavegroup 							Leave Group?
+main_leavegroup 							Gruppe verlassen?
 main_leavegroup_body 						In order to continue you must leave any current games and groups. Would you like to continue?
 
 main_filter_prequery_title					Filter Pre-Query
@@ -490,12 +490,12 @@ map_team_deathmatch							Team Deathmatch
 map_caldavar_old							Forests of Caldavar (old)
 map_ALL                                     any map
 
-map_loading_capturetheflag_flaggold			Yellow Flag
-map_loading_capturetheflag_flagblue			Blue Flag
+map_loading_capturetheflag_flaggold			Gelbe Flagge
+map_loading_capturetheflag_flagblue			Blaue Flagge
 map_loading_capturetheflag_well				Well
 map_loading_capturetheflag_tower			Tower
 map_loading_capturetheflag_respawn			Respawn Location
-map_loading_capturetheflag_dropicon			Drop Flag Icon
+map_loading_capturetheflag_dropicon			Flaggensymbol fallen lassen
 
 map_loading_capturetheflag_tip01			- Right-click the enemy flag to pick it up. You cannot pick up your own flag.
 map_loading_capturetheflag_tip02			- Capture the enemy flag by carrying it to your flag in your base.
@@ -570,7 +570,7 @@ map_loading_soccer_tip01_slide		Slide
 map_loading_soccer_tip01_sprint		Sprint
 
 map_loading_soccer_start			Ball starting location
-map_loading_soccer_goals			Goals
+map_loading_soccer_goals			Ziele
 map_loading_soccer_rune				Rune spawn locations
 
 map_loading_solomap_tip01			
@@ -588,40 +588,40 @@ map_loading_caldavar_reborn_tip05	- Killing enemy towers grants gold for your te
 map_loading_legend							Legend:
 
 // game_options.package
-options_repair_confirm_head					Repair Install
-options_repair_confirm						Repair Install
+options_repair_confirm_head					Installation reparieren
+options_repair_confirm						Installation reparieren
 options_repair_confirm_desc					Are you sure you want to try to repair your installation? You will be disconnected and the client will automatically restart.
 
 options_dropdown_overlayselect				Select Game Overlay:
-options_submen_gameoverlays					Game Overlays
+options_submen_gameoverlays					Spiel-Overlays
 
-options_reset_opt_confirm					Reset All Options
-options_reset_con_confirm					Reset All Controls
+options_reset_opt_confirm					Alle Optionen zurück setzen
+options_reset_con_confirm					Steuerung komplett zurück setzen
 options_reset_shop_confirm					Clear Shop Hotkeys
-options_reset_confirm_desc					Are you sure?
+options_reset_confirm_desc					Bist du dir sicher?
 
 options_play_notification_sounds			Play Notification Sounds
 options_im_history							Store chat history
 options_gameoptions_title					In-Game
-options_label_current_weather				Weather Conditions
-options_disabled							Disabled
-options_very_low							Very Low
-options_low									Low
+options_label_current_weather				Wetter Einstellungen
+options_disabled							Deaktiviert
+options_very_low							Sehr niedrig
+options_low									Niedrig
 options_normal								Normal
-options_medium								Medium
-options_high								High
-options_very_high							Very High
+options_medium								Mittel
+options_high								Hoch
+options_very_high							Sehr Hoch
 options_ultra 								Ultra
-options_custom 								Custom
-options_header_game_options					Game Options
-options_header_video_options				Video Options
-options_label_display						Display
+options_custom 								Manuell
+options_header_game_options					Spieloptionen
+options_header_video_options				Grafikoptionen
+options_label_display						Bildschirm
 options_display_tip							The display to use when running the game in fullscreen mode.
-options_label_resolution					Resolution
+options_label_resolution					Auflösung
 options_resolution_tip						The number of pixels displayed across and down your display.
-options_label_color_depth					Color Depth
+options_label_color_depth					Farbtiefe
 options_color_depth_tip						The number of bits per pixel. Some lower end systems can see a performance boost by selecting 16bit color depth.
-options_label_refresh_rate					Refresh Rate
+options_label_refresh_rate					Bildwiederholfrequenz
 options_tip_refresh_rate					How many times per second your display is updated. Higher values prevent flickering, but may not be supported at higher resolutions.
 options_label_anti_aliasing					Anti-Aliasing
 options_label_anti_aliasing_tip				Anti-Aliasing smoothes multi samples of scenes giving the image a softer, more realistic look on the edges of models. The more samples you use, the slower the game may run.
@@ -629,32 +629,32 @@ options_label_aspect_ratio					Aspect Ratio
 options_label_aspect_ratio_tip				Relative horizontal and vertical display size. If you are using a LCD monitor, make sure you select the resolution native to your monitor to ensure a crisp image.
 options_label_texture_filtering				Texture Filtering
 options_label_texture_filtering_tip			Smoothes out textures as they change their distance or angle from the camera. No filtration is the fastest, but allows for pixelation while Anisotropic is the most accurate, but may cause a decrease in performance on lower end systems.
-options_label_brightness					Brightness: ^w
-options_brightness_tip_header				Brightness
+options_label_brightness					Helligkeit: ^w
+options_brightness_tip_header				Helligkeit
 options_brightness_tip						Increase brightness by dragging the slider to the right, decrease it by sliding to the left. Default setting is 1.00
-options_checkbox_full_screen_mode			Full Screen Mode
+options_checkbox_full_screen_mode			Vollbildmodus
 options_full_screen_tip						The game will fill your entire screen.
-options_checkbox_show_client_info			Show FPS/Ping
+options_checkbox_show_client_info			Zeige FPS/Ping
 options_checkbox_show_client_info_tip		Displays current FPS and Ping at the top right of the screen.
 
-options_checkbox_exclusive_mode				Exclusive Mode
+options_checkbox_exclusive_mode				Exclusiver Modus
 options_exclusive_mode_tip					Running in Exclusive mode may increase performance slightly, but make multitasking more difficult.
 options_checkbox_frame_queuing				Frame Queuing
 options_frame_queuing_tip					Enabling Frame Queuing may increase performance but can also increase input latency.
-options_header_rendering_options			Rendering Options
-options_label_model_quality					Model Quality
+options_header_rendering_options			Rendering Optionen
+options_label_model_quality					Modell Qualität
 options_model_quality_tip					Using less complex model vertexes will allow the game to run smoother on lower end systems and video cards.
-options_label_texture_size					Texture Size
+options_label_texture_size					Texturengrösse
 options_texture_size_tip					Using larger textures will result in better visual detail at the cost of both video and physical memory.
-options_shader_water_quality				Water Quality
+options_shader_water_quality				Wasserqualität
 options_shader_water_quality_tip			Water quality. Lowering the quality will hinder visuals, but allow the game to run on lower end video cards.
-options_shader_quality						Shader Quality
+options_shader_quality						Shaderqualität
 options_shader_quality_tip					Shaders require a lot of horsepower from your graphics processor. Lowering the quality will hinder visuals, but allow the game to run on lower end video cards.
-options_shadow_quality						Shadow Quality
+options_shadow_quality						Schattenqualität
 options_shadow_quality_tip					The higher the shadow quality, the crisper shadows will appear, but at the cost of additional video memory. Shadows are limited by both your graphics processor and CPU.
 options_special_effects						Special Effects
 options_special_effects_tip					Special effects are used in unit abilities and similar animations. Use of lower quality decreases particle count and allows the game to run smoother on lower end systems.
-options_reflections							Reflections
+options_reflections							Reflektionen
 options_reflections_tip						Reflections are used in objects like armor and water to show real-time reflections at the expense of performance.
 options_rim_lighting						Rim Lighting
 options_rim_lighting_tip					Rim Lighting enhances the visual contrast of models against the background by simulating the effects of a bright light behind the model, creating a bright rim around the upper edges.
@@ -668,10 +668,10 @@ options_spec_skybox							Enable Skybox in Spectator View
 options_spec_skybox_tip						Renders the skybox when viewing a game as a spectator.
 options_display_foliage						Display Foliage
 options_foliage_tip_text					Turning off foliage will increase your video performance.
-options_display_skybox						Display Skybox
+options_display_skybox						Skybox nutzen
 options_skybox_tip_text						Turning on/off the skybox will change the visuals of reflections.
 options_vsync								Vertical Sync
-options_d3dex								Hardware Memory Mode
+options_d3dex								Hardware Memory Modus
 options_d3dex_tip_text						Reduces the amount of memory used by DirectX. In the event of driver failure, recovery will take longer than usual. Window Vista and Windows 7 Only.
 options_alienfx								AlienFX
 options_alienfx_tip							Enable AlienFX (Requires Restart)
@@ -680,107 +680,107 @@ options_checkbox_transparency_aa_label		Transparency Anti-Aliasing
 options_checkbox_transparency_aa_desc		Transparency Anti-Aliasing is a method to smooth transparent texture edges, as opposed to model edges, to create a softer look. These types of textures are most often used as foliage. Increasing the sampling will make certain textures smoother but may hinder performance.
 options_dynamic_lights						Dynamic Lights
 options_dynamic_lights_tip					Dynamic lights are used to enhance effects and the look of the game, but can decrease performance on some video cards.
-options_button_reset_all					Reset All
+options_button_reset_all					Alles zurück setzen
 options_button_ok							Ok
-options_button_apply						Apply
+options_button_apply						Übernehmen
 options_button_sound						Sound
-options_button_controls						Controls
+options_button_controls						Steuerung
 options_button_awards						Awards
 options_button_stats						Stats
 options_button_interface					Interface
-options_button_graphics						Graphics
-options_button_voice						Voice
+options_button_graphics						Graphik
+options_button_voice						Sprache
 options_button_mods							Mods
 options_troubleshooting						Troubleshooting
 options_referral							Referrals
-options_interface_opts						Interface Options
-options_display_opts						Display Options
+options_interface_opts						Interface Optionen
+options_display_opts						Anzeige Optionen
 options_cloud_opts							Cloud Saves
-options_graphicslvl_set						Set Your Graphics Level
+options_graphicslvl_set						Grafiklevel setzen
 options_graphicslvl_txt1					Use the slider to the left to set your graphics options.
 options_graphicslvl_txt2					After changing your setting, click the Apply button to view the effects of the changes in the sample scene. Setting a new graphics level will overwrite some of the options you may have set below.
 options_graphicslvl_txt3					If you would like more control over specific graphical options, you can scroll down and manually change the options.
 options_set_binds							Set Your Keybinds
 options_submen_video						Video
-options_submen_vol							Volume
+options_submen_vol							Lautstärke
 options_submen_faq							FAQ
 options_submen_gameplay						Gameplay
 options_submen_chat							Chat
 options_submen_friendsclans					Friends and Clan
-options_submen_notifications				Notifications
-options_submen_assistance					Assistance
-options_submen_nameplates					Health Bars
+options_submen_notifications				Benachrichtigungen
+options_submen_assistance					Unterstützung
+options_submen_nameplates					Lebensbalken
 options_submen_buffs						Buffs
-options_submen_primary_keys                 Primary Hotkeys
+options_submen_primary_keys                 Primäre Hotkeys
 options_submen_keybindings					Keybindings
-options_submen_keybindings_adv				Advanced Keybindings
-options_submen_cam							Camera/Scrolling
-options_submen_modopts						Mod Options
-options_submen_myrefs						My Referrals
-options_submen_cloud_config					Cloud Configurations
+options_submen_keybindings_adv				Erweiterte Keybindings
+options_submen_cam							Kamera/Scrolling
+options_submen_modopts						Mod Optionen
+options_submen_myrefs						Meine Referrals
+options_submen_cloud_config					Cloud Einstellungen
 
-options_header_volume_options				Volume Options
+options_header_volume_options				Lautstärke Optionen
 options_label_master_volume					Master Volume ^w
 options_master_volume_tip_header			Master Volume
 options_master_volume_tip					Set the level for all sounds.
-options_label_sound_effects					Sound Effects ^w
-options_sound_effects_tip_header			Sound Effects
+options_label_sound_effects					Sound Effekte ^w
+options_sound_effects_tip_header			Sound Effekte
 options_sound_effects_tip					Set the level for in-game sound effects.
 options_label_interface_volume				Interface Volume ^w
 options_interface_volume_tip_header			Interface Volume
 options_interface_volume_tip				Set the level for interface sounds, such as button clicks.
-options_label_music_volume					Music Volume ^w
-options_label_music_volume_tip_header		Music Volume
+options_label_music_volume					Musik Volume ^w
+options_label_music_volume_tip_header		Musik Volume
 options_label_music_volume_tip				Set the level for music.
-options_header_sound_options				Sound Options
+options_header_sound_options				Sound Optionen
 options_label_sound_output					Output System
 options_sound_output_tip					Select the sound output system to use.
 options_label_playback_driver				Playback Driver
 options_playback_driver_tip					Select your sound playback driver.
 options_label_recording_driver				Recording Driver
 options_recording_drive_tip					Select your sound input driver.
-options_label_sound_quality					Sound Quality
+options_label_sound_quality					Sound Qualität
 options_sound_quality_tip					Sound Quality can be sacrificed for lower memory usage.
-options_label_sound_channels				Sound Channels ^w
-options_sound_channels_tip_header			Sound Channels
+options_label_sound_channels				Sound Kanäle ^w
+options_sound_channels_tip_header			Sound Kanäle
 options_sound_channels_tip					Number of sounds that can be simultaneously played.
-options_checkbox_disable_all_sounds			Disable All Sounds
+options_checkbox_disable_all_sounds			Alle Sounds deaktivieren
 options_disable_all_sounds_tip				If enabled, the sound system is disabled. Disabling sounds can be beneficial to systems with low amounts of RAM. (Requires a restart)
 options_checkbox_unit_reactions				Unit Reactions
 options_unit_reactions_tip					When unit reactions are enabled, units respond when you click them or give them an action.
-options_checkbox_mute_announcer				Mute Announcer
+options_checkbox_mute_announcer				Announcer deaktivieren
 options_checkbox_mute_announcer_tip			If enabled, the announcers voice will not be heard.
 options_unit_voice_reaction					Unit Voice Reaction Delay
 options_unit_voice_reaction_tip				How much of a delay should occur before playing a unit voice reaction again.
-options_unit_voice_reaction_delay			Delay (ms)
+options_unit_voice_reaction_delay			Verzögerung (ms)
 options_checkbox_sound_mute					Mute Sounds
 options_checkbox_sound_mute_tip				If enabled, all sounds are muted.
-options_checkbox_sound_muteMusic			Mute Music
+options_checkbox_sound_muteMusic			Musik deaktivieren
 options_checkbox_sound_muteMusic_tip		If enabled, music will be muted, but other sounds will still be heard.
-options_checkbox_sound_mutePings 			Mute Ping Announcer
+options_checkbox_sound_mutePings 			Ping Announcer deaktivieren
 options_checkbox_sound_mutePings_tip 		If enabled, announcments caused by pings will not be played but the chat text and map effect will still be shown.
 options_checkbox_banjo_sound				Banjo Quit Sound
 options_checkbox_banjo_sound_tip			If enabled, the throwback Banjo Sound will play upon quitting the HoN client.
-options_checkbox_hero_holdaftermove			Disable Auto Aggro
+options_checkbox_hero_holdaftermove			Auto Aggro deaktivieren
 options_checkbox_hero_holdaftermove_tip		If enabled, the issued hero will Hold Position after all commands are completed, and will not automatically aggro onto nearby enemy units.
-options_oldmaininterface					New Main Interface
+options_oldmaininterface					Neues Hauptinterface
 options_oldmaininterface_tip				If enabled, uses the new main interface. Changing this option requires a client restart & may cause gamebreaking bugs if you do not restart.\n\nOld interfaces may create new bugs & remove certain features, and are not officially supported. Bug reports for this will be rejected.
-options_useoldshop							New Shop Interface
+options_useoldshop							Neues Shopinterface
 options_useoldshop_tip						If enabled, uses the new shop interface. Changing this option requires a client restart & may cause gamebreaking bugs if you do not restart.\n\nOld interfaces may create new bugs & remove certain features, and are not officially supported. Bug reports for this will be rejected.
 
 options_checkbox_no_switch_to_hidden_hero	Don't Switch to Hidden Hero
 options_checkbox_no_switch_to_hidden_hero_tip	If enabled and you have control of more than 1 hero unit, pressing the "Select Next Hero" hotkey won't switch to a hero that does not visually appear on the screen.
 
-options_header_voice_chat_options			Voice Chat Options
-options_label_test_mic_level				Test Mic Level
+options_header_voice_chat_options			Sprachchat Einstellungen
+options_label_test_mic_level				Teste Mik Level
 options_test_mic_level_tip					Tests microphone input level.
-options_button_begin_test					Begin Test
-options_button_stop_test					Stop Test
+options_button_begin_test					Test starten
+options_button_stop_test					Test stoppen
 options_label_voice_chat_volume				Voice Chat/Shoutcaster Volume ^w
 options_voice_chat_volume_tip_header		Voice Chat Volume/Shoutcaster
 options_voice_chat_volume_tip				Adjusts the volume of incoming Voice Chat from other players and the volume of Shoutcaster in replaying.
-options_label_microphone_volume				Microphone Volume ^w
-options_mic_volume_tip_header				Microphone Volume
+options_label_microphone_volume				Mikrofon Lautstärke ^w
+options_mic_volume_tip_header				Mikrofon Lautstärke
 options_mic_volume_tip						Adjusts your microphone's input volume. The higher it is, the louder you will sound to other players.
 options_label_microphone_gain				Microphone Gain: ^w
 options_mic_gain_tip_header					Microphone Gain
@@ -788,18 +788,18 @@ options_mic_gain_tip						Adjusts the volume of the input recorded from your mic
 options_label_auto_sound_dampen				Auto Sound Dampen ^w
 options_auto_dampen_tip_header				Auto Sound Dampen
 options_auto_dampen_tip						When you are using VOIP you can automatically reduce the level of other game sounds. Select your level of dampening by dragging the slider.
-options_checkbox_mic_boost					Mic Boost
+options_checkbox_mic_boost					Mik Boost
 options_mic_boost_tip						Boosts microphone volume at the cost of sound quality.
-options_checkbox_disable_voice_chat			Disable Voice Chat
+options_checkbox_disable_voice_chat			Sprachchat deaktivieren
 options_disable_voice_chat_tip				Turn voice chat off. You will not hear chat from other players.
 options_checkbox_push_to_talk				Push To Talk
 options_push_to_talk_enable_tip				When Push To Talk is enabled, your mic will be turned on as long as the hotkey is depressed. If you do not use Push To Talk, your mic will be turned on automatically when you speak.
 
 options_header_voice_chat_talk_settings		Voice Chat Talk Settings
-options_label_push_to_talk_keybind			Push To Talk Button
+options_label_push_to_talk_keybind			Push To Talk Knopf
 options_push_to_talk_tip					Holding down this key will turn on your mic if you have Voice Chat enabled.
-options_label_lane_talk_keybind				Push To Lane Talk Button
-options_label_mentor_talk_keybind			Push To Mentor Talk Button
+options_label_lane_talk_keybind				Push To Lane Talk Knopf
+options_label_mentor_talk_keybind			Push To Mentor Talk Knopf
 options_push_to_mentor_talk_tip				Holding down this key will turn on your mic if you have Voice Chat enabled, however, it will only talk to your pupil.
 options_push_to_lane_talk_tip				Holding down this key will turn on your mic if you have Voice Chat enabled, however, it will only talk to nearby allies, not everyone on your team.
 options_label_mic_off_time					Mic Off Time
@@ -807,17 +807,17 @@ options_mic_off_time_tip					Your mic will turn off after this amount of time wi
 options_label_mic_on_sensitivity			Mic On Sensitivity
 options_mic_on_sensitivity_tip				Set the voice strength at which you want your mic to automatically turn on. The red arrow indicates the peak level of a mic level test. It is suggested that your sensitivity level is slightly lower than your peak mic level.
 
-options_header_input_options				Input Options
-options_label_scroll_speed					Scroll Speed: ^w
-options_camera_scroll_speed_tip_header		Camera Scroll Speed
+options_header_input_options				Eingabeoptionen
+options_label_scroll_speed					Scroll Geschwindigkeit: ^w
+options_camera_scroll_speed_tip_header		Kamera Scroll Geschwindigkeit
 options_camera_scroll_speed_tip				Rate in game units per second at which the camera will move.
 options_checkbox_screen_edge_scroll			Screen Edge Scroll
 options_screen_edge_scroll_tip				If enabled, the camera will move when the mouse cursor is placed at the edge of the screen.
 
-options_checkbox_camera_lock				Lock Camera
+options_checkbox_camera_lock				Kamera sperren
 options_checkbox_view_operation				Track Control
 options_checkbox_watch_bullet				Bullet Comments
-options_screen_camera_lock_tip				If enabled, the camera will move with the hero in-game.
+options_screen_camera_lock_tip				Wenn aktiviert, bewegt sich die Kamera zusammen mit dem Helden im Spiel.
 
 options_checkbox_autoselect_summonings		Auto Select Summonings
 options_autoselect_summonings_tip			If enabled, new summoned unit or illusions will be automatically added to the current selection group.
@@ -832,14 +832,14 @@ options_constrain_cursor_tip				If enabled, the mouse cursor will be restricted 
 options_checkbox_display_xp_rewards			Display XP Reward
 options_display_xp_rewards_tip				If enabled, the game will show when your hero gains experience in-game by drawing purple numbers at the source of the reward.
 
-options_header_control_options				Control Options
-options_yellow_label_action					Action
-options_yellow_label_primary				Primary
-options_yellow_label_secondary				Secondary
+options_header_control_options				Steuerungsoptionen
+options_yellow_label_action					Aktion
+options_yellow_label_primary				Primär
+options_yellow_label_secondary				Sekundär
 
 options_bind_instructions_button			To choose a new bind ^ypress^* a key or mouse button.
 options_bind_instructions_impulse			To choose a new bind ^ypress^* a key combination.
-options_bind_button_default					Default
+options_bind_button_default					Standard
 options_bind_button_clear					Clear Bind
 options_bind_header							Choose a New Bind
 
@@ -1018,8 +1018,8 @@ options_label_camera_down_keybind			Camera Down
 
 options_header_specui						Spectator Options
 options_header_random_stuff					Muting Options
-options_label_mute_sound_keybind			Mute Sound
-options_label_mute_music_keybind			Mute Music
+options_label_mute_sound_keybind			Sound deaktivieren
+options_label_mute_music_keybind			Musik deaktivieren
 options_header_selection					Group Selection Options
 options_header_shopkeys						Shop Hotkeys
 
@@ -1333,7 +1333,7 @@ options_search_not_found 							No results found
 options_search_too_short 							Enter a longer search term
 options_search_tip 									Click here to jump to the search category, which will allow you to search for the option you want to change.
 
-options_trouble_repair_info							If you are experiencing crashing, missing textures, or entity snapshot errors, these may be addressed by performing a Repair Install. This will check your installation and update any files it finds that are out of date or damaged.
+options_trouble_repair_info							If you are experiencing crashing, missing textures, or entity snapshot errors, these may be addressed by performing a Installation reparieren. This will check your installation and update any files it finds that are out of date or damaged.
 options_trouble_faq_intro							The frequently asked questions below are displayed to help with the most common issues. For a more extensive FAQ, or to ^ycontact customer support^* directly, please visit ^y{value}^*.
 options_trouble_faq1_q								How do I change my password?
 options_trouble_faq1_a								Visit ^y{value}^* to update your password on the left.
@@ -1343,7 +1343,7 @@ options_trouble_faq3_q								My graphics are all messed up
 options_trouble_faq3_a								Disable any mods you have and restart your client
 options_trouble_faq3_a2								Restart your computer
 options_trouble_faq3_a3								Update your video card drivers
-options_trouble_faq3_a4								Perform a Repair Install
+options_trouble_faq3_a4								Perform a Installation reparieren
 options_trouble_faq4_q								The match I was in just crashed
 options_trouble_faq4_a								Restart Heroes of Newerth and attempt to reconnect
 options_trouble_faq4_a2								Manually try reconnect by opening the console (ctrl+f8), typing reconnect, then pressing enter. Close the console to see if you are able to reconnect.
@@ -1354,7 +1354,7 @@ options_trouble_faq5_a2								Allow outgoing traffic to ports TCP:80 (login/upd
 options_trouble_faq6_q								I'm crashing a lot
 options_trouble_faq6_a								Make sure all of your drivers are updated to their latest version
 options_trouble_faq6_a2								Lower your graphics and/or sound settings
-options_trouble_faq6_a3								Do a Repair Install and delete any mods you may have installed in the past
+options_trouble_faq6_a3								Do a Installation reparieren and delete any mods you may have installed in the past
 options_trouble_faq7_q								I don't have any sound
 options_trouble_faq7_a								Update Audio Drivers
 
