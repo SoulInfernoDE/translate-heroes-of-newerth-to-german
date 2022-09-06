@@ -5,7 +5,7 @@
     mmversion="*"
     name="GermanTranslation"
     version="0.2a"
-	date="06/09/2022"
+    date="06/09/2022"
     description="Let's play HoN in real german language!"
     author="SoulInfernoDE"
     weblink="https://github.com/SoulInfernoDE/translate-heroes-of-newerth-to-german"   
