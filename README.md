@@ -29,4 +29,12 @@ If you are ready with your changed files do a commit and a push. Then we merge t
 updated 'Deutsch.honmod' file which can be updated through the Mod Manager.
 
 You can also edit the files directly on github and create a commit/pull request. Do NOT remove any spaces between the variable/command fields
-at the left side and the translated text fields
+at the left side and the translated text fields.
+
+On Github:
+- Goto the game/stringtable folder
+- Click any file that ends with _de.str
+- Press the edit button (Stift/pencil)
+- Translate the english entrys and save/commit/pull/merge
+- If its not possible to save then do a FORK first which copies everything to your own github account
+- then edit the files, save and create a commit/pull request to my branch
