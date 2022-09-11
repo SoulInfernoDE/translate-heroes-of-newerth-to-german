@@ -25,7 +25,8 @@ git clone https://github.com/SoulInfernoDE/translate-heroes-of-newerth-to-german
 
 - Now change the translation files (Edit them with Notepad++ for example or XED or your favourite text editor!)
 
-If you are ready with your changed files do a commit and a push. Then we merge the translation and i will also create a 'Deutsch.honmod' file.
+If you are ready with your changed files do a commit and a push. Then we merge the translation and i will also create a
+updated 'Deutsch.honmod' file which can be updated through the Mod Manager.
 
 You can also edit the files directly on github and create a commit/pull request. Do NOT remove any spaces between the variable/command fields
 at the left side and the translated text fields
